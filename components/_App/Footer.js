@@ -5,7 +5,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
     <>
-      <footer className="pt-5">
+      <footer className="pt-5" style={{ backgroundColor: "black" }}>
         <div className="container">
           <div className="row">
             <div className="col-sm-6 col-lg-3">
@@ -33,8 +33,8 @@ const Footer = () => {
                         className="icofont-ui-message"
                         style={{ fontSize: "25px" }}
                       ></i>
-                      <a href="mailto:admin@mypremierpains.com">
-                        admin@mypremierpain.com
+                      <a href="mailto:admin@dallaspremierpains.com">
+                        admin@dallaspremierpains.com
                       </a>
                     </li>
 
@@ -271,13 +271,13 @@ const Footer = () => {
         </div>
       </footer>
 
-      <div className="copyright-area">
+      <div className="copyright-area" style={{ backgroundColor: "#090D16" }}>
         <div className="container">
           <div className="copyright-item">
             <p>
-              Copyright &copy; {currentYear} Design & Developed by{" "}
-              <a href="https://dallaspremierpain.com" target="_blank">
-                Dallas Premier Pain
+              Copyright &copy; 2022 Design & Developed by{" "}
+              <a href="https://www.mypremierpain.com/" target="_blank">
+                Premier Pain Centers
               </a>
             </p>
           </div>

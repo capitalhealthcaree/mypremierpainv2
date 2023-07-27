@@ -21,7 +21,7 @@ const BlogSidebar = () => {
   const [list, setList] = useState([]);
 
   async function fetchData() {
-    const res = await api.get("/blog/getLastFive");
+    const res = await api.get("/blogs/getLastFive");
     if (res.status === 200) {
       if (res && res.data && res.data.data) {
         setList(res.data.data);

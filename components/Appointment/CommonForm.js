@@ -6,7 +6,8 @@ import api from "../../utils/api";
 
 // Form initial state
 const INITIAL_STATE = {
-  name: "",
+  firstName: "",
+  lastName: "",
   email: "",
   phone: "",
   patientType: "",
@@ -25,6 +26,7 @@ const alertContent = () => {
 
 const CommonForm = ({ isFromHome }) => {
   const [formData, setFormData] = useState(INITIAL_STATE);
+  const [loader, setLoader] = useState(false);
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -33,9 +35,17 @@ const CommonForm = ({ isFromHome }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const { name, email, phone, patientType, message } = formData;
+      const { firstName, lastName, email, phone, patientType, message } =
+        formData;
       // Validate required fields
-      if (!name || !email || !phone || !patientType || !message) {
+      if (
+        !firstName ||
+        !lastName ||
+        !email ||
+        !phone ||
+        !patientType ||
+        !message
+      ) {
         MySwal.fire({
           title: "Error",
           text: "Please fill all required(*) fields.",
@@ -60,9 +70,19 @@ const CommonForm = ({ isFromHome }) => {
         });
         return;
       }
-      const payload = { name, email, phone, patientType, message };
+      // firstName, lastName, phone, email, patientType, message
+      const payload = {
+        firstName,
+        lastName,
+        email,
+        phone,
+        patientType,
+        message,
+      };
+      setLoader(true);
       const response = await api.post("appointment/create", payload);
       if (response.status === 200) {
+        setLoader(false);
         setFormData(INITIAL_STATE);
         alertContent();
       }
@@ -79,14 +99,30 @@ const CommonForm = ({ isFromHome }) => {
               <div className="form-group">
                 <i className="icofont-business-man-alt-1"></i>
                 <label>
-                  Name<small className="text-danger">*</small>
+                  First Name<small className="text-danger">*</small>
                 </label>
                 <input
                   type="text"
                   className="form-control"
-                  placeholder="Enter Your Name"
-                  name="name"
-                  value={formData.name}
+                  placeholder="Enter Your First Name"
+                  name="firstName"
+                  value={formData.firstName}
+                  onChange={handleChange}
+                />
+              </div>
+            </div>
+            <div className={isFromHome ? "col-lg-6" : "col-lg-12"}>
+              <div className="form-group">
+                <i className="icofont-business-man-alt-1"></i>
+                <label>
+                  Last Name<small className="text-danger">*</small>
+                </label>
+                <input
+                  type="text"
+                  className="form-control"
+                  placeholder="Enter Your Last Name"
+                  name="lastName"
+                  value={formData.lastName}
                   onChange={handleChange}
                 />
               </div>
@@ -143,7 +179,7 @@ const CommonForm = ({ isFromHome }) => {
                 </select>
               </div>
             </div>
-            <div className="col-lg-12">
+            <div className={isFromHome ? "col-lg-6" : "col-lg-12"}>
               <div className="form-group">
                 <i className="icofont-ui-messaging"></i>
                 <label>
@@ -161,7 +197,7 @@ const CommonForm = ({ isFromHome }) => {
           </div>
 
           <div className="text-center">
-            <button type="submit" className="btn appointment-btn">
+            <button type="submit" className="btn appointment-btn"  disabled={!loader ? false : true}>
               Submit
             </button>
           </div>

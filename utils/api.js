@@ -1,5 +1,5 @@
 import axios from "axios";
-const BASE_URL = "https://dallas-api.vercel.app/api";
+const BASE_URL = "https://ppbackend-eight.vercel.app/";
 const LOCAL_URL = "http://localhost:5000";
 const config = {
   headers: {

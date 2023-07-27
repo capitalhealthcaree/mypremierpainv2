@@ -42,8 +42,6 @@ const About = () => {
           <div className="row align-items-center">
             <div className="col-12">
               <div className="about-item about-right">
-                {/* <img src="/images/about-shape1.webp" alt="About" /> */}
-                <h2>About Us</h2>
                 <h4>Our Mission</h4>
                 <p>
                   Our mission is to provide patients suffering from chronic pain

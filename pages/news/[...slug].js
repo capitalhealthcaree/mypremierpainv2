@@ -67,7 +67,7 @@ const NewsDetails = ({ items }) => {
 export default NewsDetails;
 
 export const getServerSideProps = async ({ query: { slug } }) => {
-  const singleBlog = await api.get("news/" + slug[0]);
+  const singleBlog = await api.get("news/slug/" + slug + "/");
   const data = await singleBlog.data.data;
   return {
     props: {

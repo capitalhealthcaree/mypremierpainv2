@@ -1,12 +1,41 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Head from "next/head";
 import Link from "next/link";
 import api from "../../utils/api";
 import Navbar from "../../components/_App/Navbar";
 import PageBanner from "../../components/Common/PageBanner";
 import Footer from "../../components/_App/Footer";
+import styles from "../../styles/Home.module.css";
 
-const Blog = ({ item }) => {
+const Blog = ({ item, totalPage }) => {
+  const [items, setItems] = useState([]);
+  const [currentPage, setCurrentPage] = useState();
+
+  const loadMoreData = async (page) => {
+    const posts = await api.get(`blogs/getAll/pagination?page=${page}&limit=9`);
+    const data = await posts.data.data;
+    const current = await posts.data.currentPage;
+    setItems(data);
+    setCurrentPage(current);
+  };
+  useEffect(() => {
+    setItems(item);
+    setCurrentPage(1);
+  }, []);
+
+  const listItems = [];
+  for (let i = 1; i <= totalPage; i++) {
+    console.log("i=", i, "currentPage=", currentPage);
+    listItems.push(
+      <a
+        key={i}
+        onClick={() => loadMoreData(i)}
+        className={`mb-2 ${currentPage === i ? styles.active : ""}`}
+      >
+        {i}
+      </a>
+    );
+  }
   return (
     <>
       <Head>
@@ -31,10 +60,10 @@ const Blog = ({ item }) => {
       />
 
       {/* BlogGrid */}
-      <div className="blog-area-two pt-100 pb-70">
+      <div className="blog-area-two pt-100 pb-4">
         <div className="container">
           <div className="row justify-content-center">
-            {item.map((item, i) => {
+            {items.map((item, i) => {
               return (
                 <div className="col-md-6 col-lg-4" key={i}>
                   <div className="blog-item">
@@ -70,6 +99,13 @@ const Blog = ({ item }) => {
               );
             })}
           </div>
+          <div className={styles.center}>
+            <div
+              className={`${styles.pagination} ${styles.pagination1} ${styles.pagination3} ${styles.pagination4} ${styles.pagination6}`}
+            >
+              {listItems}
+            </div>
+          </div>
         </div>
       </div>
 
@@ -81,11 +117,14 @@ const Blog = ({ item }) => {
 export default Blog;
 
 export const getServerSideProps = async () => {
-  const blogs = await api.get("/blog/getAll");
-  const data = await blogs.data.data;
+  const posts = await api.get("blogs/getAll/pagination?page=1&limit=9");
+  const data = await posts.data.data;
+  const totalPage = await posts.data.totalPages;
+
   return {
     props: {
       item: data,
+      totalPage,
     },
   };
 };

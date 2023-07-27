@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../components/_App/Navbar";
+import NavbarAppointment from "../components/_App/NavbarAppointment";
 import MainBanner from "../components/Home/MainBanner";
 import About from "../components/Home/About";
 import OurServices from "../components/Home/OurServices";
@@ -15,12 +16,13 @@ const Index = () => {
   return (
     <>
       <Navbar />
+      <NavbarAppointment />
       <MainBanner />
       <About />
       <OurServices />
       <Treatments />
       <AppointmentForm />
-      {/* <OurMission /> */}
+      <OurMission />
       <OurDoctors />
       <FeedbackSlider />
       <LatestBlogPost />

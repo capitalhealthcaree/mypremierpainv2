@@ -6,7 +6,7 @@ const LatestBlogPost = () => {
   const [list, setList] = useState([]);
 
   async function fetchData() {
-    const res = await api.get("/blog/getLastFive");
+    const res = await api.get("/blogs/getLastThree");
     if (res.status === 200) {
       if (res && res.data && res.data.data) {
         setList(res.data.data);
@@ -59,6 +59,21 @@ const LatestBlogPost = () => {
                 </div>
               );
             })}
+          </div>
+          <div
+            className="common-btn"
+            style={{ display: "flex", justifyContent: "center" }}
+          >
+            <Link
+              href="/blog"
+              style={{
+                backgroundColor: "#0046c0",
+                color: "white",
+                padding: "10px 11px",
+              }}
+            >
+              View All Blogs
+            </Link>
           </div>
         </div>
       </div>

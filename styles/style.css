@@ -856,7 +856,7 @@ button:focus {
   max-width: 745px;
   margin-left: 0;
 }
-.video-item .video-content:before {
+/* .video-item .video-content:before {
   position: absolute;
   content: "";
   top: 9px;
@@ -864,7 +864,7 @@ button:focus {
   width: 5px;
   height: 130px;
   background-color: #ffffff;
-}
+} */
 .video-item .video-content h3 {
   color: #ffffff;
   font-weight: 600;

@@ -40,7 +40,7 @@ const Navbar = () => {
       <div id="navbar" className="navbar-area sticky-top">
         <div className="main-nav">
           <div className="container">
-            <nav className="navbar navbar-expand-md navbar-light">
+            <nav className="navbar navbar-expand-lg navbar-light">
               <Link href="/" className="navbar-brand">
                 <img src="/images/logo.png" alt="logo" />
               </Link>
@@ -595,6 +595,26 @@ const Navbar = () => {
                           News
                         </Link>
                       </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/educational-videos/"
+                          className={`nav-link ${
+                            currentPath == "/educational-videos/" && "active"
+                          }`}
+                        >
+                          Educational Videos
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/video-testimonials/"
+                          className={`nav-link ${
+                            currentPath == "/testimonials/" && "active"
+                          }`}
+                        >
+                          Video Testimonials
+                        </Link>
+                      </li>
                       <li>
                         <Link
                           href="/interventional-pain-management"
@@ -621,13 +641,35 @@ const Navbar = () => {
                 </ul>
               </div>
 
-              <div className="common-btn">
-                <Link
-                  href="/appointment"
-                  style={{ backgroundColor: "#0046c0", color: "white" }}
-                >
-                  Schedule Appointment
-                </Link>
+              <div className="nav-srh">
+                <div className="main-nav">
+                  <div className="container">
+                    <nav className="navbar">
+                      <div className="common-btn" style={{ display: "flex" }}>
+                        <Link
+                          href="/appointment"
+                          style={{
+                            backgroundColor: "#0046c0",
+                            color: "white",
+                            padding: "10px 11px",
+                          }}
+                        >
+                          Appointment
+                        </Link>{" "}
+                        <Link
+                          href="tel:+14695624188"
+                          style={{
+                            backgroundColor: "#0046c0",
+                            color: "white",
+                            padding: "10px 12px",
+                          }}
+                        >
+                          469-562-4188
+                        </Link>
+                      </div>
+                    </nav>
+                  </div>
+                </div>
               </div>
             </nav>
           </div>
