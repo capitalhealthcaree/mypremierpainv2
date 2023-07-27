@@ -2,8 +2,7 @@ import React from "react";
 import Head from "next/head";
 import PageBanner from "../../components/Common/PageBanner";
 import Navbar from "../../components/_App/Navbar";
-
-import PronoXDetails from "../../components/Treatments/PronoXDetails";
+import PronoXDetails from "../../components/Treatments/PeripheralNerveStimulationDetails";
 import AppointmentFormSideBar from "../../components/Appointment/AppointmentFormSideBar";
 import TreatmentsRightSide from "../../components/Common/TreatmentsRightSide";
 import Footer from "../../components/_App/Footer";
