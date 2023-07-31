@@ -14,23 +14,58 @@ const nextConfig = {
   async redirects() {
     return [
       {
+        source: "/conditions-we-treat/educational-videos/",
+        destination: "/educational-videos/",
+        permanent: true,
+      },
+      {
+        source: "/meet-our-team/conditions-we-treat/sports-injury/",
+        destination: "/conditions-we-treat/sports-injury/",
+        permanent: true,
+      },
+      {
+        source: "/meet-our-team/conditions-we-treat/headaches/",
+        destination: "/conditions-we-treat/headaches/",
+        permanent: true,
+      },
+      {
+        source: "/meet-our-team/conditions-we-treat/neck-pain/",
+        destination: "/conditions-we-treat/neck-pain/",
+        permanent: true,
+      },
+      {
+        source: "/meet-our-team/conditions-we-treat/joint-pain/",
+        destination: "/conditions-we-treat/joint-pain/",
+        permanent: true,
+      },
+      {
+        source: "/meet-our-team/educational-videos/",
+        destination: "/educational-videos/",
+        permanent: true,
+      },
+      {
         source: "/treatments/meet-our-team/",
-        destination: "/treatments/",
+        destination: "/meet-our-team/",
+        permanent: true,
+      },
+      {
+        source: "/meet-our-team/reviews/",
+        destination: "/reviews/",
         permanent: true,
       },
       {
         source: "/treatments/conditions-we-treat/car-accident-injury/",
-        destination: "/treatments/",
+        destination: "/conditions-we-treat/car-accident-injury/",
         permanent: true,
       },
       {
         source: "/treatments/contact-locations/waxahachie/",
-        destination: "/treatments/",
+        destination: "/contact-locations/waxahachie/",
         permanent: true,
       },
       {
         source: "/treatments/contact-locations/corsicana/",
-        destination: "/treatments/",
+        destination: "/contact-locations/corsicana/",
         permanent: true,
       },
       {
@@ -40,146 +75,104 @@ const nextConfig = {
       },
       {
         source: "/treatments/reviews/",
-        destination: "/treatments/",
+        destination: "/reviews/",
         permanent: true,
       },
       {
         source: "/treatments/conditions-we-treat/",
-        destination: "/treatments/",
+        destination: "/conditions-we-treat/",
         permanent: true,
       },
       {
         source: "/treatments/conditions-we-treat/joint-pain/",
-        destination: "/treatments/",
-        permanent: true,
-      },
-      {
-        source: "/treatments/contact-locations/lancaster/",
-        destination: "/treatments/",
+        destination: "/conditions-we-treat/joint-pain/",
         permanent: true,
       },
       {
         source: "/treatments/educational-videos/",
-        destination: "/treatments/",
-        permanent: true,
-      },
-      {
-        source: "/treatments/contact-locations/hillsboro/",
-        destination: "/treatments/",
-        permanent: true,
-      },
-      {
-        source: "/treatments/conditions-we-treat/joint-pain/",
-        destination: "/treatments/",
+        destination: "/educational-videos/",
         permanent: true,
       },
       {
         source: "/treatments/contact-locations/lancaster/",
-        destination: "/treatments/",
-        permanent: true,
-      },
-      {
-        source: "/treatments/educational-videos/",
-        destination: "/treatments/",
+        destination: "/contact-locations/lancaster/",
         permanent: true,
       },
       {
         source: "/treatments/contact-locations/hillsboro/",
-        destination: "/treatments/",
+        destination: "/contact-locations/hillsboro/",
         permanent: true,
       },
       {
         source: "/treatments/about/",
-        destination: "/treatments/",
+        destination: "/about/",
         permanent: true,
       },
       {
         source: "/treatments/contact-locations/fort-worth/",
-        destination: "/treatments/",
+        destination: "/contact-locations/fort-worth/",
         permanent: true,
       },
       {
         source: "/treatments/video-testimonials/",
-        destination: "/treatments/",
+        destination: "/video-testimonials/",
         permanent: true,
       },
 
       {
         source: "/treatments/conditions-we-treat/back-pain/",
-        destination: "/treatments/",
+        destination: "/conditions-we-treat/back-pain/",
         permanent: true,
       },
 
       {
         source: "/treatments/contact-locations/richardson/",
-        destination: "/treatments/",
+        destination: "/contact-locations/richardson/",
         permanent: true,
       },
 
       {
         source: "/treatments/about/careers/",
-        destination: "/treatments/",
+        destination: "/about/",
         permanent: true,
       },
 
       {
         source: "/treatments/conditions-we-treat/sports-injury/",
-        destination: "/treatments/",
+        destination: "/conditions-we-treat/sports-injury/",
         permanent: true,
       },
 
       {
         source: "/treatments/contact-locations/farmers-branch/",
-        destination: "/treatments/",
+        destination: "/contact-locations/farmers-branch/",
         permanent: true,
       },
       {
         source: "/treatments/conditions-we-treat/knee-pain/",
-        destination: "/treatments/",
+        destination: "/conditions-we-treat/knee-pain/",
         permanent: true,
       },
 
       {
         source: "/treatments/conditions-we-treat/headaches/",
-        destination: "/treatments/",
+        destination: "/conditions-we-treat/headaches/",
         permanent: true,
       },
 
       {
         source: "/treatments/conditions-we-treat/neck-pain/",
-        destination: "/treatments/",
+        destination: "/conditions-we-treat/neck-pain/",
         permanent: true,
       },
       {
         source: "/treatments/contact-locations/north-richland-hills/",
-        destination: "/treatments/",
+        destination: "/contact-locations/north-richland-hills/",
         permanent: true,
       },
       {
         source: "/treatments/contact-locations/",
-        destination: "/treatments/",
-        permanent: true,
-      },
-
-      {
-        source: "/treatments/patient-forms/",
         destination: "/contact-locations/",
-        permanent: true,
-      },
-      {
-        source: "/treatments/patient-forms/",
-        destination: "/treatments/",
-        permanent: true,
-      },
-
-      {
-        source: "/treatments/patient-forms/",
-        destination: "/treatments/",
-        permanent: true,
-      },
-      {
-        source: "/treatments/patient-forms/",
-        destination: "/treatments/",
         permanent: true,
       },
 
@@ -191,56 +184,56 @@ const nextConfig = {
 
       {
         source: "/contact-locations/about/careers/",
-        destination: "/contact-locations/",
+        destination: "/about/",
         permanent: true,
       },
       {
         source: "/contact-locations/contact-locations/north-richland-hills/",
-        destination: "/contact-locations/",
+        destination: "/contact-locations/north-richland-hills/",
         permanent: true,
       },
       {
         source: "/contact-locations/contact-locations/richardson/",
-        destination: "/contact-locations/",
+        destination: "/contact-locations/richardson/",
         permanent: true,
       },
       {
         source: "/contact-locations/contact-locations/farmers-branch/",
-        destination: "/contact-locations/",
+        destination: "/contact-locations/farmers-branch/",
         permanent: true,
       },
       {
         source: "/contact-locations/contact-locations/waxahachie/",
-        destination: "/contact-locations/",
+        destination: "/contact-locations/waxahachie/",
         permanent: true,
       },
 
       {
         source: "/contact-locations/conditions-we-treat/sports-injury/",
-        destination: "/contact-locations/",
+        destination: "/conditions-we-treat/sports-injury/",
         permanent: true,
       },
 
       {
         source: "/contact-locations/contact-locations/hillsboro/",
-        destination: "/contact-locations/",
+        destination: "/contact-locations/hillsboro/",
         permanent: true,
       },
       {
         source: "/contact-locations/educational-videos/",
-        destination: "/contact-locations/",
+        destination: "/educational-videos/",
         permanent: true,
       },
 
       {
         source: "/contact-locations/conditions-we-treat/headaches/",
-        destination: "/contact-locations/",
+        destination: "/conditions-we-treat/headaches/",
         permanent: true,
       },
 
       {
         source: "/contact-locations/conditions-we-treat/knee-pain/",
-        destination: "/contact-locations/",
+        destination: "/conditions-we-treat/knee-pain/",
         permanent: true,
       },
 
@@ -252,37 +245,37 @@ const nextConfig = {
 
       {
         source: "/contact-locations/contact-locations/lancaster/",
-        destination: "/contact-locations/",
+        destination: "/contact-locations/lancaster/",
         permanent: true,
       },
 
       {
         source: "/contact-locations/contact-locations/fort-worth/",
-        destination: "/contact-locations/",
+        destination: "/contact-locations/fort-worth/",
         permanent: true,
       },
 
       {
         source: "/contact-locations/conditions-we-treat/",
-        destination: "/contact-locations/",
+        destination: "/conditions-we-treat/",
         permanent: true,
       },
 
       {
         source: "/contact-locations/conditions-we-treat/neck-pain/",
-        destination: "/contact-locations/",
+        destination: "/conditions-we-treat/neck-pain/",
         permanent: true,
       },
 
       {
         source: "/contact-locations/conditions-we-treat/back-pain/",
-        destination: "/contact-locations/",
+        destination: "/conditions-we-treat/back-pain/",
         permanent: true,
       },
 
       {
         source: "/contact-locations/reviews/",
-        destination: "/contact-locations/",
+        destination: "/reviews/",
         permanent: true,
       },
 
@@ -293,96 +286,138 @@ const nextConfig = {
       },
       {
         source: "/contact-locations/contact-locations/corsicana/",
-        destination: "/contact-locations/",
+        destination: "/contact-locations/corsicana/",
         permanent: true,
       },
       {
         source: "/contact-locations/video-testimonials/",
-        destination: "/contact-locations/",
+        destination: "/video-testimonials/",
         permanent: true,
       },
 
       {
         source: "/contact-locations/conditions-we-treat/car-accident-injury/",
-        destination: "/contact-locations/",
+        destination: "/conditions-we-treat/car-accident-injury/",
         permanent: true,
       },
 
       {
         source: "/contact-locations/about/",
-        destination: "/contact-locations/",
+        destination: "/about/",
         permanent: true,
       },
 
       {
         source: "/contact-locations/conditions-we-treat/joint-pain/",
-        destination: "/contact-locations/",
+        destination: "/conditions-we-treat/joint-pain/",
         permanent: true,
       },
       {
         source: "/contact-locations/meet-our-team/",
-        destination: "/contact-locations/",
+        destination: "/meet-our-team/",
         permanent: true,
       },
 
       {
         source: "/conditions-we-treat/contact-locations/corsicana/",
-        destination: "/conditions-we-treat/",
+        destination: "/contact-locations/corsicana/",
         permanent: true,
       },
 
       {
         source: "/conditions-we-treat/contact-locations/north-richland-hills/",
-        destination: "/conditions-we-treat/",
+        destination: "/contact-locations/north-richland-hills/",
         permanent: true,
       },
       {
         source: "/conditions-we-treat/contact-locations/farmers-branch/",
-        destination: "/conditions-we-treat/",
+        destination: "/contact-locations/farmers-branch/",
         permanent: true,
       },
       {
         source: "/conditions-we-treat/contact-locations/richardson/",
-        destination: "/conditions-we-treat/",
+        destination: "/contact-locations/richardson/",
         permanent: true,
       },
 
       {
         source: "/conditions-we-treat/contact-locations/hillsboro/",
-        destination: "/conditions-we-treat/",
+        destination: "/contact-locations/hillsboro/",
         permanent: true,
       },
-
+      {
+        source: "/conditions-we-treat/reviews/",
+        destination: "/reviews/",
+        permanent: true,
+      },
       {
         source: "/conditions-we-treat/contact-locations/waxahachie/",
-        destination: "/conditions-we-treat/",
+        destination: "/contact-locations/waxahachie/",
         permanent: true,
       },
 
       {
         source: "/conditions-we-treat/contact-locations/fort-worth/",
-        destination: "/conditions-we-treat/",
+        destination: "/contact-locations/fort-worth/",
         permanent: true,
       },
 
       {
         source: "/conditions-we-treat/contact-locations/",
-        destination: "/conditions-we-treat/",
+        destination: "/contact-locations/",
         permanent: true,
       },
 
       {
         source: "/conditions-we-treat/contact-locations/lancaster/",
-        destination: "/conditions-we-treat/",
+        destination: "/contact-locations/lancaster/",
         permanent: true,
       },
-
       {
         source: "/meet-our-team/contact-locations/corsicana/",
         destination: "/contact-locations/",
         permanent: true,
       },
-
+      {
+        source: "/meet-our-team/contact-locations/",
+        destination: "/contact-locations/",
+        permanent: true,
+      },
+      {
+        source: "/meet-our-team/contact-locations/farmers-branch/",
+        destination: "/contact-locations/",
+        permanent: true,
+      },
+      {
+        source: "/meet-our-team/contact-locations/lancaster/",
+        destination: "/contact-locations/",
+        permanent: true,
+      },
+      {
+        source: "/meet-our-team/contact-locations/hillsboro/",
+        destination: "/contact-locations/",
+        permanent: true,
+      },
+      {
+        source: "/meet-our-team/contact-locations/waxahachie/",
+        destination: "/contact-locations/",
+        permanent: true,
+      },
+      {
+        source: "/meet-our-team/contact-locations/richardson/",
+        destination: "/contact-locations/",
+        permanent: true,
+      },
+      {
+        source: "/meet-our-team/contact-locations/north-richland-hills/",
+        destination: "/contact-locations/",
+        permanent: true,
+      },
+      {
+        source: "/meet-our-team/contact-locations/fort-worth/",
+        destination: "/contact-locations/",
+        permanent: true,
+      },
       {
         source: "/news/contact-locations/hillsboro/",
         destination: "/news/",
@@ -419,17 +454,22 @@ const nextConfig = {
       },
       {
         source: "/meet-our-team/conditions-we-treat/knee-pain/",
-        destination: "/meet-our-team/",
+        destination: "/conditions-we-treat/knee-pain/",
         permanent: true,
       },
       {
         source: "/meet-our-team/conditions-we-treat/car-accident-injury/",
-        destination: "/meet-our-team/",
+        destination: "/conditions-we-treat/car-accident-injury/",
         permanent: true,
       },
       {
         source: "/meet-our-team/conditions-we-treat/back-pain/",
-        destination: "/meet-our-team/",
+        destination: "/conditions-we-treat/back-pain/",
+        permanent: true,
+      },
+      {
+        source: "/meet-our-team/conditions-we-treat/",
+        destination: "/conditions-we-treat/",
         permanent: true,
       },
       {
@@ -438,7 +478,32 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: "/meet-our-team/conditions-we-treat/knee-pain/",
+        source: "/meet-our-team/meet-our-team/",
+        destination: "/meet-our-team/",
+        permanent: true,
+      },
+      {
+        source: "/meet-our-team/about/",
+        destination: "/about/",
+        permanent: true,
+      },
+      {
+        source: "/meet-our-team/video-testimonials/",
+        destination: "/video-testimonials/",
+        permanent: true,
+      },
+      {
+        source: "/conditions-we-treat/video-testimonials/",
+        destination: "/video-testimonials/",
+        permanent: true,
+      },
+      {
+        source: "/conditions-we-treat/about/",
+        destination: "/about/",
+        permanent: true,
+      },
+      {
+        source: "/conditions-we-treat/meet-our-team/",
         destination: "/meet-our-team/",
         permanent: true,
       },
