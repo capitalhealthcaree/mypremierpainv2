@@ -63,15 +63,20 @@ const Navbar = () => {
               <div className={classOne} id="navbarSupportedContent">
                 <ul className="navbar-nav">
                   <li className="nav-item">
-                    <Link href="/" className="nav-link">
+                    <Link
+                      href="/"
+                      className={`nav-link ${currentPath === "/" && "active"}`}
+                    >
                       Home
                     </Link>
                   </li>
 
                   <li className="nav-item">
                     <Link
-                      href="/conditions-we-treat"
-                      className="nav-link dropdown-toggle"
+                      href="/conditions-we-treat/"
+                      className={`nav-link dropdown-toggle ${
+                        currentPath === "/conditions-we-treat/" && "active"
+                      }`}
                     >
                       Conditions We Treat
                     </Link>
@@ -79,10 +84,10 @@ const Navbar = () => {
                     <ul className="dropdown-menu">
                       <li className="nav-item">
                         <Link
-                          href="/conditions-we-treat/car-accident-injury"
+                          href="/conditions-we-treat/car-accident-injury/"
                           className={`nav-link ${
                             currentPath ===
-                              "/conditions-we-treat/car-accident-injury" &&
+                              "/conditions-we-treat/car-accident-injury/" &&
                             "active"
                           }`}
                         >
@@ -91,10 +96,10 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/conditions-we-treat/shoulder-pain"
+                          href="/conditions-we-treat/shoulder-pain/"
                           className={`nav-link ${
                             currentPath ===
-                              "/conditions-we-treat/shoulder-pain" && "active"
+                              "/conditions-we-treat/shoulder-pain/" && "active"
                           }`}
                         >
                           Shoulder Pain
@@ -103,10 +108,10 @@ const Navbar = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="/conditions-we-treat/sports-injury"
+                          href="/conditions-we-treat/sports-injury/"
                           className={`nav-link ${
                             currentPath ==
-                              "/conditions-we-treat/sports-injury" && "active"
+                              "/conditions-we-treat/sports-injury/" && "active"
                           }`}
                         >
                           Sports Injury
@@ -114,9 +119,9 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/conditions-we-treat/headaches"
+                          href="/conditions-we-treat/headaches/"
                           className={`nav-link ${
-                            currentPath == "/conditions-we-treat/headaches" &&
+                            currentPath == "/conditions-we-treat/headaches/" &&
                             "active"
                           }`}
                         >
@@ -125,9 +130,9 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/conditions-we-treat/back-pain"
+                          href="/conditions-we-treat/back-pain/"
                           className={`nav-link ${
-                            currentPath == "/conditions-we-treat/back-pain" &&
+                            currentPath == "/conditions-we-treat/back-pain/" &&
                             "active"
                           }`}
                         >
@@ -137,9 +142,9 @@ const Navbar = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="/conditions-we-treat/neck-pain"
+                          href="/conditions-we-treat/neck-pain/"
                           className={`nav-link ${
-                            currentPath == "/conditions-we-treat/neck-pain" &&
+                            currentPath == "/conditions-we-treat/neck-pain/" &&
                             "active"
                           }`}
                         >
@@ -148,9 +153,9 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/conditions-we-treat/knee-pain"
+                          href="/conditions-we-treat/knee-pain/"
                           className={`nav-link ${
-                            currentPath == "/conditions-we-treat/knee-pain" &&
+                            currentPath == "/conditions-we-treat/knee-pain/" &&
                             "active"
                           }`}
                         >
@@ -161,7 +166,7 @@ const Navbar = () => {
                         <Link
                           href="/conditions-we-treat/joint-pain/"
                           className={`nav-link ${
-                            currentPath == "/conditions-we-treat/joint-pain" &&
+                            currentPath == "/conditions-we-treat/joint-pain/" &&
                             "active"
                           }`}
                         >
@@ -172,7 +177,7 @@ const Navbar = () => {
                         <Link
                           href="/conditions-we-treat/leg-pain/"
                           className={`nav-link ${
-                            currentPath == "/conditions-we-treat/leg-pain" &&
+                            currentPath == "/conditions-we-treat/leg-pain/" &&
                             "active"
                           }`}
                         >
@@ -183,7 +188,7 @@ const Navbar = () => {
                         <Link
                           href="/conditions-we-treat/hip-pain/"
                           className={`nav-link ${
-                            currentPath == "/conditions-we-treat/hip-pain" &&
+                            currentPath == "/conditions-we-treat/hip-pain/" &&
                             "active"
                           }`}
                         >
@@ -195,8 +200,10 @@ const Navbar = () => {
                   </li>
                   <li className="nav-item">
                     <Link
-                      href="/treatments"
-                      className="nav-link dropdown-toggle"
+                      href="/treatments/"
+                      className={`nav-link dropdown-toggle ${
+                        currentPath == "/treatments/" && "active"
+                      }`}
                     >
                       Treatments
                     </Link>
@@ -385,8 +392,10 @@ const Navbar = () => {
                   </li>
                   <li className="nav-item">
                     <Link
-                      href="/meet-our-team"
-                      className="nav-link dropdown-toggle"
+                      href="/meet-our-team/"
+                      className={`nav-link dropdown-toggle ${
+                        currentPath == "/meet-our-team/" && "active"
+                      }`}
                     >
                       Meet Our Team
                     </Link>
@@ -394,9 +403,9 @@ const Navbar = () => {
                     <ul className="dropdown-menu">
                       <li className="nav-item">
                         <Link
-                          href="/meet-our-team/rao-k-ali"
+                          href="/meet-our-team/rao-k-ali/"
                           className={`nav-link ${
-                            currentPath == "/meet-our-team/rao-k-ali" &&
+                            currentPath == "/meet-our-team/rao-k-ali/" &&
                             "active"
                           }`}
                         >
@@ -406,25 +415,14 @@ const Navbar = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-"
+                          href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
                           className={`nav-link ${
                             currentPath ==
-                              "/meet-our-team/dr-muhammad-zulqarnain-dr-z-" &&
+                              "/meet-our-team/dr-muhammad-zulqarnain-dr-z-/" &&
                             "active"
                           }`}
                         >
                           DR. MUHAMMAD ZULQARNAIN (DR. Z)
-                        </Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link
-                          href="/meet-our-team/ranjit-sandhu"
-                          className={`nav-link ${
-                            currentPath == "/meet-our-team/ranjit-sandhu" &&
-                            "active"
-                          }`}
-                        >
-                          DR. RANJIT SANDHU
                         </Link>
                       </li>
                     </ul>
@@ -432,9 +430,10 @@ const Navbar = () => {
 
                   <li className="nav-item">
                     <Link
-                      href="/contact-and-location"
-                      // onClick={(e) => e.preventDefault()}
-                      className="nav-link dropdown-toggle"
+                      href="/contact-locations/"
+                      className={`nav-link dropdown-toggle ${
+                        currentPath == "/contact-locations/" && "active"
+                      }`}
                     >
                       Contact & Locations
                     </Link>
@@ -442,9 +441,9 @@ const Navbar = () => {
                     <ul className="dropdown-menu">
                       <li className="nav-item">
                         <Link
-                          href="/contact-locations/richardson"
+                          href="/contact-locations/richardson/"
                           className={`nav-link ${
-                            currentPath == "/contact-locations/richardson" &&
+                            currentPath == "/contact-locations/richardson/" &&
                             "active"
                           }`}
                         >
@@ -454,10 +453,10 @@ const Navbar = () => {
 
                       <li className="nav-item">
                         <Link
-                          href="/contact-locations/north-richland-hills"
+                          href="/contact-locations/north-richland-hills/"
                           className={`nav-link ${
                             currentPath ==
-                              "/contact-locations/north-richland-hills" &&
+                              "/contact-locations/north-richland-hills/" &&
                             "active"
                           }`}
                         >
@@ -466,9 +465,9 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/contact-locations/waxahachie"
+                          href="/contact-locations/waxahachie/"
                           className={`nav-link ${
-                            currentPath == "/contact-locations/waxahachie" &&
+                            currentPath == "/contact-locations/waxahachie/" &&
                             "active"
                           }`}
                         >
@@ -477,9 +476,9 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/contact-locations/fort-worth"
+                          href="/contact-locations/fort-worth/"
                           className={`nav-link ${
-                            currentPath == "/contact-locations/fort-worth" &&
+                            currentPath == "/contact-locations/fort-worth/" &&
                             "active"
                           }`}
                         >
@@ -488,9 +487,9 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/contact-locations/hillsboro"
+                          href="/contact-locations/hillsboro/"
                           className={`nav-link ${
-                            currentPath == "/contact-locations/hillsboro" &&
+                            currentPath == "/contact-locations/hillsboro/" &&
                             "active"
                           }`}
                         >
@@ -499,9 +498,9 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/contact-locations/lancaster"
+                          href="/contact-locations/lancaster/"
                           className={`nav-link ${
-                            currentPath == "/contact-locationslancaster" &&
+                            currentPath == "/contact-locations/lancaster/" &&
                             "active"
                           }`}
                         >
@@ -510,10 +509,10 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/contact-locations/farmers-branch"
+                          href="/contact-locations/farmers-branch/"
                           className={`nav-link ${
                             currentPath ==
-                              "/contact-locations/farmers-branch" && "active"
+                              "/contact-locations/farmers-branch/" && "active"
                           }`}
                         >
                           Farmers Branch
@@ -521,9 +520,9 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/contact-locations/corsicana"
+                          href="/contact-locations/corsicana/"
                           className={`nav-link ${
-                            currentPath == "/contact-locations/corsicana" &&
+                            currentPath == "/contact-locations/corsicana/" &&
                             "active"
                           }`}
                         >
@@ -532,9 +531,9 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/contact-locations/decatur"
+                          href="/contact-locations/decatur/"
                           className={`nav-link ${
-                            currentPath == "/contact-locations/decatur" &&
+                            currentPath == "/contact-locations/decatur/" &&
                             "active"
                           }`}
                         >
@@ -543,9 +542,9 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/contact-locations/cleburne"
+                          href="/contact-locations/cleburne/"
                           className={`nav-link ${
-                            currentPath == "/contact-locations/cleburne" &&
+                            currentPath == "/contact-locations/cleburne/" &&
                             "active"
                           }`}
                         >
@@ -567,9 +566,9 @@ const Navbar = () => {
                     <ul className="dropdown-menu">
                       <li className="nav-item">
                         <Link
-                          href="/blog"
+                          href="/blog/"
                           className={`nav-link ${
-                            currentPath == "/blog" && "active"
+                            currentPath == "/blog/" && "active"
                           }`}
                         >
                           Blog
@@ -609,7 +608,7 @@ const Navbar = () => {
                         <Link
                           href="/video-testimonials/"
                           className={`nav-link ${
-                            currentPath == "/testimonials/" && "active"
+                            currentPath == "/video-testimonials/" && "active"
                           }`}
                         >
                           Video Testimonials
@@ -617,9 +616,9 @@ const Navbar = () => {
                       </li>
                       <li>
                         <Link
-                          href="/interventional-pain-management"
+                          href="/interventional-pain-management/"
                           className={`nav-link ${
-                            currentPath == "/interventional-pain-management" &&
+                            currentPath == "/interventional-pain-management/" &&
                             "active"
                           }`}
                         >

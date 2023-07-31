@@ -248,11 +248,6 @@ const DoctorDetails = () => {
                 DR. MUHAMMAD ZULQARNAIN (DR. Z) M.D.
               </Link>
             </li>
-            <li>
-              <Link href="/meet-our-team/ranjit-sandhu">
-                DR. Ranjit Sandhu M.D.
-              </Link>
-            </li>
           </dl>
           <dl>
             <dt>
@@ -294,18 +289,6 @@ const DoctorDetails = () => {
                 Are Opioids Harmful To New Born Infants
               </Link>
             </li>
-          </dl>
-          <dl>
-            <dt>
-              <Link href="/sciatica-pain">
-              Arthritis Pain
-              </Link>
-            </dt>
-            <dt>
-              <Link href="/sciatica-pain">
-              Sciatica Pain
-              </Link>
-            </dt>
           </dl>
           <dl>
             <dt>

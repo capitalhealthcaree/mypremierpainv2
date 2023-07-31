@@ -11,7 +11,7 @@ const Navbar = () => {
               {/* <nav className=""> */}
                 <div className="common-btn" style={{ display: "flex" }}>
                   <Link
-                    href="/appointment"
+                    href="/appointment/"
                     style={{
                       backgroundColor: "#0046c0",
                       color: "white",
