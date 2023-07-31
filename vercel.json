@@ -214,12 +214,12 @@
     },
 
     {
-      "source": "/contact-locations/conditions-we-treat/back-pain/ ",
+      "source": "/contact-locations/conditions-we-treat/back-pain/",
       "destination": "/contact-locations/"
     },
 
     {
-      "source": "/contact-locations/reviews/ ",
+      "source": "/contact-locations/reviews/",
       "destination": "/contact-locations/"
     },
 
@@ -228,11 +228,11 @@
       "destination": "/contact-locations/"
     },
     {
-      "source": "/contact-locations/contact-locations/corsicana/ ",
+      "source": "/contact-locations/contact-locations/corsicana/",
       "destination": "/contact-locations/"
     },
     {
-      "source": "/contact-locations/video-testimonials/ ",
+      "source": "/contact-locations/video-testimonials/",
       "destination": "/contact-locations/"
     },
 
@@ -242,7 +242,7 @@
     },
 
     {
-      "source": "/contact-locations/about/ ",
+      "source": "/contact-locations/about/",
       "destination": "/contact-locations/"
     },
 
@@ -261,15 +261,15 @@
     },
 
     {
-      "source": "/conditions-we-treat/contact-locations/north-richland-hills/ ",
+      "source": "/conditions-we-treat/contact-locations/north-richland-hills/",
       "destination": "/conditions-we-treat/"
     },
     {
-      "source": "/conditions-we-treat/contact-locations/farmers-branch/ ",
+      "source": "/conditions-we-treat/contact-locations/farmers-branch/",
       "destination": "/conditions-we-treat/"
     },
     {
-      "source": "/conditions-we-treat/contact-locations/richardson/  ",
+      "source": "/conditions-we-treat/contact-locations/richardson/",
       "destination": "/conditions-we-treat/"
     },
 
@@ -279,12 +279,12 @@
     },
 
     {
-      "source": "conditions-we-treat/contact-locations/waxahachie/  ",
+      "source": "conditions-we-treat/contact-locations/waxahachie/",
       "destination": "/conditions-we-treat/"
     },
 
     {
-      "source": "/conditions-we-treat/contact-locations/fort-worth/ ",
+      "source": "/conditions-we-treat/contact-locations/fort-worth/",
       "destination": "/conditions-we-treat/"
     },
 
@@ -294,7 +294,7 @@
     },
 
     {
-      "source": "/conditions-we-treat/contact-locations/lancaster/ ",
+      "source": "/conditions-we-treat/contact-locations/lancaster/",
       "destination": "/conditions-we-treat/"
     },
 
@@ -304,7 +304,7 @@
     },
 
     {
-      "source": "/news/contact-locations/hillsboro/ ",
+      "source": "/news/contact-locations/hillsboro/",
       "destination": "/news/"
     },
 
@@ -314,7 +314,7 @@
     },
 
     {
-      "source": "/about/contact-locations/richardson/ ",
+      "source": "/about/contact-locations/richardson/",
       "destination": "/about/"
     },
 
