@@ -214,7 +214,7 @@ const DoctorDetails = () => {
           </dl>
           <dl>
             <dt>
-              <Link href="/conditions-we-treat">Conditions We Treat</Link>
+              <Link href="/conditions-we-treat/">Conditions We Treat</Link>
             </dt>
             {conditionsWeTreat.map((item, i) => {
               return (
@@ -226,7 +226,7 @@ const DoctorDetails = () => {
           </dl>
           <dl>
             <dt>
-              <Link href="/treatments">Treatments</Link>
+              <Link href="/treatments/">Treatments</Link>
             </dt>
             {treatments.map((item, i) => {
               return (
@@ -238,25 +238,25 @@ const DoctorDetails = () => {
           </dl>
           <dl>
             <dt>
-              <Link href="/meet-our-team">Find A Doctor</Link>
+              <Link href="/meet-our-team/">Find A Doctor</Link>
             </dt>
             <li>
-              <Link href="/meet-our-team/rao-k-ali">Dr. Rao K. Ali M.D.</Link>
+              <Link href="/meet-our-team/rao-k-ali/">Dr. Rao K. Ali M.D.</Link>
             </li>
             <li>
-              <Link href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-">
+              <Link href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/">
                 DR. MUHAMMAD ZULQARNAIN (DR. Z) M.D.
               </Link>
             </li>
           </dl>
           <dl>
             <dt>
-              <Link href="/about">About Us</Link>
+              <Link href="/about/">About Us</Link>
             </dt>
           </dl>
           <dl>
             <dt>
-              <Link href="/contact-and-location">Contact & Location</Link>
+              <Link href="/contact-and-location/">Contact & Location</Link>
             </dt>
             {locations.map((item, i) => {
               return (
@@ -269,7 +269,7 @@ const DoctorDetails = () => {
 
           <dl>
             <dt>
-              <Link href="/blog">Blog</Link>
+              <Link href="/blog/">Blog</Link>
             </dt>
             {blogs.map((item, i) => {
               return (
@@ -282,27 +282,27 @@ const DoctorDetails = () => {
 
           <dl>
             <dt>
-              <Link href="/news">News</Link>
+              <Link href="/news/">News</Link>
             </dt>
             <li>
-              <Link href="/news/are-opioids-harmful-to-new-born-infants">
+              <Link href="/news/are-opioids-harmful-to-new-born-infants/">
                 Are Opioids Harmful To New Born Infants
               </Link>
             </li>
           </dl>
           <dl>
             <dt>
-              <Link href="/reviews">reviews</Link>
+              <Link href="/reviews/">reviews</Link>
             </dt>
           </dl>
           <dl>
             <dt>
-              <Link href="/appointment">Appointment</Link>
+              <Link href="/appointment/">Appointment</Link>
             </dt>
           </dl>
           <dl>
             <dt>
-              <Link href="/interventional-pain-management">
+              <Link href="/interventional-pain-management/">
                 Interventional Pain Management
               </Link>
             </dt>

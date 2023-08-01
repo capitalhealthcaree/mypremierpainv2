@@ -17,7 +17,7 @@ const ServiceDetailsContent = () => {
               difficult to pinpoint. Although it is possible to live with this
               pain for the rest of your life, you should not, since treatment is
               available. Using{" "}
-              <Link href="/contact-locations/fort-worth">
+              <Link href="/contact-locations/fort-worth/">
                 sympathetic injections fort worth
               </Link>
               , it is possible to diagnose or treat pain involving the
@@ -95,7 +95,7 @@ const ServiceDetailsContent = () => {
               spine to relieve pain in the lower body. You will lie face down on
               the table during the X-ray procedure. Low-dose sedatives like
               diazepam or midazolam are good to use.{" "}
-              <Link href="/conditions-we-treat/back-pain">Lower back</Link> skin
+              <Link href="/conditions-we-treat/back-pain/">Lower back</Link> skin
               is numb with a local anesthetic injection. As long as you are
               awake, you can provide feedback to your physician.
             </li>
@@ -115,11 +115,11 @@ const ServiceDetailsContent = () => {
             <p>
               This procedure provides pain relief and many patients benefit from
               it. The patient requires several{" "}
-              <Link href="/treatments/lumbar-sympathetic-injections">
+              <Link href="/treatments/lumbar-sympathetic-injections/">
                 lumbar sympathetic blocks
               </Link>{" "}
               to achieve long-term results. In accordance with the{" "}
-              <Link href="/treatments">treatments</Link> results, the procedure
+              <Link href="/treatments/">treatments</Link> results, the procedure
               timing will be determined.
             </p>
           </div>

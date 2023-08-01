@@ -8,7 +8,7 @@ const ServiceDetailsContent = () => {
           <div className="services-details-img">
             <h2>Facet Joint Injections</h2>
             <p>
-              <Link href="/contact-locations/corsicana">
+              <Link href="/contact-locations/corsicana/">
                 Facet joint injections Corsicana
               </Link>{" "}
               are minimally invasive procedures that numb facet joints by
@@ -85,7 +85,7 @@ const ServiceDetailsContent = () => {
           <h2>Procedure</h2>
           <p>
             A{" "}
-            <Link href="/contact-locations/fort-worth">
+            <Link href="/contact-locations/fort-worth/">
               facet joint injection fort worth
             </Link>{" "}
             is a minimally invasive procedure performed as an outpatient within
@@ -120,7 +120,7 @@ const ServiceDetailsContent = () => {
           <li>
             In most cases, the patient is escorted home by an escort two hours
             after the procedure. Under no circumstances is a patient permitted
-            to drive home after <Link href="/treatments">treatment</Link> two
+            to drive home after <Link href="/treatments/">treatment</Link> two
             hours later.
           </li>
           <li>

@@ -65,7 +65,7 @@ const LatestBlogPost = () => {
             style={{ display: "flex", justifyContent: "center" }}
           >
             <Link
-              href="/blog"
+              href="/blog/"
               style={{
                 backgroundColor: "#0046c0",
                 color: "white",

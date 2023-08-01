@@ -211,9 +211,9 @@ const Navbar = () => {
                     <ul className="dropdown-menu">
                       <li className="nav-item">
                         <Link
-                          href="/treatments/hip-joint-injections"
+                          href="/treatments/hip-joint-injections/"
                           className={`nav-link ${
-                            currentPath == "/treatments/hip-joint-injections" &&
+                            currentPath == "/treatments/hip-joint-injections/" &&
                             "active"
                           }`}
                         >
@@ -222,10 +222,10 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/treatments/disc-regenerative-therapy"
+                          href="/treatments/disc-regenerative-therapy/"
                           className={`nav-link ${
                             currentPath ==
-                              "/treatments/disc-regenerative-therapy" &&
+                              "/treatments/disc-regenerative-therapy/" &&
                             "active"
                           }`}
                         >
@@ -234,9 +234,9 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/treatments/mild-procedure"
+                          href="/treatments/mild-procedure/"
                           className={`nav-link ${
-                            currentPath == "/treatments/mild-procedure" &&
+                            currentPath == "/treatments/mild-procedure/" &&
                             "active"
                           }`}
                         >
@@ -245,10 +245,10 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/treatments/facet-joint-injection"
+                          href="/treatments/facet-joint-injection/"
                           className={`nav-link ${
                             currentPath ==
-                              "/treatments/facet-point-injection" && "active"
+                              "/treatments/facet-joint-injection/" && "active"
                           }`}
                         >
                           Facet Joint Injection
@@ -256,10 +256,10 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/treatments/percutaneous-discectomy"
+                          href="/treatments/percutaneous-discectomy/"
                           className={`nav-link ${
                             currentPath ==
-                              "/treatments/percutaneous-discectomy" && "active"
+                              "/treatments/percutaneous-discectomy/" && "active"
                           }`}
                         >
                           Percutaneous Discectomy
@@ -267,10 +267,10 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/treatments/trigger-point-injections"
+                          href="/treatments/trigger-point-injections/"
                           className={`nav-link ${
                             currentPath ==
-                              "/treatments/trigger-point-injections" && "active"
+                              "/treatments/trigger-point-injections/" && "active"
                           }`}
                         >
                           Trigger Point Injections
@@ -278,9 +278,9 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/treatments/joint-injections"
+                          href="/treatments/joint-injections/"
                           className={`nav-link ${
-                            currentPath == "/treatments/joint-injections" &&
+                            currentPath == "/treatments/joint-injections/" &&
                             "active"
                           }`}
                         >
@@ -301,9 +301,9 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/treatments/epidural-nerve-block"
+                          href="/treatments/epidural-nerve-block/"
                           className={`nav-link ${
-                            currentPath == "/treatments/epidural-nerve-block" &&
+                            currentPath == "/treatments/epidural-nerve-block/" &&
                             "active"
                           }`}
                         >
@@ -312,9 +312,9 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/treatments/si-joint-injection"
+                          href="/treatments/si-joint-injection/"
                           className={`nav-link ${
-                            currentPath == "/treatments/si-joint-injection" &&
+                            currentPath == "/treatments/si-joint-injection/" &&
                             "active"
                           }`}
                         >
@@ -323,9 +323,9 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/treatments/pronox"
+                          href="/treatments/pronox/"
                           className={`nav-link ${
-                            currentPath == "/treatments/pronox" && "active"
+                            currentPath == "/treatments/pronox/" && "active"
                           }`}
                         >
                           PronoX
@@ -333,10 +333,10 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/treatments/occipital-nerve-block"
+                          href="/treatments/occipital-nerve-block/"
                           className={`nav-link ${
                             currentPath ==
-                              "/treatments/occipital-nerve-block" && "active"
+                              "/treatments/occipital-nerve-block/" && "active"
                           }`}
                         >
                           Occipital Nerve Block
@@ -344,10 +344,10 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/treatments/genicular-nerve-block"
+                          href="/treatments/genicular-nerve-block/"
                           className={`nav-link ${
                             currentPath ==
-                              "/treatments/genicular-nerve-block" && "active"
+                              "/treatments/genicular-nerve-block/" && "active"
                           }`}
                         >
                           Genicular Nerve Block
@@ -366,9 +366,9 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/treatments/bursa-injection"
+                          href="/treatments/bursa-injection/"
                           className={`nav-link ${
-                            currentPath == "/treatments/bursa-injection" &&
+                            currentPath == "/treatments/bursa-injection/" &&
                             "active"
                           }`}
                         >
@@ -377,10 +377,10 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/treatments/peripheral-nerve-stimulation"
+                          href="/treatments/peripheral-nerve-stimulation/"
                           className={`nav-link ${
                             currentPath ==
-                              "/treatments/peripheral-nerve-stimulation" &&
+                              "/treatments/peripheral-nerve-stimulation/" &&
                             "active"
                           }`}
                         >
@@ -646,7 +646,7 @@ const Navbar = () => {
                     <nav className="navbar">
                       <div className="common-btn" style={{ display: "flex" }}>
                         <Link
-                          href="/appointment"
+                          href="/appointment/"
                           style={{
                             backgroundColor: "#0046c0",
                             color: "white",

@@ -87,18 +87,18 @@ const ServiceDetailsContent = () => {
             <h4>3. Has Been on the Market for Decades</h4>
             <p>
               The use of{" "}
-              <Link href="/contact-locations/fort-worth">
+              <Link href="/contact-locations/fort-worth/">
                 ProNox Fort Worth
               </Link>{" "}
               would be an appropriate choice for your next procedure since it
               has been on the market for decades. Birthing centers across the
               country recognize{" "}
-              <Link href="/contact-locations/north-richland-hills">
+              <Link href="/contact-locations/north-richland-hills/">
                 ProNox North Richland Hills
               </Link>{" "}
               as an effective birthing aid. Currently, this product is gaining
               traction in the aesthetic field. For many years,{" "}
-              <Link href="/contact-locations/lancaster">ProNox Lancaster</Link>{" "}
+              <Link href="/contact-locations/lancaster/">ProNox Lancaster</Link>{" "}
               has been used to ease the pain associated with labor and delivery
               since it reduces pain effectively and is safe for both mother and
               child.
@@ -150,14 +150,14 @@ const ServiceDetailsContent = () => {
               Having a one-stop medical center where patients can be treated by
               highly qualified and experienced physicians is our clinic's goal.
               Comprehensive patient care programs include{" "}
-              <Link href="/interventional-pain-management">
+              <Link href="/interventional-pain-management/">
                 interventional pain management
               </Link>
               , physical therapy, and therapy management. For patients
               experiencing pain in their bodies,{" "}
               <Link href="/">Dallas Premier Pain</Link> offers a variety of
               treatment options. I would be happy to{" "}
-              <Link href="/appointment">schedule an appointment</Link> for you.
+              <Link href="/appointment/">schedule an appointment</Link> for you.
               Please feel free to get in touch with me.
             </p>
           </div>

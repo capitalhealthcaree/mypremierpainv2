@@ -21,7 +21,7 @@ const Contact = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-sm-6 col-lg-4">
-              <Link href="/contact-locations/richardson">
+              <Link href="/contact-locations/richardson/">
                 <div className="department-item">
                   <i className="icofont-location-pin"></i>
                   <h3>RICHARDSON</h3>
@@ -34,7 +34,7 @@ const Contact = () => {
             </div>
 
             <div className="col-sm-6 col-lg-4">
-              <Link href="/contact-locations/north-richland-hills">
+              <Link href="/contact-locations/north-richland-hills/">
                 <div className="department-item">
                   <i className="icofont-location-pin"></i>
                   <h3>NORTH RICHLAND HILLS</h3>
@@ -48,7 +48,7 @@ const Contact = () => {
             </div>
 
             <div className="col-sm-6 col-lg-4">
-              <Link href="/contact-locations/fort-worth">
+              <Link href="/contact-locations/fort-worth/">
                 <div className="department-item">
                   <i className="icofont-location-pin"></i>
                   <h3>FORT WORTH</h3>
@@ -62,99 +62,99 @@ const Contact = () => {
             </div>
 
             <div className="col-sm-6 col-lg-4">
-            <Link href="/contact-locations/lancaster">
-              <div className="department-item">
-                <i className="icofont-location-pin"></i>
-                <h3>LANCASTER</h3>
-                <p>
-                  2700 W. Pleasant Rd., Ste. 320
-                  <br />
-                  Lancaster, TX 75146
-                </p>
-              </div>
+              <Link href="/contact-locations/lancaster/">
+                <div className="department-item">
+                  <i className="icofont-location-pin"></i>
+                  <h3>LANCASTER</h3>
+                  <p>
+                    2700 W. Pleasant Rd., Ste. 320
+                    <br />
+                    Lancaster, TX 75146
+                  </p>
+                </div>
               </Link>
             </div>
 
             <div className="col-sm-6 col-lg-4">
-            <Link href="/contact-locations/hillsboro">
-              <div className="department-item">
-                <i className="icofont-location-pin"></i>
-                <h3>HILLSBORO</h3>
-                <p>
-                  1323 E. Franklin St., Ste. 102
-                  <br />
-                  Hillsboro, TX 76645
-                </p>
-              </div>
+              <Link href="/contact-locations/hillsboro/">
+                <div className="department-item">
+                  <i className="icofont-location-pin"></i>
+                  <h3>HILLSBORO</h3>
+                  <p>
+                    1323 E. Franklin St., Ste. 102
+                    <br />
+                    Hillsboro, TX 76645
+                  </p>
+                </div>
               </Link>
             </div>
 
             <div className="col-sm-6 col-lg-4">
-            <Link href="/contact-locations/farmers-branch">
-              <div className="department-item">
-                <i className="icofont-location-pin"></i>
-                <h3>FARMERS BRANCH</h3>
-                <p>
-                  13988 Diplomat Dr., Ste. 100
-                  <br />
-                  Farmers Branch, TX 75234
-                </p>
-              </div>
+              <Link href="/contact-locations/farmers-branch/">
+                <div className="department-item">
+                  <i className="icofont-location-pin"></i>
+                  <h3>FARMERS BRANCH</h3>
+                  <p>
+                    13988 Diplomat Dr., Ste. 100
+                    <br />
+                    Farmers Branch, TX 75234
+                  </p>
+                </div>
               </Link>
             </div>
 
             <div className="col-sm-6 col-lg-4">
-            <Link href="/contact-locations/waxahachie">
-              <div className="department-item">
-                <i className="icofont-location-pin"></i>
-                <h3>WAXAHACHIE OFFICE</h3>
-                <p>
-                  20 Northgate Dr
-                  <br />
-                  Waxahachie, TX 75165
-                </p>
-              </div>
+              <Link href="/contact-locations/waxahachie/">
+                <div className="department-item">
+                  <i className="icofont-location-pin"></i>
+                  <h3>WAXAHACHIE OFFICE</h3>
+                  <p>
+                    20 Northgate Dr
+                    <br />
+                    Waxahachie, TX 75165
+                  </p>
+                </div>
               </Link>
             </div>
 
             <div className="col-sm-6 col-lg-4">
-            <Link href="/contact-locations/corsicana">
-              <div className="department-item">
-                <i className="icofont-location-pin"></i>
-                <h3>CORSICANA</h3>
-                <p>
-                  3108 E. State HWY 22,
-                  <br />
-                  Corsicana, TX 75102
-                </p>
-              </div>
+              <Link href="/contact-locations/corsicana/">
+                <div className="department-item">
+                  <i className="icofont-location-pin"></i>
+                  <h3>CORSICANA</h3>
+                  <p>
+                    3108 E. State HWY 22,
+                    <br />
+                    Corsicana, TX 75102
+                  </p>
+                </div>
               </Link>
             </div>
 
             <div className="col-sm-6 col-lg-4">
-            <Link href="/contact-locations/decatur">
-              <div className="department-item">
-                <i className="icofont-location-pin"></i>
-                <h3>DECATUR</h3>
-                <p>
-                  902 Preskitt Rd, Suite 300
-                  <br />
-                  Dectur, TX 76234
-                </p>
-              </div>
+              <Link href="/contact-locations/decatur/">
+                <div className="department-item">
+                  <i className="icofont-location-pin"></i>
+                  <h3>DECATUR</h3>
+                  <p>
+                    902 Preskitt Rd, Suite 300
+                    <br />
+                    Dectur, TX 76234
+                  </p>
+                </div>
               </Link>
             </div>
             <div className="col-sm-6 col-lg-4">
-            <Link href="/contact-locations/cleburne">
-              <div className="department-item">
-                <i className="icofont-location-pin"></i>
-                <h3>CLEBURNE</h3>
-                <p>
-                  131 S Westmeadow Dr,
-                  <br />
-                  Cleburne, TX 76033
-                </p>
-              </div>
+              <Link href="/contact-locations/cleburne/">
+                <div className="department-item">
+                  <i className="icofont-location-pin"></i>
+                  <h3>CLEBURNE</h3>
+                  <p>
+                    131 S Westmeadow Dr,
+                    <br />
+                    Cleburne, TX 76033
+                  </p>
+                </div>
               </Link>
             </div>
           </div>

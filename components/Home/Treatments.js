@@ -78,7 +78,7 @@ const SymptomsCovid19 = () => {
                 </div>
                 <p>
                   Our expert{" "}
-                  <Link href="/meet-our-team">pain management doctors</Link>{" "}
+                  <Link href="/meet-our-team/">pain management doctors</Link>{" "}
                   treat a variety of conditions, from head to toe, using
                   advanced diagnostic techniques and non-surgical treatments.
                   Don't know where to start? Simply search by a treatment, or

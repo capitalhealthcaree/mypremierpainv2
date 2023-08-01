@@ -85,15 +85,15 @@ const DoctorDetails = () => {
                     <p>
                       Dr. Muhammad Zulqarnain aka Dr. Z is a pain management
                       physician serving in Dallas,{" "}
-                      <Link href="/contact-locations/richardson">
+                      <Link href="/contact-locations/richardson/">
                         Richardson
                       </Link>
                       ,{" "}
-                      <Link href="/contact-locations/north-richland-hills">
+                      <Link href="/contact-locations/north-richland-hills/">
                         North Richland Hills
                       </Link>
                       ,{" "}
-                      <Link href="/contact-locations/waxahachie">
+                      <Link href="/contact-locations/waxahachie/">
                         Waxahachie
                       </Link>
                       , Texas, and the surrounding communities.
@@ -115,15 +115,15 @@ const DoctorDetails = () => {
                       and Sub-Specialty American Board in pain management He is
                       an expert in interventional pain procedures including
                       Epidurals, Nerve Blocks, Radio-frequency Ablation,{" "}
-                      <Link href="/treatments/joint-injections">
+                      <Link href="/treatments/joint-injections/">
                         Joint Injections
                       </Link>
                       , Kyphoplasty, Discectomy,{" "}
-                      <Link href="/treatments/spinal-cord-stimulation">
+                      <Link href="/treatments/spinal-cord-stimulation/">
                         Spinal cord stimulator
                       </Link>{" "}
                       trial, and implantation and Intrathecal pumps,{" "}
-                      <Link href="/treatments/si-joint-injections">
+                      <Link href="/treatments/si-joint-injections/">
                         SI joint Injections
                       </Link>
                       . He loves reading and traveling and learning state of the
