@@ -282,14 +282,14 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/treatments/regenerating-spinal-discs"
+                          href="/treatments/lumbar-sympathetic-injections/"
                           className={`nav-link ${
                             currentPath ==
-                              "/treatments/regenerating-spinal-discs" &&
+                              "/treatments/lumbar-sympathetic-injections/" &&
                             "active"
                           }`}
                         >
-                          Regenerating Spinal Discs
+                          Lumbar Sympathetic Injections
                         </Link>
                       </li>
                       <li className="nav-item">
@@ -348,13 +348,13 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/treatments/intrathecal-pump"
+                          href="/treatments/spinal-cord-stimulation/"
                           className={`nav-link ${
-                            currentPath == "/treatments/intrathecal-pump" &&
-                            "active"
+                            currentPath ==
+                              "/treatments/spinal-cord-stimulation/" && "active"
                           }`}
                         >
-                          Intrathecal Pump
+                          Spinal Cord Stimulation
                         </Link>
                       </li>
                       <li className="nav-item">

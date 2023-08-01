@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import PageBanner from "../../components/Common/PageBanner";
 import Navbar from "../../components/_App/Navbar";
-import PronoXDetails from "../../components/Treatments/PeripheralNerveStimulationDetails";
+import PronoxDetails from "../../components/Treatments/PronoxDetails";
 import AppointmentFormSideBar from "../../components/Appointment/AppointmentFormSideBar";
 import TreatmentsRightSide from "../../components/Common/TreatmentsRightSide";
 import Footer from "../../components/_App/Footer";
@@ -38,7 +38,7 @@ const DoctorDetails = () => {
         <div className="container-fluid p-lg-5">
           <div className="row">
             <div className="col-lg-8">
-              <PronoXDetails />
+              <PronoxDetails />
             </div>
 
             <div className="col-lg-4">

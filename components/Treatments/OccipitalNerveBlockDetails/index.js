@@ -6,185 +6,203 @@ const ServiceDetailsContent = () => {
       <div className="service-details-area">
         <div className="container">
           <div className="services-details-img">
-            <img
-              src="/images/treatments/trigger-point-injections-in-dallas.jpg"
-              alt="trigger point injections in dallas"
-            />
-
-            <h2>Are Trigger Point Injections Safe?</h2>
+            <h2>OCCIPITAL NERVE BLOCK INJECTIONS</h2>
+            <h4>TREATMENTS & PROCEDURES</h4>
             <p>
-              Certain patients suffering from chronic pain may benefit from{" "}
-              <Link href="/contact-locations/lancaster">
-                trigger point injections Lancaster
-              </Link>
-              (TPIs). When muscles are not relaxed, trigger points can cause
-              pain, as can knots in the muscles. Under the skin, one can often
-              feel these knots. Referred pain may result from trigger points. An
-              instance of this type of pain occurs in a different part of the
-              body. Musculoskeletal conditions, such as chronic muscle pain, are
-              treated with{" "}
-              <Link href="/contact-locations/richardson">
-                trigger point injections Richardson
+              Occipital nerve blocks can have varying results depending on the
+              individual. Cluster headaches and occipital neuralgia can be
+              temporarily relieved with occipital nerve blocks. As a result of
+              injuries, including whiplash, neck and head pain may also be
+              alleviated. A variety of reasons can cause pain, and{" "}
+              <Link href="/contact-locations/fort-worth/">
+                Fort Worth pain management
               </Link>{" "}
-              by physicians. In addition to sleeping in the wrong position or
-              lifting heavy weights vigorously, a variety of factors can
-              contribute to muscle pain. Although many types of muscle pain
-              resolve after a few days of rest, people with persistent or
-              chronic muscle pain may need medical treatment.
+              can provide relief.
             </p>
+            <h2>How Does An Occipital Nerve Block Work?</h2>
             <p>
-              Chronic muscle pain can negatively impact a person's quality of
-              life as well as their ability to function. An injection of trigger
-              points may provide immediate relief for those suffering from
-              chronic muscular pain.
+              This procedure involves combining steroid medication
+              (methylprednisolone) with a local anesthetic (lidocaine) to
+              inhibit the occipital nerve. Located on the top of the head, the
+              occipital nerve extends from the back of the neck. Your child will
+              receive the injection as a day case, which means they will be
+              injected and then sent home on the same day. In order to treat
+              children who suffer from one-sided headaches or tender scalps, an
+              injection of an occipital nerve block may be worth considering.
+              Nevertheless, they may not be suitable for everyone, and other
+              treatments may be recommended.
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
-              Please contact us online or call us at 469-562-4188 to learn more
-              about how you can benefit from our dallas trigger point injections
-              treatments options.
+              To learn more about our hillsboro occipital nerve block Injections
+              treatment services, give us a call at{" "}
+              <a href="tel:+14695624188">469-562-4188</a> or contact us online
+              today.
             </blockquote>
-            <h2>What Are Trigger Points?</h2>
+            <h2>What Does an Occipital Nerve Block Treat?</h2>
             <p>
-              Trigger points occur as a result of a knot or band of muscle or
-              connective tissue with a high degree of sensitivity, causing
-              discomfort or pain. Most commonly, they are found in the back,
-              neck, and buttocks, although they can affect nearly any part of
-              the body. Trigger point pain can also cause{" "}
-              <Link href="/conditions-we-treat/headaches">headaches</Link> and
-              migraines in addition to muscle spasms and weakness. There are a
-              number of other factors that can result in trigger points, in
-              addition to manual labor:
+              Different types of head pain can be treated with an occipital
+              nerve block, including:
             </p>
-            <div className="row">
-              <div className="col-6">
-                <li>Muscle injury or trauma</li>
-                <li>Clenching muscles regularly</li>
-              </div>{" "}
-              <div className="col-6">
-                <li>Job-related Risk Factors</li>
-                <li>Stress level</li>{" "}
-              </div>
-              <div className="col-6">
-                <li>Inactivity</li>
-                <li>Repetitive motions</li>
-              </div>{" "}
-              <div className="col-6">
-                {" "}
-                <li>
-                  Poor posture, for example, indicates poor body mechanics
-                </li>
-                <li>Sustained muscle overloading</li>
-              </div>
-              <div className="col-6">
-                {" "}
-                <li>Psychological stress</li>
-                <li>Smoking</li>
-              </div>
-              <div className="col-6">
-                {" "}
-                <li>Obesity</li>
-                <li>Insomnia</li>
-              </div>
-              <div className="col-6">
-                {" "}
-                <li>Emotional disorders include depression</li>
-                <li>Poor nutritional health</li>
-              </div>
-              <div className="col-6">
-                {" "}
-                <li>Menopause or other hormonal issues</li>
-              </div>
-              <p>
-                As well as latent trigger points, active trigger points are also
-                considered trigger points. The presence of a trigger point may
-                result in pain, even if the user is at rest. A latent trigger
-                point is irritated by pressure.
-              </p>
-            </div>
-            <h2>Who Needs A Trigger Point Injection?</h2>
-            <p>
-              If other <Link href="/treatments">treatments</Link> have failed to
-              alleviate your trigger point pain, it may be appropriate to
-              undergo a trigger point injection. Treatment options include
-              physical therapy, heat therapy, massage therapy, and myofascial
-              release. Physical therapy and stretching exercises are typically
-              combined with trigger point injections North Richland Hills to
-              alleviate pain. Trigger point injections can be particularly
-              useful if used as an initial treatment for patients who cannot
-              tolerate physical therapy or stretching. Due to intense pain, this
-              is the case. Trigger point injections Hilsboro can improve
-              physical therapy effectiveness.
-            </p>
-            <p>
-              Prior to recommending a trigger point injection, your healthcare
-              provider will need to perform a thorough physical examination.
-              This will eliminate any potential causes of your pain.
-            </p>
-            <li>Muscle strains.</li>
-            <li>Structural factors cause pain.</li>
             <li>
-              Pain in the back can be caused by degenerative arthritis,
-              herniated discs, or spinal stenosis.
+              <b>Occipital Neuralgia</b>: The symptoms of occipital neuralgia
+              consist of a severe throbbing pain in the back of the head, upper
+              neck, or behind the ears caused by irritation of the occipital
+              nerves. Research indicates that an occipital nerve block may be
+              effective for treating this type of headache. Organizations
+              consider nerve blocks to be a common, non-surgical treatment
+              option.
             </li>
-            <li>Radiculopathy (pain) is caused by a pinched nerve.</li>
-            <h2>What Happens During a Trigger Point Injection?</h2>
+            <li>
+              <b>Migraines</b>: In addition to headaches caused by nerve
+              irritation, an occipital nerve block can also provide relief from
+              other headache symptoms. The occipital nerves may be responsible
+              for transmitting pain signals to the brain, resulting in
+              migraines. The blocking of these signals may be necessary to
+              relieve pain related to your occipital nerves.
+            </li>
+            <li>
+              <b>Cluster Headaches</b>: In terms of pain, cluster headaches rank
+              among the most severe. A cluster headache is characterized by
+              cyclical patterns and may wake you up at night. An intense amount
+              of pain is felt on one side of the head as well as around one eye
+              as a result of these conditions. Facet joints of the cervical
+              spine are affected by spondylosis. An age-related wear and tear of
+              the neck bones and discs results in spondylosis of the cervical
+              facet joints, commonly referred to as osteoarthritis of the neck
+              joints.
+            </li>
+            <li>
+              <b>Cervicogenic Headache</b>: The American Migraine Foundation
+              describes cervicogenic headaches as headaches that originate in or
+              around the neck. A study conducted in 2006 found that people who
+              were treated with an occipital nerve block reported symptom relief
+              within two weeks of treatment. Additionally, later research
+              confirmed its efficacy in treating cervicogenic headaches.
+            </li>
+            <li>
+              <b>Diagnostic Procedure</b>: Other conditions may also be
+              diagnosed using the occipital nerve block. It can be difficult to
+              differentiate pain that originates from your occipital nerves from
+              pain that originates from other parts of your spine. A doctor at
+              pain relief clinic Cleburne may recommend an occipital nerve block
+              in order to customize your treatment plan for your pain.
+            </li>
+            <h2>The Occipital Nerve Block Procedure</h2>
             <p>
-              Trigger point injections are performed with a small needle
-              inserted into the patient's trigger point. Injections usually
-              contain local anesthetics and saline, as well as corticosteroids,
-              if necessary. By injecting into the trigger point, the pain is
-              relieved and the trigger point becomes inactive. A brief treatment
-              course usually provides sustained relief. Most injections are
-              administered in the doctor's office and take only a few minutes to
-              administer. Several locations may be used to administer a single
-              injection. Patients allergic to a particular drug may benefit from
-              the dry-needle technique.
-            </p>
-            <h2>What Should You Expect From A Trigger Point Injection?</h2>
-            <p>
-              The area may feel numb for the first few hours following the
-              procedure. Additionally, it may be painful and sore. Trigger Point
-              injections are not associated with other health problems. Skin
-              infections may occur at the injection site. Injections
-              administered in the chest area are associated with pneumothorax
-              risk.
-            </p>
-            <p>
-              Your pain may be relieved by{" "}
-              <Link href="/contact-locations/fort-worth">
-                trigger point injections Fort Worth
+              Our team of experts at{" "}
+              <Link href="/contact-locations/richardson/">
+                Pain Management Richardson
               </Link>{" "}
-              to a large or small degree, depending on the severity of the
-              condition. Pain may return after the medication wears off. If your
-              symptoms recur, your physician may recommend additional injections
-              or other treatment. Your physician's instructions should be
-              followed carefully. Please contact your physician if you
-              experience any new or unusual symptoms, such as{" "}
-              <Link href="/conditions-we-treat/back-pain">back pain</Link> or
-              shortness of breath.
+              understand how pain can affect your life.The occipital nerve block
+              procedure is performed by injecting a teaspoon of local anesthetic
+              and steroids into the scalp near the nerve trunk. This procedure
+              involves administering injections approximately two inches above
+              the neck at the back of the head. Following the numbering of the
+              skin, injections are administered.
             </p>
-            <h2>Premier Pain Centers</h2>
+            <li>Nerve blocks are administered with a very fine needle.</li>
+            <li>
+              A well-placed injection may provide immediate relief from pain for
+              patients within minutes of receiving it.
+            </li>
+            <li>
+              Patients may be asked about their symptoms by their physicians.
+              When the nerve is swollen, steroids will relieve the pain.
+            </li>
+            <li>
+              Approximately two to three days following the administration of
+              steroids, the full effect of steroids will be felt. Some of these
+              effects, however, can last for weeks or months.
+            </li>
+            <li>
+              Occipital nerve blocks usually result in patients being able to
+              drive home the following day and resume their normal activities.
+            </li>
+            <li>
+              After the local anesthetic wears off, the effects of the steroid
+              will become apparent in the following days.
+            </li>
+            <li>
+              A patient whose pain is relatively recent rather than
+              long-standing will typically respond best to an occipital nerve
+              block.
+            </li>
+            <li>
+              The patient may need a second occipital nerve block if their
+              symptoms do not improve after the first injection. Symptoms may
+              need to be controlled with additional nerve blocks.
+            </li>
+            <li>
+              Additionally, a lack of results may suggest that the occipital
+              nerves are not responsible for the pain.
+            </li>
             <p>
-              Patients suffering from severe muscle pain can receive treatment
-              at the Premier Pain Centers in Dallas. Providing support to
-              individuals who require assistance is essential to ensuring their
-              comfort and safety.
+              Further investigation is required to determine the cause of the
+              pain.
             </p>
-            <p>
-              As a one-stop medical center, we aim to provide patients with the
-              opportunity to receive treatment from highly qualified and
-              experienced physicians. A comprehensive patient care program
-              includes pain management, physical therapy, and therapy
-              management.{" "}
-              <Link href="/meet-our-team/rao-k-ali">
-                Dr. Ali Pain Management
+            <h2>Is There A Risk Involved?</h2>
+            <li>
+              Due to the relatively minor nature of injections, children are
+              unlikely to experience any complications after receiving an
+              injection.
+            </li>
+            <li>
+              Despite the fact that no procedure is completely risk-free,
+              infection may occur at the injection site.
+            </li>
+            <li>
+              The injection may cause redness and itching if there is an
+              allergic reaction.
+            </li>
+            <li>
+              Although this is not a serious condition, we must determine if
+              there is an 1 allergic reaction before proceeding with treatment.
+            </li>
+            <li>
+              It is likely that the injection site will initially feel painful,
+              but this should only last a few days. The pain should be evaluated
+              by a physician if it persists or becomes severe. The{" "}
+              <Link href="/contact-locations/lancaster/">
+                Lancaster spine and pain clinic
               </Link>{" "}
-              offers a variety of treatment options for patients suffering from
-              physical pain. If you would like to{" "}
-              <Link href="/appointment">schedule an appointment</Link>, please
-              feel free to contact us.
+              strives to improve the quality of life of its patients.
+            </li>
+            <li>
+              The child may be able to alleviate his or her symptoms of
+              dizziness, fainting, or stiff neck following the injection by
+              maintaining a positive attitude. Injection sites may develop a
+              small area of baldness, approximately the size of a penny.
+            </li>
+            <li>
+              Please keep an eye out for redness or heat at the injection site.
+              If the injection site becomes red or feels hotter than the
+              surrounding skin, please inform us.
+            </li>
+            <p>
+              As a result of an injection, the occipital nerve block reduces
+              pain and inflammation around the nerve located at the base of the
+              skull. A number of types of{" "}
+              <Link href="/conditions-we-treat/headaches/">headaches</Link> are
+              caused by this condition. In spite of the general safety of
+              occipital nerve blocks, their effectiveness and duration may
+              differ significantly from person to person. An occipital nerve
+              block may be recommended by a physician after other treatment
+              options have been considered. Most patients are discharged from
+              the hospital the same day following the procedure, which usually
+              takes no more than a few minutes. In{" "}
+              <Link href="/">Premier Pain Management</Link>, we strive to
+              provide comprehensive treatment guidelines and diagnoses in order
+              to help individuals restore their health.
             </p>
+            <blockquote>
+              <i className="icofont-quote-left"></i>
+              Give us a call at <a href="tel:+14695624188">469-562-4188</a> or
+              contact us online today to{" "}
+              <Link href="/appointment/">schedule an appointment</Link> for
+              occipital nerve block treatment in lancaster, TX and the
+              surrounding areas.
+            </blockquote>
           </div>
         </div>
       </div>

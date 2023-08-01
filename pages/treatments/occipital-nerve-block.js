@@ -11,10 +11,10 @@ const DoctorDetails = () => {
   return (
     <>
       <Head>
-        <title>Epidural Nerve Block in Dallas</title>
+        <title>Occipital Nerve Block Injections at Premier Pain Centers</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}treatments/epidural-nerve-block`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}treatments/occipital-nerve-block/`}
         />
         <meta
           name="description"
@@ -27,18 +27,18 @@ const DoctorDetails = () => {
       </Head>
       <Navbar />
       <PageBanner
-        pageTitle="Epidural Nerve Block in Dallas"
+        pageTitle="Occipital Nerve Block | Treatments & Procedures"
         homePageUrl="/"
         homePageText="Home"
         activePageText="epidural-nerve-block"
         bgImage="/images/page-banner2.jpg"
       />
 
-      <div className="doctor-details-area pt-100 pb-70">
+      <div className="doctor-details-area pt-50 pb-50">
         <div className="container-fluid p-lg-5">
           <div className="row">
             <div className="col-lg-8">
-              <OccipitalNerveBlockDetails/>
+              <OccipitalNerveBlockDetails />
             </div>
 
             <div className="col-lg-4">

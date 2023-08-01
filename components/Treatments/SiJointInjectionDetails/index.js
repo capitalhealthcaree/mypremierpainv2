@@ -6,120 +6,235 @@ const ServiceDetailsContent = () => {
       <div className="service-details-area">
         <div className="container">
           <div className="services-details-img">
-            <h2>ALL YOU NEED TO KNOW ABOUT</h2>
+            <h2>IMPORTANT CONSIDERATIONS ABOUT</h2>
             <h4>Si Joint Injection</h4>
             <p>
-              It is the sacroiliac joints (SI) that connect the spine to the
-              pelvis at its base. Inflammation of the SI joint is frequently
-              responsible for lower back pain. As well as groins, buttocks, and
-              legs being affected, it may also result in back pain. These
-              symptoms can occur for a number of reasons, but they are very
-              common. In order to begin an appropriate treatment plan for SI
-              joint dysfunction, it is vital that your doctor confirms that this
-              is the cause of your pain. Generalized pain treatments do not work
-              very well for SI joint dysfunction.
+              It is common for{" "}
+              <Link href="/conditions-we-treat/back-pain/">
+                lower back pain
+              </Link>{" "}
+              to be a result of inflammation in the sacroiliac joints (SI) that
+              connect the spine to the pelvis at the base of the spine.
+              Additionally, it can also cause groin, buttock, and{" "}
+              <Link href="/conditions-we-treat/leg-pain/">leg pain</Link>.
+              Numerous reasons may cause these symptoms, and they occur
+              frequently. A treatment plan can begin once your doctor confirms
+              your pain is due to SI joint dysfunction, which doesn't respond
+              well to generalized pain relief.
             </p>
             <p>
-              SI joint dysfunction can be diagnosed and treated by injecting
-              substances into the joints. Consider this treatment option if you
-              suffer from lower back pain . By implementing dr Ali's pain
-              management program, you will be able to relieve your discomfort
-              and improve your quality of life. Symptoms of SI Joint
-              Dysfunction:
+              The purpose of sacroiliac joint injections is twofold: Their role
+              is to diagnose and treat{" "}
+              <Link href="/conditions-we-treat/joint-pain/">joint pain</Link>.
+              Using SI joint injections is an effective method of diagnosing and
+              treating SI joint dysfunctions. One may perform the procedures
+              separately, with a purely diagnostic injection, or one may combine
+              them. This treatment may be of benefit to those suffering from
+              lower back pain .{" "}
+              <Link href="/contact-locations/lancaster/">
+                Lancaster spine and pain clinic
+              </Link>{" "}
+              is staffed by medical professionals dedicated to improving the
+              quality of life of patients.
             </p>
-            <li>One side of the lower back is experiencing dull pain</li>
-            <li>
-              Pain in the legs, numbness, and tingling are symptoms similar to
-              sciatica
-            </li>
-            <li>
-              Pain surrounding the dimple (low back) region of the spine that is
-              mild to moderate
-            </li>
-            <li>Early morning pain that improves as the day progresses</li>
-            <li>Your hips or buttocks are tight and tender</li>
-            <li>
-              Sleep disturbances and disturbances in sitting patterns as a
-              result of pain
-            </li>
-            <li>Instability of the legs (buckling, giving way)</li>
+            <h2>Si Injection Role For Diagnostic Purpose</h2>
+            <p>
+              Physicians may administer injections into the sacroiliac joint in
+              order to treat symptoms associated with inflammation. In order to
+              confirm or rule out a diagnosis, physicians are able to administer
+              powerful numbing agents directly into the sacroiliac joint under
+              X-ray guidance. An injection into the sacroiliac joint may
+              alleviate symptoms. For patients with pain arising from the
+              targeted joint, a second injection of a different anesthetic may
+              be necessary to confirm the diagnosis.
+            </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
-              To learn more about our fort worth si joint injection treatment
-              services, give us a call at 469-562-4188 or contact us online
+              To learn more about our hillsboro occipital nerve block Injections
+              treatment services, give us a call at{" "}
+              <a href="tel:+14695624188">469-562-4188</a> or contact us online
               today.
             </blockquote>
-            <h2>Are Sacroiliac Joint Injections Beneficial To Me?</h2>
+            <h2>Si Injection Role For Therapeutic Purpose</h2>
             <p>
-              Depending on the cause of your pain, your healthcare provider may
-              perform a Si Joint injection Richardson . The large pelvis bones
-              (ilium) are connected by this joint to the bones in the spine
-              (sacrum). The sacroiliac joints are located on both sides of the
-              body, one on each side.
-            </p>
-            <p>
-              These bones connect each side of the pelvis to the sacrum. As
-              shock absorbers, these joints perform this function. During the
-              movement of the legs and the upper body, they transmit weight and
-              forces. A sacroiliac joint disorder may result in pain in the
-              lower back, the buttocks or the hips. If you undergo a sacroiliac
-              joint injection, you may experience pain related to the sacroiliac
-              joint. This procedure can also relieve pain in that area.
+              It may be appropriate to consider injections of corticosteroids as
+              a possible treatment option for individuals with SI joint pain. If
+              oral medication does not provide sufficient relief, some
+              physicians may recommend injections. Patients experiencing
+              breakthrough pain may receive injections several times per year in
+              conjunction with oral medication. A comprehensive conservative
+              treatment plan usually includes injections of the sacroiliac joint
+              prior to deciding on surgical intervention.
             </p>
             <h2>The Sacroiliac Joint Injection Procedure</h2>
             <p>
-              An operating room or a procedure room selected specifically for
-              the procedure is used for the majority of Si Joint injection
-              Lancaster procedures. After undergoing the procedure, which
-              usually takes only a few minutes, patients are sent home the same
-              day.
+              <Link href="/contact-locations/richardson/">
+                Richardson Pain Management
+              </Link>{" "}
+              can provide assistance with joint pain for a variety of reasons.
+              The procedure usually takes just a few minutes and patients are
+              able to return home the same day. A separate procedure room or an
+              operating room is usually used for sacroiliac joint injections.
+              Injection procedures typically involve the following steps:
             </p>
-            <h2>Injections of the Sacroiliac Joint (SI)</h2>
+            <li>
+              A patient is positioned on the radiography table face down after
+              informed consent has been obtained. You may place a pillow under
+              your hips during the procedure in order to ensure your comfort.
+            </li>
+            <li>
+              It is necessary to monitor the patient's vital signs and pulse
+              rate during the procedure.
+            </li>
+            <li>
+              Depending on the patient's preference, the physician may insert an
+              intravenous line to administer medication to assist in relaxation.
+            </li>
+            <li>
+              Injecting sterile gloves and applying iodine or alcohol solutions
+              to the skin overlying the sacroiliac joint injection preserves
+              sterility.
+            </li>
+            <li>
+              Prior to placing the needle under fluoroscopy guidance, the
+              insertion site may be numb with anesthetic. A contrast dye is
+              injected into the sacroiliac joint after the needle is placed to
+              verify the placement and spread of the solution.
+            </li>
+            <li>
+              A diagnostic or therapeutic medication is injected into the joint
+              once the needle has been guided into the joint successfully.
+            </li>
+            <li>
+              In general, an injection consists of two types of medications:
+            </li>
+            <li>
+              In order to confirm that the patient's pain is originating from
+              the sacroiliac joint, a diagnostic injection is performed using
+              this solution.
+            </li>
+            <li>
+              In addition to reducing inflammation within the joint, the use of
+              anti-inflammatory medications (usually corticosteroid medications)
+              may also help relieve pain for a longer period of time (typically
+              several months, or even a year) by reducing inflammation. This
+              solution is administered to the sacroiliac joint as a therapeutic
+              injection.
+            </li>
+            <h2>How Does A Sacroiliac Joint Injection Affect The Body?</h2>
             <p>
-              An Si Joint injection north richland Hills procedure typically
-              consists of the following steps:
+              A monitoring period of approximately 30 minutes will follow the
+              procedure. The person driving you home may be able to assist you.
+              If there are any restrictions on activity following the procedure,
+              consult your doctor. As well, ask whether you can apply heat or
+              ice to the area of the shot, and whether you can bathe the day
+              after.
             </p>
             <li>
-              When the patient has provided informed consent, they lie face down
-              on their stomachs on the radiography table. The patient may be
-              comforted by placing a pillow under the hips.
+              Please follow all directions provided by your healthcare provider,
+              including those regarding your medications.
             </li>
             <li>
-              While the procedure is being performed, vital signs (such as heart
-              rate and blood pressure) are monitored.
+              Following the injection, you may feel sore and have some weakness
+              in your leg for a few hours.
             </li>
             <li>
-              An intravenous line may need to be inserted in order to administer
-              medication to the patient in order to assist in relaxing him or
-              her.
+              If you experience pain related to the sacroiliac joint, a numbing
+              agent may provide pain relief for the next few hours.
             </li>
             <li>
-              An iodine-based solution (e.g. Povidone-Iodine) or an
-              alcohol-based antiseptic are used to clean the skin overlying the
-              Si Joint injection fort worth to maintain sterility.
+              As the pain wears off throughout the day, it may become more
+              severe.
             </li>
             <li>
-              Throughout the injection procedure, sterile gloves must always be
-              worn. It is often necessary to numb the point of needle insertion
-              for the patient's comfort by using a local anesthetic.
+              When prescribed by your healthcare provider, steroid medicine may
+              take up to seven days to reduce pain and inflammation in your
+              joint.
             </li>
             <li>
-              In order to verify needle placement within the sacroiliac joint
-              and to ensure that solution has been spread throughout the joint,
-              contrast dye is injected to show up under X-ray guidance once the
-              needle has been inserted into the joint under fluoroscopy
-              guidance.
+              Therefore, you may feel better for a few hours after receiving the
+              injection. You may experience more pain following the
+              administration of the steroid.
             </li>
             <li>
-              A diagnostic and/or therapeutic medication is injected into the
-              joint once the needle has been successfully guided into the joint.
+              You may be asked to maintain a pain diary following the injection
+              by your healthcare provider.
             </li>
-            <blockquote>
-              <i className="icofont-quote-left"></i>
-              Give us a call at 469-562-4188 or contact us online today to
-              schedule an appointment for regenerating spinal discs in
-              Lancaster, TX and the surrounding areas.
-            </blockquote>
+            <li>
+              By keeping a diary, you can determine whether your pain is related
+              to the sacroiliac joint.
+            </li>
+            <li>
+              Based on the results of this study, an injection may also be
+              beneficial in the future.
+            </li>
+            <p>
+              Symptoms such as the following should be reported to your
+              healthcare provider:
+            </p>
+            <li>Intense pain</li>
+            <li>
+              A leg that has been weak or numb for longer than a few hours.
+            </li>
+            <li>Symptoms of fever</li>
+            <li>A sign of infection at the site of injection.</li>
+            <li>
+              Symptoms such as redness, swelling, and oozing may be present.
+            </li>
+            <p>
+              In order to obtain additional information about the effects of
+              your sacroiliac joint injection, please contact your healthcare
+              provider. You should consult your healthcare provider if you
+              experience pain following the procedure in order to discuss the
+              effects of the procedure and develop a treatment plan.
+            </p>
+            <h2>Are Sacroiliac Joint Injections Safe?</h2>
+            <p>
+              The team of experienced physicians at{" "}
+              <Link href="/contact-locations/fort-worth/">
+                Pain Management Fort Worth
+              </Link>{" "}
+              understands the impact SI joint pain can have on the quality of
+              life of an individual.The injection of the sacroiliac joint is
+              generally considered to be safe. The following risks may arise
+              from the procedure:
+            </p>
+            <div className="row">
+              <div className="col-6">
+                <li>The injection site may become infected</li>
+                <li>An injection site that bleeds</li>
+              </div>{" "}
+              <div className="col-6">
+                <li>Damage to nerves</li>
+                <li>Weakness in the legs</li>
+              </div>
+              <div className="col-6">
+                <li>An increase in pain</li>
+              </div>
+              <div className="col-6">
+                <li>An allergic reaction to a medicine</li>
+              </div>
+              <p>
+                Steroid medicines may cause side effects if they are included in
+                your shot. Blood sugar levels may rise for one to two days, an
+                allergic reaction may occur, and the face may flush.
+                Additionally to the risks described above, you may also
+                experience other health issues depending on your particular
+                circumstances. If you have any concerns, you should consult your
+                physician. Since <Link href="/">Premier Pain Management</Link>{" "}
+                provides comprehensive treatment and diagnosis guidelines for
+                individuals, it is possible for them to regain health as a
+                result of their consultation with them.
+              </p>
+              <blockquote>
+                <i className="icofont-quote-left"></i>
+                Give us a call at <a href="tel:+14695624188">469-562-4188</a> or
+                contact us online today to{" "}
+                <Link href="/appointment/">schedule an appointment</Link> for
+                Sacroiliac Joint Injection treatment in lancaster, TX and the
+                surrounding areas.
+              </blockquote>
+            </div>
           </div>
         </div>
       </div>

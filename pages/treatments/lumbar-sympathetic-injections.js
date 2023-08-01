@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Navbar from "../../components/_App/Navbar";
 import PageBanner from "../../components/Common/PageBanner";
-import GenicularNerveBlockDetails from "../../components/Treatments/GenicularNerveBlockDetails";
+import LumbarSympatheticInjectionsDetails from "../../components/Treatments/LumbarSympatheticInjectionsDetails";
 import AppointmentFormSideBar from "../../components/Appointment/AppointmentFormSideBar";
 import TreatmentsRightSide from "../../components/Common/TreatmentsRightSide";
 import Footer from "../../components/_App/Footer";
@@ -11,34 +11,33 @@ const DoctorDetails = () => {
   return (
     <>
       <Head>
-        <title>Genicular Nerve Blocks for Chronic Knee Pain</title>
+        <title>Lumbar Sympathetic Injections for Chronic Pain</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}treatments/genicular-nerve-block/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}treatments/lumbar-sympathetic-injections/`}
         />
         <meta
           name="description"
-          content="A genicular nerve block may be appropriate for patients with chronic knee pain that does not respond to conservative treatment. Contact us today to schedule an appointment!"
+          content="Dr. ali pain management, has done extensive research on peripheral nerve stimulation (PNS) as a method of relieving chronic pain."
         />
         <meta content="text/html; charset=utf-8" httpEquiv="Content-Type" />
         <meta content="initial-scale=1" name="viewport" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-        <meta name="format-detection" content="telephone=no" />
       </Head>
       <Navbar />
       <PageBanner
-        pageTitle="Genicular Nerve Blocks for Chronic Knee Pain"
+        pageTitle="Lumbar Sympathetic Injections for Chronic Pain"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="hip-joint-injections"
+        activePageText="lumbar-sympathetic-injections"
         bgImage="/images/page-banner2.jpg"
       />
 
-      <div className="doctor-details-area pt-50 pb-50">
+      <div className="doctor-details-area pt-50 pb-70">
         <div className="container-fluid p-lg-5">
           <div className="row">
             <div className="col-lg-8">
-              <GenicularNerveBlockDetails />
+              <LumbarSympatheticInjectionsDetails />
             </div>
 
             <div className="col-lg-4">

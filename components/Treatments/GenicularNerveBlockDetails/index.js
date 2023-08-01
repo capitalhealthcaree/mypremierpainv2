@@ -6,168 +6,205 @@ const ServiceDetailsContent = () => {
       <div className="service-details-area">
         <div className="container">
           <div className="services-details-img">
-            <img
-              src="/images/treatments/epidural-nerve-block-treatment.jpg"
-              alt="epidural nerve block treatment"
-            />
-
-            <h2>All You Need To Know About Epidural Nerve Block</h2>
+            <h2>IMPORTANT CONSIDERATIONS ABOUT</h2>
+            <h4>Genicular Nerve Block</h4>
             <p>
-              <Link href="/contact-locations/richardson">
-                Epidural nerve block Richardson
-              </Link>{" "}
-              treat neck and{" "}
-              <Link href="/conditions-we-treat/back-pain">back pain</Link> and
-              inflammation."Epidural Nerve Blocks" are epidural steroid
-              injections used to treat cervical and back pain caused by disc
-              herniations, nerve injuries, and spinal degeneration (ageing).
+              The use of prescribed medications is often ineffective in managing
+              chronic osteoarthritis{" "}
+              <Link href="/conditions-we-treat/knee-pain/">knee pain</Link>. As
+              a therapeutic alternative for managing chronic pain associated
+              with osteoarthritis of the knee, radiofrequency (RF) ablation can
+              be applied to the articular nerve branches (genicular nerves).
             </p>
             <p>
-              Electric shock, numbness, or weakness may result from spinal
-              problems in the neck or back. A spinal nerve is inflamed,
-              resulting in these symptoms. Throughout the body, the spinal
-              nerves control movement and pain perception. A cervical
-              radiculopathy occurs when a spinal nerve is irritated. An{" "}
-              <Link href="/contact-locations/lancaster">
-                epidural nerve block Lancaster
-              </Link>{" "}
-              is used to relieve cervical radiculopathy pain, which occurs in
-              the neck region.
+              However, there is a possibility that some older individuals with
+              chronic conditions may not be suitable candidates for surgery even
+              if they have advanced disease. Additionally, there are some
+              patients who do not wish to undergo surgery and prefer
+              non-surgical treatments. Radiation frequency ablation of the
+              genicular nerves may be an effective alternative to surgery in
+              these patients. In order to relieve pain and restore function, a
+              nerve supply can be cut to a painful structure.
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
-              Please contact us online or call us at 469-562-4188 to learn more
-              about how you can benefit from our dallas epidural nerve block
-              treatments options.
+              To learn more about our hillsboro genicular nerve block treatment
+              services, give us a call at{" "}
+              <a href="tel:+14695624188">469-562-4188</a> or{" "}
+              <a href="/contact-and-location/">contact us online</a> today.
             </blockquote>
-            <h2>What is Injected?</h2>
+            <h2>Genicular Nerve: What Are They?</h2>
             <p>
-              An injection of local anaesthesia is administered to the affected
-              area. The treatment may include steroids. During injection,
-              steroids serve only as anti-inflammatory agents. Steroids may
-              prolong local anesthesia. Injections of steroids do not have the
-              same side effects as prolonged oral administration. Diabetics may
-              experience an adverse effect on their blood sugar levels if they
-              suffer from this condition.
-            </p>
-            <p>
-              Steroid injections into the epidural space are prohibited.
-              Generally, this is a common practice, and there is a lot of
-              research that supports their safe use in this manner. X-rays will
-              help the doctor determine the appropriate position for the
-              injection. Additionally, a contrast agent (DYE) will be used to
-              confirm that the medicine has been delivered to the appropriate
-              location. As a result, the procedure risk is also reduced.
-            </p>
-            <h2>How Does An Epidural Work?</h2>
-            <p>
-              A{" "}
-              <Link href="/contact-locations/fort-worth">
-                epidural nerve block Fort worth
+              A knee's nerves permit it to feel and move. There are three nerves
+              that make up the genicular nerve: superior medial, inferior
+              medial, and superior lateral. An irritated or damaged nerve can
+              cause knee pain. In order to treat genicular nerves in the knee,{" "}
+              <Link href="/contact-locations/fort-worth/">
+                Pain Management Fort Worth
               </Link>{" "}
-              anesthesia injection involves injecting an anesthetic into the
-              epidural space surrounding your spine. In order to prevent pain
-              signals from traveling from the spine to the brain, we accomplish
-              this by blocking them from traveling. An epidural space is a space
-              around the spinal cord that is filled with a fluid that surrounds
-              it. A liquid sleeve surrounds your{" "}
-              <Link href="/treatments/spinal-cord-stimulation">
-                spinal cord
+              offers a comprehensive approach.
+            </p>
+            <h2>How does a Genicular Nerve Block Work?</h2>
+            <li>
+              A genicular nerve block may be appropriate for patients with
+              <Link href="/contact-locations/cleburne/">
+                {" "}
+                chronic knee pain cleburne
               </Link>{" "}
-              and protects it from external harm.
+              that does not respond to conservative treatment. In this
+              procedure, nerve supply to a painful area is blocked in hopes of
+              alleviating pain and restoring function.
+            </li>
+            <li>
+              Knee joints are innervated by various nerves such as the femoral,
+              common peroneal, saphenous, tibial, and obturator nerves.
+            </li>
+            <li>
+              As the name suggests, these branches surround the knee joint and
+              are commonly called genicular nerves.
+            </li>
+            <li>
+              A needle can be easily inserted under fluoroscopic guidance into a
+              number of genicular nerves.
+            </li>
+            <li>
+              To determine whether a genicular nerve block will provide adequate
+              relief to patients, a diagnostic genicular nerve block can be
+              performed.
+            </li>
+            <li>
+              During a genicular nerve block, local anesthetic is injected
+              through small needles to temporarily block these nerves.
+            </li>
+            <li>
+              Live X-ray guidance (fluoroscopy) ensures efficient needle
+              placement. The procedure generally takes between five and ten
+              minutes.
+            </li>
+            <h2>General Considerations</h2>
+            <p>
+              Radiofrequency ablation therapy and genicular nerve blocks were
+              initially described as methods for treating severe chronic knee
+              pain. Recently, an expanded version of the block technique was
+              introduced under ultrasound guidance to provide analgesia
+              following knee surgery. The strength of the quadriceps muscle is
+              preserved when only the sensory branches are targeted to the knee
+              joint.
             </p>
             <p>
-              In all parts of your body, the spinal cord is used as a highway
-              that connects nerves to the brain so that you can communicate with
-              each other. Through your spinal cord, for example, you receive a
-              pain signal if you have suffered an injury that impacts your body
-              in some way. An{" "}
-              <Link href="/contact-locations/hillsboro">
-                epidural nerve block Hillsboro
+              Consequently, this novel analgesic technique can be used as an
+              alternative to femoral nerve and adductor canal blocks when these
+              procedures are not indicated or desirable. A genicular nerve block
+              was performed under fluoroscopy guidance for the first time.
+              Besides providing additional visualization of soft tissues and
+              blood vessels that are essential to identifying the injection
+              site, ultrasound facilitates the recognition of these landmarks.
+              The available data on genicular nerve blocks in the context of
+              perioperative procedures is limited; however, case series have
+              shown promising outcomes. The effectiveness of this novel
+              treatment for acute pain following total knee replacement is
+              currently being investigated in clinical trials.
+            </p>
+            <h2>The Purpose Of A Genicular Nerve Block Is To Relieve Pain</h2>
+            <p>The purpose of a genicular nerve block is twofold:</p>
+            <li>
+              When conservative treatments have not relieved chronic knee pain,
+              such as physical therapy, over-the-counter NSAIDs, or injections
+              of steroid knee joints, your healthcare provider may recommend a
+              genicular nerve block. This treatment may result in the relief of
+              pain. A variety of factors may contribute to chronic knee pain,
+              including injury and osteoarthritis.
+            </li>
+            <li>
+              The genicular nerve block can help manage moderate to severe
+              postoperative knee pain after knee surgery, such as a total knee
+              replacement. Before surgery, your anesthesiologist or surgeon may
+              perform this procedure. Additionally, they use peripheral nerve
+              blocks in addition to general anesthesia.
+            </li>
+            <h2>How Does A Genicular Nerve Block Work?</h2>
+            <p>
+              <Link href="/">Premier Pain Management</Link> offers comprehensive
+              treatment and diagnosis guidelines that can help individuals
+              regain health.
+            </p>
+            <li>
+              A genicular nerve block is usually performed by a healthcare
+              provider as an outpatient procedure for the management of pain.
+              Consequently, you will not be admitted to a hospital for the
+              procedure and will be able to return home afterward.
+            </li>
+            <li>
+              Generally, a genicular nerve block will result in the following
+              symptoms: On a procedure table, you will lie on your back.
+            </li>
+            <li>
+              In order to slightly elevate your affected knee, a provider will
+              place a small pillow under it.
+            </li>
+            <li>
+              A mild sedative may be administered through an IV line in your arm
+              if you wish to relax.
+            </li>
+            <li>
+              The provider will use an antiseptic solution to clean your knee
+              skin. In order to numb the area where the nerve block will be
+              performed, a local anesthetic injection will be given to you.
+            </li>
+            <li>
+              The needle may cause you to feel a pinch or discomfort as it
+              enters your skin.
+            </li>
+            <li>
+              A provider may use imaging guidance, such as ultrasound or
+              fluoroscopy, in order to determine the precise location of an
+              injection.
+            </li>
+            <li>
+              The medication will then be injected into the affected nerve(s) as
+              close to the site as possible.
+            </li>
+            <li>
+              The medication will take effect after you have undergone the
+              procedure. Approximately five to ten minutes are required to
+              complete the procedure.
+            </li>
+            <h2>Complications</h2>
+            <p>
+              The risk of complications is extremely low, especially when
+              injections are performed with precision needle positioning.
+              Aseptic precautions can prevent septic arthritis. Generally, local
+              anaesthetics do not cause severe allergic reactions. Pain
+              flare-ups following surgical procedures are not uncommon, and may
+              be treated with pain medications. Several neurological
+              complications have been reported, including paraesthesia and
+              numbness. Underlying skin can become numb following radiofrequency
+              treatment. Due to the strict aseptic conditions under which the
+              procedure is performed and the specific nature of the injections,
+              the incidence of infection is low.{" "}
+              <Link href="/appointment/">Richardson Pain Management</Link>{" "}
+              specializes in providing comprehensive care for patients with
+              genicular nerve blocks.
+            </p>
+            <p>
+              You may benefit from genicular nerve blocks if you suffer from
+              chronic knee pain. The results vary considerably between
+              individuals, however. Ask your healthcare provider at{" "}
+              <Link href="/contact-locations/lancaster/">
+                spine and pain clinic Lancaster
               </Link>{" "}
-              anesthetic prevents pain signals from reaching a specific part of
-              the body by temporarily numbing the spine nerves. You may
-              experience this phenomenon depending on where your provider
-              injected the epidural along your spine when you received the
-              injection. As a temporary measure to relieve pain as well as to
-              completely eliminate sensations, epidural anesthesia can be used.
-              In the case of an epidural, you may lose feeling for a short
-              period of time as a result of the following factors:
+              about the genicular nerve block injection if you are concerned
+              about receiving it. In case of questions, please do not hesitate
+              to contact them.
             </p>
-            <li>
-              It is your provider's responsibility to administer anesthesia
-              drugs.
-            </li>
-            <li>Concentration (power) of a drug.</li>
-            <li>Dosage of the drug.</li>
-            <p>
-              Conversely, spinal epidural nerve block treat chronic pain.
-              Instead of anesthetic medication, epidural steroid or
-              corticosteroid injections are administered. Steroids reduce pain
-              in a particular part of the body by coating irritated nerves and
-              reducing swelling. Steroids are used to heal nerves. A spinal{" "}
-              <Link href="/contact-locations/north-richland-hills">
-                epidural nerve block North Richland Hills
-              </Link>{" "}
-              may provide temporary relief from pain, long-term relief from
-              pain, or permanent relief from pain.
-            </p>
-            <h2>Before the Procedure Begins, What Happens?</h2>
-            <p>
-              You will be asked for and recorded information by the nursing
-              staff as soon as you are admitted. A gown will be provided to you
-              by the doctor to wear during the examination of your blood
-              pressure. A consent form will be provided by the doctor and must
-              be signed by you. If you have any questions or you are unsure if
-              you understand what has been said, please let me know.
-            </p>
-            <h2>What Happens After the Procedure?</h2>
-            <p>
-              The nurse will check your blood pressure and pulse in the recovery
-              area. As soon as you're ready to get up, your nurse will tell you.
-              Rest for approximately an hour. Getting home with a friend or
-              relative over 18 is easy when you're mobile.
-            </p>
-            <h2>The Following Information Will Help You Understand</h2>
-            <li>
-              A driver will be required to accompany you home following this
-              procedure.
-            </li>
-            <li>
-              Please bring a list of your current medications if you are
-              currently taking them.
-            </li>
-            <li>
-              The medication should be taken as usual on the day of{" "}
-              <Link href="/treatments">treatments</Link>
-            </li>
-            <li>The above advice should be followed if you are diabetic.</li>
-            <li>
-              If you plan to travel abroad or fly within two weeks after
-              receiving injections, you may need to change the date of your
-              trip. Traveling abroad or flying within two weeks of the
-              injections should be discussed with your doctor.
-            </li>
-            <h2>Premier Pain Centers</h2>
-            <p>
-              Premier Pain Centers in Dallas provide treatment for patients
-              suffering from severe muscle pain. To ensure the comfort and
-              safety of individuals who require assistance, it is imperative
-              that support be provided to them. In our clinic, we strive to
-              provide patients with a one-stop medical center where they can
-              receive treatment from highly qualified and experienced
-              physicians. In addition to{" "}
-              <Link href="/interventional-pain-management">
-                interventional pain management
-              </Link>
-              , physical therapy, and therapy management, comprehensive patient
-              care programs are available.{" "}
-              <Link href="/">Dallas Premier Pain</Link> provides a variety of
-              treatment options for patients who are experiencing pain in their
-              bodies. Please let me know if you would like to{" "}
-              <Link href="/appointment">schedule an appointment</Link>. I would
-              be happy to hear from you.
-            </p>
+            <blockquote>
+              <i className="icofont-quote-left"></i>
+              Give us a call at <a href="tel:+14695624188">469-562-4188</a> or
+              contact us online today to{" "}
+              <Link href="/appointment/">schedule an appointment</Link> for
+              genicular nerve block treatment in lancaster, TX and the
+              surrounding areas.
+            </blockquote>
           </div>
         </div>
       </div>

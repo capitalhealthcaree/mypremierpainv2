@@ -6,18 +6,26 @@ const ServiceDetailsContent = () => {
       <div className="service-details-area">
         <div className="container">
           <div className="services-details-img">
-            <h2>WHAT DO YOU NEED TO KNOW ABOUT</h2>
+            <h2>ALL ABOUT TRIAL AND PROCEDURE OF</h2>
             <h4>Peripheral Nerve Stimulation</h4>
             <p>
-              Peripheral nerve stimulation Fort Worth involves implanting
-              electrodes in the body to alter how the nervous system functions.
-              In order to stimulate peripheral nerves and fields in the area of
-              pain, electrodes are put directly on the nerves or under the skin.
-              A small incision is all it takes for this minimally invasive
-              procedure. As opposed to spinal cord stimulation, which is where
-              the nerve originates, peripheral nerve stimulation North Richland
-              Hills stimulates the nerve directly. It is pertinent to note that
-              this difference is significant.
+              Various medications, including opioids, can be used to manage
+              pain. The use of these drugs is associated with numerous risks and
+              side effects, including the possibility of abuse or addiction.
+              Peripheral nerve stimulation has become increasingly popular as a
+              treatment option for a variety of conditions, including persistent{" "}
+              <Link href="/conditions-we-treat/back-pain/">back pain</Link> and
+              rare neuropathies.
+            </p>
+            <p>
+              Comparatively to opioid painkillers, PNS technology provides
+              better results, lasts longer, and does not pose a dependence risk.
+              Several different types of individuals may benefit from peripheral
+              nerve stimulation. The{" "}
+              <Link href="/contact-locations/lancaster/">
+                Lancaster spine and pain clinic
+              </Link>{" "}
+              is committed to improving the quality of life of its patients.
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
@@ -25,134 +33,199 @@ const ServiceDetailsContent = () => {
               treatment services, give us a call at 469-562-4188 or contact us
               online today.
             </blockquote>
-            <h2>How Does Peripheral Nerve Stimulation Work?</h2>
+            <h2>Peripheral Nerve Stimulation: What Is It?</h2>
             <p>
-              Normally, the peripheral nerve stimulation Hillsboro process
-              consists of two stages, separated by several days.
+              Your pain has been treated with ineffective or marginally
+              effective treatments in the majority of cases. Surgical procedures
+              such as this target a nerve or several nerves that transmit most
+              of the pain. You experience pain due to the introduction of an
+              electrical current to these nerves. A hallmark of this procedure
+              is its reversibility and non-destructive nature.
             </p>
-            <h3>STAGE 1 (ELECTRODE IMPLANTATION)</h3>
+            <h2>Indications</h2>
             <p>
-              Your skin will be cleaned with an antiseptic in the operating
-              room. If you require light general anesthesia, you will receive a
-              local anesthetic and be lightly sedated. It will be necessary to
-              make an incision in order to identify the nerve and prepare it for
-              surgery. The nerve will be surrounded by one or more electrodes
-              (wires) depending on its location. It will be necessary to insert
-              and secure these devices through the skin. In the recovery room,
-              the patient will spend some time after receiving treatment before
-              returning to his or her bedside. A pain monitor attached to an
-              external stimulator will monitor your pain for several days.
-              Throughout the admissions process, you'll describe and score your
-              pain. It will be possible to determine the effectiveness of the
-              treatment through the use of this procedure. In this manner, you
-              will be able to determine if the level of pain relief you have
-              received is satisfactory.
+              Peripheral nerve stimulation may be recommended by your physician
+              if your pain has become chronic and medication and therapy have
+              not relieved it. Peripheral nerve stimulation is effective in
+              treating a variety of painful conditions, including:
             </p>
-            <h3>STAGE 2 (BATTERY INSERTION)</h3>
-            <p>
-              You will be able to undergo the full implantation several days or
-              a week later if you are satisfied with the amount of pain relief
-              you obtained from the trial. The procedure requires a general
-              anesthetic (you will be asleep during the procedure). Extending
-              the temporary wire extensions removes the temporary electrodes and
-              connects them to extension wires connected to battery packs.
-            </p>
-            <p>
-              Implanting this battery usually involves placing it in your chest,
-              back, or abdomen Moreover, over the next few days and weeks, your
-              battery will be programmed so you get the best stimulation
-              possible.
-            </p>
+            <li>Occipital neuralgia (a rare chronic headache disorder).</li>
+            <li>Trigeminal neuralgia (pain in the face).</li>
+            <li>Peripheral neuropathy</li>
+            <li>
+              Intercostal neuralgia (pain in the chest wall and upper trunk)
+            </li>
+            <li>Complex regional pain syndrome (CRPS)</li>
+            <li>Diabetic peripheral neuropathy</li>
+            <li>
+              <Link href="/conditions-we-treat/neck-pain/">Neck pain</Link>
+            </li>
+            <li>Nerve injuries</li>
+            <li>Post-amputation pain syndrome</li>
+            <li>
+              Ilioinguinal neuralgia (pain in the lower abdomen and upper thigh)
+            </li>
+            <li>Migraine and other headache syndromes</li>
+            <li>Low back pain</li>
             <h2>
-              For Back Pain, Can I Have Peripheral Nerve And Field Stimulation?
+              Am I A Candidate For Peripheral Nerve Stimulation For Back Pain?
             </h2>
             <p>
-              The doctor may consider surgical options if medication and other
-              therapies do not relieve your pain symptoms. If you experience any
-              of the following symptoms, peripheral nerve stimulation Richardson
-              may be a good option for you:
+              Our team of experienced physicians at{" "}
+              <Link href="/contact-locations/richardson/">
+                Pain Management Richardson
+              </Link>{" "}
+              understands the impact of pain on the quality of life of our
+              patients.Your doctor may consider surgical options if medications
+              and other treatments fail to alleviate your pain symptoms. If you
+              experience any of the following symptoms, you may also be a
+              candidate for peripheral nerve and field stimulation:
             </p>
             <div className="row">
               <div className="col-6">
-                <li>Nerve injury Nerve entrapments</li>
-                <li>Occipital Neuralgia</li>
+                <li>Nerve injury</li>
+                <li>Complex regional pain syndrome</li>
               </div>{" "}
               <div className="col-6">
-                <li>Complex regional pain syndrome</li>
-                <li>Chronic Headaches</li>{" "}
+                <li>Occipital Neuralgia</li>
+                <li>Nerve entrapments</li>{" "}
+              </div>
+              <div className="col-6">
+                <li>Peripheral neuropathy</li>
+              </div>
+              <div className="col-6">
+                <li>
+                  <Link href="/conditions-we-treat/headaches/">
+                    Chronic Headaches
+                  </Link>{" "}
+                </li>
               </div>
             </div>
+            <h2> Trial & Procedure</h2>
+            <p>
+              Before a permanent implant is placed, a trial implant will be
+              placed to ensure that it will yield the desired results. Once this
+              procedure has been successfully completed, a permanent implant
+              will be placed. A neurostimulator implantable under the skin is a
+              small device that is capable of stimulating the brain. To turn on
+              or off the device, you will be provided with a remote control.
+            </p>
+            <p>
+              When pain flares up, the device emits a tiny electrical signal to
+              disrupt nerve signals. While some patients are concerned that
+              electrical signals will be released during this procedure, many
+              have successfully undergone this procedure. PNS has a high success
+              rate and provides immediate results. Sometimes, the device may not
+              function correctly and may need to be removed. The process of
+              achieving this can be very easily accomplished. Due to the
+              implant's placement just beneath the skin, the implant is
+              minimally invasive.
+            </p>
+            <h2>Surgical Procedure</h2>
+            <p>Peripheral nerve stimulation consists of two steps:</p>
+            <h3>Step 1 (Electrode Implantation)</h3>
+            <li>
+              This first step involves undergoing a trial period in order to
+              determine whether the treatment is effective in treating your
+              chronic pain. The device is being installed for the first time
+              before it becomes permanent. The purpose of this procedure is to
+              control pain by placing an electrode in close proximity to
+              peripheral nerves.
+            </li>
+            <li>
+              In order to numb the insertion site, you will lie down on the
+              procedure table and be given anesthesia.
+            </li>
+            <li>Incisions will be made in a small area.</li>
+            <li>
+              This procedure involves inserting an electrode (wire) through the
+              incision and attaching it to the targeted nerve.
+            </li>
+            <li>
+              An external stimulator produces impulses by connecting the
+              electrode wires to the stimulator.
+            </li>
+            <li>
+              A recovery room will be available to you after the electrodes have
+              been inserted and you will be able to return home the following
+              day.
+            </li>
+            <li>
+              Typically, the trial takes about one week to complete. Once you
+              are satisfied with the results and there has been significant pain
+              relief, the second step will be performed. In addition to
+              providing pain relief, this trial also allows your doctor to
+              determine the appropriate level of stimulation to be used.
+            </li>
+            <h3>Step 2 (Battery Insertion)</h3>
+            <li>
+              This step will follow a successful trial within a few days or
+              weeks.
+            </li>
+            <li>
+              A general anesthetic will be used for this procedure, and
+              temporary external wires will be removed following the procedure.
+            </li>
+            <li>
+              In order to deliver stimulation, wires are run under the skin from
+              the electrodes to a battery-operated internal stimulator that is
+              implanted under the skin. The most common placement of internal
+              stimulators is in the buttocks, under the arms, or along the chest
+              walls.
+            </li>
+            <h2>What happens After Implantation Of The Permanent System</h2>
+            <li>
+              Upon completion of the second stage of your operation, you should
+              be able to be discharged from the hospital within 1-2 days.
+            </li>
+            <li>
+              A four-day period following your discharge from the hospital is
+              recommended for your doctor to examine your wounds.
+            </li>
+            <li>
+              At your physician's office or at our{" "}
+              <Link href="/contact-locations/fort-worth/">
+                fort worth spine and pain clinic
+              </Link>
+              , we will provide you with instructions regarding the removal of
+              your stitches.
+            </li>
+            <li>
+              The six weeks following surgery should be spent resting. A daily
+              exercise program of one hour, such as walking, is recommended.
+            </li>
+            <li>
+              A physician should be consulted prior to signing or witnessing any
+              legal documents. After six to eight weeks, a{" "}
+              <Link href="/contact-locations/cleburne/">
+                pain relief clinic Cleburne
+              </Link>{" "}
+              orthopedic surgeon or pain specialist will review your condition.
+              With a few weeks, you should be able to operate a motor vehicle
+              without experiencing any discomfort.
+            </li>
+            <li>
+              A detailed description of things to avoid, such as metal detectors
+              at airports, will also be provided to you.
+            </li>
+            <li>
+              Taking the time to read such information in its entirety is
+              essential. Prior to your discharge from the hospital, you will be
+              informed of any other restrictions.
+            </li>
             <h2>
-              {" "}
-              What Types of Pain Does Peripheral Nerve Stimulation Treat?
+              What Is The Effectiveness Of Peripheral Nerve Stimulation In
+              Treating Pain?
             </h2>
             <p>
-              Peripheral Nerve Stimulation Lancaster can treat the following
-              conditions that cause pain:
-            </p>
-            <li>CRPS and RSD (complex regional pain syndromes)</li>
-            <li>Nerve damage caused by diabetes</li>
-            <li>
-              Pain in the feet Chronic migraine, occipital neuralgia, and
-              episodic cluster headaches
-            </li>
-            <li>
-              A condition that causes pain in the lower abdomen and upper thighs
-              is known as ilioinguinal neuralgia.
-            </li>
-            <li>
-              Neuralgia of the intercostal region (pain in the upper trunk and
-              chest wall).
-            </li>
-            <li>
-              Inflammatory cutaneous neuropathy of the lateral femoral area
-              (pain in the outer thigh)
-            </li>
-            <li>Pain in the lower back Pain in the neck</li>
-            <li>Knee or hernia surgery-related pain</li>
-            <li> Symptoms of nerve pain</li>
-            <li>Neuropathy associated with peripheral vascular disease</li>
-            <li>
-              The pain associated with phantom limbs or post-amputation stumps
-              Neuralgia postherpetic (burning pain caused by shingles){" "}
-            </li>
-            <li>
-              Post-thoracotomy syndrome (pain persisting along the incision from
-              a thoracotomy).
-            </li>
-            <li>Neuralgia of the trigeminal nerve (facial pain)</li>
-            <h2>After Implanting The Pns Device, How Does It Work?</h2>
-            <p>
-              You will receive detailed instructions from your doctor regarding
-              the use of the device. If you are having an MRI or going through
-              airport security, you may receive additional instructions. It is
-              patient-friendly, according to Dr. Deer. "Patients do not need to
-              wear the external part of the PNS device all the time; they only
-              need to wear it when they are experiencing pain," he states.
-              Patients are able to remove their external parts to bathe, shower,
-              and swim. Most complications associated with PNS are superficial
-              skin infections, although bleeds and nerve damage are possible
-              occasionally. With new devices, the implants remain in place and
-              there is no movement of the lead wires, which is known as "lead
-              migration." It may be necessary to reprogramme the computer on an
-              annual basis. Moreover, if the device does not relieve your pain,
-              it may be removed. Dr. ali pain management, has done extensive
-              research on peripheral nerve stimulation (PNS) as a method of
-              relieving chronic pain.
-            </p>
-            <h2>Premier Pain Centers</h2>
-            <p>
-              High-quality medical treatment is available at premier pain
-              management for patients who suffer from severe muscle pain.
-              Comfort and peace must be provided for members of an organization
-              in order for it to achieve its mission. It is our policy to ensure
-              that the pain management services provided by our physicians are
-              of the highest quality. As a result of their extensive training,
-              skill, and experience, our physicians are capable of treating a
-              wide range of pain conditions. We have a comprehensive patient
-              care program that includes physical therapy, therapy management,
-              as well as pain management. If you would like to schedule an
-              appointment, please contact us.
+              Peripheral nerve stimulation is beneficial to approximately 70% of
+              patients who are selected for treatment. The rate at which pain is
+              reduced varies from patient to patient. Overall, pain scores are
+              reduced by 50%. When a patient has a pain score of 10/10, for
+              example, the pain score may be reduced to 5/10. In order to
+              restore a person's health,{" "}
+              <Link href="/">Premier Pain Management</Link> provides
+              comprehensive treatment and diagnosis guidelines.
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>

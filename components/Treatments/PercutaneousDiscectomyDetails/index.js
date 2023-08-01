@@ -9,160 +9,174 @@ const ServiceDetailsContent = () => {
             <h2>ALL YOU NEED TO KNOW ABOUT</h2>
             <h4>Percutaneous Discectomy</h4>
             <p>
-              Approximately two percent of the U.S. population suffers from back
-              pain (or millions of adults). Herniated discs that press on nerve
-              fibers or the spinal cord may be treated with a lumbar
-              percutaneous discectomy.By removing deviated disc material and
-              disc fragments, lumbar percutaneous discectomy is intended to
-              relieve nerve compression.This minimally invasive procedure
-              involves making an incision between the vertebrae and inserting a
-              tiny surgical needle into the disc middle.
+              This procedure involves removing disc fragments and deviated disc
+              material from the spine. Lumbar percutaneous discectomy refers to
+              the removal of disc herniations pressing on nerve roots or the
+              spinal cord. It involves making an incision between the vertebrae
+              and inserting a small surgical needle between them. This procedure
+              is minimally invasive. Decompression surgery removes disc material
+              from the spine and relieves painful pressure on the nerves.{" "}
+              <Link href="/blog/back-pain/sciatica-symptoms-and-prevention/">
+                Sciatica
+              </Link>{" "}
+              or leg pain may occur due to slipped or herniated discs after a
+              patient undergoes surgery to correct the condition. Patients with
+              herniated discs are treated comprehensively at{" "}
+              <Link href="/contact-locations/richardson/">
+                Richardson Pain Management
+              </Link>
+              .
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
-              To learn more about our fort worth percutaneous discectomy
-              treatment services, give us a call at 469-562-4188 or contact us
-              online today.
+              Give us a call at <a href="tel:+14695624188">469-562-4188</a> or
+              contact us online today to{" "}
+              <Link href="/appointment/">schedule an appointment</Link> for
+              percutaneous discectomy treatment in lancaster, TX and the
+              surrounding areas.
             </blockquote>
-            <h2>What Is A Discectomy?</h2>
+            <h2>Overview of the Herniated Disc</h2>
             <p>
-              Discectomy involves surgically removing parts of a herniated or
-              slipped disc in order to relieve pressure on nerve roots or the
-              spinal cord. Decompressing the spine is necessary to increase
-              flexibility and mobility. There may be some pain associated with a
-              herniated disc, but this usually subsides once the disc is removed
-              from the spinal cord. Those suffering from chronic pain in their
-              lower backs and legs may benefit from discectomy treatment.
-            </p>
-            <h2>Percutaneous Discectomy Benefits</h2>
-            <p>
-              Percutaneous discectomy richardson has many advantages. Most
-              patients report rapid relief from pain following this procedure,
-              which is relatively straightforward. In addition to being
-              minimally invasive, this procedure produces virtually no scarring
-              or discomfort. Comparatively to other procedures, percutaneous
-              discectomy offers the following advantages:
-            </p>
-            <li>Assists in the collection of biopsy tissue</li>
-            <li>
-              Does not damage the nerve root as a result of thermal exposure
-              (heat)
-            </li>
-            <li>Aspirate material in a controlled manner</li>
-            <li>Customizable procedures</li>
-            <p>
-              A lumbar percutaneous discectomy is less risky and also allows for
-              a faster recovery time than other forms of spinal surgery.
-            </p>
-            <h2>Percutaneous Discectomy Candidates</h2>
-            <p>
-              The percutaneous discectomy Hilsboro may be an effective treatment
-              option for patients with ongoing back, neck, or sciatica pain, as
-              well as spinal stenosis, which narrows the spinal canal and
-              presses on the spinal cord. This procedure may be appropriate for
-              patients who have failed to improve their symptoms after four to
-              six weeks of conservative treatment methods such as exercise,
-              medication, physical therapy, or chiropractic treatment. The
-              patient may benefit from a lumbar percutaneous discectomy if his
-              or her symptoms make it difficult for him or her to perform normal
-              daily activities.
-            </p>
-            <h2>How Is A Percutaneous Discectomy (Pd) Performed?</h2>
-            <li>
-              To minimize pain and stress on the body, patients are administered
-              sedatives and local anesthetics before the procedure.
-            </li>
-            <li>
-              After positioning the patient face down, the surgeon ensures that
-              the affected area is easily accessible.
-            </li>
-            <li>
-              The goal is to insert a large needle into the surgical site after
-              numbing it.
-            </li>
-            <li>
-              Most herniated discs can be relieved by removing disc material,
-              which also reduces the pressure within the spinal column. The
-              patient will be moved to the recovery area for observation as soon
-              as the needle insertion site has been closed.
-            </li>
-            <li>
-              Heat waves are used to reduce the disc size once the needle is
-              inserted, as well as to remove disruptive material from the disc.
-            </li>
-            <li>
-              PDs are usually performed as outpatient procedures and take about
-              30 minutes to complete. It is generally possible for patients to
-              return home the same day that they have undergone surgery, within
-              one to three hours of their surgery. In the first 24 to 48 hours
-              following an injection, there may be some discomfort at the
-              injection site.
-            </li>
-            <li>
-              It may be necessary to apply heat packs or cold packs to the
-              patient's body in order to relieve this discomfort, as needed and
-              as recommended. Your physician may prescribe pain medication
-              post-PD if it is necessary for you to take it as directed. A
-              patient should also rest for at least 24 hours following surgery
-              in order to ensure that their recovery will be as smooth as
-              possible.
-            </li>
-            <li>
-              Despite the fact that recovery time varies from case to case, most
-              patients find that after a week or so, they are able to return to
-              their normal daily routines.
-            </li>
-            <h2>Here Are Some Things To Look Forward To</h2>
-            <p>
-              There is nothing complicated about a percutaneous discectomy
-              Lancaster.
+              Herniated discs occur when one or more disks rupture within the
+              spinal column (backbone). A spine consists of several bones
+              (vertebrae) that span from the skull base to the tailbone. Between
+              each vertebra, the spine discs act as a cushion. The disks that
+              separate your bones enable you to bend and move. Typically, disk
+              ruptures are the result of a leak or rupture in the disk. People
+              aged 30 to 50 are most likely to suffer from herniated disks.This
+              condition is twice as prevalent in men as in women. The pain
+              associated with{" "}
+              <Link href="/blog/back-pain/herniated-disc/">
+                herniated discs
+              </Link>{" "}
+              can initially be treated at home. If you experience any of the
+              following symptoms, you should consult a physician:
             </p>
             <li>
-              During the procedure, there is no requirement for general
-              anesthesia; the patient will receive a local anesthetic and may
-              also be under mild sedation. The insertion of the needle is
-              painless.
+              A person suffering from pain may find it difficult to go to work.
             </li>
+            <li>The symptoms have not improved after four to six weeks.</li>
+            <li>Symptoms get worse.</li>
+            <li>Feeling uncontrollable</li>
+            <li>Your arms, hands, legs, or feet feel tingly, numb, or weak.</li>
+            <li>Standing or walking is hard for you.</li>
+            <h2>Overview of Discectomy</h2>
+            <p>
+              Spinal discs cushion vertebrae. A disc consists of two layers. A
+              tough cartilage layer is present in the first layer, while a
+              gelatinous layer is present in the second layer. Various injuries,
+              normal wear and tear, and aging may contribute to bulging discs.
+              Discs that hibernate (rupture) may require decompression surgery.
+              The most effective treatment for sciatica pain is open surgery
+              (removal of the intervertebral disc). The purpose of this
+              procedure is to relieve pressure from nerve roots and decompress
+              the disc.
+            </p>
+            <h2>Preparation For A Percutaneous Lumbar Discectomy</h2>
+            <p>
+              Consult your physician regarding preparations for surgery. You
+              should consult your physician prior to the procedure if you are
+              taking any medications, such as blood thinners. The night before
+              surgery, refrain from drinking alcohol or eating anything after
+              midnight. Additional spine imaging tests may be ordered by your
+              physician in addition to the MRI.
+            </p>
+            <h2>Percutaneous Discectomy</h2>
+            <p>
+              The procedure of percutaneous discectomy is similar to that of
+              microdiscectomy in that the disc is removed through the skin. A
+              percutaneous discectomy involves the insertion of an endoscopic
+              device between the vertebrae and the disc center following an
+              incision in the skin. By using the endoscope, doctors are able to
+              view what is taking place within the body through cameras. X-rays
+              provide guidance in treatment. A tube or series of tubes is used
+              during surgery to insert an instrument or a series of instruments.
+            </p>
+            <p>
+              Percutaneous discectomy procedures are available in a variety of
+              forms. During these procedures, anesthesia may be administered
+              either locally or generally. There is an instrument inserted
+              between the vertebrae and within the disc as part of the
+              procedure. During surgery, X-rays guide the movement of surgical
+              instruments. The following methods are available for removing disc
+              tissue:
+            </p>
+            <li>Remove the entire disc</li>
             <li>
-              Following the insertion of the needle into the disc, disc
-              decompression takes place quite quickly. In about 30 minutes, the
-              patient will receive a small bandage covering the needle site.
+              An effective method of reducing the volume of a disc is to remove
+              the center of the disc in order to restore it to its original
+              shape.
             </li>
-            <h2>Is It Safe To Perform A Percussive Dissection?</h2>
+            <li>Burning or destroying discs with lasers.</li>
             <p>
-              A percutaneous discectomy fort worth is a safe, minimally
-              invasive, and effective surgical procedure. Percutaneous
-              discectomies are among the back surgeries we have performed at the
-              Interventional Spine & Surgery Group. Any surgical procedure has
-              some risks, including percutaneous discectomy. However, there are
-              some risks.
+              Following the removal of the disc pressing on the nerve, the
+              patient will experience less pain. Patients suffering from pain
+              associated with a bulging disc without outer wall rupture may
+              benefit from this procedure. Suffering from back and{" "}
+              <Link href="/conditions-we-treat/leg-pain/">leg pain</Link>,
+              including sciatica and radiculopathy, may benefit from a
+              percutaneous discectomy. Patients with small, contained
+              herniations may benefit from a percutaneous discectomy. The
+              procedure may also be of benefit to patients with large, contained
+              (nonruptured disc) herniations who are ineligible for open
+              surgery.
             </p>
-            <li>Anesthesia reaction</li>
-            <li>Bleeding</li>
-            <li>Irritation of the nerves</li>
+            <h2>Recovery From Percutaneous Lumbar Discectomy</h2>
             <p>
-              You may also experience some pain and discomfort if surgery does
-              not prove successful. The outcome of surgery cannot be guaranteed
-              to be 100%.
+              Your return home will be possible the following day following the
+              completion of the procedure. If you are experiencing pain during
+              the healing process, your physician may prescribe pain medication
+              to alleviate it. You should refrain from driving for several weeks
+              after the procedure, from sitting for long periods of time, from
+              lifting heavy objects, and from twisting or bending. Occupational
+              therapy or physiotherapy may be necessary to strengthen and
+              increase the flexibility of your legs. In order to prevent
+              recurrence of the problem, preventative measures will be taken.
             </p>
-            <h2>Premier Pain Centers</h2>
             <p>
-              It is possible to receive high-quality medical treatment for
-              severe muscle pain at the number one Premier pain management
-              clinic in the United States. As part of the organization's
-              mission, it is imperative that comfort and peace be provided. The
-              physicians at our center possess a high level of training,
-              expertise, and experience related to the treatment of serious
-              pain-related conditions. Physical therapy as well as therapy
-              management are all part of our comprehensive approach to patient
-              care. We would be delighted to schedule an appointment with you.
-              Please feel free to contact us.
+              Typically, patients report significant pain relief following
+              percutaneous lumbar discectomy, enabling them to return to their
+              normal daily routines. Medical professionals are dedicated to
+              improving the quality of life for patients at{" "}
+              <a href="/contact-and-location/lancaster/">
+                Lancaster spine and pain clinic
+              </a>
+              . As an alternative to general anesthesia, percutaneous discectomy
+              uses local anesthetic. An office setting is the most common
+              setting for outpatient treatment. It usually takes less than an
+              hour to complete the treatment.
+            </p>
+            <h2>Expected Results</h2>
+            <p>
+              Approximately 90 percent of patients benefit from a percutaneous
+              discectomy in terms of reduced pain and reduced medication
+              requirements, while increasing their functional capacity. The
+              procedure does not involve cutting muscles or bones, so there is
+              mild or no scarring following the procedure.{" "}
+              <a href="/contact-and-location/fort-worth/">
+                Pain management fort worth
+              </a>{" "}
+              offers relief from spinal cord disorders due to a variety of
+              reasons.
+            </p>
+            <p>
+              Generally, patients can return home within hours of the procedure.
+              Many of them can resume normal daily activities within three to
+              five days of the procedure. Additionally, there is less risk of
+              complications associated with percutaneous discectomy as compared
+              to open surgical discectomy. It is the mission of the medical
+              professionals at the{" "}
+              <a href="/contact-and-location/cleburne/">
+                pain relief clinic in Cleburne
+              </a>{" "}
+              to improve the quality of life of their patients.
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
-              Give us a call at 469-562-4188 or contact us online today to
-              schedule an appointment for Percutaneous discectomy treatment in
-              Lancaster, TX and the surrounding areas.
+              To learn more about our hillsboro percutaneous discectomy
+              treatment services, give us a call at{" "}
+              <a href="tel:+14695624188">469-562-4188</a> or{" "}
+              <a href="/contact-and-location/">contact us online</a> today.
             </blockquote>
           </div>
         </div>

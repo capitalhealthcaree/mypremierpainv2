@@ -6,167 +6,193 @@ const ServiceDetailsContent = () => {
       <div className="service-details-area">
         <div className="container">
           <div className="services-details-img">
-            <h2>WHAT YOU NEED TO KNOW ABOUT</h2>
+            <h2>WHAT IS PROCEDURE OF</h2>
             <h4>Trigger Point Injections?</h4>
             <p>
-              Injections of local anesthetic medication can numb trigger points
-              during treatment. Cortisone, saline, and Botulinum Toxin are some
-              of them. Trigger point injections Lancaster can relieve muscle
-              spasms in an area experiencing intense pain. Muscles become tense
-              when they cannot relax. An irritated or trapped trigger point may
-              result in referred pain located elsewhere on the body as a result
-              of irritated or trapped nerves. The development of scar tissue, a
-              loss of range of motion, and weakness can also occur over time.
+              A trigger point injection may alleviate symptoms of chronic muscle
+              pain, such as neck pain. Injection of trigger points aims to
+              relieve pain, stiffness, and reduced range of motion caused by
+              knots in the muscles.It may require injection of anesthetics or
+              steroids. Muscles injured suddenly or repeatedly may develop
+              trigger points. In order to identify trigger points, physicians
+              can feel tender bumps under the skin of the neck, shoulders, and
+              back.{" "}
+              <a href="/contact-and-location/fort-worth/">
+                Pain Management Fort Worth
+              </a>{" "}
+              provides a comprehensive approach to painful trigger points.
             </p>
-            <p>
-              As far as deactivating trigger points and reducing symptoms are
-              concerned, trigger-point injections (TPI) are among the most
-              effective treatment options. It is possible to treat a large
-              number of muscle groups using this method, including the arms,
-              legs, lower back, and neck.It is also possible to treat
-              fibromyalgia (myofascial pain syndrome) and tension headaches as a
-              result of TPIs. TPIs can be classified into two broad categories:
-            </p>
-            <li>Manual palpation for injection</li>
-            <li>Injection guided by EMG</li>
             <blockquote>
               <i className="icofont-quote-left"></i>
-              To learn more about our fort worth trigger point injections
-              treatment services, give us a call at 469-562-4188 or contact us
-              online today.
+              To learn more about our hillsboro genicular nerve block treatment
+              services, give us a call at{" "}
+              <a href="tel:+14695624188">469-562-4188</a> or{" "}
+              <a href="/contact-and-location/">contact us online</a> today.
             </blockquote>
-            <h2>Trigger Point Injections</h2>
+            <h2>Trigger Points: What Are They?</h2>
             <p>
-              Injections of trigger points include an anesthetic. As an
-              anti-inflammatory agent, they may also use corticosteroid (or
-              cortisone) medications. Pain can be managed with trigger point
-              injections, among various types of corticosteroid injections.
-              Others include:
+              An injury or excessive use of muscles may result in trigger points
+              developing in tight bands of muscles. A condition known as
+              myofascial pain syndrome is characterized by persistent and
+              increasing muscle pain over time. The trigger points occur in
+              tight bands of muscle, causing pain both at the knot and
+              throughout the muscle. Among the most common causes of chronic
+              pain, including those in the jaw, head, shoulders, neck, back, and
+              other areas, myofascial pain syndrome is the most common.
+            </p>
+            <p>
+              When muscle tissue is unable to relax and function normally,
+              myofascial trigger points develop. You may feel knots in the
+              affected muscle if you rub it. A sensitive muscle trigger point
+              may result in persistent neck tension, resulting in a decreased
+              range of motion and an accompanying dull ache. Overuse or sudden
+              stress can cause trigger points to develop in your muscles. In the
+              neck, they are generally found in the following muscles:
+            </p>
+            <li>
+              <b>Rhomboid:</b> It is the rhombic muscles that connect the
+              shoulder blades to the rib cage and spine of the upper back, which
+              permits you to maintain an upright posture. The trigger points of
+              the rhombic muscles are found under the neck, between the spine
+              and the shoulder blades.
+            </li>
+            <li>
+              <b>Trapezius:</b> Located in the upper back, shoulders, and neck,
+              the trapezius is a large muscle group. At the back of the neck and
+              along the top of the shoulders, you may feel a trigger point in
+              the trapezius.
+            </li>
+            <li>
+              <b>Levator Scapulae:</b> Trigger points in this muscle are located
+              at the back and side of your neck.
+            </li>
+            <h2>How Does Trigger Point Injection Work?</h2>
+            <p>
+              This type of therapy involves injecting a needle into a specific
+              area of pain in a muscle (trigger point). A doctor's office at
+              <Link href="/contact-locations/cleburne/">
+                pain relief clinic Cleburne
+              </Link>{" "}
+              can perform this procedure without sedation. Most injections
+              contain only local anesthetics. As the patient's position changes
+              during the procedure, he or she may lie or sit.
+            </p>
+            <li>
+              <b>Identifying Such Trigger Points:</b> First, your physician will
+              palpate the muscle and identify the areas that are painful. Once
+              your physician has identified such trigger points, he or she will
+              inject them.
+            </li>
+            <li>
+              <b>Identifying The Underlying Cause:</b> Trigger points cannot be
+              diagnosed with imaging because they do not appear on x-rays or
+              MRIs. However, these tests may be useful if an underlying
+              condition is contributing to the trigger point.
+            </li>
+            <li>
+              <b>Injections Made At Trigger Points:</b> It may be necessary to
+              administer more than one injection depending on the number of
+              trigger points identified. One doctor may inject several trigger
+              points during a single appointment. It takes only a few minutes to
+              complete the procedure.
+            </li>
+            <h2>How Do Trigger Point Injections Work?</h2>
+            <p>
+              A blockage of pain receptors within the nerves surrounding the
+              muscle occurs as a result of the injection of anesthetic
+              medication into the muscle. As a result, the brain will receive
+              fewer pain signals. By using steroid medication, you can reduce
+              inflammation and swelling around the nerves, reducing pain. A
+              needle may even be able to provide relief on its own without any
+              medication on account of its mechanical properties. Patients who
+              are allergic to anesthetic medications may benefit from this
+              procedure, called "needling," by separating, relaxing, and
+              lengthening muscle fibers. For patients with painful trigger
+              points,{" "}
+              <Link href="/contact-locations/richardson/">
+                Richardson pain management
+              </Link>{" "}
+              provides comprehensive care.
+            </p>
+            <h2>Why You Might Need Trigger Point Injection</h2>
+            <p>
+              There are many reasons why trigger point injections may be a good
+              option for treating your{" "}
+              <Link href="/conditions-we-treat/neck-pain/">neck pain</Link>, as
+              they can treat a wide array of muscles throughout the body. There
+              are several different ways to treat trigger points, including
+              treating them in the neck, lower back, arms, and legs. By using
+              this method, you would be able to relieve the pain in these areas.
+            </p>
+            <p>
+              It has been shown that trigger point injections can be effective
+              in treating neck pain and inflammation, as well as tension
+              headaches and fibromyalgia. In order to alleviate this chronic
+              pain, you may consider this treatment for the purpose of
+              alleviating some of its potential benefits for myofascial pain
+              syndrome. Nevertheless, the effectiveness of these treatments has
+              not been determined, so you may wish to consider them as a
+              possible treatment for myofascial pain. If you have persistent
+              neck pain that doesn't go away for over a week, see your doctor.
+              By consulting with <Link href="/">Premier Pain Management</Link>,
+              individuals can regain health through comprehensive treatment and
+              diagnosis guidelines.
+            </p>
+            <h2>Are There Any Risks?</h2>
+            <p>
+              It is generally safe to inject trigger points and there are rarely
+              any complications or side effects associated with this procedure.
+              Typically, side effects are minor and include:
             </p>
             <div className="row">
               <div className="col-6">
-                <li>Peripheral Joint Injections</li>
-                <li>Nerve Blocks</li>
+                <li>Anxiety</li>
+                <li>skin Irritation</li>
               </div>{" "}
               <div className="col-6">
-                <li>Epidural Injections</li>
-                <li>Facet Joint Injections</li>{" "}
+                <li>Slight Bleeding</li>
               </div>
             </div>
-            <h2>Who Should Receive A Trigger Point Injection?</h2>
-            <p>
-              Trigger point injections Fort Worth may be effective if you have
-              tried medication, massage therapy, heat therapy, myofascial
-              release, and physical therapy without success. It is common to use
-              physical therapy and stretching exercises in combination with
-              trigger point injections Richardson to relieve some of the pain
-              that has been caused by trigger points. In particular, trigger
-              point injections North Richland Hills can be beneficial in
-              reducing pain in individuals who cannot complete physical therapy
-              or stretch because of intense pain. Physical therapy can be made
-              more effective through trigger point injections. Before any
-              trigger point injections are recommended by a healthcare provider,
-              a thorough physical examination will be conducted. You may also
-              experience pain as a result of the following factors:
-            </p>
+            <p>The following side effects are less common:</p>
             <div className="row">
               <div className="col-6">
-                <li>Muscle strain</li>
-                <li>
-                  Several disorders of the spine can cause back pain, including
-                  herniated disks, degenerative arthritis and spinal stenosis.
-                </li>
+                <li>An injury to the muscles or nerves</li>
+                <li>Muscle spasms</li>
               </div>{" "}
               <div className="col-6">
-                <li>A pinched nerve can cause radiculopathy (pain)</li>
-                <li>Structural causes of pain</li>{" "}
+                <li>An infection of the skin</li>
               </div>
             </div>
-            <h2>Trigger Point Injection Preparation</h2>
             <p>
-              It is recommended that you refrain from eating solid foods for
-              four hours prior to the procedure. To induce mild sedation,
-              patients should drink clear liquids such as coffee, water, tea, or
-              soda prior to the procedure. In order to achieve mild sedation,
-              patients are advised to drink water, tea, coffee, or soda before
-              the procedure. The night before the procedure, you should wear
-              comfortable, loose clothing and bathe or take a shower. When a
-              patient is sedated, a friend or relative should drive them home
-              after their procedure. There should be no lasting side effects
-              from the injection, despite the discomfort initially caused by it.
-              The result should be a significant reduction in pain or the
-              elimination of it altogether.
+              Pain flare-ups may occur after injections for some individuals.
+              This condition is usually treated with cold packs and
+              over-the-counter (OTC) pain relievers. The use of trigger point
+              injections may not be appropriate if you have an active infection
+              in the area being treated or if you are afraid of needles.
             </p>
-            <h2>After Trigger Point Injections, Returning Home</h2>
-            <li>
-              If you are unable to drive after discharge, please arrange for
-              someone to drive you home.
-            </li>
-            <li>
-              You should rest for a few hours upon returning home and then
-              slowly resume your normal activities.
-            </li>
-            <li>
-              It may take up to a week for the pain to subside in most cases,
-              but it usually subsides within a few days.
-            </li>
-            <li>
-              It may take up to 10 days for the steroid's effects to become
-              apparent after injection. The injection site may experience
-              bruising or stiffness.
-            </li>
-            <li>
-              Your level of activity should gradually increase while you monitor
-              your pain closely.
-            </li>
-            <li>Occasionally, patients may require follow-up injections.</li>
-            <h2>
-              What Is The Level Of Pain Associated With Trigger Point
-              Injections?
-            </h2>
+            <h2>The Bottom line</h2>
             <p>
-              The healthcare provider may need to locate the trigger point
-              manually before injecting it, which may cause some pain. During
-              the insertion of the needle and medication into your body, you may
-              feel stinging or burning sensations. When a trigger point gets
-              touched by the needle tip, there may be a temporary increase in
-              pain. Despite being uncomfortable, this is a good indication that
-              the needle is positioned correctly.
-            </p>
-            <h2>Summary</h2>
-            <p>
-              Some of the conditions that can benefit from trigger point
-              injections Hilsboro include fibromyalgia, myofascial pain
-              syndrome, and tension headaches. A local anesthetic injection,
-              botulinum toxin or corticosteroids may be used to administer local
-              anesthesia. Directly into the affected muscles,they are
-              administered by doctors or healthcare providers. Sometimes,
-              trigger point injections can relieve immediate pain, but sometimes
-              they don't. Furthermore, if you are interested in learning more
-              about the risks and benefits of this treatment, you should consult
-              your physician. Let's schedule an appointment.
-            </p>
-            <h2>Premier Pain Centers</h2>
-            <p>
-              Premier Pain Centers, which offers high quality medical care to
-              patients suffering from severe muscle pain in the United States,
-              is a medical facility that treats patients suffering from severe
-              muscle pain. Providing our guests with high-quality service
-              ensures their comfort and peace. The mission of our practice is to
-              provide our patients with highly skilled, knowledgeable, and
-              competent physicians who are capable of treating serious
-              pain-related conditions successfully. Additionally, we provide our
-              clients with expert therapy management services in addition to
-              expert medical administration, interventional pain treatment,
-              physical therapy, and therapy management. Dr Ali pain management
-              specialist who specializes in helping patients understand and
-              manage the causes of pain.
+              Many methods are available for relieving neck pain, including
+              trigger point injections. You may receive a local anesthetic
+              and/or a steroid injection into your muscles for the purpose of
+              alleviating pain and improving function. You can ask your doctor
+              if trigger point injections do not provide immediate relief for
+              you. If trigger point injections do not relieve your neck pain,
+              your doctor may be able to recommend alternative treatment
+              options. Our{" "}
+              <Link href="/contact-locations/lancaster/">
+                Lancaster spine and pain clinic
+              </Link>{" "}
+              can treat a variety of conditions that can result in trigger
+              points.
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
-              Give us a call at 469-562-4188 or contact us online today to
-              schedule an appointment for trigger point injections in Lancaster,
-              TX and the surrounding areas.
+              Give us a call at <a href="tel:+14695624188">469-562-4188</a> or
+              contact us online today to{" "}
+              <Link href="/appointment/">schedule an appointment</Link> for
+              genicular nerve block treatment in lancaster, TX and the
+              surrounding areas.
             </blockquote>
           </div>
         </div>
