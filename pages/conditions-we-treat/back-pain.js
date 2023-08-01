@@ -12,14 +12,14 @@ const DoctorDetails = () => {
   return (
     <>
       <Head>
-        <title>Back Pain Specialists Near Me In Lancaster</title>
+        <title>Back Pain Specialists Near Me In Fort Worth</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}conditions-we-treat/back-pain`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}conditions-we-treat/back-pain/`}
         />
         <meta
           name="description"
-          content="Premier Pain Centers in Dallas offers relief from back pain with state-of-the-art treatments. Our team of spine specialists create customized treatment plans."
+          content="Contact Premier Pain Centers today if you need treatment for back pain in Richardson, Fort Worth, or the surrounding areas. We offer same-day appointments."
         />
         <meta content="text/html; charset=utf-8" httpEquiv="Content-Type" />
         <meta content="initial-scale=1" name="viewport" />

@@ -21,8 +21,11 @@ const ServiceDetailsContent = () => {
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
-              Call us at 469-562-4188 or contact us online to schedule an
-              appointment.
+              To learn more about our Cleburne shoulder pain treatment services,
+              give us a call at <a href="tel:+14695624188">
+                469-562-4188
+              </a> or <Link href="/contact-locations/">contact us online</Link>{" "}
+              today.
             </blockquote>
             <p>
               <b>The most common causes for knee pain include:</b>
@@ -85,7 +88,13 @@ const ServiceDetailsContent = () => {
               this condition. Your shoulder may be most painful when you move it
               if you have bursitis.
             </li>
-            <p>Other causes of shoulder Pain Decatur are:</p>
+            <p>
+              Other causes of{" "}
+              <Link href="/contact-locations/decatur/">
+                shoulder Pain Decatur
+              </Link>{" "}
+              are:
+            </p>
             <li>
               <b>Osteoarthritis</b>: Degenerative joint disease is the most
               common form of arthritis. In addition to your shoulders, other
@@ -96,7 +105,10 @@ const ServiceDetailsContent = () => {
             <li>
               <b>Rheumatoid Arthritis</b>: As a result of this condition, your
               immune system attacks the protective lining of your
-              joints.Additionally, you may experience Shoulder Pain Richardson
+              joints.Additionally, you may experience{" "}
+              <Link href="/contact-locations/richardson/">
+                Shoulder Pain Richardson
+              </Link>{" "}
               and stiffness as a result of this condition.
             </li>
             <li>
@@ -106,9 +118,12 @@ const ServiceDetailsContent = () => {
               another organ.
             </li>
             <li>
-              <b>Heart Attack</b>: If you experience Shoulder Pain North
-              Richland Hills , difficulty breathing, or a tight feeling in your
-              chest, you should seek immediate medical assistance.
+              <b>Heart Attack</b>: If you experience{" "}
+              <Link href="/contact-locations/north-richland-hills/">
+                Shoulder Pain North Richland Hills
+              </Link>{" "}
+              , difficulty breathing, or a tight feeling in your chest, you
+              should seek immediate medical assistance.
             </li>
             <li>
               <b>Tendinitis</b>: Inflammation of the rotator cuff occurs when
@@ -130,14 +145,17 @@ const ServiceDetailsContent = () => {
             </li>
             <h2>When to Contact a Medical Professional</h2>
             <p>
-              The sudden onset of left shoulder Pain Lancaster may be indicative
-              of a heart attack. If you experience sudden pressure or crushing
-              pain in your shoulder, or if you experience shortness of breath,
-              dizziness, or sweating, you should contact 911 or your local
-              emergency number. When your shoulder is swollen, bruised, or
-              bleeding after a severe injury, go to the hospital's emergency
-              room. If you experience any of the following symptoms, please
-              contact your healthcare provider:
+              The sudden onset of left{" "}
+              <Link href="/contact-locations/lancaster/">
+                shoulder Pain Lancaster
+              </Link>{" "}
+              may be indicative of a heart attack. If you experience sudden
+              pressure or crushing pain in your shoulder, or if you experience
+              shortness of breath, dizziness, or sweating, you should contact
+              911 or your local emergency number. When your shoulder is swollen,
+              bruised, or bleeding after a severe injury, go to the hospital's
+              emergency room. If you experience any of the following symptoms,
+              please contact your healthcare provider:
             </p>
             <li>
               Shoulder pain Farmers Branch with fever, redness or swelling
@@ -150,7 +168,12 @@ const ServiceDetailsContent = () => {
             <li>Shoulder swelling</li>
             <li>Shoulder skin that is red or blue in color</li>
             <h2>Treating Shoulder Pain</h2>
-            <p>Shoulder pain Corsicana can be treated in a variety of ways.</p>
+            <p>
+              <Link href="/contact-locations/corsicana/">
+                Shoulder pain Corsicana
+              </Link>{" "}
+              can be treated in a variety of ways.
+            </p>
             <li>
               <b>Physiotherapy</b>: Physical therapy and modification of
               activities that aggravate your pain are among the first treatment
@@ -161,11 +184,11 @@ const ServiceDetailsContent = () => {
               to resume your previous activities whenever necessary.
             </li>
             <li>
-              <b>Heat and cold packs</b> are capable of providing temporary
+              <b>Heat and cold packs: </b> Are capable of providing temporary
               relief from pain and stiffness.
             </li>
             <li>
-              <b>Medication </b>Hillsboro such as paracetamol,
+              <b>Medication:</b> Hillsboro such as paracetamol,
               anti-inflammatories, and low dose paracetamol can help control
               pain while maintaining and regaining movement and function. Please
               consult your physician if you have high blood pressure, kidney
@@ -190,14 +213,18 @@ const ServiceDetailsContent = () => {
             </p>
             <h2>Be Persistent And Seek Care</h2>
             <p>
-              Even though shoulder pain Waxahachie is common, it is imperative
-              that they are treated as quickly as possible. Your nerves will
-              usually heal and all symptoms will be relieved in most cases. Do
-              not stop physical therapy or other treatments if you no longer
-              experience symptoms. A numb shoulder will not occur again as a
-              result of this procedure. Be aware of your symptoms and do not
-              ignore them. You should see a doctor if you experience numbness in
-              your shoulder, arm, hand, neck, upper back, or shoulder blade.
+              Even though{" "}
+              <Link href="/contact-locations/waxahachie/">
+                shoulder pain Waxahachie
+              </Link>{" "}
+              is common, it is imperative that they are treated as quickly as
+              possible. Your nerves will usually heal and all symptoms will be
+              relieved in most cases. Do not stop physical therapy or other
+              treatments if you no longer experience symptoms. A numb shoulder
+              will not occur again as a result of this procedure. Be aware of
+              your symptoms and do not ignore them. You should see a doctor if
+              you experience numbness in your shoulder, arm, hand, neck, upper
+              back, or shoulder blade.
             </p>
             <h2>Premier Pain Centers</h2>
             <p>
@@ -209,15 +236,18 @@ const ServiceDetailsContent = () => {
               physicians who can treat their pain effectively. In addition to
               interventional pain management, physical therapy, and therapy
               management, we offer comprehensive patient care. A comprehensive
-              range of evidence-based treatments is available at Dr Ali Pain
-              Management for knee conditions such as inner knee pain caused by
-              running. If you would like to schedule an appointment , please do
-              not hesitate to contact us.
+              range of evidence-based treatments is available at{" "}
+              <Link href="/meet-our-team/rao-k-ali/">
+                Dr Ali Pain Management
+              </Link>{" "}
+              for knee conditions such as inner knee pain caused by running. If
+              you would like to schedule an appointment , please do not hesitate
+              to contact us.
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
-              Schedule a same-day appointment —contact us online or call
-              469-562-4188 today.
+              Schedule a same day appointment — contact us online or call{" "}
+              <a href="tel:+14695624188">469-562-4188</a> today.
             </blockquote>
           </div>
         </div>

@@ -69,7 +69,7 @@ const ServiceDetailsContent = () => {
             <h2>How Does Trigger Point Injection Work?</h2>
             <p>
               This type of therapy involves injecting a needle into a specific
-              area of pain in a muscle (trigger point). A doctor's office at
+              area of pain in a muscle (trigger point). A doctor's office at{" "}
               <Link href="/contact-locations/cleburne/">
                 pain relief clinic Cleburne
               </Link>{" "}

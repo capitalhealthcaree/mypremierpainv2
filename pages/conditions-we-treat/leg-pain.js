@@ -14,16 +14,15 @@ const DoctorDetails = () => {
         <title>Leg Pain And Swelling Specialists in Cleburne, TX</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}conditions-we-treat/leg-pain`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}conditions-we-treat/leg-pain/`}
         />
         <meta
           name="description"
-          content="At Premier Pain Centers , we specialize in providing comprehensive and effective treatments for leg pain and swelling. Contact us to schedule an appointment."
+          content="Contact Premier Pain Centers today if you need treatment for leg pain in Richardson, Fort Worth, or the surrounding areas. We offer same-day appointments."
         />
         <meta content="text/html; charset=utf-8" httpEquiv="Content-Type" />
         <meta content="initial-scale=1" name="viewport" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-        <meta name="format-detection" content="telephone=no" />
       </Head>
       <Navbar />
 

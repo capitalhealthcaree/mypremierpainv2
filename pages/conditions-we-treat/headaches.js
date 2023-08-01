@@ -14,16 +14,15 @@ const DoctorDetails = () => {
         <title>Headaches Specialists Doctors in Cleburne, TX</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}conditions-we-treat/headaches`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}conditions-we-treat/headaches/`}
         />
         <meta
           name="description"
-          content="Dr. Rao K. Ali is a board-certified headaches specialist in Dallas, TX. He offers comprehensive evaluation and treatment for all types of headaches."
+          content="If you suffer from headaches and migraines, contact Premier Pain Centers in Richardson, Fort Worth, and the surrounding areas to schedule an appointment."
         />
         <meta content="text/html; charset=utf-8" httpEquiv="Content-Type" />
         <meta content="initial-scale=1" name="viewport" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-        <meta name="format-detection" content="telephone=no" />
       </Head>
       <Navbar />
       <PageBanner
@@ -34,7 +33,7 @@ const DoctorDetails = () => {
         bgImage="/images/conditions-we-treat/headaches/head.jpg"
       />
 
-      <div className="doctor-details-area pt-50 pb-70">
+      <div className="doctor-details-area pt-50 pb-50">
         <div className="container-fluid p-lg-5">
           <div className="row">
             <div className="col-lg-4">

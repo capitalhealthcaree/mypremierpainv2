@@ -15,16 +15,15 @@ const DoctorDetails = () => {
         <title>Electrodiagnostic Testing | Pain Management Device</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}treatments/electrodiagnostic`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}treatments/electrodiagnostic/`}
         />
         <meta
           name="description"
-          content="When a patient uses the Pronox system, he or she receives a single-use tube which is connected to the device. Contact us today to schedule an appointment!"
+          content="Electrodiagnostic is an important tool for pain management in Richardson , Texas. A damaged nerve or muscle will transmit a weaker and slower electrical signal."
         />
         <meta content="text/html; charset=utf-8" httpEquiv="Content-Type" />
         <meta content="initial-scale=1" name="viewport" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-        <meta name="format-detection" content="telephone=no" />
       </Head>
       <Navbar />
       <PageBanner

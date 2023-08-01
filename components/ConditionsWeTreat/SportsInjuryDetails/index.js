@@ -27,8 +27,10 @@ const ServiceDetailsContent = () => {
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
-              Call us at 469-562-4188 or contact us online to learn more about
-              our Richardson sports injury treatment.
+              To learn more about our Hillsboro sports injury treatment
+              services, give us a call at{" "}
+              <a href="tel:+14695624188">469-562-4188</a> or{" "}
+              <Link href="/contact-locations/">contact us online</Link> today.
             </blockquote>
             <h2>Types of Sports Injuries We Treat</h2>
             <p>
@@ -50,17 +52,90 @@ const ServiceDetailsContent = () => {
             <b>We provide treatment services for conditions such as:</b>
             <div className="row">
               <div className="col-6">
-                <li>Joint Pain</li>
-                <li>Back Pain</li>
+                <li>
+                  <Link href="/conditions-we-treat/joint-pain/">
+                    Joint Pain
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/conditions-we-treat/back-pain/">Back Pain</Link>
+                </li>
               </div>{" "}
               <div className="col-6">
-                <li>Neck Pain</li>
-                <li>Head Pain</li>{" "}
+                <li>
+                  <Link href="/conditions-we-treat/neck-pain/">Neck Pain</Link>
+                </li>
+                <li>
+                  <Link href="/conditions-we-treat/headaches/">Head Pain</Link>
+                </li>{" "}
               </div>
               <div className="col-6">
-                <li>Knee Pain</li>
+                <li>
+                  <Link href="/conditions-we-treat/knee-pain/">Knee Pain</Link>
+                </li>
               </div>{" "}
             </div>
+            <h2>What Can Cause You A Sports Injury?</h2>
+            <p>
+              Sports injuries have many causes, including Accidents, such as
+              falls. Also, Bad habits with exercise, such as not getting warm or
+              stretching as much as required, Lack of safety equipment, damaged
+              gear, or improperly worn. However, Shoes that do not fit well or
+              provide adequate support may also be the cause of sports injury.
+              However, According to our team at{" "}
+              <Link href="/contact-locations/fort-worth/">
+                Fort Worth Sports Injury Treatment
+              </Link>
+              . We came to know that Sports injuries can happen to anyone,
+              especially people:
+            </p>
+            <li>They are no longer in shape.</li>
+            <li>Do not wear appropriate protective equipment.</li>
+            <li>
+              Exercise without warming up or without normalizing body
+              temperature.
+            </li>
+            <li>
+              Participate in communication games that may involve fighting or
+              conflict.
+            </li>
+            <li>
+              Participate in activities that include jumping, running, and
+              navigating or changing direction quickly.
+            </li>
+            <h2>How Can I Diagnose My Injury?</h2>
+            <p>
+              Pain or discomfort is often felt right away after sustaining a
+              sports injury. Overuse injuries, for example, may not show any
+              symptoms until years later. Normal medical exams are typically the
+              occasion on which these wounds are discovered. With the help of
+              our team at{" "}
+              <Link href="/contact-locations/corsicana/">
+                Corsicana Sports Injury Treatment
+              </Link>
+              , This is the process your doctor will most likely go through to
+              determine whether or not you have a sports injury. Among these
+              are:
+            </p>
+            <li>
+              <b>Physical Examination:</b> The medical staff may try to
+              reposition the affected area of your body. This gives them a
+              better idea of the pace of change in the area, or the lack
+              thereof.
+            </li>
+            <li>
+              <b>Medical History:</b> This will entail asking you questions
+              regarding the circumstances surrounding your injuries, your
+              activities at the time of the incident, and your recovery thus
+              far. In addition, if this is your first visit to this doctor, they
+              may want to know more about your medical background.
+            </li>
+            <li>
+              <b>Diagnostic Imaging:</b> Medical imaging technologies such as
+              X-rays, MRIs, CT scans, and ultrasounds allow doctors and medical
+              professionals to look within the body. To confirm a suspected
+              sports injury, this is helpful.
+            </li>
             <h2>How We Treat Sports Injuries</h2>
             <p>
               Our pain management plans are tailored to the needs of each of our
@@ -82,9 +157,9 @@ const ServiceDetailsContent = () => {
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
-              If you are seeking Richardson car accident injury treatments or
-              pain management services, entrust in our staff for advanced care.
-              Call or contact us online today.
+              Call us at <a href="tel:+14695624188">469-562-4188</a> or contact
+              us online to learn more about our Richardson sports injury
+              treatment.
             </blockquote>
           </div>
         </div>

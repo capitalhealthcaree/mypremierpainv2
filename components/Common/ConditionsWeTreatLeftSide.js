@@ -16,6 +16,7 @@ const conditionsWeTreat = {
     { url: "/conditions-we-treat/knee-pain", name: "Knee Pain" },
     { url: "/conditions-we-treat/joint-pain", name: "Joint Pain" },
     { url: "/conditions-we-treat/leg-pain", name: "Leg Pain" },
+    { url: "/conditions-we-treat/hip-pain", name: "Hip Pain" },
   ],
 };
 const ConditionsWeTreatLeftSide = () => {

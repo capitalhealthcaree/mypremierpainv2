@@ -9,6 +9,19 @@ const ServiceDetailsContent = () => {
             <h2>RICHARDSON CAR ACCIDENT INJURY TREATMENT</h2>
             <h4>Providing Pain Relief</h4>
             <p>
+              Car injuries are not something to be ignored. If left untreated,
+              these injuries can lead to problems that may last longer than you
+              can imagine. The problem that is commonly reported, lies in the
+              lack of diagnosis and treatment of accidents. However, most people
+              realize they have a problem long after the accident and during
+              this time, the severity of the injury is much greater. Our premier
+              pain centers will guide you to the best{" "}
+              <Link href="/contact-locations/richardson/">
+                richardson car accident injury treatment
+              </Link>
+              .
+            </p>
+            <p>
               The impact of a car accident can extend well beyond the moment
               when your vehicle collides with another. Many people who have been
               hurt in a car accident experience long-lasting fear and anxiety,
@@ -28,10 +41,50 @@ const ServiceDetailsContent = () => {
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
-              Give our office a call today at 469-562-4188 or contact us online
-              to learn more about our Richardson car accident injury treatments
-              or schedule a same-day appointment.
+              To learn more about our North Richland Hills car accident injury
+              treatment services, give us a call at{" "}
+              <a href="tel:+14695624188">469-562-4188</a> or{" "}
+              <Link href="/contact-locations/">contact us online</Link> today.
             </blockquote>
+            <h2>What Does A Car Accident Feel Like?</h2>
+            <p>
+              Some accident victims experience symptoms during the hours of
+              injury while others may feel better at first, only to find
+              themselves weakened by the severe pain and intensity of whiplash
+              days or weeks later. That is why we recommend that you find a
+              chiropractor near you to deal with any future pain. However, our
+              team at{" "}
+              <Link href="/contact-locations/cleburne/">
+                Cleburne Car Accident Injury Treatment
+              </Link>
+              . However, Common symptoms include:
+            </p>
+            <div className="row">
+              <div className="col-6">
+                <li>Constant Headaches</li>
+                <li>Inability to move the head</li>
+              </div>{" "}
+              <div className="col-6">
+                <li>Blurry or distorted vision</li>
+                <li>Sleep difficulties</li>{" "}
+              </div>
+              <div className="col-6">
+                <li>Decreased focus</li>
+                <li>General mental fog</li>{" "}
+              </div>
+              <div className="col-6">
+                <li>Lack of mobility</li>
+                <li>Worsening neck pain and stiffness</li>{" "}
+              </div>
+              <div className="col-6">
+                <li>Daytime fatigue</li>
+                <li>Numbness in arms</li>{" "}
+              </div>
+              <div className="col-6">
+                <li>Tingling in the hands and fingers</li>
+                <li>Problems focusing on tasks</li>{" "}
+              </div>
+            </div>
             <h2>Why You Should See a Doctor After a Car Accident</h2>
             <p>
               Car accidents often result in severe injuries, but this is not
@@ -53,12 +106,22 @@ const ServiceDetailsContent = () => {
             </b>
             <div className="row">
               <div className="col-6">
-                <li>Joint Pain</li>
-                <li>Back Pain</li>
+                <li>
+                  <Link href="/conditions-we-treat/joint-pain/">
+                    Joint Pain
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/conditions-we-treat/back-pain/">Back Pain</Link>
+                </li>
               </div>{" "}
               <div className="col-6">
-                <li>Neck Pain</li>
-                <li>Head Pain</li>{" "}
+                <li>
+                  <Link href="/conditions-we-treat/neck-pain/">Neck Pain</Link>
+                </li>
+                <li>
+                  <Link href="/conditions-we-treat/headaches/">Head Pain</Link>
+                </li>{" "}
               </div>
             </div>
             <h2>
@@ -82,13 +145,22 @@ const ServiceDetailsContent = () => {
               With same-day appointments, multilingual services in English,
               Spanish, Hindi, and the assistance of friendly and experienced
               professionals, the Premier Pain Centers team is here to help you
-              get the relief you are looking for.
+              get the relief you are looking for. We really care for our
+              patients and created a helpful, stress-free experience for all our
+              patients. We at{" "}
+              <Link href="/contact-locations/fort-worth/">
+                Fort Worth Car Accident Injury Treatment
+              </Link>{" "}
+              understand how frustrating living with injury pain can be.
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
               If you are seeking Richardson car accident injury treatments or
               pain management services, entrust in our staff for advanced care.
-              Call or contact us online today.
+              Call or <Link href="/contact-locations/">
+                contact us online
+              </Link>{" "}
+              today.
             </blockquote>
           </div>
         </div>

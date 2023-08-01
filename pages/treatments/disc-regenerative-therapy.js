@@ -14,7 +14,7 @@ const DoctorDetails = () => {
         <title>Disc Regenerative Therapy Specialists In Corsicana</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}treatments/disc-regenerative-therapy`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}treatments/disc-regenerative-therapy/`}
         />
         <meta
           name="description"

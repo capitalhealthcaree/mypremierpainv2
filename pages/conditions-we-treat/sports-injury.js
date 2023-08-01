@@ -14,11 +14,11 @@ const DoctorDetails = () => {
         <title>Sports Injury Treatment Clinic in Cleburne, TX</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}conditions-we-treat/sports-injury`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}conditions-we-treat/sports-injury/`}
         />
         <meta
           name="description"
-          content="If you're looking for a sports injury specialist in the Dallas, TX area, look no further than our clinic. Schedule an appointment today and get relief from sports injury."
+          content="Contact Premier Pain Centers if you need treatment for a sports injury in Richardson or throughout the surrounding area. Schedule an appointment today and get relief from sports injury."
         />
         <meta content="text/html; charset=utf-8" httpEquiv="Content-Type" />
         <meta content="initial-scale=1" name="viewport" />
@@ -33,7 +33,7 @@ const DoctorDetails = () => {
         bgImage="/images/conditions-we-treat/sports-injury/sports-injury-treatment-dallas.jpg"
       />
 
-      <div className="doctor-details-area pt-50 pb-70">
+      <div className="doctor-details-area pt-50 pb-50">
         <div className="container-fluid p-lg-5">
           <div className="row">
             <div className="col-lg-4">

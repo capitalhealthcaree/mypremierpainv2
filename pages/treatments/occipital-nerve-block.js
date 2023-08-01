@@ -23,7 +23,6 @@ const DoctorDetails = () => {
         <meta content="text/html; charset=utf-8" httpEquiv="Content-Type" />
         <meta content="initial-scale=1" name="viewport" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-        <meta name="format-detection" content="telephone=no" />
       </Head>
       <Navbar />
       <PageBanner

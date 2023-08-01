@@ -11,15 +11,14 @@ const DoctorDetails = () => {
   return (
     <>
       <Head>
-        <title>Chronic Knee Pain Specialist Near Me</title>
+        <title>Chronic Knee Pain Specialists Near Me</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}conditions-we-treat/knee-pain`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}conditions-we-treat/knee-pain/`}
         />
         <meta
           name="description"
-          content="Our team of knee pain doctors is here to help.  We offer comprehensive diagnosis and treatment plans designed to reduce pain and improve mobility."
-        />
+          content="Do you need knee pain treatment in Richardson? Contact Premier Pain Centers to schedule an appointment with our experienced specialists doctors."/>
         <meta content="text/html; charset=utf-8" httpEquiv="Content-Type" />
         <meta content="initial-scale=1" name="viewport" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -34,7 +33,7 @@ const DoctorDetails = () => {
         bgImage="/images/conditions-we-treat/knee-pain/knee.jpg"
       />
 
-      <div className="doctor-details-area pt-50 pb-70">
+      <div className="doctor-details-area pt-50 pb-50">
         <div className="container-fluid p-lg-5">
           <div className="row">
             <div className="col-lg-4">

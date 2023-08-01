@@ -1,11 +1,10 @@
 import React from "react";
 import Link from "next/link";
 import Head from "next/head";
+import AppointmentForm from "../components/Home/AppointmentForm";
 import Navbar from "../components/_App/Navbar";
 import PageBanner from "../components/Common/PageBanner";
-import OurServices from "../components/Home/OurServices";
 import OurDoctors from "../components/Common/OurDoctors";
-import FeedbackSlider from "../components/Home/FeedbackSlider";
 import LatestBlogPost from "../components/Common/LatestBlogPost";
 import Footer from "../components/_App/Footer";
 
@@ -25,7 +24,6 @@ const About = () => {
         <meta content="text/html; charset=utf-8" httpEquiv="Content-Type" />
         <meta content="initial-scale=1" name="viewport" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-        <meta name="format-detection" content="telephone=no" />
       </Head>
       <Navbar />
       {/*  */}
@@ -71,9 +69,8 @@ const About = () => {
           </div>
         </div>
       </div>
-      {/* <OurServices /> */}
       <OurDoctors />
-      {/* <FeedbackSlider /> */}
+      <AppointmentForm />
       <LatestBlogPost />
 
       <Footer />

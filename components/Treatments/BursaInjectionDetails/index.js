@@ -9,30 +9,32 @@ const ServiceDetailsContent = () => {
             <h2>EVERYTHING YOU NEED TO KNOW ABOUT</h2>
             <h4>Bursa Injection</h4>
             <p>
-              In addition to lubricating your muscles and tendons, the bursa
-              also facilitates the movement of your bones. Several types of
-              bursae exist throughout the body, including those located in the
-              shoulders, elbows, hips, knees, and many others. Bursa injections
-              can provide relief from pain in these areas.
+              If injections do not relieve your symptoms of bursitis, surgery
+              may be necessary. Steroid injections may provide relief from
+              bursitis symptoms including shoulder bursitis, hip bursitis, and
+              other types of bursitis.
             </p>
+            <h2>What is a Bursa Injection?</h2>
             <p>
-              For different types of joint pain, facet joint injection SI Joint
-              Injections are available. There is a swelling of the bursae that
-              can result in joint pain when there is bursitis. It is the most
-              common type of bursitis to affect the hip, also referred to as
-              trochanteric bursitis. The injection of steroid (synthetic
-              cortisone) into the bursa can result in pain and inflammation,
-              which can be alleviated by bursa injections. There are several
-              bursae within the human body. Furthermore, it is the bursae, a
-              small fluid-filled sac, that cushions joints, muscles, and tendons
-              by reducing friction between them. Inflammation of these areas can
-              cause severe joint pain.
+              A bursa is a soft tissue that is located between two structures,
+              such as bones, muscles, tendons, or skin. It is because of this
+              space that structures may slide over each other. Several types of
+              soft tissues surround and connect the body's internal organs and
+              bones. Among the most common places to inject bursae are in the
+              shoulders (the subacromial bursa) and in the hips (the
+              trochanteric bursa). However, bursal injections can benefit other
+              parts of the body as well. In the elbow, sacral bursas and
+              olecranon bursae are common. Ultrasound commonly places a needle
+              directly into the bursa. Local anesthesia is administered in
+              conjunction with injections of corticosteroid ('cortisone' or
+              'steroid').
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
               To learn more about our Corsicana Bursa Injection treatment
-              services, give us a call at 469-562-4188 or contact us online
-              today.
+              services, give us a call at{" "}
+              <a href="tel:+14695624188">469-562-4188</a> or{" "}
+              <a href="/contact-and-location/">contact us online</a> today.
             </blockquote>
             <h2>Who Is a Good Candidate?</h2>
             <p>
@@ -55,220 +57,154 @@ const ServiceDetailsContent = () => {
             <li>Plantar fasciitis.</li>
             <li>Injuries to the knees and elbows.</li>
             <li>Syndrome of carpal tunnel.</li>
-            <h2>How Do Bursa Injections Treat Bursitis?</h2>
+            <h2>Bursa Injections Treat What Conditions?</h2>
             <p>
-              Approximately 160 bursae can be found on the body. Any of these
-              joints may be affected by bursitis, although inflammation occurs
-              most commonly in joints that are repeatedly used. The purpose of
-              steroid injections is to treat:
+              Bursitis is an inflammation of the bursa occurring at multiple
+              locations throughout the body. The most common places where
+              bursitis occurs are the hips, shoulders, and knees. A painful
+              sensation may be felt in the outer thigh, which is caused by
+              inflammation of the trochanteric bursa, which is situated outside
+              the hip. Pressure usually causes more severe pain leading to{" "}
+              <Link href="/conditions-we-treat/joint-pain/">joint pain</Link>.
+              Bursitis in the ischial region, also referred to as chronic
+              ischiogluteal bursitis and Weaver's bottom. Symptoms include pain
+              and inflammation of the bursa that surrounds the bones on which we
+              sit. As a result, patients who sit down for extended periods of
+              time typically complain of buttock pain.
             </p>
             <p>
-              Although there is no certain answer for what causes migraines,
-              experts have hypothesized that blood flow in the brain plays a
-              role. Some people may be predisposed to experiencing migraines due
-              to genetics and other factors; for example, women are three times
-              more likely to experience migraines than men.
+              As the name suggests, pes anserine bursitis refers to an
+              inflammation of the bursa on the inside of the knee. As a result
+              of bursitis, the nearby tendons are irritated and are compressed.
+              Typically, the pain is more severe while walking, and the knees
+              and shin bones are the areas that are most affected. The
+              subacromial bursa is affected by subacromial bursitis. The purpose
+              of this bursa is to reduce friction between the shoulder bones and
+              the rotator cuff tendons. Sleeping on the shoulder at night and
+              using the arm above the head can exacerbate the pain.
             </p>
-            <li>Bursitis of the hip (trochanteric).</li>
-            <li>Bursitis of the shoulder (subacromial).</li>
-            <li>Bursitis of the elbow (olecranon).</li>
-            <li>Symptoms of hamstring bursitis or buttock bursitis.</li>
-            <li>
-              Bursitis of the knee (most commonly the prepatellar bursitis).
-            </li>
-            <h2>What Are The Risks?</h2>
+            <h2>When A Bursa Injection Is Performed, What Happens?</h2>
             <p>
-              Bursa injections Fort worth have a very low complication rate;
-              however, they can cause swelling, bruising, or inflammation at the
-              injection site. Steroid medication may also cause the following
-              side effects:
+              It is generally a quick procedure to administer a bursa injection,
+              typically taking less than ten minutes to complete, says{" "}
+              <Link href="/contact-locations/lancaster/">
+                spine and pain clinic Lancaster
+              </Link>
+              . You will be able to return home shortly after your healthcare
+              provider administers an injection at sites such as the hip, knee,
+              or shoulder by using ultrasound technology. Your provider will
+              perform the following during a bursa injection:
             </p>
-            <div className="row">
-              <div className="col-6">
-                <li>Elevated heart rate</li>
-                <li>Water retention</li>
-              </div>{" "}
-              <div className="col-6">
-                <li>Flushed face</li>
-                <li>Headaches</li>{" "}
-              </div>
-              <div className="col-6">
-                <li>Insomnia</li>
-                <li>Increased appetite</li>
-              </div>
-              <div className="col-6">
-                <li>Slight fever</li>
-                <li>Cramps and/or bloating in the abdomen</li>
-              </div>{" "}
-              <p>
-                As corticosteroids can cause an increase in blood sugar levels
-                (BSL) for diabetics, it is important to monitor your blood sugar
-                level for several hours after the procedure has been completed.
-                It should take a few days for all side effects to disappear
-                after the procedure.
-              </p>
-            </div>
-            <h2>What Preparation Should I Make For The Procedure?</h2>
             <li>
-              During check-in and check-out, a driver must accompany you. For
-              your procedure, you must be accompanied by your driver.
+              Provides assurance that the procedure you require is available at
+              the location you have specified.
             </li>
+            <li>Provides appropriate cleaning of the injection site.</li>
+            <li>An anesthetic is applied to the skin in order to numb it.</li>
             <li>
-              The driver can only discharge a passenger if he or she is at least
-              18 years old.
+              A thin needle is inserted into the skin in order to access an
+              inflamed bursa sac.
             </li>
-            <li>
-              In addition to any prescription and over-the-counter medications
-              you are taking, you should inform your doctor about any herbal or
-              vitamin supplements you are taking. Upon discontinuation of the
-              medication, your doctor will advise you.
-            </li>
-            <li>
-              In case you have asthma or have had an allergic reaction to dye
-              taken in for a previous radiology examination (CT scan, angiogram,
-              etc.), it is very important to inform the doctor in advance.
-              Hives, itching, difficulty breathing, and any treatment that
-              requires hospitalization are examples of symptoms of an allergic
-              reaction. The doctor may prescribe medication to prepare you for
-              the procedure.
-            </li>
-            <li>
-              Before your scheduled appointment, inform the doctor if you have a
-              cold, fever, or flu symptoms or if you have begun taking
-              antibiotics.
-            </li>
-            <h2>How will The Procedure Proceed?</h2>
-            <li>
-              The procedure is undertaken in the outpatient setting using a
-              fluoroscopy or ultrasound machine as part of the outpatient
-              procedure.
-            </li>
-            <li>
-              If your injection will take place on the side of the room, you may
-              be required to sit on the side.
-            </li>
-            <li>
-              A stretcher or a table should be used as a method of laying down
-              in the procedure room.
-            </li>
-            <li>
-              It will be necessary to monitor the patient's heart rate, blood
-              pressure, and oxygen saturation during the procedure.
-            </li>
-            <li>
-              In order to numb the skin, the doctor numbs a small area. There
-              may be some stinging or burning for a few minutes following this
-              procedure.
-            </li>
-            <li>
-              X-rays or ultrasounds are used to guide the bursa. The doctor
-              injects the anesthetic solution into the space once it has been
-              entered.
-            </li>
-            <h2>After the Procedure</h2>
-            <li>
-              It is not necessary to recover from this procedure for a long
-              period of time.
-            </li>
-            <li>
-              Most patients return to work as soon as they leave the hospital.
-            </li>
-            <li>
-              Symptoms may remain numb for up to six hours following injection.
-            </li>
-            <li>
-              It is possible that your usual symptoms will return within one or
-              two days.
-            </li>
-            <li>
-              It usually takes two to three days for steroids to take effect; in
-              some cases, it may take seven to ten days.
-            </li>
-            <li>
-              In addition, if your symptoms don't go away after a week, you
-              should see a doctor.
-            </li>
-            <li>
-              It is possible to strengthen the pain relief effect of an initial
-              injection by administering a second injection (known as
-              "stacking"). The pain relief may be temporary, but next time your
-              pain returns, additional injections will increase your relief.
-            </li>
-            <li>
-              You should inform your physician of the duration of your relief.
-            </li>
-            <li>
-              In the event that the pain does not subside, you may need to
-              consider other possible causes.
-            </li>
-            <li>
-              Moreover, treatment effects play a crucial role in determining the
-              problem and planning future treatments.
-            </li>
-            <h2>What Are The Benefits Of A Bursal Injection?</h2>
-            <li>
-              This procedure involves injecting a small dose of corticosteroid
-              and local anesthetic into the bursa in an effort to reduce any
-              inflammation that may be present in the area.
-            </li>
-            <li>This procedure should reduce pain and swelling.</li>
-            <li>
-              It is sometimes necessary to inject the bursa in order to
-              determine whether it is the cause of the pain.
-            </li>
-            <li>
-              Injections that significantly reduce pain suggest that it is a
-              bursa that caused the pain.
-            </li>
-            <li>
-              It is unlikely that your pain is arising from the bursa or
-              adjacent structures if there has been no improvement in your
-              condition. Moreover, if this is the case, the doctor you see will
-              need to investigate other causes of your symptoms.
-            </li>
-            <h2>How Does A Bursa Injection Affect The Body?</h2>
-            <li>
-              There may be different side effects and complications associated
-              with bursa injections depending on where they are administered.
-            </li>
-            <li>
-              There is no doubt that the injection of a bursa as a means of
-              treating bursitis is a safe procedure.
-            </li>
-            <li>
-              In the days following the injection, you may experience
-              discomfort, swelling, and bruising in the joint. Infection is also
-              possible.
-            </li>
-            <p>In addition, the following side effects may occur:</p>
-            <div className="row">
-              <div className="col-6">
-                <li>Headaches</li>
-                <li>Skin dimpling or discoloration</li>
-              </div>{" "}
-              <div className="col-6">
-                <li>Mild fever</li>
-              </div>
-            </div>
-            <h2>When Should I Call The Doctor?</h2>
+            <li>The bursa is injected with medications.</li>
             <p>
-              In the event that you are experiencing any of the following
-              symptoms, please seek medical attention immediately:
+              During an injection, you may feel pressure or discomfort.{" "}
+              <Link href="/contact-locations/cleburne/">
+                Pain relief center Cleburne
+              </Link>{" "}
+              uses a fresh, sterilized needle for each injection when treating
+              more than one bursa. As a result of the procedure,
             </p>
             <li>
-              The injection site may experience infection symptoms such as
-              fever, redness, and yellow discharge.
+              Recovery time following this procedure is relatively short.
+              Typically, patients can return to work the next day.
             </li>
-            <li>The treatment area is experiencing severe pain.</li>
-            <li>There is severe bleeding or bruising.</li>
             <li>
-              There is a reduction in the range of motion of the treated joint.
+              You may experience numbness following the injection for the first
+              six hours.
             </li>
+            <li>
+              It may be possible for you to experience your usual symptoms more
+              severely for a day or two.
+            </li>
+            <li>
+              Steroids usually take 2-3 days to begin producing their beneficial
+              effects. In some cases, they may take as long as 5-7 days. Please
+              consult your doctor if your symptoms do not improve after a week.
+            </li>
+            <li>
+              When a second injection is administered after the first injection
+              has produced some pain relief, the effect of the second injection
+              may be enhanced (known as "stacking"). A further injection may be
+              required if your pain returns after a few weeks or months in order
+              to enhance your pain relief.
+            </li>
+            <li>
+              You should inform your physician of the length of time that your
+              relief lasts.{" "}
+              <Link href="/contact-locations/fort-worth/">
+                Spine and pain clinic Fort Worth
+              </Link>{" "}
+              may investigate other possible causes if medication fails to
+              relieve the pain. The effects of treatment must be determined in
+              order to identify the problem and plan future treatment programs.
+            </li>
+            <h2>What Are The Risks Associated With This Procedure?</h2>
+            <p>Risks are rare. Among them are:</p>
+            <li>Allergic reaction caused by medication</li>
+            <li>Nerve damage</li>
+            <li>Injection site bruising and bleeding</li>
+            <li>
+              Pain may occur at the injection site or during the injection
+            </li>
+            <li>Acute infection</li>
+            <li>Medication is injected into a blood vessel</li>
+            <li>
+              You may experience pain that does not improve or worsens in some
+              cases
+            </li>
+            <li>
+              A temporary increase in blood sugar may also occur when diabetics
+              receive steroid injections.
+            </li>
+            <h2>
+              What Is The Duration Of The Injection And How Long Will The
+              Benefits Last?
+            </h2>
+            <p>
+              As a general rule, the procedure takes approximately 10 minutes to
+              complete, including preparation time. Immediately following
+              treatment, you should be able to feel the benefits and relief from
+              pain. Although it is difficult to determine how long and how much
+              pain relief you will experience, it may last for several days or
+              weeks. Several factors influence the outcome. Some patients do not
+              receive any benefit from the procedure, while others may
+              experience permanent relief. Your pain may be coming from the
+              bursa injected today if you experience relief immediately
+              following the procedure.
+            </p>
+            <h2>A Note From Pain Management Fort Worth</h2>
+            <p>
+              Injections of bursae are an effective method of treating bursitis.
+              Some cases include rehabilitation in addition to these
+              interventions, depending on the location of the injury. A single
+              injection can significantly reduce pain. To prevent bursitis from
+              recurring, follow your healthcare provider's instructions. An
+              individual with this condition may need to restrict activities
+              that irritate the joint, depending on the severity of the
+              condition. A supportive brace or sling may be necessary.
+              Additionally, exercises that improve flexibility and strength may
+              be beneficial. Several joints can experience inflammation of the
+              tendons adjacent to the bursae. If your symptoms persist, you
+              should discuss them with your physician. It may be necessary to
+              undergo other therapies or surgery if the injections fail.
+            </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
-              Give us a call at 469-562-4188 or contact us online today to
-              schedule an appointment for headache treatment in Lancaster, TX
-              and the surrounding areas.
+              Give us a call at <a href="tel:+14695624188">469-562-4188</a> or
+              contact us online today to{" "}
+              <Link href="/appointment/">schedule an appointment</Link> for
+              Bursa Injection treatment in Lancaster, TX and the surrounding
+              areas.
             </blockquote>
           </div>
         </div>

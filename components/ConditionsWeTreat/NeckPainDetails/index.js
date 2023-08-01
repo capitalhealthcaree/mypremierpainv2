@@ -18,26 +18,39 @@ const ServiceDetailsContent = () => {
               staff keeps up-to-date on the latest treatments and techniques to
               ensure you receive high quality care to help you recover. If you
               read this, you are probably familiar with neck pain. Whether you
-              recently woke up with a whopper crick in your neck, sustained an
-              injury, or are experiencing chronic neck pain, this helpful guide
-              can help you understand the anatomy of your cervical spine, the
-              different causes, and types of neck pain, and you'll be able to
-              know more about the common ways on Treating neck pain in
-              Richardson.
+              recently woke up with a whopper{" "}
+              <Link href="/blog/neck-pain/8-remedies-to-fix-crick-in-neck/">
+                crick in my neck
+              </Link>
+              , sustained an injury, or are experiencing chronic neck pain, this
+              helpful guide can help you understand the anatomy of your cervical
+              spine, the different causes, and types of neck pain, and you'll be
+              able to know more about the common ways on Treating{" "}
+              <Link href="/contact-locations/richardson/">
+                neck pain in Richardson
+              </Link>
+              .
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
-              Call us at 469-562-4188 or contact us online to schedule an
-              appointment.
+              To learn more about our Cleburne neck pain treatment services,
+              give us a call at <a href="tel:+14695624188">
+                469-562-4188
+              </a> or <Link href="/contact-locations/">contact us online</Link>{" "}
+              today.
             </blockquote>
             <h2>What Causes Neck Pain?</h2>
             <p>
-              Neck pain, upper back pain, and general discomfort in those areas
-              has a range of causes, from whiplash and stress-related injuries
-              to bad posture, segmental dysfunction, and problems with the discs
-              themselves. Causes for these issues vary - from acute injuries to
-              problems stemming from birth - and diagnosing and treating the
-              symptoms is the first step in helping a patient live pain-free.
+              Neck pain,{" "}
+              <Link href="/conditions-we-treat/back-pain/">
+                upper back pain
+              </Link>
+              , and general discomfort in those areas has a range of causes,
+              from whiplash and stress-related injuries to bad posture,
+              segmental dysfunction, and problems with the discs themselves.
+              Causes for these issues vary - from acute injuries to problems
+              stemming from birth - and diagnosing and treating the symptoms is
+              the first step in helping a patient live pain-free.
             </p>
             <p>
               Common symptoms associated with neck and upper back problems
@@ -53,15 +66,24 @@ const ServiceDetailsContent = () => {
               following ischemic heart disease, and low respiratory disease.
               About 30 percent get it each year. And it does not stay in the
               middle of the neck. It can spread in your entire upper body,
-              affect your shoulders, arms, and chest, and can even cause
-              headaches. Life with neck pain can be miserable, making it harder
-              to concentrate and pass the day.
+              affect your shoulders, arms, and chest, and can even cause{" "}
+              <Link href="/conditions-we-treat/headaches/">headaches</Link>.
+              Life with neck pain can be miserable, making it harder to
+              concentrate and pass the day.
             </p>
-            <li>Tens (Transcutaneous Electrical Nerve Stimulation)</li>
-            <li>Gabapentin And Pregabalin</li>
-            <li>Radiofrequency Denervation</li>
-            <li>Injections</li>
-            <li>Surgery</li>
+            <div className="row">
+              <div className="col-6">
+                <li>Tens (Transcutaneous Electrical Nerve Stimulation)</li>
+                <li>Gabapentin And Pregabalin</li>
+              </div>{" "}
+              <div className="col-6">
+                <li>Radiofrequency Denervation</li>
+                <li>Surgery</li>{" "}
+              </div>
+              <div className="col-6">
+                <li>Injections</li>
+              </div>{" "}
+            </div>
             <h2>What Are Some Different Types of Neck Pain?</h2>
             <p>
               We got to know from our team which is Treating neck pain in fort
@@ -88,10 +110,11 @@ const ServiceDetailsContent = () => {
             </li>
             <h2>What are the basic Causes of Neck pain?</h2>
             <p>
-              To our information from Treating neck pain in lancaster. Because
-              of its role in bearing the body's weight, the neck is susceptible
-              to a variety of painful and motion-limiting injuries and
-              disorders. Some of the most common reasons for neck pain are:
+              To our information from Treating{" "}
+              <a href="/contact-locations/lancaster/">neck pain in lancaster</a>
+              . Because of its role in bearing the body's weight, the neck is
+              susceptible to a variety of painful and motion-limiting injuries
+              and disorders. Some of the most common reasons for neck pain are:
             </p>
             <li>
               Muscle strains. Muscle strains are frequently brought on by
@@ -135,7 +158,11 @@ const ServiceDetailsContent = () => {
               </div>{" "}
               <div className="col-6">
                 <li>Cervical degenerative disease</li>
-                <li>Herniated disc</li>{" "}
+                <li>
+                  <Link href="/blog/back-pain/herniated-disc/">
+                    Herniated disc
+                  </Link>
+                </li>{" "}
               </div>
               <div className="col-6">
                 <li>Stenosis</li>
@@ -167,11 +194,15 @@ const ServiceDetailsContent = () => {
             </li>
             <h2>When Should I Call The Doctor If I Have Neck Pain?</h2>
             <p>
-              Our team at Treating neck pain in fort worth informed us that. If
-              your neck pain is preventing you from doing your everyday tasks,
-              you should see a doctor. However, severe neck pain may indicate a
-              serious health problem. If you are experiencing neck pain, you
-              should seek immediate medical attention.
+              Our team at Treating{" "}
+              <a href="/contact-locations/fort-worth/">
+                neck pain in fort worth
+              </a>{" "}
+              informed us that. If your neck pain is preventing you from doing
+              your everyday tasks, you should see a doctor. However, severe neck
+              pain may indicate a serious health problem. If you are
+              experiencing neck pain, you should seek immediate medical
+              attention.
             </p>
             <li>Develops after having an accident.</li>
             <li>
@@ -190,8 +221,8 @@ const ServiceDetailsContent = () => {
             <li>Does not lessen after one week.</li>
             <blockquote>
               <i className="icofont-quote-left"></i>
-              To get in touch with our team,send us a message or call
-              469-562-4188 today.
+              To get in touch with our team, send us a message or call{" "}
+              <a href="tel:+14695624188">469-562-4188</a> today.
             </blockquote>
           </div>
         </div>

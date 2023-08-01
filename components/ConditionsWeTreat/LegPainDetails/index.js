@@ -20,30 +20,37 @@ const ServiceDetailsContent = () => {
               legs, calves, thighs, and lower back, whether it's acute or
               chronic. Inflammation (swelling) of tissues is a common root of
               leg pain. It's possible that swelling is a sign of illness or
-              injury. Many diseases and injuries can cause leg pain. Get a
-              proper diagnosis of what's causing your leg discomfort before
-              beginning any treatment. Your doctor or pain expert can help you
-              narrow down your treatment options based on your diagnosis.
+              injury.
             </p>
             <p>
-              If you're experiencing leg discomfort, come to The Waxahachie leg
-              pain treatment for a professional diagnosis. For an appointment
-              with one of our pain specialists, please get in touch with us.
+              Many diseases and injuries can cause leg pain. Get a proper
+              diagnosis of what's causing your leg discomfort before beginning
+              any treatment. Your doctor or pain expert can help you narrow down
+              your treatment options based on your diagnosis. If you're
+              experiencing leg discomfort, come to the Waxahachie leg pain
+              treatment for a professional diagnosis. For an appointment with
+              one of our pain specialists, please get in touch with us.
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
-              Call us at 469-562-4188 or contact us online to schedule an
-              appointment.
+              To learn more about our hillsboro leg pain treatment services,
+              give us a call at <a href="tel:+14695624188">
+                469-562-4188
+              </a> or <Link href="/contact-locations/">contact us online</Link>{" "}
+              today.
             </blockquote>
             <h2>Some Of The Common Symptoms</h2>
             <p>
               Leg discomfort might be persistent, intermittent, or gradually
               developing. Possible triggers include sitting for long periods,
               standing for long periods, or engaging in particular activities.
-              However, our team at Fort Worth leg pain treatment told us that In
-              addition to leg discomfort, you may also be experiencing some of
-              the following signs and symptoms from whatever underlying illness
-              is causing it:
+              However, our team at{" "}
+              <a href="/contact-locations/fort-worth/">
+                Fort Worth leg pain treatment
+              </a>{" "}
+              told us that In addition to leg discomfort, you may also be
+              experiencing some of the following signs and symptoms from
+              whatever underlying illness is causing it:
             </p>
             <div className="row">
               <div className="col-6">
@@ -133,10 +140,12 @@ const ServiceDetailsContent = () => {
             <p>
               Many potential causes of leg pain share similar signs and
               symptoms. If therapy is required, success rates improve with a
-              proper diagnosis. However, with the help of our staff of North
-              Richland Hills leg pain treatment, we came to know that a correct
-              diagnosis can be reached by pinpointing the onset and severity of
-              symptoms.
+              proper diagnosis. However, with the help of our staff of{" "}
+              <a href="/contact-locations/north-richland-hills/">
+                North Richland Hills leg pain treatment
+              </a>
+              , we came to know that a correct diagnosis can be reached by
+              pinpointing the onset and severity of symptoms.
             </p>
             <li>
               <b>DVT</b>: A deep vein thrombosis (DVT) is a clot that forms in a
@@ -181,15 +190,20 @@ const ServiceDetailsContent = () => {
               have the potential to "pinch" a nerve, leading to similar
               symptoms. As a result of trying to walk with less pain, the
               person's stride (the way they walk) may vary, putting stress on
-              other joints and muscles. This cause has been confirmed by the
-              Corsicana leg pain treatment.
+              other joints and muscles. This cause has been confirmed by the{" "}
+              <a href="/contact-locations/corsicana/">
+                Corsicana leg pain treatment
+              </a>
+              .
             </li>
             <h2>What are Some Common Preventions of Leg Pain?</h2>
             <p>
-              While not all forms of leg pain can be prevented, our team of
-              Richardson leg pain treatment told us that some of the most common
-              conditions that cause leg pain often respond to preventive
-              measures such as the following:
+              While not all forms of leg pain can be prevented, our team of{" "}
+              <a href="/contact-locations/richardson/">
+                Richardson leg pain treatment
+              </a>{" "}
+              told us that some of the most common conditions that cause leg
+              pain often respond to preventive measures such as the following:
             </p>
             <li>
               Raise the intensity of your workout gradually. Do not immediately
@@ -224,8 +238,8 @@ const ServiceDetailsContent = () => {
             </li>
             <blockquote>
               <i className="icofont-quote-left"></i>
-              Schedule a same-day appointment —contact us online or call
-              469-562-4188 today.
+              Schedule a same day appointment - contact us online or call{" "}
+              <a href="tel:+14695624188">469-562-4188</a> today.
             </blockquote>
           </div>
         </div>

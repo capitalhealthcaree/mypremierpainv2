@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import Navbar from "../../components/_App/Navbar";
 import PageBanner from "../../components/Common/PageBanner";
 import MildProcedureDetails from "../../components/Treatments/MildProcedureDetails";
@@ -9,6 +10,22 @@ import Footer from "../../components/_App/Footer";
 const DoctorDetails = () => {
   return (
     <>
+      <Head>
+        <title>
+          Mild Procedure for Lumbar Spinal Stenosis Treatment in Hillsboro
+        </title>
+        <link
+          rel="canonical"
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}treatments//mild-procedure/`}
+        />
+        <meta
+          name="description"
+          content="Chronic lower back pain patients benefit from the Mild procedure Richardson. Contact us today at 469-562-4188 to schedule an appointment!"
+        />
+        <meta content="text/html; charset=utf-8" httpEquiv="Content-Type" />
+        <meta content="initial-scale=1" name="viewport" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+      </Head>
       <Navbar />
       <PageBanner
         pageTitle="Mild Procedure for Lumbar Spinal Stenosis"

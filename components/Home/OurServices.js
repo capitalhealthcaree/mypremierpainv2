@@ -16,11 +16,11 @@ const outServices = [
     name: "Headaches",
     href: "/conditions-we-treat/headaches",
   },
-  // {
-  //   imgSrc: "/images/our-services/hip-pain.jpg",
-  //   name: "Hip Pain",
-  //   href: "/conditions-we-treat/hip-pain",
-  // },
+  {
+    imgSrc: "/images/our-services/hip-pain.jpg",
+    name: "Hip Pain",
+    href: "/conditions-we-treat/hip-pain",
+  },
   {
     imgSrc: "/images/our-services/leg-pain.jpg",
     name: "Leg Pain",
@@ -46,21 +46,16 @@ const outServices = [
     name: "Knee Pain",
     href: "/conditions-we-treat/knee-pain",
   },
-  // {
-  //   imgSrc: "/images/our-services/wrist-pain.jpg",
-  //   name: "Wrist Pain",
-  //   href: "/conditions-we-treat/wrist-pain",
-  // },
-  // {
-  //   imgSrc: "/images/our-services/car-accident-injury.webp",
-  //   name: "Car Accident Injury",
-  //   href: "/conditions-we-treat/car-accident-injury",
-  // },
-  // {
-  //   imgSrc: "/images/our-services/foot-pain.jpg",
-  //   name: "Foot Pain",
-  //   href: "/conditions-we-treat/foot-pain",
-  // },
+  {
+    imgSrc: "/images/our-services/wrist-pain.jpg",
+    name: "Coccydynia",
+    href: "/conditions-we-treat/coccydynia",
+  },
+  {
+    imgSrc: "/images/our-services/car-accident-injury.webp",
+    name: "Car Accident Injury",
+    href: "/conditions-we-treat/car-accident-injury",
+  },
 ];
 const OurServices = () => {
   return (

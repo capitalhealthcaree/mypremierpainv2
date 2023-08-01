@@ -24,9 +24,10 @@ const ServiceDetailsContent = () => {
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
-              Please contact us online or call us at 469-562-4188 to learn more
-              about how you can benefit from our dallas facet joint injections
-              treatments options.
+              To learn more about our hillsboro facet joint injection treatment
+              services, give us a call at{" "}
+              <a href="tel:+14695624188">469-562-4188</a> or{" "}
+              <a href="/contact-and-location/">contact us online</a> today.
             </blockquote>
             <h2>Preparation Facet Injections</h2>
             <p>

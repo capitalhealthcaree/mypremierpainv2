@@ -123,8 +123,8 @@ const DoctorDetails = () => {
                         Spinal cord stimulator
                       </Link>{" "}
                       trial, and implantation and Intrathecal pumps,{" "}
-                      <Link href="/treatments/si-joint-injections/">
-                        SI joint Injections
+                      <Link href="/treatments/si-joint-injection/">
+                        SI joint Injection
                       </Link>
                       . He loves reading and traveling and learning state of the
                       art cutting edge technology in pain management.

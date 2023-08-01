@@ -20,13 +20,19 @@ const ServiceDetailsContent = () => {
               and Knees. Sometimes, joint pain is the result of an illness or
               injury. Arthritis is also a common cause of joint pain. However,
               it may also be due to other circumstances or factors. Whereas we
-              at Joint Pain Treatment In Richardson will provide you with the
-              best ways to get rid of your pain.
+              at{" "}
+              <Link href="/contact-locations/richardson/">
+                Joint Pain Treatment In Richardson
+              </Link>{" "}
+              will provide you with the best ways to get rid of your pain.
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
-              Give us a call today at 469-562-4188 or contact us online to make
-              an appointment.
+              To learn more about our hillsboro joint pain treatment services,
+              give us a call at <a href="tel:+14695624188">
+                469-562-4188
+              </a> or <Link href="/contact-locations/">contact us online</Link>{" "}
+              today.
             </blockquote>
             <h2>Common Conditions Causing Joint Pain</h2>
             <p>
@@ -41,7 +47,9 @@ const ServiceDetailsContent = () => {
             </p>
             <div className="row">
               <div className="col-6">
-                <li>Knee pain</li>
+                <li>
+                  <Link href="/conditions-we-treat/knee-pain/">Knee pain</Link>
+                </li>
                 <li>Small joint pain</li>
               </div>{" "}
               <div className="col-6">
@@ -49,10 +57,16 @@ const ServiceDetailsContent = () => {
                 <li>Elbow pain</li>{" "}
               </div>
               <div className="col-6">
-                <li>Hip pain</li>
+                <li>
+                  <Link href="/conditions-we-treat/hip-pain/">Hip pain</Link>
+                </li>
               </div>{" "}
               <div className="col-6">
-                <li>Shoulder pain</li>
+                <li>
+                  <Link href="/conditions-we-treat/shoulder-pain/">
+                    Shoulder pain
+                  </Link>
+                </li>
               </div>{" "}
             </div>
             <h2>What Are The Common Ways Of Pain Management?</h2>
@@ -124,23 +138,44 @@ const ServiceDetailsContent = () => {
             </li>
             <p>
               However, we came to know about all this information with the help
-              of Joint Pain Treatment In Corsicana.
+              of{" "}
+              <Link href="/contact-locations/corsicana/">
+                Joint Pain Treatment In Corsicana
+              </Link>
+              .
             </p>
             <h2>What Are The Possible Signs?</h2>
             <p>
-              Some of the most common symptoms informed by our team at Joint
-              Pain Treatment In Lancaster include;
+              Some of the most common symptoms informed by our team at{" "}
+              <Link href="/contact-locations/lancaster/">
+                Joint Pain Treatment In Lancaster
+              </Link>{" "}
+              include;
             </p>
-            <li>Tenderness in the joint</li>
-            <li>Fatigue</li>
-            <li>Stiffness in the joint</li>
-            <li>Weakness in the joint</li>
-            <li>Joint swelling</li>
-            <li>Limited joint movement</li>
+            <div className="row">
+              <div className="col-6">
+                <li>Tenderness in the joint</li>
+                <li>Fatigue</li>
+              </div>{" "}
+              <div className="col-6">
+                <li>Stiffness in the joint</li>
+                <li>Weakness in the joint</li>{" "}
+              </div>
+              <div className="col-6">
+                <li>Joint swelling</li>
+              </div>{" "}
+              <div className="col-6">
+                <li>Limited joint movement</li>
+              </div>{" "}
+            </div>
             <h2>What Causes Joint Pain?</h2>
             <p>
               When it comes to joint discomfort, the most common causes we came
-              to know by Joint Pain Treatment In Fort Worth include:
+              to know by{" "}
+              <Link href="/contact-locations/fort-worth/">
+                Joint Pain Treatment In Fort Worth
+              </Link>{" "}
+              include:
             </p>
             <li>
               Degeneration of the cartilage lining the joint spaces between
@@ -179,15 +214,33 @@ const ServiceDetailsContent = () => {
             <h2>What Can Cause Multiple Joint Pain?</h2>
             <p>
               A few conditions that may cause multiple joints pain include known
-              by Joint Pain Treatment In hillsboro:
+              by{" "}
+              <Link href="/contact-locations/hillsboro/">
+                Joint Pain Treatment In hillsboro
+              </Link>
+              :
             </p>
-            <li>Forms of arthritis, Polyarthritis. Viral arthritis.</li>
-            <li>Fibromyalgia</li>
-            <li>Bursitis or tendinitis in multiple joints</li>
-            <li>Soft tissue abnormalities</li>
-            <li>Hypothyroidism</li>
-            <li>Nerve (neuropathic) pain</li>
-            <li>Metabolic bone disease</li>
+            <div className="row">
+              <div className="col-6">
+                <li>Forms of arthritis, Polyarthritis. Viral arthritis.</li>
+                <li>
+                  <Link href="/blog/back-pain/fibromyalgia-causes-diagnosis-and-treatment/">
+                    Fibromyalgia
+                  </Link>
+                </li>
+              </div>{" "}
+              <div className="col-6">
+                <li>Bursitis or tendinitis in multiple joints</li>
+                <li>Soft tissue abnormalities</li>{" "}
+              </div>
+              <div className="col-6">
+                <li>Hypothyroidism</li>
+                <li>Metabolic bone disease</li>
+              </div>{" "}
+              <div className="col-6">
+                <li>Nerve (neuropathic) pain</li>
+              </div>{" "}
+            </div>
             <h2>Ongoing Wellness & Functional Rehabilitation</h2>
             <p>
               Once your pain is controlled via our aggressive pain management
@@ -197,14 +250,15 @@ const ServiceDetailsContent = () => {
               physical therapy for recovery. We offer help in each of these
               steps towards recovery. In addition to being board certified in
               pain management, Dr. Ali is board certified in physical medicine
-              and rehabilitation.Dr. Ali will discuss your treatment options and
-              design a specialized functional rehabilitation regimen that's
-              right for you.
+              and rehabilitation.{" "}
+              <Link href="/meet-our-team/rao-k-ali/">Dr. Ali</Link> will discuss
+              your treatment options and design a specialized functional
+              rehabilitation regimen that's right for you.
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
-              Schedule a same-day appointment —contact us online or call
-              469-562-4188 today.
+              Schedule a same-day appointment — contact us online or call{" "}
+              <a href="tel:+14695624188">469-562-4188</a> today.
             </blockquote>
           </div>
         </div>

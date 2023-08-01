@@ -23,8 +23,11 @@ const ServiceDetailsContent = () => {
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
-              Schedule your appointment by dialing 469-562-4188 or completing
-              our online form today.
+              To learn more about our hillsboro knee pain treatment services,
+              give us a call at <a href="tel:+14695624188">
+                469-562-4188
+              </a> or <Link href="/contact-locations/">contact us online</Link>{" "}
+              today.
             </blockquote>
             <h2>What Are the Causes of Knee Pain?</h2>
             <p>
@@ -88,9 +91,12 @@ const ServiceDetailsContent = () => {
             <h4>Bones</h4>
             <li>Four bones make up the knee joint.</li>
             <li>
-              However, our team of Knee pain treatment in Lancaster also told us
-              that the patella, often known as the kneecap, glides forward on
-              the femur.
+              However, our team of{" "}
+              <Link href="/contact-locations/lancaster/">
+                Knee pain treatment in Lancaster
+              </Link>{" "}
+              also told us that the patella, often known as the kneecap, glides
+              forward on the femur.
             </li>
             <h4>Ligaments</h4>
             <li>
@@ -101,11 +107,14 @@ const ServiceDetailsContent = () => {
               the femur.
             </li>
             <li>
-              As our team of Knee pain treatment in Hillsboro told us Stability
-              in the medial and lateral directions of the knee is provided by
-              the medial collateral ligament (MCL) and lateral collateral
-              ligament (LCL), respectively, which run along the inner (medial)
-              and outer (lateral) sides of the knee.
+              As our team of{" "}
+              <Link href="/contact-locations/hillsboro/">
+                Knee pain treatment in Hillsboro
+              </Link>{" "}
+              told us Stability in the medial and lateral directions of the knee
+              is provided by the medial collateral ligament (MCL) and lateral
+              collateral ligament (LCL), respectively, which run along the inner
+              (medial) and outer (lateral) sides of the knee.
             </li>
             <h4>Tendons</h4>
             <li>
@@ -118,7 +127,11 @@ const ServiceDetailsContent = () => {
             </li>
             <li>
               However, we were able to get all this information with the help of
-              our team at Knee pain treatment in fort worth.
+              our team at{" "}
+              <Link href="/contact-locations/fort-worth/">
+                Knee pain treatment in fort worth
+              </Link>
+              .
             </li>
             <h4>Cartilage</h4>
             <li>
@@ -135,18 +148,22 @@ const ServiceDetailsContent = () => {
             <p>
               If you've just been in a serious accident that left your knee in
               agony, or if your knee is sore or unstable so you can't put any
-              weight on it, you should see a doctor right away and get your Knee
-              pain treatment in Richardson with the help of experts. If your
-              pain lasts more than a few days, you should schedule an
-              appointment with your doctor. Patients suffering from severe
-              muscle pain in the United States are treated at Premier Pain
-              Center, a medical facility offering high-quality medical care. We
-              are committed to providing comfort and peace for our guests.
+              weight on it, you should see a doctor right away and get your{" "}
+              <Link href="/contact-locations/richardson/">
+                Knee pain treatment in Richardson
+              </Link>{" "}
+              with the help of experts. If your pain lasts more than a few days,
+              you should schedule an appointment with your doctor. Patients
+              suffering from severe muscle pain in the United States are treated
+              at Premier Pain Centers, a medical facility offering high-quality
+              medical care. We are committed to providing comfort and peace for
+              our guests.
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
-              To learn more, give us a call at 469-562-4188 or contact us online
-              today.
+              <Link href="/appointment/">Schedule your appointment</Link> by
+              dialing <a href="tel:+14695624188">469-562-4188</a> or completing
+              our online form today.
             </blockquote>
           </div>
         </div>

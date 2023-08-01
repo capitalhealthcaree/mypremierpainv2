@@ -13,20 +13,29 @@ const ServiceDetailsContent = () => {
               People commonly suffer from conditions such as lower spinal pain
               and upper backbone pain. Fortunately, Premier Pain Centers is
               fully equipped with the best technologies and qualified doctors
-              who can expertly treat all types of spinal issues. Dr. Ali is
+              who can expertly treat all types of spinal issues.{" "}
+              <Link href="/meet-our-team/rao-k-ali/">Dr. Ali</Link> is
               board-certified in physical medicine and rehabilitation and will
               be happy to discuss treatment options with you. Problems like
               nerve disorders, muscular disorders, degenerative disc diseases,
-              and arthritis are causing Back Pain in the people of Richardson
-              Back Pain Treatment. with the help of our team at Corsicana Back
-              Pain Treatment we came to know that our back is made up of 24
-              bones, known as vertebrae, one sitting on top of the other.
+              and arthritis are causing Back Pain in the people of{" "}
+              <Link href="/contact-locations/richardson/">
+                Richardson Back Pain Treatment
+              </Link>
+              . with the help of our team at{" "}
+              <Link href="/contact-locations/corsicana/">
+                Corsicana Back Pain Treatment
+              </Link>{" "}
+              we came to know that our back is made up of 24 bones, known as
+              vertebrae, one sitting on top of the other.
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
-              Please contact us online or call us at 469-562-4188 to learn more
-              about how you can benefit from our Richardson back pain treatment
-              options.
+              To learn more about our fort worth back pain treatment services,
+              give us a call at <a href="tel:+14695624188">
+                469-562-4188
+              </a> or <Link href="/contact-locations/">contact us online</Link>{" "}
+              today.
             </blockquote>
             <h2>What Causes Spinal/Back Pain?</h2>
             <p>
@@ -54,11 +63,23 @@ const ServiceDetailsContent = () => {
               </div>
               <div className="col-6">
                 <li>Pregnancy</li>
-                <li>Sciatica</li>{" "}
+                <li>
+                  <Link href="/blog/back-pain/sciatica-symptoms-and-prevention/">
+                    Sciatica
+                  </Link>
+                </li>{" "}
               </div>
               <div className="col-6">
-                <li>Herniated discs</li>
-                <li>Spinal stenosis</li>{" "}
+                <li>
+                  <Link href="/blog/back-pain/herniated-disc/">
+                    Herniated discs
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/blog/back-pain/spinal-stenosis-types-symptoms-and-causes/">
+                    Spinal stenosis
+                  </Link>
+                </li>{" "}
               </div>
               <div className="col-6">
                 <li>Musculoskeletal complications</li>
@@ -74,21 +95,32 @@ const ServiceDetailsContent = () => {
               </div>
               <div className="col-6">
                 <li>Bone fissures</li>
-                <li>Car accident injury</li>
+                <li>
+                  <Link href="/conditions-we-treat/car-accident-injury/">
+                    Car accident injury
+                  </Link>
+                </li>
               </div>
               <div className="col-6">
                 <li>Subluxation</li>
               </div>
               <div className="col-6">
-                <li>Serious sports injury</li>
+                <li>
+                  <Link href="/conditions-we-treat/sports-injury/">
+                    Serious sports injury
+                  </Link>
+                </li>
               </div>
             </div>
             <h2>Wanna Know The Common Causes?</h2>
             <p>
               Here you go… talking about the causes of back pain. So there is
               not a single cause of this condition. Because a lot of factors can
-              lead to back pain. Our team at Lancaster Back Pain Treatment told
-              us that your age, your health, any past injuries, any medical
+              lead to back pain. Our team at{" "}
+              <Link href="/contact-locations/lancaster/">
+                Lancaster Back Pain Treatment
+              </Link>{" "}
+              told us that your age, your health, any past injuries, any medical
               issue, and the list goes on. So without waiting any further. Let's
               have a look at the common causes of back pain.
             </p>
@@ -132,8 +164,12 @@ const ServiceDetailsContent = () => {
             </div>
             <p>
               Let's have a look at the uncommon causes of back pain acknowledged
-              by our team at Hillsboro Back Pain Treatment Whereas, talking
-              about rare causes of back pain so they include the following.
+              by our team at{" "}
+              <Link href="/contact-locations/hillsboro/">
+                Hillsboro Back Pain Treatment
+              </Link>{" "}
+              Whereas, talking about rare causes of back pain so they include
+              the following.
             </p>
             <div className="row">
               <div className="col-6">
@@ -156,11 +192,13 @@ const ServiceDetailsContent = () => {
               However, Back pain can be debilitating, and it is important to
               seek treatment as soon as possible. The source of back pain may
               occur in a variety of structures, including muscles and ligaments,
-              intervertebral discs, joints, or nerves. However, our North
-              Richland Hills Back Pain Treatment team offers a variety of
-              treatments such as decompression, combination, or other
-              personalized treatments to relieve pain in the spinal cord and
-              back pain.
+              intervertebral discs, joints, or nerves. However, our{" "}
+              <Link href="/contact-locations/north-richland-hills/">
+                North Richland Hills Back Pain Treatment
+              </Link>{" "}
+              team offers a variety of treatments such as decompression,
+              combination, or other personalized treatments to relieve pain in
+              the spinal cord and back pain.
             </p>
             <h2>How Can I Diagnose My Back Pain?</h2>
             <p>
@@ -170,9 +208,12 @@ const ServiceDetailsContent = () => {
               spinal disc damage if the pain extends into the extremities or
               around the chest well beyond the spinal epicenter of the pain
               concentration. Your doctor may recommend the following procedures
-              if your symptoms do not improve. However, our team at Decatur Back
-              Pain Treatment told us that a better clinical picture encourages
-              continuing with nonsurgical treatments regardless of diagnosis.
+              if your symptoms do not improve. However, our team at{" "}
+              <Link href="/contact-locations/decatur/">
+                Decatur Back Pain Treatment
+              </Link>{" "}
+              told us that a better clinical picture encourages continuing with
+              nonsurgical treatments regardless of diagnosis.
             </p>
             <div className="row">
               <div className="col-6">
@@ -188,8 +229,11 @@ const ServiceDetailsContent = () => {
             </div>
             <h2>How Can I Know About The Symptoms?</h2>
             <p>
-              Our team at Farmers Branch Back Pain Treatment told us Back pain
-              can have many symptoms, including:
+              Our team at{" "}
+              <Link href="/contact-locations/farmers-branch/">
+                Farmers Branch Back Pain Treatment
+              </Link>{" "}
+              told us Back pain can have many symptoms, including:
             </p>
             <div className="row">
               <div className="col-6">
@@ -224,7 +268,7 @@ const ServiceDetailsContent = () => {
               medical treatment to avoid long-lasting health ailments. In
               addition, if you suffer from high levels of stress, herniated
               discs, or subluxation, you should immediately visit Premier Pain
-              Centre for a proper diagnosis and treatment. It will help avoid
+              Centers for a proper diagnosis and treatment. It will help avoid
               further damage.
             </p>
             <h2>Treatments For Back Pain</h2>
@@ -246,8 +290,9 @@ const ServiceDetailsContent = () => {
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
-              Call us at 469-562-4188 or contact us online if you need back pain
-              treatment in Richardson or the surrounding areas.
+              Call us at <a href="tel:+14695624188">469-562-4188</a> or contact
+              us online if you need back pain treatment in Richardson or the
+              surrounding areas.
             </blockquote>
           </div>
         </div>

@@ -12,8 +12,10 @@ const ServiceDetailsContent = () => {
               There may be pain or cramping in your legs when you stand for a
               long period of time when you have spinal stenosis affecting the
               nerves in your lower back, called the lumbar spine. You may also
-              experience back pain when standing up or walking. Bending forward
-              or sitting usually alleviates this discomfort.
+              experience{" "}
+              <Link href="/conditions-we-treat/back-pain/">back pain</Link> when
+              standing up or walking. Bending forward or sitting usually
+              alleviates this discomfort.
             </p>
             <p>
               There is a mild surgery, a mild procedure that can lead to a
@@ -30,17 +32,21 @@ const ServiceDetailsContent = () => {
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
-              To learn more about our Hillsboro mild procedure treatment
-              services, give us a call at 469-562-4188 or contact us online
-              today.
+              To learn more about our Corsicana mild procedure treatment
+              services, give us a call at{" "}
+              <a href="tel:+14695624188">469-562-4188</a> or{" "}
+              <a href="/contact-and-location/">contact us online</a> today.
             </blockquote>
             <h2>Why Is Mild So Beneficial?</h2>
             <p>
-              Chronic lower back pain patients benefit from the MILD procedure
-              Richardson. There are many benefits that can be obtained from the
-              mild procedure for patients who suffer from lumbar spinal
-              stenosis. Patients may experience the following benefits as a
-              result of the treatment:
+              Chronic lower back pain patients benefit from the{" "}
+              <Link href="/contact-locations/richardson/">
+                MILD procedure Richardson
+              </Link>
+              . There are many benefits that can be obtained from the mild
+              procedure for patients who suffer from lumbar spinal stenosis.
+              Patients may experience the following benefits as a result of the
+              treatment:
             </p>
             <li>
               <b>Minimal Invasiveness:</b> You will not have huge scars from
@@ -50,8 +56,11 @@ const ServiceDetailsContent = () => {
             </li>
             <li>
               <b>Safe:</b> Using MILD is safe, it's not experimental. Thousands
-              of MILD procedure north richland Hills surgeries have been
-              successful.
+              of{" "}
+              <Link href="/contact-locations/north-richland-hills/">
+                MILD procedure north richland Hills
+              </Link>{" "}
+              surgeries have been successful.
             </li>
             <li>
               <b>Anesthetic-Free:</b> General anesthesia has risks. The MILD
@@ -86,11 +95,16 @@ const ServiceDetailsContent = () => {
             </p>
             <h2> LSS Pain Treatment</h2>
             <p>
-              MILD procedure fort worth is an outpatient procedure that requires
-              no general anesthesia or stitches for the treatment of LSS caused
-              by excess ligaments. Millions of patients have safely undergone
-              MILD procedure Lancaster . As a brief overview of the procedure,
-              here are the steps:
+              <Link href="/contact-locations/fort-worth/">
+                MILD procedure fort worth
+              </Link>{" "}
+              is an outpatient procedure that requires no general anesthesia or
+              stitches for the treatment of LSS caused by excess ligaments.
+              Millions of patients have safely undergone{" "}
+              <Link href="/contact-locations/lancaster/">
+                MILD procedure Lancaster
+              </Link>
+              . As a brief overview of the procedure, here are the steps:
             </p>
             <li>
               A tiny incision is made on your back and special tools are
@@ -205,9 +219,10 @@ const ServiceDetailsContent = () => {
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
-              Give us a call at 469-562-4188 or contact us online today to
-              schedule an appointment for Mild Procedure treatment
-              in Lancaster, TX and the surrounding areas.
+              Give us a call at <a href="tel:+14695624188">469-562-4188</a> or
+              contact us online today to{" "}
+              <Link href="/appointment/">schedule an appointment</Link> for Mild
+              Procedure treatment in Lancaster, TX and the surrounding areas.
             </blockquote>
           </div>
         </div>

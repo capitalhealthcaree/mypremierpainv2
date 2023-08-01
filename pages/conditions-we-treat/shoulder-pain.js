@@ -14,11 +14,11 @@ const DoctorDetails = () => {
         <title>Shoulder Pain Treatment In Corsicana TX</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}conditions-we-treat/shoulder-pain`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}conditions-we-treat/shoulder-pain/`}
         />
         <meta
           name="description"
-          content="At Premier Pain Centers, we specialize in providing individualized and comprehensive shoulder pain treatment plans. Contact us today to schedule an appointment."
+          content="Find relief from shoulder pain with our comprehensive guide. Learn more about our services for shoulder pain treatment in Cleburne."
         />
         <meta content="text/html; charset=utf-8" httpEquiv="Content-Type" />
         <meta content="initial-scale=1" name="viewport" />
@@ -34,7 +34,7 @@ const DoctorDetails = () => {
         bgImage="/images/conditions-we-treat/shoulder-pain/shoulder-pain-dallas.jpg"
       />
 
-      <div className="doctor-details-area pt-50 pb-70">
+      <div className="doctor-details-area pt-50 pb-50">
         <div className="container-fluid p-lg-5">
           <div className="row">
             <div className="col-lg-4">

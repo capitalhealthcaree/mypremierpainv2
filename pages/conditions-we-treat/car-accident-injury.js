@@ -11,14 +11,14 @@ const DoctorDetails = () => {
   return (
     <>
       <Head>
-        <title>Emergency Treatment for Car Accident Injury In Fort Worth</title>
+        <title>Emergency Treatment for Car Accident Injury In Cleburne</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}conditions-we-treat/car-accident-injury`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}conditions-we-treat/car-accident-injury/`}
         />
         <meta
           name="description"
-          content="When you need emergency treatment for car accident injury in Dallas, our medical team is here to provide prompt and comprehensive care."
+          content="If you are experiencing pain following a collision, contact Premier Pain Centers to schedule an appointment for car accident injury treatment in Richardson."
         />
         <meta content="text/html; charset=utf-8" httpEquiv="Content-Type" />
         <meta content="initial-scale=1" name="viewport" />
@@ -33,7 +33,7 @@ const DoctorDetails = () => {
         bgImage="/images/conditions-we-treat/car-accident-injury/car-accident-injury.jpg"
       />
 
-      <div className="doctor-details-area pt-50 pb-70">
+      <div className="doctor-details-area pt-50 pb-50">
         <div className="container-fluid p-lg-5">
           <div className="row">
             <div className="col-lg-4">
