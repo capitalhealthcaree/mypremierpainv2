@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "../components/_App/Navbar";
 import PageBanner from "../components/Common/PageBanner";
-import ContactInfo from "../components/Contact/ContactInfo";
 import AppointmentForm from "../components/Appointment/AppointmentForm";
 import Footer from "../components/_App/Footer";
 import Link from "next/link";

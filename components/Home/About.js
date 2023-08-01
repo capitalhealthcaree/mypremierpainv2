@@ -38,7 +38,7 @@ const About = () => {
                   understand your unique goals.
                 </p>
 
-                <Link href="/appointment">Schedule An Appointment</Link>
+                <Link href="/appointment/">Schedule An Appointment</Link>
               </div>
             </div>
           </div>

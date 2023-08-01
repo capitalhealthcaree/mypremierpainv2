@@ -23,7 +23,7 @@ const Footer = () => {
                     pain procedures possible.
                   </p>
                   <div className="common-btn">
-                    <Link href="/appointment" className="cmn-btn-right">
+                    <Link href="/appointment/" className="cmn-btn-right">
                       Schedule Appointment
                     </Link>
                   </div>
@@ -99,7 +99,7 @@ const Footer = () => {
                         Richardson, TX 75080
                       </a>
                       <a
-                        href="/contact-locations/richardson"
+                        href="/contact-locations/richardson/"
                         className="fw-bold"
                       >
                         View Site
@@ -115,7 +115,7 @@ const Footer = () => {
                         Hillsboro, TX 76645
                       </a>
                       <a
-                        href="/contact-locations/hillsboro"
+                        href="/contact-locations/hillsboro/"
                         className="fw-bold"
                       >
                         View Site
@@ -131,7 +131,7 @@ const Footer = () => {
                         Richardson, TX 75080
                       </a>
                       <a
-                        href="/contact-locations/farmers-branch"
+                        href="/contact-locations/farmers-branch/"
                         className="fw-bold"
                       >
                         View Site
@@ -146,7 +146,7 @@ const Footer = () => {
                       <a href="https://goo.gl/maps/SX3zQArg9RvyJZiD9?coh=178572&entry=tt">
                         Cleburne, TX 76033
                       </a>
-                      <a href="/contact-locations/cleburne" className="fw-bold">
+                      <a href="/contact-locations/cleburne/" className="fw-bold">
                         View Site
                       </a>
                     </li>
@@ -170,7 +170,7 @@ const Footer = () => {
                         North Richland Hills, TX 76180
                       </a>
                       <a
-                        href="/contact-locations/north-richland-hills"
+                        href="/contact-locations/north-richland-hills/"
                         className="fw-bold"
                       >
                         View Site
@@ -186,7 +186,7 @@ const Footer = () => {
                         Lancaster, TX 75146
                       </a>
                       <a
-                        href="/contact-locations/lancaster"
+                        href="/contact-locations/lancaster/"
                         className="fw-bold"
                       >
                         View Site
@@ -203,7 +203,7 @@ const Footer = () => {
                         Waxahachie, TX 75165
                       </a>
                       <a
-                        href="/contact-locations/waxahachie"
+                        href="/contact-locations/waxahachie/"
                         className="fw-bold"
                       >
                         View Site
@@ -227,7 +227,7 @@ const Footer = () => {
                         Fort Worth, TX 76104
                       </a>
                       <a
-                        href="/contact-locations/fort-worth"
+                        href="/contact-locations/fort-worth/"
                         className="fw-bold"
                       >
                         View Site
@@ -242,7 +242,7 @@ const Footer = () => {
                       <a href="https://goo.gl/maps/ajt2yjVWs8Lfn5CKA">
                         Decatur, TX 76234
                       </a>
-                      <a href="/contact-locations/decatur" className="fw-bold">
+                      <a href="/contact-locations/decatur/" className="fw-bold">
                         View Site
                       </a>
                     </li>
@@ -257,7 +257,7 @@ const Footer = () => {
                         Corsicana, TX 75102
                       </a>
                       <a
-                        href="/contact-locations/corsicana"
+                        href="/contact-locations/corsicana/"
                         className="fw-bold"
                       >
                         View Site

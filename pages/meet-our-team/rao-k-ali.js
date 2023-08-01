@@ -138,7 +138,7 @@ const DoctorDetails = () => {
                       Dr. Rao Ali is a dual fellowship-trained, double
                       board-certified Physiatrist and Interventional Pain
                       Management physician who runs the state of art{" "}
-                      <Link href="/interventional-pain-management">
+                      <Link href="/interventional-pain-management/">
                         interventional pain management
                       </Link>{" "}
                       practice for over eight years.

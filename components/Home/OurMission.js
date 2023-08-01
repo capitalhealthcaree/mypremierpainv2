@@ -26,63 +26,6 @@ const OurMission = () => {
                   utilizes state-of-the-art equipment to ensure you receive the
                   most advanced treatments.
                 </p>
-                {/* <ul>
-                  <li>
-                    <img src="/images/our-mission/tick.png" alt="Spread" />
-                    <p>
-                      Premier Pain Centers operates in the most efficient way
-                      possible to provide a safe environment and deliver the
-                      most effective surgical services to patients in{" "}
-                      <Link href="/contact-locations/richardson">
-                        Richardson
-                      </Link>
-                      ,{" "}
-                      <Link href="/contact-locations/fort-worth">
-                        Fort Worth
-                      </Link>
-                      ,{" "}
-                      <Link href="/contact-locations/lancaster">Lancaster</Link>
-                      ,{" "}
-                      <Link href="/contact-locations/hillsboro">Hillsboro</Link>
-                      ,{" "}
-                      <Link href="/contact-locations/corsicana">Corsicana</Link>{" "}
-                      and the surrounding areas. When it comes to spine-related
-                      issues, Premier Pain Centers offers the treatment and care
-                      you deserve and expect. Regardless of the cause, our
-                      experienced team is ready to help.
-                    </p>
-                  </li>
-
-                  <li>
-                    <img src="/images/our-mission/tick.png" alt="Spread" />
-                    <p>
-                      We at Premier Pain Centers strive to utilize advanced
-                      technology and remain at the forefront of medical
-                      innovation. As a result of our minimally invasive
-                      techniques, our patients are able to recover faster,
-                      experience less discomfort, and experience less scarring
-                      during the healing process.
-                    </p>
-                  </li>
-                  <li>
-                    <img src="/images/our-mission/tick.png" alt="Spread" />
-                    <p>
-                      Our value proposition lies in our ability to offer timely,
-                      same-day outpatient surgery procedures—such as M6
-                      artificial disc replacements—to patients who travel from
-                      all over the world to receive treatment from our skilled
-                      team of experts.
-                    </p>
-                  </li>
-                  <li>
-                    <img src="/images/our-mission/tick.png" alt="Spread" />
-                    <p>
-                      We offer expert diagnosis and treatment for pain and
-                      dysfunction caused by deformity, degenerative disc
-                      disease, trauma, and failed neck or back surgeries.
-                    </p>
-                  </li>
-                </ul> */}
               </div>
             </div>
 
