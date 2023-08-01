@@ -4,16 +4,15 @@ import Link from "next/link";
 const About = () => {
   return (
     <>
-      <div className="about-area about-area-two pt-5 pb-5">
+      <div className="symptoms-area pt-5 pb-5">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
-              <div className="about-item">
-                <div className="about-left">
-                  <img src="/images/about.webp" alt="About" />
-                </div>
+              <div className="symptoms-img">
+                <img src="/images/about.jpg" alt="Symptoms" />
               </div>
             </div>
+
             <div className="col-lg-6">
               <div className="about-item about-right">
                 <img src="/images/about-shape1.webp" alt="About" />

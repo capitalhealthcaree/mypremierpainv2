@@ -67,7 +67,17 @@ const SymptomsCovid19 = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="symptoms-img">
-                <img src="/images/symptoms.webp" alt="Symptoms" />
+                <video
+                  autoPlay
+                  muted
+                  loop
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                  }}
+                >
+                  <source src="/images/treatments.mp4" type="video/mp4" />
+                </video>
               </div>
             </div>
 

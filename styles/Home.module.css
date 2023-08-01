@@ -125,9 +125,7 @@
 .center {
   text-align: center;
 }
- /* .....................................................test................. */
-
- /* Base styles for the modal video */
+/* Base styles for the modal video */
 .video-wrap {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 aspect ratio (adjust as needed) */
@@ -148,4 +146,27 @@
   .video-wrap {
     padding-bottom: 25%; /* Adjust the aspect ratio for smaller screens */
   }
+}
+/* ...........................................Main Page, Our Mission Icon svg IMAGE....................................................... */
+.values-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+}
+.values-list li {
+  display: flex !important;
+  padding-left: 0px !important;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.values-icon {
+  height: 60px;
+  width: 60px;
+  margin-right: 20px;
+  fill: #0046c0;
+}
+.heading-list {
+  margin: 0;
 }
