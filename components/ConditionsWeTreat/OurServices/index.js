@@ -41,6 +41,21 @@ const outServices = [
     name: "Neck Pain",
     href: "/conditions-we-treat/neck-pain",
   },
+  {
+    imgSrc: "/images/our-services/knee-pain.webp",
+    name: "Knee Pain",
+    href: "/conditions-we-treat/knee-pain",
+  },
+  {
+    imgSrc: "/images/our-services/wrist-pain.jpg",
+    name: "Coccydynia",
+    href: "/conditions-we-treat/coccydynia",
+  },
+  {
+    imgSrc: "/images/our-services/car-accident-injury.webp",
+    name: "Car Accident Injury",
+    href: "/conditions-we-treat/car-accident-injury",
+  },
 ];
 const OurServices = () => {
   return (
@@ -75,21 +90,6 @@ const OurServices = () => {
                 </div>
               );
             })}
-          </div>
-          <div
-            className="common-btn"
-            style={{ display: "flex", justifyContent: "center" }}
-          >
-            <Link
-              href="/conditions-we-treat/"
-              style={{
-                backgroundColor: "#0046c0",
-                color: "white",
-                padding: "10px 11px",
-              }}
-            >
-              More About Services
-            </Link>
           </div>
         </div>
       </div>

@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Navbar from "../../components/_App/Navbar";
 import PageBanner from "../../components/Common/PageBanner";
-import OurServices from "../../components/Home/OurServices";
+import OurServices from "../../components/ConditionsWeTreat/OurServices";
 import AppointmentForm from "../../components/Home/AppointmentForm";
 import LatestBlogPost from "../../components/Common/LatestBlogPost";
 import Footer from "../../components/_App/Footer";
@@ -10,7 +10,7 @@ import Footer from "../../components/_App/Footer";
 const Contact = () => {
   return (
     <>
-    <Head>
+      <Head>
         <title>Search For Conditions We Treat</title>
         <link
           rel="canonical"
