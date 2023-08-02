@@ -47,14 +47,14 @@ const outServices = [
     href: "/conditions-we-treat/knee-pain",
   },
   {
-    imgSrc: "/images/our-services/wrist-pain.jpg",
-    name: "Coccydynia",
-    href: "/conditions-we-treat/coccydynia",
-  },
-  {
     imgSrc: "/images/our-services/car-accident-injury.webp",
     name: "Car Accident Injury",
     href: "/conditions-we-treat/car-accident-injury",
+  },
+  {
+    imgSrc: "/images/our-services/coccydynia.png",
+    name: "Coccydynia",
+    href: "/conditions-we-treat/coccydynia",
   },
 ];
 const OurServices = () => {
