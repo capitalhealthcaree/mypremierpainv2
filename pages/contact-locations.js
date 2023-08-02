@@ -14,7 +14,7 @@ const Contact = () => {
         pageTitle="Contact & Locations"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="contact-and-location"
+        activePageText="contact-locations"
         bgImage="/images/contact-and-locations.jpg"
       />
       <div className="departments-area pt-100 pb-70">

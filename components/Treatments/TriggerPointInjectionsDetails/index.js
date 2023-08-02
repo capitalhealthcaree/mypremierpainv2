@@ -17,7 +17,7 @@ const ServiceDetailsContent = () => {
               trigger points. In order to identify trigger points, physicians
               can feel tender bumps under the skin of the neck, shoulders, and
               back.{" "}
-              <a href="/contact-and-location/fort-worth/">
+              <a href="/contact-locations/fort-worth/">
                 Pain Management Fort Worth
               </a>{" "}
               provides a comprehensive approach to painful trigger points.
@@ -27,7 +27,7 @@ const ServiceDetailsContent = () => {
               To learn more about our hillsboro genicular nerve block treatment
               services, give us a call at{" "}
               <a href="tel:+14695624188">469-562-4188</a> or{" "}
-              <a href="/contact-and-location/">contact us online</a> today.
+              <a href="/contact-locations/">contact us online</a> today.
             </blockquote>
             <h2>Trigger Points: What Are They?</h2>
             <p>

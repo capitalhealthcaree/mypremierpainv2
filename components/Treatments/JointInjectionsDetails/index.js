@@ -191,8 +191,10 @@ const ServiceDetailsContent = () => {
             <blockquote>
               <i className="icofont-quote-left"></i>
               Give us a call at <a href="tel:+14695624188">469-562-4188</a> or
-              contact us online today to schedule an appointment for joint
-              injections in Lancaster, TX and the surrounding areas.
+              contact us online today to{" "}
+              <Link href="/appointment/">schedule an appointment</Link> for
+              joint infections treatment in Lancaster, TX and the surrounding
+              areas.
             </blockquote>
           </div>
         </div>

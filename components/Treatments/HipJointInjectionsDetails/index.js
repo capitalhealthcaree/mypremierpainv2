@@ -46,9 +46,10 @@ const ServiceDetailsContent = () => {
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
-              Please contact us online or call us at 469-562-4188 to learn more
-              about how you can benefit from our dallas headaches treatments
-              options.
+              To learn more about our Lancaster Hip Joint Injections treatment
+              services, give us a call at{" "}
+              <a href="tel:+14695624188">469-562-4188</a> or{" "}
+              <a href="/contact-locations/">contact us online</a> today.
             </blockquote>
           </div>
         </div>

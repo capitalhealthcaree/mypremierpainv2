@@ -25,7 +25,7 @@ const ServiceDetailsContent = () => {
               damaged, pain signals can be sent to the brain even without
               physical injury. It is possible to disrupt these signals by
               stimulating the spinal cord.{" "}
-              <a href="/contact-and-location/fort-worth/">
+              <a href="/contact-locations/fort-worth/">
                 Pain management fort worth
               </a>{" "}
               offers relief from spinal cord disorders due to a variety of
@@ -36,7 +36,7 @@ const ServiceDetailsContent = () => {
               To learn more about our hillsboro genicular nerve block treatment
               services, give us a call at{" "}
               <a href="tel:+14695624188">469-562-4188</a> or{" "}
-              <a href="/contact-and-location/">contact us online</a> today.
+              <a href="/contact-locations/">contact us online</a> today.
             </blockquote>
             <h2>A Spinal Cord Stimulator</h2>
             <p>

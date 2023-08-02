@@ -36,8 +36,9 @@ const ServiceDetailsContent = () => {
               <i className="icofont-quote-left"></i>
               To learn more about our hillsboro occipital nerve block Injections
               treatment services, give us a call at{" "}
-              <a href="tel:+14695624188">469-562-4188</a> or contact us online
-              today.
+              <a href="tel:+14695624188">469-562-4188</a> or{" "}
+              <Link href="/contact-locations/">contact us online</Link>
+              {" "}today.
             </blockquote>
             <h2>What Does an Occipital Nerve Block Treat?</h2>
             <p>
