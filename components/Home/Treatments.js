@@ -2,60 +2,60 @@ import React from "react";
 import Link from "next/link";
 const treatments = [
   {
-    href: "/treatments/hip-joint-injections",
+    href: "/treatments/hip-joint-injections/",
     name: " Hip Joint Injections",
   },
   {
-    href: "/treatments/disc-regenerative-therapy",
+    href: "/treatments/disc-regenerative-therapy/",
     name: " Disc Regenerative Therapy",
   },
   {
-    href: "/treatments/mild-procedure",
+    href: "/treatments/mild-procedure/",
     name: " Mild Procedure, Mild Surgery",
   },
   {
-    href: "/treatments/facet-joint-injection",
+    href: "/treatments/facet-joint-injection/",
     name: " Facet Joint Injection",
   },
   {
-    href: "/treatments/percutaneous-discectomy",
+    href: "/treatments/percutaneous-discectomy/",
     name: " Percutaneous Discectomy",
   },
   {
-    href: "/treatments/trigger-point-injections",
+    href: "/treatments/trigger-point-injections/",
     name: " Trigger Point Injections",
   },
   {
-    href: "/treatments/epidural-nerve-block",
+    href: "/treatments/epidural-nerve-block/",
     name: " Epidural Nerve Block",
   },
   {
-    href: "/treatments/joint-injections",
+    href: "/treatments/joint-injections/",
     name: " Joint Injections",
   },
   {
-    href: "/treatments/regenerating-spinal-discs",
-    name: " Regenerating Spinal Discs",
+    href: "/treatments/lumbar-sympathetic-injections/",
+    name: " Lumbar Sympathetic Injections",
   },
   {
-    href: "/treatments/si-joint-injection",
+    href: "/treatments/si-joint-injection/",
     name: " Si Joint Injection",
   },
   {
-    href: "/treatments/pronox",
-    name: "Pronox",
+    href: "/treatments/peripheral-nerve-stimulation/",
+    name: "Peripheral Nerve Stimulation",
   },
   {
-    href: "/treatments/occipital-nerve-block",
+    href: "/treatments/occipital-nerve-block/",
     name: " Occipital Nerve Block",
   },
   {
-    href: "/treatments/genicular-nerve-block",
+    href: "/treatments/genicular-nerve-block/",
     name: " Genicular Nerve Block",
   },
   {
-    href: "/treatments/intrathecal-pump",
-    name: " Intrathecal Pump",
+    href: "/treatments/spinal-cord-stimulation/",
+    name: " Spinal Cord Stimulation",
   },
 ];
 
