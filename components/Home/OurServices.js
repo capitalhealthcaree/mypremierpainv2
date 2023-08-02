@@ -47,7 +47,7 @@ const outServices = [
     href: "/conditions-we-treat/knee-pain",
   },
   {
-    imgSrc: "/images/our-services/wrist-pain.jpg",
+    imgSrc: "/images/our-services/coccydynia.png",
     name: "Coccydynia",
     href: "/conditions-we-treat/coccydynia",
   },

@@ -22,7 +22,8 @@ const MainBanner = () => {
                   />
                 </div> */}
 
-                <h1>Relieving Pain Throughout Northern Texas</h1>
+                <h2 style={{color:"white"}}>Relieving Pain Throughout Northern Texas</h2>
+                <h1>YOU WILL SEE WE CARE</h1>
                 <p>
                   At Premier Pain Centers, we offer top quality pain management
                   using some of the least invasive, most effective pain
@@ -30,7 +31,9 @@ const MainBanner = () => {
                 </p>
 
                 <div className="common-btn">
-                  <Link className="mb-2" href="/appointment/">Schedule Appointment</Link>
+                  <Link className="mb-2" href="/appointment/">
+                    Schedule Appointment
+                  </Link>
 
                   <Link href="/contact-locations/" className="cmn-btn-right">
                     Contact Us
