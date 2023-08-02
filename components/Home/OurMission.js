@@ -1,11 +1,10 @@
 import React from "react";
-import Link from "next/link";
 import styles from "../../styles/Home.module.css";
 
 const OurMission = () => {
   return (
     <>
-      <div className="spread-area pt-5 pb-3">
+      <div className="spread-area pt-5">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">

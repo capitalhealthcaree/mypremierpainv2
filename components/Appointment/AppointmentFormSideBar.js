@@ -13,7 +13,7 @@ const AppointmentFormSideBar = () => {
                 style={{ marginRight: "0px", marginTop: "0px" }}
               >
                 <h2>Book your appointment</h2>
-                <span>We will confirm your appointment within 2 hours</span>
+                <span>Appointment confirmation will be provided promptly.</span>
                 <AppointmentForm />
               </div>
             </div>

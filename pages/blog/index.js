@@ -60,7 +60,7 @@ const Blog = ({ item, totalPage }) => {
       />
 
       {/* BlogGrid */}
-      <div className="blog-area-two pt-100 pb-4">
+      <div className="blog-area-two pt-5 pb-4">
         <div className="container">
           <div className="row justify-content-center">
             {items.map((item, i) => {

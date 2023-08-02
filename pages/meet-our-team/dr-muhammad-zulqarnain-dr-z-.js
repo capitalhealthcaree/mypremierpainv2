@@ -47,7 +47,7 @@ const DoctorDetails = () => {
         bgImage="/images/doctor.jpg"
       />
 
-      <div className="doctor-details-area pt-100 pb-70">
+      <div className="doctor-details-area pt-5 pb-2">
         <div className="container">
           <div className="row">
             <div className="col-lg-5">
@@ -185,7 +185,7 @@ const DoctorDetails = () => {
         </div>
       </div>
 
-      <div className="pb-100">
+      <div className="pb-5">
         <AppointmentForm />
       </div>
 

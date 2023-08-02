@@ -20,7 +20,9 @@ const Contact = () => {
 
       <ContactInfo loc1={"3108 E. State HWY 22"} loc2={"Corsicana, TX 75102"} />
 
-      <AppointmentForm />
+      <div className="pt-2 pb-5">
+        <AppointmentForm />
+      </div>
 
       <div className="map-area">
         <iframe

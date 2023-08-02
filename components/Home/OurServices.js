@@ -45,7 +45,7 @@ const outServices = [
 const OurServices = () => {
   return (
     <>
-      <div className="blog-area pt-5">
+      <div className="blog-area pt-3">
         <div className="container">
           <div className="section-title">
             <h2>Our Services</h2>
@@ -86,6 +86,7 @@ const OurServices = () => {
                 backgroundColor: "#0046c0",
                 color: "white",
                 padding: "10px 11px",
+                marginBottom: "2vh",
               }}
             >
               More About Services

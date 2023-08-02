@@ -17,7 +17,9 @@ const Appointment = () => {
         bgImage="/images/appointment-bg-1.jpg"
       />
 
-      <AppointmentForm />
+      <div className="pt-4 pb-4">
+        <AppointmentForm />
+      </div>
 
       <Footer />
     </>

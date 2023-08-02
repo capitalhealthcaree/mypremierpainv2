@@ -1,8 +1,8 @@
 import React from "react";
 import Head from "next/head";
-import Navbar from "../components/_App/Navbar";
-import PageBanner from "../components/Common/PageBanner";
-import Footer from "../components/_App/Footer";
+import Navbar from "../../components/_App/Navbar";
+import PageBanner from "../../components/Common/PageBanner";
+import Footer from "../../components/_App/Footer";
 import Link from "next/link";
 
 const Doctors = () => {
@@ -33,7 +33,7 @@ const Doctors = () => {
         bgImage="/images/doctors/doctor-bg.jpg"
       />
 
-      <div className="doctors-area doctors-area-two pt-100 pb-70">
+      <div className="doctors-area doctors-area-two pt-5 pb-3">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-sm-6 col-lg-4">

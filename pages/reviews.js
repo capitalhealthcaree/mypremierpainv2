@@ -80,9 +80,9 @@ const reviews = () => {
         bgImage="/images/testimonial-bg.jpg"
       />
 
-      <div className="mb-5">
+      <div className="mb-2">
       <div className="container">
-      <div className=" row mt-5">
+      <div className=" row mt-3">
         {review.map((item, i) => {
           return (
             <div className="col-sm-12 col-lg-6 mb-4" key={i}>

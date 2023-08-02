@@ -20,7 +20,9 @@ const Contact = () => {
 
       <ContactInfo loc1={"2071 N Collins Blvd"} loc2={"Richardson, TX 75080"} />
 
-      <AppointmentForm />
+      <div className="pt-2 pb-5">
+        <AppointmentForm />
+      </div>
 
       <div className="map-area">
         <iframe

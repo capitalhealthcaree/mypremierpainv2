@@ -62,7 +62,7 @@ const treatments = [
 const SymptomsCovid19 = () => {
   return (
     <>
-      <div className="symptoms-area pt-5 pb-5">
+      <div className="symptoms-area pt-3">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">

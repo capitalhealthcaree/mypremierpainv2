@@ -20,7 +20,9 @@ const Contact = () => {
 
       <ContactInfo loc1={"20 Northgate Dr."} loc2={"Waxahachie, TX 75165"} />
 
-      <AppointmentForm />
+      <div className="pt-2 pb-5">
+        <AppointmentForm />
+      </div>
 
       <div className="map-area">
         <iframe

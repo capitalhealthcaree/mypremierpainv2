@@ -23,7 +23,9 @@ const Contact = () => {
         loc2={"Farmers Branch, TX 75234"}
       />
 
-      <AppointmentForm />
+      <div className="pt-2 pb-5">
+        <AppointmentForm />
+      </div>
 
       <div className="map-area">
         <iframe

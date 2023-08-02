@@ -10,7 +10,7 @@ const AppointmentFormTwo = () => {
             <div className="col-lg-7">
               <div className="appointment-item appointment-item-two">
                 <h2>Book Your Appointment</h2>
-                <span>We will confirm your appointment within 2 hours</span>
+                <span>Appointment confirmation will be provided promptly.</span>
                 <AppointmentForm />
               </div>
             </div>

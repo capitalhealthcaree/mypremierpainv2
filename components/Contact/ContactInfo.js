@@ -3,7 +3,7 @@ import React from "react";
 const ContactInfo = ({ loc1, loc2 }) => {
   return (
     <>
-      <div className="location-area pt-100">
+      <div className="location-area pt-5">
         <div className="container">
           <div className="row justify-content-center location-wrap">
             <div className="col-sm-6 col-lg-4">

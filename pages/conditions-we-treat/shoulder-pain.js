@@ -34,7 +34,7 @@ const DoctorDetails = () => {
         bgImage="/images/conditions-we-treat/shoulder-pain/shoulder-pain-dallas.jpg"
       />
 
-      <div className="doctor-details-area pt-50 pb-50">
+      <div className="doctor-details-area pt-4 pb-50">
         <div className="container-fluid p-lg-5">
           <div className="row">
             <div className="col-lg-4">

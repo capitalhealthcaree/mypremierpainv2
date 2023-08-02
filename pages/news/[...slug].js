@@ -38,7 +38,7 @@ const NewsDetails = ({ items }) => {
       />
 
       {/* BlogDetailsContent  */}
-      <div className="blog-details-area pt-100">
+      <div className="blog-details-area pt-5">
         <div className="container">
           <div className="row">
             <div className="col-lg-8">

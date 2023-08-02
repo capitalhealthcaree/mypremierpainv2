@@ -1,8 +1,8 @@
 import React from "react";
-import Navbar from "../components/_App/Navbar";
-import PageBanner from "../components/Common/PageBanner";
-import AppointmentForm from "../components/Appointment/AppointmentForm";
-import Footer from "../components/_App/Footer";
+import Navbar from "../../components/_App/Navbar";
+import PageBanner from "../../components/Common/PageBanner";
+import AppointmentForm from "../../components/Appointment/AppointmentForm";
+import Footer from "../../components/_App/Footer";
 import Link from "next/link";
 
 const Contact = () => {
@@ -17,7 +17,7 @@ const Contact = () => {
         activePageText="contact-locations"
         bgImage="/images/contact-and-locations.jpg"
       />
-      <div className="departments-area pt-100 pb-70">
+      <div className="departments-area pt-5 pb-3">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-sm-6 col-lg-4">
@@ -160,8 +160,9 @@ const Contact = () => {
           </div>
         </div>
       </div>
-
-      <AppointmentForm />
+      <div className="pb-5">
+        <AppointmentForm />
+      </div>
 
       <Footer />
     </>

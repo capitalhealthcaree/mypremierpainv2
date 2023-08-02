@@ -35,7 +35,7 @@ const About = () => {
         bgImage="/images/page-banner1.jpg"
       />
 
-      <div className="about-area pt-100 pb-70">
+      <div className="about-area pt-5">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-12">

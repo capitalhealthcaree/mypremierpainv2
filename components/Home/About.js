@@ -4,7 +4,7 @@ import Link from "next/link";
 const About = () => {
   return (
     <>
-      <div className="symptoms-area pt-5 pb-5">
+      <div className="symptoms-area pt-3">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">

@@ -60,7 +60,7 @@ const News = ({ item, totalPage }) => {
       />
 
       {/* NewsGrid */}
-      <div className="blog-area-two pt-100 pb-70">
+      <div className="blog-area-two pt-5 pb-5">
         <div className="container">
           <div className="row justify-content-center">
             {items.map((item, i) => {
