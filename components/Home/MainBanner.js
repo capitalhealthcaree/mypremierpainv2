@@ -32,7 +32,7 @@ const MainBanner = () => {
                 <div className="common-btn">
                   <Link className="mb-2" href="/appointment/">Schedule Appointment</Link>
 
-                  <Link href="/contact-and-location/" className="cmn-btn-right">
+                  <Link href="/contact-locations/" className="cmn-btn-right">
                     Contact Us
                   </Link>
                 </div>

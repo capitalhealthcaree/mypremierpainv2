@@ -15,7 +15,7 @@ const ServiceDetailsContent = () => {
               structural problem. You should know that It is very important to
               deal with these problems as symptoms begin to appear. We provide
               you with the best{" "}
-              <Link href="/contact-locations/headaches/">
+              <Link href="/contact-locations/richardson/">
                 headaches treatment In richardson
               </Link>
               . Headaches are a common ailment that many people experience on a

@@ -138,7 +138,7 @@ const ServiceDetailsContent = () => {
               percutaneous lumbar discectomy, enabling them to return to their
               normal daily routines. Medical professionals are dedicated to
               improving the quality of life for patients at{" "}
-              <a href="/contact-and-location/lancaster/">
+              <a href="/contact-locations/lancaster/">
                 Lancaster spine and pain clinic
               </a>
               . As an alternative to general anesthesia, percutaneous discectomy
@@ -153,7 +153,7 @@ const ServiceDetailsContent = () => {
               requirements, while increasing their functional capacity. The
               procedure does not involve cutting muscles or bones, so there is
               mild or no scarring following the procedure.{" "}
-              <a href="/contact-and-location/fort-worth/">
+              <a href="/contact-locations/fort-worth/">
                 Pain management fort worth
               </a>{" "}
               offers relief from spinal cord disorders due to a variety of
@@ -166,7 +166,7 @@ const ServiceDetailsContent = () => {
               complications associated with percutaneous discectomy as compared
               to open surgical discectomy. It is the mission of the medical
               professionals at the{" "}
-              <a href="/contact-and-location/cleburne/">
+              <a href="/contact-locations/cleburne/">
                 pain relief clinic in Cleburne
               </a>{" "}
               to improve the quality of life of their patients.
@@ -176,7 +176,7 @@ const ServiceDetailsContent = () => {
               To learn more about our hillsboro percutaneous discectomy
               treatment services, give us a call at{" "}
               <a href="tel:+14695624188">469-562-4188</a> or{" "}
-              <a href="/contact-and-location/">contact us online</a> today.
+              <a href="/contact-locations/">contact us online</a> today.
             </blockquote>
           </div>
         </div>

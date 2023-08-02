@@ -256,7 +256,7 @@ const DoctorDetails = () => {
           </dl>
           <dl>
             <dt>
-              <Link href="/contact-and-location/">Contact & Location</Link>
+              <Link href="/contact-locations/">Contact & Location</Link>
             </dt>
             {locations.map((item, i) => {
               return (

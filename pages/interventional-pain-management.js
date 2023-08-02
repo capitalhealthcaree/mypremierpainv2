@@ -14,7 +14,7 @@ const DoctorDetails = () => {
         <title>Interventional Pain Management in Dallas, TX</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}interventional-pain-management`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}interventional-pain-management/`}
         />
         <meta
           name="description"
@@ -23,12 +23,11 @@ const DoctorDetails = () => {
         <meta content="text/html; charset=utf-8" httpEquiv="Content-Type" />
         <meta content="initial-scale=1" name="viewport" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-        <meta name="format-detection" content="telephone=no" />
       </Head>
       <Navbar />
 
       <PageBanner
-        pageTitle="Interventional Pain Management in Dallas"
+        pageTitle="Interventional Pain Management in Fort Worth"
         homePageUrl="/"
         homePageText="Home"
         activePageText="interventional-pain-management"

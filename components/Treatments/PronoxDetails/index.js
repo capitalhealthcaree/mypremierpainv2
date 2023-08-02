@@ -6,7 +6,7 @@ const ServiceDetailsContent = () => {
       <div className="service-details-area">
         <div className="container">
           <div className="services-details-img">
-            <h2>PronoX Pain Relief System in Dallas, TX</h2>
+            <h2>PronoX Pain Relief System in Fort Worth, TX</h2>
             <p>
               Pain, an unwelcome companion in our lives, can limit our ability
               to experience joy and perform everyday activities. Whether it's
@@ -137,8 +137,8 @@ const ServiceDetailsContent = () => {
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
-              Call us at <a href="tel:+14695624188">469-562-4188</a>469-562-4188
-              or contact us online if you need Pronox treatment in Richardson or
+              Call us at <a href="tel:+14695624188">469-562-4188</a>
+              {" "}or contact us online if you need Pronox treatment in Richardson or
               the surrounding areas.
             </blockquote>
           </div>

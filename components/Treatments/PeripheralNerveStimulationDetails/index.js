@@ -29,9 +29,10 @@ const ServiceDetailsContent = () => {
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
-              To learn more about our Lancaster peripheral nerve stimulation
-              treatment services, give us a call at 469-562-4188 or contact us
-              online today.
+              To learn more about our hillsboro Peripheral Nerve Stimulation
+              treatment services, give us a call at{" "}
+              <a href="tel:+14695624188">469-562-4188</a> or{" "}
+              <a href="/contact-locations/">contact us online</a> today.
             </blockquote>
             <h2>Peripheral Nerve Stimulation: What Is It?</h2>
             <p>
@@ -229,9 +230,11 @@ const ServiceDetailsContent = () => {
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
-              Give us a call at 469-562-4188 or contact us online today to
-              schedule an appointment for peripheral nerve stimulation treatment
-              in Lancaster, TX and the surrounding areas.
+              Give us a call at <a href="tel:+14695624188">469-562-4188</a> or
+              contact us online today to{" "}
+              <Link href="/appointment/">schedule an appointment</Link> for
+              peripheral nerve stimulation treatment in Lancaster, TX and the
+              surrounding areas.
             </blockquote>
           </div>
         </div>
