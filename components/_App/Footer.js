@@ -93,7 +93,7 @@ const Footer = () => {
                       <h3 style={{ marginBottom: "1px" }}>RICHARDSON</h3>
                       <i className="icofont-location-pin"></i>
                       <a href="https://www.google.com/maps?cid=4359111757237130564">
-                        403 W Campbell Rd., Ste. 305
+                        2071 N Collins Blvd
                       </a>
                       <a href="https://www.google.com/maps?cid=4359111757237130564">
                         Richardson, TX 75080
@@ -125,10 +125,10 @@ const Footer = () => {
                       <h3 style={{ marginBottom: "1px" }}>FARMERS BRANCH</h3>
                       <i className="icofont-location-pin"></i>
                       <a href="https://www.google.com/maps?cid=3934515186064169906">
-                        Farmers Branch, TX 75234
+                        13988 Diplomat Dr., Ste. 100
                       </a>
                       <a href="https://www.google.com/maps?cid=3934515186064169906">
-                        Richardson, TX 75080
+                        Farmers Branch, TX 75234
                       </a>
                       <a
                         href="/contact-locations/farmers-branch/"

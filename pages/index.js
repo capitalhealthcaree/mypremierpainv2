@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import Navbar from "../components/_App/Navbar";
 import NavbarAppointment from "../components/_App/NavbarAppointment";
 import MainBanner from "../components/Home/MainBanner";
@@ -15,6 +16,9 @@ import Footer from "../components/_App/Footer";
 const Index = () => {
   return (
     <>
+      <Head>
+        <link rel="canonical" href="https://www.mypremierpain.com/" />
+      </Head>
       <Navbar />
       <NavbarAppointment />
       <MainBanner />
