@@ -92,10 +92,10 @@ const Footer = () => {
                     <li>
                       <h3 style={{ marginBottom: "1px" }}>RICHARDSON</h3>
                       <i className="icofont-location-pin"></i>
-                      <a href="https://www.google.com/maps?cid=4359111757237130564">
+                      <a href="https://goo.gl/maps/wC7tU7Hvb5LAntLq8">
                         2071 N Collins Blvd
                       </a>
-                      <a href="https://www.google.com/maps?cid=4359111757237130564">
+                      <a href="https://goo.gl/maps/wC7tU7Hvb5LAntLq8">
                         Richardson, TX 75080
                       </a>
                       <a
