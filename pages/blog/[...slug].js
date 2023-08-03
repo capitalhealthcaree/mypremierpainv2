@@ -17,7 +17,7 @@ const BlogDetails = ({ items }) => {
         </title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}blog${items?.slug}`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/blog${items?.slug}`}
         />
         <meta name="description" content={items?.metaDes} />
         <meta content="text/html; charset=utf-8" httpEquiv="Content-Type" />

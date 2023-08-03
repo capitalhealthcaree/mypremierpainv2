@@ -18,7 +18,7 @@ const NewsDetails = ({ items }) => {
         </title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}news/${items?.slug}`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/news${items?.slug}`}
         />
         <meta name="description" content={items?.metaDes} />
         <meta content="text/html; charset=utf-8" httpEquiv="Content-Type" />

@@ -16,7 +16,7 @@ const DoctorDetails = () => {
         </title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}treatments//mild-procedure/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/treatments/mild-procedure/`}
         />
         <meta
           name="description"
