@@ -11,10 +11,10 @@ const Contact = () => {
   return (
     <>
       <Head>
-        <title>Pain Management Doctors in Cleburne | Treatments Overview</title>
+        <title>Effective Treatments with Expert Physicians</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}treatments`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}treatments/`}
         />
         <meta
           name="description"
