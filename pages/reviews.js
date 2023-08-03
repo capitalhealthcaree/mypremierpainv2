@@ -75,7 +75,7 @@ const reviews = () => {
         <title>Patients Reviews: Hear What Our Customers Say</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}reviews/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/reviews/`}
         />
         <meta
           name="description"

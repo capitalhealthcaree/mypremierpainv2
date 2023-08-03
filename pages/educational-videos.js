@@ -14,7 +14,7 @@ const Testimonials = () => {
         <title>Educational Videos | Premier Pain Centers</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}educational-videos/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/educational-videos/`}
         />
         <meta
           name="description"

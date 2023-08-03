@@ -15,7 +15,7 @@ const DoctorDetails = () => {
         <title>Dorsal Root Ganglion Stimulation Therapy In Lancaster</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}treatments/dorsal-root-ganglion-stimulation/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/treatments/dorsal-root-ganglion-stimulation/`}
         />
         <meta
           name="description"

@@ -14,7 +14,7 @@ const DoctorDetails = () => {
         <title>Emergency Treatment for Car Accident Injury In Cleburne</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}conditions-we-treat/car-accident-injury/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/conditions-we-treat/car-accident-injury/`}
         />
         <meta
           name="description"

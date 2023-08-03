@@ -15,7 +15,7 @@ const DoctorDetails = () => {
         <title>Back Pain Specialists Near Me In Fort Worth</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}conditions-we-treat/back-pain/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/conditions-we-treat/back-pain/`}
         />
         <meta
           name="description"

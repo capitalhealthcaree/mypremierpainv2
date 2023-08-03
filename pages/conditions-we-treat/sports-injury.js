@@ -14,7 +14,7 @@ const DoctorDetails = () => {
         <title>Sports Injury Treatment Clinic in Cleburne, TX</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}conditions-we-treat/sports-injury/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/conditions-we-treat/sports-injury/`}
         />
         <meta
           name="description"

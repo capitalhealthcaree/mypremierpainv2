@@ -14,7 +14,7 @@ const DoctorDetails = () => {
         <title>SI Joint Injections in Dallas, TX</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}treatments/si-joint-injection/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/treatments/si-joint-injection/`}
         />
         <meta
           name="description"

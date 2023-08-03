@@ -15,7 +15,7 @@ const About = () => {
         <title>About Us | Premier Pain Centers</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}about/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/about/`}
         />
         <meta
           name="description"

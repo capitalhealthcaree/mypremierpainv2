@@ -14,7 +14,7 @@ const Contact = () => {
         <title>Search For Conditions We Treat</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}conditions-we-treat/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/conditions-we-treat/`}
         />
         <meta
           name="description"

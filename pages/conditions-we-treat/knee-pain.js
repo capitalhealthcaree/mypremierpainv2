@@ -14,7 +14,7 @@ const DoctorDetails = () => {
         <title>Chronic Knee Pain Specialists Near Me</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}conditions-we-treat/knee-pain/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/conditions-we-treat/knee-pain/`}
         />
         <meta
           name="description"

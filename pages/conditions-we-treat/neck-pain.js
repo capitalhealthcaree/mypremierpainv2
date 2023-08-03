@@ -14,7 +14,7 @@ const DoctorDetails = () => {
         <title>Doctors for Neck Pain, Specialists and Treatment</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}conditions-we-treat/neck-pain/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/conditions-we-treat/neck-pain/`}
         />
         <meta
           name="description"

@@ -80,7 +80,7 @@ const DoctorDetails = () => {
         </title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}meet-our-team/rao-k-ali/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/meet-our-team/rao-k-ali/`}
         />
         <meta
           name="description"

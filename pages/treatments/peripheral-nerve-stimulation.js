@@ -14,7 +14,7 @@ const DoctorDetails = () => {
         <title>Peripheral Nerve Stimulation (PNS) for Neuropathic Pain</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}treatments/peripheral-nerve-stimulation/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/treatments/peripheral-nerve-stimulation/`}
         />
         <meta
           name="description"

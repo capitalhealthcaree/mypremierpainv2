@@ -14,7 +14,7 @@ const DoctorDetails = () => {
         <title>Coccydynia Specialists Doctors in Cleburne, TX</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}conditions-we-treat/coccydynia/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/conditions-we-treat/coccydynia/`}
         />
         <meta
           name="description"

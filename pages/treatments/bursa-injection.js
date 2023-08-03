@@ -14,7 +14,7 @@ const DoctorDetails = () => {
         <title>Hip Bursa Injection in Fort Worth, TX</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}treatments/bursa-injection/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/treatments/bursa-injection/`}
         />
         <meta
           name="description"

@@ -14,7 +14,7 @@ const DoctorDetails = () => {
         <title>Percutaneous Discectomy Surgery for a Herniated Disc</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}treatments/percutaneous-discectomy/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/treatments/percutaneous-discectomy/`}
         />
         <meta
           name="description"

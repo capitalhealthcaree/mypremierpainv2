@@ -14,7 +14,7 @@ const DoctorDetails = () => {
         <title>Interventional Pain Management in Dallas, TX</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}interventional-pain-management/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/interventional-pain-management/`}
         />
         <meta
           name="description"

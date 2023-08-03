@@ -14,7 +14,7 @@ const DoctorDetails = () => {
         <title>Spinal Cord Stimulator Treatment for Back Chronic Pain</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}treatments/spinal-cord-stimulation/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/treatments/spinal-cord-stimulation/`}
         />
         <meta
           name="description"

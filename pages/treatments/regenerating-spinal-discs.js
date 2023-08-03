@@ -14,7 +14,7 @@ const DoctorDetails = () => {
         <title>Regenerating Spinal Discs Treatment Options in Hillsboro</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}treatments/regenerating-spinal-discs/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/treatments/regenerating-spinal-discs/`}
         />
         <meta
           name="description"

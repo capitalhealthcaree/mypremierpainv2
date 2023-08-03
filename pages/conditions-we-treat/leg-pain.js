@@ -14,7 +14,7 @@ const DoctorDetails = () => {
         <title>Leg Pain And Swelling Specialists in Cleburne, TX</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}conditions-we-treat/leg-pain/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/conditions-we-treat/leg-pain/`}
         />
         <meta
           name="description"

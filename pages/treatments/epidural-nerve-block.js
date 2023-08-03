@@ -14,7 +14,7 @@ const DoctorDetails = () => {
         <title>Epidural Nerve Block for Back Pain</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}treatments/epidural-nerve-block/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/treatments/epidural-nerve-block/`}
         />
         <meta
           name="description"

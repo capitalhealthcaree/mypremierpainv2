@@ -15,7 +15,7 @@ const DoctorDetails = () => {
         <title>Electrodiagnostic Testing | Pain Management Device</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}treatments/electrodiagnostic/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/treatments/electrodiagnostic/`}
         />
         <meta
           name="description"

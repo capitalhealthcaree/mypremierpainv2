@@ -14,7 +14,7 @@ const DoctorDetails = () => {
         <title>Best Bone and Joint Pain Doctors in Lancaster</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}conditions-we-treat/joint-pain/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/conditions-we-treat/joint-pain/`}
         />
         <meta
           name="description"

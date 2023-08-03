@@ -14,7 +14,7 @@ const DoctorDetails = () => {
         <title>Hip Pain Treatments Options at Premier Pain Centers</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}conditions-we-treat/hip-pain/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/conditions-we-treat/hip-pain/`}
         />
         <meta
           name="description"

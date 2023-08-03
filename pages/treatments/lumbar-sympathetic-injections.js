@@ -14,7 +14,7 @@ const DoctorDetails = () => {
         <title>Lumbar Sympathetic Injections for Chronic Pain</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}treatments/lumbar-sympathetic-injections/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/treatments/lumbar-sympathetic-injections/`}
         />
         <meta
           name="description"

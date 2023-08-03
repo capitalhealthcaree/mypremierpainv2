@@ -14,7 +14,7 @@ const DoctorDetails = () => {
         <title>North Richland Hills Intrathecal Pump Treatment</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}treatments/intrathecal-pump/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/treatments/intrathecal-pump/`}
         />
         <meta
           name="description"

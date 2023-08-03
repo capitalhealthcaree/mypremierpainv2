@@ -14,7 +14,7 @@ const DoctorDetails = () => {
         <title>Genicular Nerve Blocks for Chronic Knee Pain</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}treatments/genicular-nerve-block/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/treatments/genicular-nerve-block/`}
         />
         <meta
           name="description"

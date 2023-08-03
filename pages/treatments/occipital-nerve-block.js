@@ -14,7 +14,7 @@ const DoctorDetails = () => {
         <title>Occipital Nerve Block Injections at Premier Pain Centers</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}treatments/occipital-nerve-block/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/treatments/occipital-nerve-block/`}
         />
         <meta
           name="description"

@@ -14,7 +14,7 @@ const DoctorDetails = () => {
         <title>Shoulder Pain Treatment In Corsicana TX</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}conditions-we-treat/shoulder-pain/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/conditions-we-treat/shoulder-pain/`}
         />
         <meta
           name="description"

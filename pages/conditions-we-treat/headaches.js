@@ -14,7 +14,7 @@ const DoctorDetails = () => {
         <title>Headaches Specialists Doctors in Cleburne, TX</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}conditions-we-treat/headaches/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/conditions-we-treat/headaches/`}
         />
         <meta
           name="description"

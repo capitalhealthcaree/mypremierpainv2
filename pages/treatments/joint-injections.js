@@ -14,7 +14,7 @@ const DoctorDetails = () => {
         <title>Joint Injections for Arthritis Pain In Cleburne</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}treatments/joint-injections/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/treatments/joint-injections/`}
         />
         <meta
           name="description"

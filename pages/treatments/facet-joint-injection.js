@@ -14,7 +14,7 @@ const DoctorDetails = () => {
         <title>Facet Joint Injection Procedure in Fort Worth</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}treatments/facet-joint-injection/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/treatments/facet-joint-injection/`}
         />
         <meta
           name="description"

@@ -14,7 +14,7 @@ const DoctorDetails = () => {
         <title>Trigger Point Injections for Muscle Pain Relief</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}treatments/trigger-point-injections/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/treatments/trigger-point-injections/`}
         />
         <meta
           name="description"

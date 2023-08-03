@@ -12,7 +12,7 @@ const Appointment = () => {
         <title>Schedule Your Appointment with Expert Doctors</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}appointment/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/appointment/`}
         />
         <meta
           name="description"

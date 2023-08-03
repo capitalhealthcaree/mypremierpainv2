@@ -14,7 +14,7 @@ const DoctorDetails = () => {
         <title>Hip Joint Injections for Pain Relief In Dallas</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}treatments/hip-joint-injections/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/treatments/hip-joint-injections/`}
         />
         <meta
           name="description"
