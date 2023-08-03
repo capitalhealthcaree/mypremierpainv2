@@ -33,8 +33,8 @@ const Footer = () => {
                         className="icofont-ui-message"
                         style={{ fontSize: "25px" }}
                       ></i>
-                      <a href="mailto:admin@dallaspremierpains.com">
-                        admin@dallaspremierpains.com
+                      <a href="mailto:admin@mypremierpain.com">
+                        admin@mypremierpain.com
                       </a>
                     </li>
 
@@ -146,7 +146,10 @@ const Footer = () => {
                       <a href="https://goo.gl/maps/SX3zQArg9RvyJZiD9?coh=178572&entry=tt">
                         Cleburne, TX 76033
                       </a>
-                      <a href="/contact-locations/cleburne/" className="fw-bold">
+                      <a
+                        href="/contact-locations/cleburne/"
+                        className="fw-bold"
+                      >
                         View Site
                       </a>
                     </li>

@@ -6,7 +6,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Head>
-        <link rel="icon" href="https://dallaspremierpain.com/favicon.ico" />
+        <link rel="icon" href="https://www.mypremierpain.com/favicon.ico" />
         <title>Pain Management Specialists - Treating All Types of Pain</title>
         <meta
           name="robots"
@@ -14,7 +14,7 @@ const Layout = ({ children }) => {
         />
         <meta
           name="description"
-          content="At Dallas Premier Pain, we offer top quality pain management using some of the least invasive, most effective pain procedures possible. Schedule an Appointment!"
+          content="At Premier Pain Centers, we offer a variety of pain management services in Richardson, Fort Worth, and the surrounding areas. Call to book an appointment."
         />
         <meta
           name="viewport"
@@ -22,8 +22,15 @@ const Layout = ({ children }) => {
         />
         <meta
           name="google-site-verification"
-          content="STslxvbYcwrVsi_MXXKSwuMAXsXEq0oBl5kUS63I0ok"
+          content="4KXE6z1IMn1YlLvnFo__ua0TXs3xPbwTkDIQcIHwr54"
         />
+        {/* Add Script of Chat */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `var continuallySettings = { appID: "ne9y6m742rzk" };`,
+          }}
+        ></script>
+        <script src="https://cdn-app.continual.ly/js/embed/continually-embed.latest.min.js"></script>
       </Head>
 
       {children}
