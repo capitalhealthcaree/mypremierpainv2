@@ -14,7 +14,7 @@ const DoctorDetails = () => {
         <title>Pronox Nitrous Oxide System | Pain Management Device</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}treatments/pronox`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}treatments/pronox/`}
         />
         <meta
           name="description"

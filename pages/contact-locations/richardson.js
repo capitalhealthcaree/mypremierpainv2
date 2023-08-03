@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import Navbar from "../../components/_App/Navbar";
 import PageBanner from "../../components/Common/PageBanner";
 import ContactInfo from "../../components/Contact/ContactInfo";
@@ -8,6 +9,20 @@ import AppointmentForm from "../../components/Appointment/AppointmentForm";
 const Contact = () => {
   return (
     <>
+      <Head>
+        <title>Pain Management Services in Richardson, TX</title>
+        <link
+          rel="canonical"
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}contact-locations/richardson/`}
+        />
+        <meta
+          name="description"
+          content="Discover effective pain management services in Richardson. Find relief from chronic pain with our compassionate care. Schedule an appointment!"
+        />
+        <meta content="text/html; charset=utf-8" httpEquiv="Content-Type" />
+        <meta content="initial-scale=1" name="viewport" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+      </Head>
       <Navbar />
 
       <PageBanner

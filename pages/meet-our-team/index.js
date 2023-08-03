@@ -12,7 +12,7 @@ const Doctors = () => {
         <title>Find a Doctor and Specialist In Dallas</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}meet-our-team`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}meet-our-team/`}
         />
         <meta
           name="description"

@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import Navbar from "../../components/_App/Navbar";
 import PageBanner from "../../components/Common/PageBanner";
 import ContactInfo from "../../components/Contact/ContactInfo";
@@ -8,6 +9,20 @@ import AppointmentForm from "../../components/Appointment/AppointmentForm";
 const Contact = () => {
   return (
     <>
+    <Head>
+        <title>Pain Management Clinic Near Me in Hillsboro, TX</title>
+        <link
+          rel="canonical"
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}contact-locations/hillsboro/`}
+        />
+        <meta
+          name="description"
+          content="Get relief from pain in Hillsboro. Explore our expert pain management services for a better life. Visit us Premier Pain Centers for schedule an appointment."
+        />
+        <meta content="text/html; charset=utf-8" httpEquiv="Content-Type" />
+        <meta content="initial-scale=1" name="viewport" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+      </Head>
       <Navbar />
 
       <PageBanner
