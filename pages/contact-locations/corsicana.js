@@ -16,7 +16,7 @@ const Contact = () => {
         <title>Pain Management Physician Near Me in Corsicana, TX</title>
         <link
           rel="canonical"
-          content={`${process.env.NEXT_PUBLIC_URL_DOMAIN}${router.asPath}`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}${router.asPath}`}
         />
         <meta
           name="description"
