@@ -5,15 +5,18 @@ import PageBanner from "../../components/Common/PageBanner";
 import ContactInfo from "../../components/Contact/ContactInfo";
 import Footer from "../../components/_App/Footer";
 import AppointmentForm from "../../components/Appointment/AppointmentForm";
+import { useRouter } from "next/router";
 
 const Contact = () => {
+  const router = useRouter();
+
   return (
     <>
       <Head>
         <title>Pain Management Doctors in Cleburne, TX</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}contact-locations/cleburne/`}
+          content={`${process.env.NEXT_PUBLIC_URL_DOMAIN}${router.asPath}`}
         />
         <meta
           name="description"
