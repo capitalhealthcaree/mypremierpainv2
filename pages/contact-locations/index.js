@@ -5,8 +5,11 @@ import PageBanner from "../../components/Common/PageBanner";
 import AppointmentForm from "../../components/Appointment/AppointmentForm";
 import Footer from "../../components/_App/Footer";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 const Contact = () => {
+  const router = useRouter();
+
   return (
     <>
       <Head>
@@ -15,7 +18,7 @@ const Contact = () => {
         </title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}contact-locations/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}${router.asPath}`}
         />
         <meta
           name="description"
