@@ -8,6 +8,7 @@ const Layout = ({ children }) => {
       <Head>
         <link rel="icon" href="https://www.mypremierpain.com/favicon.ico" />
         <title>Pain Management Specialists - Treating All Types of Pain</title>
+        <link rel="canonical" href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}`} />
         <meta
           name="robots"
           content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
