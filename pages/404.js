@@ -1,29 +1,34 @@
 import React from "react";
-import Link from "next/link";
+import Navbar from "../components/_App/Navbar";
+import NavbarAppointment from "../components/_App/NavbarAppointment";
+import MainBanner from "../components/Home/MainBanner";
+import About from "../components/Home/About";
+import OurServices from "../components/Home/OurServices";
+import Treatments from "../components/Home/Treatments";
+import AppointmentForm from "../components/Home/AppointmentForm";
+import OurMission from "../components/Home/OurMission";
+import OurDoctors from "../components/Common/OurDoctors";
+import FeedbackSlider from "../components/Home/FeedbackSlider";
+import LatestBlogPost from "../components/Common/LatestBlogPost";
+import Footer from "../components/_App/Footer";
 
-const Custom404 = () => {
+const Index = () => {
   return (
     <>
-      <div className="error-area">
-        <div className="error-item">
-          <div className="d-table">
-            <div className="d-table-cell">
-              <div className="error-text">
-                <h1>404!</h1>
-                <p>Sorry! The Page Not Found</p>
-                <span>
-                  Oops! The page you are looking for does not exit. it might
-                  been moved or deleted.
-                </span>
-
-                <Link href="/">Return to Home</Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Navbar />
+      <NavbarAppointment />
+      <MainBanner />
+      <About />
+      <OurServices />
+      <Treatments />
+      <AppointmentForm />
+      <OurMission />
+      <OurDoctors />
+      <FeedbackSlider />
+      <LatestBlogPost />
+      <Footer />
     </>
   );
 };
 
-export default Custom404;
+export default Index;
