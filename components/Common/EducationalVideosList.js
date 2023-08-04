@@ -27,12 +27,12 @@ const EducationalVideosList = () => {
               </div>
             </div>
           </div>
-          <div className="col-sm-12 col-lg-6 mb-4">
+          {/* <div className="col-sm-12 col-lg-6 mb-4">
             <div className="video-wrap">
               <div style={{ width: "100%", maxWidth: "720px" }}>
                 <div style={{ paddingTop: "56.25%", position: "relative" }}>
                   <div style={{ paddingTop: "56.25%", position: "relative" }}>
-                    <iframe
+                  <iframe
                       style={{
                         position: "absolute",
                         top: "0",
@@ -50,8 +50,8 @@ const EducationalVideosList = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="col-sm-12 col-lg-6 mb-4">
+          </div> */}
+          {/* <div className="col-sm-12 col-lg-6 mb-4">
             <div className="video-wrap">
               <div style={{ width: "100%", maxWidth: "720px" }}>
                 <div style={{ paddingTop: "56.25%", position: "relative" }}>
@@ -72,7 +72,7 @@ const EducationalVideosList = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="col-sm-12 col-lg-6 mb-4">
             <div className="video-wrap">
               <div style={{ width: "100%", maxWidth: "720px" }}>
@@ -273,7 +273,7 @@ const EducationalVideosList = () => {
               </div>
             </div>
           </div>
-          <div className="col-sm-12 col-lg-6 mb-4">
+          {/* <div className="col-sm-12 col-lg-6 mb-4">
             <div className="video-wrap">
               <div style={{ width: "100%", maxWidth: "720px" }}>
                 <div style={{ paddingTop: "56.25%", position: "relative" }}>
@@ -316,7 +316,7 @@ const EducationalVideosList = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="col-sm-12 col-lg-6 mb-4">
             <div className="video-wrap">
               <div style={{ width: "100%", maxWidth: "720px" }}>
