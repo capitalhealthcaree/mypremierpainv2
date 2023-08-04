@@ -1,12 +1,12 @@
 import React from "react";
 import TopHeader from "../components/_App/TopHeader";
-import VideoIntro from "../components/Common/VideoTestimonials";
+import VideoTestimonials from "../components/Common/VideoTestimonials";
 import AppointmentForm from "../components/Home/AppointmentForm";
 import Navbar from "../components/_App/Navbar";
 import PageBanner from "../components/Common/PageBanner";
 import Footer from "../components/_App/Footer";
 
-const Testimonials = () => {
+const VideoTestimonial = () => {
   return (
     <>
       <TopHeader />
@@ -22,7 +22,7 @@ const Testimonials = () => {
       />
 
       <div className="pt-5">
-        <VideoIntro />
+        <VideoTestimonials />
       </div>
       <div className="pt-5 pb-5">
         <AppointmentForm />
@@ -33,4 +33,4 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials;
+export default VideoTestimonial;
