@@ -172,10 +172,8 @@ const CommonForm = ({ isFromHome }) => {
                   value={formData.patientType}
                   onChange={handleChange}
                 >
-                  <option>Are you a new patient?</option>
-                  <option>Yes, I'm a potential new patient.</option>
-                  <option>No, I'm a current existing new patient.</option>
-                  <option>I'm neither.</option>
+                  <option>I'm a Potential New Patient</option>
+                  <option>I'm a Current Existing Patient.</option>
                 </select>
               </div>
             </div>
@@ -197,7 +195,11 @@ const CommonForm = ({ isFromHome }) => {
           </div>
 
           <div className="text-center">
-            <button type="submit" className="btn appointment-btn"  disabled={!loader ? false : true}>
+            <button
+              type="submit"
+              className="btn appointment-btn"
+              disabled={!loader ? false : true}
+            >
               Submit
             </button>
           </div>

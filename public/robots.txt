@@ -1,9 +1,13 @@
 User-agent: *
 Disallow: /*.html$
-Disallow: https://www.mypremierpain.com/patient-forms 
-Sitemap: https://www.mypremierpain.com/sitemap.xml
-Allow: User-agent: Googlebot
-Allow: User-agent: Googlebot-Image
-Disallow: /*lang=jp
+Disallow: /patient-forms
+Disallow: /*lang=jp
 Disallow: /*?y_source=
-Disallow: https://www.mypremierpain.com/?y_source=1_Mjc5NjI4OTctNzE1LWxvY2F0aW9uLndlYnNpdGU%3D
+
+User-agent: Googlebot
+Allow: /patient-forms
+Allow: /sitemap.xml
+
+User-agent: Googlebot-Image
+
+Sitemap: https://www.mypremierpain.com/sitemap.xml

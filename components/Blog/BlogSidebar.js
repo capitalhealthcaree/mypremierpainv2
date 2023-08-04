@@ -35,7 +35,7 @@ const BlogSidebar = () => {
   return (
     <>
       <div className="blog-details-item">
-        <div className="blog-details-recent">
+        {/* <div className="blog-details-recent">
           <h3>Recent Blogs</h3>
           <ul>
             {list.map((item, i) => {
@@ -55,7 +55,7 @@ const BlogSidebar = () => {
               );
             })}
           </ul>
-        </div>
+        </div> */}
 
         <div className="department-item">
           <h3>Dr. Rao K. Ali M.D.</h3>
