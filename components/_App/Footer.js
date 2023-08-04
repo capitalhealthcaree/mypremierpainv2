@@ -99,6 +99,12 @@ const Footer = () => {
                         Richardson, TX 75080
                       </a>
                       <a
+                        href="https://goo.gl/maps/wC7tU7Hvb5LAntLq8"
+                        className="fw-bold"
+                      >
+                        View Map & Directions
+                      </a>
+                      <a
                         href="/contact-locations/richardson/"
                         className="fw-bold"
                       >
@@ -113,6 +119,12 @@ const Footer = () => {
                       </a>
                       <a href="https://www.google.com/maps?cid=9063563001732813751">
                         Hillsboro, TX 76645
+                      </a>
+                      <a
+                        href="https://www.google.com/maps?cid=9063563001732813751"
+                        className="fw-bold"
+                      >
+                        View Map & Directions
                       </a>
                       <a
                         href="/contact-locations/hillsboro/"
@@ -131,6 +143,12 @@ const Footer = () => {
                         Farmers Branch, TX 75234
                       </a>
                       <a
+                        href="https://www.google.com/maps?cid=3934515186064169906"
+                        className="fw-bold"
+                      >
+                        View Map & Directions
+                      </a>
+                      <a
                         href="/contact-locations/farmers-branch/"
                         className="fw-bold"
                       >
@@ -145,6 +163,12 @@ const Footer = () => {
                       </a>
                       <a href="https://goo.gl/maps/SX3zQArg9RvyJZiD9?coh=178572&entry=tt">
                         Cleburne, TX 76033
+                      </a>
+                      <a
+                        href="https://goo.gl/maps/SX3zQArg9RvyJZiD9?coh=178572&entry=tt"
+                        className="fw-bold"
+                      >
+                        View Map & Directions
                       </a>
                       <a
                         href="/contact-locations/cleburne/"
@@ -173,6 +197,12 @@ const Footer = () => {
                         North Richland Hills, TX 76180
                       </a>
                       <a
+                        href="https://www.google.com/maps?cid=10580295200115195655"
+                        className="fw-bold"
+                      >
+                        View Map & Directions
+                      </a>
+                      <a
                         href="/contact-locations/north-richland-hills/"
                         className="fw-bold"
                       >
@@ -183,10 +213,16 @@ const Footer = () => {
                       <h3 style={{ marginBottom: "1px" }}>LANCASTER</h3>
                       <i className="icofont-location-pin"></i>
                       <a href="https://www.google.com/maps?cid=16681715367138219884">
-                        2700 W. Pleasant Run Rd., Ste. 320
+                        2700 W. Pleasant Run Rd.,
                       </a>
                       <a href="https://www.google.com/maps?cid=16681715367138219884">
-                        Lancaster, TX 75146
+                        Ste. 320 Lancaster, TX 75146
+                      </a>
+                      <a
+                        href="https://www.google.com/maps?cid=16681715367138219884"
+                        className="fw-bold"
+                      >
+                        View Map & Directions
                       </a>
                       <a
                         href="/contact-locations/lancaster/"
@@ -204,6 +240,12 @@ const Footer = () => {
                       </a>
                       <a href="https://www.google.com/maps?cid=16055043450728768858">
                         Waxahachie, TX 75165
+                      </a>
+                      <a
+                        href="https://www.google.com/maps?cid=16055043450728768858"
+                        className="fw-bold"
+                      >
+                        View Map & Directions
                       </a>
                       <a
                         href="/contact-locations/waxahachie/"
@@ -230,6 +272,12 @@ const Footer = () => {
                         Fort Worth, TX 76104
                       </a>
                       <a
+                        href="https://www.google.com/maps?cid=1967984420970158753"
+                        className="fw-bold"
+                      >
+                        View Map & Directions
+                      </a>
+                      <a
                         href="/contact-locations/fort-worth/"
                         className="fw-bold"
                       >
@@ -245,6 +293,12 @@ const Footer = () => {
                       <a href="https://goo.gl/maps/ajt2yjVWs8Lfn5CKA">
                         Decatur, TX 76234
                       </a>
+                      <a
+                        href="https://goo.gl/maps/ajt2yjVWs8Lfn5CKA"
+                        className="fw-bold"
+                      >
+                        View Map & Directions
+                      </a>
                       <a href="/contact-locations/decatur/" className="fw-bold">
                         View Site
                       </a>
@@ -258,6 +312,12 @@ const Footer = () => {
                       </a>
                       <a href="https://goo.gl/maps/t3UcfhLPzrDX8rHH9">
                         Corsicana, TX 75102
+                      </a>
+                      <a
+                        href="https://goo.gl/maps/t3UcfhLPzrDX8rHH9"
+                        className="fw-bold"
+                      >
+                        View Map & Directions
                       </a>
                       <a
                         href="/contact-locations/corsicana/"
