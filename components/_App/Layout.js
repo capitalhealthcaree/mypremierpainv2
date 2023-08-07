@@ -20,18 +20,6 @@ const Layout = ({ children }) => {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        {/* For Google Search Console */}
-        <meta
-          name="google-site-verification"
-          content="4KXE6z1IMn1YlLvnFo__ua0TXs3xPbwTkDIQcIHwr54"
-        />
-        {/* Add Script of Chat */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `var continuallySettings = { appID: "ne9y6m742rzk" };`,
-          }}
-        ></script>
-        <script src="https://cdn-app.continual.ly/js/embed/continually-embed.latest.min.js"></script>
       </Head>
 
       {children}
