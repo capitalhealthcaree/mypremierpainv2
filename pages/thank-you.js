@@ -1,7 +1,6 @@
 import React from "react";
 import Head from "next/head";
 import Navbar from "../components/_App/Navbar";
-import PageBanner from "../components/Common/PageBanner";
 import Footer from "../components/_App/Footer";
 
 const Index = () => {
@@ -13,13 +12,6 @@ const Index = () => {
 
       <Navbar />
 
-      <PageBanner
-        pageTitle="Thank You"
-        homePageUrl="/"
-        homePageText="Home"
-        activePageText="thank-you"
-        bgImage="/images/page-banner1.jpg"
-      />
       <div className="symptoms-area pt-3">
         <div className="container">
           <div className="row align-items-center">
