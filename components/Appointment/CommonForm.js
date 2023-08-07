@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Swal from "sweetalert2";
+import Router from "next/router";
 import withReactContent from "sweetalert2-react-content";
 const MySwal = withReactContent(Swal);
 import api from "../../utils/api";
@@ -18,7 +19,7 @@ const alertContent = () => {
     title: "Appointment Booked!",
     // text: "Your appointment has been successfully booked.",
     icon: "success",
-    timer: 5000,
+    timer: 2000,
     timerProgressBar: true,
     showConfirmButton: false,
   });
@@ -85,6 +86,9 @@ const CommonForm = ({ isFromHome }) => {
         setLoader(false);
         setFormData(INITIAL_STATE);
         alertContent();
+        setTimeout(() => {
+          Router.push("/thank-you");
+        }, 3000);
       }
     } catch (error) {
       console.log(error);

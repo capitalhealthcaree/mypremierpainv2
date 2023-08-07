@@ -30,7 +30,6 @@ const FeedbackSlider = () => {
             <SwiperSlide>
               <div className="feedback-item">
                 <div className="client-img">
-                  {/* <img src="/images/clients/client2.png" alt="Feedback" /> */}
                   <h3>Kristin Ellis</h3>
                 </div>
                 <p>
@@ -45,7 +44,6 @@ const FeedbackSlider = () => {
             <SwiperSlide>
               <div className="feedback-item">
                 <div className="client-img">
-                  {/* <img src="/images/clients/client3.png" alt="Feedback" /> */}
                   <h3>Raymond K. Artman</h3>
                 </div>
                 <p>
@@ -62,7 +60,6 @@ const FeedbackSlider = () => {
             <SwiperSlide>
               <div className="feedback-item">
                 <div className="client-img">
-                  {/* <img src="/images/clients/client4.png" alt="Feedback" /> */}
                   <h3>Mazie Wilson</h3>
                 </div>
                 <p>
