@@ -9,7 +9,7 @@ const ContactInfo = ({ loc1, loc2 }) => {
             <div className="col-sm-6 col-lg-4">
               <div className="location-item">
                 <i className="icofont-location-pin"></i>
-                <h3>Location</h3>
+                <h2>Location</h2>
                 <p>
                   {loc1}
                   <br /> {loc2}
