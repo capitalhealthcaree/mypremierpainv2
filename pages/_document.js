@@ -32,7 +32,7 @@ class MyDocument extends Document {
           {/* Add Script of Chat */}
           <script
             dangerouslySetInnerHTML={{
-              __html: `var continuallySettings = { appID: "ne9y6m742rzk" };`,
+              __html: `var continuallySettings = { appID: "6p9r2x98xrq7" };`,
             }}
           ></script>
           <script src="https://cdn-app.continual.ly/js/embed/continually-embed.latest.min.js"></script>
