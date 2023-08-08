@@ -1,5 +1,4 @@
 import React from "react";
-import TopHeader from "../components/_App/TopHeader";
 import VideoTestimonials from "../components/Common/VideoTestimonials";
 import AppointmentForm from "../components/Home/AppointmentForm";
 import Navbar from "../components/_App/Navbar";
@@ -9,7 +8,6 @@ import Footer from "../components/_App/Footer";
 const VideoTestimonial = () => {
   return (
     <>
-      <TopHeader />
 
       <Navbar />
 

@@ -54,6 +54,7 @@ const Footer = () => {
                     <li style={{ marginRight: "10px" }}>
                       <a
                         href="https://www.facebook.com/mypremierpain"
+                        aria-label="Facebook"
                         target="_blank"
                       >
                         <i className="icofont-facebook"></i>
@@ -67,6 +68,7 @@ const Footer = () => {
                     <li style={{ marginRight: "10px" }}>
                       <a
                         href="https://www.linkedin.com/in/premier-pain-centers-08582018a/"
+                        aria-label="Linkedin"
                         target="_blank"
                       >
                         <i className="icofont-linkedin"></i>
@@ -75,6 +77,7 @@ const Footer = () => {
                     <li style={{ marginRight: "10px" }}>
                       <a
                         href="https://www.instagram.com/premier_pain_centers/"
+                        aria-label="Instagram"
                         target="_blank"
                       >
                         <i className="icofont-instagram"></i>

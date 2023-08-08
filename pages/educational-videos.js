@@ -1,6 +1,5 @@
 import React from "react";
 import Head from "next/head";
-import TopHeader from "../components/_App/TopHeader";
 import EducationalVideosList from "../components/Common/EducationalVideosList";
 import AppointmentForm from "../components/Home/AppointmentForm";
 import Navbar from "../components/_App/Navbar";
@@ -24,7 +23,6 @@ const EducationalVideos = () => {
         <meta content="initial-scale=1" name="viewport" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
       </Head>
-      <TopHeader />
 
       <Navbar />
 
