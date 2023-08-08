@@ -2,6 +2,9 @@
 const path = require("path");
 const nextConfig = {
   swcMinify: true,
+  images: {
+    domains: ["firebasestorage.googleapis.com", "www.mypremierpain.com"],
+  },
   trailingSlash: true,
   sassOptions: {
     includePaths: [path.join(__dirname, "styles")],

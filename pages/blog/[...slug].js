@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import Image from 'next/image';
 import api from "../../utils/api";
 import Navbar from "../../components/_App/Navbar";
 import PageBanner from "../../components/Common/PageBanner";
@@ -43,7 +44,7 @@ const BlogDetails = ({ items }) => {
             <div className="col-lg-8">
               <div className="blog-details-item">
                 <div className="blog-details-img">
-                  <img src={items?.image} alt={items?.category} />
+                  <Image src={items?.image} alt={items?.category} width={856} height={428} />
                   <h2>{items.seoTitle[0]}</h2>
                 </div>
 

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
 import api from "../../utils/api";
 import Navbar from "../../components/_App/Navbar";
 import PageBanner from "../../components/Common/PageBanner";
@@ -69,7 +70,12 @@ const News = ({ item, totalPage }) => {
                   <div className="blog-item">
                     <div className="blog-top">
                       <Link href={`/news/${item.slug}`}>
-                        <img src={item.image} alt={item.category} />
+                        <Image
+                          src={item.image}
+                          alt={item.category}
+                          width={416}
+                          height={208}
+                        />
                       </Link>
                     </div>
                     <div className="blog-bottom">
