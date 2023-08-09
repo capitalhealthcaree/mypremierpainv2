@@ -8,6 +8,11 @@ const Layout = ({ children }) => {
       <Head>
         <link rel="icon" href="https://www.mypremierpain.com/favicon.ico" />
         <title>Pain Management Specialists - Treating All Types of Pain</title>
+        <link
+          rel="preconnect"
+          href="https://fonts.googleapis.com"
+          crossorigin
+        />
         <meta
           name="robots"
           content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
