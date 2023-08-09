@@ -114,7 +114,7 @@ class MyDocument extends Document {
             }}
           ></script>
           {/* Google Tag Manager Script to show Chat ICON*/}
-          <noscript async defer>
+          <noscript async>
             <iframe
               src="https://www.googletagmanager.com/ns.html?id=GTM-PJ54LHJ"
               height="0"
