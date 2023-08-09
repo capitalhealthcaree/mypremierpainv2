@@ -97,23 +97,31 @@ class MyDocument extends Document {
             name="google-site-verification"
             content="4KXE6z1IMn1YlLvnFo__ua0TXs3xPbwTkDIQcIHwr54"
           />
+        </Head>
+        <body>
           {/* Add Script of Chat */}
           <script
             async
-            defer
             dangerouslySetInnerHTML={{
               __html: `
-                var continuallySettings = { appID: "6p9r2x98xrq7" };
-                var script = document.createElement('script');
-                script.src = "https://cdn-app.continual.ly/js/embed/continually-embed.latest.min.js";
-                script.async = true;
-                script.defer = true;
-                document.body.appendChild(script);
+                (function(){
+                  var script = document.createElement('script');
+                  script.src = "https://cdn-app.continual.ly/js/embed/continually-embed.latest.min.js";
+                  script.async = true;
+                  document.body.appendChild(script);
+                })();
               `,
             }}
           ></script>
-        </Head>
-        <body>
+          {/* Google Tag Manager Script to show Chat ICON*/}
+          <noscript async defer>
+            <iframe
+              src="https://www.googletagmanager.com/ns.html?id=GTM-PJ54LHJ"
+              height="0"
+              width="0"
+              style={{ display: "none", visibility: "hidden" }}
+            ></iframe>
+          </noscript>
           <Main />
           <NextScript />
         </body>
