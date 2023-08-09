@@ -1,5 +1,7 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
+
 const outServices = [
   {
     imgSrc: "/images/our-services/back-pain.jpg",
@@ -52,11 +54,12 @@ const outServices = [
     href: "/conditions-we-treat/car-accident-injury",
   },
   {
-    imgSrc: "/images/our-services/coccydynia.png",
+    imgSrc: "/images/our-services/coccydynia.jpg",
     name: "Coccydynia",
     href: "/conditions-we-treat/coccydynia",
   },
 ];
+
 const OurServices = () => {
   return (
     <>
@@ -73,7 +76,13 @@ const OurServices = () => {
                   <div className="blog-item">
                     <div className="blog-top">
                       <Link href={item.href}>
-                        <img src={item.imgSrc} alt={item.name} />
+                        <Image
+                          src={item.imgSrc}
+                          alt={item.name}
+                          width={306}
+                          height={232}
+                          loading="lazy"
+                        />
                       </Link>
                     </div>
                     <div className="blog-bottom">

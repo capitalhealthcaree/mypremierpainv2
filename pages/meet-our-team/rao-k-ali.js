@@ -1,10 +1,17 @@
 import React from "react";
 import Link from "next/link";
 import Head from "next/head";
-import Navbar from "../../components/_App/Navbar";
-import PageBanner from "../../components/Common/PageBanner";
-import AppointmentForm from "../../components/Appointment/AppointmentForm";
-import Footer from "../../components/_App/Footer";
+import dynamic from "next/dynamic";
+
+const Navbar = dynamic(() => import("../../components/_App/Navbar"));
+
+const PageBanner = dynamic(() => import("../../components/Common/PageBanner"));
+
+const AppointmentForm = dynamic(() =>
+  import("../../components/Appointment/AppointmentForm")
+);
+
+const Footer = dynamic(() => import("../../components/_App/Footer"));
 
 const conditionsWeTreat = {
   heaging: "Conditions We Treat",
@@ -179,23 +186,23 @@ const DoctorDetails = () => {
                   <div className="doctor-details-contact">
                     <h3>Contact info</h3>
                     <ul>
-                    <li style={{ marginLeft: "-5px" }}>
-                      <i
-                        className="icofont-ui-call"
-                        style={{ fontSize: "30px" }}
-                      ></i>
+                      <li style={{ marginLeft: "-5px" }}>
+                        <i
+                          className="icofont-ui-call"
+                          style={{ fontSize: "30px" }}
+                        ></i>
 
-                      <a href="tel:+14695624188">( +1 ) 469-562-4188</a>
-                    </li>
-                    <li>
-                      <i
-                        className="icofont-ui-message"
-                        style={{ fontSize: "25px" }}
-                      ></i>
-                      <a href="mailto:admin@mypremierpains.com">
-                        admin@mypremierpain.com
-                      </a>
-                    </li>
+                        <a href="tel:+14695624188">( +1 ) 469-562-4188</a>
+                      </li>
+                      <li>
+                        <i
+                          className="icofont-ui-message"
+                          style={{ fontSize: "25px" }}
+                        ></i>
+                        <a href="mailto:admin@mypremierpains.com">
+                          admin@mypremierpain.com
+                        </a>
+                      </li>
                     </ul>
                   </div>
                   <div className="doctor-details-biography"></div>

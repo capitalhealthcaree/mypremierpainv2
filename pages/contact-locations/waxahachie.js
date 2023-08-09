@@ -1,18 +1,28 @@
 import React from "react";
 import Head from "next/head";
-import Navbar from "../../components/_App/Navbar";
-import PageBanner from "../../components/Common/PageBanner";
-import ContactInfo from "../../components/Contact/ContactInfo";
-import Footer from "../../components/_App/Footer";
-import AppointmentForm from "../../components/Appointment/AppointmentForm";
 import { useRouter } from "next/router";
+import dynamic from "next/dynamic";
+
+const Navbar = dynamic(() => import("../../components/_App/Navbar"));
+
+const PageBanner = dynamic(() => import("../../components/Common/PageBanner"));
+
+const ContactInfo = dynamic(() =>
+  import("../../components/Contact/ContactInfo")
+);
+
+const AppointmentForm = dynamic(() =>
+  import("../../components/Appointment/AppointmentForm")
+);
+
+const Footer = dynamic(() => import("../../components/_App/Footer"));
 
 const Contact = () => {
   const router = useRouter();
 
   return (
     <>
-    <Head>
+      <Head>
         <title>Center for Pain Management in Waxahachie, TX</title>
         <link
           rel="canonical"

@@ -1,5 +1,7 @@
 import React from "react";
-import CommonForm from "../Appointment/CommonForm";
+import dynamic from "next/dynamic";
+
+const CommonForm = dynamic(() => import("../Appointment/CommonForm"));
 
 const AppointmentForm = () => {
   return (

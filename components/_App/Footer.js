@@ -1,8 +1,8 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Footer = () => {
-  const currentYear = new Date().getFullYear();
   return (
     <>
       <footer className="pt-5" style={{ backgroundColor: "black" }}>
@@ -15,7 +15,13 @@ const Footer = () => {
                   style={{ display: "flex", flexDirection: "column" }}
                 >
                   <Link href="/" className="navbar-brand">
-                    <img src="/images/logo-footer.png" alt="logo" />
+                    <Image
+                      src="/images/logo-footer.png"
+                      alt="logo"
+                      width={217}
+                      height={125}
+                      loading="lazy"
+                    />
                   </Link>
                   <p className="pt-3" style={{ color: "white" }}>
                     At Premier Pain Centers, we offer top quality pain

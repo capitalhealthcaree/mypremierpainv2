@@ -1,12 +1,24 @@
 import React from "react";
 import Head from "next/head";
+import dynamic from "next/dynamic";
 
-import Navbar from "../../components/_App/Navbar";
-import PageBanner from "../../components/Common/PageBanner";
-import AppointmentFormSideBar from "../../components/Appointment/AppointmentFormSideBar";
-import ConditionsWeTreatLeftSide from "../../components/Common/ConditionsWeTreatLeftSide";
-import BackPainDetails from "../../components/ConditionsWeTreat/BackPainDetails";
-import Footer from "../../components/_App/Footer";
+const Navbar = dynamic(() => import("../../components/_App/Navbar"));
+
+const PageBanner = dynamic(() => import("../../components/Common/PageBanner"));
+
+const AppointmentFormSideBar = dynamic(() =>
+  import("../../components/Appointment/AppointmentFormSideBar")
+);
+
+const ConditionsWeTreatLeftSide = dynamic(() =>
+  import("../../components/Common/ConditionsWeTreatLeftSide")
+);
+
+const BackPainDetails = dynamic(() =>
+  import("../../components/ConditionsWeTreat/BackPainDetails")
+);
+
+const Footer = dynamic(() => import("../../components/_App/Footer"));
 
 const DoctorDetails = () => {
   return (

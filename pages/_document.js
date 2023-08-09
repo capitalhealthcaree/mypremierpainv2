@@ -23,6 +23,7 @@ class MyDocument extends Document {
                 })(window,document,'script','dataLayer','GTM-PJ54LHJ');
               `,
             }}
+            defer
           />
           {/* For Google Search Console */}
           <meta
@@ -34,8 +35,12 @@ class MyDocument extends Document {
             dangerouslySetInnerHTML={{
               __html: `var continuallySettings = { appID: "6p9r2x98xrq7" };`,
             }}
+            defer
           ></script>
-          <script src="https://cdn-app.continual.ly/js/embed/continually-embed.latest.min.js"></script>
+          <script
+            src="https://cdn-app.continual.ly/js/embed/continually-embed.latest.min.js"
+            defer
+          ></script>
         </Head>
         <body>
           {/* Google Tag Manager Script */}

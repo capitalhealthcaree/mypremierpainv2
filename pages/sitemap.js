@@ -1,9 +1,13 @@
 import React from "react";
 import Link from "next/link";
 import Head from "next/head";
-import Navbar from "../components/_App/Navbar";
-import PageBanner from "../components/Common/PageBanner";
-import Footer from "../components/_App/Footer";
+import dynamic from "next/dynamic";
+
+const Navbar = dynamic(() => import("../components/_App/Navbar"));
+
+const PageBanner = dynamic(() => import("../components/Common/PageBanner"));
+
+const Footer = dynamic(() => import("../components/_App/Footer"));
 
 const locations = [
   { name: "Cleburne", location: "/contact-locations/cleburne" },

@@ -1,12 +1,23 @@
 import React from "react";
 import Link from "next/link";
 import Head from "next/head";
-import AppointmentForm from "../components/Home/AppointmentForm";
-import Navbar from "../components/_App/Navbar";
-import PageBanner from "../components/Common/PageBanner";
-import OurDoctors from "../components/Common/OurDoctors";
-import LatestBlogPost from "../components/Common/LatestBlogPost";
-import Footer from "../components/_App/Footer";
+import dynamic from "next/dynamic";
+
+const Navbar = dynamic(() => import("../components/_App/Navbar"));
+
+const AppointmentForm = dynamic(() =>
+  import("../components/Home/AppointmentForm")
+);
+
+const PageBanner = dynamic(() => import("../components/Common/PageBanner"));
+
+const OurDoctors = dynamic(() => import("../components/Common/OurDoctors"));
+
+const LatestBlogPost = dynamic(() =>
+  import("../components/Common/LatestBlogPost")
+);
+
+const Footer = dynamic(() => import("../components/_App/Footer"));
 
 const About = () => {
   return (

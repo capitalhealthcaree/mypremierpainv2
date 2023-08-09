@@ -1,7 +1,10 @@
 import React from "react";
 import Head from "next/head";
-import Navbar from "../components/_App/Navbar";
-import Footer from "../components/_App/Footer";
+import dynamic from "next/dynamic";
+
+const Navbar = dynamic(() => import("../components/_App/Navbar"));
+
+const Footer = dynamic(() => import("../components/_App/Footer"));
 
 const Index = () => {
   return (

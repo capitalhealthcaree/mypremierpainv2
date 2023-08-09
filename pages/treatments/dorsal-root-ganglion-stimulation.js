@@ -1,12 +1,24 @@
 import React from "react";
 import Head from "next/head";
-import PageBanner from "../../components/Common/PageBanner";
-import Navbar from "../../components/_App/Navbar";
+import dynamic from "next/dynamic";
 
-import DorsalRootGanglionStimulationDetails from "../../components/Treatments/DorsalRootGanglionStimulationDetails";
-import AppointmentFormSideBar from "../../components/Appointment/AppointmentFormSideBar";
-import TreatmentsRightSide from "../../components/Common/TreatmentsRightSide";
-import Footer from "../../components/_App/Footer";
+const Navbar = dynamic(() => import("../../components/_App/Navbar"));
+
+const PageBanner = dynamic(() => import("../../components/Common/PageBanner"));
+
+const DorsalRootGanglionStimulationDetails = dynamic(() =>
+  import("../../components/Treatments/DorsalRootGanglionStimulationDetails")
+);
+
+const AppointmentFormSideBar = dynamic(() =>
+  import("../../components/Appointment/AppointmentFormSideBar")
+);
+
+const TreatmentsRightSide = dynamic(() =>
+  import("../../components/Common/TreatmentsRightSide")
+);
+
+const Footer = dynamic(() => import("../../components/_App/Footer"));
 
 const DoctorDetails = () => {
   return (

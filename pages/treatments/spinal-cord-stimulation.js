@@ -1,11 +1,23 @@
 import React from "react";
 import Head from "next/head";
-import Navbar from "../../components/_App/Navbar";
-import PageBanner from "../../components/Common/PageBanner";
-import SpinalCordStimulationDetails from "../../components/Treatments/SpinalCordStimulationDetails";
-import AppointmentFormSideBar from "../../components/Appointment/AppointmentFormSideBar";
-import TreatmentsRightSide from "../../components/Common/TreatmentsRightSide";
-import Footer from "../../components/_App/Footer";
+import dynamic from "next/dynamic";
+
+const Navbar = dynamic(() => import("../../components/_App/Navbar"));
+
+const PageBanner = dynamic(() => import("../../components/Common/PageBanner"));
+
+const AppointmentFormSideBar = dynamic(() =>
+  import("../../components/Appointment/AppointmentFormSideBar")
+);
+
+const TreatmentsRightSide = dynamic(() =>
+  import("../../components/Common/TreatmentsRightSide")
+);
+const SpinalCordStimulationDetails = dynamic(() =>
+  import("../../components/Treatments/SpinalCordStimulationDetails")
+);
+
+const Footer = dynamic(() => import("../../components/_App/Footer"));
 
 const DoctorDetails = () => {
   return (
@@ -18,7 +30,8 @@ const DoctorDetails = () => {
         />
         <meta
           name="description"
-          content="Pain Management Richardson's team of experienced physicians understands how spinal cord issues affects quality of life. Contact us today at 469-562-4188 to schedule an appointment!"/>
+          content="Pain Management Richardson's team of experienced physicians understands how spinal cord issues affects quality of life. Contact us today at 469-562-4188 to schedule an appointment!"
+        />
         <meta content="text/html; charset=utf-8" httpEquiv="Content-Type" />
         <meta content="initial-scale=1" name="viewport" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />

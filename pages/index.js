@@ -1,17 +1,38 @@
 import React from "react";
 import Head from "next/head";
-import Navbar from "../components/_App/Navbar";
-import NavbarAppointment from "../components/_App/NavbarAppointment";
-import MainBanner from "../components/Home/MainBanner";
-import About from "../components/Home/About";
-import OurServices from "../components/Home/OurServices";
-import Treatments from "../components/Home/Treatments";
-import AppointmentForm from "../components/Home/AppointmentForm";
-import OurMission from "../components/Home/OurMission";
-import OurDoctors from "../components/Common/OurDoctors";
-import FeedbackSlider from "../components/Home/FeedbackSlider";
-import LatestBlogPost from "../components/Common/LatestBlogPost";
-import Footer from "../components/_App/Footer";
+import dynamic from "next/dynamic";
+
+const Navbar = dynamic(() => import("../components/_App/Navbar"));
+
+const NavbarAppointment = dynamic(() =>
+  import("../components/_App/NavbarAppointment")
+);
+
+const MainBanner = dynamic(() => import("../components/Home/MainBanner"));
+
+const About = dynamic(() => import("../components/Home/About"));
+
+const OurServices = dynamic(() => import("../components/Home/OurServices"));
+
+const Treatments = dynamic(() => import("../components/Home/Treatments"));
+
+const AppointmentForm = dynamic(() =>
+  import("../components/Home/AppointmentForm")
+);
+
+const OurMission = dynamic(() => import("../components/Home/OurMission"));
+
+const OurDoctors = dynamic(() => import("../components/Common/OurDoctors"));
+
+const FeedbackSlider = dynamic(() =>
+  import("../components/Home/FeedbackSlider")
+);
+
+const LatestBlogPost = dynamic(() =>
+  import("../components/Common/LatestBlogPost")
+);
+
+const Footer = dynamic(() => import("../components/_App/Footer"));
 
 const Index = () => {
   return (

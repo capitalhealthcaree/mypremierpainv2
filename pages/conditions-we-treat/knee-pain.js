@@ -1,11 +1,24 @@
 import React from "react";
 import Head from "next/head";
-import Navbar from "../../components/_App/Navbar";
-import PageBanner from "../../components/Common/PageBanner";
-import AppointmentFormSideBar from "../../components/Appointment/AppointmentFormSideBar";
-import ConditionsWeTreatLeftSide from "../../components/Common/ConditionsWeTreatLeftSide";
-import KneePainDetails from "../../components/ConditionsWeTreat/KneePainDetails";
-import Footer from "../../components/_App/Footer";
+import dynamic from "next/dynamic";
+
+const Navbar = dynamic(() => import("../../components/_App/Navbar"));
+
+const PageBanner = dynamic(() => import("../../components/Common/PageBanner"));
+
+const AppointmentFormSideBar = dynamic(() =>
+  import("../../components/Appointment/AppointmentFormSideBar")
+);
+
+const ConditionsWeTreatLeftSide = dynamic(() =>
+  import("../../components/Common/ConditionsWeTreatLeftSide")
+);
+
+const KneePainDetails = dynamic(() =>
+  import("../../components/ConditionsWeTreat/KneePainDetails")
+);
+
+const Footer = dynamic(() => import("../../components/_App/Footer"));
 
 const DoctorDetails = () => {
   return (
@@ -18,7 +31,8 @@ const DoctorDetails = () => {
         />
         <meta
           name="description"
-          content="Do you need knee pain treatment in Richardson? Contact Premier Pain Centers to schedule an appointment with our experienced specialists doctors."/>
+          content="Do you need knee pain treatment in Richardson? Contact Premier Pain Centers to schedule an appointment with our experienced specialists doctors."
+        />
         <meta content="text/html; charset=utf-8" httpEquiv="Content-Type" />
         <meta content="initial-scale=1" name="viewport" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />

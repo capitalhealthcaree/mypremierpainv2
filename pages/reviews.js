@@ -1,8 +1,13 @@
 import React from "react";
 import Head from "next/head";
-import Navbar from "../components/_App/Navbar";
-import PageBanner from "../components/Common/PageBanner";
-import Footer from "../components/_App/Footer";
+import dynamic from "next/dynamic";
+
+const Navbar = dynamic(() => import("../components/_App/Navbar"));
+
+const PageBanner = dynamic(() => import("../components/Common/PageBanner"));
+
+const Footer = dynamic(() => import("../components/_App/Footer"));
+
 const review = [
   {
     heading: "His Plan Helped Reduce My Pain",
@@ -16,7 +21,7 @@ const review = [
     review:
       "Compared to the condition I was in, I would endorse more than ninety percent relief. This doctor took on my difficult case as I was on heavy pain medication and had several surgeries. He believed in me and in helping me through this difficult time. I believe in him completely. I can actually stand and walk straight again. Mind you I am finally off the narcotics medications. Doctor Ali changed my life I will be forever grateful.",
   },
-  
+
   {
     heading: "A Complete Doctor",
     name: "HIKIMI K.",
@@ -29,7 +34,7 @@ const review = [
     review:
       "Dr. Ali!. His balanced mix of knowledge, professionalism & compassion is second to none while working with patients who suffer from pain on a daily basis. He helps me understand the reasons for the particular medications & the doses he prescribes. I would recommend him to everyone!!!",
   },
- 
+
   {
     heading: "Genuine Care",
     name: "BARBI K.",
@@ -42,7 +47,7 @@ const review = [
     review:
       "Doctor Ali is amazing. He did back surgery on me all through a simple and small needle. No cutting, suturing or bleeding. I was reluctant to have surgery but he showed me his videos of people who found great relief through surgery. Now, I feel 100% better. It was painless. Recommendation straight away for all of you.",
   },
-  
+
   {
     heading: "I Feel A Lot Better",
     name: "JESSICA H.",
@@ -71,7 +76,7 @@ const review = [
 const reviews = () => {
   return (
     <>
-    <Head>
+      <Head>
         <title>Patients Reviews: Hear What Our Customers Say</title>
         <link
           rel="canonical"
@@ -96,24 +101,24 @@ const reviews = () => {
       />
 
       <div className="mb-2">
-      <div className="container">
-      <div className=" row mt-3">
-        {review.map((item, i) => {
-          return (
-            <div className="col-sm-12 col-lg-6 mb-4" key={i}>
-              <div
-                className="feedback-item"
-                style={{ border: "1px solid #0046c0" }}
-              >
-                <h5>{item.heading}</h5>
-                <p>{item.review}</p>
-                <b>{item.name}</b>
-              </div>
-            </div>
-          );
-        })}
-      </div>
-    </div>
+        <div className="container">
+          <div className=" row mt-3">
+            {review.map((item, i) => {
+              return (
+                <div className="col-sm-12 col-lg-6 mb-4" key={i}>
+                  <div
+                    className="feedback-item"
+                    style={{ border: "1px solid #0046c0" }}
+                  >
+                    <h5>{item.heading}</h5>
+                    <p>{item.review}</p>
+                    <b>{item.name}</b>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
       </div>
       <Footer />
     </>

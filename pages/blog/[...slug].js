@@ -1,11 +1,17 @@
 import React from "react";
 import Head from "next/head";
-import Image from 'next/image';
+import Image from "next/image";
+import dynamic from "next/dynamic";
+
+const Navbar = dynamic(() => import("../../components/_App/Navbar"));
+
+const PageBanner = dynamic(() => import("../../components/Common/PageBanner"));
+
+const BlogSidebar = dynamic(() => import("../../components/Blog/BlogSidebar"));
+
+const Footer = dynamic(() => import("../../components/_App/Footer"));
+
 import api from "../../utils/api";
-import Navbar from "../../components/_App/Navbar";
-import PageBanner from "../../components/Common/PageBanner";
-import Footer from "../../components/_App/Footer";
-import BlogSidebar from "../../components/Blog/BlogSidebar";
 
 const BlogDetails = ({ items }) => {
   return (
@@ -44,7 +50,13 @@ const BlogDetails = ({ items }) => {
             <div className="col-lg-8">
               <div className="blog-details-item">
                 <div className="blog-details-img">
-                  <Image src={items?.image} alt={items?.category} width={856} height={428} />
+                  <Image
+                    src={items?.image}
+                    alt={items?.category}
+                    width={856}
+                    height={428}
+                    loading="lazy"
+                  />
                   <h2>{items.seoTitle[0]}</h2>
                 </div>
 

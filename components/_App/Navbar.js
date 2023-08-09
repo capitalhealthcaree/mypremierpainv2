@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
   // Add active class
@@ -42,7 +43,13 @@ const Navbar = () => {
           <div className="container">
             <nav className="navbar navbar-expand-lg navbar-light">
               <Link href="/" className="navbar-brand">
-                <img src="/images/logo.png" alt="logo" />
+                <Image
+                  src="/images/logo.png"
+                  alt="logo"
+                  width={139}
+                  height={78}
+                  loading="lazy"
+                />
               </Link>
 
               <button
@@ -213,8 +220,8 @@ const Navbar = () => {
                         <Link
                           href="/treatments/hip-joint-injections/"
                           className={`nav-link ${
-                            currentPath == "/treatments/hip-joint-injections/" &&
-                            "active"
+                            currentPath ==
+                              "/treatments/hip-joint-injections/" && "active"
                           }`}
                         >
                           Hip Joint Injections
@@ -270,7 +277,8 @@ const Navbar = () => {
                           href="/treatments/trigger-point-injections/"
                           className={`nav-link ${
                             currentPath ==
-                              "/treatments/trigger-point-injections/" && "active"
+                              "/treatments/trigger-point-injections/" &&
+                            "active"
                           }`}
                         >
                           Trigger Point Injections
@@ -303,8 +311,8 @@ const Navbar = () => {
                         <Link
                           href="/treatments/epidural-nerve-block/"
                           className={`nav-link ${
-                            currentPath == "/treatments/epidural-nerve-block/" &&
-                            "active"
+                            currentPath ==
+                              "/treatments/epidural-nerve-block/" && "active"
                           }`}
                         >
                           Epidural Nerve Block

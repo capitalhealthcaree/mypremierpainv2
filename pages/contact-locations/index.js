@@ -1,11 +1,18 @@
 import React from "react";
 import Head from "next/head";
-import Navbar from "../../components/_App/Navbar";
-import PageBanner from "../../components/Common/PageBanner";
-import AppointmentForm from "../../components/Appointment/AppointmentForm";
-import Footer from "../../components/_App/Footer";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import dynamic from "next/dynamic";
+
+const Navbar = dynamic(() => import("../../components/_App/Navbar"));
+
+const PageBanner = dynamic(() => import("../../components/Common/PageBanner"));
+
+const AppointmentForm = dynamic(() =>
+  import("../../components/Appointment/AppointmentForm")
+);
+
+const Footer = dynamic(() => import("../../components/_App/Footer"));
 
 const Contact = () => {
   const router = useRouter();
