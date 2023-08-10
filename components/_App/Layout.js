@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
         <link
           rel="preconnect"
           href="https://fonts.googleapis.com"
-          crossorigin
+          crossOrigin="true"
         />
         <meta
           name="robots"

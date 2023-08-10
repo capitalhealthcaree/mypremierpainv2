@@ -31,7 +31,6 @@ const Blog = ({ item, totalPage }) => {
 
   const listItems = [];
   for (let i = 1; i <= totalPage; i++) {
-    console.log("i=", i, "currentPage=", currentPage);
     listItems.push(
       <a
         key={i}
