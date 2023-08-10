@@ -170,15 +170,34 @@ const CommonForm = ({ isFromHome }) => {
                 <label>
                   Patient Type<small className="text-danger">*</small>
                 </label>
-                <select
-                  className="form-control"
-                  name="patientType"
-                  value={formData.patientType}
-                  onChange={handleChange}
-                >
-                  <option>I'm a Potential New Patient</option>
-                  <option>I'm a Current Existing Patient.</option>
-                </select>
+                <div>
+                  <label>
+                    <input
+                      type="radio"
+                      name="I'm a Potential New Patient"
+                      value="potential"
+                      checked={
+                        formData.patientType === "I'm a Potential New Patient"
+                      }
+                      onChange={handleChange}
+                    />
+                    I'm a Potential New Patient
+                  </label>
+                  <br />
+                  <label>
+                    <input
+                      type="radio"
+                      name="patientType"
+                      value="I'm a Current Existing Patient"
+                      checked={
+                        formData.patientType ===
+                        "I'm a Current Existing Patient"
+                      }
+                      onChange={handleChange}
+                    />
+                    I'm a Current Existing Patient
+                  </label>
+                </div>
               </div>
             </div>
             <div className={isFromHome ? "col-lg-6" : "col-lg-12"}>
