@@ -171,22 +171,26 @@ const CommonForm = ({ isFromHome }) => {
                   Patient Type<small className="text-danger">*</small>
                 </label>
                 <div>
-                  <label>
+                  <label className="form-check">
                     <input
                       type="radio"
-                      name="I'm a Potential New Patient"
-                      value="potential"
+                      className="form-check-input"
+                      name="patientType"
+                      value="I'm a Potential New Patient"
                       checked={
                         formData.patientType === "I'm a Potential New Patient"
                       }
                       onChange={handleChange}
                     />
-                    I'm a Potential New Patient
+                    <span className="form-check-label ml-2">
+                      I'm a Potential New Patient
+                    </span>
                   </label>
                   <br />
-                  <label>
+                  <label className="form-check">
                     <input
                       type="radio"
+                      className="form-check-input"
                       name="patientType"
                       value="I'm a Current Existing Patient"
                       checked={
@@ -195,7 +199,9 @@ const CommonForm = ({ isFromHome }) => {
                       }
                       onChange={handleChange}
                     />
-                    I'm a Current Existing Patient
+                    <span className="form-check-label ml-2">
+                      I'm a Current Existing Patient
+                    </span>
                   </label>
                 </div>
               </div>
