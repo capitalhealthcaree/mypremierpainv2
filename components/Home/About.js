@@ -10,13 +10,7 @@ const About = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="symptoms-img">
-                <Image
-                  src="/images/about.webp"
-                  alt="Symptoms"
-                  width={636}
-                  height={636}
-                  loading="lazy"
-                />
+                <img src="/images/about.webp" alt="Symptoms" />
               </div>
             </div>
 
