@@ -14,7 +14,7 @@ const ServiceDetailsContent = () => {
               temporarily relieved with occipital nerve blocks. As a result of
               injuries, including whiplash, neck and head pain may also be
               alleviated. A variety of reasons can cause pain, and{" "}
-              <Link href="/contact-locations/fort-worth/">
+              <Link href="/contact-locations/fort-worth/" rel="preload">
                 Fort Worth pain management
               </Link>{" "}
               can provide relief.
@@ -37,8 +37,10 @@ const ServiceDetailsContent = () => {
               To learn more about our hillsboro occipital nerve block Injections
               treatment services, give us a call at{" "}
               <a href="tel:+14695624188">469-562-4188</a> or{" "}
-              <Link href="/contact-locations/">contact us online</Link>
-              {" "}today.
+              <Link href="/contact-locations/" rel="preload">
+                contact us online
+              </Link>{" "}
+              today.
             </blockquote>
             <h2>What Does an Occipital Nerve Block Treat?</h2>
             <p>
@@ -92,7 +94,7 @@ const ServiceDetailsContent = () => {
             <h2>The Occipital Nerve Block Procedure</h2>
             <p>
               Our team of experts at{" "}
-              <Link href="/contact-locations/richardson/">
+              <Link href="/contact-locations/richardson/" rel="preload">
                 Pain Management Richardson
               </Link>{" "}
               understand how pain can affect your life.The occipital nerve block
@@ -164,7 +166,7 @@ const ServiceDetailsContent = () => {
               It is likely that the injection site will initially feel painful,
               but this should only last a few days. The pain should be evaluated
               by a physician if it persists or becomes severe. The{" "}
-              <Link href="/contact-locations/lancaster/">
+              <Link href="/contact-locations/lancaster/" rel="preload">
                 Lancaster spine and pain clinic
               </Link>{" "}
               strives to improve the quality of life of its patients.
@@ -184,24 +186,30 @@ const ServiceDetailsContent = () => {
               As a result of an injection, the occipital nerve block reduces
               pain and inflammation around the nerve located at the base of the
               skull. A number of types of{" "}
-              <Link href="/conditions-we-treat/headaches/">headaches</Link> are
-              caused by this condition. In spite of the general safety of
+              <Link href="/conditions-we-treat/headaches/" rel="preload">
+                headaches
+              </Link>{" "}
+              are caused by this condition. In spite of the general safety of
               occipital nerve blocks, their effectiveness and duration may
               differ significantly from person to person. An occipital nerve
               block may be recommended by a physician after other treatment
               options have been considered. Most patients are discharged from
               the hospital the same day following the procedure, which usually
               takes no more than a few minutes. In{" "}
-              <Link href="/">Premier Pain Management</Link>, we strive to
-              provide comprehensive treatment guidelines and diagnoses in order
-              to help individuals restore their health.
+              <Link href="/" rel="preload">
+                Premier Pain Management
+              </Link>
+              , we strive to provide comprehensive treatment guidelines and
+              diagnoses in order to help individuals restore their health.
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
               Give us a call at <a href="tel:+14695624188">469-562-4188</a> or
               contact us online today to{" "}
-              <Link href="/appointment/">schedule an appointment</Link> for
-              occipital nerve block treatment in lancaster, TX and the
+              <Link href="/appointment/" rel="preload">
+                schedule an appointment
+              </Link>{" "}
+              for occipital nerve block treatment in lancaster, TX and the
               surrounding areas.
             </blockquote>
           </div>

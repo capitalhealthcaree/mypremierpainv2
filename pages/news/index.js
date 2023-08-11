@@ -73,7 +73,7 @@ const News = ({ item, totalPage }) => {
                 <div className="col-md-6 col-lg-4" key={i}>
                   <div className="blog-item">
                     <div className="blog-top">
-                      <Link href={`/news/${item.slug}`}>
+                      <Link href={`/news/${item.slug}`} rel="preload">
                         <Image
                           src={item.image}
                           alt={item.category}
@@ -85,7 +85,7 @@ const News = ({ item, totalPage }) => {
                     </div>
                     <div className="blog-bottom">
                       <h3>
-                        <Link href={`/news/${item.slug}`}>
+                        <Link href={`/news/${item.slug}`} rel="preload">
                           {item.seoTitle[0]}
                         </Link>
                       </h3>
@@ -97,7 +97,7 @@ const News = ({ item, totalPage }) => {
 
                       <ul>
                         <li>
-                          <Link href={`/news/${item.slug}`}>
+                          <Link href={`/news/${item.slug}`} rel="preload">
                             Read More{" "}
                             <i className="icofont-long-arrow-right"></i>
                           </Link>

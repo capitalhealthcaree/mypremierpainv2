@@ -42,7 +42,7 @@ const BlogSidebar = () => {
               return (
                 <li key={i}>
                   <img src={item.image} alt={item.category} />
-                  <Link href={`/blog${item.slug}`}>{item.seoTitle[0]}</Link>
+                  <Link href={`/blog${item.slug}`} rel="preload">{item.seoTitle[0]}</Link>
                   <ul>
                     <li>
                       <Link href="#" onClick={(e) => e.preventDefault()}>
@@ -79,7 +79,9 @@ const BlogSidebar = () => {
               {conditionsWeTreat.treatment.map((item, i) => {
                 return (
                   <li style={{ display: "block" }} key={i}>
-                    <Link href={item.url}>{item.name}</Link>
+                    <Link href={item.url} rel="preload">
+                      {item.name}
+                    </Link>
                   </li>
                 );
               })}

@@ -26,7 +26,10 @@ const ServiceDetailsContent = () => {
               To learn more about our hillsboro knee pain treatment services,
               give us a call at <a href="tel:+14695624188">
                 469-562-4188
-              </a> or <Link href="/contact-locations/">contact us online</Link>{" "}
+              </a> or{" "}
+              <Link href="/contact-locations/" rel="preload">
+                contact us online
+              </Link>{" "}
               today.
             </blockquote>
             <h2>What Are the Causes of Knee Pain?</h2>
@@ -92,7 +95,7 @@ const ServiceDetailsContent = () => {
             <li>Four bones make up the knee joint.</li>
             <li>
               However, our team of{" "}
-              <Link href="/contact-locations/lancaster/">
+              <Link href="/contact-locations/lancaster/" rel="preload">
                 Knee pain treatment in Lancaster
               </Link>{" "}
               also told us that the patella, often known as the kneecap, glides
@@ -108,7 +111,7 @@ const ServiceDetailsContent = () => {
             </li>
             <li>
               As our team of{" "}
-              <Link href="/contact-locations/hillsboro/">
+              <Link href="/contact-locations/hillsboro/" rel="preload">
                 Knee pain treatment in Hillsboro
               </Link>{" "}
               told us Stability in the medial and lateral directions of the knee
@@ -128,7 +131,7 @@ const ServiceDetailsContent = () => {
             <li>
               However, we were able to get all this information with the help of
               our team at{" "}
-              <Link href="/contact-locations/fort-worth/">
+              <Link href="/contact-locations/fort-worth/" rel="preload">
                 Knee pain treatment in fort worth
               </Link>
               .
@@ -149,7 +152,7 @@ const ServiceDetailsContent = () => {
               If you've just been in a serious accident that left your knee in
               agony, or if your knee is sore or unstable so you can't put any
               weight on it, you should see a doctor right away and get your{" "}
-              <Link href="/contact-locations/richardson/">
+              <Link href="/contact-locations/richardson/" rel="preload">
                 Knee pain treatment in Richardson
               </Link>{" "}
               with the help of experts. If your pain lasts more than a few days,
@@ -161,9 +164,11 @@ const ServiceDetailsContent = () => {
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
-              <Link href="/appointment/">Schedule your appointment</Link> by
-              dialing <a href="tel:+14695624188">469-562-4188</a> or completing
-              our online form today.
+              <Link href="/appointment/" rel="preload">
+                Schedule your appointment
+              </Link>{" "}
+              by dialing <a href="tel:+14695624188">469-562-4188</a> or
+              completing our online form today.
             </blockquote>
           </div>
         </div>

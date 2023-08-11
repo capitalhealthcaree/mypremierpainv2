@@ -36,7 +36,10 @@ const ServiceDetailsContent = () => {
               To learn more about our hillsboro leg pain treatment services,
               give us a call at <a href="tel:+14695624188">
                 469-562-4188
-              </a> or <Link href="/contact-locations/">contact us online</Link>{" "}
+              </a> or{" "}
+              <Link href="/contact-locations/" rel="preload">
+                contact us online
+              </Link>{" "}
               today.
             </blockquote>
             <h2>Some Of The Common Symptoms</h2>

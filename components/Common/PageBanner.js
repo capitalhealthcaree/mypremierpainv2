@@ -22,10 +22,12 @@ const PageBanner = ({
         <div className="d-table">
           <div className="d-table-cell">
             <div className="page-title-item">
-              <h1 style={{color:"white"}}>{pageTitle}</h1>
+              <h1 style={{ color: "white" }}>{pageTitle}</h1>
               <ul>
                 <li>
-                  <Link href={homePageUrl}>{homePageText}</Link>
+                  <Link href={homePageUrl} rel="preload">
+                    {homePageText}
+                  </Link>
                 </li>
                 <li className="active">{activePageText}</li>
               </ul>

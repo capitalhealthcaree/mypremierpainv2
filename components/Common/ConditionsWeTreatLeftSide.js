@@ -29,7 +29,9 @@ const ConditionsWeTreatLeftSide = () => {
             {conditionsWeTreat.treatment.map((item) => {
               return (
                 <li>
-                  <Link href={item.url}>{item.name}</Link>
+                  <Link href={item.url} rel="preload">
+                    {item.name}
+                  </Link>
                 </li>
               );
             })}

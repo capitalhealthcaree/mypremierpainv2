@@ -22,7 +22,7 @@ const ServiceDetailsContent = () => {
               pain during your surgery, since the medicine will be delivered
               nonstop. Medicine is injected into the epidural space using
               syringes. The causes of pain can vary, but{" "}
-              <Link href="/contact-locations/fort-worth/">
+              <Link href="/contact-locations/fort-worth/" rel="preload">
                 pain management in Fort Worth
               </Link>{" "}
               can help alleviate the symptoms. An epidural is commonly referred
@@ -46,7 +46,10 @@ const ServiceDetailsContent = () => {
               To learn more about our fort worth epidural nerve block treatment
               services, give us a call at{" "}
               <a href="tel:+14695624188">469-562-4188</a> or{" "}
-              <Link href="/contact-locations/">contact us online</Link> today.
+              <Link href="/contact-locations/" rel="preload">
+                contact us online
+              </Link>{" "}
+              today.
             </blockquote>
             <h2>How Epidural Steroid Injection Reduces My Pain?</h2>
             <li>
@@ -68,7 +71,7 @@ const ServiceDetailsContent = () => {
             <h2>Options For Epidural Medication Delivery</h2>
             <p>
               Our team of experienced physicians at{" "}
-              <Link href="/contact-locations/richardson/">
+              <Link href="/contact-locations/richardson/" rel="preload">
                 Pain Management Richardson{" "}
               </Link>
               understands the impact of pain on the quality of life of our
@@ -93,7 +96,7 @@ const ServiceDetailsContent = () => {
             <li>
               <b>Epidural With Patient-Controlled Analgesia (PCA):</b> Your
               healthcare provider at{" "}
-              <Link href="/contact-locations/cleburne/">
+              <Link href="/contact-locations/cleburne/" rel="preload">
                 pain relief clinic Cleburne{" "}
               </Link>{" "}
               controls the patient-controlled analgesia (PCA) pump. Based on
@@ -181,9 +184,11 @@ const ServiceDetailsContent = () => {
               recommended, but you can resume your normal activities the
               following day. Injections are administered two days before the
               procedure to provide benefits. Our goal at{" "}
-              <Link href="/">Premier Pain Management</Link> is to assist
-              individuals in restoring their health by providing comprehensive
-              treatment and diagnosis guidelines.
+              <Link href="/" rel="preload">
+                Premier Pain Management
+              </Link>{" "}
+              is to assist individuals in restoring their health by providing
+              comprehensive treatment and diagnosis guidelines.
             </p>
             <p>
               Despite the fact that injections do not treat the underlying
@@ -193,7 +198,7 @@ const ServiceDetailsContent = () => {
               usually administered alongside other treatments such as physical
               therapy. The benefits of injections can, therefore, last for a
               long time beyond the duration of the treatment.{" "}
-              <Link href="/contact-locations/lancaster/">
+              <Link href="/contact-locations/lancaster/" rel="preload">
                 Lancaster spine and pain clinic
               </Link>{" "}
               medical professionals strive to improve the quality of life for
@@ -203,8 +208,10 @@ const ServiceDetailsContent = () => {
               <i className="icofont-quote-left"></i>
               Give us a call at <a href="tel:+14695624188">469-562-4188</a> or
               contact us online today to{" "}
-              <Link href="/appointment/">schedule an appointment</Link> for
-              epidural nerve block treatment in lancaster, TX and the
+              <Link href="/appointment/" rel="preload">
+                schedule an appointment
+              </Link>{" "}
+              for epidural nerve block treatment in lancaster, TX and the
               surrounding areas.
             </blockquote>
           </div>

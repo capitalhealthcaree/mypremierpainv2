@@ -37,7 +37,7 @@ const ServiceDetailsContent = () => {
               a reason for the difference. The Pronox system is planned to be
               administered by a healthcare professionals' team like the one
               available at{" "}
-              <Link href="/contact-locations/fort-worth/">
+              <Link href="/contact-locations/fort-worth/" rel="preload">
                 pain management Fort Worth
               </Link>{" "}
               who understands the patient's needs and can tailor the treatment
@@ -78,17 +78,19 @@ const ServiceDetailsContent = () => {
             </li>
             <li>
               <b>Chronic Pain Management:</b> The professional team at{" "}
-              <Link href="/">premier pain management</Link> utilizes the
-              technique of pronox for patients dealing with chronic pain. Hence,
-              Pronox offers a portable and effective pain relief option that
-              they can use as needed.
+              <Link href="/" rel="preload">
+                premier pain management
+              </Link>{" "}
+              utilizes the technique of pronox for patients dealing with chronic
+              pain. Hence, Pronox offers a portable and effective pain relief
+              option that they can use as needed.
             </li>
             <h2>How Pronox Impacts A Patient?</h2>
             <p>
               Imagine entering a hospital, nervous and not sure about the
               procedures to be held. As you are seated, a friendly healthcare
               provider from{" "}
-              <Link href="/contact-locations/cleburne/">
+              <Link href="/contact-locations/cleburne/" rel="preload">
                 pain relief clinic Cleburne
               </Link>{" "}
               greets you with a warm smile, offering a reassuring hand. They
@@ -129,7 +131,7 @@ const ServiceDetailsContent = () => {
               of vulnerability, it is the warmth of a smile, the sound of a kind
               voice, and the touch of a caring hand that can make all the
               difference in the world. At{" "}
-              <Link href="/contact-locations/lancaster/">
+              <Link href="/contact-locations/lancaster/" rel="preload">
                 spine and pain clinic lancaster
               </Link>
               , we serve as a beacon of hope, ushering in a new era of pain
@@ -137,9 +139,9 @@ const ServiceDetailsContent = () => {
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
-              Call us at <a href="tel:+14695624188">469-562-4188</a>
-              {" "}or contact us online if you need Pronox treatment in Richardson or
-              the surrounding areas.
+              Call us at <a href="tel:+14695624188">469-562-4188</a> or contact
+              us online if you need Pronox treatment in Richardson or the
+              surrounding areas.
             </blockquote>
           </div>
         </div>

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import api from "../../utils/api";
 
 const LatestBlogPost = () => {
@@ -30,13 +31,19 @@ const LatestBlogPost = () => {
                 <div className="col-md-6 col-lg-4" key={i}>
                   <div className="blog-item">
                     <div className="blog-top">
-                      <Link href={`/blog${item.slug}`}>
-                        <img src={item.image} alt={item.category} />
+                      <Link href={`/blog${item.slug}`} rel="preload">
+                        <Image
+                          src={item.image}
+                          alt={item.category}
+                          width={416}
+                          height={208}
+                          loading="lazy"
+                        />
                       </Link>
                     </div>
                     <div className="blog-bottom">
                       <h3>
-                        <Link href={`/blog${item.slug}`}>
+                        <Link href={`/blog${item.slug}`} rel="preload">
                           {item.seoTitle[0]}
                         </Link>
                       </h3>
@@ -47,7 +54,7 @@ const LatestBlogPost = () => {
                       </p>
                       <ul>
                         <li>
-                          <Link href={`/blog${item.slug}`}>
+                          <Link href={`/blog${item.slug}`} rel="preload">
                             Read More{" "}
                             <i className="icofont-long-arrow-right"></i>
                           </Link>
@@ -71,6 +78,7 @@ const LatestBlogPost = () => {
                 color: "white",
                 padding: "10px 11px",
               }}
+              rel="preload"
             >
               View All Blogs
             </Link>

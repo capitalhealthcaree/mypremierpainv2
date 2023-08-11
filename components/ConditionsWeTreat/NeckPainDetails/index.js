@@ -19,14 +19,17 @@ const ServiceDetailsContent = () => {
               ensure you receive high quality care to help you recover. If you
               read this, you are probably familiar with neck pain. Whether you
               recently woke up with a whopper{" "}
-              <Link href="/blog/neck-pain/8-remedies-to-fix-crick-in-neck/">
+              <Link
+                href="/blog/neck-pain/8-remedies-to-fix-crick-in-neck/"
+                rel="preload"
+              >
                 crick in my neck
               </Link>
               , sustained an injury, or are experiencing chronic neck pain, this
               helpful guide can help you understand the anatomy of your cervical
               spine, the different causes, and types of neck pain, and you'll be
               able to know more about the common ways on Treating{" "}
-              <Link href="/contact-locations/richardson/">
+              <Link href="/contact-locations/richardson/" rel="preload">
                 neck pain in Richardson
               </Link>
               .
@@ -36,13 +39,16 @@ const ServiceDetailsContent = () => {
               To learn more about our Cleburne neck pain treatment services,
               give us a call at <a href="tel:+14695624188">
                 469-562-4188
-              </a> or <Link href="/contact-locations/">contact us online</Link>{" "}
+              </a> or{" "}
+              <Link href="/contact-locations/" rel="preload">
+                contact us online
+              </Link>{" "}
               today.
             </blockquote>
             <h2>What Causes Neck Pain?</h2>
             <p>
               Neck pain,{" "}
-              <Link href="/conditions-we-treat/back-pain/">
+              <Link href="/conditions-we-treat/back-pain/" rel="preload">
                 upper back pain
               </Link>
               , and general discomfort in those areas has a range of causes,
@@ -67,8 +73,10 @@ const ServiceDetailsContent = () => {
               About 30 percent get it each year. And it does not stay in the
               middle of the neck. It can spread in your entire upper body,
               affect your shoulders, arms, and chest, and can even cause{" "}
-              <Link href="/conditions-we-treat/headaches/">headaches</Link>.
-              Life with neck pain can be miserable, making it harder to
+              <Link href="/conditions-we-treat/headaches/" rel="preload">
+                headaches
+              </Link>
+              . Life with neck pain can be miserable, making it harder to
               concentrate and pass the day.
             </p>
             <div className="row">
@@ -159,7 +167,7 @@ const ServiceDetailsContent = () => {
               <div className="col-6">
                 <li>Cervical degenerative disease</li>
                 <li>
-                  <Link href="/blog/back-pain/herniated-disc/">
+                  <Link href="/blog/back-pain/herniated-disc/" rel="preload">
                     Herniated disc
                   </Link>
                 </li>{" "}

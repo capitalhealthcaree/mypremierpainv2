@@ -14,15 +14,17 @@ const ServiceDetailsContent = () => {
               side effects, including the possibility of abuse or addiction.
               Peripheral nerve stimulation has become increasingly popular as a
               treatment option for a variety of conditions, including persistent{" "}
-              <Link href="/conditions-we-treat/back-pain/">back pain</Link> and
-              rare neuropathies.
+              <Link href="/conditions-we-treat/back-pain/" rel="preload">
+                back pain
+              </Link>{" "}
+              and rare neuropathies.
             </p>
             <p>
               Comparatively to opioid painkillers, PNS technology provides
               better results, lasts longer, and does not pose a dependence risk.
               Several different types of individuals may benefit from peripheral
               nerve stimulation. The{" "}
-              <Link href="/contact-locations/lancaster/">
+              <Link href="/contact-locations/lancaster/" rel="preload">
                 Lancaster spine and pain clinic
               </Link>{" "}
               is committed to improving the quality of life of its patients.
@@ -59,7 +61,9 @@ const ServiceDetailsContent = () => {
             <li>Complex regional pain syndrome (CRPS)</li>
             <li>Diabetic peripheral neuropathy</li>
             <li>
-              <Link href="/conditions-we-treat/neck-pain/">Neck pain</Link>
+              <Link href="/conditions-we-treat/neck-pain/" rel="preload">
+                Neck pain
+              </Link>
             </li>
             <li>Nerve injuries</li>
             <li>Post-amputation pain syndrome</li>
@@ -73,7 +77,7 @@ const ServiceDetailsContent = () => {
             </h2>
             <p>
               Our team of experienced physicians at{" "}
-              <Link href="/contact-locations/richardson/">
+              <Link href="/contact-locations/richardson/" rel="preload">
                 Pain Management Richardson
               </Link>{" "}
               understands the impact of pain on the quality of life of our
@@ -96,7 +100,7 @@ const ServiceDetailsContent = () => {
               </div>
               <div className="col-6">
                 <li>
-                  <Link href="/conditions-we-treat/headaches/">
+                  <Link href="/conditions-we-treat/headaches/" rel="preload">
                     Chronic Headaches
                   </Link>{" "}
                 </li>
@@ -185,7 +189,7 @@ const ServiceDetailsContent = () => {
             </li>
             <li>
               At your physician's office or at our{" "}
-              <Link href="/contact-locations/fort-worth/">
+              <Link href="/contact-locations/fort-worth/" rel="preload">
                 fort worth spine and pain clinic
               </Link>
               , we will provide you with instructions regarding the removal of
@@ -198,7 +202,7 @@ const ServiceDetailsContent = () => {
             <li>
               A physician should be consulted prior to signing or witnessing any
               legal documents. After six to eight weeks, a{" "}
-              <Link href="/contact-locations/cleburne/">
+              <Link href="/contact-locations/cleburne/" rel="preload">
                 pain relief clinic Cleburne
               </Link>{" "}
               orthopedic surgeon or pain specialist will review your condition.
@@ -225,16 +229,20 @@ const ServiceDetailsContent = () => {
               reduced by 50%. When a patient has a pain score of 10/10, for
               example, the pain score may be reduced to 5/10. In order to
               restore a person's health,{" "}
-              <Link href="/">Premier Pain Management</Link> provides
-              comprehensive treatment and diagnosis guidelines.
+              <Link href="/" rel="preload">
+                Premier Pain Management
+              </Link>{" "}
+              provides comprehensive treatment and diagnosis guidelines.
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
               Give us a call at <a href="tel:+14695624188">469-562-4188</a> or
               contact us online today to{" "}
-              <Link href="/appointment/">schedule an appointment</Link> for
-              peripheral nerve stimulation treatment in Lancaster, TX and the
-              surrounding areas.
+              <Link href="/appointment/" rel="preload">
+                schedule an appointment
+              </Link>{" "}
+              for peripheral nerve stimulation treatment in Lancaster, TX and
+              the surrounding areas.
             </blockquote>
           </div>
         </div>

@@ -49,7 +49,7 @@ const FAQ = ({ item }) => {
                   {item.map((q, i) => {
                     return (
                       <li key={i}>
-                        <Link href={`/faqs${q.slug}`}>
+                        <Link href={`/faqs${q.slug}`} rel="preload">
                           <span>
                             <i className="icofont-caret-right"></i>
                             {q.question}

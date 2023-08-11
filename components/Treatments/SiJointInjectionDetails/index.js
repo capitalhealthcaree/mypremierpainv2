@@ -10,14 +10,16 @@ const ServiceDetailsContent = () => {
             <h4>Si Joint Injection</h4>
             <p>
               It is common for{" "}
-              <Link href="/conditions-we-treat/back-pain/">
+              <Link href="/conditions-we-treat/back-pain/" rel="preload">
                 lower back pain
               </Link>{" "}
               to be a result of inflammation in the sacroiliac joints (SI) that
               connect the spine to the pelvis at the base of the spine.
               Additionally, it can also cause groin, buttock, and{" "}
-              <Link href="/conditions-we-treat/leg-pain/">leg pain</Link>.
-              Numerous reasons may cause these symptoms, and they occur
+              <Link href="/conditions-we-treat/leg-pain/" rel="preload">
+                leg pain
+              </Link>
+              . Numerous reasons may cause these symptoms, and they occur
               frequently. A treatment plan can begin once your doctor confirms
               your pain is due to SI joint dysfunction, which doesn't respond
               well to generalized pain relief.
@@ -25,13 +27,15 @@ const ServiceDetailsContent = () => {
             <p>
               The purpose of sacroiliac joint injections is twofold: Their role
               is to diagnose and treat{" "}
-              <Link href="/conditions-we-treat/joint-pain/">joint pain</Link>.
-              Using SI joint injections is an effective method of diagnosing and
-              treating SI joint dysfunctions. One may perform the procedures
+              <Link href="/conditions-we-treat/joint-pain/" rel="preload">
+                joint pain
+              </Link>
+              . Using SI joint injections is an effective method of diagnosing
+              and treating SI joint dysfunctions. One may perform the procedures
               separately, with a purely diagnostic injection, or one may combine
               them. This treatment may be of benefit to those suffering from
               lower back pain .{" "}
-              <Link href="/contact-locations/lancaster/">
+              <Link href="/contact-locations/lancaster/" rel="preload">
                 Lancaster spine and pain clinic
               </Link>{" "}
               is staffed by medical professionals dedicated to improving the
@@ -53,8 +57,10 @@ const ServiceDetailsContent = () => {
               To learn more about our hillsboro occipital nerve block Injections
               treatment services, give us a call at{" "}
               <a href="tel:+14695624188">469-562-4188</a> or{" "}
-              <Link href="/contact-locations/">contact us online</Link>
-              {" "}today.
+              <Link href="/contact-locations/" rel="preload">
+                contact us online
+              </Link>{" "}
+              today.
             </blockquote>
             <h2>Si Injection Role For Therapeutic Purpose</h2>
             <p>
@@ -69,7 +75,7 @@ const ServiceDetailsContent = () => {
             </p>
             <h2>The Sacroiliac Joint Injection Procedure</h2>
             <p>
-              <Link href="/contact-locations/richardson/">
+              <Link href="/contact-locations/richardson/" rel="preload">
                 Richardson Pain Management
               </Link>{" "}
               can provide assistance with joint pain for a variety of reasons.
@@ -192,7 +198,7 @@ const ServiceDetailsContent = () => {
             <h2>Are Sacroiliac Joint Injections Safe?</h2>
             <p>
               The team of experienced physicians at{" "}
-              <Link href="/contact-locations/fort-worth/">
+              <Link href="/contact-locations/fort-worth/" rel="preload">
                 Pain Management Fort Worth
               </Link>{" "}
               understands the impact SI joint pain can have on the quality of
@@ -222,7 +228,10 @@ const ServiceDetailsContent = () => {
                 Additionally to the risks described above, you may also
                 experience other health issues depending on your particular
                 circumstances. If you have any concerns, you should consult your
-                physician. Since <Link href="/">Premier Pain Management</Link>{" "}
+                physician. Since{" "}
+                <Link href="/" rel="preload">
+                  Premier Pain Management
+                </Link>{" "}
                 provides comprehensive treatment and diagnosis guidelines for
                 individuals, it is possible for them to regain health as a
                 result of their consultation with them.
@@ -231,9 +240,11 @@ const ServiceDetailsContent = () => {
                 <i className="icofont-quote-left"></i>
                 Give us a call at <a href="tel:+14695624188">469-562-4188</a> or
                 contact us online today to{" "}
-                <Link href="/appointment/">schedule an appointment</Link> for
-                Sacroiliac Joint Injection treatment in lancaster, TX and the
-                surrounding areas.
+                <Link href="/appointment/" rel="preload">
+                  schedule an appointment
+                </Link>{" "}
+                for Sacroiliac Joint Injection treatment in lancaster, TX and
+                the surrounding areas.
               </blockquote>
             </div>
           </div>

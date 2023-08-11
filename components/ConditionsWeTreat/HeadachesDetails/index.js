@@ -15,7 +15,7 @@ const ServiceDetailsContent = () => {
               structural problem. You should know that It is very important to
               deal with these problems as symptoms begin to appear. We provide
               you with the best{" "}
-              <Link href="/contact-locations/richardson/">
+              <Link href="/contact-locations/richardson/" rel="preload">
                 headaches treatment In richardson
               </Link>
               . Headaches are a common ailment that many people experience on a
@@ -40,7 +40,10 @@ const ServiceDetailsContent = () => {
               To learn more about our North Richland Hills Headaches treatment
               services, give us a call at{" "}
               <a href="tel:+14695624188">469-562-4188</a> or{" "}
-              <Link href="/contact-locations/">contact us online</Link> today.
+              <Link href="/contact-locations/" rel="preload">
+                contact us online
+              </Link>{" "}
+              today.
             </blockquote>
             <h2>What Are the Different Types of Headaches?</h2>
             <p>
@@ -50,7 +53,10 @@ const ServiceDetailsContent = () => {
               headache treatment is to determine the type of headaches a person
               is experiencing, as each type of headache requires unique care.
               With the help of our team at{" "}
-              <Link href="/contact-locations/north-richland-hills/">
+              <Link
+                href="/contact-locations/north-richland-hills/"
+                rel="preload"
+              >
                 headaches treatment in north richland hills
               </Link>
               . We came to know that Some of the most common types of headaches
@@ -72,7 +78,7 @@ const ServiceDetailsContent = () => {
               <b>Occipital neuralgia</b>: While occipital neuralgia causes
               headaches, the pain is actually due to irritation in the nerves of
               the{" "}
-              <Link href="/treatments/spinal-cord-stimulation/">
+              <Link href="/treatments/spinal-cord-stimulation/" rel="preload">
                 spinal cord
               </Link>
               . Pain associated with this condition is generally felt in the
@@ -81,7 +87,7 @@ const ServiceDetailsContent = () => {
             <h2>What Are Common Symptoms?</h2>
             <p>
               According to our team of{" "}
-              <Link href="/contact-locations/fort-worth/">
+              <Link href="/contact-locations/fort-worth/" rel="preload">
                 headaches treatment in fort worth
               </Link>
               . Common signs include:
@@ -142,7 +148,7 @@ const ServiceDetailsContent = () => {
               based on your medical history, symptoms, and a physical and
               neurological examination if you have them or a family history of
               them. However, according to our team at{" "}
-              <Link href="/contact-locations/lancaster/">
+              <Link href="/contact-locations/lancaster/" rel="preload">
                 headaches treatment in lancaster
               </Link>
               . We knew that To rule out other possible reasons for your
@@ -168,7 +174,7 @@ const ServiceDetailsContent = () => {
             <h2>What Are Some Common Risk Factors?</h2>
             <p>
               Our team of{" "}
-              <Link href="/contact-locations/hillsboro/">
+              <Link href="/contact-locations/hillsboro/" rel="preload">
                 headaches treatment in hillsboro
               </Link>{" "}
               estimates that more than 38 million Americans experience
@@ -201,7 +207,7 @@ const ServiceDetailsContent = () => {
               the most comfortable life possible. However, changes in your sleep
               may cause headaches. like not getting enough sleep or getting
               enough sleep. so, stop dealing with migraines and start{" "}
-              <Link href="/contact-locations/cleburne/">
+              <Link href="/contact-locations/cleburne/" rel="preload">
                 headaches treatment in cleburne
               </Link>
               . Unlike medications that treat the problem on the surface level
@@ -213,7 +219,10 @@ const ServiceDetailsContent = () => {
               <i className="icofont-quote-left"></i>
               If you are seeking Richardson Headaches treatments or pain
               management services, entrust in our staff for advanced care. Call
-              or <Link href="/contact-locations/">contact us online</Link>{" "}
+              or{" "}
+              <Link href="/contact-locations/" rel="preload">
+                contact us online
+              </Link>{" "}
               today.
             </blockquote>
           </div>

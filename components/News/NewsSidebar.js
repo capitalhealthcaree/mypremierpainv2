@@ -82,7 +82,9 @@ const NewsSidebar = () => {
               {conditionsWeTreat.treatment.map((item, i) => {
                 return (
                   <li style={{ display: "block" }} key={i}>
-                    <Link href={item.url}>{item.name}</Link>
+                    <Link href={item.url} rel="preload">
+                      {item.name}
+                    </Link>
                   </li>
                 );
               })}

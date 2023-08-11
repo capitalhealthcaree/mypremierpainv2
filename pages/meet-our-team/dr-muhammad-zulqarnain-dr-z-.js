@@ -67,7 +67,9 @@ const DoctorDetails = () => {
                       {conditionsWeTreat.treatment.map((item, i) => {
                         return (
                           <li key={i}>
-                            <Link href={item.url}>{item.name}</Link>
+                            <Link href={item.url} rel="preload">
+                              {item.name}
+                            </Link>
                           </li>
                         );
                       })}
@@ -92,15 +94,18 @@ const DoctorDetails = () => {
                     <p>
                       Dr. Muhammad Zulqarnain aka Dr. Z is a pain management
                       physician serving in Dallas,{" "}
-                      <Link href="/contact-locations/richardson/">
+                      <Link href="/contact-locations/richardson/" rel="preload">
                         Richardson
                       </Link>
                       ,{" "}
-                      <Link href="/contact-locations/north-richland-hills/">
+                      <Link
+                        href="/contact-locations/north-richland-hills/"
+                        rel="preload"
+                      >
                         North Richland Hills
                       </Link>
                       ,{" "}
-                      <Link href="/contact-locations/waxahachie/">
+                      <Link href="/contact-locations/waxahachie/" rel="preload">
                         Waxahachie
                       </Link>
                       , Texas, and the surrounding communities.
@@ -122,15 +127,21 @@ const DoctorDetails = () => {
                       and Sub-Specialty American Board in pain management He is
                       an expert in interventional pain procedures including
                       Epidurals, Nerve Blocks, Radio-frequency Ablation,{" "}
-                      <Link href="/treatments/joint-injections/">
+                      <Link href="/treatments/joint-injections/" rel="preload">
                         Joint Injections
                       </Link>
                       , Kyphoplasty, Discectomy,{" "}
-                      <Link href="/treatments/spinal-cord-stimulation/">
+                      <Link
+                        href="/treatments/spinal-cord-stimulation/"
+                        rel="preload"
+                      >
                         Spinal cord stimulator
                       </Link>{" "}
                       trial, and implantation and Intrathecal pumps,{" "}
-                      <Link href="/treatments/si-joint-injection/">
+                      <Link
+                        href="/treatments/si-joint-injection/"
+                        rel="preload"
+                      >
                         SI joint Injection
                       </Link>
                       . He loves reading and traveling and learning state of the

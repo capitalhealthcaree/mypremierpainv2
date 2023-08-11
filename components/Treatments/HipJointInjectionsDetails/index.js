@@ -17,7 +17,10 @@ const ServiceDetailsContent = () => {
               platelets. Hip joint injections involve injecting medicine into
               the hip joint. Inflammation and pain may be reduced with the use
               of the medicine. It can also help diagnose{" "}
-              <Link href="/conditions-we-treat/hip-pain/">hip pain</Link>.
+              <Link href="/conditions-we-treat/hip-pain/" rel="preload">
+                hip pain
+              </Link>
+              .
             </p>
             <h3>Hip Joint Injections Involve:</h3>
             <p>Main purpose of Hip injection is:</p>
@@ -86,7 +89,7 @@ const ServiceDetailsContent = () => {
       <h2>Hip Joint Injection Procedure</h2>
       <p>
         Following are the steps involved in{" "}
-        <Link href="/contact-locations/fort-worth/">
+        <Link href="/contact-locations/fort-worth/" rel="preload">
           hip joint injections Fort Worth
         </Link>
         :

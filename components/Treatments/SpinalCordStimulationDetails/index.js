@@ -46,7 +46,7 @@ const ServiceDetailsContent = () => {
               within the spinal cord. As a result of the modification and
               masking of the pain signal by electrical pulses, a SCS reduces
               pain in an area where you are experiencing pain.{" "}
-              <Link href="/contact-locations/richardson/">
+              <Link href="/contact-locations/richardson/" rel="preload">
                 Pain Management Richardson
               </Link>{" "}
               team of experienced physicians understands how spinal cord issues
@@ -55,9 +55,11 @@ const ServiceDetailsContent = () => {
             <h3>Preparation</h3>
             <p>
               Individuals may be able to regain health through{" "}
-              <Link href="/">Premier Pain Management</Link> comprehensive
-              treatment and diagnosis guidelines.Spinal cord stimulator is
-              applied in two stages.
+              <Link href="/" rel="preload">
+                Premier Pain Management
+              </Link>{" "}
+              comprehensive treatment and diagnosis guidelines.Spinal cord
+              stimulator is applied in two stages.
             </p>
             <h4>1- Trail Stage</h4>
             <p>
@@ -161,7 +163,7 @@ const ServiceDetailsContent = () => {
               not to lift, bend, or twist for at least two months after surgery
               so that the leads can heal in the appropriate position without
               moving. Medical professionals at{" "}
-              <Link href="/contact-locations/lancaster/">
+              <Link href="/contact-locations/lancaster/" rel="preload">
                 Lancaster spine and pain clinic
               </Link>{" "}
               are dedicated to improving the quality of life for their patients.
@@ -170,8 +172,10 @@ const ServiceDetailsContent = () => {
               <i className="icofont-quote-left"></i>
               Give us a call at <a href="tel:+14695624188">469-562-4188</a> or
               contact us online today to{" "}
-              <Link href="/appointment/">schedule an appointment</Link> for
-              genicular nerve block treatment in lancaster, TX and the
+              <Link href="/appointment/" rel="preload">
+                schedule an appointment
+              </Link>{" "}
+              for genicular nerve block treatment in lancaster, TX and the
               surrounding areas.
             </blockquote>
           </div>

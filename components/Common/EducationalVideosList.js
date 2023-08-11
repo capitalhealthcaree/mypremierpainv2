@@ -22,6 +22,7 @@ const EducationalVideosList = () => {
                     allow="autoplay; encrypted-media; picture-in-picture"
                     referrerPolicy="unsafe-url"
                     allowFullScreen=""
+                    loading="lazy"
                   ></iframe>
                 </div>
               </div>
@@ -45,6 +46,7 @@ const EducationalVideosList = () => {
                       allow="autoplay; encrypted-media; picture-in-picture"
                       referrerPolicy="unsafe-url"
                       allowFullScreen=""
+                      loading="lazy"
                     ></iframe>
                   </div>
                 </div>
@@ -68,6 +70,7 @@ const EducationalVideosList = () => {
                     allow="autoplay; encrypted-media; picture-in-picture"
                     referrerPolicy="unsafe-url"
                     allowFullScreen=""
+                    loading="lazy"
                   ></iframe>
                 </div>
               </div>
@@ -90,6 +93,7 @@ const EducationalVideosList = () => {
                     allow="autoplay; encrypted-media; picture-in-picture"
                     referrerPolicy="unsafe-url"
                     allowFullScreen=""
+                    loading="lazy"
                   ></iframe>
                 </div>
               </div>
@@ -112,6 +116,7 @@ const EducationalVideosList = () => {
                     allow="autoplay; encrypted-media; picture-in-picture"
                     referrerPolicy="unsafe-url"
                     allowFullScreen=""
+                    loading="lazy"
                   ></iframe>
                 </div>
               </div>
@@ -134,6 +139,7 @@ const EducationalVideosList = () => {
                     allow="autoplay; encrypted-media; picture-in-picture"
                     referrerPolicy="unsafe-url"
                     allowFullScreen=""
+                    loading="lazy"
                   ></iframe>
                 </div>
               </div>
@@ -156,6 +162,7 @@ const EducationalVideosList = () => {
                     allow="autoplay; encrypted-media; picture-in-picture"
                     referrerPolicy="unsafe-url"
                     allowFullScreen=""
+                    loading="lazy"
                   ></iframe>
                 </div>
               </div>
@@ -178,6 +185,7 @@ const EducationalVideosList = () => {
                     allow="autoplay; encrypted-media; picture-in-picture"
                     referrerPolicy="unsafe-url"
                     allowFullScreen=""
+                    loading="lazy"
                   ></iframe>
                 </div>
               </div>
@@ -200,6 +208,7 @@ const EducationalVideosList = () => {
                     allow="autoplay; encrypted-media; picture-in-picture"
                     referrerPolicy="unsafe-url"
                     allowFullScreen=""
+                    loading="lazy"
                   ></iframe>
                 </div>
               </div>
@@ -222,6 +231,7 @@ const EducationalVideosList = () => {
                     allow="autoplay; encrypted-media; picture-in-picture"
                     referrerPolicy="unsafe-url"
                     allowFullScreen=""
+                    loading="lazy"
                   ></iframe>
                 </div>
               </div>
@@ -244,6 +254,7 @@ const EducationalVideosList = () => {
                     allow="autoplay; encrypted-media; picture-in-picture"
                     referrerPolicy="unsafe-url"
                     allowFullScreen=""
+                    loading="lazy"
                   ></iframe>
                 </div>
               </div>
@@ -267,6 +278,7 @@ const EducationalVideosList = () => {
                       allow="autoplay; encrypted-media; picture-in-picture"
                       referrerPolicy="unsafe-url"
                       allowFullScreen=""
+                      loading="lazy"
                     ></iframe>
                   </div>
                 </div>
@@ -290,6 +302,7 @@ const EducationalVideosList = () => {
                     allow="autoplay; encrypted-media; picture-in-picture"
                     referrerPolicy="unsafe-url"
                     allowFullScreen=""
+                    loading="lazy"
                   ></iframe>
                 </div>
               </div>
@@ -312,6 +325,7 @@ const EducationalVideosList = () => {
                     allow="autoplay; encrypted-media; picture-in-picture"
                     referrerPolicy="unsafe-url"
                     allowFullScreen=""
+                    loading="lazy"
                   ></iframe>
                 </div>
               </div>
@@ -334,6 +348,7 @@ const EducationalVideosList = () => {
                     allow="autoplay; encrypted-media; picture-in-picture"
                     referrerPolicy="unsafe-url"
                     allowFullScreen=""
+                    loading="lazy"
                   ></iframe>
                 </div>
               </div>
@@ -356,6 +371,7 @@ const EducationalVideosList = () => {
                     allow="autoplay; encrypted-media; picture-in-picture"
                     referrerPolicy="unsafe-url"
                     allowFullScreen=""
+                    loading="lazy"
                   ></iframe>
                 </div>
               </div>
@@ -378,6 +394,7 @@ const EducationalVideosList = () => {
                     allow="autoplay; encrypted-media; picture-in-picture"
                     referrerPolicy="unsafe-url"
                     allowFullScreen=""
+                    loading="lazy"
                   ></iframe>
                 </div>
               </div>
@@ -400,6 +417,7 @@ const EducationalVideosList = () => {
                     allow="autoplay; encrypted-media; picture-in-picture"
                     referrerPolicy="unsafe-url"
                     allowFullScreen=""
+                    loading="lazy"
                   ></iframe>
                 </div>
               </div>
@@ -422,6 +440,7 @@ const EducationalVideosList = () => {
                     allow="autoplay; encrypted-media; picture-in-picture"
                     referrerPolicy="unsafe-url"
                     allowFullScreen=""
+                    loading="lazy"
                   ></iframe>
                 </div>
               </div>
@@ -444,6 +463,7 @@ const EducationalVideosList = () => {
                     allow="autoplay; encrypted-media; picture-in-picture"
                     referrerPolicy="unsafe-url"
                     allowFullScreen=""
+                    loading="lazy"
                   ></iframe>
                 </div>
               </div>
@@ -466,6 +486,7 @@ const EducationalVideosList = () => {
                     allow="autoplay; encrypted-media; picture-in-picture"
                     referrerPolicy="unsafe-url"
                     allowFullScreen=""
+                    loading="lazy"
                   ></iframe>
                 </div>
               </div>

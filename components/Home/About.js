@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -9,13 +10,25 @@ const About = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="symptoms-img">
-                <img src="/images/about.webp" alt="Symptoms" />
+                <Image
+                  src="/images/about.webp"
+                  alt="Symptoms"
+                  width={636}
+                  height={636}
+                  loading="lazy"
+                />
               </div>
             </div>
 
             <div className="col-lg-6">
               <div className="about-item about-right">
-                <img src="/images/about-shape1.webp" alt="About" />
+                <Image
+                  src="/images/about-shape1.webp"
+                  alt="About"
+                  width={500}
+                  height={640}
+                  loading="lazy"
+                />
 
                 <h2>Multidisciplinary Pain Management in Richardson</h2>
                 <h4>Reliable, Patient-Focused Care</h4>
@@ -37,7 +50,9 @@ const About = () => {
                   understand your unique goals.
                 </p>
 
-                <Link href="/appointment/">Schedule An Appointment</Link>
+                <Link href="/appointment/" rel="preload">
+                  Schedule An Appointment
+                </Link>
               </div>
             </div>
           </div>

@@ -44,8 +44,10 @@ const ServiceDetailsContent = () => {
             </p>
             <li>
               <b>Back And Neck Pain:</b>{" "}
-              <Link href="/conditions-we-treat/back-pain/">Back pain</Link> and
-              Neck pain are very common conditions that affect people of all
+              <Link href="/conditions-we-treat/back-pain/" rel="preload">
+                Back pain
+              </Link>{" "}
+              and Neck pain are very common conditions that affect people of all
               ages. These conditions include subluxations (misalignments of the
               spine), herniated discs and , spinal stenosis and degenerative
               disc disease. Often, the worst pain you experience is caused by
@@ -54,7 +56,7 @@ const ServiceDetailsContent = () => {
             </li>
             <li>
               <b>Joint Pain:</b> The most common cause of{" "}
-              <Link href="/conditions-we-treat/joint-pain/">
+              <Link href="/conditions-we-treat/joint-pain/" rel="preload">
                 chronic joint pain
               </Link>{" "}
               is arthritis, which is the gradual deterioration of your joints.
@@ -71,14 +73,17 @@ const ServiceDetailsContent = () => {
               leg, in the spine, or in the pelvis. A person's leg may be in pain
               due to an injury to the muscles, bones, or nerves. An underlying
               condition or trauma may cause leg pain. Depending on the cause of
-              the <Link href="/conditions-we-treat/leg-pain/">leg pain</Link>,
-              treatment may be provided in a variety of ways.
+              the{" "}
+              <Link href="/conditions-we-treat/leg-pain/" rel="preload">
+                leg pain
+              </Link>
+              , treatment may be provided in a variety of ways.
             </li>
             <li>
               <b>Shoulder Pain:</b> Shoulder pain has a variety of causes, not
               all of which are related to the shoulder joints or associated
               structures. Home treatments are available for the treatment of{" "}
-              <Link href="/conditions-we-treat/shoulder-pain/">
+              <Link href="/conditions-we-treat/shoulder-pain/" rel="preload">
                 shoulder pain
               </Link>
               . You may need physical therapy, medication, and surgery to treat
@@ -98,7 +103,7 @@ const ServiceDetailsContent = () => {
             />
             <h2>What Techniques Are Used In Interventional Pain Management?</h2>
             <p>
-              <Link href="/contact-locations/richardson/">
+              <Link href="/contact-locations/richardson/" rel="preload">
                 Pain Management of Richardson
               </Link>
               , uses a variety of interventional pain management techniques,
@@ -118,10 +123,13 @@ const ServiceDetailsContent = () => {
               <b>Nerve Blocks:</b> The purpose of nerve blocks is to target
               nerve clusters that are responsible for chronic pain. In the case
               of chronic{" "}
-              <Link href="/conditions-we-treat/headaches/">headaches</Link> and
-              migraines, a nerve block is a procedure in which numbing medicine
-              is injected into the sphenopalatine ganglion. Complex regional
-              pain syndrome may be relieved by a Stellate Ganglion nerve block.
+              <Link href="/conditions-we-treat/headaches/" rel="preload">
+                headaches
+              </Link>{" "}
+              and migraines, a nerve block is a procedure in which numbing
+              medicine is injected into the sphenopalatine ganglion. Complex
+              regional pain syndrome may be relieved by a Stellate Ganglion
+              nerve block.
             </li>
             <li>
               <b>Steroid Injections:</b> The effects of steroids are to reduce
@@ -129,7 +137,7 @@ const ServiceDetailsContent = () => {
               the injections in order to numb the pain for a short period of
               time. You may be injected with steroids into the epidural space
               around your spine by your{" "}
-              <Link href="/contact-locations/corsicana/">
+              <Link href="/contact-locations/corsicana/" rel="preload">
                 Pain Management of Corsicana
               </Link>
               , provider. Specifically, this occurs in the facet joints that
@@ -144,16 +152,19 @@ const ServiceDetailsContent = () => {
               cord stimulation or peripheral nerve stimulation may be necessary
               for patients whose condition does not improve. If you are
               experiencing chronic pain, contact{" "}
-              <Link href="/contact-locations/cleburne/">
+              <Link href="/contact-locations/cleburne/" rel="preload">
                 Pain Management of Cleburne
               </Link>
               , to learn more about interventional pain management. Contact us
-              today or <Link href="/appointment/">schedule an appointment</Link>{" "}
+              today or{" "}
+              <Link href="/appointment/" rel="preload">
+                schedule an appointment
+              </Link>{" "}
               online.
             </li>
             <li>
               <b>Spinal Cord Stimulator:</b>{" "}
-              <Link href="/treatments/spinal-cord-stimulation/">
+              <Link href="/treatments/spinal-cord-stimulation/" rel="preload">
                 Spinal cord stimulators
               </Link>{" "}
               are implantable devices that provide pain relief by sending low

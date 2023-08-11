@@ -14,7 +14,7 @@ const Footer = () => {
                   className="footer-contact"
                   style={{ display: "flex", flexDirection: "column" }}
                 >
-                  <Link href="/" className="navbar-brand">
+                  <Link href="/" className="navbar-brand" rel="preload">
                     <Image
                       src="/images/logo-footer.png"
                       alt="logo"
@@ -29,7 +29,11 @@ const Footer = () => {
                     pain procedures possible.
                   </p>
                   <div className="common-btn">
-                    <Link href="/appointment/" className="cmn-btn-right">
+                    <Link
+                      href="/appointment/"
+                      className="cmn-btn-right"
+                      rel="preload"
+                    >
                       Schedule Appointment
                     </Link>
                   </div>

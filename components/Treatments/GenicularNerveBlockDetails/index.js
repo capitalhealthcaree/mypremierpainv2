@@ -11,10 +11,13 @@ const ServiceDetailsContent = () => {
             <p>
               The use of prescribed medications is often ineffective in managing
               chronic osteoarthritis{" "}
-              <Link href="/conditions-we-treat/knee-pain/">knee pain</Link>. As
-              a therapeutic alternative for managing chronic pain associated
-              with osteoarthritis of the knee, radiofrequency (RF) ablation can
-              be applied to the articular nerve branches (genicular nerves).
+              <Link href="/conditions-we-treat/knee-pain/" rel="preload">
+                knee pain
+              </Link>
+              . As a therapeutic alternative for managing chronic pain
+              associated with osteoarthritis of the knee, radiofrequency (RF)
+              ablation can be applied to the articular nerve branches (genicular
+              nerves).
             </p>
             <p>
               However, there is a possibility that some older individuals with
@@ -39,7 +42,7 @@ const ServiceDetailsContent = () => {
               that make up the genicular nerve: superior medial, inferior
               medial, and superior lateral. An irritated or damaged nerve can
               cause knee pain. In order to treat genicular nerves in the knee,{" "}
-              <Link href="/contact-locations/fort-worth/">
+              <Link href="/contact-locations/fort-worth/" rel="preload">
                 Pain Management Fort Worth
               </Link>{" "}
               offers a comprehensive approach.
@@ -47,7 +50,7 @@ const ServiceDetailsContent = () => {
             <h2>How does a Genicular Nerve Block Work?</h2>
             <li>
               A genicular nerve block may be appropriate for patients with
-              <Link href="/contact-locations/cleburne/">
+              <Link href="/contact-locations/cleburne/" rel="preload">
                 {" "}
                 chronic knee pain cleburne
               </Link>{" "}
@@ -124,9 +127,11 @@ const ServiceDetailsContent = () => {
             </li>
             <h2>How Does A Genicular Nerve Block Work?</h2>
             <p>
-              <Link href="/">Premier Pain Management</Link> offers comprehensive
-              treatment and diagnosis guidelines that can help individuals
-              regain health.
+              <Link href="/" rel="preload">
+                Premier Pain Management
+              </Link>{" "}
+              offers comprehensive treatment and diagnosis guidelines that can
+              help individuals regain health.
             </p>
             <li>
               A genicular nerve block is usually performed by a healthcare
@@ -182,7 +187,9 @@ const ServiceDetailsContent = () => {
               treatment. Due to the strict aseptic conditions under which the
               procedure is performed and the specific nature of the injections,
               the incidence of infection is low.{" "}
-              <Link href="/appointment/">Richardson Pain Management</Link>{" "}
+              <Link href="/appointment/" rel="preload">
+                Richardson Pain Management
+              </Link>{" "}
               specializes in providing comprehensive care for patients with
               genicular nerve blocks.
             </p>
@@ -190,7 +197,7 @@ const ServiceDetailsContent = () => {
               You may benefit from genicular nerve blocks if you suffer from
               chronic knee pain. The results vary considerably between
               individuals, however. Ask your healthcare provider at{" "}
-              <Link href="/contact-locations/lancaster/">
+              <Link href="/contact-locations/lancaster/" rel="preload">
                 spine and pain clinic Lancaster
               </Link>{" "}
               about the genicular nerve block injection if you are concerned
@@ -201,8 +208,10 @@ const ServiceDetailsContent = () => {
               <i className="icofont-quote-left"></i>
               Give us a call at <a href="tel:+14695624188">469-562-4188</a> or
               contact us online today to{" "}
-              <Link href="/appointment/">schedule an appointment</Link> for
-              genicular nerve block treatment in lancaster, TX and the
+              <Link href="/appointment/" rel="preload">
+                schedule an appointment
+              </Link>{" "}
+              for genicular nerve block treatment in lancaster, TX and the
               surrounding areas.
             </blockquote>
           </div>

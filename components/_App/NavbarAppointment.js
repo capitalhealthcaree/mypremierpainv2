@@ -19,6 +19,7 @@ const Navbar = () => {
                     color: "white",
                     padding: "10px 11px",
                   }}
+                  rel="preload"
                 >
                   Appointment
                 </Link>{" "}
@@ -29,6 +30,7 @@ const Navbar = () => {
                     color: "white",
                     padding: "10px 12px",
                   }}
+                  rel="preload"
                 >
                   469-562-4188
                 </Link>

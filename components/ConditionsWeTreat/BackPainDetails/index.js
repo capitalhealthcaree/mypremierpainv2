@@ -14,16 +14,18 @@ const ServiceDetailsContent = () => {
               and upper backbone pain. Fortunately, Premier Pain Centers is
               fully equipped with the best technologies and qualified doctors
               who can expertly treat all types of spinal issues.{" "}
-              <Link href="/meet-our-team/rao-k-ali/">Dr. Ali</Link> is
-              board-certified in physical medicine and rehabilitation and will
-              be happy to discuss treatment options with you. Problems like
+              <Link href="/meet-our-team/rao-k-ali/" rel="preload">
+                Dr. Ali
+              </Link>{" "}
+              is board-certified in physical medicine and rehabilitation and
+              will be happy to discuss treatment options with you. Problems like
               nerve disorders, muscular disorders, degenerative disc diseases,
               and arthritis are causing Back Pain in the people of{" "}
-              <Link href="/contact-locations/richardson/">
+              <Link href="/contact-locations/richardson/" rel="preload">
                 Richardson Back Pain Treatment
               </Link>
               . with the help of our team at{" "}
-              <Link href="/contact-locations/corsicana/">
+              <Link href="/contact-locations/corsicana/" rel="preload">
                 Corsicana Back Pain Treatment
               </Link>{" "}
               we came to know that our back is made up of 24 bones, known as
@@ -34,7 +36,10 @@ const ServiceDetailsContent = () => {
               To learn more about our fort worth back pain treatment services,
               give us a call at <a href="tel:+14695624188">
                 469-562-4188
-              </a> or <Link href="/contact-locations/">contact us online</Link>{" "}
+              </a> or{" "}
+              <Link href="/contact-locations/" rel="preload">
+                contact us online
+              </Link>{" "}
               today.
             </blockquote>
             <h2>What Causes Spinal/Back Pain?</h2>
@@ -64,19 +69,25 @@ const ServiceDetailsContent = () => {
               <div className="col-6">
                 <li>Pregnancy</li>
                 <li>
-                  <Link href="/blog/back-pain/sciatica-symptoms-and-prevention/">
+                  <Link
+                    href="/blog/back-pain/sciatica-symptoms-and-prevention/"
+                    rel="preload"
+                  >
                     Sciatica
                   </Link>
                 </li>{" "}
               </div>
               <div className="col-6">
                 <li>
-                  <Link href="/blog/back-pain/herniated-disc/">
+                  <Link href="/blog/back-pain/herniated-disc/" rel="preload">
                     Herniated discs
                   </Link>
                 </li>
                 <li>
-                  <Link href="/blog/back-pain/spinal-stenosis-types-symptoms-and-causes/">
+                  <Link
+                    href="/blog/back-pain/spinal-stenosis-types-symptoms-and-causes/"
+                    rel="preload"
+                  >
                     Spinal stenosis
                   </Link>
                 </li>{" "}
@@ -96,7 +107,10 @@ const ServiceDetailsContent = () => {
               <div className="col-6">
                 <li>Bone fissures</li>
                 <li>
-                  <Link href="/conditions-we-treat/car-accident-injury/">
+                  <Link
+                    href="/conditions-we-treat/car-accident-injury/"
+                    rel="preload"
+                  >
                     Car accident injury
                   </Link>
                 </li>
@@ -106,7 +120,10 @@ const ServiceDetailsContent = () => {
               </div>
               <div className="col-6">
                 <li>
-                  <Link href="/conditions-we-treat/sports-injury/">
+                  <Link
+                    href="/conditions-we-treat/sports-injury/"
+                    rel="preload"
+                  >
                     Serious sports injury
                   </Link>
                 </li>
@@ -117,7 +134,7 @@ const ServiceDetailsContent = () => {
               Here you go… talking about the causes of back pain. So there is
               not a single cause of this condition. Because a lot of factors can
               lead to back pain. Our team at{" "}
-              <Link href="/contact-locations/lancaster/">
+              <Link href="/contact-locations/lancaster/" rel="preload">
                 Lancaster Back Pain Treatment
               </Link>{" "}
               told us that your age, your health, any past injuries, any medical
@@ -165,7 +182,7 @@ const ServiceDetailsContent = () => {
             <p>
               Let's have a look at the uncommon causes of back pain acknowledged
               by our team at{" "}
-              <Link href="/contact-locations/hillsboro/">
+              <Link href="/contact-locations/hillsboro/" rel="preload">
                 Hillsboro Back Pain Treatment
               </Link>{" "}
               Whereas, talking about rare causes of back pain so they include
@@ -193,7 +210,10 @@ const ServiceDetailsContent = () => {
               seek treatment as soon as possible. The source of back pain may
               occur in a variety of structures, including muscles and ligaments,
               intervertebral discs, joints, or nerves. However, our{" "}
-              <Link href="/contact-locations/north-richland-hills/">
+              <Link
+                href="/contact-locations/north-richland-hills/"
+                rel="preload"
+              >
                 North Richland Hills Back Pain Treatment
               </Link>{" "}
               team offers a variety of treatments such as decompression,
@@ -209,7 +229,7 @@ const ServiceDetailsContent = () => {
               around the chest well beyond the spinal epicenter of the pain
               concentration. Your doctor may recommend the following procedures
               if your symptoms do not improve. However, our team at{" "}
-              <Link href="/contact-locations/decatur/">
+              <Link href="/contact-locations/decatur/" rel="preload">
                 Decatur Back Pain Treatment
               </Link>{" "}
               told us that a better clinical picture encourages continuing with
@@ -230,7 +250,7 @@ const ServiceDetailsContent = () => {
             <h2>How Can I Know About The Symptoms?</h2>
             <p>
               Our team at{" "}
-              <Link href="/contact-locations/farmers-branch/">
+              <Link href="/contact-locations/farmers-branch/" rel="preload">
                 Farmers Branch Back Pain Treatment
               </Link>{" "}
               told us Back pain can have many symptoms, including:

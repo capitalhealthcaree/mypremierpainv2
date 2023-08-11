@@ -56,6 +56,7 @@ const Contact = () => {
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3368.116064216133!2d-96.83909852378474!3d32.41604900234485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864eeecb166a644d%3A0x77e03dcb6adad9ed!2s20%20Northgate%20Dr%2C%20Waxahachie%2C%20TX%2075165%2C%20USA!5e0!3m2!1sen!2sil!4v1685528650582!5m2!1sen!2sil"
           height="550"
+          loading="lazy"
         ></iframe>
       </div>
 

@@ -57,7 +57,7 @@ const OurServices = () => {
                 <div className="col-md-6 col-lg-3" key={i}>
                   <div className="blog-item">
                     <div className="blog-top">
-                      <Link href={item.href}>
+                      <Link href={item.href} rel="preload">
                         <img src={item.imgSrc} alt={item.name} />
                       </Link>
                     </div>
@@ -66,6 +66,7 @@ const OurServices = () => {
                         <Link
                           href={item.href}
                           className="d-flex justify-content-center"
+                          rel="preload"
                         >
                           {item.name}
                         </Link>
@@ -88,6 +89,7 @@ const OurServices = () => {
                 padding: "10px 11px",
                 marginBottom: "2vh",
               }}
+              rel="preload"
             >
               More About Services
             </Link>

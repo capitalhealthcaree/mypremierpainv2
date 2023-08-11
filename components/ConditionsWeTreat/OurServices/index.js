@@ -75,7 +75,7 @@ const OurServices = () => {
                 <div className="col-md-6 col-lg-3" key={i}>
                   <div className="blog-item">
                     <div className="blog-top">
-                      <Link href={item.href}>
+                      <Link href={item.href} rel="preload">
                         <Image
                           src={item.imgSrc}
                           alt={item.name}
@@ -90,6 +90,7 @@ const OurServices = () => {
                         <Link
                           href={item.href}
                           className="d-flex justify-content-center"
+                          rel="preload"
                         >
                           {item.name}
                         </Link>

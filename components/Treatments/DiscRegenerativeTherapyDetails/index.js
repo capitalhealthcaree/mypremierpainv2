@@ -12,11 +12,13 @@ const ServiceDetailsContent = () => {
               medicine. The therapies developed in this field will revolutionize
               musculoskeletal treatments. Over the past few decades, most
               musculoskeletal{" "}
-              <Link href="/contact-locations/richardson/">treatments</Link> have
-              not effectively treated the underlying causes of musculoskeletal
-              disorders, but only addressed their symptoms. Using advancements
-              in regenerative medicine, trained physicians can modify and treat
-              a patient's underlying problem.
+              <Link href="/contact-locations/richardson/" rel="preload">
+                treatments
+              </Link>{" "}
+              have not effectively treated the underlying causes of
+              musculoskeletal disorders, but only addressed their symptoms.
+              Using advancements in regenerative medicine, trained physicians
+              can modify and treat a patient's underlying problem.
             </p>
             <p>
               As opposed to simply treating the symptoms of the problem, this is

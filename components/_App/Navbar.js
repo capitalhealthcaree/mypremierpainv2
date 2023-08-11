@@ -42,7 +42,7 @@ const Navbar = () => {
         <div className="main-nav">
           <div className="container">
             <nav className="navbar navbar-expand-lg navbar-light">
-              <Link href="/" className="navbar-brand">
+              <Link href="/" className="navbar-brand" rel="preload">
                 <Image
                   src="/images/logo.png"
                   alt="logo"
@@ -73,6 +73,7 @@ const Navbar = () => {
                     <Link
                       href="/"
                       className={`nav-link ${currentPath === "/" && "active"}`}
+                      rel="preload"
                     >
                       Home
                     </Link>
@@ -84,6 +85,7 @@ const Navbar = () => {
                       className={`nav-link dropdown-toggle ${
                         currentPath === "/conditions-we-treat/" && "active"
                       }`}
+                      rel="preload"
                     >
                       Conditions We Treat
                     </Link>
@@ -97,6 +99,7 @@ const Navbar = () => {
                               "/conditions-we-treat/car-accident-injury/" &&
                             "active"
                           }`}
+                          rel="preload"
                         >
                           Car Accident Injury
                         </Link>
@@ -108,6 +111,7 @@ const Navbar = () => {
                             currentPath ===
                               "/conditions-we-treat/shoulder-pain/" && "active"
                           }`}
+                          rel="preload"
                         >
                           Shoulder Pain
                         </Link>
@@ -120,6 +124,7 @@ const Navbar = () => {
                             currentPath ==
                               "/conditions-we-treat/sports-injury/" && "active"
                           }`}
+                          rel="preload"
                         >
                           Sports Injury
                         </Link>
@@ -131,6 +136,7 @@ const Navbar = () => {
                             currentPath == "/conditions-we-treat/headaches/" &&
                             "active"
                           }`}
+                          rel="preload"
                         >
                           Headaches
                         </Link>
@@ -142,6 +148,7 @@ const Navbar = () => {
                             currentPath == "/conditions-we-treat/back-pain/" &&
                             "active"
                           }`}
+                          rel="preload"
                         >
                           Back Pain
                         </Link>
@@ -154,6 +161,7 @@ const Navbar = () => {
                             currentPath == "/conditions-we-treat/neck-pain/" &&
                             "active"
                           }`}
+                          rel="preload"
                         >
                           Neck Pain
                         </Link>
@@ -165,6 +173,7 @@ const Navbar = () => {
                             currentPath == "/conditions-we-treat/knee-pain/" &&
                             "active"
                           }`}
+                          rel="preload"
                         >
                           Knee Pain
                         </Link>
@@ -176,6 +185,7 @@ const Navbar = () => {
                             currentPath == "/conditions-we-treat/joint-pain/" &&
                             "active"
                           }`}
+                          rel="preload"
                         >
                           Joint Pain
                         </Link>
@@ -187,6 +197,7 @@ const Navbar = () => {
                             currentPath == "/conditions-we-treat/leg-pain/" &&
                             "active"
                           }`}
+                          rel="preload"
                         >
                           Leg Pain
                         </Link>
@@ -198,6 +209,7 @@ const Navbar = () => {
                             currentPath == "/conditions-we-treat/hip-pain/" &&
                             "active"
                           }`}
+                          rel="preload"
                         >
                           Hip Pain
                         </Link>
@@ -211,6 +223,7 @@ const Navbar = () => {
                       className={`nav-link dropdown-toggle ${
                         currentPath == "/treatments/" && "active"
                       }`}
+                      rel="preload"
                     >
                       Treatments
                     </Link>
@@ -223,6 +236,7 @@ const Navbar = () => {
                             currentPath ==
                               "/treatments/hip-joint-injections/" && "active"
                           }`}
+                          rel="preload"
                         >
                           Hip Joint Injections
                         </Link>
@@ -235,6 +249,7 @@ const Navbar = () => {
                               "/treatments/disc-regenerative-therapy/" &&
                             "active"
                           }`}
+                          rel="preload"
                         >
                           Disc Regenerative Therapy
                         </Link>
@@ -246,6 +261,7 @@ const Navbar = () => {
                             currentPath == "/treatments/mild-procedure/" &&
                             "active"
                           }`}
+                          rel="preload"
                         >
                           Mild Procedure
                         </Link>
@@ -257,6 +273,7 @@ const Navbar = () => {
                             currentPath ==
                               "/treatments/facet-joint-injection/" && "active"
                           }`}
+                          rel="preload"
                         >
                           Facet Joint Injection
                         </Link>
@@ -268,6 +285,7 @@ const Navbar = () => {
                             currentPath ==
                               "/treatments/percutaneous-discectomy/" && "active"
                           }`}
+                          rel="preload"
                         >
                           Percutaneous Discectomy
                         </Link>
@@ -280,6 +298,7 @@ const Navbar = () => {
                               "/treatments/trigger-point-injections/" &&
                             "active"
                           }`}
+                          rel="preload"
                         >
                           Trigger Point Injections
                         </Link>
@@ -291,6 +310,7 @@ const Navbar = () => {
                             currentPath == "/treatments/joint-injections/" &&
                             "active"
                           }`}
+                          rel="preload"
                         >
                           Joint Injections
                         </Link>
@@ -303,6 +323,7 @@ const Navbar = () => {
                               "/treatments/lumbar-sympathetic-injections/" &&
                             "active"
                           }`}
+                          rel="preload"
                         >
                           Lumbar Sympathetic Injections
                         </Link>
@@ -314,6 +335,7 @@ const Navbar = () => {
                             currentPath ==
                               "/treatments/epidural-nerve-block/" && "active"
                           }`}
+                          rel="preload"
                         >
                           Epidural Nerve Block
                         </Link>
@@ -325,6 +347,7 @@ const Navbar = () => {
                             currentPath == "/treatments/si-joint-injection/" &&
                             "active"
                           }`}
+                          rel="preload"
                         >
                           Si Joint Injection
                         </Link>
@@ -335,6 +358,7 @@ const Navbar = () => {
                           className={`nav-link ${
                             currentPath == "/treatments/pronox/" && "active"
                           }`}
+                          rel="preload"
                         >
                           PronoX
                         </Link>
@@ -346,6 +370,7 @@ const Navbar = () => {
                             currentPath ==
                               "/treatments/occipital-nerve-block/" && "active"
                           }`}
+                          rel="preload"
                         >
                           Occipital Nerve Block
                         </Link>
@@ -357,6 +382,7 @@ const Navbar = () => {
                             currentPath ==
                               "/treatments/genicular-nerve-block/" && "active"
                           }`}
+                          rel="preload"
                         >
                           Genicular Nerve Block
                         </Link>
@@ -368,6 +394,7 @@ const Navbar = () => {
                             currentPath ==
                               "/treatments/spinal-cord-stimulation/" && "active"
                           }`}
+                          rel="preload"
                         >
                           Spinal Cord Stimulation
                         </Link>
@@ -379,6 +406,7 @@ const Navbar = () => {
                             currentPath == "/treatments/bursa-injection/" &&
                             "active"
                           }`}
+                          rel="preload"
                         >
                           Bursa Injection
                         </Link>
@@ -391,6 +419,7 @@ const Navbar = () => {
                               "/treatments/peripheral-nerve-stimulation/" &&
                             "active"
                           }`}
+                          rel="preload"
                         >
                           Peripheral Nerve Stimulation
                         </Link>
@@ -404,6 +433,7 @@ const Navbar = () => {
                       className={`nav-link dropdown-toggle ${
                         currentPath == "/meet-our-team/" && "active"
                       }`}
+                      rel="preload"
                     >
                       Meet Our Team
                     </Link>
@@ -416,6 +446,7 @@ const Navbar = () => {
                             currentPath == "/meet-our-team/rao-k-ali/" &&
                             "active"
                           }`}
+                          rel="preload"
                         >
                           Rao K Ali MD
                         </Link>
@@ -429,6 +460,7 @@ const Navbar = () => {
                               "/meet-our-team/dr-muhammad-zulqarnain-dr-z-/" &&
                             "active"
                           }`}
+                          rel="preload"
                         >
                           DR. MUHAMMAD ZULQARNAIN (DR. Z)
                         </Link>
@@ -442,6 +474,7 @@ const Navbar = () => {
                       className={`nav-link dropdown-toggle ${
                         currentPath == "/contact-locations/" && "active"
                       }`}
+                      rel="preload"
                     >
                       Contact & Locations
                     </Link>
@@ -454,6 +487,7 @@ const Navbar = () => {
                             currentPath == "/contact-locations/richardson/" &&
                             "active"
                           }`}
+                          rel="preload"
                         >
                           Richardson
                         </Link>
@@ -467,6 +501,7 @@ const Navbar = () => {
                               "/contact-locations/north-richland-hills/" &&
                             "active"
                           }`}
+                          rel="preload"
                         >
                           North Richland Hills
                         </Link>
@@ -478,6 +513,7 @@ const Navbar = () => {
                             currentPath == "/contact-locations/waxahachie/" &&
                             "active"
                           }`}
+                          rel="preload"
                         >
                           Waxahachie
                         </Link>
@@ -489,6 +525,7 @@ const Navbar = () => {
                             currentPath == "/contact-locations/fort-worth/" &&
                             "active"
                           }`}
+                          rel="preload"
                         >
                           Fort Worth
                         </Link>
@@ -500,6 +537,7 @@ const Navbar = () => {
                             currentPath == "/contact-locations/hillsboro/" &&
                             "active"
                           }`}
+                          rel="preload"
                         >
                           Hillsboro
                         </Link>
@@ -511,6 +549,7 @@ const Navbar = () => {
                             currentPath == "/contact-locations/lancaster/" &&
                             "active"
                           }`}
+                          rel="preload"
                         >
                           Lancaster
                         </Link>
@@ -522,6 +561,7 @@ const Navbar = () => {
                             currentPath ==
                               "/contact-locations/farmers-branch/" && "active"
                           }`}
+                          rel="preload"
                         >
                           Farmers Branch
                         </Link>
@@ -533,6 +573,7 @@ const Navbar = () => {
                             currentPath == "/contact-locations/corsicana/" &&
                             "active"
                           }`}
+                          rel="preload"
                         >
                           Corsicana
                         </Link>
@@ -544,6 +585,7 @@ const Navbar = () => {
                             currentPath == "/contact-locations/decatur/" &&
                             "active"
                           }`}
+                          rel="preload"
                         >
                           Decatur
                         </Link>
@@ -555,6 +597,7 @@ const Navbar = () => {
                             currentPath == "/contact-locations/cleburne/" &&
                             "active"
                           }`}
+                          rel="preload"
                         >
                           Cleburne
                         </Link>
@@ -567,6 +610,7 @@ const Navbar = () => {
                       href="#"
                       onClick={(e) => e.preventDefault()}
                       className="nav-link dropdown-toggle"
+                      rel="preload"
                     >
                       More
                     </Link>
@@ -578,6 +622,7 @@ const Navbar = () => {
                           className={`nav-link ${
                             currentPath == "/blog/" && "active"
                           }`}
+                          rel="preload"
                         >
                           Blog
                         </Link>
@@ -588,6 +633,7 @@ const Navbar = () => {
                           className={`nav-link ${
                             currentPath == "/about/" && "active"
                           }`}
+                          rel="preload"
                         >
                           About Us
                         </Link>
@@ -598,6 +644,7 @@ const Navbar = () => {
                           className={`nav-link ${
                             currentPath == "/faqs/" && "active"
                           }`}
+                          rel="preload"
                         >
                           FAQs
                         </Link>
@@ -608,6 +655,7 @@ const Navbar = () => {
                           className={`nav-link ${
                             currentPath == "/news/" && "active"
                           }`}
+                          rel="preload"
                         >
                           News
                         </Link>
@@ -618,6 +666,7 @@ const Navbar = () => {
                           className={`nav-link ${
                             currentPath == "/educational-videos/" && "active"
                           }`}
+                          rel="preload"
                         >
                           Educational Videos
                         </Link>
@@ -628,6 +677,7 @@ const Navbar = () => {
                           className={`nav-link ${
                             currentPath == "/video-testimonials/" && "active"
                           }`}
+                          rel="preload"
                         >
                           Video Testimonials
                         </Link>
@@ -639,6 +689,7 @@ const Navbar = () => {
                             currentPath == "/interventional-pain-management/" &&
                             "active"
                           }`}
+                          rel="preload"
                         >
                           Interventional Pain Management
                         </Link>
@@ -649,6 +700,7 @@ const Navbar = () => {
                           className={`nav-link ${
                             currentPath == "/reviews/" && "active"
                           }`}
+                          rel="preload"
                         >
                           reviews
                         </Link>
@@ -670,6 +722,7 @@ const Navbar = () => {
                             color: "white",
                             padding: "10px 11px",
                           }}
+                          rel="preload"
                         >
                           Appointment
                         </Link>{" "}
@@ -680,6 +733,7 @@ const Navbar = () => {
                             color: "white",
                             padding: "10px 12px",
                           }}
+                          rel="preload"
                         >
                           469-562-4188
                         </Link>

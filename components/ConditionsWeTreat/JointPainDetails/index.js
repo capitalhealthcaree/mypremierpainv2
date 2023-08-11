@@ -21,7 +21,7 @@ const ServiceDetailsContent = () => {
               injury. Arthritis is also a common cause of joint pain. However,
               it may also be due to other circumstances or factors. Whereas we
               at{" "}
-              <Link href="/contact-locations/richardson/">
+              <Link href="/contact-locations/richardson/" rel="preload">
                 Joint Pain Treatment In Richardson
               </Link>{" "}
               will provide you with the best ways to get rid of your pain.
@@ -31,7 +31,10 @@ const ServiceDetailsContent = () => {
               To learn more about our hillsboro joint pain treatment services,
               give us a call at <a href="tel:+14695624188">
                 469-562-4188
-              </a> or <Link href="/contact-locations/">contact us online</Link>{" "}
+              </a> or{" "}
+              <Link href="/contact-locations/" rel="preload">
+                contact us online
+              </Link>{" "}
               today.
             </blockquote>
             <h2>Common Conditions Causing Joint Pain</h2>
@@ -48,7 +51,9 @@ const ServiceDetailsContent = () => {
             <div className="row">
               <div className="col-6">
                 <li>
-                  <Link href="/conditions-we-treat/knee-pain/">Knee pain</Link>
+                  <Link href="/conditions-we-treat/knee-pain/" rel="preload">
+                    Knee pain
+                  </Link>
                 </li>
                 <li>Small joint pain</li>
               </div>{" "}
@@ -58,12 +63,17 @@ const ServiceDetailsContent = () => {
               </div>
               <div className="col-6">
                 <li>
-                  <Link href="/conditions-we-treat/hip-pain/">Hip pain</Link>
+                  <Link href="/conditions-we-treat/hip-pain/" rel="preload">
+                    Hip pain
+                  </Link>
                 </li>
               </div>{" "}
               <div className="col-6">
                 <li>
-                  <Link href="/conditions-we-treat/shoulder-pain/">
+                  <Link
+                    href="/conditions-we-treat/shoulder-pain/"
+                    rel="preload"
+                  >
                     Shoulder pain
                   </Link>
                 </li>
@@ -139,7 +149,7 @@ const ServiceDetailsContent = () => {
             <p>
               However, we came to know about all this information with the help
               of{" "}
-              <Link href="/contact-locations/corsicana/">
+              <Link href="/contact-locations/corsicana/" rel="preload">
                 Joint Pain Treatment In Corsicana
               </Link>
               .
@@ -147,7 +157,7 @@ const ServiceDetailsContent = () => {
             <h2>What Are The Possible Signs?</h2>
             <p>
               Some of the most common symptoms informed by our team at{" "}
-              <Link href="/contact-locations/lancaster/">
+              <Link href="/contact-locations/lancaster/" rel="preload">
                 Joint Pain Treatment In Lancaster
               </Link>{" "}
               include;
@@ -172,7 +182,7 @@ const ServiceDetailsContent = () => {
             <p>
               When it comes to joint discomfort, the most common causes we came
               to know by{" "}
-              <Link href="/contact-locations/fort-worth/">
+              <Link href="/contact-locations/fort-worth/" rel="preload">
                 Joint Pain Treatment In Fort Worth
               </Link>{" "}
               include:
@@ -215,7 +225,7 @@ const ServiceDetailsContent = () => {
             <p>
               A few conditions that may cause multiple joints pain include known
               by{" "}
-              <Link href="/contact-locations/hillsboro/">
+              <Link href="/contact-locations/hillsboro/" rel="preload">
                 Joint Pain Treatment In hillsboro
               </Link>
               :
@@ -224,7 +234,10 @@ const ServiceDetailsContent = () => {
               <div className="col-6">
                 <li>Forms of arthritis, Polyarthritis. Viral arthritis.</li>
                 <li>
-                  <Link href="/blog/back-pain/fibromyalgia-causes-diagnosis-and-treatment/">
+                  <Link
+                    href="/blog/back-pain/fibromyalgia-causes-diagnosis-and-treatment/"
+                    rel="preload"
+                  >
                     Fibromyalgia
                   </Link>
                 </li>
@@ -251,9 +264,11 @@ const ServiceDetailsContent = () => {
               steps towards recovery. In addition to being board certified in
               pain management, Dr. Ali is board certified in physical medicine
               and rehabilitation.{" "}
-              <Link href="/meet-our-team/rao-k-ali/">Dr. Ali</Link> will discuss
-              your treatment options and design a specialized functional
-              rehabilitation regimen that's right for you.
+              <Link href="/meet-our-team/rao-k-ali/" rel="preload">
+                Dr. Ali
+              </Link>{" "}
+              will discuss your treatment options and design a specialized
+              functional rehabilitation regimen that's right for you.
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>

@@ -59,6 +59,7 @@ const Contact = () => {
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3352.562275663516!2d-97.2107338237723!3d32.83036118125714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e78e3a377d75b%3A0xa52d1b374c6a5583!2s7904%20NE%20Loop%20820%20%23%20C%2C%20North%20Richland%20Hills%2C%20TX%2076180%2C%20USA!5e0!3m2!1sen!2sil!4v1685528546599!5m2!1sen!2sil"
           height="550"
+          loading="lazy"
         ></iframe>
       </div>
 

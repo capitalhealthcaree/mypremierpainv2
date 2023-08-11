@@ -213,12 +213,16 @@ const DoctorDetails = () => {
         <div className="row">
           <dl>
             <dt>
-              <Link href="/">Home</Link>
+              <Link href="/" rel="preload">
+                Home
+              </Link>
             </dt>
           </dl>
           <dl>
             <dt>
-              <Link href="/conditions-we-treat/">Conditions We Treat</Link>
+              <Link href="/conditions-we-treat/" rel="preload">
+                Conditions We Treat
+              </Link>
             </dt>
             {conditionsWeTreat.map((item, i) => {
               return (
@@ -230,42 +234,59 @@ const DoctorDetails = () => {
           </dl>
           <dl>
             <dt>
-              <Link href="/treatments/">Treatments</Link>
+              <Link href="/treatments/" rel="preload">
+                Treatments
+              </Link>
             </dt>
             {treatments.map((item, i) => {
               return (
                 <li key={i}>
-                  <Link href={item.href}>{item.name}</Link>
+                  <Link href={item.href} rel="preload">
+                    {item.name}
+                  </Link>
                 </li>
               );
             })}
           </dl>
           <dl>
             <dt>
-              <Link href="/meet-our-team/">Find A Doctor</Link>
+              <Link href="/meet-our-team/" rel="preload">
+                Find A Doctor
+              </Link>
             </dt>
             <li>
-              <Link href="/meet-our-team/rao-k-ali/">Dr. Rao K. Ali M.D.</Link>
+              <Link href="/meet-our-team/rao-k-ali/" rel="preload">
+                Dr. Rao K. Ali M.D.
+              </Link>
             </li>
             <li>
-              <Link href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/">
+              <Link
+                href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
+                rel="preload"
+              >
                 DR. MUHAMMAD ZULQARNAIN (DR. Z) M.D.
               </Link>
             </li>
           </dl>
           <dl>
             <dt>
-              <Link href="/about/">About Us</Link>
+              <Link href="/about/" rel="preload">
+                About Us
+              </Link>
             </dt>
           </dl>
           <dl>
             <dt>
-              <Link href="/contact-locations/">Contact & Location</Link>
+              <Link href="/contact-locations/" rel="preload">
+                Contact & Location
+              </Link>
             </dt>
             {locations.map((item, i) => {
               return (
                 <li key={i}>
-                  <Link href={item.location}>{item.name}</Link>
+                  <Link href={item.location} rel="preload">
+                    {item.name}
+                  </Link>
                 </li>
               );
             })}
@@ -273,7 +294,9 @@ const DoctorDetails = () => {
 
           <dl>
             <dt>
-              <Link href="/blog/">Blog</Link>
+              <Link href="/blog/" rel="preload">
+                Blog
+              </Link>
             </dt>
             {blogs.map((item, i) => {
               return (
@@ -286,27 +309,36 @@ const DoctorDetails = () => {
 
           <dl>
             <dt>
-              <Link href="/news/">News</Link>
+              <Link href="/news/" rel="preload">
+                News
+              </Link>
             </dt>
             <li>
-              <Link href="/news/are-opioids-harmful-to-new-born-infants/">
+              <Link
+                href="/news/are-opioids-harmful-to-new-born-infants/"
+                rel="preload"
+              >
                 Are Opioids Harmful To New Born Infants
               </Link>
             </li>
           </dl>
           <dl>
             <dt>
-              <Link href="/reviews/">reviews</Link>
+              <Link href="/reviews/" rel="preload">
+                reviews
+              </Link>
             </dt>
           </dl>
           <dl>
             <dt>
-              <Link href="/appointment/">Appointment</Link>
+              <Link href="/appointment/" rel="preload">
+                Appointment
+              </Link>
             </dt>
           </dl>
           <dl>
             <dt>
-              <Link href="/interventional-pain-management/">
+              <Link href="/interventional-pain-management/" rel="preload">
                 Interventional Pain Management
               </Link>
             </dt>

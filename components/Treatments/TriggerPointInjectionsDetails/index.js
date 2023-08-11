@@ -70,7 +70,7 @@ const ServiceDetailsContent = () => {
             <p>
               This type of therapy involves injecting a needle into a specific
               area of pain in a muscle (trigger point). A doctor's office at{" "}
-              <Link href="/contact-locations/cleburne/">
+              <Link href="/contact-locations/cleburne/" rel="preload">
                 pain relief clinic Cleburne
               </Link>{" "}
               can perform this procedure without sedation. Most injections
@@ -109,7 +109,7 @@ const ServiceDetailsContent = () => {
               procedure, called "needling," by separating, relaxing, and
               lengthening muscle fibers. For patients with painful trigger
               points,{" "}
-              <Link href="/contact-locations/richardson/">
+              <Link href="/contact-locations/richardson/" rel="preload">
                 Richardson pain management
               </Link>{" "}
               provides comprehensive care.
@@ -118,11 +118,14 @@ const ServiceDetailsContent = () => {
             <p>
               There are many reasons why trigger point injections may be a good
               option for treating your{" "}
-              <Link href="/conditions-we-treat/neck-pain/">neck pain</Link>, as
-              they can treat a wide array of muscles throughout the body. There
-              are several different ways to treat trigger points, including
-              treating them in the neck, lower back, arms, and legs. By using
-              this method, you would be able to relieve the pain in these areas.
+              <Link href="/conditions-we-treat/neck-pain/" rel="preload">
+                neck pain
+              </Link>
+              , as they can treat a wide array of muscles throughout the body.
+              There are several different ways to treat trigger points,
+              including treating them in the neck, lower back, arms, and legs.
+              By using this method, you would be able to relieve the pain in
+              these areas.
             </p>
             <p>
               It has been shown that trigger point injections can be effective
@@ -134,9 +137,12 @@ const ServiceDetailsContent = () => {
               not been determined, so you may wish to consider them as a
               possible treatment for myofascial pain. If you have persistent
               neck pain that doesn't go away for over a week, see your doctor.
-              By consulting with <Link href="/">Premier Pain Management</Link>,
-              individuals can regain health through comprehensive treatment and
-              diagnosis guidelines.
+              By consulting with{" "}
+              <Link href="/" rel="preload">
+                Premier Pain Management
+              </Link>
+              , individuals can regain health through comprehensive treatment
+              and diagnosis guidelines.
             </p>
             <h2>Are There Any Risks?</h2>
             <p>
@@ -180,7 +186,7 @@ const ServiceDetailsContent = () => {
               you. If trigger point injections do not relieve your neck pain,
               your doctor may be able to recommend alternative treatment
               options. Our{" "}
-              <Link href="/contact-locations/lancaster/">
+              <Link href="/contact-locations/lancaster/" rel="preload">
                 Lancaster spine and pain clinic
               </Link>{" "}
               can treat a variety of conditions that can result in trigger
@@ -190,8 +196,10 @@ const ServiceDetailsContent = () => {
               <i className="icofont-quote-left"></i>
               Give us a call at <a href="tel:+14695624188">469-562-4188</a> or
               contact us online today to{" "}
-              <Link href="/appointment/">schedule an appointment</Link> for
-              genicular nerve block treatment in lancaster, TX and the
+              <Link href="/appointment/" rel="preload">
+                schedule an appointment
+              </Link>{" "}
+              for genicular nerve block treatment in lancaster, TX and the
               surrounding areas.
             </blockquote>
           </div>

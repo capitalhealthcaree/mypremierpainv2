@@ -14,9 +14,11 @@ const ServiceDetailsContent = () => {
               The block may be beneficial for a variety of conditions, including
               complex regional pain syndrome, phantom limb pain, and
               hyperhidrosis.{" "}
-              <Link href="/conditions-we-treat/joint-pain/">Joint pain</Link>{" "}
+              <Link href="/conditions-we-treat/joint-pain/" rel="preload">
+                Joint pain
+              </Link>{" "}
               can occur for a variety of reasons, and{" "}
-              <Link href="/contact-locations/fort-worth/">
+              <Link href="/contact-locations/fort-worth/" rel="preload">
                 pain management fort worth
               </Link>{" "}
               is able to provide relief.
@@ -35,7 +37,7 @@ const ServiceDetailsContent = () => {
               spinal sympathetic injections are a relatively common treatment
               option. Sympathetic nerve injections are used to determine whether
               sympathetic nerves are responsible for{" "}
-              <Link href="/conditions-we-treat/back-pain/">
+              <Link href="/conditions-we-treat/back-pain/" rel="preload">
                 lower back pain
               </Link>
               , as well as providing long-term relief.
@@ -45,7 +47,10 @@ const ServiceDetailsContent = () => {
               To learn more about our fort worth lumbar sympathetic Injections
               treatment services, give us a call at{" "}
               <a href="tel:+14695624188">469-562-4188</a> or{" "}
-              <Link href="/contact-locations/">contact us online</Link> today.
+              <Link href="/contact-locations/" rel="preload">
+                contact us online
+              </Link>{" "}
+              today.
             </blockquote>
             <h2>Who is a Candidate?</h2>
             <p>
@@ -157,7 +162,7 @@ const ServiceDetailsContent = () => {
               injections usually happen a few days after the procedure, even
               though you might be sore for a few days. At Pain Management
               Richardson, our team of experienced physicians understands how{" "}
-              <Link href="/conditions-we-treat/joint-pain/">
+              <Link href="/conditions-we-treat/joint-pain/" rel="preload">
                 joint pain
               </Link>{" "}
               can adversely affect quality of life.
@@ -171,15 +176,18 @@ const ServiceDetailsContent = () => {
               of pain signals by desensitizing specific nerves. Typically,
               radiofrequency treatments provide relief for approximately six to
               twelve months and for as long as two years. There is also{" "}
-              <Link href="/treatments/spinal-cord-stimulation/">
+              <Link href="/treatments/spinal-cord-stimulation/" rel="preload">
                 spinal cord stimulation
               </Link>
               , which involves implanting a small electrical device to interrupt
               the transmission of pain signals to the brain. Most devices are
               permanent, though they can be removed at any time. The
               comprehensive treatment and diagnosis guidelines provided by{" "}
-              <Link href="/">Premier Pain Management</Link> enable individuals
-              to regain health through consultations with the practice.
+              <Link href="/" rel="preload">
+                Premier Pain Management
+              </Link>{" "}
+              enable individuals to regain health through consultations with the
+              practice.
             </p>
             <p>
               Lumbar sympathetic blocks are effective treatments for many types
@@ -187,7 +195,7 @@ const ServiceDetailsContent = () => {
               substantially from one individual to another. If you are
               apprehensive about receiving nerve block injections, discuss them
               with your healthcare provider at{" "}
-              <Link href="/contact-locations/lancaster/">
+              <Link href="/contact-locations/lancaster/" rel="preload">
                 spine and pain clinic lancaster
               </Link>
               . They will be able to assist you with any questions you may have.
@@ -196,8 +204,10 @@ const ServiceDetailsContent = () => {
               <i className="icofont-quote-left"></i>
               Give us a call at <a href="tel:+14695624188">469-562-4188</a> or
               contact us online today to{" "}
-              <Link href="/appointment/">schedule an appointment</Link> for
-              lumbar sympathetic blocks treatment in lancaster, TX and the
+              <Link href="/appointment/" rel="preload">
+                schedule an appointment
+              </Link>{" "}
+              for lumbar sympathetic blocks treatment in lancaster, TX and the
               surrounding areas.
             </blockquote>
           </div>

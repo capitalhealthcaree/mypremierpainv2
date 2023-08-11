@@ -30,7 +30,10 @@ const ServiceDetailsContent = () => {
               To learn more about our Hillsboro sports injury treatment
               services, give us a call at{" "}
               <a href="tel:+14695624188">469-562-4188</a> or{" "}
-              <Link href="/contact-locations/">contact us online</Link> today.
+              <Link href="/contact-locations/" rel="preload">
+                contact us online
+              </Link>{" "}
+              today.
             </blockquote>
             <h2>Types of Sports Injuries We Treat</h2>
             <p>
@@ -53,25 +56,33 @@ const ServiceDetailsContent = () => {
             <div className="row">
               <div className="col-6">
                 <li>
-                  <Link href="/conditions-we-treat/joint-pain/">
+                  <Link href="/conditions-we-treat/joint-pain/" rel="preload">
                     Joint Pain
                   </Link>
                 </li>
                 <li>
-                  <Link href="/conditions-we-treat/back-pain/">Back Pain</Link>
+                  <Link href="/conditions-we-treat/back-pain/" rel="preload">
+                    Back Pain
+                  </Link>
                 </li>
               </div>{" "}
               <div className="col-6">
                 <li>
-                  <Link href="/conditions-we-treat/neck-pain/">Neck Pain</Link>
+                  <Link href="/conditions-we-treat/neck-pain/" rel="preload">
+                    Neck Pain
+                  </Link>
                 </li>
                 <li>
-                  <Link href="/conditions-we-treat/headaches/">Head Pain</Link>
+                  <Link href="/conditions-we-treat/headaches/" rel="preload">
+                    Head Pain
+                  </Link>
                 </li>{" "}
               </div>
               <div className="col-6">
                 <li>
-                  <Link href="/conditions-we-treat/knee-pain/">Knee Pain</Link>
+                  <Link href="/conditions-we-treat/knee-pain/" rel="preload">
+                    Knee Pain
+                  </Link>
                 </li>
               </div>{" "}
             </div>
@@ -83,7 +94,7 @@ const ServiceDetailsContent = () => {
               gear, or improperly worn. However, Shoes that do not fit well or
               provide adequate support may also be the cause of sports injury.
               However, According to our team at{" "}
-              <Link href="/contact-locations/fort-worth/">
+              <Link href="/contact-locations/fort-worth/" rel="preload">
                 Fort Worth Sports Injury Treatment
               </Link>
               . We came to know that Sports injuries can happen to anyone,
@@ -110,7 +121,7 @@ const ServiceDetailsContent = () => {
               symptoms until years later. Normal medical exams are typically the
               occasion on which these wounds are discovered. With the help of
               our team at{" "}
-              <Link href="/contact-locations/corsicana/">
+              <Link href="/contact-locations/corsicana/" rel="preload">
                 Corsicana Sports Injury Treatment
               </Link>
               , This is the process your doctor will most likely go through to

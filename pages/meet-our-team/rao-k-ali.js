@@ -119,7 +119,9 @@ const DoctorDetails = () => {
                       {conditionsWeTreat.treatment.map((item, i) => {
                         return (
                           <li key={i}>
-                            <Link href={item.url}>{item.name}</Link>
+                            <Link href={item.url} rel="preload">
+                              {item.name}
+                            </Link>
                           </li>
                         );
                       })}
@@ -145,7 +147,10 @@ const DoctorDetails = () => {
                       Dr. Rao Ali is a dual fellowship-trained, double
                       board-certified Physiatrist and Interventional Pain
                       Management physician who runs the state of art{" "}
-                      <Link href="/interventional-pain-management/">
+                      <Link
+                        href="/interventional-pain-management/"
+                        rel="preload"
+                      >
                         interventional pain management
                       </Link>{" "}
                       practice for over eight years.
@@ -161,11 +166,14 @@ const DoctorDetails = () => {
                       He is an expert in interventional pain procedures
                       including Epidurals, Nerve Blocks, Radio-frequency
                       Ablation,{" "}
-                      <Link href="/treatments/joint-injections/">
+                      <Link href="/treatments/joint-injections/" rel="preload">
                         Joint Injections
                       </Link>
                       , Kyphoplasty, Discectomy,{" "}
-                      <Link href="/treatments/spinal-cord-stimulation/">
+                      <Link
+                        href="/treatments/spinal-cord-stimulation/"
+                        rel="preload"
+                      >
                         Spinal cord stimulator
                       </Link>{" "}
                       trial, and implantation and Intrathecal pumps.
@@ -237,8 +245,10 @@ const DoctorDetails = () => {
                     <ul>
                       {locations.location.map((item, i) => {
                         return (
-                          <li style={{ display: "" }} key={i}>
-                            <Link href={item.href}>{item.name}</Link>
+                          <li key={i}>
+                            <Link href={item.href} rel="preload">
+                              {item.name}
+                            </Link>
                           </li>
                         );
                       })}

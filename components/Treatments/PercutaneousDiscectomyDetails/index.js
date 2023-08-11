@@ -16,13 +16,16 @@ const ServiceDetailsContent = () => {
               and inserting a small surgical needle between them. This procedure
               is minimally invasive. Decompression surgery removes disc material
               from the spine and relieves painful pressure on the nerves.{" "}
-              <Link href="/blog/back-pain/sciatica-symptoms-and-prevention/">
+              <Link
+                href="/blog/back-pain/sciatica-symptoms-and-prevention/"
+                rel="preload"
+              >
                 Sciatica
               </Link>{" "}
               or leg pain may occur due to slipped or herniated discs after a
               patient undergoes surgery to correct the condition. Patients with
               herniated discs are treated comprehensively at{" "}
-              <Link href="/contact-locations/richardson/">
+              <Link href="/contact-locations/richardson/" rel="preload">
                 Richardson Pain Management
               </Link>
               .
@@ -31,8 +34,10 @@ const ServiceDetailsContent = () => {
               <i className="icofont-quote-left"></i>
               Give us a call at <a href="tel:+14695624188">469-562-4188</a> or
               contact us online today to{" "}
-              <Link href="/appointment/">schedule an appointment</Link> for
-              percutaneous discectomy treatment in lancaster, TX and the
+              <Link href="/appointment/" rel="preload">
+                schedule an appointment
+              </Link>{" "}
+              for percutaneous discectomy treatment in lancaster, TX and the
               surrounding areas.
             </blockquote>
             <h2>Overview of the Herniated Disc</h2>
@@ -46,7 +51,7 @@ const ServiceDetailsContent = () => {
               aged 30 to 50 are most likely to suffer from herniated disks.This
               condition is twice as prevalent in men as in women. The pain
               associated with{" "}
-              <Link href="/blog/back-pain/herniated-disc/">
+              <Link href="/blog/back-pain/herniated-disc/" rel="preload">
                 herniated discs
               </Link>{" "}
               can initially be treated at home. If you experience any of the
@@ -113,8 +118,10 @@ const ServiceDetailsContent = () => {
               patient will experience less pain. Patients suffering from pain
               associated with a bulging disc without outer wall rupture may
               benefit from this procedure. Suffering from back and{" "}
-              <Link href="/conditions-we-treat/leg-pain/">leg pain</Link>,
-              including sciatica and radiculopathy, may benefit from a
+              <Link href="/conditions-we-treat/leg-pain/" rel="preload">
+                leg pain
+              </Link>
+              , including sciatica and radiculopathy, may benefit from a
               percutaneous discectomy. Patients with small, contained
               herniations may benefit from a percutaneous discectomy. The
               procedure may also be of benefit to patients with large, contained
@@ -138,9 +145,9 @@ const ServiceDetailsContent = () => {
               percutaneous lumbar discectomy, enabling them to return to their
               normal daily routines. Medical professionals are dedicated to
               improving the quality of life for patients at{" "}
-              <a href="/contact-locations/lancaster/">
+              <Link href="/contact-locations/lancaster/" rel="preload">
                 Lancaster spine and pain clinic
-              </a>
+              </Link>
               . As an alternative to general anesthesia, percutaneous discectomy
               uses local anesthetic. An office setting is the most common
               setting for outpatient treatment. It usually takes less than an
@@ -153,9 +160,9 @@ const ServiceDetailsContent = () => {
               requirements, while increasing their functional capacity. The
               procedure does not involve cutting muscles or bones, so there is
               mild or no scarring following the procedure.{" "}
-              <a href="/contact-locations/fort-worth/">
+              <Link href="/contact-locations/fort-worth/" rel="preload">
                 Pain management fort worth
-              </a>{" "}
+              </Link>{" "}
               offers relief from spinal cord disorders due to a variety of
               reasons.
             </p>
@@ -166,9 +173,9 @@ const ServiceDetailsContent = () => {
               complications associated with percutaneous discectomy as compared
               to open surgical discectomy. It is the mission of the medical
               professionals at the{" "}
-              <a href="/contact-locations/cleburne/">
+              <Link href="/contact-locations/cleburne/" rel="preload">
                 pain relief clinic in Cleburne
-              </a>{" "}
+              </Link>{" "}
               to improve the quality of life of their patients.
             </p>
             <blockquote>
@@ -176,7 +183,10 @@ const ServiceDetailsContent = () => {
               To learn more about our hillsboro percutaneous discectomy
               treatment services, give us a call at{" "}
               <a href="tel:+14695624188">469-562-4188</a> or{" "}
-              <a href="/contact-locations/">contact us online</a> today.
+              <Link href="/contact-locations/" rel="preload">
+                contact us online
+              </Link>{" "}
+              today.
             </blockquote>
           </div>
         </div>

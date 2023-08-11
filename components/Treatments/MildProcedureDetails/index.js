@@ -13,8 +13,10 @@ const ServiceDetailsContent = () => {
               long period of time when you have spinal stenosis affecting the
               nerves in your lower back, called the lumbar spine. You may also
               experience{" "}
-              <Link href="/conditions-we-treat/back-pain/">back pain</Link> when
-              standing up or walking. Bending forward or sitting usually
+              <Link href="/conditions-we-treat/back-pain/" rel="preload">
+                back pain
+              </Link>{" "}
+              when standing up or walking. Bending forward or sitting usually
               alleviates this discomfort.
             </p>
             <p>
@@ -40,7 +42,7 @@ const ServiceDetailsContent = () => {
             <h2>Why Is Mild So Beneficial?</h2>
             <p>
               Chronic lower back pain patients benefit from the{" "}
-              <Link href="/contact-locations/richardson/">
+              <Link href="/contact-locations/richardson/" rel="preload">
                 MILD procedure Richardson
               </Link>
               . There are many benefits that can be obtained from the mild
@@ -57,7 +59,10 @@ const ServiceDetailsContent = () => {
             <li>
               <b>Safe:</b> Using MILD is safe, it's not experimental. Thousands
               of{" "}
-              <Link href="/contact-locations/north-richland-hills/">
+              <Link
+                href="/contact-locations/north-richland-hills/"
+                rel="preload"
+              >
                 MILD procedure north richland Hills
               </Link>{" "}
               surgeries have been successful.
@@ -95,13 +100,13 @@ const ServiceDetailsContent = () => {
             </p>
             <h2> LSS Pain Treatment</h2>
             <p>
-              <Link href="/contact-locations/fort-worth/">
+              <Link href="/contact-locations/fort-worth/" rel="preload">
                 MILD procedure fort worth
               </Link>{" "}
               is an outpatient procedure that requires no general anesthesia or
               stitches for the treatment of LSS caused by excess ligaments.
               Millions of patients have safely undergone{" "}
-              <Link href="/contact-locations/lancaster/">
+              <Link href="/contact-locations/lancaster/" rel="preload">
                 MILD procedure Lancaster
               </Link>
               . As a brief overview of the procedure, here are the steps:
@@ -221,8 +226,11 @@ const ServiceDetailsContent = () => {
               <i className="icofont-quote-left"></i>
               Give us a call at <a href="tel:+14695624188">469-562-4188</a> or
               contact us online today to{" "}
-              <Link href="/appointment/">schedule an appointment</Link> for Mild
-              Procedure treatment in Lancaster, TX and the surrounding areas.
+              <Link href="/appointment/" rel="preload">
+                schedule an appointment
+              </Link>{" "}
+              for Mild Procedure treatment in Lancaster, TX and the surrounding
+              areas.
             </blockquote>
           </div>
         </div>

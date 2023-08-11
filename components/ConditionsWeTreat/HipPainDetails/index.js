@@ -14,13 +14,15 @@ const ServiceDetailsContent = () => {
               than their hip. An injury to the hip joint may result in an injury
               to the inside of the hip or groin. Muscles, ligaments, tendons, or
               other soft tissues surrounding the hip joint can cause{" "}
-              <Link href="/contact-locations/cleburne/">hip pain cleburne</Link>{" "}
+              <Link href="/contact-locations/cleburne/" rel="preload">
+                hip pain cleburne
+              </Link>{" "}
               outside of the hip joint. It is often possible to relieve hip pain
               and restore mobility through gentle exercise and stretching.
             </p>
             <p>
               The cause of{" "}
-              <Link href="/contact-locations/corsicana/">
+              <Link href="/contact-locations/corsicana/" rel="preload">
                 hip pain corsicana
               </Link>{" "}
               may be due to muscle strains, injuries, arthritis, or other
@@ -35,19 +37,22 @@ const ServiceDetailsContent = () => {
               To learn more about our North Richland Hills hip pain treatment
               services, give us a call at{" "}
               <a href="tel:+14695624188">469-562-4188</a> or{" "}
-              <Link href="/contact-locations/">contact us online</Link> today.
+              <Link href="/contact-locations/" rel="preload">
+                contact us online
+              </Link>{" "}
+              today.
             </blockquote>
             <h2>Causes of Hip Pain</h2>
             <p>
               It is possible to receive treatment from{" "}
-              <Link href="/contact-locations/richardson/">
+              <Link href="/contact-locations/richardson/" rel="preload">
                 richardson pain management
               </Link>{" "}
               for hip pain resulting from a wide range of causes, including:
             </p>
             <p>
               <b>1- Arthritis:</b> A majority of{" "}
-              <Link href="/contact-locations/hillsboro/">
+              <Link href="/contact-locations/hillsboro/" rel="preload">
                 hip pain in hillsboro
               </Link>{" "}
               is caused by osteoarthritis or rheumatoid arthritis, particularly
@@ -165,7 +170,7 @@ const ServiceDetailsContent = () => {
               lower body above your heart, if at all possible. To provide
               support to your knees, place a pillow, a blanket, or a cushion
               under them. You must be able to identify the cause of{" "}
-              <Link href="/contact-locations/fort-worth/">
+              <Link href="/contact-locations/fort-worth/" rel="preload">
                 hip pain fort worth
               </Link>{" "}
               in order to treat it as effectively as possible.

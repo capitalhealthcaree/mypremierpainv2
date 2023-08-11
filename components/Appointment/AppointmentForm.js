@@ -1,5 +1,6 @@
 import React from "react";
 import AppointmentForm from "./CommonForm";
+import Image from "next/image";
 
 const AppointmentFormTwo = () => {
   return (
@@ -17,7 +18,13 @@ const AppointmentFormTwo = () => {
 
             <div className="col-lg-5 pr-0">
               <div className="speciality-item speciality-right speciality-right-two speciality-right-three">
-                <img src="/images/doctors/appointment.jpg" alt="Doctor" />
+                <Image
+                  src="/images/doctors/appointment.jpg"
+                  alt="Doctor"
+                  width={366}
+                  height={419}
+                  loading="lazy"
+                />
               </div>
             </div>
           </div>

@@ -24,7 +24,10 @@ const ServiceDetailsContent = () => {
               To learn more about our Cleburne shoulder pain treatment services,
               give us a call at <a href="tel:+14695624188">
                 469-562-4188
-              </a> or <Link href="/contact-locations/">contact us online</Link>{" "}
+              </a> or{" "}
+              <Link href="/contact-locations/" rel="preload">
+                contact us online
+              </Link>{" "}
               today.
             </blockquote>
             <p>
@@ -90,7 +93,7 @@ const ServiceDetailsContent = () => {
             </li>
             <p>
               Other causes of{" "}
-              <Link href="/contact-locations/decatur/">
+              <Link href="/contact-locations/decatur/" rel="preload">
                 shoulder Pain Decatur
               </Link>{" "}
               are:
@@ -106,7 +109,7 @@ const ServiceDetailsContent = () => {
               <b>Rheumatoid Arthritis</b>: As a result of this condition, your
               immune system attacks the protective lining of your
               joints.Additionally, you may experience{" "}
-              <Link href="/contact-locations/richardson/">
+              <Link href="/contact-locations/richardson/" rel="preload">
                 Shoulder Pain Richardson
               </Link>{" "}
               and stiffness as a result of this condition.
@@ -119,7 +122,10 @@ const ServiceDetailsContent = () => {
             </li>
             <li>
               <b>Heart Attack</b>: If you experience{" "}
-              <Link href="/contact-locations/north-richland-hills/">
+              <Link
+                href="/contact-locations/north-richland-hills/"
+                rel="preload"
+              >
                 Shoulder Pain North Richland Hills
               </Link>{" "}
               , difficulty breathing, or a tight feeling in your chest, you
@@ -146,7 +152,7 @@ const ServiceDetailsContent = () => {
             <h2>When to Contact a Medical Professional</h2>
             <p>
               The sudden onset of left{" "}
-              <Link href="/contact-locations/lancaster/">
+              <Link href="/contact-locations/lancaster/" rel="preload">
                 shoulder Pain Lancaster
               </Link>{" "}
               may be indicative of a heart attack. If you experience sudden
@@ -169,7 +175,7 @@ const ServiceDetailsContent = () => {
             <li>Shoulder skin that is red or blue in color</li>
             <h2>Treating Shoulder Pain</h2>
             <p>
-              <Link href="/contact-locations/corsicana/">
+              <Link href="/contact-locations/corsicana/" rel="preload">
                 Shoulder pain Corsicana
               </Link>{" "}
               can be treated in a variety of ways.
@@ -214,7 +220,7 @@ const ServiceDetailsContent = () => {
             <h2>Be Persistent And Seek Care</h2>
             <p>
               Even though{" "}
-              <Link href="/contact-locations/waxahachie/">
+              <Link href="/contact-locations/waxahachie/" rel="preload">
                 shoulder pain Waxahachie
               </Link>{" "}
               is common, it is imperative that they are treated as quickly as
@@ -237,7 +243,7 @@ const ServiceDetailsContent = () => {
               interventional pain management, physical therapy, and therapy
               management, we offer comprehensive patient care. A comprehensive
               range of evidence-based treatments is available at{" "}
-              <Link href="/meet-our-team/rao-k-ali/">
+              <Link href="/meet-our-team/rao-k-ali/" rel="preload">
                 Dr Ali Pain Management
               </Link>{" "}
               for knee conditions such as inner knee pain caused by running. If

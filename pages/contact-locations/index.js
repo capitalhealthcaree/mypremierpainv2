@@ -48,7 +48,7 @@ const Contact = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-sm-6 col-lg-4">
-              <Link href="/contact-locations/richardson/">
+              <Link href="/contact-locations/richardson/" rel="preload">
                 <div className="department-item">
                   <i className="icofont-location-pin"></i>
                   <h3>RICHARDSON</h3>
@@ -61,7 +61,10 @@ const Contact = () => {
             </div>
 
             <div className="col-sm-6 col-lg-4">
-              <Link href="/contact-locations/north-richland-hills/">
+              <Link
+                href="/contact-locations/north-richland-hills/"
+                rel="preload"
+              >
                 <div className="department-item">
                   <i className="icofont-location-pin"></i>
                   <h3>NORTH RICHLAND HILLS</h3>
@@ -75,7 +78,7 @@ const Contact = () => {
             </div>
 
             <div className="col-sm-6 col-lg-4">
-              <Link href="/contact-locations/fort-worth/">
+              <Link href="/contact-locations/fort-worth/" rel="preload">
                 <div className="department-item">
                   <i className="icofont-location-pin"></i>
                   <h3>FORT WORTH</h3>
@@ -89,7 +92,7 @@ const Contact = () => {
             </div>
 
             <div className="col-sm-6 col-lg-4">
-              <Link href="/contact-locations/lancaster/">
+              <Link href="/contact-locations/lancaster/" rel="preload">
                 <div className="department-item">
                   <i className="icofont-location-pin"></i>
                   <h3>LANCASTER</h3>
@@ -103,7 +106,7 @@ const Contact = () => {
             </div>
 
             <div className="col-sm-6 col-lg-4">
-              <Link href="/contact-locations/hillsboro/">
+              <Link href="/contact-locations/hillsboro/" rel="preload">
                 <div className="department-item">
                   <i className="icofont-location-pin"></i>
                   <h3>HILLSBORO</h3>
@@ -117,7 +120,7 @@ const Contact = () => {
             </div>
 
             <div className="col-sm-6 col-lg-4">
-              <Link href="/contact-locations/farmers-branch/">
+              <Link href="/contact-locations/farmers-branch/" rel="preload">
                 <div className="department-item">
                   <i className="icofont-location-pin"></i>
                   <h3>FARMERS BRANCH</h3>
@@ -131,7 +134,7 @@ const Contact = () => {
             </div>
 
             <div className="col-sm-6 col-lg-4">
-              <Link href="/contact-locations/waxahachie/">
+              <Link href="/contact-locations/waxahachie/" rel="preload">
                 <div className="department-item">
                   <i className="icofont-location-pin"></i>
                   <h3>WAXAHACHIE OFFICE</h3>
@@ -145,7 +148,7 @@ const Contact = () => {
             </div>
 
             <div className="col-sm-6 col-lg-4">
-              <Link href="/contact-locations/corsicana/">
+              <Link href="/contact-locations/corsicana/" rel="preload">
                 <div className="department-item">
                   <i className="icofont-location-pin"></i>
                   <h3>CORSICANA</h3>
@@ -159,7 +162,7 @@ const Contact = () => {
             </div>
 
             <div className="col-sm-6 col-lg-4">
-              <Link href="/contact-locations/decatur/">
+              <Link href="/contact-locations/decatur/" rel="preload">
                 <div className="department-item">
                   <i className="icofont-location-pin"></i>
                   <h3>DECATUR</h3>
@@ -172,7 +175,7 @@ const Contact = () => {
               </Link>
             </div>
             <div className="col-sm-6 col-lg-4">
-              <Link href="/contact-locations/cleburne/">
+              <Link href="/contact-locations/cleburne/" rel="preload">
                 <div className="department-item">
                   <i className="icofont-location-pin"></i>
                   <h3>CLEBURNE</h3>

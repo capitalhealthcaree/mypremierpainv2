@@ -65,8 +65,10 @@ const ServiceDetailsContent = () => {
               sensation may be felt in the outer thigh, which is caused by
               inflammation of the trochanteric bursa, which is situated outside
               the hip. Pressure usually causes more severe pain leading to{" "}
-              <Link href="/conditions-we-treat/joint-pain/">joint pain</Link>.
-              Bursitis in the ischial region, also referred to as chronic
+              <Link href="/conditions-we-treat/joint-pain/" rel="preload">
+                joint pain
+              </Link>
+              . Bursitis in the ischial region, also referred to as chronic
               ischiogluteal bursitis and Weaver's bottom. Symptoms include pain
               and inflammation of the bursa that surrounds the bones on which we
               sit. As a result, patients who sit down for extended periods of
@@ -87,7 +89,7 @@ const ServiceDetailsContent = () => {
             <p>
               It is generally a quick procedure to administer a bursa injection,
               typically taking less than ten minutes to complete, says{" "}
-              <Link href="/contact-locations/lancaster/">
+              <Link href="/contact-locations/lancaster/" rel="preload">
                 spine and pain clinic Lancaster
               </Link>
               . You will be able to return home shortly after your healthcare
@@ -108,7 +110,7 @@ const ServiceDetailsContent = () => {
             <li>The bursa is injected with medications.</li>
             <p>
               During an injection, you may feel pressure or discomfort.{" "}
-              <Link href="/contact-locations/cleburne/">
+              <Link href="/contact-locations/cleburne/" rel="preload">
                 Pain relief center Cleburne
               </Link>{" "}
               uses a fresh, sterilized needle for each injection when treating
@@ -141,7 +143,7 @@ const ServiceDetailsContent = () => {
             <li>
               You should inform your physician of the length of time that your
               relief lasts.{" "}
-              <Link href="/contact-locations/fort-worth/">
+              <Link href="/contact-locations/fort-worth/" rel="preload">
                 Spine and pain clinic Fort Worth
               </Link>{" "}
               may investigate other possible causes if medication fails to
@@ -202,8 +204,10 @@ const ServiceDetailsContent = () => {
               <i className="icofont-quote-left"></i>
               Give us a call at <a href="tel:+14695624188">469-562-4188</a> or
               contact us online today to{" "}
-              <Link href="/appointment/">schedule an appointment</Link> for
-              Bursa Injection treatment in Lancaster, TX and the surrounding
+              <Link href="/appointment/" rel="preload">
+                schedule an appointment
+              </Link>{" "}
+              for Bursa Injection treatment in Lancaster, TX and the surrounding
               areas.
             </blockquote>
           </div>

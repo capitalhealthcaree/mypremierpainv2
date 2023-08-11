@@ -45,11 +45,13 @@ const Doctors = () => {
                 <div className="doctor-top">
                   <img src="/images/doctors/doctor1.jpg" alt="Doctor" />
 
-                  <Link href="/appointment/">Get Appointment</Link>
+                  <Link href="/appointment/" rel="preload">
+                    Get Appointment
+                  </Link>
                 </div>
                 <div className="doctor-bottom">
                   <h3>
-                    <Link href="/meet-our-team/rao-k-ali/">
+                    <Link href="/meet-our-team/rao-k-ali/" rel="preload">
                       Dr. Rao K. Ali M.D.
                     </Link>
                   </h3>
@@ -62,11 +64,16 @@ const Doctors = () => {
               <div className="doctor-item">
                 <div className="doctor-top">
                   <img src="/images/doctors/doctor2.jpg" alt="Doctor" />
-                  <Link href="/appointment/">Get Appointment</Link>
+                  <Link href="/appointment/" rel="preload">
+                    Get Appointment
+                  </Link>
                 </div>
                 <div className="doctor-bottom">
                   <h3>
-                    <Link href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/">
+                    <Link
+                      href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
+                      rel="preload"
+                    >
                       DR. MUHAMMAD ZULQARNAIN M.D.
                     </Link>
                   </h3>

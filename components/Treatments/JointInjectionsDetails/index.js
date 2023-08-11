@@ -21,7 +21,7 @@ const ServiceDetailsContent = () => {
             <p>
               An injection of local anesthetic and steroids reduces joint
               inflammation and pain.{" "}
-              <Link href="/contact-locations/lancaster/">
+              <Link href="/contact-locations/lancaster/" rel="preload">
                 Joint injections Lancaster
               </Link>{" "}
               are a great alternative to other treatments. It is possible to
@@ -42,7 +42,7 @@ const ServiceDetailsContent = () => {
             <p>
               Severe pain might require more aggressive treatment. Don't expect
               every{" "}
-              <Link href="/contact-locations/fort-worth/">
+              <Link href="/contact-locations/fort-worth/" rel="preload">
                 joint injections fort worth
               </Link>{" "}
               to work. People who get injection therapy usually like it.In
@@ -64,7 +64,7 @@ const ServiceDetailsContent = () => {
             <h2>How Can A Candidate Be Identified?</h2>
             <p>
               You might benefit from{" "}
-              <Link href="/contact-locations/richardson/">
+              <Link href="/contact-locations/richardson/" rel="preload">
                 joint injections Richardson
               </Link>{" "}
               if you suffer from pain caused by inflammation of your joints. If
@@ -80,7 +80,10 @@ const ServiceDetailsContent = () => {
             <h2>Who Performs The Procedure?</h2>
             <p>
               A physician who administers{" "}
-              <Link href="/contact-locations/north-richland-hills/">
+              <Link
+                href="/contact-locations/north-richland-hills/"
+                rel="preload"
+              >
                 joint injections North Richland Hills
               </Link>{" "}
               may be a physiatrist (PM&R), a radiology specialist, an
@@ -155,7 +158,7 @@ const ServiceDetailsContent = () => {
             <h2>What Are The Risks?</h2>
             <p>
               The risks of steroid{" "}
-              <Link href="/contact-locations/hillsboro/">
+              <Link href="/contact-locations/hillsboro/" rel="preload">
                 joint injections Hillsboro
               </Link>{" "}
               are low, so some patients might benefit. A needle inserted through
@@ -180,7 +183,7 @@ const ServiceDetailsContent = () => {
               also provided with a comprehensive program of patient care,
               including interventional pain management, physical therapy, and
               therapy management.{" "}
-              <Link href="/meet-our-team/rao-k-ali/">
+              <Link href="/meet-our-team/rao-k-ali/" rel="preload">
                 Dr Ali management specialist
               </Link>{" "}
               , outlines the steps to properly treat and recover from joint
@@ -192,9 +195,11 @@ const ServiceDetailsContent = () => {
               <i className="icofont-quote-left"></i>
               Give us a call at <a href="tel:+14695624188">469-562-4188</a> or
               contact us online today to{" "}
-              <Link href="/appointment/">schedule an appointment</Link> for
-              joint infections treatment in Lancaster, TX and the surrounding
-              areas.
+              <Link href="/appointment/" rel="preload">
+                schedule an appointment
+              </Link>{" "}
+              for joint infections treatment in Lancaster, TX and the
+              surrounding areas.
             </blockquote>
           </div>
         </div>

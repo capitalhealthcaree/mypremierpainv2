@@ -10,11 +10,11 @@ const ServiceDetailsContent = () => {
             <p>
               Coccydynia has been misunderstood for a long time. Often called
               tailbone pain,{" "}
-              <Link href="/contact-locations/cleburne/">
+              <Link href="/contact-locations/cleburne/" rel="preload">
                 Coccydynia Cleburne
               </Link>{" "}
               affects the tailbone and is one of the most common diagnoses for{" "}
-              <Link href="/conditions-we-treat/back-pain/">
+              <Link href="/conditions-we-treat/back-pain/" rel="preload">
                 lower back pain
               </Link>{" "}
               during the early 1900s. An injury or irritation of the tailbone
@@ -36,13 +36,16 @@ const ServiceDetailsContent = () => {
               To learn more about our hillsboro Coccydynia treatment services,
               give us a call at <a href="tel:+14695624188">
                 469-562-4188
-              </a> or <Link href="/contact-locations/">contact us online</Link>{" "}
+              </a> or{" "}
+              <Link href="/contact-locations/" rel="preload">
+                contact us online
+              </Link>{" "}
               today.
             </blockquote>
             <h2>Causes of Tailbone Pain (Coccydynia)</h2>
             <p>
               An injury or other trauma usually results in{" "}
-              <Link href="/contact-locations/fort-worth/">
+              <Link href="/contact-locations/fort-worth/" rel="preload">
                 coccydynia Fort worth
               </Link>
               , an inflammation of the tailbone. Occasionally, the tailbone may
@@ -99,7 +102,7 @@ const ServiceDetailsContent = () => {
             <h2>Symptoms of Tailbone Pain (Coccydynia)</h2>
             <p>
               Symptoms of{" "}
-              <Link href="/contact-locations/corsicana/">
+              <Link href="/contact-locations/corsicana/" rel="preload">
                 coccydynia Corsicana
               </Link>{" "}
               include:
@@ -109,7 +112,7 @@ const ServiceDetailsContent = () => {
             <li>Long-term sitting causes more severe pain.</li>
             <li>Constipation pain</li>
             <p>
-              <Link href="/contact-locations/richardson/">
+              <Link href="/contact-locations/richardson/" rel="preload">
                 Coccydynia Richardson
               </Link>{" "}
               may also cause the following symptoms:
@@ -131,7 +134,7 @@ const ServiceDetailsContent = () => {
             <p>
               In addition to an examination of the painful area, your physician
               will likely diagnose you with{" "}
-              <Link href="/contact-locations/hillsboro/">
+              <Link href="/contact-locations/hillsboro/" rel="preload">
                 coccydynia Hillsboro
               </Link>{" "}
               based on your symptoms. Your doctor may also perform tests to
@@ -184,14 +187,17 @@ const ServiceDetailsContent = () => {
             <p>
               As a result of the similar symptoms and pain associated with many
               disorders,{" "}
-              <Link href="/contact-locations/north-richland-hills/">
+              <Link
+                href="/contact-locations/north-richland-hills/"
+                rel="preload"
+              >
                 coccydynia North Richland Hills
               </Link>{" "}
               is often difficult to diagnose.You should seek medical attention
               as soon as possible if you are experiencing any symptoms of
               coccydynia. If you develop persistent pain or severe symptoms, you
               should consult a healthcare provider or a{" "}
-              <Link href="/contact-locations/lancaster/">
+              <Link href="/contact-locations/lancaster/" rel="preload">
                 Lancaster spine and pain clinic
               </Link>
               .
