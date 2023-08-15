@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
           href="https://fonts.googleapis.com"
           as="font"
           type="font/woff2"
-          crossorigin
+          crossOrigin="true"
         />
         <meta
           name="robots"
