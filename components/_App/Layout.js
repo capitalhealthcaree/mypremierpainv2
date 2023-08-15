@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
         <link rel="icon" href="https://www.mypremierpain.com/favicon.ico" />
         <title>Pain Management Specialists - Treating All Types of Pain</title>
         <link
-          rel="preload"
+          rel="preconnect"
           href="https://fonts.googleapis.com"
           as="font"
           type="font/woff2"
