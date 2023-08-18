@@ -1,5 +1,8 @@
 User-agent: *
 Disallow: /*.html$
+Disallow: /*?*
+Disallow: /*html
+Disallow: /*.html
 Disallow: /patient-forms
 Disallow: /*lang=jp
 Disallow: /*?y_source=
@@ -11,3 +14,5 @@ Allow: /sitemap.xml
 User-agent: Googlebot-Image
 
 Sitemap: https://www.mypremierpain.com/sitemap.xml
+
+
