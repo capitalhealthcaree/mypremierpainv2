@@ -60,6 +60,13 @@ const videos = [
     description:
       "Radiofrequency Ablation, Pain Management Procedure Providing Great Relief",
   },
+  {
+    id: 10,
+    backgroundImage: "/images/video-testimonials/10.jpg",
+    videoId: "isoN2Yj47G4",
+    description:
+      "Spinal Cord Stimulator Implant at premier pain centers Corsicana helped patient who received no relief from similar technology in past.",
+  },
 ];
 
 const VideoTestimonials = () => {
