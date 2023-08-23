@@ -18,6 +18,18 @@ const nextConfig = {
   async redirects() {
     return [
       {
+        source: "/blog/list-some-of-the-best-exercises-for-fractured-patella/",
+        destination:
+          "/blog/leg-pain/list-some-of-the-best-exercises-for-fractured-patella/",
+        permanent: true,
+      },
+      {
+        source: "/blog/9-causes-you-feel-pain-in-the-front-of-the-neck/",
+        destination:
+          "/blog/neck-pain/9-causes-you-feel-pain-in-the-front-of-the-neck/",
+        permanent: true,
+      },
+      {
         source: "/conditions-we-treat/educational-videos/",
         destination: "/educational-videos/",
         permanent: true,
