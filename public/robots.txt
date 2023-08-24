@@ -22,6 +22,7 @@ Disallow: /*6*
 Disallow: /*7*
 Disallow: /*8*
 Disallow: /*9*
+Disallow: /*content.php?
 
 User-agent: Googlebot
 Allow: /sitemap.xml
