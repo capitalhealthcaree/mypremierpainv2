@@ -26,9 +26,9 @@ const ConditionsWeTreatLeftSide = () => {
         <div className="blog-details-category ps-3">
           <h3>{conditionsWeTreat.heaging}</h3>
           <ul>
-            {conditionsWeTreat.treatment.map((item) => {
+            {conditionsWeTreat.treatment.map((item, index) => {
               return (
-                <li>
+                <li key={index}>
                   <Link href={item.url} rel="preload">
                     {item.name}
                   </Link>
