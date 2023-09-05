@@ -1,4 +1,5 @@
 import { useRouter } from "next/router";
+import Link from "next/link";
 
 // Define a list of known URLs that should return a 200 status
 const knownURLs = [
@@ -167,9 +168,19 @@ export default function Page() {
   if (shouldReturnGone) {
     // Return a 410 status (Gone)
     return (
-      <div>
-        <h1>410 - Gone</h1>
-        <p>This page no longer exists.</p>
+      <div className="error-area">
+        <div className="error-item">
+          <div className="d-table">
+            <div className="d-table-cell">
+              <div className="error-text">
+                <h1>410 - Gone</h1>
+                <p>Sorry! This page no longer exists.</p>
+
+                <Link href="/">Return to Home</Link>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     );
   } else {
