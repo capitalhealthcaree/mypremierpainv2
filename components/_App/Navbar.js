@@ -602,6 +602,18 @@ const Navbar = () => {
                           Cleburne
                         </Link>
                       </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/contact-locations/plano/"
+                          className={`nav-link ${
+                            currentPath == "/contact-locations/plano/" &&
+                            "active"
+                          }`}
+                          rel="preload"
+                        >
+                          Plano
+                        </Link>
+                      </li>
                     </ul>
                   </li>
 

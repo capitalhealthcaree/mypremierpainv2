@@ -248,14 +248,14 @@ const Footer = () => {
                       {" "}
                       <h3 style={{ marginBottom: "1px" }}>WAXAHACHIE OFFICE</h3>
                       <i className="icofont-location-pin"></i>
-                      <a href="https://www.google.com/maps?cid=16055043450728768858">
-                        20 Northgate Dr.
+                      <a href="https://goo.gl/maps/B1gFM1eLtxrJfSjo9">
+                        115 Park Pl Blvd #100
                       </a>
-                      <a href="https://www.google.com/maps?cid=16055043450728768858">
+                      <a href="https://goo.gl/maps/B1gFM1eLtxrJfSjo9">
                         Waxahachie, TX 75165
                       </a>
                       <a
-                        href="https://www.google.com/maps?cid=16055043450728768858"
+                        href="https://goo.gl/maps/B1gFM1eLtxrJfSjo9"
                         className="fw-bold"
                       >
                         View Map & Directions
@@ -264,6 +264,26 @@ const Footer = () => {
                         href="/contact-locations/waxahachie/"
                         className="fw-bold"
                       >
+                        View Site
+                      </a>
+                    </li>
+                    <li>
+                      {" "}
+                      <h3 style={{ marginBottom: "1px" }}>PLANO OFFICE</h3>
+                      <i className="icofont-location-pin"></i>
+                      <a href="https://goo.gl/maps/gZ5UgnCi8iP6t6fW6">
+                        6537 Preston Rd. Building 3
+                      </a>
+                      <a href="https://goo.gl/maps/gZ5UgnCi8iP6t6fW6">
+                        Plano, TX 75024
+                      </a>
+                      <a
+                        href="https://goo.gl/maps/gZ5UgnCi8iP6t6fW6"
+                        className="fw-bold"
+                      >
+                        View Map & Directions
+                      </a>
+                      <a href="/contact-locations/plano/" className="fw-bold">
                         View Site
                       </a>
                     </li>
