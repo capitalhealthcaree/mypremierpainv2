@@ -23,7 +23,7 @@ const Contact = () => {
   return (
     <>
       <Head>
-        <title>Center for Pain Management in Plano, TX</title>
+        <title>Center for Spine and Pain Management in Plano, TX</title>
         <link
           rel="canonical"
           href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}${router.asPath}`}
