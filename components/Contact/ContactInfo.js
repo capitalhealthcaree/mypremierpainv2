@@ -21,7 +21,7 @@ const ContactInfo = ({ loc1, loc2 }) => {
               <div className="location-item">
                 <i className="icofont-ui-message"></i>
                 <h3>Email</h3>
-                <a href="mailto:admin@mypremierpains.com">admin@mypremierpain.com</a>
+                <a href="mailto:admin@mypremierpain.com">admin@mypremierpain.com</a>
               </div>
             </div>
 

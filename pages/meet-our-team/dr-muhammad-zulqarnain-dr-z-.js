@@ -165,7 +165,7 @@ const DoctorDetails = () => {
                           className="icofont-ui-message"
                           style={{ fontSize: "25px" }}
                         ></i>
-                        <a href="mailto:admin@mypremierpains.com">
+                        <a href="mailto:admin@mypremierpain.com">
                           admin@mypremierpain.com
                         </a>
                       </li>
