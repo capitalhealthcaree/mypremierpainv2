@@ -71,7 +71,7 @@ const About = () => {
                   a surgery center or a hospital.
                 </p>
                 <h3>
-                  <Link href="/images/Rao-Ali-AR-1.pdf" rel="preload">
+                  <Link href="/images/Rao-Ali-AR-1.pdf/" target="_blank">
                     Click Here For List of Insurances We Accept
                   </Link>
                 </h3>

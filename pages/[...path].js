@@ -64,7 +64,7 @@ const knownURLs = [
   "/blog/neck-pain/8-remedies-to-fix-crick-in-neck/",
   "/blog/treatments/hip-pain-when-walking/",
   "/blog/treatments/hip-flexor-pain/",
-  "/images/Rao-Ali-AR-1.pdf",
+  "/images/Rao-Ali-AR-1.pdf/",
   "/faqs/i-am-in-great-pain-please-help-me/",
   "/faqs/when-to-worry-about-leg-pain/",
   "/faqs/what-causes-hip-pain-that-radiates-down-the-leg/",
