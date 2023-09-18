@@ -10,7 +10,10 @@ const Index = () => {
   return (
     <>
       <Head>
-        <link rel="canonical" href="https://www.mypremierpain.com/" />
+      <link
+          rel="canonical"
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/thank-you/`}
+        />
       </Head>
 
       <Navbar />

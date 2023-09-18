@@ -165,14 +165,16 @@ const knownURLs = [
   "/blog/leg-pain/what-are-different-causes-behind-achy-legs/",
   "/blog/knee-pain/11-causes-why-you-feel-knee-pain-when-bending/",
   "/blog/leg-pain/do-you-want-to-know-how-to-sit-with-si-joint-pain/",
+  "/blog/back-pain/fibromyalgia-causes-diagnosis-and-treatment/",
+  "/blog/knee-pain/symptoms-causes-and-treatment-of-knee-clicking/"
 ];
 
 export default function Page() {
   const router = useRouter();
-  const { path } = router.query;
+  const { asPath } = router;
+  let url = `${process.env.NEXT_PUBLIC_URL_DOMAIN}/${asPath}`;
   // Determine whether to return a 410 status or a 200 status based on the path
-  const shouldReturnGone = !knownURLs.includes(path);
-
+  const shouldReturnGone = knownURLs.indexOf(url) === -1;
   if (shouldReturnGone) {
     // Return a 410 status (Gone)
     return (

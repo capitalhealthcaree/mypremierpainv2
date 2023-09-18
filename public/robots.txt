@@ -2,6 +2,7 @@ User-agent: *
 Disallow: /*?
 Disallow: /*.html$
 Disallow: /*?*
+Disallow: /*/?
 Disallow: /*html
 Disallow: /*.html
 Disallow: /patient-forms
