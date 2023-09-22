@@ -41,7 +41,7 @@ const EducationalVideos = () => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="educational-videos"
-        bgImage="/images/educational-videos.jpg"
+        bgImage="/images/educational-videos.webp"
       />
 
       <div className="pt-5">
