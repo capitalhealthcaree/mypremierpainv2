@@ -206,7 +206,7 @@ const DoctorDetails = () => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="sitemap"
-        bgImage="/images/sitemap.jpg"
+        bgImage="/images/sitemap.webp"
       />
 
       <div className="container p-5">

@@ -40,7 +40,7 @@ const BlogDetails = ({ items }) => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="Blog Details"
-        bgImage="/images/blog/blog-detail-bg.jpg"
+        bgImage="/images/blog/blog-detail-bg.webp"
       />
 
       {/* BlogDetailsContent  */}

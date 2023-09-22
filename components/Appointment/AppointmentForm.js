@@ -19,7 +19,7 @@ const AppointmentFormTwo = () => {
             <div className="col-lg-5 pr-0">
               <div className="speciality-item speciality-right speciality-right-two speciality-right-three">
                 <Image
-                  src="/images/doctors/appointment.jpg"
+                  src="/images/doctors/appointment.webp"
                   alt="Doctor"
                   width={366}
                   height={419}

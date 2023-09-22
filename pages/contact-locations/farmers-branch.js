@@ -42,7 +42,7 @@ const Contact = () => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="farmers-branch"
-        bgImage="/images/location.jpg"
+        bgImage="/images/location.webp"
       />
 
       <ContactInfo

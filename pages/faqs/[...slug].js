@@ -44,7 +44,7 @@ const FaqDetail = ({ item }) => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="faqs"
-        bgImage="/images/blog/blog-detail-bg.jpg"
+        bgImage="/images/blog/blog-detail-bg.webp"
       />
 
       {/* FAQ Detail Content  */}

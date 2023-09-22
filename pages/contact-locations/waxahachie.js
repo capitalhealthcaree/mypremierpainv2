@@ -43,7 +43,7 @@ const Contact = () => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="waxahachie"
-        bgImage="/images/location.jpg"
+        bgImage="/images/location.webp"
       />
 
       <ContactInfo

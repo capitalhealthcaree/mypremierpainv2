@@ -44,7 +44,7 @@ const DoctorDetails = () => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="mild-procedure"
-        bgImage="/images/page-banner2.jpg"
+        bgImage="/images/page-banner2.webp"
       />
 
       <div className="doctor-details-area pt-4">

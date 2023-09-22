@@ -51,7 +51,7 @@ const DoctorDetails = () => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="dr-muhammad-zulqarnain-dr-z-"
-        bgImage="/images/doctor.jpg"
+        bgImage="/images/doctor.webp"
       />
 
       <div className="doctor-details-area pt-5 pb-2">
@@ -59,7 +59,7 @@ const DoctorDetails = () => {
           <div className="row">
             <div className="col-lg-5">
               <div className="doctor-details-item doctor-details-left">
-                <img src="/images/doctors/doctor2.jpg" alt="Doctor" />
+                <img src="/images/doctors/doctor2.webp" alt="Doctor" />
                 <div className="blog-details-item">
                   <div className="blog-details-category ps-3">
                     <h3>{conditionsWeTreat.heaging}</h3>

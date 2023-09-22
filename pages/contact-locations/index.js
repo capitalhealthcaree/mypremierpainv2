@@ -42,7 +42,7 @@ const Contact = () => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="contact-locations"
-        bgImage="/images/contact-and-locations.jpg"
+        bgImage="/images/location.webp"
       />
       <div className="departments-area pt-5 pb-3">
         <div className="container">

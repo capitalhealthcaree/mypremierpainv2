@@ -97,7 +97,7 @@ const reviews = () => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="reviews"
-        bgImage="/images/testimonial-bg.jpg"
+        bgImage="/images/reviews-bg.webp"
       />
 
       <div className="mb-2">

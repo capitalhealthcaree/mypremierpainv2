@@ -43,7 +43,7 @@ const Contact = () => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="corsicana"
-        bgImage="/images/location.jpg"
+        bgImage="/images/location.webp"
       />
 
       <ContactInfo loc1={"3108 E. State HWY 22"} loc2={"Corsicana, TX 75102"} />

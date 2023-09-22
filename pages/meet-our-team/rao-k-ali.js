@@ -104,14 +104,14 @@ const DoctorDetails = () => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="rao-k-ali"
-        bgImage="/images/doctor.jpg"
+        bgImage="/images/doctor.webp"
       />
       <div className="doctor-details-area pt-5 pb-2">
         <div className="container">
           <div className="row">
             <div className="col-lg-5">
               <div className="doctor-details-item doctor-details-left">
-                <img src="/images/doctors/doctor1.jpg" alt="Doctor" />
+                <img src="/images/doctors/doctor1.webp" alt="Doctor" />
                 <div className="blog-details-item">
                   <div className="blog-details-category ps-5">
                     <h3>{conditionsWeTreat.heaging}</h3>

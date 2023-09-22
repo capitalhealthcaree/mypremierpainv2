@@ -45,7 +45,7 @@ const Contact = () => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="conditions-we-treat"
-        bgImage="/images/contact-and-locations.jpg"
+        bgImage="/images/contact-and-locations.webp"
       />
       <OurServices />
       <AppointmentForm />

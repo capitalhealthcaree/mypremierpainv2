@@ -43,7 +43,7 @@ const Contact = () => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="richardson"
-        bgImage="/images/location.jpg"
+        bgImage="/images/location.webp"
       />
 
       <ContactInfo loc1={"2071 N Collins Blvd"} loc2={"Richardson, TX 75080"} />

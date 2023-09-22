@@ -61,7 +61,7 @@ const Blog = ({ item, totalPage }) => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="blog"
-        bgImage="/images/blog/blog-bg.jpg"
+        bgImage="/images/blog/blog-bg.webp"
       />
 
       {/* BlogGrid */}

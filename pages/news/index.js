@@ -61,7 +61,7 @@ const News = ({ item, totalPage }) => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="news"
-        bgImage="/images/blog/blog-bg.jpg"
+        bgImage="/images/blog/blog-bg.webp"
       />
 
       {/* NewsGrid */}

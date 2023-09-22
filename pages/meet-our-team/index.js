@@ -34,7 +34,7 @@ const Doctors = () => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="doctors"
-        bgImage="/images/doctors/doctor-bg.jpg"
+        bgImage="/images/doctors/doctor-bg.webp"
       />
 
       <div className="doctors-area doctors-area-two pt-5 pb-3">
@@ -43,7 +43,7 @@ const Doctors = () => {
             <div className="col-sm-6 col-lg-4">
               <div className="doctor-item">
                 <div className="doctor-top">
-                  <img src="/images/doctors/doctor1.jpg" alt="Doctor" />
+                  <img src="/images/doctors/doctor1.webp" alt="Doctor" />
 
                   <Link href="/appointment/" rel="preload">
                     Get Appointment
@@ -63,7 +63,7 @@ const Doctors = () => {
             <div className="col-sm-6 col-lg-4">
               <div className="doctor-item">
                 <div className="doctor-top">
-                  <img src="/images/doctors/doctor2.jpg" alt="Doctor" />
+                  <img src="/images/doctors/doctor2.webp" alt="Doctor" />
                   <Link href="/appointment/" rel="preload">
                     Get Appointment
                   </Link>

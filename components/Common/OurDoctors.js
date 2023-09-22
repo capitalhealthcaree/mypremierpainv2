@@ -16,7 +16,7 @@ const OurDoctors = () => {
               <div className="doctor-item">
                 <div className="doctor-top">
                   <Image
-                    src="/images/doctors/doctor1.jpg"
+                    src="/images/doctors/doctor1.webp"
                     alt="Doctor"
                     width={416}
                     height={450}
@@ -41,7 +41,7 @@ const OurDoctors = () => {
               <div className="doctor-item">
                 <div className="doctor-top">
                   <Image
-                    src="/images/doctors/doctor2.jpg"
+                    src="/images/doctors/doctor2.webp"
                     alt="Doctor"
                     width={416}
                     height={450}
