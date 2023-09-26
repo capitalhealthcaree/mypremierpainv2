@@ -47,7 +47,7 @@ const Contact = () => {
       />
 
       <ContactInfo
-        loc1={"6537 Preston Rd. Building 3"}
+        loc1={"7712 San Jancinto Place Suite 300"}
         loc2={"Plano, TX 75024"}
       />
 
@@ -57,7 +57,7 @@ const Contact = () => {
 
       <div className="map-area">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3343.7764999522833!2d-96.80028892368139!3d33.06235046934854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c2325ffb1cf63%3A0x623069538fc30615!2s6537%20Preston%20Rd%20%233%2C%20Plano%2C%20TX%2075024%2C%20USA!5e0!3m2!1sen!2s!4v1694029189219!5m2!1sen!2s"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3343.0469691697494!2d-96.7968525!3d33.0815489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c3cd6da947657%3A0xca0a735974b6093!2s7712%20San%20Jacinto%20Pl%20%23300%2C%20Plano%2C%20TX%2075024%2C%20USA!5e0!3m2!1sen!2s!4v1695763123071!5m2!1sen!2s"
           height="550"
           loading="lazy"
         ></iframe>

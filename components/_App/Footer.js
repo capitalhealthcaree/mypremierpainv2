@@ -271,14 +271,14 @@ const Footer = () => {
                       {" "}
                       <h3 style={{ marginBottom: "1px" }}>PLANO OFFICE</h3>
                       <i className="icofont-location-pin"></i>
-                      <a href="https://goo.gl/maps/gZ5UgnCi8iP6t6fW6">
-                        6537 Preston Rd. Building 3
+                      <a href="https://maps.app.goo.gl/G58xhCqnjUmFPH1u5">
+                        7712 San Jancinto Place 
                       </a>
-                      <a href="https://goo.gl/maps/gZ5UgnCi8iP6t6fW6">
-                        Plano, TX 75024
+                      <a href="https://maps.app.goo.gl/G58xhCqnjUmFPH1u5">
+                      Suite 300  Plano, TX 75024
                       </a>
                       <a
-                        href="https://goo.gl/maps/gZ5UgnCi8iP6t6fW6"
+                        href="https://maps.app.goo.gl/G58xhCqnjUmFPH1u5"
                         className="fw-bold"
                       >
                         View Map & Directions
