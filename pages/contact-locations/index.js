@@ -174,6 +174,7 @@ const Contact = () => {
                 </div>
               </Link>
             </div>
+
             <div className="col-sm-6 col-lg-4">
               <Link href="/contact-locations/cleburne/" rel="preload">
                 <div className="department-item">
@@ -183,6 +184,20 @@ const Contact = () => {
                     131 S Westmeadow Dr,
                     <br />
                     Cleburne, TX 76033
+                  </p>
+                </div>
+              </Link>
+            </div>
+
+            <div className="col-sm-6 col-lg-4">
+              <Link href="/contact-locations/plano/" rel="preload">
+                <div className="department-item">
+                  <i className="icofont-location-pin"></i>
+                  <h3>PLANO</h3>
+                  <p>
+                    7712 San Jancinto Place Suite 300
+                    <br />
+                    Plano, TX 75024
                   </p>
                 </div>
               </Link>
