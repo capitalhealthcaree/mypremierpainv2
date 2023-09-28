@@ -137,7 +137,7 @@ const Contact = () => {
               <Link href="/contact-locations/waxahachie/" rel="preload">
                 <div className="department-item">
                   <i className="icofont-location-pin"></i>
-                  <h3>WAXAHACHIE OFFICE</h3>
+                  <h3>WAXAHACHIE</h3>
                   <p>
                     20 Northgate Dr
                     <br />

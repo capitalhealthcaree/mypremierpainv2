@@ -246,7 +246,7 @@ const Footer = () => {
                     </li>
                     <li>
                       {" "}
-                      <h3 style={{ marginBottom: "1px" }}>WAXAHACHIE OFFICE</h3>
+                      <h3 style={{ marginBottom: "1px" }}>WAXAHACHIE</h3>
                       <i className="icofont-location-pin"></i>
                       <a href="https://goo.gl/maps/B1gFM1eLtxrJfSjo9">
                         115 Park Pl Blvd #100
@@ -269,7 +269,7 @@ const Footer = () => {
                     </li>
                     <li>
                       {" "}
-                      <h3 style={{ marginBottom: "1px" }}>PLANO OFFICE</h3>
+                      <h3 style={{ marginBottom: "1px" }}>PLANO</h3>
                       <i className="icofont-location-pin"></i>
                       <a href="https://maps.app.goo.gl/G58xhCqnjUmFPH1u5">
                         7712 San Jancinto Place 
