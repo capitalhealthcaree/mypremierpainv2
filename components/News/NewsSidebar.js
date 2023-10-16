@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Link from "next/link";
-import api from "../../utils/api";
 
 const conditionsWeTreat = {
   heaging: "Conditions We Treat",
@@ -18,48 +17,9 @@ const conditionsWeTreat = {
 };
 
 const NewsSidebar = () => {
-  const [list, setList] = useState([]);
-
-  async function fetchData() {
-    const res = await api.get("/news/getLastFive");
-    if (res.status === 200) {
-      if (res && res.data && res.data.data) {
-        setList(res.data.data);
-      }
-    }
-  }
-  useEffect(() => {
-    fetchData();
-  }, []);
   return (
     <>
       <div className="blog-details-item">
-        {/* <div className="blog-details-recent">
-          <h3>Recent News</h3>
-          <ul>
-            {list.map((item, i) => {
-              return (
-                <li key={i}>
-                  <img src={item.image} alt={item.seoTitle[0]} />
-                  <Link href={`/news/${item.slug}`}>{item.seoTitle[0]}</Link>
-                  <ul>
-                    <li>
-                      <Link
-                        style={{ visibility: "hidden" }}
-                        href="#"
-                        onClick={(e) => e.preventDefault()}
-                      >
-                        {item.foucKW}
-                      </Link>
-                    </li>
-                    <li></li>
-                  </ul>
-                </li>
-              );
-            })}
-          </ul>
-        </div> */}
-
         <div className="department-item">
           <h3>Dr. Rao K. Ali M.D.</h3>
           <p>
