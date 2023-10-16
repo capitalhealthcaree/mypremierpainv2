@@ -182,11 +182,8 @@ const CommonForm = ({ isFromHome }) => {
                       }
                       onChange={handleChange}
                     />
-                    <p className="form-check-label ml-2">
-                      I'm a Potential New Patient
-                    </p>
+                    Potential New Patient
                   </label>
-                  <br />
                   <label className="form-check">
                     <input
                       type="radio"
@@ -199,9 +196,7 @@ const CommonForm = ({ isFromHome }) => {
                       }
                       onChange={handleChange}
                     />
-                    <p className="form-check-label ml-2">
-                      I'm a Current Existing Patient
-                    </p>
+                    Existing Patient
                   </label>
                 </div>
               </div>
