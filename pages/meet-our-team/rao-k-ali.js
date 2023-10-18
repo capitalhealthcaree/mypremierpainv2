@@ -83,7 +83,7 @@ const DoctorDetails = () => {
     <>
       <Head>
         <title>
-          Dr. Rao K. Ali M.D: Interventional Pain Management Physician
+          Dr. Rao K. Ali MD: Interventional Pain Management Physician
         </title>
         <link
           rel="canonical"
@@ -100,7 +100,7 @@ const DoctorDetails = () => {
       <Navbar />
 
       <PageBanner
-        pageTitle="Dr. Rao K. Ali M.D."
+        pageTitle="Dr. Rao K. Ali MD"
         homePageUrl="/"
         homePageText="Home"
         activePageText="rao-k-ali"
@@ -136,7 +136,7 @@ const DoctorDetails = () => {
                 <div className="doctor-details-right">
                   <div className="doctor-details-biography">
                     <h3>
-                      <b>Dr. Rao K. Ali M.D.</b>
+                      <b>Dr. Rao K. Ali MD</b>
                     </h3>
                     <h4>(Interventional Pain Management Physician)</h4>
                   </div>

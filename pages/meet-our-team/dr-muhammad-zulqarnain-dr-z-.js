@@ -47,7 +47,7 @@ const DoctorDetails = () => {
       <Navbar />
 
       <PageBanner
-        pageTitle="DR. MUHAMMAD ZULQARNAIN (DR. Z) M.D."
+        pageTitle="DR. MUHAMMAD ZULQARNAIN (DR. Z) MD"
         homePageUrl="/"
         homePageText="Home"
         activePageText="dr-muhammad-zulqarnain-dr-z-"
@@ -84,7 +84,7 @@ const DoctorDetails = () => {
                 <div className="doctor-details-right">
                   <div className="doctor-details-biography">
                     <h3>
-                      <b>DR. MUHAMMAD ZULQARNAIN (DR. Z) M.D.</b>
+                      <b>DR. MUHAMMAD ZULQARNAIN (DR. Z) MD</b>
                     </h3>
                     <h4>(Pain Management Physician)</h4>
                   </div>
