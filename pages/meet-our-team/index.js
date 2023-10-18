@@ -52,7 +52,7 @@ const Doctors = () => {
                 <div className="doctor-bottom">
                   <h3>
                     <Link href="/meet-our-team/rao-k-ali/" rel="preload">
-                      Dr. Rao K. Ali MD
+                      Rao K. Ali MD
                     </Link>
                   </h3>
                   <span>Interventional Pain Management Physician</span>
@@ -74,7 +74,7 @@ const Doctors = () => {
                       href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
                       rel="preload"
                     >
-                      DR. MUHAMMAD ZULQARNAIN MD
+                      MUHAMMAD ZULQARNAIN MD
                     </Link>
                   </h3>
                   <span>Pain Management Physician</span>

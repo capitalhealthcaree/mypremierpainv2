@@ -1195,7 +1195,7 @@ const Navbar = () => {
                           }`}
                           rel="preload"
                         >
-                          Dr. Rao K. Ali MD
+                          Rao K. Ali MD
                         </Link>
                       </li>
 
@@ -1209,7 +1209,7 @@ const Navbar = () => {
                           }`}
                           rel="preload"
                         >
-                          DR. MUHAMMAD ZULQARNAIN (DR. Z) MD
+                          MUHAMMAD ZULQARNAIN MD (DR. Z)
                         </Link>
                       </li>
                     </ul>

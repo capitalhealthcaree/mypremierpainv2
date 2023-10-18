@@ -100,7 +100,7 @@ const DoctorDetails = () => {
       <Navbar />
 
       <PageBanner
-        pageTitle="Dr. Rao K. Ali MD"
+        pageTitle="Rao K. Ali MD"
         homePageUrl="/"
         homePageText="Home"
         activePageText="rao-k-ali"
@@ -136,7 +136,7 @@ const DoctorDetails = () => {
                 <div className="doctor-details-right">
                   <div className="doctor-details-biography">
                     <h3>
-                      <b>Dr. Rao K. Ali MD</b>
+                      <b>Rao K. Ali MD</b>
                     </h3>
                     <h4>(Interventional Pain Management Physician)</h4>
                   </div>
