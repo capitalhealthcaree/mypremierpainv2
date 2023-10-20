@@ -80,11 +80,31 @@ const DoctorDetails = () => {
                     <h3>Biography</h3>
                     <p>
                       Dr. Moore is board-certified in Pain Medicine and
-                      practices Interventional Pain Management in the DFW area.
-                      His main focus is on treatment of the spine. In his
-                      practice, he utilizes a wide range of endoscopic spine
-                      procedures and minimally invasive techniques to treat neck
-                      and back pain.
+                      practices{" "}
+                      <Link
+                        href="/interventional-pain-management/"
+                        rel="preload"
+                      >
+                        Interventional Pain Management
+                      </Link>{" "}
+                      in the DFW area. His main focus is on treatment of the
+                      spine. In his practice, he utilizes a wide range of
+                      endoscopic spine procedures and minimally invasive
+                      techniques to treat{" "}
+                      <Link
+                        href="/conditions-we-treat/neck-pain/"
+                        rel="preload"
+                      >
+                        neck pain{" "}
+                      </Link>
+                      and{" "}
+                      <Link
+                        href="/conditions-we-treat/back-pain/"
+                        rel="preload"
+                      >
+                        back pain
+                      </Link>
+                      .
                     </p>
                     <p>
                       Born in Laredo, this Texas native earned his Bachelor of

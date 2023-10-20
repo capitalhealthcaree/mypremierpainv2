@@ -74,7 +74,7 @@ const DoctorDetails = () => {
                     <h3>
                       <b>MUHAMMAD ZULQARNAIN MD (DR. Z)</b>
                     </h3>
-                    <h4>(Pain Management Physician)</h4>
+                    <h4>(Interventional Pain Management Physician)</h4>
                   </div>
                   <div className="doctor-details-biography">
                     <h3>Biography</h3>
