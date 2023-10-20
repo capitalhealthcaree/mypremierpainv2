@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Link from "next/link";
 import dynamic from "next/dynamic";
+import Physicians from "../../utils/physicians.json";
 
 const Navbar = dynamic(() => import("../../components/_App/Navbar"));
 
@@ -40,47 +41,29 @@ const Doctors = () => {
       <div className="doctors-area doctors-area-two pt-5 pb-3">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-sm-6 col-lg-4">
-              <div className="doctor-item">
-                <div className="doctor-top">
-                  <img src="/images/doctors/doctor1.webp" alt="Doctor" />
+            {Physicians.physicians.map((data) => {
+              return (
+                <div className="col-sm-6 col-lg-4">
+                  <div className="doctor-item">
+                    <div className="doctor-top">
+                      <img src={data.image} alt={data.name} />
 
-                  <Link href="/appointment/" rel="preload">
-                    Get Appointment
-                  </Link>
+                      <Link href="/appointment/" rel="preload">
+                        Get Appointment
+                      </Link>
+                    </div>
+                    <div className="doctor-bottom">
+                      <h3>
+                        <Link href={data.href} rel="preload">
+                          {data.name}
+                        </Link>
+                      </h3>
+                      <span>{data.bio}</span>
+                    </div>
+                  </div>
                 </div>
-                <div className="doctor-bottom">
-                  <h3>
-                    <Link href="/meet-our-team/rao-k-ali/" rel="preload">
-                      Rao K. Ali MD
-                    </Link>
-                  </h3>
-                  <span>Interventional Pain Management Physician</span>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-sm-6 col-lg-4">
-              <div className="doctor-item">
-                <div className="doctor-top">
-                  <img src="/images/doctors/doctor2.webp" alt="Doctor" />
-                  <Link href="/appointment/" rel="preload">
-                    Get Appointment
-                  </Link>
-                </div>
-                <div className="doctor-bottom">
-                  <h3>
-                    <Link
-                      href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
-                      rel="preload"
-                    >
-                      MUHAMMAD ZULQARNAIN MD
-                    </Link>
-                  </h3>
-                  <span>Pain Management Physician</span>
-                </div>
-              </div>
-            </div>
+              );
+            })}
           </div>
         </div>
       </div>

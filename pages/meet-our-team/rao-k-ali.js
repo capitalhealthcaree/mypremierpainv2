@@ -76,6 +76,10 @@ const locations = {
       href: "/contact-locations/cleburne",
       name: " Cleburne",
     },
+    {
+      href: "/contact-locations/plano",
+      name: "Plano",
+    },
   ],
 };
 const DoctorDetails = () => {
@@ -200,7 +204,7 @@ const DoctorDetails = () => {
                           style={{ fontSize: "30px" }}
                         ></i>
 
-                        <a href="tel:+14695624188">( +1 ) 469-562-4188</a>
+                        <a href="tel:+14695624188">469-562-4188</a>
                       </li>
                       <li>
                         <i

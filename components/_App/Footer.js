@@ -54,7 +54,7 @@ const Footer = () => {
                         style={{ fontSize: "30px" }}
                       ></i>
 
-                      <a href="tel:+14695624188">( +1 ) 469-562-4188</a>
+                      <a href="tel:+14695624188">469-562-4188</a>
                     </li>
                   </ul>
                   <ul

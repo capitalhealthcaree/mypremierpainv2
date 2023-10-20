@@ -1,9 +1,8 @@
 import React from "react";
-import Head from "next/head";
 import Link from "next/link";
+import Head from "next/head";
 import dynamic from "next/dynamic";
 import data from "../../utils/conditionsWeTreat.json";
-
 const Navbar = dynamic(() => import("../../components/_App/Navbar"));
 
 const PageBanner = dynamic(() => import("../../components/Common/PageBanner"));
@@ -18,38 +17,39 @@ const DoctorDetails = () => {
   return (
     <>
       <Head>
-        <title>MUHAMMAD ZULQARNAIN, MD: Pain Management Physician</title>
+        <title>
+          William Moore MD: Interventional Pain Management Physician
+        </title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/meet-our-team/dr-muhammad-zulqarnain-dr-z-/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/meet-our-team/william-moore-md/`}
         />
         <meta
           name="description"
-          content="Dr. Muhammad Zulqarnain is a pain management physician serving in Dallas and the surrounding communities. Schedule an appointment today."
+          content="William Moore MD is a pain management specialist in Fort Worth, TX and has 22 years experience. Book an appointment with Dr. Moore today at Premier Pain Centers!"
         />
+        <meta name="robots" content="noindex" />
         <meta content="text/html; charset=utf-8" httpEquiv="Content-Type" />
         <meta content="initial-scale=1" name="viewport" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-        <meta name="format-detection" content="telephone=no" />
       </Head>
       <Navbar />
 
       <PageBanner
-        pageTitle="MUHAMMAD ZULQARNAIN MD (DR. Z)"
+        pageTitle="William Moore MD"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="dr-muhammad-zulqarnain-dr-z-"
+        activePageText="william-moore-md"
         bgImage="/images/doctor.webp"
       />
-
       <div className="doctor-details-area pt-5 pb-2">
         <div className="container">
           <div className="row">
             <div className="col-lg-5">
               <div className="doctor-details-item doctor-details-left">
-                <img src="/images/doctors/doctor2.webp" alt="Doctor" />
+                <img src="/images/doctors/doctor3.webp" alt="Doctor" />
                 <div className="blog-details-item">
-                  <div className="blog-details-category ps-3">
+                  <div className="blog-details-category ps-5">
                     <h3>Conditions We Treat</h3>
                     <ul>
                       {data.map((item, i) => {
@@ -72,70 +72,44 @@ const DoctorDetails = () => {
                 <div className="doctor-details-right">
                   <div className="doctor-details-biography">
                     <h3>
-                      <b>MUHAMMAD ZULQARNAIN MD (DR. Z)</b>
+                      <b>William Moore MD</b>
                     </h3>
-                    <h4>(Pain Management Physician)</h4>
+                    <h4>(Interventional Pain Management Physician)</h4>
                   </div>
                   <div className="doctor-details-biography">
                     <h3>Biography</h3>
-
                     <p>
-                      Dr. Muhammad Zulqarnain aka Dr. Z is a pain management
-                      physician serving in Dallas,{" "}
-                      <Link href="/contact-locations/richardson/" rel="preload">
-                        Richardson
-                      </Link>
-                      ,{" "}
-                      <Link
-                        href="/contact-locations/north-richland-hills/"
-                        rel="preload"
-                      >
-                        North Richland Hills
-                      </Link>
-                      ,{" "}
-                      <Link href="/contact-locations/waxahachie/" rel="preload">
-                        Waxahachie
-                      </Link>
-                      , Texas, and the surrounding communities.
+                      Dr. Moore is board-certified in Pain Medicine and
+                      practices Interventional Pain Management in the DFW area.
+                      His main focus is on treatment of the spine. In his
+                      practice, he utilizes a wide range of endoscopic spine
+                      procedures and minimally invasive techniques to treat neck
+                      and back pain.
                     </p>
-
                     <p>
-                      Dr. Zulqarnain received his medical degree from King
-                      Edward Medical University. He completed his internship in
-                      general surgery and residency training in anesthesiology
-                      at Boston Medical Center and fellowship in pain management
-                      at the world renowned Texas Tech University Health
-                      Sciences Center in Lubbock which is one of the most
-                      competitive and prestigious centers for pain fellowship in
-                      the country.
+                      Born in Laredo, this Texas native earned his Bachelor of
+                      Arts in Business Administration from Trinity University in
+                      San Antonio. He went on to earn his medical degree at the
+                      University of Texas Health Science Center at San Antonio,
+                      followed by a residency in Anesthesiology at Ochsner
+                      Clinic Foundation Hospital in New Orleans. Dr. Moore then
+                      went on to complete his fellowship training in Pain
+                      Medicine and Interventional Pain Management at Texas Tech
+                      University Health Science Center in Lubbock.
                     </p>
-
                     <p>
-                      He is BOARD certified by American Board of Anesthesiology
-                      and Sub-Specialty American Board in pain management He is
-                      an expert in interventional pain procedures including
-                      Epidurals, Nerve Blocks, Radio-frequency Ablation,{" "}
-                      <Link href="/treatments/joint-injections/" rel="preload">
-                        Joint Injections
-                      </Link>
-                      , Kyphoplasty, Discectomy,{" "}
-                      <Link
-                        href="/treatments/spinal-cord-stimulation/"
-                        rel="preload"
-                      >
-                        Spinal cord stimulator
-                      </Link>{" "}
-                      trial, and implantation and Intrathecal pumps,{" "}
-                      <Link
-                        href="/treatments/si-joint-injection/"
-                        rel="preload"
-                      >
-                        SI joint Injection
-                      </Link>
-                      . He loves reading and traveling and learning state of the
-                      art cutting edge technology in pain management.
+                      Dr. Moore has always been intrigued by interventional pain
+                      management and its dynamic quality. “It’s an area of
+                      extreme innovation,” he says. “In the past, spine
+                      treatment involved non-invasive physical therapy or a
+                      large surgical intervention. There was not a place in the
+                      middle that could affect a patient’s quality of life. Now,
+                      new developments allow minimally invasive access to
+                      specific nerves, joints and discs with very small
+                      incisions and a short recovery time. They provide a
+                      dramatic change in patients’ well-being.” Dr. Moore lives
+                      with his wife and children in Fort Worth.
                     </p>
-                    <p></p>
                   </div>
                   <div className="doctor-details-contact">
                     <h3>Contact info</h3>

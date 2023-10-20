@@ -961,6 +961,18 @@ const Navbar = () => {
                           Hip Pain
                         </Link>
                       </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/conditions-we-treat/coccydynia/"
+                          className={`nav-link ${
+                            currentPath == "/conditions-we-treat/coccydynia/" &&
+                            "active"
+                          }`}
+                          rel="preload"
+                        >
+                          Coccydynia Pain
+                        </Link>
+                      </li>
                       <li className="nav-item"></li>
                     </ul>
                   </li>
@@ -1210,6 +1222,18 @@ const Navbar = () => {
                           rel="preload"
                         >
                           MUHAMMAD ZULQARNAIN MD (DR. Z)
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/meet-our-team/william-moore-md/"
+                          className={`nav-link ${
+                            currentPath == "/meet-our-team/william-moore-md/" &&
+                            "active"
+                          }`}
+                          rel="preload"
+                        >
+                          William Moore MD
                         </Link>
                       </li>
                     </ul>

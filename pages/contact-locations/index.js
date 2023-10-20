@@ -53,8 +53,8 @@ const Contact = () => {
                   <i className="icofont-location-pin"></i>
                   <h3>RICHARDSON</h3>
                   <p>
-                    403 W. Campbell Rd., Ste. 305 <br />
-                    Richardson, TX 75080
+                    2071 N Collins Blvd <br />
+                    Richardson TX 75080
                   </p>
                 </div>
               </Link>
@@ -139,9 +139,7 @@ const Contact = () => {
                   <i className="icofont-location-pin"></i>
                   <h3>WAXAHACHIE</h3>
                   <p>
-                    20 Northgate Dr
-                    <br />
-                    Waxahachie, TX 75165
+                    115 Park Pl Blvd #100 <br /> Waxahachie, TX 75165{" "}
                   </p>
                 </div>
               </Link>
