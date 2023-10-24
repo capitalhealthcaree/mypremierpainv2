@@ -80,29 +80,37 @@ const DoctorDetails = () => {
                     <h3>Biography</h3>
                     <p>
                       Dr. Moore is board-certified in Pain Medicine and
-                      practices{" "}
-                      <Link
-                        href="/interventional-pain-management/"
-                        rel="preload"
-                      >
-                        Interventional Pain Management
-                      </Link>{" "}
-                      in the DFW area. His main focus is on treatment of the
-                      spine. In his practice, he utilizes a wide range of
-                      endoscopic spine procedures and minimally invasive
-                      techniques to treat{" "}
+                      practicesInterventional Pain Management in the DFW area.
+                      His main focus is on treatment of the spine. In his
+                      practice, he utilizes a wide range of endoscopic spine
+                      procedures and minimally invasive techniques to treat{" "}
                       <Link
                         href="/conditions-we-treat/neck-pain/"
                         rel="preload"
                       >
-                        neck pain{" "}
+                        neck pain
                       </Link>
-                      and{" "}
+                      ,{" "}
                       <Link
                         href="/conditions-we-treat/back-pain/"
                         rel="preload"
                       >
                         back pain
+                      </Link>
+                      ,{" "}
+                      <Link href="/conditions-we-treat/leg-pain/" rel="preload">
+                        leg pain
+                      </Link>
+                      ,{" "}
+                      <Link
+                        href="/conditions-we-treat/knee-pain/"
+                        rel="preload"
+                      >
+                        knee pain
+                      </Link>{" "}
+                      and{" "}
+                      <Link href="/conditions-we-treat/hip-pain/" rel="preload">
+                        hip pain
                       </Link>
                       .
                     </p>
@@ -112,23 +120,51 @@ const DoctorDetails = () => {
                       San Antonio. He went on to earn his medical degree at the
                       University of Texas Health Science Center at San Antonio,
                       followed by a residency in Anesthesiology at Ochsner
-                      Clinic Foundation Hospital in New Orleans. Dr. Moore then
-                      went on to complete his fellowship training in Pain
-                      Medicine and Interventional Pain Management at Texas Tech
-                      University Health Science Center in Lubbock.
+                      Clinic Foundation Hospital in New Orleans. Dr. William
+                      Moore then went on to complete his fellowship training in
+                      Pain Medicine and{" "}
+                      <Link
+                        href="/interventional-pain-management/"
+                        rel="preload"
+                      >
+                        Interventional Pain Management
+                      </Link>{" "}
+                      at Texas Tech University Health Science Center in Lubbock.
                     </p>
                     <p>
-                      Dr. Moore has always been intrigued by interventional pain
-                      management and its dynamic quality. “It’s an area of
-                      extreme innovation,” he says. “In the past, spine
-                      treatment involved non-invasive physical therapy or a
-                      large surgical intervention. There was not a place in the
-                      middle that could affect a patient’s quality of life. Now,
-                      new developments allow minimally invasive access to
-                      specific nerves, joints and discs with very small
-                      incisions and a short recovery time. They provide a
-                      dramatic change in patients’ well-being.” Dr. Moore lives
-                      with his wife and children in Fort Worth.
+                      William Moore MD has always been intrigued by
+                      interventional pain management and its dynamic quality.
+                      “It’s an area of extreme innovation,” he says. “In the
+                      past, spine treatment involved non-invasive physical
+                      therapy or a large surgical intervention. There was not a
+                      place in the middle that could affect a patient’s quality
+                      of life. Now, new developments allow minimally invasive
+                      access like epidural nerve block,{" "}
+                      <Link
+                        href="/treatments/facet-joint-injection/"
+                        rel="preload"
+                      >
+                        facet joint injection
+                      </Link>{" "}
+                      ,{" "}
+                      <Link
+                        href="/treatments/si-joint-injection/"
+                        rel="preload"
+                      >
+                        SI joint injections
+                      </Link>{" "}
+                      , Pronox,{" "}
+                      <Link
+                        href="/treatments/genicular-nerve-block/"
+                        rel="preload"
+                      >
+                        Genicular nerve block
+                      </Link>{" "}
+                      , disc regenerative therapy to specific nerves, joints and
+                      discs with very small incisions and a short recovery time.
+                      They provide a dramatic change in patients’ well-being.”
+                      William Moore lives with his wife and children in Fort
+                      Worth.
                     </p>
                   </div>
                   <div className="doctor-details-contact">
