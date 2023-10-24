@@ -35,7 +35,7 @@ class MyDocument extends Document {
         </Head>
         <body>
           {/* Add Script of Chat */}
-          <script
+          {/* <script
             async
             defer
             dangerouslySetInnerHTML={{
@@ -48,7 +48,7 @@ class MyDocument extends Document {
                 document.body.appendChild(script);
               `,
             }}
-          ></script>
+          ></script> */}
           {/* Google Tag Manager Script to show Chat ICON*/}
           <noscript async>
             <iframe
