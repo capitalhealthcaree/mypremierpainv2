@@ -28,7 +28,6 @@ const DoctorDetails = () => {
           name="description"
           content="William Moore MD is a pain management specialist in Fort Worth, TX and has 22 years experience. Book an appointment with Dr. Moore today at Premier Pain Centers!"
         />
-        <meta name="robots" content="noindex" />
         <meta content="text/html; charset=utf-8" httpEquiv="Content-Type" />
         <meta content="initial-scale=1" name="viewport" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
