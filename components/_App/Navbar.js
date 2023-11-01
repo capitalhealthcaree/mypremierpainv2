@@ -1385,6 +1385,18 @@ const Navbar = () => {
                           Plano
                         </Link>
                       </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/contact-locations/ennis/"
+                          className={`nav-link ${
+                            currentPath == "/contact-locations/ennis/" &&
+                            "active"
+                          }`}
+                          rel="preload"
+                        >
+                          Ennis
+                        </Link>
+                      </li>
                     </ul>
                   </li>
 

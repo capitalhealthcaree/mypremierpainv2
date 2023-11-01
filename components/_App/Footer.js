@@ -272,10 +272,10 @@ const Footer = () => {
                       <h3 style={{ marginBottom: "1px" }}>PLANO</h3>
                       <i className="icofont-location-pin"></i>
                       <a href="https://maps.app.goo.gl/G58xhCqnjUmFPH1u5">
-                        7712 San Jancinto Place 
+                        7712 San Jancinto Place
                       </a>
                       <a href="https://maps.app.goo.gl/G58xhCqnjUmFPH1u5">
-                      Suite 300  Plano, TX 75024
+                        Suite 300 Plano, TX 75024
                       </a>
                       <a
                         href="https://maps.app.goo.gl/G58xhCqnjUmFPH1u5"
@@ -356,6 +356,25 @@ const Footer = () => {
                         href="/contact-locations/corsicana/"
                         className="fw-bold"
                       >
+                        View Site
+                      </a>
+                    </li>
+                    <li>
+                      <h3 style={{ marginBottom: "1px" }}>Ennis</h3>
+                      <i className="icofont-location-pin"></i>
+                      <a href="https://maps.app.goo.gl/xVoGAt157dQFFm5K9">
+                        2200 Physicians Boulevard,
+                      </a>
+                      <a href="https://maps.app.goo.gl/xVoGAt157dQFFm5K9">
+                        Suite B1 Ennis, TX 75119
+                      </a>
+                      <a
+                        href="https://maps.app.goo.gl/xVoGAt157dQFFm5K9"
+                        className="fw-bold"
+                      >
+                        View Map & Directions
+                      </a>
+                      <a href="/contact-locations/ennis/" className="fw-bold">
                         View Site
                       </a>
                     </li>

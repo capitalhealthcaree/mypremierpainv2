@@ -200,6 +200,19 @@ const Contact = () => {
                 </div>
               </Link>
             </div>
+            <div className="col-sm-6 col-lg-4">
+              <Link href="/contact-locations/ennis/" rel="preload">
+                <div className="department-item">
+                  <i className="icofont-location-pin"></i>
+                  <h3>Ennis</h3>
+                  <p>
+                    2200 Physicians Boulevard, Suite B1
+                    <br />
+                    Ennis, Texas 75119
+                  </p>
+                </div>
+              </Link>
+            </div>
           </div>
         </div>
       </div>
