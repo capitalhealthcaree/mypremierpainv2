@@ -190,6 +190,28 @@ const Footer = () => {
                         View Site
                       </a>
                     </li>
+                    <li>
+                      <h3 style={{ marginBottom: "1px" }}>MESQUITE</h3>
+                      <i className="icofont-location-pin"></i>
+                      <a href="https://maps.app.goo.gl/a19dimyMPJer9FGT7">
+                        200 W Kearney St,
+                      </a>
+                      <a href="https://maps.app.goo.gl/a19dimyMPJer9FGT7">
+                        Mesquite, TX 75149
+                      </a>
+                      <a
+                        href="https://maps.app.goo.gl/a19dimyMPJer9FGT7"
+                        className="fw-bold"
+                      >
+                        View Map & Directions
+                      </a>
+                      <a
+                        href="/contact-locations/mesquite/"
+                        className="fw-bold"
+                      >
+                        View Site
+                      </a>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -268,7 +290,6 @@ const Footer = () => {
                       </a>
                     </li>
                     <li>
-                      {" "}
                       <h3 style={{ marginBottom: "1px" }}>PLANO</h3>
                       <i className="icofont-location-pin"></i>
                       <a href="https://maps.app.goo.gl/G58xhCqnjUmFPH1u5">
@@ -284,6 +305,25 @@ const Footer = () => {
                         View Map & Directions
                       </a>
                       <a href="/contact-locations/plano/" className="fw-bold">
+                        View Site
+                      </a>
+                    </li>
+                    <li>
+                      <h3 style={{ marginBottom: "1px" }}>GUN BARREL CITY</h3>
+                      <i className="icofont-location-pin"></i>
+                      <a href="https://maps.app.goo.gl/Yzs9SCVAgwVvwkoAA">
+                        519 N Gun Barrel Ln Suite A
+                      </a>
+                      <a href="https://maps.app.goo.gl/Yzs9SCVAgwVvwkoAA">
+                        Gun Barrel City, TX 75156
+                      </a>
+                      <a
+                        href="https://maps.app.goo.gl/Yzs9SCVAgwVvwkoAA"
+                        className="fw-bold"
+                      >
+                        View Map & Directions
+                      </a>
+                      <a href="/contact-locations/gun-barrel-city/" className="fw-bold">
                         View Site
                       </a>
                     </li>
@@ -360,7 +400,7 @@ const Footer = () => {
                       </a>
                     </li>
                     <li>
-                      <h3 style={{ marginBottom: "1px" }}>Ennis</h3>
+                      <h3 style={{ marginBottom: "1px" }}>ENNIS</h3>
                       <i className="icofont-location-pin"></i>
                       <a href="https://maps.app.goo.gl/xVoGAt157dQFFm5K9">
                         2200 Physicians Boulevard,

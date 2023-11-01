@@ -204,11 +204,37 @@ const Contact = () => {
               <Link href="/contact-locations/ennis/" rel="preload">
                 <div className="department-item">
                   <i className="icofont-location-pin"></i>
-                  <h3>Ennis</h3>
+                  <h3>ENNIS</h3>
                   <p>
                     2200 Physicians Boulevard, Suite B1
                     <br />
                     Ennis, Texas 75119
+                  </p>
+                </div>
+              </Link>
+            </div>
+            <div className="col-sm-6 col-lg-4">
+              <Link href="/contact-locations/mesquite/" rel="preload">
+                <div className="department-item">
+                  <i className="icofont-location-pin"></i>
+                  <h3>MESQUITE</h3>
+                  <p>
+                    200 W Kearney St,
+                    <br />
+                    Mesquite, TX 75149
+                  </p>
+                </div>
+              </Link>
+            </div>
+            <div className="col-sm-6 col-lg-4">
+              <Link href="/contact-locations/gun-barrel-city/" rel="preload">
+                <div className="department-item">
+                  <i className="icofont-location-pin"></i>
+                  <h3>GUN BARREL CITY</h3>
+                  <p>
+                    519 N Gun Barrel Ln Suite A
+                    <br />
+                    Gun Barrel City, TX 75156
                   </p>
                 </div>
               </Link>

@@ -1397,6 +1397,30 @@ const Navbar = () => {
                           Ennis
                         </Link>
                       </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/contact-locations/mesquite/"
+                          className={`nav-link ${
+                            currentPath == "/contact-locations/mesquite/" &&
+                            "active"
+                          }`}
+                          rel="preload"
+                        >
+                          Mesquite
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/contact-locations/gun-barrel-city/"
+                          className={`nav-link ${
+                            currentPath == "/contact-locations/gun-barrel-city/" &&
+                            "active"
+                          }`}
+                          rel="preload"
+                        >
+                          Gun Barrel City
+                        </Link>
+                      </li>
                     </ul>
                   </li>
 
