@@ -23,14 +23,14 @@ const Contact = () => {
   return (
     <>
       <Head>
-        <title>Center for Pain Management in Mesquite, TX</title>
+        <title>Best Pain Management Clinic in Mesquite, TX</title>
         <link
           rel="canonical"
           href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}${router.asPath}`}
         />
         <meta
           name="description"
-          content="Find expert pain management in Mesquite for lasting relief. Our compassionate team offers personalized care to help you regain control of your life."
+          content="Premier Pain Centers offers comprehensive pain management care. Our state-of-the-art clinics provides what you need to live pain free!"
         />
         <meta content="text/html; charset=utf-8" httpEquiv="Content-Type" />
         <meta content="initial-scale=1" name="viewport" />

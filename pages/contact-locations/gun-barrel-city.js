@@ -23,7 +23,7 @@ const Contact = () => {
   return (
     <>
       <Head>
-        <title>Center for Pain Management in Gun Barrel City</title>
+        <title>Spine and Pain Center in Gun Barrel City, TX</title>
         <link
           rel="canonical"
           href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}${router.asPath}`}

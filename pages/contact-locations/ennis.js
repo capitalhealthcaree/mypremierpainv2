@@ -23,14 +23,14 @@ const Contact = () => {
   return (
     <>
       <Head>
-        <title>Center for Pain Management in Ennis, TX</title>
+        <title>Interventional Pain Management Center in Ennis, TX</title>
         <link
           rel="canonical"
           href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}${router.asPath}`}
         />
         <meta
           name="description"
-          content="Find expert pain management in Ennis for lasting relief. Our compassionate team offers personalized care to help you regain control of your life."
+          content="Discover relief at Ennis's leading Interventional Pain Management Center. Personalized pain solutions tailored to your needs. For appointments, visit ww.mypremierpain.com"
         />
         <meta content="text/html; charset=utf-8" httpEquiv="Content-Type" />
         <meta content="initial-scale=1" name="viewport" />
