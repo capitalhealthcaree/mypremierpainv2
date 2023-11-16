@@ -47,6 +47,7 @@ const News = ({ item, totalPage }) => {
         <title>Latest Pain Management Blogs | Dallas Premier Pain</title>
         <meta content="text/html; charset=utf-8" httpEquiv="Content-Type" />
         <meta content="initial-scale=1" name="viewport" />
+        <meta name="robots" content="noindex, nofollow" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <meta
           name="description"

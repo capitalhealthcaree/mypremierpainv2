@@ -26,6 +26,7 @@ const NewsDetails = ({ items }) => {
           rel="canonical"
           href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/news${items?.slug}`}
         />
+        <meta name="robots" content="noindex, nofollow" />
         <meta name="description" content={items?.metaDes} />
         <meta content="text/html; charset=utf-8" httpEquiv="Content-Type" />
         <meta content="initial-scale=1" name="viewport" />
