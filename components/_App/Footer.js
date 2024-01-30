@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import CallCounterButton from "../../components/CallCounterButton";
 
 const Footer = () => {
   return (
@@ -54,7 +55,8 @@ const Footer = () => {
                         style={{ fontSize: "30px" }}
                       ></i>
 
-                      <a href="tel:+14695624188">469-562-4188</a>
+                      {/* <a href="tel:+14695624188">469-562-4188</a> */}
+                      <CallCounterButton kw="footer" />
                     </li>
                   </ul>
                   <ul

@@ -749,6 +749,7 @@ import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
 import Image from "next/image";
+import CallCounterButton from "../../components/CallCounterButton";
 
 const Navbar = () => {
   // Add active class
@@ -1413,8 +1414,8 @@ const Navbar = () => {
                         <Link
                           href="/contact-locations/gun-barrel-city/"
                           className={`nav-link ${
-                            currentPath == "/contact-locations/gun-barrel-city/" &&
-                            "active"
+                            currentPath ==
+                              "/contact-locations/gun-barrel-city/" && "active"
                           }`}
                           rel="preload"
                         >
@@ -1556,7 +1557,7 @@ const Navbar = () => {
                         >
                           Appointment
                         </Link>{" "}
-                        <Link
+                        {/* <Link
                           href="tel:+14695624188"
                           style={{
                             backgroundColor: "#0046c0",
@@ -1566,7 +1567,12 @@ const Navbar = () => {
                           rel="preload"
                         >
                           469-562-4188
-                        </Link>
+                        </Link> */}
+                        <CallCounterButton
+                          kw="header"
+                          bgColor="#0046c0"
+                          txtColor={"white"}
+                        />
                       </div>
                     </nav>
                   </div>
