@@ -57,7 +57,7 @@ const BlogDetails = ({ items }) => {
                     height={428}
                     loading="lazy"
                   />
-                  <h2>{items.seoTitle[0]}</h2>
+                  <h2>{items?.seoTitle[0]}</h2>
                 </div>
 
                 <div dangerouslySetInnerHTML={{ __html: items?.title }}></div>
@@ -80,7 +80,7 @@ export default BlogDetails;
 
 export const getServerSideProps = async ({ query: { slug } }) => {
   const singleBlog = await api.get("blogs/" + slug[0] + "/" + slug[1]);
-  const data = await singleBlog.data.data;
+  const data = singleBlog?.data?.data || {};
   return {
     props: {
       items: data,
