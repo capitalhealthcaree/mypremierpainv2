@@ -1460,6 +1460,17 @@ const Navbar = () => {
                       </li>{" "}
                       <li className="nav-item">
                         <Link
+                          href="/find-a-location/"
+                          className={`nav-link ${
+                            currentPath == "/find-a-location/" && "active"
+                          }`}
+                          rel="preload"
+                        >
+                          Find A Location{" "}
+                        </Link>
+                      </li>{" "}
+                      <li className="nav-item">
+                        <Link
                           href="/meet-our-team/"
                           className={`nav-link ${
                             currentPath == "/meet-our-team/" && "active"
