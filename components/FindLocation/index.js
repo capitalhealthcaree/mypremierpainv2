@@ -38,7 +38,7 @@ const MapComponent = ({ specificLocation }) => {
 
   return (
     <LoadScript googleMapsApiKey="AIzaSyCpBNr90j-cwpy4VemT03i_-E878KrDnZE">
-      <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={5}>
+      <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={25}>
         {locations.map((location, index) => (
           <Marker key={index} position={location} />
         ))}
@@ -46,5 +46,4 @@ const MapComponent = ({ specificLocation }) => {
     </LoadScript>
   );
 };
-
 export default React.memo(MapComponent);
