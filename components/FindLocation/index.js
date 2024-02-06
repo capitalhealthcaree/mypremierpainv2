@@ -36,7 +36,6 @@ const MapComponent = ({ specificLocation }) => {
     },
     { lat: 0, lng: 0 }
   );
-  console.log("locationslocationslocations", locations);
   return (
     <LoadScript googleMapsApiKey="AIzaSyCpBNr90j-cwpy4VemT03i_-E878KrDnZE">
       <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={9}>

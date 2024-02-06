@@ -60,6 +60,7 @@ const locData = [
   },
   {
     locationHeading: "NORTH RICHLAND HILLS",
+    latlong: { lat: 32.83058468783163, lng: -97.2080687 },
     stars: (
       <>
         <i
@@ -106,6 +107,7 @@ const locData = [
   },
   {
     locationHeading: "FORT WORTH",
+    latlong: { lat: 32.73291121474605, lng: -97.33826710000001 },
     stars: (
       <>
         <i
@@ -152,6 +154,7 @@ const locData = [
   },
   {
     locationHeading: "HILLSBORO",
+    latlong: { lat: 32.01326418568025, lng: -97.0991722711646 },
     stars: (
       <>
         <i
@@ -198,6 +201,7 @@ const locData = [
   },
   {
     locationHeading: "LANCASTER",
+    latlong: { lat: 32.60310848369879, lng: -96.81242772698755 },
     stars: (
       <>
         <i
@@ -244,6 +248,7 @@ const locData = [
   },
   {
     locationHeading: "DECATUR",
+    latlong: { lat: 33.212880416835006, lng: -97.59728592883539 },
     stars: (
       <>
         <i
@@ -290,6 +295,7 @@ const locData = [
   },
   {
     locationHeading: "FARMERS BRANCH",
+    latlong: { lat: 32.936086564933206, lng: -96.90594498465838 },
     stars: (
       <>
         <i
@@ -336,6 +342,7 @@ const locData = [
   },
   {
     locationHeading: "WAXAHACHIE",
+    latlong: { lat: 32.408326085505514, lng: -96.82257525582297 },
     stars: (
       <>
         <i
@@ -382,6 +389,7 @@ const locData = [
   },
   {
     locationHeading: "CORSICANA",
+    latlong: { lat: 32.085323747078476, lng: -96.50113081534163 },
     stars: (
       <>
         <i
@@ -428,6 +436,7 @@ const locData = [
   },
   {
     locationHeading: "CLEBURNE",
+    latlong: { lat: 32.33607918920648, lng: -97.41684391534164 },
     stars: (
       <>
         <i
@@ -474,6 +483,7 @@ const locData = [
   },
   {
     locationHeading: "PLANO",
+    latlong: { lat: 33.08179611455827, lng: -96.7968525 },
     stars: (
       <>
         <i
@@ -520,6 +530,7 @@ const locData = [
   },
   {
     locationHeading: "ENNIS",
+    latlong: { lat: 32.304483754364334, lng: -96.63842572883539 },
     stars: (
       <>
         <i
@@ -566,6 +577,7 @@ const locData = [
   },
   {
     locationHeading: "MESQUITE",
+    latlong: { lat: 32.77064760026997, lng: -96.60017665767083 },
     stars: (
       <>
         <i
@@ -612,6 +624,7 @@ const locData = [
   },
   {
     locationHeading: "GUN BARREL CITY",
+    latlong: { lat: 32.33791210574928, lng: -96.1109137576708 },
     stars: (
       <>
         <i
