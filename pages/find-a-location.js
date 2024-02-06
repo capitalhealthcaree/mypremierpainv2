@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Head from "next/head";
 import dynamic from "next/dynamic";
 import Link from "next/link";
@@ -13,6 +13,11 @@ const Footer = dynamic(() => import("../components/_App/Footer"));
 const locData = [
   {
     locationHeading: "RICHARDSON",
+    latlong: { lat: 32.9776120064545, lng: -96.72221505951866 },
+    rating: 4.6,
+    totalRatting: 74,
+    location: "2071 N Collins Blvd Richardson, TX 75080",
+    locationUrl: "/contact-locations/richardson/",
     stars: (
       <>
         <i
@@ -52,10 +57,6 @@ const locData = [
         ></i>
       </>
     ),
-    rating: 4.6,
-    totalRatting: 74,
-    location: "2071 N Collins Blvd Richardson, TX 75080",
-    locationUrl: "/contact-locations/richardson/",
   },
   {
     locationHeading: "NORTH RICHLAND HILLS",
@@ -657,6 +658,11 @@ const locData = [
   },
 ];
 const DoctorDetails = () => {
+  const [selectedLocation, setSelectedLocation] = useState([{}]);
+
+  const handleLocationClick = (lat_long) => {
+    setSelectedLocation(lat_long);
+  };
   return (
     <>
       <Head>
@@ -708,7 +714,11 @@ const DoctorDetails = () => {
                         }}
                       >
                         {locData.map((item, index) => (
-                          <div className="location-area" key={index}>
+                          <div
+                            className="location-area"
+                            key={index}
+                            onClick={() => handleLocationClick([latlong])}
+                          >
                             <div className="container">
                               <div className="row">
                                 <div className="col-sm-12 col-lg-12">
@@ -761,9 +771,7 @@ const DoctorDetails = () => {
               </div>
             </div>
             <div className="col-lg-8 d-none d-sm-none d-md-block">
-              <FindLocation
-                specificLocation={[{ lat: 32.9776120064545, lng: -96.72221505951866 }]}
-              />
+              <FindLocation specificLocation={selectedLocation} />
             </div>
           </div>
         </div>
