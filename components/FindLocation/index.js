@@ -26,7 +26,7 @@ const defaultLocations = [
 
 const MapComponent = ({ specificLocation }) => {
   const locations =
-    specificLocation.length === 1 ? specificLocation : defaultLocations;
+    specificLocation.length > 0 ? specificLocation : defaultLocations;
 
   const center = locations.reduce(
     (acc, loc) => {
@@ -36,7 +36,6 @@ const MapComponent = ({ specificLocation }) => {
     },
     { lat: 0, lng: 0 }
   );
-
   return (
     <LoadScript googleMapsApiKey="AIzaSyCpBNr90j-cwpy4VemT03i_-E878KrDnZE">
       <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={9}>
