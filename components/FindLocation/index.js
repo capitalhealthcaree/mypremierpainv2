@@ -29,7 +29,7 @@ const MapComponent = ({ specificLocation }) => {
     return Object.keys(obj).length === 0 && obj.constructor === Object;
   };
 
-  const locations = !isObjectEmpty(specificLocation)
+  const locations = isObjectEmpty(specificLocation)
     ? specificLocation
     : defaultLocations;
 
