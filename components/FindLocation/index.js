@@ -40,7 +40,7 @@ const MapComponent = ({ specificLocation }) => {
     <LoadScript googleMapsApiKey="AIzaSyCpBNr90j-cwpy4VemT03i_-E878KrDnZE">
       <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={9}>
         {locations.map((location, index) => (
-          <Marker key={index} position={location} />
+          <Marker key={index} position={location} label={4.5} />
         ))}
       </GoogleMap>
     </LoadScript>
