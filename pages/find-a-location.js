@@ -698,8 +698,14 @@ const DoctorDetails = () => {
                   <div className="row m-0">
                     <div className="col-lg-12">
                       <div
-                        className="appointment-item appointment-item-two"
-                        style={{ marginRight: "0px", marginTop: "0px" }}
+                        className="appointment-item appointment-item-two find-a-location-scroll"
+                        style={{
+                          marginRight: "0px",
+                          marginTop: "0px",
+                          height: "800px",
+                          overflow: "auto",
+                          scrollbarWidth: "thin",
+                        }}
                       >
                         {locData.map((item, index) => (
                           <div className="location-area" key={index}>
@@ -754,7 +760,7 @@ const DoctorDetails = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-8">
+            <div className="col-lg-8 d-none d-sm-none d-md-block">
               <FindLocation />
             </div>
           </div>
