@@ -761,7 +761,9 @@ const DoctorDetails = () => {
               </div>
             </div>
             <div className="col-lg-8 d-none d-sm-none d-md-block">
-              <FindLocation />
+              <FindLocation
+                specificLocation={[{ lat: 32.9776120064545, lng: -96.72221505951866 }]}
+              />
             </div>
           </div>
         </div>
