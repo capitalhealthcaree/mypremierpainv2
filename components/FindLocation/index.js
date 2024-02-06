@@ -25,7 +25,13 @@ const defaultLocations = [
 ];
 
 const MapComponent = ({ specificLocation }) => {
-  const locations = specificLocation ? specificLocation : defaultLocations;
+  const isObjectEmpty = (obj) => {
+    return Object.keys(obj).length === 0 && obj.constructor === Object;
+  };
+
+  const locations = !isObjectEmpty(specificLocation)
+    ? specificLocation
+    : defaultLocations;
 
   const center = locations.reduce(
     (acc, loc) => {
