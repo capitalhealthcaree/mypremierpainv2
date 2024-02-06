@@ -717,7 +717,7 @@ const DoctorDetails = () => {
                           <div
                             className="location-area"
                             key={index}
-                            onClick={() => handleLocationClick([latlong])}
+                            onClick={() => handleLocationClick([item.latlong])}
                           >
                             <div className="container">
                               <div className="row">
