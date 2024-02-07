@@ -1,11 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Head from "next/head";
 import dynamic from "next/dynamic";
 import Link from "next/link";
 
 const Navbar = dynamic(() => import("../components/_App/Navbar"));
-
-const PageBanner = dynamic(() => import("../components/Common/PageBanner"));
 
 const FindLocation = dynamic(() => import("../components/FindLocation"));
 
@@ -689,6 +687,50 @@ const DoctorDetails = () => {
     { lat: 32.33798462476034, lng: -96.1109030288354 },
   ]);
 
+  const [zipCodeFilter, setZipCodeFilter] = useState("");
+  const [cityStateFilter, setCityStateFilter] = useState("");
+  const [locationNameFilter, setLocationNameFilter] = useState("");
+  const [filteredLocations, setFilteredLocations] = useState(locData);
+
+  useEffect(() => {
+    const filterLocations = () => {
+      let filtered = locData;
+
+      if (zipCodeFilter) {
+        // Assuming location includes zip code in a specific format within the 'location' string
+        filtered = filtered.filter((item) =>
+          item.location.includes(zipCodeFilter)
+        );
+      }
+      if (cityStateFilter) {
+        // Assuming 'city, state' format is part of the 'location' string
+        filtered = filtered.filter((item) =>
+          item.location.toLowerCase().includes(cityStateFilter.toLowerCase())
+        );
+      }
+      if (locationNameFilter) {
+        // Filter by location heading/name
+        filtered = filtered.filter((item) =>
+          item.locationHeading
+            .toLowerCase()
+            .includes(locationNameFilter.toLowerCase())
+        );
+      }
+
+      setFilteredLocations(filtered);
+    };
+
+    filterLocations();
+  }, [zipCodeFilter, cityStateFilter, locationNameFilter]); // Re-run the effect when any filter value changes
+
+  const clearFilters = () => {
+    setZipCodeFilter("");
+    setCityStateFilter("");
+    setLocationNameFilter("");
+
+    setFilteredLocations(locData);
+  };
+
   const handleLocationClick = (lat_long) => {
     setSelectedLocation(lat_long);
   };
@@ -716,13 +758,120 @@ const DoctorDetails = () => {
         <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
       </Head>
       <Navbar />
-      <PageBanner
-        pageTitle="Find A Location"
-        homePageUrl="/"
-        homePageText="Home"
-        activePageText="cfind-a-location"
-        bgImage="/images/find-a-location.jpg"
-      />
+
+      <div
+        style={{
+          height: "350px",
+          position: "relative",
+          backgroundColor: "#201a50",
+        }}
+      >
+        <div className="d-table">
+          <div className="d-table-cell">
+            <div className="page-title-item">
+              <h1
+                style={{
+                  color: "white",
+                  textAlign: "center",
+                  paddingBottom: "1.5rem",
+                }}
+              >
+                Our Locations
+              </h1>
+              <div className="container">
+                <div className="row">
+                  <div className={"col-lg-4"}>
+                    <div className="form-group">
+                      <label
+                        style={{
+                          fontSize: "1.5rem",
+                          fontWeight: "550",
+                          color: "white",
+                        }}
+                      >
+                        Search by Zip Code
+                      </label>
+                      <input
+                        type="text"
+                        className="form-control"
+                        placeholder="Zip Code"
+                        name="zipcode"
+                        value={zipCodeFilter}
+                        onChange={(e) => setZipCodeFilter(e.target.value)}
+                      />
+                    </div>
+                  </div>
+                  <div className={"col-lg-4"}>
+                    <div className="form-group">
+                      <label
+                        style={{
+                          fontSize: "1.5rem",
+                          fontWeight: "550",
+                          color: "white",
+                        }}
+                      >
+                        Search by City and State
+                      </label>
+                      <input
+                        type="text"
+                        className="form-control"
+                        placeholder="City, State"
+                        name="citystate"
+                        value={cityStateFilter}
+                        onChange={(e) => setCityStateFilter(e.target.value)}
+                      />
+                    </div>
+                  </div>
+                  <div className={"col-lg-4"}>
+                    <div className="form-group">
+                      <label
+                        style={{
+                          fontSize: "1.5rem",
+                          fontWeight: "550",
+                          color: "white",
+                        }}
+                      >
+                        Search by Location Name
+                      </label>
+                      <input
+                        type="text"
+                        className="form-control"
+                        placeholder="Search Name"
+                        name="location"
+                        value={locationNameFilter}
+                        onChange={(e) => setLocationNameFilter(e.target.value)}
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div className="row">
+                  <div className="col-4"></div>
+                  <div className="col-4"></div>
+                  <div
+                    className="col-4"
+                    style={{ textAlign: "end", paddingTop: "1rem" }}
+                  >
+                    <div
+                      onClick={(e) => {
+                        e.preventDefault();
+                        clearFilters();
+                      }}
+                      style={{
+                        color: "#E8EAED",
+                        fontSize: "1rem",
+                        fontWeight: "550",
+                        cursor: "pointer",
+                      }}
+                    >
+                      CLEAR FILTERS
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <div className="doctor-details-area pt-4 pb-50">
         <div className="container-fluid p-lg-5">
@@ -742,7 +891,7 @@ const DoctorDetails = () => {
                           scrollbarWidth: "thin",
                         }}
                       >
-                        {locData.map((item, index) => (
+                        {filteredLocations.map((item, index) => (
                           <div
                             className="location-area"
                             key={index}
