@@ -14,7 +14,7 @@ const locData = [
     latlong: { lat: 32.9776120064545, lng: -96.72221505951866 },
     rating: 4.6,
     totalRatting: 74,
-    location: "2071 N Collins Blvd Richardson, TX 75080",
+    location: "2071 N Collins Blvd Richardson, Texas 75080",
     locationUrl: "/contact-locations/richardson/",
     stars: (
       <>
@@ -100,7 +100,7 @@ const locData = [
     ),
     rating: 4.6,
     totalRatting: 74,
-    location: "7904 NE Loop 820, Ste. C North Richland Hills, TX 76180",
+    location: "7904 NE Loop 820, Ste. C North Richland Hills, Texas 76180",
     locationUrl: "/contact-locations/north-richland-hills/",
   },
   {
@@ -147,7 +147,7 @@ const locData = [
     ),
     rating: 4.0,
     totalRatting: 11,
-    location: "1111 5th Ave, Fort Worth, TX 76104",
+    location: "1111 5th Ave, Fort Worth, Texas 76104",
     locationUrl: "/contact-locations/fort-worth/",
   },
   {
@@ -194,7 +194,7 @@ const locData = [
     ),
     rating: 4.5,
     totalRatting: 22,
-    location: "1323 E. Franklin St., Ste. 102 Hillsboro, TX 76645",
+    location: "1323 E. Franklin St., Ste. 102 Hillsboro, Texas 76645",
     locationUrl: "/contact-locations/hillsboro/",
   },
   {
@@ -241,7 +241,7 @@ const locData = [
     ),
     rating: 2.5,
     totalRatting: 8,
-    location: "2700 W. Pleasant Run Rd., Ste. 320 Lancaster, TX 75146",
+    location: "2700 W. Pleasant Run Rd., Ste. 320 Lancaster, Texas 75146",
     locationUrl: "/contact-locations/lancaster/",
   },
   {
@@ -288,7 +288,7 @@ const locData = [
     ),
     rating: 0,
     totalRatting: 0,
-    location: "902 Preskitt Rd Suite 300, Decatur, TX 76234",
+    location: "902 Preskitt Rd Suite 300, Decatur, Texas 76234",
     locationUrl: "/contact-locations/decatur/",
   },
   {
@@ -335,7 +335,7 @@ const locData = [
     ),
     rating: 5.0,
     totalRatting: 2,
-    location: "13988 Diplomat Dr., Ste. 100 Farmers Branch, TX 75234",
+    location: "13988 Diplomat Dr., Ste. 100 Farmers Branch, Texas 75234",
     locationUrl: "/contact-locations/farmers-branch/",
   },
   {
@@ -382,7 +382,7 @@ const locData = [
     ),
     rating: 1.0,
     totalRatting: 1,
-    location: "115 Park Pl Blvd #100 Waxahachie, TX 75165",
+    location: "115 Park Pl Blvd #100 Waxahachie, Texas 75165",
     locationUrl: "/contact-locations/waxahachie/",
   },
   {
@@ -429,7 +429,7 @@ const locData = [
     ),
     rating: 3.8,
     totalRatting: 39,
-    location: "3108 E. State HWY 22 Corsicana, TX 75102",
+    location: "3108 E. State HWY 22 Corsicana, Texas 75102",
     locationUrl: "/contact-locations/corsicana/",
   },
   {
@@ -476,7 +476,7 @@ const locData = [
     ),
     rating: 5.0,
     totalRatting: 2,
-    location: "131 S Westmeadow Dr, Cleburne, TX 76033",
+    location: "131 S Westmeadow Dr, Cleburne, Texas 76033",
     locationUrl: "/contact-locations/cleburne/",
   },
   {
@@ -523,7 +523,7 @@ const locData = [
     ),
     rating: 5.0,
     totalRatting: 1,
-    location: "7712 San Jancinto Place Suite 300 Plano, TX 75024",
+    location: "7712 San Jancinto Place Suite 300 Plano, Texas 75024",
     locationUrl: "/contact-locations/plano/",
   },
   {
@@ -570,7 +570,7 @@ const locData = [
     ),
     rating: 0.0,
     totalRatting: 0,
-    location: "2200 Physicians Boulevard, Suite B1 Ennis, TX 75119",
+    location: "2200 Physicians Boulevard, Suite B1 Ennis, Texas 75119",
     locationUrl: "/contact-locations/ennis/",
   },
   {
@@ -617,7 +617,7 @@ const locData = [
     ),
     rating: 0.0,
     totalRatting: 0,
-    location: "200 W Kearney St, Mesquite, TX 75149",
+    location: "200 W Kearney St, Mesquite, Texas 75149",
     locationUrl: "/contact-locations/mesquite/",
   },
   {
@@ -664,7 +664,7 @@ const locData = [
     ),
     rating: 1.0,
     totalRatting: 1,
-    location: "519 N Gun Barrel Ln Suite A Gun Barrel City, TX 75156",
+    location: "519 N Gun Barrel Ln Suite A Gun Barrel City, Texas 75156",
     locationUrl: "/contact-locations/gun-barrel-city/",
   },
 ];
