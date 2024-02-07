@@ -883,7 +883,7 @@ const DoctorDetails = () => {
                   <div className="row m-0">
                     <div className="col-lg-12">
                       <div
-                        className="appointment-item appointment-item-two find-a-location-scroll"
+                        className="appointment-item appointment-item-two"
                         style={{
                           marginRight: "0px",
                           marginTop: "0px",
@@ -896,6 +896,7 @@ const DoctorDetails = () => {
                           <div
                             className="location-area"
                             key={index}
+                            style={{ cursor: "pointer" }}
                             onClick={() => handleLocationClick([item.latlong])}
                           >
                             <div className="container">
