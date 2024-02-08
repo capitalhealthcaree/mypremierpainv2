@@ -1458,7 +1458,7 @@ const Navbar = () => {
                           About Us
                         </Link>
                       </li>{" "}
-                      <li className="nav-item">
+                      {/* <li className="nav-item">
                         <Link
                           href="/find-a-location/"
                           className={`nav-link ${
@@ -1468,7 +1468,7 @@ const Navbar = () => {
                         >
                           Find A Location{" "}
                         </Link>
-                      </li>{" "}
+                      </li>{" "} */}
                       <li className="nav-item">
                         <Link
                           href="/meet-our-team/"
