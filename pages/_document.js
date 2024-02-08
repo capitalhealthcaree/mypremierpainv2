@@ -34,7 +34,21 @@ class MyDocument extends Document {
           />
         </Head>
         <body>
-          
+          {/* Add Script of Chat */}
+          <script
+            async
+            defer
+            dangerouslySetInnerHTML={{
+              __html: `
+                var continuallySettings = { appID: "43krzgv6vyj6" };
+                var script = document.createElement('script');
+                script.src = "https://cdn-app.continual.ly/js/embed/continually-embed.latest.min.js";
+                script.async = true;
+                script.defer = true;
+                document.body.appendChild(script);
+              `,
+            }}
+          ></script>
           {/* Google Tag Manager Script to show Chat ICON*/}
           <noscript async>
             <iframe
