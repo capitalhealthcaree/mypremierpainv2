@@ -42,8 +42,11 @@ const ServiceDetailsContent = () => {
               healthy, and generally stay in shape if you play sports, as a lack
               of preparation can lead to injury. Even active people who live a
               healthy lifestyle can experience chronic pain in their muscles and
-              bones, but with pain management, you can ensure these issues don't
-              interfere with your life.
+              bones, but with{" "}
+              <Link href="/" rel="preload">
+                pain management in Dallas
+              </Link>
+              , you can ensure these issues don't interfere with your life.
             </p>
             <p>
               People who play sports can also experience acute pain due to
@@ -138,8 +141,14 @@ const ServiceDetailsContent = () => {
               <b>Medical History:</b> This will entail asking you questions
               regarding the circumstances surrounding your injuries, your
               activities at the time of the incident, and your recovery thus
-              far. In addition, if this is your first visit to this doctor, they
-              may want to know more about your medical background.
+              far. In addition, if this is your first visit to{" "}
+              <Link
+                href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
+                rel="preload"
+              >
+                best pain doctor
+              </Link>
+              , they may want to know more about your medical background.
             </li>
             <li>
               <b>Diagnostic Imaging:</b> Medical imaging technologies such as
