@@ -12,7 +12,11 @@ const ServiceDetailsContent = () => {
               Back pain is a prevalent issue for many residents of Richardson.
               People commonly suffer from conditions such as lower spinal pain
               and upper backbone pain. Fortunately, Premier Pain Centers is
-              fully equipped with the best technologies and qualified doctors
+              fully equipped with the best technologies and qualified{" "}
+              <Link href="/meet-our-team/" rel="preload">
+                {" "}
+                pain physicians in Dallas{" "}
+              </Link>
               who can expertly treat all types of spinal issues.{" "}
               <Link href="/meet-our-team/rao-k-ali/" rel="preload">
                 Dr. Ali
@@ -227,8 +231,15 @@ const ServiceDetailsContent = () => {
               necessary to rule out underlying reasons such as undiscovered
               spinal disc damage if the pain extends into the extremities or
               around the chest well beyond the spinal epicenter of the pain
-              concentration. Your doctor may recommend the following procedures
-              if your symptoms do not improve. However, our team at{" "}
+              concentration. Your{" "}
+              <Link
+                href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
+                rel="preload"
+              >
+                pain doctor in Dallas
+              </Link>{" "}
+              may recommend the following procedures if your symptoms do not
+              improve. However, our team at{" "}
               <Link href="/contact-locations/decatur/" rel="preload">
                 Decatur Back Pain Treatment
               </Link>{" "}
