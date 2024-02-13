@@ -37,7 +37,7 @@ const ServiceDetailsContent = () => {
               If you experience sharp pain in your knee, you should not overlook
               it. Instead, you should seek the best and advanced treatment. It
               is important to get your condition examined by an experienced
-              specialist who will appropriately diagnose the issue and recommend
+              <Link href="/meet-our-team/rao-k-ali/" rel="preload">  pain specialist in Dallas</Link> who will appropriately diagnose the issue and recommend
               you proper medical treatment. If you are looking for the best knee
               treatment in the Richardson area, you should look no further than
               Premier Pain Centers.
@@ -151,7 +151,14 @@ const ServiceDetailsContent = () => {
             <p>
               If you've just been in a serious accident that left your knee in
               agony, or if your knee is sore or unstable so you can't put any
-              weight on it, you should see a doctor right away and get your{" "}
+              weight on it, you should see a{" "}
+              <Link
+                href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
+                rel="preload"
+              >
+                pain doctor in Dallas
+              </Link>{" "}
+              right away and get your{" "}
               <Link href="/contact-locations/richardson/" rel="preload">
                 Knee pain treatment in Richardson
               </Link>{" "}
