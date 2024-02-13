@@ -262,8 +262,12 @@ const ServiceDetailsContent = () => {
               approach includes nutrition, a regular exercise routine, and
               physical therapy for recovery. We offer help in each of these
               steps towards recovery. In addition to being board certified in
-              pain management, Dr. Ali is board certified in physical medicine
-              and rehabilitation.{" "}
+              <Link href="/" rel="preload">
+                {" "}
+                pain management in Dallas
+              </Link>
+              , Dr. Ali is board certified in physical medicine and
+              rehabilitation.{" "}
               <Link href="/meet-our-team/rao-k-ali/" rel="preload">
                 Dr. Ali
               </Link>{" "}
