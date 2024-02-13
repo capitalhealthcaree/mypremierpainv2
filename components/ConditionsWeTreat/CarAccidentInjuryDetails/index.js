@@ -36,8 +36,8 @@ const ServiceDetailsContent = () => {
               your everyday reality. Whether you were recently injured in a car
               accident and need help getting back on your feet or have been
               living with chronic pain caused by a collision in your past, we
-              can create a unique treatment plan for you and provide the pain
-              management you need.
+              can create a unique treatment plan for you and provide the <Link href="/" rel="preload">pain
+              management in Dallas</Link> you need.
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
@@ -98,11 +98,17 @@ const ServiceDetailsContent = () => {
             </p>
             <p>
               Regardless of how you are feeling after a crash, you should see a
-              doctor. Car accident injuries may go unnoticed at first, only to
-              progress into more severe issues later. By visiting a medical
-              professional as soon as possible, you can get the care you need
-              for all your injuries and ensure more significant problems do not
-              develop.
+              <Link
+                href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
+                rel="preload"
+              >
+                {" "}
+                best pain doctor in Dallas.
+              </Link>{" "}
+              Car accident injuries may go unnoticed at first, only to progress
+              into more severe issues later. By visiting a medical professional
+              as soon as possible, you can get the care you need for all your
+              injuries and ensure more significant problems do not develop.
             </p>
             <b>
               If you were injured in a car accident, you may be experiencing:
