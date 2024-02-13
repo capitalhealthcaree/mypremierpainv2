@@ -146,7 +146,7 @@ const ServiceDetailsContent = () => {
                 href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
                 rel="preload"
               >
-                best pain doctor
+                best pain doctor in Dallas
               </Link>
               , they may want to know more about your medical background.
             </li>
