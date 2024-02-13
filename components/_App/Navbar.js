@@ -962,7 +962,7 @@ const Navbar = () => {
                           Hip Pain
                         </Link>
                       </li>
-                      <li className="nav-item">
+                      {/* <li className="nav-item">
                         <Link
                           href="/conditions-we-treat/coccydynia/"
                           className={`nav-link ${
@@ -973,7 +973,7 @@ const Navbar = () => {
                         >
                           Coccydynia Pain
                         </Link>
-                      </li>
+                      </li> */}
                       <li className="nav-item"></li>
                     </ul>
                   </li>

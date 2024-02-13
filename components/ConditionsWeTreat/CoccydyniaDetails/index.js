@@ -137,14 +137,14 @@ const ServiceDetailsContent = () => {
               <Link href="/contact-locations/hillsboro/" rel="preload">
                 coccydynia Hillsboro
               </Link>{" "}
-              based on your symptoms. Your doctor may also perform tests to
+              based on your symptoms. Your <Link href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/" rel="preload">pain doctor in Dallas</Link> may also perform tests to
               exclude conditions other than coccydynia. X-rays or magnetic
               resonance imaging (MRI) may be ordered by your physician to
               determine whether you have fractured or broken a bone.
             </p>
             <h2>When to See a Doctor</h2>
             <p>
-              Coccydynia symptoms should be examined by your physician if they
+              Coccydynia symptoms should be examined by your <Link href="/meet-our-team/rao-k-ali/" rel="preload"> pain specialist in Dallas</Link> if they
               persist for more than a few days. As well as coccydynia, several
               other conditions may cause similar symptoms, but may be more
               dangerous (such as tailbone fractures, hip fractures, and spinal
