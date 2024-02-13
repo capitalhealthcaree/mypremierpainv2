@@ -100,14 +100,17 @@ const ServiceDetailsContent = () => {
 
             <h2>Diagnosis of Hip Pain</h2>
             <p>
-              You will be asked a series of questions by your doctor regarding
-              your arthritis pain, including:
+              You will be asked a series of questions by your{" "}
+              <Link href="/contact-locations/fort-worth/" rel="preload">
+                pain doctor in Dallas
+              </Link>{" "}
+              regarding your arthritis pain, including:
             </p>
             <li>What time of day is the pain the most severe?</li>
             <li>Do you experience any difficulty walking as a result?</li>
             <li>What was the first time you noticed your symptoms?</li>
             <p>
-              To observe how the joint moves, your doctor may ask you to walk
+              To observe how the joint moves, your <Link href="/meet-our-team/rao-k-ali/" rel="preload">pain doctor in Dallas</Link> may ask you to walk
               around during the examination. A measurement of a normal hip's
               motion will be compared to an abnormal hip's motion. Your doctor
               will order fluid and imaging tests to diagnose arthritis. Blood,
@@ -217,7 +220,15 @@ const ServiceDetailsContent = () => {
               situation. The healthcare professional will be able to diagnose
               the situation accurately and create a treatment plan that is
               suited to your specific needs. If you experience any of the
-              following, you must visit doctor:
+              following, you must visit{" "}
+              <Link
+                href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
+                rel="preload"
+              >
+                {" "}
+                best pain specialist in Dallas
+              </Link>{" "}
+              :
             </p>
             <div className="row">
               <div className="col-6">
