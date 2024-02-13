@@ -144,7 +144,7 @@ const ServiceDetailsContent = () => {
             </div>
             <h2>What Is Some Common Diagnosis For Headaches?</h2>
             <p>
-              A headache specialist (neurologist) will likely identify migraines
+              A <Link href="/meet-our-team/rao-k-ali/" rel="preload">headache specialist in Dallas</Link> (neurologist) will likely identify migraines
               based on your medical history, symptoms, and a physical and
               neurological examination if you have them or a family history of
               them. However, according to our team at{" "}
@@ -152,7 +152,7 @@ const ServiceDetailsContent = () => {
                 headaches treatment in lancaster
               </Link>
               . We knew that To rule out other possible reasons for your
-              discomfort, your doctor may order the following tests if your
+              discomfort, your <Link href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/" rel="preload">pain doctor in Dallas</Link> may order the following tests if your
               disease is particularly rare, complicated, or suddenly severe:
             </p>
             <li>
