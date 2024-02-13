@@ -228,7 +228,7 @@ const ServiceDetailsContent = () => {
               relieved in most cases. Do not stop physical therapy or other
               treatments if you no longer experience symptoms. A numb shoulder
               will not occur again as a result of this procedure. Be aware of
-              your symptoms and do not ignore them. You should see a doctor if
+              your symptoms and do not ignore them. You should see a <Link href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/" rel="preload">best pain doctor in Dallas</Link> if
               you experience numbness in your shoulder, arm, hand, neck, upper
               back, or shoulder blade.
             </p>
