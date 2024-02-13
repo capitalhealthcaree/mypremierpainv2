@@ -29,7 +29,12 @@ const ServiceDetailsContent = () => {
               your treatment options based on your diagnosis. If you're
               experiencing leg discomfort, come to the Waxahachie leg pain
               treatment for a professional diagnosis. For an appointment with
-              one of our pain specialists, please get in touch with us.
+              one of our
+              <Link href="/meet-our-team/" rel="preload">
+                {" "}
+                pain specialists in Dallas
+              </Link>
+              , please get in touch with us.
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
@@ -84,7 +89,13 @@ const ServiceDetailsContent = () => {
               you may find that taking turmeric (curcumin) can help. Some
               studies have shown that turmeric supplements can be as effective
               as some NSAID medications for this purpose. Leg pain can be
-              treated by a primary care physician or a specialist physician.
+              treated by a primary care specialist or a{" "}
+              <Link
+                href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
+                rel="preload"
+              >
+                pain physician in Dallas.{" "}
+              </Link>
               Depending on the underlying cause, non-surgical or surgical
               treatment may be required. Some medical conditions that cause leg
               pain may eventually require surgery, including the following:
@@ -105,11 +116,13 @@ const ServiceDetailsContent = () => {
             <h2>How Is Leg Pain Diagnosed?</h2>
             <p>
               It's crucial to get a medical opinion if your leg pain is severe
-              or if it's affecting your daily life. When you visit the doctor or
-              our team of Richardson leg pain treatment, they will do a thorough
-              physical examination and ask you questions about your symptoms.
-              Your doctor may additionally recommend the following imaging and
-              laboratory tests:
+              or if it's affecting your daily life. When you visit our{" "}
+              <Link href="/meet-our-team/rao-k-ali/" rel="preload">
+                best pain doctor in Dallas
+              </Link>
+              , they will do a thorough physical examination and ask you
+              questions about your symptoms. Your doctor may additionally
+              recommend the following imaging and laboratory tests:
             </p>
             <li>
               X-ray Images of solid objects, such as bones, can be made using
