@@ -40,12 +40,19 @@ const ServiceDetailsContent = () => {
             <p>
               The injection includes numbing medicine as well as a
               corticosteroid to reduce inflammation, improve joint movement, and
-              provide long-term pain relief. During procedure, doctor make sure
-              the use of fluoroscopy to confirm that the needle is placed at its
-              right place and nerves are safe from any kind of injury. Physician
-              uses contrast dyes for confirmation of absorption of medicine into
-              the joint at exact place. After the dye has been injected, the
-              medicine slowly releases into the joint.
+              provide long-term pain relief. During procedure,our{" "}
+              <Link
+                href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
+                rel="preload"
+              >
+                best pain doctor in Dallas
+              </Link>{" "}
+              make sure the use of fluoroscopy to confirm that the needle is
+              placed at its right place and nerves are safe from any kind of
+              injury. Physician uses contrast dyes for confirmation of
+              absorption of medicine into the joint at exact place. After the
+              dye has been injected, the medicine slowly releases into the
+              joint.
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
@@ -135,8 +142,12 @@ const ServiceDetailsContent = () => {
         sensation in the leg following the injection.
       </li>
       <li>
-        Any immediate pain relief will be discussed with the doctor, and the
-        level of pain relief will be recorded for the next week.
+        Any immediate pain relief will be discussed with the
+        <Link href="/meet-our-team/rao-k-ali/" rel="preload">
+          {" "}
+          pain physician in Dallas,
+        </Link>{" "}
+        and the level of pain relief will be recorded for the next week.
       </li>
       <li>
         An injection pain diary is used for explaining injection results to the

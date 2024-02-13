@@ -87,9 +87,15 @@ const ServiceDetailsContent = () => {
               <b>Diagnostic Procedure</b>: Other conditions may also be
               diagnosed using the occipital nerve block. It can be difficult to
               differentiate pain that originates from your occipital nerves from
-              pain that originates from other parts of your spine. A doctor at
-              pain relief clinic Cleburne may recommend an occipital nerve block
-              in order to customize your treatment plan for your pain.
+              pain that originates from other parts of your spine. A{" "}
+              <Link
+                href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
+                rel="preload"
+              >
+                pain doctor in Dallas
+              </Link>{" "}
+              at pain relief clinic Cleburne may recommend an occipital nerve
+              block in order to customize your treatment plan for your pain.
             </li>
             <h2>The Occipital Nerve Block Procedure</h2>
             <p>
@@ -197,7 +203,7 @@ const ServiceDetailsContent = () => {
               the hospital the same day following the procedure, which usually
               takes no more than a few minutes. In{" "}
               <Link href="/" rel="preload">
-                Premier Pain Management
+                Pain Management in Dallas
               </Link>
               , we strive to provide comprehensive treatment guidelines and
               diagnoses in order to help individuals restore their health.

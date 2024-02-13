@@ -230,7 +230,7 @@ const ServiceDetailsContent = () => {
               example, the pain score may be reduced to 5/10. In order to
               restore a person's health,{" "}
               <Link href="/" rel="preload">
-                Premier Pain Management
+                Pain Management in Dallas
               </Link>{" "}
               provides comprehensive treatment and diagnosis guidelines.
             </p>

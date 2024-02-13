@@ -222,15 +222,18 @@ const ServiceDetailsContent = () => {
                 <li>An allergic reaction to a medicine</li>
               </div>
               <p>
-                Steroid medicines may cause side effects if they are included in
-                your shot. Blood sugar levels may rise for one to two days, an
-                allergic reaction may occur, and the face may flush.
-                Additionally to the risks described above, you may also
-                experience other health issues depending on your particular
-                circumstances. If you have any concerns, you should consult your
-                physician. Since{" "}
+                If your injection includes steroid medicines, administered by{" "}
+                <Link href="/meet-our-team/" rel="preload">
+                  pain specialists in Dallas,
+                </Link>{" "}
+                you may experience side effects. These can include a rise in
+                blood sugar levels for one to two days, the possibility of an
+                allergic reaction, and facial flushing. Additionally to the
+                risks described above, you may also experience other health
+                issues depending on your particular circumstances. If you have
+                any concerns, you should consult your physician. Since{" "}
                 <Link href="/" rel="preload">
-                  Premier Pain Management
+                  Pain Management in Dallas
                 </Link>{" "}
                 provides comprehensive treatment and diagnosis guidelines for
                 individuals, it is possible for them to regain health as a

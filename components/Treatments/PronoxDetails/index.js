@@ -33,10 +33,16 @@ const ServiceDetailsContent = () => {
             <p>
               At the core of Pronox's effectiveness lies the crucial human
               touch. In medical environments, where patients may already feel
-              vulnerable, the presence of a caring and empathetic doctor can be
-              a reason for the difference. The Pronox system is planned to be
-              administered by a healthcare professionals' team like the one
-              available at{" "}
+              vulnerable, the presence of a caring and empathetic{" "}
+              <Link
+                href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
+                rel="preload"
+              >
+                pain doctor in Dallas
+              </Link>{" "}
+              can be a reason for the difference. The Pronox system is planned
+              to be administered by a healthcare professionals' team like the
+              one available at{" "}
               <Link href="/contact-locations/fort-worth/" rel="preload">
                 pain management Fort Worth
               </Link>{" "}
@@ -134,8 +140,11 @@ const ServiceDetailsContent = () => {
               <Link href="/contact-locations/lancaster/" rel="preload">
                 spine and pain clinic lancaster
               </Link>
-              , we serve as a beacon of hope, ushering in a new era of pain
-              management—one that heals not just the body, but also the soul.
+              , we serve as a beacon of hope, ushering in a new era of{" "}
+              <Link href="/" rel="preload">
+                pain management in Dallas
+              </Link>{" "}
+              that heals not just the body, but also the soul.
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>

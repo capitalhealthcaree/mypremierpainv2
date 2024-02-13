@@ -64,11 +64,15 @@ const ServiceDetailsContent = () => {
               in a favorable manner, then pain and disability may be reduced.
             </p>
             <p>
-              However, pain management specialists are incorporating disc
-              regenerative therapy into their treatment plans for chronic
-              discogenic pain patients despite further research being conducted.
-              This technique is becoming more popular due to positive results.
-              Additionally, it reduces surgical interventions.
+              However,{" "}
+              <Link href="/meet-our-team/" rel="preload">
+                pain specialists in Dallas
+              </Link>{" "}
+              are incorporating disc regenerative therapy into their treatment
+              plans for chronic discogenic pain patients despite further
+              research being conducted. This technique is becoming more popular
+              due to positive results. Additionally, it reduces surgical
+              interventions.
             </p>
           </div>
         </div>

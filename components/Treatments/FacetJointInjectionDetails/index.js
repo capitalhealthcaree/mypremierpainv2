@@ -20,7 +20,16 @@ const ServiceDetailsContent = () => {
               An injection of a facet joint under fluoroscopy (live X-ray) is
               most effective (and prevents nerve injury). An ambulatory surgical
               center or an office-based procedure suite is usually used to
-              inject the facet joints.
+              inject the facet joints.A facet joint medial branch block,
+              performed by a{" "}
+              <Link
+                href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
+                rel="preload"
+              >
+                back pain doctor in Dallas
+              </Link>
+              , entails the injection of local anesthetics into or around a
+              facet joint to determine if it alleviates your back pain.
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
@@ -76,11 +85,15 @@ const ServiceDetailsContent = () => {
             </li>
             <li>Ensure that your medication and allergy list is up-to-date</li>
             <p>
-              In addition to evaluating your medications and allergies, the
-              nurse will ask you screening questions. The time for your
-              injection will be announced once you are ready. A spinal procedure
-              may require the use of an IV line, especially if this is your
-              first spinal procedure.
+              In addition to reviewing your medications and allergies, the nurse
+              will ask you screening questions. The time for your injection,
+              overseen by{" "}
+              <Link href="/meet-our-team/" rel="preload">
+                pain specialists in Dallas,
+              </Link>{" "}
+              will be announced once you are prepared. Especially if this is
+              your first spinal procedure, the use of an IV line may be
+              required.
             </p>
           </div>
           <h2>Procedure</h2>

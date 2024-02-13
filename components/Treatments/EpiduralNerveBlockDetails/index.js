@@ -107,7 +107,20 @@ const ServiceDetailsContent = () => {
               another dose, the pump will not administer medication.
             </li>
             <h2>Benefits Associated With Epidural Nerve Block</h2>
-            <p>Epidural nerve blocks offer a number of benefits:</p>
+
+            <p>
+              Epidural steroid injections (ESIs), administered by a{" "}
+              <Link
+                href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
+                rel="preload"
+              >
+                back pain doctor in Dallas
+              </Link>
+              , are widely utilized as a treatment method for various forms of
+              lower back pain and leg pain. Epidural nerve blocks offer a number
+              of benefits:
+            </p>
+
             <h4>1- Anesthesia For Surgery</h4>
             <div className="row">
               <div className="col-6">
@@ -164,8 +177,12 @@ const ServiceDetailsContent = () => {
               spinal cord.
             </li>
             <li>
-              Using contrast material will allow your provider to see the area
-              they are focusing on on the imaging machine's screen more clearly.
+              Using contrast material will allow your{" "}
+              <Link href="/meet-our-team/rao-k-ali/" rel="preload">
+                pain doctor in Dallas
+              </Link>{" "}
+              to see the area they are focusing on on the imaging machine's
+              screen more clearly.
             </li>
             <li>
               By doing so, the medication is more likely to reach the inflamed
@@ -185,7 +202,7 @@ const ServiceDetailsContent = () => {
               following day. Injections are administered two days before the
               procedure to provide benefits. Our goal at{" "}
               <Link href="/" rel="preload">
-                Premier Pain Management
+                Pain Management in Dallas
               </Link>{" "}
               is to assist individuals in restoring their health by providing
               comprehensive treatment and diagnosis guidelines.

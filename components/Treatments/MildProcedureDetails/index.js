@@ -213,14 +213,25 @@ const ServiceDetailsContent = () => {
             <h2>Premier Pain Centers</h2>
             <p>
               At the premier pain centers in the United States, patients
-              suffering from severe muscle pain can receive high-quality medical
-              treatment. Providing comfort and peace is essential to fulfilling
-              the organization's mission. At our center, physicians are highly
-              qualified, skilled, and experienced in treating serious
+              experiencing severe muscle pain can receive top-notch medical
+              treatment from a{" "}
+              <Link
+                href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
+                rel="preload"
+              >
+                {" "}
+                pain doctor in Dallas.
+              </Link>{" "}
+              Offering comfort and peace is crucial to achieving the
+              organization's mission. At our center, physicians are highly
+              qualified, skilled, and experienced in addressing serious
               pain-related issues. Our comprehensive patient care includes
-              interventional pain management, physical therapy, and therapy
-              management. Feel free to contact us if you would like to schedule
-              an appointment .
+              <Link href="/" rel="preload">
+                {" "}
+                pain management in Dallas,
+              </Link>{" "}
+              physical therapy, and therapy management. Feel free to contact us
+              if you would like to schedule an appointment .
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>

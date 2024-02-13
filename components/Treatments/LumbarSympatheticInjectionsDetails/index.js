@@ -184,17 +184,21 @@ const ServiceDetailsContent = () => {
               permanent, though they can be removed at any time. The
               comprehensive treatment and diagnosis guidelines provided by{" "}
               <Link href="/" rel="preload">
-                Premier Pain Management
+                Pain Management in Dallas
               </Link>{" "}
               enable individuals to regain health through consultations with the
               practice.
             </p>
             <p>
-              Lumbar sympathetic blocks are effective treatments for many types
-              of pain-related conditions. However, the results may differ
-              substantially from one individual to another. If you are
-              apprehensive about receiving nerve block injections, discuss them
-              with your healthcare provider at{" "}
+              Lumbar sympathetic blocks, administered by{" "}
+              <Link href="/meet-our-team/" rel="preload">
+                pain specialists in Dallas,
+              </Link>{" "}
+              are effective treatments for a wide range of pain-related
+              conditions. However, the outcomes can vary significantly from one
+              individual to another. If you are apprehensive about receiving
+              nerve block injections, discuss them with your healthcare provider
+              at{" "}
               <Link href="/contact-locations/lancaster/" rel="preload">
                 spine and pain clinic lancaster
               </Link>

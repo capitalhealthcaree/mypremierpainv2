@@ -114,10 +114,17 @@ const ServiceDetailsContent = () => {
               the procedure.
             </li>
             <li>
-              The doctor prepares injection medications, which are usually
-              steroid preparations and anesthetics or numbing agents. The
-              following ingredients may cause an allergic reaction in certain
-              people. Please inform your physician if you experience an allergic
+              The{" "}
+              <Link
+                href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
+                rel="preload"
+              >
+                pain doctor in Dallas
+              </Link>{" "}
+              prepares injection medications, which are usually steroid
+              preparations and anesthetics or numbing agents. The following
+              ingredients may cause an allergic reaction in certain people.
+              Please inform your physician if you experience an allergic
               reaction.
             </li>
             <li>
@@ -181,8 +188,12 @@ const ServiceDetailsContent = () => {
               skills, and experience, we are able to provide high-quality
               medical care for serious pain-related issues. Our patients are
               also provided with a comprehensive program of patient care,
-              including interventional pain management, physical therapy, and
-              therapy management.{" "}
+              including
+              <Link href="/" rel="preload">
+                {" "}
+                pain management in Dallas,{" "}
+              </Link>{" "}
+              physical therapy, and therapy management.{" "}
               <Link href="/meet-our-team/rao-k-ali/" rel="preload">
                 Dr Ali management specialist
               </Link>{" "}

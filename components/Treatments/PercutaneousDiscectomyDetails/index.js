@@ -155,11 +155,18 @@ const ServiceDetailsContent = () => {
             </p>
             <h2>Expected Results</h2>
             <p>
-              Approximately 90 percent of patients benefit from a percutaneous
-              discectomy in terms of reduced pain and reduced medication
-              requirements, while increasing their functional capacity. The
-              procedure does not involve cutting muscles or bones, so there is
-              mild or no scarring following the procedure.{" "}
+              Approximately 90 percent of patients experience reduced pain and
+              decreased medication requirements, while increasing their
+              functional capacity, after undergoing a percutaneous discectomy
+              performed by a{" "}
+              <Link
+                href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
+                rel="preload"
+              >
+                pain doctor in Dallas.
+              </Link>{" "}
+              The procedure does not involve cutting muscles or bones, so there
+              is mild or no scarring following the procedure.{" "}
               <Link href="/contact-locations/fort-worth/" rel="preload">
                 Pain management fort worth
               </Link>{" "}

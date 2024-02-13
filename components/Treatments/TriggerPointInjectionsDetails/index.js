@@ -34,11 +34,14 @@ const ServiceDetailsContent = () => {
               An injury or excessive use of muscles may result in trigger points
               developing in tight bands of muscles. A condition known as
               myofascial pain syndrome is characterized by persistent and
-              increasing muscle pain over time. The trigger points occur in
-              tight bands of muscle, causing pain both at the knot and
-              throughout the muscle. Among the most common causes of chronic
-              pain, including those in the jaw, head, shoulders, neck, back, and
-              other areas, myofascial pain syndrome is the most common.
+              increasing muscle pain over time. Trigger points, which form in
+              tight bands of muscle, lead to pain both at the knot and
+              throughout the muscle. Myofascial pain syndrome, a leading cause
+              of chronic pain affecting the jaw, head, shoulders, neck, back,
+              and other areas, is effectively addressed by{" "}
+              <Link href="/" rel="preload">
+                pain management in Dallas.
+              </Link>
             </p>
             <p>
               When muscle tissue is unable to relax and function normally,
@@ -178,14 +181,17 @@ const ServiceDetailsContent = () => {
             </p>
             <h2>The Bottom line</h2>
             <p>
-              Many methods are available for relieving neck pain, including
-              trigger point injections. You may receive a local anesthetic
-              and/or a steroid injection into your muscles for the purpose of
-              alleviating pain and improving function. You can ask your doctor
-              if trigger point injections do not provide immediate relief for
-              you. If trigger point injections do not relieve your neck pain,
-              your doctor may be able to recommend alternative treatment
-              options. Our{" "}
+              Numerous methods for alleviating neck pain are available,
+              including trigger point injections, which are administered by{" "}
+              <Link href="/meet-our-team/" rel="preload">
+                pain specialists in Dallas.
+              </Link>{" "}
+              These injections, consisting of a local anesthetic and/or a
+              steroid, are delivered into your muscles with the aim of reducing
+              pain and enhancing function. You can ask your doctor if trigger
+              point injections do not provide immediate relief for you. If
+              trigger point injections do not relieve your neck pain, your
+              doctor may be able to recommend alternative treatment options. Our{" "}
               <Link href="/contact-locations/lancaster/" rel="preload">
                 Lancaster spine and pain clinic
               </Link>{" "}

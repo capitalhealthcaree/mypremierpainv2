@@ -49,8 +49,12 @@ const ServiceDetailsContent = () => {
               <Link href="/contact-locations/richardson/" rel="preload">
                 Pain Management Richardson
               </Link>{" "}
-              team of experienced physicians understands how spinal cord issues
-              affects quality of life.{" "}
+              team of experienced
+              <Link href="/meet-our-team/" rel="preload">
+                {" "}
+                physicians in Dallas{" "}
+              </Link>{" "}
+              understands how spinal cord issues affects quality of life.{" "}
             </p>
             <h3>Preparation</h3>
             <p>
@@ -151,18 +155,25 @@ const ServiceDetailsContent = () => {
             </li>
             <h2>Recovery</h2>
             <p>
-              Wires and stimulators are rarely associated with complications or
-              serious side effects. Patients usually experience pain for a few
-              days following insertion. You may be prescribed pain medication to
-              relieve the discomfort until the pain subsides if the pain
-              persists after a few days. Other complications during the
-              procedure include infection, bleeding, nerve damage, spinal cord
-              injury, a dural puncture or tear, wire migration or breakage, and
-              others. A patient can usually resume moderate activity several
-              days after having undergone the procedure. Patients are advised
-              not to lift, bend, or twist for at least two months after surgery
-              so that the leads can heal in the appropriate position without
-              moving. Medical professionals at{" "}
+              Wires and stimulators, when managed by a{" "}
+              <Link
+                href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
+                rel="preload"
+              >
+                pain doctor in Dallas,{" "}
+              </Link>
+              are rarely associated with complications or serious side effects.
+              Patients typically experience pain for a few days following
+              insertion. If the pain persists beyond a few days, you may be
+              prescribed pain medication to alleviate the discomfort until it
+              subsides. Other complications during the procedure include
+              infection, bleeding, nerve damage, spinal cord injury, a dural
+              puncture or tear, wire migration or breakage, and others. A
+              patient can usually resume moderate activity several days after
+              having undergone the procedure. Patients are advised not to lift,
+              bend, or twist for at least two months after surgery so that the
+              leads can heal in the appropriate position without moving. Medical
+              professionals at{" "}
               <Link href="/contact-locations/lancaster/" rel="preload">
                 Lancaster spine and pain clinic
               </Link>{" "}

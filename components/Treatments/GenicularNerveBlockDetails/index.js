@@ -128,7 +128,7 @@ const ServiceDetailsContent = () => {
             <h2>How Does A Genicular Nerve Block Work?</h2>
             <p>
               <Link href="/" rel="preload">
-                Premier Pain Management
+                Pain Management in Dallas
               </Link>{" "}
               offers comprehensive treatment and diagnosis guidelines that can
               help individuals regain health.
@@ -196,9 +196,9 @@ const ServiceDetailsContent = () => {
             <p>
               You may benefit from genicular nerve blocks if you suffer from
               chronic knee pain. The results vary considerably between
-              individuals, however. Ask your healthcare provider at{" "}
-              <Link href="/contact-locations/lancaster/" rel="preload">
-                spine and pain clinic Lancaster
+              individuals, however. Ask your{" "}
+              <Link href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/" rel="preload">
+                pain doctor in Dallas
               </Link>{" "}
               about the genicular nerve block injection if you are concerned
               about receiving it. In case of questions, please do not hesitate

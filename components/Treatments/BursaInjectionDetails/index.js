@@ -110,8 +110,8 @@ const ServiceDetailsContent = () => {
             <li>The bursa is injected with medications.</li>
             <p>
               During an injection, you may feel pressure or discomfort.{" "}
-              <Link href="/contact-locations/cleburne/" rel="preload">
-                Pain relief center Cleburne
+              <Link href="/" rel="preload">
+                Pain clinic in Dallas
               </Link>{" "}
               uses a fresh, sterilized needle for each injection when treating
               more than one bursa. As a result of the procedure,
@@ -131,7 +131,14 @@ const ServiceDetailsContent = () => {
             <li>
               Steroids usually take 2-3 days to begin producing their beneficial
               effects. In some cases, they may take as long as 5-7 days. Please
-              consult your doctor if your symptoms do not improve after a week.
+              consult your{" "}
+              <Link
+                href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
+                rel="preload"
+              >
+                best pain doctor in Dallas,
+              </Link>{" "}
+              if your symptoms do not improve after a week.
             </li>
             <li>
               When a second injection is administered after the first injection
