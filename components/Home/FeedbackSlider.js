@@ -1,6 +1,91 @@
 import React from "react";
+import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
+
+const reviews = [
+  {
+    heading: "sylvia rich",
+    link: "https://g.co/kgs/MQWrjRB",
+    review:
+      "I absolutely love this place. I have never had injections that worked so quickly and so well. The staff has always been friendly and treated me with respect. The Dr is very thorough with his care. It may take a little time, but I never feel rushed when it’s my turn.Overall, my experiences here have Ben nothing but positive",
+  },
+  {
+    heading: "James Burnette",
+    link: "https://g.co/kgs/nJKg7my",
+    review:
+      "Dr Ali has saved my life. All the other doctors are afraid to prescribe anything for pain. I have chronic pancreatitis and didn't want to get off the couch because of the pain. I now have my life back.",
+  },
+  {
+    heading: "Cindy Carter",
+    link: "https://g.co/kgs/7Se7BU1",
+    review:
+      "Micheal is always so helpful and nice.Dr Ali is a very good doctor.  The office girls  are sweet and friendly.",
+  },
+  {
+    heading: "Valerie Dixon",
+    link: "https://g.co/kgs/KVNX5RY",
+    review:
+      "Doctor Ali is somebody that I can confide in when it comes to my pain. He's done a great job on my neck. And I will suggest him to anybody.",
+  },
+  {
+    heading: "Kyle Breznak",
+    link: "https://g.co/kgs/k4i8U42",
+    review:
+      "Premier pain has been a life saver.  Mike , dr Ali all of them here in hillsboro. Great people great service. They have lowered my pain to a level where i can function normally",
+  },
+  {
+    heading: "Darrell Long",
+    link: "https://g.co/kgs/1XjJbPM",
+    review:
+      "Time thru these processes have been worth the wait so far. Meeting Dr Moore was a pleasant surprise as well!",
+  },
+  {
+    heading: "James Malone",
+    link: "https://g.co/kgs/gSWoMWo",
+    review:
+      "The doctors and Mike have really helped me along the way they're very professional and I enjoy them.",
+  },
+  {
+    heading: "Tammy Wilson",
+    link: "https://g.co/kgs/8sNUdVY",
+    review:
+      "Very professional and job well done. I would tell everyone to come to premier pain. Keep up the good work 👍",
+  },
+  {
+    heading: "Eric King",
+    link: "https://g.co/kgs/rF1i4rp",
+    review:
+      "Definitely a place that cares about you and make sure you're not in pain in the fixed a problems the way they're supposed to be and not just put a Band-Aid over it and say here you go you're good they actually care to help get you better",
+  },
+  {
+    heading: "Ruth Greer",
+    link: "https://g.co/kgs/B2MG6D9",
+    review: "Friendly staff, very professional.Love Premier Pain Center ‼️‼️‼️",
+  },
+  {
+    heading: "Jeff Cross",
+    link: "https://g.co/kgs/ZSPBiFT",
+    review: "Best pain centers",
+  },
+  {
+    heading: "sharon Smith smith",
+    link: "https://g.co/kgs/JVJ7oFw",
+    review: "He is a great doctor who is honest and straightforward!!!",
+  },
+  {
+    heading: "Money Lumas",
+    link: "https://g.co/kgs/DU6dT13",
+    review:
+      "Premier Pain Management is awesome I highly recommend anyone with chronic pain to this office the doctors and staff are amazing they take great care of you!",
+  },
+  {
+    heading: "Michele Gurno",
+    link: "https://g.co/kgs/v8vR41M",
+    review:
+      "I like Michael. He is very good with patients. I also like Dr. Ali.",
+  },
+];
 
 const FeedbackSlider = () => {
   return (
@@ -12,65 +97,19 @@ const FeedbackSlider = () => {
             modules={[Navigation]}
             className="feedback-slider"
           >
-            <SwiperSlide>
-              <div className="feedback-item">
-                <div className="client-img">
-                  <h3>Jason Brooks</h3>
+            {reviews.map((item, index) => (
+              <SwiperSlide key={index}>
+                <div className="feedback-item">
+                  <div className="client-img">
+                    <Link href={item.link} rel="preload" target="_blank">
+                      {" "}
+                      <h3>{item.heading}</h3>
+                    </Link>
+                  </div>
+                  <p>{item.review}</p>
                 </div>
-                <p>
-                  The doctors as well as the staff here are wonderful. They
-                  truly care about their patients' well being, and they take
-                  time to listen. They are also great in communicating
-                  everything needed including treatment plans and appointment
-                  scheduling. I am so very thankful to have found them!
-                </p>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="feedback-item">
-                <div className="client-img">
-                  <h3>Kristin Ellis</h3>
-                </div>
-                <p>
-                  I have been a patient of Dr. Zulqurnain's for 10 years. He is
-                  professional, knowledgeable and friendly..and the ONLY person
-                  I feel comfortable sticking needles in my back. He is an
-                  EXCELLENT doctor with over 30 years of experience.
-                </p>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="feedback-item">
-                <div className="client-img">
-                  <h3>Raymond K. Artman</h3>
-                </div>
-                <p>
-                  The staff and doctors are so caring and compassionate. You are
-                  treated as an individual and not just a number. Your pain
-                  concerns are genuinely taken into consideration. Doctor Ali
-                  gave is full attention and treated me. It has been one of the
-                  best medical decisions I have ever made because I am finally
-                  able to enjoy life again without my pain.
-                </p>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="feedback-item">
-                <div className="client-img">
-                  <h3>Mazie Wilson</h3>
-                </div>
-                <p>
-                  Receptionist and Doctors are very nice and care about the
-                  patients well being. Love Premier Pain Centers they are very
-                  professional and really do care about their patients Dr Rao
-                  Ali thanks for being my pain doctor and my therapist.
-                </p>
-                
-              </div>
-            </SwiperSlide>
+              </SwiperSlide>
+            ))}
           </Swiper>
         </div>
       </div>
