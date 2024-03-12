@@ -43,7 +43,7 @@ const Doctors = () => {
           <div className="row justify-content-center">
             {Physicians.physicians.map((data) => {
               return (
-                <div className="col-sm-6 col-lg-4">
+                <div className="col-sm-6 col-lg-3">
                   <div className="doctor-item">
                     <div className="doctor-top">
                       <img src={data.image} alt={data.name} />

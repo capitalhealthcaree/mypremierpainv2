@@ -240,7 +240,7 @@ const DoctorDetails = () => {
 										</div>
 									</div>
 								</div>
-								<div className="blog-details-item">
+								{/* <div className="blog-details-item">
 									<div className="blog-details-tags">
 										<h3>{locations.heaging}</h3>
 										<ul>
@@ -255,7 +255,7 @@ const DoctorDetails = () => {
 											})}
 										</ul>
 									</div>
-								</div>
+								</div> */}
 							</div>
 						</div>
 					</div>
