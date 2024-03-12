@@ -140,7 +140,7 @@ const DoctorDetails = () => {
 								<div className="doctor-details-right">
 									<div className="doctor-details-biography">
 										<h3>
-											<b>Dr. Odai Abdalla</b>
+											<b>Odai Abdalla MD</b>
 										</h3>
 										<h4>(Interventional Pain Management Physician)</h4>
 									</div>
