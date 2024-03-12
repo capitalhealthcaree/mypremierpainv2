@@ -1,26 +1,32 @@
 {
-  "physicians": [
-    {
-      "id": "1",
-      "image": "/images/doctors/doctor1.webp",
-      "name": "Rao K. Ali MD",
-      "bio": "Interventional Pain Management Physician",
-      "href": "/meet-our-team/rao-k-ali/"
-    },
-    {
-      "id": "2",
-      "image": "/images/doctors/doctor2.webp",
-      "name": "MUHAMMAD ZULQARNAIN MD",
-      "bio": "Interventional Pain Management Physician",
-      "href": "/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
-    },
-    {
-      "id": "3",
-      "image": "/images/doctors/doctor3.webp",
-      "name": "William Moore MD",
-      "bio": "Interventional Pain Management Physician",
-      "href": "/meet-our-team/william-moore-md/"
-    }
-  ]
-
+	"physicians": [
+		{
+			"id": "1",
+			"image": "/images/doctors/doctor1.webp",
+			"name": "Rao K. Ali MD",
+			"bio": "Interventional Pain Management Physician",
+			"href": "/meet-our-team/rao-k-ali/"
+		},
+		{
+			"id": "2",
+			"image": "/images/doctors/doctor2.webp",
+			"name": "MUHAMMAD ZULQARNAIN MD",
+			"bio": "Interventional Pain Management Physician",
+			"href": "/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
+		},
+		{
+			"id": "3",
+			"image": "/images/doctors/doctor3.webp",
+			"name": "William Moore MD",
+			"bio": "Interventional Pain Management Physician",
+			"href": "/meet-our-team/william-moore-md/"
+		},
+		{
+			"id": "4",
+			"image": "/images/doctors/doctor4.webp",
+			"name": "Dr. Odai Abdalla",
+			"bio": "Interventional Pain Management Physician",
+			"href": "/meet-our-team/odai-abdalla-md/"
+		}
+	]
 }
