@@ -128,7 +128,7 @@ const Blog = ({ item, totalPage }) => {
 export default Blog;
 
 export const getServerSideProps = async () => {
-  const posts = await api.get("blogs/getAll/pagination?page=1&limit=9");
+  const posts = await api.get("createAbout");
   const data = await posts.data.data;
   const totalPage = await posts.data.totalPages;
 
