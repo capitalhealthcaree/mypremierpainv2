@@ -990,21 +990,23 @@ const Navbar = () => {
                   <li className="nav-item">
                     <Link
                       href="/tms-therapy/"
-                      className={`nav-link ${currentPath === "/tms-therapy/" && "active"}`}
+                      className={`nav-link ${
+                        currentPath === "/tms-therapy/" && "active"
+                      }`}
                       rel="preload"
                     >
                       TMS Therapy
                     </Link>
                   </li>
-                  {/* <li className="nav-item">
+                  <li className="nav-item">
                     <Link
-                      href="/tms-therapy/"
+                      href="/ivherapy/"
                       className={`nav-link ${currentPath === "/" && "active"}`}
                       rel="preload"
                     >
-                      IV Bars
+                      IV Therapy
                     </Link>
-                  </li> */}
+                  </li>
                   <li className="nav-item">
                     <Link
                       href="/treatments/"

@@ -2,33 +2,33 @@ import React from "react";
 import Head from "next/head";
 import dynamic from "next/dynamic";
 
-const Navbar = dynamic(() => import("../components/_App/Navbar"));
+const Navbar = dynamic(() => import("../components/_App/Navbar.js"));
 
 const NavbarAppointment = dynamic(() =>
-  import("../components/_App/NavbarAppointment")
+  import("../components/_App/NavbarAppointment.js")
 );
 
-const MainBanner = dynamic(() => import("../components/IvBars/MainBanner"));
+const MainBanner = dynamic(() => import("../components/IvBars/MainBanner.js"));
 
 const ThreeSections = dynamic(() =>
-  import("../components/IvBars/ThreeSections")
+  import("../components/IvBars/ThreeSections.js")
 );
 
 const Cocktails = dynamic(() => import("../components/IvBars/cocktails.js"));
 
-const About = dynamic(() => import("../components/IvBars/about"));
+const About = dynamic(() => import("../components/IvBars/about.js"));
 
-const Steps = dynamic(() => import("../components/IvBars/steps"));
+const Steps = dynamic(() => import("../components/IvBars/steps.js"));
 
 const AppointmentForm = dynamic(() =>
-  import("../components/IvBars/Appointment")
+  import("../components/IvBars/Appointment.js")
 );
 
 const FeedbackSlider = dynamic(() =>
-  import("../components/Home/FeedbackSlider")
+  import("../components/Home/FeedbackSlider.js")
 );
 
-const Footer = dynamic(() => import("../components/_App/Footer"));
+const Footer = dynamic(() => import("../components/_App/Footer.js"));
 
 const Index = () => {
   return (
@@ -52,12 +52,12 @@ const Index = () => {
       <Navbar />
       <NavbarAppointment />
       <MainBanner />
-      <ThreeSections />
-      <Cocktails />
-      <Steps />
       <About />
-      <FeedbackSlider />
+      <Steps />
+      <Cocktails />
       <AppointmentForm />
+      <FeedbackSlider />
+      <ThreeSections />
       <Footer />
     </>
   );
