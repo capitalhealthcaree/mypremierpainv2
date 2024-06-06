@@ -1000,8 +1000,8 @@ const Navbar = () => {
                   </li>
                   <li className="nav-item">
                     <Link
-                      href="/ivherapy/"
-                      className={`nav-link ${currentPath === "/ivherapy/" && "active"}`}
+                      href="/iv-therapy/"
+                      className={`nav-link ${currentPath === "/iv-therapy/" && "active"}`}
                       rel="preload"
                     >
                       IV Therapy
