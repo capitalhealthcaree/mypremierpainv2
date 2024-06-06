@@ -1,62 +1,77 @@
 import React from "react";
 import Head from "next/head";
 import dynamic from "next/dynamic";
+import Link from "next/link";
+import data from "../utils/tmsConditionsWeTreat.json";
 
-const Navbar = dynamic(() => import("../../components/_App/Navbar"));
+const Navbar = dynamic(() => import("../components/_App/Navbar"));
 
-const PageBanner = dynamic(() => import("../../components/Common/PageBanner"));
+const PageBanner = dynamic(() => import("../components/Common/PageBanner"));
 
 const AppointmentFormSideBar = dynamic(() =>
-  import("../../components/Appointment/AppointmentFormSideBar")
+  import("../components/Appointment/AppointmentFormSideBar")
 );
 
-const TreatmentsRightSide = dynamic(() =>
-  import("../../components/Common/TreatmentsRightSide")
-);
-const MildProcedureDetails = dynamic(() =>
-  import("../../components/Treatments/MildProcedureDetails")
+const OCDTreatmentDetails = dynamic(() =>
+  import(
+    "../components/TmsHome/TmsDetailContent/ocd-treatment-details.js"
+  )
 );
 
-const Footer = dynamic(() => import("../../components/_App/Footer"));
+const Footer = dynamic(() => import("../components/_App/Footer"));
 
 const DoctorDetails = () => {
   return (
     <>
       <Head>
-        <title>
-          Mild Procedure for Lumbar Spinal Stenosis Treatment in Hillsboro
-        </title>
+        <title>Obsessive-Compulsive (OCD) Specialists in Dallas, TX</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/treatments/mild-procedure/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/trauma-treatment-in-dallas-fort-worth/`}
         />
         <meta
           name="description"
-          content="Chronic lower back pain patients benefit from the Mild procedure Richardson. Contact us today at 469-562-4188 to schedule an appointment!"
+          content="If you are looking for the best OCD therapist near me, contact us immediately to arrange a consultation and initiate the recovery process."
         />
         <meta content="text/html; charset=utf-8" httpEquiv="Content-Type" />
         <meta content="initial-scale=1" name="viewport" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
       </Head>
       <Navbar />
+
       <PageBanner
-        pageTitle="Mild Procedure for Lumbar Spinal Stenosis"
+        pageTitle="OCD Treatment Centers in Dallas, TX"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="mild-procedure"
-        bgImage="/images/page-banner2.webp"
+        activePageText="ocd-treatment"
+        bgImage="/images/conditions-we-treat/back-pain/back.jpg"
       />
 
-      <div className="doctor-details-area pt-4">
+      <div className="doctor-details-area pt-4 pb-70">
         <div className="container-fluid p-lg-5">
           <div className="row">
-            <div className="col-lg-8">
-              <MildProcedureDetails />
-            </div>
-
             <div className="col-lg-4">
               <AppointmentFormSideBar />
-              <TreatmentsRightSide />
+              <div className="blog-details-item">
+                <div className="blog-details-category ps-3">
+                  <h3>Conditions We Treat</h3>
+                  <ul>
+                    {data.map((item, index) => {
+                      return (
+                        <li key={index}>
+                          <Link href={item.href} rel="preload">
+                            {item.name}
+                          </Link>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-8">
+              <OCDTreatmentDetails />
             </div>
           </div>
         </div>
