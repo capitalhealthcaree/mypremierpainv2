@@ -1001,7 +1001,7 @@ const Navbar = () => {
                   <li className="nav-item">
                     <Link
                       href="/ivherapy/"
-                      className={`nav-link ${currentPath === "/" && "active"}`}
+                      className={`nav-link ${currentPath === "/ivherapy/" && "active"}`}
                       rel="preload"
                     >
                       IV Therapy
