@@ -18,7 +18,7 @@ const Cocktails = dynamic(() => import("../components/IvBars/cocktails.js"));
 
 const About = dynamic(() => import("../components/IvBars/about.js"));
 
-const Steps = dynamic(() => import("../components/IvBars/steps.js"));
+const Steps = dynamic(() => import("../components/IvBars/Steps.js"));
 
 const AppointmentForm = dynamic(() =>
   import("../components/IvBars/Appointment.js")
