@@ -18,7 +18,7 @@ const ServiceDetailsContent = () => {
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
-              To learn more about our fort worth back pain treatment services,
+              To learn more about our OCD treatment in Dallas,
               give us a call at <a href="tel:+14695624188">
                 469-562-4188
               </a> or{" "}
@@ -103,7 +103,7 @@ const ServiceDetailsContent = () => {
               A non-invasive procedure,
               <Link href="/tms/" rel="preload">
                 {" "}
-                Transcranial magnetic stimulation,
+                Transcranial magnetic stimulation,{" "}
               </Link>
               stimulates nerve cell activity in the brain through the
               application of magnetic fields. TMS targeting OCD-related brain
@@ -171,7 +171,12 @@ const ServiceDetailsContent = () => {
               interdisciplinary group of healthcare experts collaborates in
               order to formulate individualized OCD treatment plans that are
               customized to the specific requirements and goals of each patient.
-              If you are looking for the best OCD therapist near me,
+              If you are looking for the best
+              <Link href="/meet-our-team/rao-k-ali/" rel="preload">
+                {" "}
+                OCD therapist near me
+              </Link>
+              ,
               <Link href="/contact-locations/" rel="preload">
                 {" "}
                 contact us{" "}

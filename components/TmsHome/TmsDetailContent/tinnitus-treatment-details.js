@@ -19,7 +19,7 @@ const ServiceDetailsContent = () => {
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
-              To learn more about our fort worth back pain treatment services,
+              To learn more about our Tinnitus treatment in Dallas,
               give us a call at <a href="tel:+14695624188">
                 469-562-4188
               </a> or{" "}
@@ -40,7 +40,7 @@ const ServiceDetailsContent = () => {
               pharmaceuticals are common.
               <Link href="/contact-locations/richardson/" rel="preload">
                 {" "}
-                Tinnitus treatment in Richardson
+                Tinnitus treatment in Richardson{" "}
               </Link>
               offers the greatest alternatives available.
             </p>
@@ -135,8 +135,10 @@ const ServiceDetailsContent = () => {
             <h2>Ongoing Support and Management</h2>
             <p>
               We believe in continual patient assistance at Premier Pain
+              Centers.
               <Link href="/contact-locations/plano/" rel="preload">
-                Centers. Tinnitus treatment in Plano
+                {" "}
+                Tinnitus treatment in Plano
               </Link>{" "}
               can also help reduce the feeling of ringing or buzzing in the
               ears, improve sleep, lower stress, and make life better in

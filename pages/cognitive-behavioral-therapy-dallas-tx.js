@@ -12,10 +12,8 @@ const AppointmentFormSideBar = dynamic(() =>
   import("../components/Appointment/AppointmentFormSideBar")
 );
 
-const OCDTreatmentDetails = dynamic(() =>
-  import(
-    "../components/TmsHome/TmsDetailContent/ocd-treatment-details.js"
-  )
+const CognitiveTreatmentDetails = dynamic(() =>
+  import("../components/TmsHome/TmsDetailContent/cognitive-treatment-details")
 );
 
 const Footer = dynamic(() => import("../components/_App/Footer"));
@@ -24,14 +22,14 @@ const DoctorDetails = () => {
   return (
     <>
       <Head>
-        <title>Obsessive-Compulsive (OCD) Specialists in Dallas, TX</title>
+        <title>Best Cognitive Behavioral Therapy (CBT) in Dallas, TX</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/trauma-treatment-in-dallas-fort-worth/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/cognitive-behavioral-therapy-dallas-tx/`}
         />
         <meta
           name="description"
-          content="If you are looking for the best OCD therapist near me, contact us immediately to arrange a consultation and initiate the recovery process."
+          content="Premier Pain Centers for cognitive behavioral therapy offer customized treatment plans for every individual. Book an appointment now!"
         />
         <meta content="text/html; charset=utf-8" httpEquiv="Content-Type" />
         <meta content="initial-scale=1" name="viewport" />
@@ -40,11 +38,11 @@ const DoctorDetails = () => {
       <Navbar />
 
       <PageBanner
-        pageTitle="OCD Treatment Centers in Dallas, TX"
+        pageTitle="Cognitive Behavioral Therapy in Dallas, TX"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="ocd-treatment"
-        bgImage="/images/conditions-we-treat/back-pain/back.jpg"
+        activePageText="cognitive-behavioral-therapy"
+        bgImage="/images/tms-home/tms-banner.png"
       />
 
       <div className="doctor-details-area pt-4 pb-70">
@@ -71,7 +69,7 @@ const DoctorDetails = () => {
             </div>
 
             <div className="col-lg-8">
-              <OCDTreatmentDetails />
+              <CognitiveTreatmentDetails />
             </div>
           </div>
         </div>

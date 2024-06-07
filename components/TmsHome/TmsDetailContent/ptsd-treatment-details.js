@@ -18,7 +18,7 @@ const ServiceDetailsContent = () => {
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
-              To learn more about our fort worth back pain treatment services,
+              To learn more about our PTSD treatment in Dallas,
               give us a call at <a href="tel:+14695624188">
                 469-562-4188
               </a> or{" "}
@@ -137,7 +137,7 @@ const ServiceDetailsContent = () => {
             </p>
             <h3>Other Therapies</h3>
             <p>
-              Complementary and alternative therapies are also being used as
+              Complementary and alternative therapies are also being used as{" "}
               <Link href="/contact-locations/fort-worth/" rel="preload">
                 PTSD treatments in Fort Worth.{" "}
               </Link>{" "}
@@ -146,7 +146,7 @@ const ServiceDetailsContent = () => {
               acupuncture, yoga, and
               <Link href="/tms-therapy/" rel="preload">
                 {" "}
-                TMS therapy.
+                TMS therapy.{" "}
               </Link>
               Patients with this condition often benefit from peer support
               groups and treatment.

@@ -17,7 +17,7 @@ const ServiceDetailsContent = () => {
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
-              To learn more about our fort worth back pain treatment services,
+              To learn more about our anxiety treatment in Dallas,
               give us a call at <a href="tel:+14695624188">
                 469-562-4188
               </a> or{" "}
@@ -49,7 +49,7 @@ const ServiceDetailsContent = () => {
               to assisting you in understanding and managing your
               <Link href="/depression-treatment-in-dallas-tx/" rel="preload">
                 {" "}
-                depression
+                depression{" "}
               </Link>
               through comprehensive treatment plans that are tailored to your
               specific requirements. Our major therapies for mental health
@@ -131,7 +131,7 @@ const ServiceDetailsContent = () => {
               Dallas based on your needs and medical history. They can ease
               therapy and symptom management with{" "}
               <Link href="/tms-therapy/" rel="preload">
-                TMS therapy in Dallas.
+                TMS therapy in Dallas.{" "}
               </Link>
               Classifications of its medicines include:
             </p>

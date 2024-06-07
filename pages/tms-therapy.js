@@ -36,7 +36,6 @@ const Index = () => {
   return (
     <>
       <Head>
-        <meta name="robots" content="noindex" />
         <title>TMS Therapy Centers & Psychiatric Treatment in Dallas, TX</title>
         <link
           rel="canonical"
@@ -55,7 +54,6 @@ const Index = () => {
       <NavbarAppointment />
       <MainBanner />
       <TmsAbout />
-      {/* <Treatments /> */}
       <ConditionsWeTreat />
       <TmsTherapy />
       <AppointmentForm />

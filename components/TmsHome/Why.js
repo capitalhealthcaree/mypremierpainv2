@@ -8,7 +8,7 @@ const OurExpertise = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
-              <div className="about-item about-right">
+              <div className=" about-right">
                 <h2>What is TMS Therapy and How Does It Work?</h2>
                 <p>
                   Using MRI strength pulses, transcranial magnetic stimulation
@@ -24,21 +24,26 @@ const OurExpertise = () => {
                   Delayed brain activity can cause depression. Your brain may
                   struggle to relay signals to "snap out of" negative thoughts,
                   feelings, and behaviors when these brain networks don't
-                  coordinate. Depression, anxiety, sleep issues, cognitive
-                  impairment, and difficulties focusing often result from
-                  recurring connectivity issues. TMS is similar to physical
-                  therapy for rehabilitation. In outpatient sessions, TMS
-                  therapy employs repetition to increase strength and improve
-                  communication, training your brain to send signals on its own.
-                  A magnet's magnetic field is its influence in magnetically
-                  active space. You can't see the magnet at its center, but it
-                  affects that space. When a magnet is near a conductive item,
-                  the magnetic field generates electricity.
+                  coordinate. Depression,{" "}
+                  <Link href="/anxiety-treatment-in-dallas-tx/" rel="preload">
+                    anxiety
+                  </Link>
+                  , sleep issues, cognitive impairment, and difficulties
+                  focusing often result from recurring connectivity issues. TMS
+                  is similar to physical therapy for rehabilitation. In
+                  outpatient sessions, TMS therapy employs repetition to
+                  increase strength and improve communication, training your
+                  brain to send signals on its own. A magnet's magnetic field is
+                  its influence in magnetically active space. You can't see the
+                  magnet at its center, but it affects that space. When a magnet
+                  is near a conductive item, the magnetic field generates
+                  electricity.
                 </p>
-
-                <Link href="/contact-locations/" rel="preload">
-                  Contact Us
-                </Link>
+                <div className="about-item">
+                  <Link href="/contact-locations/" rel="preload">
+                    Contact Us
+                  </Link>
+                </div>
               </div>
             </div>
             <div className="col-lg-6">

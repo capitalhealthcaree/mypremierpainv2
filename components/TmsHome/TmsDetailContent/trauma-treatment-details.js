@@ -6,8 +6,6 @@ const ServiceDetailsContent = () => {
       <div className="service-details-area">
         <div className="container">
           <div className="services-details-img">
-            {/* <h2>FORT WORTH BACK PAIN TREATMENT</h2>
-            <h4>Spinal Pain Care & Rehabilitation</h4> */}
             <p>
               Living through a traumatic situation can have severe emotional
               effects. Traumatic experiences can be hard to categorize because a
@@ -19,10 +17,8 @@ const ServiceDetailsContent = () => {
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
-              To learn more about our fort worth back pain treatment services,
-              give us a call at <a href="tel:+14695624188">
-                469-562-4188
-              </a> or{" "}
+              To learn more about our Trauma treatment in Dallas, give us a call
+              at <a href="tel:+14695624188">469-562-4188</a> or{" "}
               <Link href="/contact-locations/" rel="preload">
                 contact us online
               </Link>{" "}
@@ -36,6 +32,7 @@ const ServiceDetailsContent = () => {
                 href="/anxiety-treatment-in-dallas-fort-worth/"
                 rel="preload"
               >
+                {" "}
                 anxiety
               </Link>
               , and the misuse of drugs if left untreated. It can impair daily

@@ -18,7 +18,7 @@ const ServiceDetailsContent = () => {
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
-              To learn more about our fort worth back pain treatment services,
+              To learn more about our Depression treatment in Dallas,
               give us a call at <a href="tel:+14695624188">
                 469-562-4188
               </a> or{" "}
@@ -163,8 +163,11 @@ const ServiceDetailsContent = () => {
               We know everyone's depression experience is different, so we
               adjust our treatment plans to your requirements and goals at
               Premier Pain Centers. Our caring staff will help you recuperate
-              every step of the way. Contact us for support if you or a loved
-              one is depressed.
+              every step of the way.{" "}
+              <Link href="/contact-locations/" rel="preload">
+                Contact us
+              </Link>{" "}
+              for support if you or a loved one is depressed.
             </p>
           </div>
         </div>

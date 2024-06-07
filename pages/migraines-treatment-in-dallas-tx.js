@@ -44,7 +44,7 @@ const DoctorDetails = () => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="migraines-treatment"
-        bgImage="/images/conditions-we-treat/back-pain/back.jpg"
+        bgImage="/images/tms-home/tms-banner.png"
       />
 
       <div className="doctor-details-area pt-4 pb-70">

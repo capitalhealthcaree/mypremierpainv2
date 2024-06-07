@@ -18,7 +18,7 @@ const ServiceDetailsContent = () => {
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
-              To learn more about our fort worth back pain treatment services,
+              To learn more about our Autism treatment in Dallas,
               give us a call at <a href="tel:+14695624188">
                 469-562-4188
               </a> or{" "}
@@ -122,14 +122,15 @@ const ServiceDetailsContent = () => {
             <p>
               Cognitive behavior therapy helps patients with autism spectrum
               disorders grasp how ideas affect behavior. Our professional
-              counselors help children recognize, rethink, and regulate emotions
+              counselors help children recognize, rethink, and regulate like
               <Link href="/anxiety-treatment-in-dallas-tx/" rel="preload">
-                like
-              </Link>{" "}
-              anxiety. This treatment helps kids handle social issues and other
-              life obstacles. CBT, like other autism treatments, is
-              individualized. The method may help with sleep disorders, but
-              additional research is needed. We also provide
+                {" "}
+                anxiety
+              </Link>
+              . This treatment helps kids handle social issues and other life
+              obstacles. CBT, like other autism treatments, is individualized.
+              The method may help with sleep disorders, but additional research
+              is needed. We also provide
               <Link href="/tms-therapy/" rel="preload">
                 {" "}
                 TMS therapy

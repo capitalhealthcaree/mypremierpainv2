@@ -27,7 +27,7 @@ const DoctorDetails = () => {
         <title>Depression Treatment Centers in Dallas, TX</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/trauma-treatment-in-dallas-fort-worth/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/depression-treatment-in-dallas-tx/`}
         />
         <meta
           name="description"
@@ -44,7 +44,7 @@ const DoctorDetails = () => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="depression-treatment"
-        bgImage="/images/conditions-we-treat/back-pain/back.jpg"
+        bgImage="/images/tms-home/tms-banner.png"
       />
 
       <div className="doctor-details-area pt-4 pb-70">

@@ -16,6 +16,8 @@ const ThreeSections = dynamic(() =>
 
 const Cocktails = dynamic(() => import("../components/IvBars/cocktails.js"));
 
+const WhyUs = dynamic(() => import("../components/IvBars/WhyUs.js"));
+
 const About = dynamic(() => import("../components/IvBars/about.js"));
 
 const Steps = dynamic(() => import("../components/IvBars/Steps.js"));
@@ -55,6 +57,7 @@ const Index = () => {
       <About />
       <Steps />
       <Cocktails />
+      <WhyUs />
       <AppointmentForm />
       <FeedbackSlider />
       <ThreeSections />

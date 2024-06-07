@@ -12,9 +12,9 @@ const AppointmentFormSideBar = dynamic(() =>
   import("../components/Appointment/AppointmentFormSideBar")
 );
 
-const OCDTreatmentDetails = dynamic(() =>
+const PanicDisorderTreatmentDetails = dynamic(() =>
   import(
-    "../components/TmsHome/TmsDetailContent/ocd-treatment-details.js"
+    "../components/TmsHome/TmsDetailContent/panic-disorder-treatment-details"
   )
 );
 
@@ -24,14 +24,14 @@ const DoctorDetails = () => {
   return (
     <>
       <Head>
-        <title>Obsessive-Compulsive (OCD) Specialists in Dallas, TX</title>
+        <title>Panic Disorder Therapist Near Me in Dallas, TX</title>
         <link
           rel="canonical"
           href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/trauma-treatment-in-dallas-fort-worth/`}
         />
         <meta
           name="description"
-          content="If you are looking for the best OCD therapist near me, contact us immediately to arrange a consultation and initiate the recovery process."
+          content="Panic disorder treatment in Dallas gives you peace of mind. Premier Pain Centers caring team uses cutting-edge therapy to deliver fast, long-term comfort."
         />
         <meta content="text/html; charset=utf-8" httpEquiv="Content-Type" />
         <meta content="initial-scale=1" name="viewport" />
@@ -40,11 +40,11 @@ const DoctorDetails = () => {
       <Navbar />
 
       <PageBanner
-        pageTitle="OCD Treatment Centers in Dallas, TX"
+        pageTitle="Panic Disorder Treatment in Dallas, TX"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="ocd-treatment"
-        bgImage="/images/conditions-we-treat/back-pain/back.jpg"
+        activePageText="panic-disorder-treatment"
+        bgImage="/images/tms-home/tms-banner.png"
       />
 
       <div className="doctor-details-area pt-4 pb-70">
@@ -71,7 +71,7 @@ const DoctorDetails = () => {
             </div>
 
             <div className="col-lg-8">
-              <OCDTreatmentDetails />
+              <PanicDisorderTreatmentDetails />
             </div>
           </div>
         </div>
