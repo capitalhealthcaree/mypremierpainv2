@@ -1,25 +1,24 @@
 import React from "react";
-import Link from "next/link";
 
 const data = [
   {
     imgSrc: "/images/iv-bars/section-1.jpg",
-    heading: "  iV Hydration Therapies & Infusions",
-    p: "Replenish, rejuvenate and restore your body’s essential nutrients. We have developed & served hundreds of thousands of iVs packed with vitamins, minerals and more.",
+    heading: "iV Hydration Therapies & Infusions",
+    p: "Revive and replenish your body's vital nutrients with our extensive experience in crafting and administering IVs infused with a variety of vitamins, minerals, and other essential elements.",
     btnText: "Discover",
     url: "/",
   },
   {
     imgSrc: "/images/iv-bars/section-2.jpg",
-    heading: "  iV Hydration Therapies & Infusions",
-    p: "Replenish, rejuvenate and restore your body’s essential nutrients. We have developed & served hundreds of thousands of iVs packed with vitamins, minerals and more.",
+    heading: "Wellness Injections & Vitamin Boosters",
+    p: "Our wellness injections beautifully complement a healthy lifestyle, enhancing IV treatments or serving as refreshing standalone pick-me-ups.",
     btnText: "Explore",
     url: "/",
   },
   {
     imgSrc: "/images/iv-bars/section-3.jpg",
-    heading: "  iV Hydration Therapies & Infusions",
-    p: "Replenish, rejuvenate and restore your body’s essential nutrients. We have developed & served hundreds of thousands of iVs packed with vitamins, minerals and more.",
+    heading: "Regenerative Therapy & Medical Aesthetics",
+    p: "Explore our diverse range of specialty services tailored to address your specific needs, including Cryotherapy, Infrared Saunas, Botox, Dermal Fillers, PRP, PDO Threads, and beyond.",
     btnText: "Experience",
     url: "/",
   },
