@@ -86,9 +86,7 @@ const DoctorDetails = () => {
 	return (
 		<>
 			<Head>
-				<title>
-					Dr. Odai Abdalla: Interventional Pain Management Physician
-				</title>
+				<title>Odai Abdalla MD: Interventional Pain Management Physician</title>
 				<link
 					rel="canonical"
 					href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/meet-our-team/odai-abdalla-md/`}
@@ -104,7 +102,7 @@ const DoctorDetails = () => {
 			<Navbar />
 
 			<PageBanner
-				pageTitle="Dr. Odai Abdalla"
+				pageTitle="Odai Abdalla MD"
 				homePageUrl="/"
 				homePageText="Home"
 				activePageText="dr-Odai-abdalla"
