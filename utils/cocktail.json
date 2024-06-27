@@ -1,0 +1,107 @@
+[
+	{
+		"imgSrc": "/images/iv-bars/cocktail/fast-infusion.png",
+		"name": "Fast Infusion"
+	},
+	{
+		"imgSrc": "/images/iv-bars/cocktail/balance.png",
+		"name": "Balance"
+	},
+	{
+		"imgSrc": "/images/iv-bars/cocktail/libido.png",
+		"name": "Libido"
+	},
+
+	{
+		"imgSrc": "/images/iv-bars/cocktail/metabolizer.png",
+		"name": "Metabolizer"
+	},
+	{
+		"imgSrc": "/images/iv-bars/cocktail/myers-plus.png",
+		"name": "Myers Plus"
+	},
+	{
+		"imgSrc": "/images/iv-bars/cocktail/supreme-c.png",
+		"name": "Supreme C"
+	},
+	{
+		"imgSrc": "/images/iv-bars/cocktail/rejuvenate.png",
+		"name": "Rejuvenate"
+	},
+	{
+		"imgSrc": "/images/iv-bars/cocktail/revive.png",
+		"name": "Revive"
+	},
+	{
+		"imgSrc": "/images/iv-bars/cocktail/mega-plus.png",
+		"name": "Mega Plus"
+	},
+	{
+		"imgSrc": "/images/iv-bars/cocktail/libido.png",
+		"name": "Immune Plus"
+	},
+	{
+		"imgSrc": "/images/iv-bars/cocktail/libido.png",
+		"name": "Immune Plus"
+	},
+	{
+		"imgSrc": "/images/iv-bars/cocktail/jolt.png",
+		"name": "Jolt"
+	},
+	{
+		"imgSrc": "/images/iv-bars/cocktail/performance.png",
+		"name": "Performance"
+	},
+	{
+		"imgSrc": "/images/iv-bars/cocktail/oxidizer.png",
+		"name": "Oxidizer"
+	},
+	{
+		"imgSrc": "/images/iv-bars/cocktail/rehydrate.png",
+		"name": "Rehydrate"
+	},
+	{
+		"imgSrc": "/images/iv-bars/cocktail/traveler.png",
+		"name": "Traveler"
+	},
+	{
+		"imgSrc": "/images/iv-bars/cocktail/nad.png",
+		"name": "NAD+"
+	},
+	{
+		"imgSrc": "/images/iv-bars/cocktail/iron.png",
+		"name": "Iron"
+	},
+	{
+		"imgSrc": "/images/iv-bars/cocktail/allure-plus.png",
+		"name": "Allure Plus"
+	},
+	{
+		"imgSrc": "/images/iv-bars/cocktail/restore.png",
+		"name": "Restore"
+	},
+	{
+		"imgSrc": "/images/iv-bars/cocktail/radiate.png",
+		"name": "Radiate"
+	},
+	{
+		"imgSrc": "/images/iv-bars/cocktail/hydration.png",
+		"name": "Hydration"
+	},
+	{
+		"imgSrc": "/images/iv-bars/cocktail/cleanse.png",
+		"name": "Cleanse"
+	},
+	{
+		"imgSrc": "/images/iv-bars/cocktail/myers-recovery.png",
+		"name": "Myers Recovery"
+	},
+	{
+		"imgSrc": "/images/iv-bars/cocktail/nirvana.png",
+		"name": "Nirvana"
+	},
+	{
+		"imgSrc": "/images/iv-bars/cocktail/clarity.png",
+		"name": "Clarity"
+	}
+]
