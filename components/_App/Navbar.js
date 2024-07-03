@@ -1526,6 +1526,18 @@ const Navbar = () => {
 											</li>{" "}
 											<li className="nav-item">
 												<Link
+													href="/images/New-Patient-Paper-Work.pdf/"
+													target="_blank"
+													className={`nav-link ${
+														currentPath == "/faqs/" && "active"
+													}`}
+													rel="preload"
+												>
+													New Patient Paper Work
+												</Link>
+											</li>
+											<li className="nav-item">
+												<Link
 													href="/faqs/"
 													className={`nav-link ${
 														currentPath == "/faqs/" && "active"
