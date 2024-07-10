@@ -12,7 +12,7 @@ const data = [
 	{
 		imgSrc: "/images/iv-bars/section-2.jpg",
 		heading: "Wellness Injections & Vitamin Boosters",
-		p: "Our wellness injections beautifully complement a healthy lifestyle, enhancing IV treatments or serving as refreshing standalone pick-me-ups.",
+		p: "Our wellness injections beautifully complement a healthy lifestyle, enhancing IV treatments or serving as refreshing standalone pick-me-ups for everyone.",
 		btnText: "Explore",
 		url: "/cocktails-in-dallas/",
 	},
@@ -27,7 +27,7 @@ const data = [
 const OurDoctors = () => {
 	return (
 		<>
-			<div className="doctors-area ptb-100">
+			<div className="doctors-area">
 				<div className="container-fluid">
 					<div className="row justify-content-center">
 						{data.map((item, i) => {
@@ -39,9 +39,9 @@ const OurDoctors = () => {
 										</div>
 										<div className="doctor-bottom">
 											<Link href={item.url}>
-												<h4 style={{ color: "rgb(0, 70, 192)" }}>
+												<h5 style={{ color: "rgb(0, 70, 192)" }}>
 													{item.heading}
-												</h4>
+												</h5>
 											</Link>
 											<span className="px-5">{item.p}</span>
 											<div className="about-item pt-4">
