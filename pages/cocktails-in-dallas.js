@@ -10,14 +10,6 @@ const OurServices = dynamic(() =>
 	import("../components/IvBars/Cocktails/index.js")
 );
 
-const AppointmentForm = dynamic(() =>
-	import("../components/IvBars/Appointment.js")
-);
-
-const LatestBlogPost = dynamic(() =>
-	import("../components/Common/LatestBlogPost")
-);
-
 const Footer = dynamic(() => import("../components/_App/Footer"));
 
 const Contact = () => {
@@ -48,7 +40,6 @@ const Contact = () => {
 				bgImage="/images/iv-bars/cocktail/banner.png"
 			/>
 			<OurServices />
-			<AppointmentForm />
 			<Footer />
 		</>
 	);

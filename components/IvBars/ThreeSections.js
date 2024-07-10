@@ -7,7 +7,7 @@ const data = [
 		heading: "iV Hydration Therapies & Infusions",
 		p: "Revive and replenish your body's vital nutrients with our extensive experience in crafting and administering IVs infused with a variety of vitamins, minerals, and other essential elements.",
 		btnText: "Discover",
-		url: "/",
+		url: "/iv-hydration-therapy-in-dallas/",
 	},
 	{
 		imgSrc: "/images/iv-bars/section-2.jpg",
