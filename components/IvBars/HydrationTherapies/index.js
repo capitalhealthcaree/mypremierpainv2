@@ -1,6 +1,4 @@
-import Link from "next/link";
 import Image from "next/image";
-import data from "../../../utils/conditionsWeTreat.json";
 const hydrationTherapies = () => {
 	return (
 		<>
@@ -44,7 +42,7 @@ const hydrationTherapies = () => {
 					</div>
 
 					<div className="row justify-content-center pt-5">
-						<div className="col-md-6 col-lg-6" key={i}>
+						<div className="col-md-6 col-lg-6">
 							<div className="blog-item">
 								<div className="blog-top">
 									<Image
