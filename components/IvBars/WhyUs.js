@@ -1,68 +1,55 @@
-const OurExpertise = () => {
-  return (
-    <>
-      <div className="expertise-area pb-4">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-6">
-              <div className=" about-right">
-                <h2>Why Us?</h2>
-                <p>
-                  Choose us for reliable, personalized, and results-driven IV
-                  infusion services that prioritize your health and well-being.
-                </p>
-                <div className="expertise-item">
-                  <div className="row">
-                    <div className="col-sm-6 col-lg-6">
-                      <div className="expertise-inner">
-                        <h3>Expertise</h3>
-                        <p>
-                          Skilled healthcare team offers tailored IV therapy
-                          treatments.
-                        </p>
-                      </div>
-                    </div>
-
-                    <div className="col-sm-6 col-lg-6">
-                      <div className="expertise-inner">
-                        <h3>Customization</h3>
-                        <p>
-                          Tailored IV plans for energy, recovery, and wellness
-                          goals.
-                        </p>
-                      </div>
-                    </div>
-
-                    <div className="col-sm-6 col-lg-6">
-                      <div className="expertise-inner">
-                        <h3>Quality Ingredients</h3>
-                        <p>
-                          Quality ingredients ensure optimal IV infusion
-                          results.
-                        </p>
-                      </div>
-                    </div>
-
-                    <div className="col-sm-6 col-lg-6">
-                      <div className="expertise-inner">
-                        <h3>Convenience</h3>
-                        <p>
-                          Convenient scheduling, supervised IV therapy options.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <img src="/images/iv-bars/why.png" alt="About" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </>
-  );
+const WhyUS = () => {
+	return (
+		<>
+			<div className="symptoms-area pt-3">
+				<div className="container">
+					<div className="row align-items-center">
+						<div className="col-lg-6">
+							<div className=" about-right">
+								<h2>Why Choose IV Therapy?</h2>
+								<h4>
+									Boost Your Health & Revitalize Your Life With IV Infusions
+								</h4>
+								<p>
+									Are you thinking about getting your first IV shot, or drip?
+									According to your symptoms or goals, our IV vitamin therapy
+									advice will help you get the right vitamins. Before starting
+									IV vitamin therapy, each of our patients gets a thorough
+									evaluation. A lot of clients report significant improvement
+									after one therapy. IV vitamins work faster because they don't
+									travel through the gut.{" "}
+								</p>
+								<p>
+									Our collaborative approach empowers you to manage your health.
+									We like to educate and make you feel better about your health
+									after leaving our clinic. IV micronutrient treatment infuses
+									high-dose minerals and vitamins into the bloodstream.
+									Naturally, our bodies absorb minerals and nutrients, although
+									the amount is small. Secondly, self-absorption takes a long
+									time.
+								</p>
+								<p>
+									We can speed recovery by injecting drugs, nutrients, and water
+									into the vein. This can help if the person requires fluids or
+									electrolytes urgently, such as during acute dehydration. Our
+									functional medicine-trained clinicians can give further
+									diagnostic tests, therapy, and support. Our drips target
+									certain health areas and can be customized. We recommend
+									giving us a complete health history so we can assist you
+									choose the right IV drip.
+								</p>
+							</div>
+						</div>
+						<div className="col-lg-6">
+							<div className="symptoms-img">
+								<img src="/images/iv-bars/why.jpg" alt="Symptoms" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</>
+	);
 };
 
-export default OurExpertise;
+export default WhyUS;

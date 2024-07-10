@@ -16,6 +16,10 @@ const ThreeSections = dynamic(() =>
 
 const Cocktails = dynamic(() => import("../components/IvBars/cocktails.js"));
 
+const FeelBeeterIVBars = dynamic(() =>
+	import("../components/IvBars/FeelBeeterIVBars.js")
+);
+
 const WhyUs = dynamic(() => import("../components/IvBars/WhyUs.js"));
 
 const About = dynamic(() => import("../components/IvBars/about.js"));
@@ -57,10 +61,11 @@ const Index = () => {
 			<About />
 			<Steps />
 			<Cocktails />
-			<WhyUs />
+			<FeelBeeterIVBars />
 			{/* <AppointmentForm /> */}
 			{/* <FeedbackSlider /> */}
 			<ThreeSections />
+			<WhyUs />
 			<Footer />
 		</>
 	);
