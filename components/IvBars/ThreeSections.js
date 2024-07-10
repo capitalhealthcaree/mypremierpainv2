@@ -21,7 +21,7 @@ const data = [
 		heading: "Regenerative Therapy & Medical Aesthetics",
 		p: "Explore our diverse range of specialty services tailored to address your specific needs, including Cryotherapy, Infrared Saunas, Botox, Dermal Fillers, PRP, PDO Threads, and beyond.",
 		btnText: "Experience",
-		url: "/",
+		url: "/beauty/",
 	},
 ];
 const OurDoctors = () => {
