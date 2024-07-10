@@ -5,7 +5,15 @@ const FeelBeeterIVBars = () => {
 				<div className="container">
 					<div className="row align-items-center">
 						<div className="col-lg-6">
-							<div className=" about-right">
+							<img
+								src="/images/iv-bars/feel-better-iv-bars.png"
+								alt="About"
+								className="img-fluid"
+								style={{ height: "100%", objectFit: "cover" }}
+							/>
+						</div>
+						<div className="col-lg-6">
+							<div className="about-right">
 								<h2>Feel Your Best With IV Therapy</h2>
 								<p>
 									Experience optimal health and fitness with our IV therapy
@@ -16,7 +24,7 @@ const FeelBeeterIVBars = () => {
 									energy, and improve your health. IV therapy is a rapid and
 									effective way to boost hydration, immunity, or recovery from a
 									rigorous workout. Trust us for the best IV therapy and
-									experience the impact skilled care can make.
+									experience the impact skilled care can make.
 								</p>
 								<div className="expertise-item">
 									<div className="row">
@@ -29,7 +37,6 @@ const FeelBeeterIVBars = () => {
 												</p>
 											</div>
 										</div>
-
 										<div className="col-sm-6 col-lg-6">
 											<div className="expertise-inner">
 												<h3>Customization</h3>
@@ -39,7 +46,6 @@ const FeelBeeterIVBars = () => {
 												</p>
 											</div>
 										</div>
-
 										<div className="col-sm-6 col-lg-6">
 											<div className="expertise-inner">
 												<h3>Quality Ingredients</h3>
@@ -49,7 +55,6 @@ const FeelBeeterIVBars = () => {
 												</p>
 											</div>
 										</div>
-
 										<div className="col-sm-6 col-lg-6">
 											<div className="expertise-inner">
 												<h3>Convenience</h3>
@@ -61,9 +66,6 @@ const FeelBeeterIVBars = () => {
 									</div>
 								</div>
 							</div>
-						</div>
-						<div className="col-lg-6">
-							<img src="/images/iv-bars/feel-better-iv-bars.png" alt="About" />
 						</div>
 					</div>
 				</div>

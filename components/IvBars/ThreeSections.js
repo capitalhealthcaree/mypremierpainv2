@@ -38,11 +38,9 @@ const OurDoctors = () => {
 											<img src={item.imgSrc} alt="Doctor" />
 										</div>
 										<div className="doctor-bottom">
-											<Link href={item.url}>
-												<h5 style={{ color: "rgb(0, 70, 192)" }}>
-													{item.heading}
-												</h5>
-											</Link>
+											<h5 style={{ color: "rgb(0, 70, 192)" }}>
+												{item.heading}
+											</h5>
 											<span className="px-5">{item.p}</span>
 											<div className="about-item pt-4">
 												<Link href={item.url}>{item.btnText}</Link>
