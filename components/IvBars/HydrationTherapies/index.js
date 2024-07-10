@@ -1,3 +1,6 @@
+import Link from "next/link";
+import Image from "next/image";
+import data from "../../../utils/conditionsWeTreat.json";
 const hydrationTherapies = () => {
 	return (
 		<>
@@ -15,79 +18,62 @@ const hydrationTherapies = () => {
 						the blood reservoir. As an outcome, there’s an increased absorption
 						rate that offers faster relief.
 					</p>
-					<div className="row align-items-center">
+					<p>
+						IV hydration therapies and infusions are used to manage a long list
+						of chronic ailments, including these:
+					</p>
+					<div className="row">
 						<div className="col-lg-6">
-							<img
-								src="/images/iv-bars/hydration-therapies/hydration-therapies.png"
-								alt="About"
-							/>
+							<li>Gout</li>
+							<li>Hyperemesis </li>
+							<li>Dermatomyositis</li>
+							<li>Rheumatoid arthritis</li>
+							<li>Iron deficiency anemia</li>
+							<li>Post-operative hydration</li>
+							<li>Opioid and alcohol dependence</li>
 						</div>
-
 						<div className="col-lg-6">
-							<div className="about-item about-right">
-								<p>
-									IV hydration therapies and infusions are used to manage a long
-									list of chronic ailments, including these:
-								</p>
+							<li>Lupus</li>
+							<li>Psoriatic arthritis</li>
+							<li>Multiple sclerosis</li>
+							<li>Ankylosing spondylitis</li>
+							<li>Magnesium deficiency</li>
+							<li>Inflammatory bowel disease</li>
+							<li>Primary immunodeficiency diseases (PIDDs)</li>
+						</div>
+					</div>
 
-								<ul>
-									<li>
-										<i className="icofont-check-circled"></i>
-										Gout
-									</li>
-									<li>
-										<i className="icofont-check-circled"></i>
-										Lupus
-									</li>{" "}
-									<li>
-										<i className="icofont-check-circled"></i>
-										Hyperemesis{" "}
-									</li>
-									<li>
-										<i className="icofont-check-circled"></i>
-										Psoriatic arthritis
-									</li>
-									<li>
-										<i className="icofont-check-circled"></i>
-										Dermatomyositis
-									</li>{" "}
-									<li>
-										<i className="icofont-check-circled"></i>
-										Multiple sclerosis
-									</li>
-									<li>
-										<i className="icofont-check-circled"></i>
-										Rheumatoid arthritis
-									</li>
-									<li>
-										<i className="icofont-check-circled"></i>
-										Ankylosing spondylitis
-									</li>{" "}
-									<li>
-										<i className="icofont-check-circled"></i>
-										Iron deficiency anemia
-									</li>{" "}
-									<li>
-										<i className="icofont-check-circled"></i>
-										Magnesium deficiency
-									</li>{" "}
-									<li>
-										<i className="icofont-check-circled"></i>
-										Post-operative hydration
-									</li>{" "}
-									<li>
-										<i className="icofont-check-circled"></i>
-										Inflammatory bowel disease
-									</li>{" "}
-									<li>
-										<i className="icofont-check-circled"></i>
-										Opioid and alcohol dependence
-									</li>{" "}
-									<li>
-										<i className="icofont-check-circled"></i>
-										Primary immunodeficiency diseases (PIDDs)
-									</li>{" "}
-								</ul>
+					<div className="row justify-content-center pt-5">
+						<div className="col-md-6 col-lg-6" key={i}>
+							<div className="blog-item">
+								<div className="blog-top">
+									<Image
+										src="/images/iv-bars/hydration-therapies/NAD-IV-Therapy.png"
+										alt="NAD-IV-Therapy"
+										width={400}
+										height={500}
+										loading="lazy"
+									/>
+								</div>
+								<div className="blog-bottom d-flex justify-content-center">
+									<h3>NAD IV Therapy</h3>
+								</div>
+							</div>
+						</div>
+						<div className="col-md-6 col-lg-6">
+							<div className="blog-item">
+								<div className="blog-top">
+									<Image
+										src="/images/iv-bars/hydration-therapies/Vitamin-Injections.png"
+										alt="Vitamin injections"
+										width={400}
+										height={500}
+										loading="lazy"
+									/>
+								</div>
+								<div className="blog-bottom d-flex justify-content-center">
+									<h3>Vitamin Injections</h3>
+								</div>
 							</div>
 						</div>
 					</div>
