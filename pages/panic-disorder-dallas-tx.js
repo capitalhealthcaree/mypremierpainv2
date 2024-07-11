@@ -27,7 +27,7 @@ const DoctorDetails = () => {
         <title>Panic Disorder Therapist Near Me in Dallas, TX</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/trauma-treatment-in-dallas-fort-worth/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/panic-disorder-dallas-tx/`}
         />
         <meta
           name="description"

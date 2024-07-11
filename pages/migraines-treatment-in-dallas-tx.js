@@ -27,7 +27,7 @@ const DoctorDetails = () => {
         <title>Best Migraine Specialist Near Dallas, Texas</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/trauma-treatment-in-dallas-fort-worth/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/migraines-treatment-in-dallas-tx/`}
         />
         <meta
           name="description"

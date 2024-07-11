@@ -25,7 +25,7 @@ const DoctorDetails = () => {
         <title>PTSD Treatment in Dallas - Book an Appointment Online</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/trauma-treatment-in-dallas-fort-worth/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/ptsd-treatment-in-dallas-tx/`}
         />
         <meta
           name="description"

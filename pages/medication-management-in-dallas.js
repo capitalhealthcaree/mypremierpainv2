@@ -25,7 +25,7 @@ const DoctorDetails = () => {
         <title>Best Medication Management Services in Dallas, TX</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/autism-treatment-in-dallas-fort-worth/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/medication-management-in-dallas/`}
         />
         <meta
           name="description"

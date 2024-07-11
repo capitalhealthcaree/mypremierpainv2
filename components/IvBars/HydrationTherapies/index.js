@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 const hydrationTherapies = () => {
 	return (
 		<>
@@ -54,7 +55,10 @@ const hydrationTherapies = () => {
 									/>
 								</div>
 								<div className="blog-bottom d-flex justify-content-center">
-									<h3>NAD IV Therapy</h3>
+									<Link href={"/nad-iv-therapy-in-dallas/"}>
+										{" "}
+										<h3 style={{ color: "rgb(0, 70, 192)" }}>NAD IV Therapy</h3>
+									</Link>
 								</div>
 							</div>
 						</div>
@@ -70,7 +74,11 @@ const hydrationTherapies = () => {
 									/>
 								</div>
 								<div className="blog-bottom d-flex justify-content-center">
-									<h3>Vitamin Injections</h3>
+									<Link href={"/vitamin-injections-in-dallas/"}>
+										<h3 style={{ color: "rgb(0, 70, 192)" }}>
+											Vitamin Injections
+										</h3>
+									</Link>
 								</div>
 							</div>
 						</div>

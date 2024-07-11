@@ -44,7 +44,7 @@ const Index = () => {
 				<title>IV Therapy & Medical Services in Dallas, TX</title>
 				<link
 					rel="canonical"
-					href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/tms-therapy/`}
+					href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/iv-therapy/`}
 				/>
 				<meta
 					name="description"
