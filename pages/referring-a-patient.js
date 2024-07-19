@@ -13,6 +13,7 @@ const PatientReferral = () => {
 	return (
 		<>
 			<Head>
+				<meta name="robots" content="noindex" />
 				<title>
 					Medical Professionals Referring Physician Form & Information
 				</title>
