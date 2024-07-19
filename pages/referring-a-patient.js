@@ -73,7 +73,7 @@ const PatientReferral = () => {
 							<i className="icofont-quote-left"></i>
 							Please contact our Referring Physician Hotline, available from
 							9:00 AM to 5:00 PM, Monday to Friday, by calling{" "}
-							<a href="tel:+14695624188">469-562-4188</a>
+							<a href="tel:+14695624188">469-562-4188</a>.
 						</blockquote>
 					</div>
 
