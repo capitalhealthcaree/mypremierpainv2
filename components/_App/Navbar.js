@@ -1538,6 +1538,17 @@ const Navbar = () => {
 											</li>
 											<li className="nav-item">
 												<Link
+													href="/referring-a-patient/"
+													className={`nav-link ${
+														currentPath == "/referring-a-patient/" && "active"
+													}`}
+													rel="preload"
+												>
+													Referring A Patient
+												</Link>
+											</li>{" "}
+											<li className="nav-item">
+												<Link
 													href="/faqs/"
 													className={`nav-link ${
 														currentPath == "/faqs/" && "active"
