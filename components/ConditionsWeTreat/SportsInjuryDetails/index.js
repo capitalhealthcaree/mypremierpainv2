@@ -1,191 +1,207 @@
 import React from "react";
 import Link from "next/link";
 const ServiceDetailsContent = () => {
-  return (
-    <>
-      <div className="service-details-area">
-        <div className="container">
-          <div className="services-details-img">
-            <h2>RICHARDSON SPORTS INJURY TREATMENT</h2>
-            <h4>Caring for All Types of Injuries</h4>
-            <p>
-              Playing sports is a fun activity that provides a range of
-              benefits, including relaxation, exercise, and socialization. As
-              beneficial as sports are, they can be dangerous and result in
-              injury. From minor muscle strains to more serious conditions,
-              sports injuries can severely limit your range of movement and
-              cause immense pain.
-            </p>
-            <p>
-              Are you experiencing knee pain due to the wear and tear on your
-              joints from playing sports? Maybe you have recently incurred a
-              serious sports-related back injury and need help as soon as
-              possible. Perhaps you were injured while playing sports in high
-              school or college and have never been 100% since. At{" "}
-              <b>Premier Pain Centers</b>, we have experience with treating a
-              wide range of sports injuries and are here to help you.
-            </p>
-            <blockquote>
-              <i className="icofont-quote-left"></i>
-              To learn more about our Hillsboro sports injury treatment
-              services, give us a call at{" "}
-              <a href="tel:+14695624188">469-562-4188</a> or{" "}
-              <Link href="/contact-locations/" rel="preload">
-                contact us online
-              </Link>{" "}
-              today.
-            </blockquote>
-            <h2>Types of Sports Injuries We Treat</h2>
-            <p>
-              As an active participant in sports, your body experiences more
-              strain than the average person. It is important to stretch, eat
-              healthy, and generally stay in shape if you play sports, as a lack
-              of preparation can lead to injury. Even active people who live a
-              healthy lifestyle can experience chronic pain in their muscles and
-              bones, but with{" "}
-              <Link href="/" rel="preload">
-                pain management in Dallas
-              </Link>
-              , you can ensure these issues don't interfere with your life.
-            </p>
-            <p>
-              People who play sports can also experience acute pain due to
-              twisting an ankle, breaking a bone, falling, or colliding with
-              another person during practice or a game. These events can lead to
-              an array of injuries —contact us to discuss your specific
-              circumstances and how we can help.
-            </p>
-            <b>We provide treatment services for conditions such as:</b>
-            <div className="row">
-              <div className="col-6">
-                <li>
-                  <Link href="/conditions-we-treat/joint-pain/" rel="preload">
-                    Joint Pain
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/conditions-we-treat/back-pain/" rel="preload">
-                    Back Pain
-                  </Link>
-                </li>
-              </div>{" "}
-              <div className="col-6">
-                <li>
-                  <Link href="/conditions-we-treat/neck-pain/" rel="preload">
-                    Neck Pain
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/conditions-we-treat/headaches/" rel="preload">
-                    Head Pain
-                  </Link>
-                </li>{" "}
-              </div>
-              <div className="col-6">
-                <li>
-                  <Link href="/conditions-we-treat/knee-pain/" rel="preload">
-                    Knee Pain
-                  </Link>
-                </li>
-              </div>{" "}
-            </div>
-            <h2>What Can Cause You A Sports Injury?</h2>
-            <p>
-              Sports injuries have many causes, including Accidents, such as
-              falls. Also, Bad habits with exercise, such as not getting warm or
-              stretching as much as required, Lack of safety equipment, damaged
-              gear, or improperly worn. However, Shoes that do not fit well or
-              provide adequate support may also be the cause of sports injury.
-              However, According to our team at{" "}
-              <Link href="/contact-locations/fort-worth/" rel="preload">
-                Fort Worth Sports Injury Treatment
-              </Link>
-              . We came to know that Sports injuries can happen to anyone,
-              especially people:
-            </p>
-            <li>They are no longer in shape.</li>
-            <li>Do not wear appropriate protective equipment.</li>
-            <li>
-              Exercise without warming up or without normalizing body
-              temperature.
-            </li>
-            <li>
-              Participate in communication games that may involve fighting or
-              conflict.
-            </li>
-            <li>
-              Participate in activities that include jumping, running, and
-              navigating or changing direction quickly.
-            </li>
-            <h2>How Can I Diagnose My Injury?</h2>
-            <p>
-              Pain or discomfort is often felt right away after sustaining a
-              sports injury. Overuse injuries, for example, may not show any
-              symptoms until years later. Normal medical exams are typically the
-              occasion on which these wounds are discovered. With the help of
-              our team at{" "}
-              <Link href="/contact-locations/corsicana/" rel="preload">
-                Corsicana Sports Injury Treatment
-              </Link>
-              , This is the process your doctor will most likely go through to
-              determine whether or not you have a sports injury. Among these
-              are:
-            </p>
-            <li>
-              <b>Physical Examination:</b> The medical staff may try to
-              reposition the affected area of your body. This gives them a
-              better idea of the pace of change in the area, or the lack
-              thereof.
-            </li>
-            <li>
-              <b>Medical History:</b> This will entail asking you questions
-              regarding the circumstances surrounding your injuries, your
-              activities at the time of the incident, and your recovery thus
-              far. In addition, if this is your first visit to{" "}
-              <Link
-                href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
-                rel="preload"
-              >
-                best pain doctor in Dallas
-              </Link>
-              , they may want to know more about your medical background.
-            </li>
-            <li>
-              <b>Diagnostic Imaging:</b> Medical imaging technologies such as
-              X-rays, MRIs, CT scans, and ultrasounds allow doctors and medical
-              professionals to look within the body. To confirm a suspected
-              sports injury, this is helpful.
-            </li>
-            <h2>How We Treat Sports Injuries</h2>
-            <p>
-              Our pain management plans are tailored to the needs of each of our
-              patients. We will work to understand your situation, so your
-              treatment is designed with your goals for care in mind. You may
-              require a one-time procedure to treat an injury or may want to
-              participate in a long-term therapy program to ensure your body is
-              operating at peak physical condition. With Premier Pain Centers,
-              you can feel confident that our professionals will work to achieve
-              the solutions you are seeking.
-            </p>
-            <h2>Contact Us Now for Dependable Pain Relief</h2>
-            <p>
-              If you were recently injured while playing sports or are looking
-              for respite from sports-related chronic pain, get in touch with
-              us. We are committed to helping our patients live the life they
-              want. Same-day appointments are available at our facility, so you
-              can start on your treatment plan as soon as you are ready.
-            </p>
-            <blockquote>
-              <i className="icofont-quote-left"></i>
-              Call us at <a href="tel:+14695624188">469-562-4188</a> or contact
-              us online to learn more about our Richardson sports injury
-              treatment.
-            </blockquote>
-          </div>
-        </div>
-      </div>
-    </>
-  );
+	return (
+		<>
+			<div className="service-details-area">
+				<div className="container">
+					<div className="services-details-img">
+						<p>
+							While exercising or playing sports, injuries occur. Although
+							children are more at risk, adults can also develop similar
+							injuries. You risk sports injuries if you have not been
+							consistently active, improperly warmed up before exercising, or
+							participated in contact sports.
+						</p>
+						<h2>Which Body Parts Sustain Injuries Most Frequently?</h2>
+						<p>
+							Sports injuries can affect any body component. In most cases, they
+							affect:
+						</p>
+						<ul>
+							<li>
+								Achilles Tendonitis: The thick cord that runs from the back of
+								your knee to your heel is the Achilles tendon. It aids in
+								walking. The tendon can swell, inflame, and stiffen.
+							</li>
+							<li>
+								Ankle: Leg and foot unite at the ankle. Three joints—bones,
+								cartilage, ligaments, muscles, and tendons—are present. Sprained
+								ankles induce agony.
+							</li>
+							<li>
+								Elbow: The elbow hinges your upper and lower arms. Tennis elbow,
+								Little League elbow, and other repetitive motions cause elbow
+								pain.
+							</li>
+							<li>
+								Head: Your head contains your face, skull, and brain. A
+								concussion is a common head injury. Visit a{" "}
+								<b>concussion treatment center in Dallas</b> in case of injury.
+							</li>
+							<li>
+								Knee: The knee connects your thigh to the bottom of your leg. It
+								has bones, cartilage, ligaments, and tendons. Jumpers and
+								runners can hurt their knees. Other common ailments include
+								meniscus and ACL tears.
+							</li>
+							<li>
+								Shoulder: Your shoulder is where your upper arm meets your body.
+								Your rotator cuff tendons and muscles help stabilize your
+								<Link href="/conditions-we-treat/shoulder-pain/" rel="preload">
+									{" "}
+									shoulder pain
+								</Link>
+								. Tendinitis and tears in the rotator cuff are common injuries
+								in sports.
+							</li>
+						</ul>
+						<h2>Types of Sports Injuries</h2>
+						<p>
+							When you get hurt in sports, there are different signs and
+							effects. Most of the time, sports accidents happen when:
+						</p>
+						<ul>
+							<li>Sprains happen when muscles are overstretched or torn.</li>
+							<li>
+								Strains are when you overstretch or tear muscles or tendons.
+							</li>
+							<li>Broken bones are caused by stress or excessive pressure.</li>
+							<li>
+								Dislocations: When a bone comes out of its socket, it can cause
+								pain, edema, and weakening.
+							</li>
+							<li>
+								Rotator cuff injury: It helps with shoulder mobility. Any injury
+								to these muscles weakens the rotator cuff.
+							</li>
+							<li>
+								Numbness or tingling: Nerve compression may cause these
+								symptoms.
+							</li>
+							<li>
+								Joint pain may indicate structural damage or an injury. Symptoms
+								of inflammation include swelling. The body responds to harm and
+								starts the immune system's healing process. Blood and fluid
+								gather to protect and cure damaged tissue or bones, causing
+								swelling.
+							</li>
+							<li>
+								Instability: If your knee feels unstable when running or
+								climbing stairs, visit a{" "}
+								<Link href="/meet-our-team/rao-k-ali/" rel="preload">
+									{" "}
+									sports orthopedic near me
+								</Link>{" "}
+								to rule out a damaged ligament.
+							</li>
+							<li>
+								Stiffness: Limited range of motion may indicate injury severity.
+							</li>
+							<li>
+								If an injured region becomes weaker afterward, it may suggest
+								structural muscle or tendon damage that hinders normal function.
+							</li>
+							<li>
+								Redness: Abrasions, allergies, and infections all cause
+								inflammation and redness. If you have inexplicable skin redness
+								and a high injury temperature, visit a{" "}
+								<b>sports and injury clinic</b>.
+							</li>
+							<li>
+								Confusion, difficulties concentrating, memory issues, headaches,
+								dizziness, nausea, and irritability can follow. One should not
+								disregard a head concussion, which can be fatal.
+							</li>
+						</ul>
+						<h2>Causes of Sports Injury</h2>
+						<p>
+							Accidents, inadequate training, equipment, conditioning, warm-ups,
+							and stretching can cause sports injuries.Two types of sports
+							injuries exist:
+						</p>
+						<ul>
+							<li>Acute Injury: An accident causes instant symptoms.</li>
+							<li>
+								Chronic injury: long-term An acute injury that doesn't heal,
+								joint overuse, or incorrect form might cause it. Many sportsmen
+								perform through pain, causing persistent injuries.
+							</li>
+						</ul>
+						<h2>Diagnosis of Sport Injury</h2>
+						<p>
+							Your description of the injury usually clarifies it for a{" "}
+							<Link href="/contact-locations/plano/" rel="preload">
+								sports injury doctor in Plano{" "}
+							</Link>
+							or a sports injury specialist. Standard sports injury tests entail
+							bending the joint or tendon. Tennis elbow treatment near me
+							requires you to place your forearm on a table and move your wrist
+							forward or backward while{" "}
+							<Link href="https://g.co/kgs/x6Dzvv4/" rel="preload">
+								the best sports orthopedic doctor near me
+							</Link>{" "}
+							restrains your hand. Only severe injuries and fractures
+							necessitate X-rays and other scans.
+						</p>
+						<h2>Treatment for Sports Injuries</h2>
+						<p>
+							RICE is often used to treat some types of <b>sports injuries</b>.
+							It means to rest, ice, compress, and raise the body. This therapy
+							helps with mild sports injuries. RICE works best between 24 and 36
+							hours after an injury. When done right away after a sports
+							accident, it can help reduce pain, swelling, and bruises. RICE
+							directions and times for recovery. <b>Sports injury treatment</b>
+							includes both over-the-counter and prescription drugs. Most of
+							them ease pain and swelling. Seek immediate medical attention if
+							the joint exhibits extreme swelling, discomfort, or obvious
+							abnormalities. When using the joint, there are sounds of popping
+							or crunching, weakness or inability to put weight on it, and
+							instability. If you experience any of these symptoms, seek
+							emergency care immediately. Sports injuries may require{" "}
+							<Link href="https://advancedcaresurgerycenter.com/" rel="preload">
+								{" "}
+								orthopedic surgery.
+							</Link>
+						</p>
+						<h2>Injury Prevention in Sports</h2>
+						<p>
+							To lower the risk of <b>sports injuries</b>, warm up by gently
+							moving through your sport and executing gradual, prolonged
+							stretches.
+						</p>
+						<ul>
+							<li>Comfortable footwear.</li>
+							<li>Secure vulnerable joints with tape or straps.</li>
+							<li>Protect yourself with mouthguards, helmets, and pads.</li>
+							<li>Hydrate before, during, and after the game.</li>
+							<li>
+								Avoid exercising between 11 a.m. and 3 p.m., when it's warmest.
+							</li>
+							<li>Cross-train with other sports to stay fit and strong.</li>
+							<li>
+								Check your health regularly and consult with the{" "}
+								<Link href="/" rel="preload">
+									sports injury clinic in Dallas
+								</Link>
+								.
+							</li>
+							<li>
+								Make sure training includes speed and impact work to prepare
+								muscles for games.
+							</li>
+							<li>
+								Stay within your fitness level. Increase workout intensity and
+								duration gradually.
+							</li>
+							<li>Gently stretch after exercise to cool off.</li>
+							<li>Take time to rest between sessions.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</>
+	);
 };
 
 export default ServiceDetailsContent;

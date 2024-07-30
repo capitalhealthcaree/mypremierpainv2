@@ -7,63 +7,63 @@ const Navbar = dynamic(() => import("../../components/_App/Navbar"));
 const PageBanner = dynamic(() => import("../../components/Common/PageBanner"));
 
 const AppointmentFormSideBar = dynamic(() =>
-  import("../../components/Appointment/AppointmentFormSideBar")
+	import("../../components/Appointment/AppointmentFormSideBar")
 );
 
 const ConditionsWeTreatLeftSide = dynamic(() =>
-  import("../../components/Common/ConditionsWeTreatLeftSide")
+	import("../../components/Common/ConditionsWeTreatLeftSide")
 );
 
 const HeadachesDetails = dynamic(() =>
-  import("../../components/ConditionsWeTreat/HeadachesDetails")
+	import("../../components/ConditionsWeTreat/HeadachesDetails")
 );
 
 const Footer = dynamic(() => import("../../components/_App/Footer"));
 
 const DoctorDetails = () => {
-  return (
-    <>
-      <Head>
-        <title>Headaches Specialists Doctors in Cleburne, TX</title>
-        <link
-          rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/conditions-we-treat/headaches/`}
-        />
-        <meta
-          name="description"
-          content="If you suffer from headaches and migraines, contact Premier Pain Centers in Richardson, Fort Worth, and the surrounding areas to schedule an appointment."
-        />
-        <meta content="text/html; charset=utf-8" httpEquiv="Content-Type" />
-        <meta content="initial-scale=1" name="viewport" />
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-      </Head>
-      <Navbar />
-      <PageBanner
-        pageTitle="Headaches"
-        homePageUrl="/"
-        homePageText="Home"
-        activePageText="headaches"
-        bgImage="/images/conditions-we-treat/headaches/head.jpg"
-      />
+	return (
+		<>
+			<Head>
+				<title>Headaches and Migraine Specialist in Dallas, TX</title>
+				<link
+					rel="canonical"
+					href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/conditions-we-treat/headaches/`}
+				/>
+				<meta
+					name="description"
+					content="Our headaches specialist in Dallas offers expert care to alleviate your pain. Schedule an appointment today for personalized and effective treatment."
+				/>
+				<meta content="text/html; charset=utf-8" httpEquiv="Content-Type" />
+				<meta content="initial-scale=1" name="viewport" />
+				<meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+			</Head>
+			<Navbar />
+			<PageBanner
+				pageTitle="Headaches"
+				homePageUrl="/"
+				homePageText="Home"
+				activePageText="headaches"
+				bgImage="/images/conditions-we-treat/headaches/head.jpg"
+			/>
 
-      <div className="doctor-details-area pt-4 pb-50">
-        <div className="container-fluid p-lg-5">
-          <div className="row">
-            <div className="col-lg-4">
-              <AppointmentFormSideBar />
-              <ConditionsWeTreatLeftSide />
-            </div>
+			<div className="doctor-details-area pt-4 pb-50">
+				<div className="container-fluid p-lg-5">
+					<div className="row">
+						<div className="col-lg-4">
+							<AppointmentFormSideBar />
+							<ConditionsWeTreatLeftSide />
+						</div>
 
-            <div className="col-lg-8">
-              <HeadachesDetails />
-            </div>
-          </div>
-        </div>
-      </div>
+						<div className="col-lg-8">
+							<HeadachesDetails />
+						</div>
+					</div>
+				</div>
+			</div>
 
-      <Footer />
-    </>
-  );
+			<Footer />
+		</>
+	);
 };
 
 export default DoctorDetails;
