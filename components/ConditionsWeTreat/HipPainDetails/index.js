@@ -154,7 +154,10 @@ const ServiceDetailsContent = () => {
 						<p>
 							Hip pain can be relieved by holistic methods. Discuss alternate
 							treatments with your{" "}
-							<Link href="/meet-our-team/rao-k-ali/" rel="preload">
+							<Link
+								href="https://advancedcaresurgerycenter.com/blog/the-transformative-impact-of-total-hip-replacement-surgery/"
+								rel="preload"
+							>
 								hip specialist in Dallas
 							</Link>{" "}
 							before trying them. Acupuncture and chiropractic adjustments are

@@ -141,7 +141,7 @@ const ServiceDetailsContent = () => {
 								Simple at-Home Remedies: Your{" "}
 								<Link href="/meet-our-team/william-moore-md/" rel="preload">
 									joint pain specialist in Dallas
-								</Link>
+								</Link>{" "}
 								may suggest applying a heating pad or ice to the affected area
 								several times a day. Taking a warm bath may also help.
 							</li>
@@ -213,7 +213,10 @@ const ServiceDetailsContent = () => {
 						</p>
 						<p>
 							Speaking to a{" "}
-							<Link href="/treatments/trigger-point-injections/" rel="preload">
+							<Link
+								href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
+								rel="preload"
+							>
 								best pain doctor in Dallas
 							</Link>{" "}
 							about your discomfort is important if it's getting in the way of

@@ -53,7 +53,7 @@ const ServiceDetailsContent = () => {
 								A pinched nerve can cause searing or severe neck pain that
 								spreads down the arm. Talk to a{" "}
 								<Link href="https://g.co/kgs/Zn4d87p/" rel="preload">
-									neck pain specialist near me
+									neck pain specialist near me{" "}
 								</Link>
 								about this symptom.
 							</li>
@@ -148,7 +148,7 @@ const ServiceDetailsContent = () => {
 								If your neck pain persists, your{" "}
 								<Link href="/contact-locations/hillsboro/" rel="preload">
 									neck pain doctor in Hillsboro
-								</Link>
+								</Link>{" "}
 								will explore. In some cases, neck spine surgery or steroid
 								injections relieve severe neck pain.
 							</li>
