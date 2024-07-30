@@ -1536,7 +1536,7 @@ const Navbar = () => {
 													New Patient Paper Work
 												</Link>
 											</li>
-											{/* <li className="nav-item">
+											<li className="nav-item">
 												<Link
 													href="/referring-a-patient/"
 													className={`nav-link ${
@@ -1546,7 +1546,7 @@ const Navbar = () => {
 												>
 													Referring A Patient
 												</Link>
-											</li>{" "} */}
+											</li>{" "}
 											<li className="nav-item">
 												<Link
 													href="/faqs/"
