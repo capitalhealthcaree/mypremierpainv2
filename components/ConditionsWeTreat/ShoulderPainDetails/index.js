@@ -222,7 +222,7 @@ const ServiceDetailsContent = () => {
 							</Link>{" "}
 							may consider arthroplasty for a serious fracture. The rotator cuff
 							ruptures. The severe rotator cuff pain can only be fixed through
-							surgery. However, not all tears need to be fixed. A good
+							surgery. However, not all tears need to be fixed. A good{" "}
 							<Link
 								href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
 								rel="preload"
