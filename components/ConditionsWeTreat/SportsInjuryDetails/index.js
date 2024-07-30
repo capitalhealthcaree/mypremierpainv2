@@ -154,7 +154,7 @@ const ServiceDetailsContent = () => {
 							helps with mild sports injuries. RICE works best between 24 and 36
 							hours after an injury. When done right away after a sports
 							accident, it can help reduce pain, swelling, and bruises. RICE
-							directions and times for recovery. <b>Sports injury treatment</b>
+							directions and times for recovery. <b>Sports injury treatment</b>{" "}
 							includes both over-the-counter and prescription drugs. Most of
 							them ease pain and swelling. Seek immediate medical attention if
 							the joint exhibits extreme swelling, discomfort, or obvious
