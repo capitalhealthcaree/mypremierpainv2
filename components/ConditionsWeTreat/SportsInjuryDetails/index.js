@@ -107,7 +107,7 @@ const ServiceDetailsContent = () => {
 								inflammation and redness. If you have inexplicable skin redness
 								and a high injury temperature, visit a{" "}
 								<Link href="/contact-locations/hillsboro/" rel="preload">
-									sports and injury clinic
+									sports and injury clinic in Hillsboro
 								</Link>
 								.
 							</li>
@@ -140,9 +140,9 @@ const ServiceDetailsContent = () => {
 							or a sports injury specialist. Standard sports injury tests entail
 							bending the joint or tendon. Tennis elbow treatment near me
 							requires you to place your forearm on a table and move your wrist
-							forward or backward while{" "}
+							forward or backward while the{" "}
 							<Link href="https://g.co/kgs/x6Dzvv4/" rel="preload">
-								the best sports orthopedic doctor near me
+								best sports orthopedic doctor near me
 							</Link>{" "}
 							restrains your hand. Only severe injuries and fractures
 							necessitate X-rays and other scans.
