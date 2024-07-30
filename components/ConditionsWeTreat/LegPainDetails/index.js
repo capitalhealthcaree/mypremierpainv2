@@ -89,10 +89,12 @@ const ServiceDetailsContent = () => {
 						</p>
 						<h3>Shin Splints</h3>
 						<p>
-							Sports injuries can result from extreme activity. Jogging and
-							running overload muscles and tendons with repetitive impact. Shin
-							splints cause severe muscle and bone discomfort around the shin
-							bone.
+							<Link href="/conditions-we-treat/sports-injury/" rel="preload">
+								Sports injuries{" "}
+							</Link>{" "}
+							can result from extreme activity. Jogging and running overload
+							muscles and tendons with repetitive impact. Shin splints cause
+							severe muscle and bone discomfort around the shin bone.
 						</p>
 						<h3>Broken Bones and Fractures</h3>
 						<p>
@@ -116,7 +118,10 @@ const ServiceDetailsContent = () => {
 						<h2>Call a Doctor When</h2>
 						<p>
 							Contact your{" "}
-							<Link href="/meet-our-team/rao-k-ali/" rel="preload">
+							<Link
+								href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
+								rel="preload"
+							>
 								leg pain doctor in Dallas
 							</Link>{" "}
 							if your

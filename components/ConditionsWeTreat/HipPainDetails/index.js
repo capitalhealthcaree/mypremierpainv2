@@ -26,8 +26,14 @@ const ServiceDetailsContent = () => {
 							in the groin, buttocks, or inside of the hip, depending on the
 							cause. Hip pain can be caused by arthritis, fractures, labral
 							tears, dislocations, bursitis, and structural abnormalities.{" "}
-							<b>Hip pain when walking</b> is more common in dancers and
-							gymnasts who move their hips in all directions.
+							<Link
+								href="/blog/treatments/hip-pain-when-walking/"
+								rel="preload"
+							>
+								Hip pain when walking
+							</Link>{" "}
+							is more common in dancers and gymnasts who move their hips in all
+							directions.
 						</p>
 						<p>The following conditions often cause hip pain:</p>
 						<h3>Osteoarthritis</h3>
@@ -74,7 +80,10 @@ const ServiceDetailsContent = () => {
 						<h3>Other Conditions</h3>
 						<p>
 							Common hip pain ailments include muscle strains, particularly{" "}
-							<b>hip flexor pain</b>.
+							<Link href="/blog/treatments/hip-flexor-pain/" rel="preload">
+								hip flexor pain
+							</Link>
+							.
 						</p>
 						<ul>
 							<li>Tibial band syndrome.</li>
@@ -88,28 +97,45 @@ const ServiceDetailsContent = () => {
 							</li>
 							<li>Hip development abnormality.</li>
 							<p>
-								The<b> best pain doctor in Dallas </b>may label these
-								“structural abnormalities.” Hip pain may occur in childhood or
-								adulthood, depending on the condition.
+								The
+								<Link
+									href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
+									rel="preload"
+								>
+									{" "}
+									best pain doctor in Dallas{" "}
+								</Link>{" "}
+								may label these “structural abnormalities.” Hip pain may occur
+								in childhood or adulthood, depending on the condition.
 							</p>
 						</ul>
 						<h2>When to See A Doctor</h2>
 						<p>
 							Self-treatment for hip pain is usually possible. If your
 							discomfort persists after two weeks of medication, see a doctor.
-							Visit a <b>hip pain specialist near you</b> immediately if you
-							have experienced a fall or hip injury, are experiencing worsening
-							pain, are experiencing difficulties with daily tasks, are feeling
-							feverish or ill, or are losing weight.
+							Visit a{" "}
+							<Link href="https://g.co/kgs/QXbpW5h/" rel="preload">
+								hip pain specialist near you
+							</Link>{" "}
+							immediately if you have experienced a fall or hip injury, are
+							experiencing worsening pain, are experiencing difficulties with
+							daily tasks, are feeling feverish or ill, or are losing weight.
 						</p>
 						<h2>Hip Pain Treatment Options</h2>
 						<p>
 							The cause determines hip pain treatment. Rest usually heals hip
 							pain from exercising. This type of soreness usually subsides
-							within a few days.<b> Pain management in Dallas</b> will prescribe
-							arthritis, pain, and stiffness drugs. Your doctor may refer you to
-							a specialist for treatments like <b> hip joint injections</b> and
-							to a physical trainer for exercises to help your joints move
+							within a few days.{" "}
+							<Link href="/" rel="preload">
+								Pain management in Dallas
+							</Link>{" "}
+							will prescribe arthritis, pain, and stiffness drugs. Your doctor
+							may refer you to a specialist for treatments like{" "}
+							<Link href="/treatments/hip-joint-injections/" rel="preload">
+								{" "}
+								hip joint injections
+							</Link>{" "}
+							and to a physical trainer for exercises to help your joints move
 							better.
 						</p>
 						<p>
@@ -118,25 +144,34 @@ const ServiceDetailsContent = () => {
 							and injuries may need surgery to fix or replace the hip. A broken
 							hip joint is replaced with an artificial one during hip
 							replacement surgery. Despite the need for physical therapy to
-							adjust to the new joint, hip replacement surgery is usually
-							successful.
+							adjust to the new joint,{" "}
+							<Link href="/treatments/hip-joint-injections/" rel="preload">
+								hip replacement surgery{" "}
+							</Link>
+							is usually successful.
 						</p>
 						<h3>Alternative Treatments</h3>
 						<p>
 							Hip pain can be relieved by holistic methods. Discuss alternate
-							treatments with your <b>hip specialist</b> in Dallas before trying
-							them. Acupuncture and chiropractic adjustments are holistic
-							remedies. This includes temporarily inserting tiny needles into
-							important bodily locations to facilitate recovery.
+							treatments with your{" "}
+							<Link href="/meet-our-team/rao-k-ali/" rel="preload">
+								hip specialist in Dallas
+							</Link>{" "}
+							before trying them. Acupuncture and chiropractic adjustments are
+							holistic remedies. This includes temporarily inserting tiny
+							needles into important bodily locations to facilitate recovery.
 						</p>
-						<h2>Note From Premier Pain Center</h2>
+						<h2>Note From Premier Pain Centers</h2>
 						<p>
 							Hip discomfort often indicates numerous conditions. Just because
 							hip discomfort is common doesn't mean you should suffer. If
 							at-home remedies haven't worked and your hip hurts enough to keep
-							you from enjoying your favorite hobbies, see a{" "}
-							<b>pain physician in Dallas</b>. Your doctor will diagnose{" "}
-							<b>hip pain</b> and treat it to get you back on your feet.
+							you from enjoying your favorite hobbies, see with{" "}
+							<Link href="/meet-our-team/rao-k-ali/" rel="preload">
+								pain physicians in Dallas
+							</Link>
+							. Your doctor will diagnose hip pain and treat it to get you back
+							on your feet.
 						</p>
 					</div>
 				</div>

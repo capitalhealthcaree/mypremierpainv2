@@ -74,7 +74,7 @@ const ServiceDetailsContent = () => {
 								Ruptured discs: Discs are responsible for cushioning each
 								vertebra in the spine. Disc ruptures put pressure on nerves,
 								causing back pain. The{" "}
-								<Link href="/https://g.co/kgs/C2XYzAR/" rel="preload">
+								<Link href="https://g.co/kgs/C2XYzAR/" rel="preload">
 									spine doctor near me{" "}
 								</Link>
 								can help in diagnosing ruptured discs and provide treatment for
@@ -104,10 +104,13 @@ const ServiceDetailsContent = () => {
 						<h3>Movement & Posture</h3>
 						<p>
 							Adopting a hunched posture while sitting at a computer can cause
-							more back and shoulder problems over time. An orthopedic spine
-							specialist in Hillsboro can help in maintaining the proper posture
-							to lessen the back pain. Back discomfort can also occur from bad
-							posture or daily activity. Some examples are:
+							more back and shoulder problems over time. An{" "}
+							<Link href="/contact-locations/hillsboro/" rel="preload">
+								orthopedic spine specialist in Hillsboro{" "}
+							</Link>
+							can help in maintaining the proper posture to lessen the back
+							pain. Back discomfort can also occur from bad posture or daily
+							activity. Some examples are:
 						</p>
 						<ul>
 							<li>Twisting</li>
@@ -173,10 +176,16 @@ const ServiceDetailsContent = () => {
 						</ul>
 						<h2>Back Pain Treatment</h2>
 						<p>
-							If you are searching for a good back pain specialist near me, you
-							need to list down the pros and cons and tips for choosing the
-							right doctor and treatment plan. Premier pain centers provide the
-							best therapy plans according to your needs. Many people with
+							If you are searching for a good{" "}
+							<Link
+								href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
+								rel="preload"
+							>
+								back pain specialist near me
+							</Link>
+							, you need to list down the pros and cons and tips for choosing
+							the right doctor and treatment plan. Premier pain centers provide
+							the best therapy plans according to your needs. Many people with
 							discomfort don't need substantial <b>back pain treatment</b>.
 							Over-the-counter painkillers usually work. In severe
 							circumstances, heavier therapies may be needed, but your doctor
@@ -187,7 +196,7 @@ const ServiceDetailsContent = () => {
 							Back pain that doesn't respond to OTC painkillers may need an
 							NSAID. Narcotics like codeine or hydrocodone can be prescribed
 							temporarily. Doctors must closely monitor these.{" "}
-							<Link href="/contact-locations/lancaster/" rel="preload">
+							<Link href="/meet-our-team/" rel="preload">
 								Spine doctors in Dallas
 							</Link>{" "}
 							may prescribe muscle relaxants. Antidepressants like amitriptyline
@@ -223,10 +232,13 @@ const ServiceDetailsContent = () => {
 						<h3>Surgery</h3>
 						<p>
 							Structural problems that haven't responded to medication and
-							therapy usually require surgery. <b>Herniated disc surgery</b> is
-							best for back pain because it can relieve the pressure on nerves
-							and can alleviate the pain. Medical conditions that may require
-							surgery include:
+							therapy usually require surgery.{" "}
+							<Link href="https://advancedcaresurgerycenter.com/" rel="preload">
+								Herniated disc surgery
+							</Link>{" "}
+							is best for back pain because it can relieve the pressure on
+							nerves and can alleviate the pain. Medical conditions that may
+							require surgery include:
 						</p>
 						<ul>
 							<li>Chronic pain with structural defects</li>
@@ -240,10 +252,7 @@ const ServiceDetailsContent = () => {
 							These tips can relieve <b>back pain</b>. They can also prevent
 							back discomfort. For better prevention of ongoing pain, it is
 							better to consult a{" "}
-							<Link
-								href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
-								rel="preload"
-							>
+							<Link href="/meet-our-team/william-moore-md/" rel="preload">
 								back and spine specialist near me
 							</Link>
 							. Following are some of the preventive measures:
@@ -269,7 +278,7 @@ const ServiceDetailsContent = () => {
 								back your shoulders if they are rounded.
 							</li>
 							<li>
-								Stretch often: Daily routines can tire muscles and strain them.
+								Stretch often: Daily routines can tire muscles and strain them.{" "}
 								<b>Back pain management</b> entails stretching on a regular
 								basis to increase muscle circulation and reduce back discomfort
 								and injury.

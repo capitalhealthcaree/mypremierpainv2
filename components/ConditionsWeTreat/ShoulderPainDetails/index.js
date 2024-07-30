@@ -77,10 +77,13 @@ const ServiceDetailsContent = () => {
 						</p>
 						<h3>A Medical History</h3>
 						<p>
-							The evaluation begins with a complete medical history. A shoulder
-							pain specialist in Plano can help you by checking your previous
-							medical history and then evaluating your underlying symptoms to
-							develop a treatment plan. The doctor may inquire:
+							The evaluation begins with a complete medical history. A{" "}
+							<Link href="/contact-locations/plano/" rel="preload">
+								shoulder pain specialist in Plano
+							</Link>{" "}
+							can help you by checking your previous medical history and then
+							evaluating your underlying symptoms to develop a treatment plan.
+							The doctor may inquire:
 						</p>
 						<ul>
 							<li>Pain onset and timing</li>

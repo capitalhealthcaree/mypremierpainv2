@@ -139,10 +139,14 @@ const ServiceDetailsContent = () => {
 						</p>
 						<h3>Knee Braces</h3>
 						<p>
-							A knee brace is one of the best knee treatments near you that
-							stabilizes your knee. Knee braces align the knees. Strong plastic
-							or metal with cushions and knee-and-leg straps are typical. Your
-							provider will recommend a brace and how often to wear it.
+							A knee brace is one of the best{" "}
+							<Link href="https://g.co/kgs/VbeRbnp/" rel="preload">
+								knee treatments near me
+							</Link>{" "}
+							that stabilizes your knee. Knee braces align the knees. Strong
+							plastic or metal with cushions and knee-and-leg straps are
+							typical. Your provider will recommend a brace and how often to
+							wear it.
 						</p>
 						<h3>Physiotherapy</h3>
 						<p>
@@ -157,8 +161,13 @@ const ServiceDetailsContent = () => {
 						<h3>Knee Surgery</h3>
 						<p>
 							Not everyone with knee pain needs knee or{" "}
-							<b>joint replacement surgery</b>. If the pain is severe and
-							previous therapies have failed,{" "}
+							<Link
+								href="https://advancedcaresurgerycenter.com/joint-replacement-surgery/"
+								rel="preload"
+							>
+								joint replacement surgery
+							</Link>
+							. If the pain is severe and previous therapies have failed,{" "}
 							<Link href="/" rel="preload">
 								pain management in Dallas
 							</Link>{" "}

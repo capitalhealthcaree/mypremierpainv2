@@ -112,7 +112,10 @@ const ServiceDetailsContent = () => {
 							cord injuries may require immobilization, medication, surgery, or
 							rehabilitation. Treatment is intended to manage the injury, avoid
 							future damage, and maximize function and independence.
-							Rehabilitation treatment by <b>pain clinics in Dallas</b>{" "}
+							Rehabilitation treatment by{" "}
+							<Link href="https://g.co/kgs/ZsSxYqf/" rel="preload">
+								pain clinics in Dallas
+							</Link>{" "}
 							frequently includes physical treatment, occupational therapy, and
 							counseling to help with emotional and psychological recovery.
 						</p>
@@ -215,11 +218,15 @@ const ServiceDetailsContent = () => {
 							consequences, even if they seem minor. A successful recovery
 							requires understanding typical car accident injury symptoms and
 							early treatment options. After an accident, get medical assistance
-							from the<b> car accident injury doctor</b> immediately to avoid
-							long-term problems and ensure your health. Stridewell helps
-							accident victims rehabilitate and improve their lives. Contact the
-							best
-							<Link href="https://g.co/kgs/mprDW7r" rel="preload">
+							from the{" "}
+							<Link href="/meet-our-team/william-moore-md/" rel="preload">
+								{" "}
+								car accident injury doctor
+							</Link>{" "}
+							immediately to avoid long-term problems and ensure your health.
+							Stridewell helps accident victims rehabilitate and improve their
+							lives. Contact the best
+							<Link href="https://g.co/kgs/mprDW7r/" rel="preload">
 								{" "}
 								car accident injury clinic near me
 							</Link>{" "}

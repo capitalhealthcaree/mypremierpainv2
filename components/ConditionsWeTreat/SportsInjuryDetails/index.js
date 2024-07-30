@@ -106,7 +106,10 @@ const ServiceDetailsContent = () => {
 								Redness: Abrasions, allergies, and infections all cause
 								inflammation and redness. If you have inexplicable skin redness
 								and a high injury temperature, visit a{" "}
-								<b>sports and injury clinic</b>.
+								<Link href="/contact-locations/hillsboro/" rel="preload">
+									sports and injury clinic
+								</Link>
+								.
 							</li>
 							<li>
 								Confusion, difficulties concentrating, memory issues, headaches,

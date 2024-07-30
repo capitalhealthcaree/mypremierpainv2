@@ -88,12 +88,15 @@ const ServiceDetailsContent = () => {
 						<p>
 							It hurts where your thigh bone meets your pelvis. Hip discomfort
 							can be caused by arthritis, a fall, bursitis, or hip anatomy. To
-							reduce the pain doctors may use <b>hip joint injections</b> that
-							can help alleviate the inflammation in the certain area. Depending
-							on the cause, you may have hip discomfort inside or outside. Hip
-							pain can radiate to the lower back. You may only notice hip
-							discomfort when walking or lying on the uncomfortable joint at
-							night.
+							reduce the pain doctors may use{" "}
+							<Link href="/treatments/hip-joint-injections/" rel="preload">
+								hip joint injections
+							</Link>{" "}
+							that can help alleviate the inflammation in the certain area.
+							Depending on the cause, you may have hip discomfort inside or
+							outside. Hip pain can radiate to the lower back. You may only
+							notice hip discomfort when walking or lying on the uncomfortable
+							joint at night.
 						</p>
 						<h3>Finger Joint Pain</h3>
 						<p>
@@ -119,9 +122,12 @@ const ServiceDetailsContent = () => {
 							Arthritis-like conditions of the spine, such as facet joint
 							syndrome, can be a substantial cause of back and neck discomfort.
 							Joint degeneration between spine bones causes it.{" "}
-							<b>Facet joint injections</b> can help in diagnosing and lessening
-							the discomfort that is originating from the facet joints in the
-							spine, often used for arthritis-like conditions.
+							<Link href="/treatments/hip-joint-injections/" rel="preload">
+								Facet joint injections
+							</Link>{" "}
+							can help in diagnosing and lessening the discomfort that is
+							originating from the facet joints in the spine, often used for
+							arthritis-like conditions.
 						</p>
 						<h2>Treatment</h2>
 						<p>
@@ -132,9 +138,12 @@ const ServiceDetailsContent = () => {
 						</p>
 						<ul>
 							<li>
-								Simple at-Home Remedies: Your doctor may suggest applying a
-								heating pad or ice to the affected area several times a day.
-								Taking a warm bath may also help.
+								Simple at-Home Remedies: Your{" "}
+								<Link href="/meet-our-team/william-moore-md/" rel="preload">
+									joint pain specialist in Dallas
+								</Link>
+								may suggest applying a heating pad or ice to the affected area
+								several times a day. Taking a warm bath may also help.
 							</li>
 							<li>
 								Exercise: Exercise restores strength and function. Swimming,
@@ -142,8 +151,10 @@ const ServiceDetailsContent = () => {
 								Sportspeople may need to slow down or start a low-impact
 								workout. Additionally, doing light stretching movements will
 								also be beneficial. You should consult with a{" "}
-								<b>joint pain specialist near you</b> prior to initiating or
-								maintaining any exercise regimen.
+								<Link href="https://g.co/kgs/QXbpW5h/" rel="preload">
+									joint pain specialist near me
+								</Link>{" "}
+								prior to initiating or maintaining any exercise regimen.
 							</li>
 							<li>
 								Weight Loss: The physician may recommend decreasing weight to
@@ -153,8 +164,12 @@ const ServiceDetailsContent = () => {
 								Medications: NSAIDs or acetaminophen may help ease your pain.
 								Both medications are accessible without a prescription; however,
 								it may be required for heavier dosages. If you have stomach
-								ulcers, kidney illness, or liver disease, ask the doctor about
-								this.
+								ulcers, kidney illness, or liver disease, ask the{" "}
+								<Link href="/meet-our-team/rao-k-ali/" rel="preload">
+									{" "}
+									joint pain doctor in Dallas
+								</Link>{" "}
+								about this.
 							</li>
 							<li>
 								Topical Treatments: The doctor may prescribe ointments or gels
@@ -167,14 +182,20 @@ const ServiceDetailsContent = () => {
 						</ul>
 						<h3>Joint Pain Injections</h3>
 						<p>
-							<b> Joint injections</b> provide anesthetics and corticosteroids
-							directly to injured joint tissue without surgery. This may help
-							you enhance your range of motion and perform physical therapy
-							activities that were previously too difficult.{" "}
-							<b>Si joint injection</b> can also help alleviate pain and
-							inflammation in sacroiliac joints. If drugs and physical therapy
-							do not work, joint injections may help with{" "}
-							<b>joint pain relief</b>.
+							<Link href="/treatments/joint-injections/" rel="preload">
+								{" "}
+								Joint injections
+							</Link>{" "}
+							provide anesthetics and corticosteroids directly to injured joint
+							tissue without surgery. This may help you enhance your range of
+							motion and perform physical therapy activities that were
+							previously too difficult.{" "}
+							<Link href="/treatments/si-joint-injection/" rel="preload">
+								Si joint injection
+							</Link>{" "}
+							can also help alleviate pain and inflammation in sacroiliac
+							joints. If drugs and physical therapy do not work, joint
+							injections may help with joint pain relief.
 						</p>
 						<p>
 							A 20-minute joint injection is followed by a brief recovery. The
@@ -183,29 +204,42 @@ const ServiceDetailsContent = () => {
 							After injection, the anesthetic should work immediately. This
 							impact is transient; you may feel discomfort and swelling later
 							that day. The steroid will reduce inflammation and produce
-							benefits within a few days. <b>Trigger point injections</b>{" "}
+							benefits within a few days.{" "}
+							<Link href="/treatments/trigger-point-injections/" rel="preload">
+								Trigger point injections
+							</Link>{" "}
 							relieve muscle pain and tension by injecting medicines directly
 							into the trigger points.
 						</p>
 						<p>
-							Speaking to a <b>best pain doctor in Dallas</b> about your
-							discomfort is important if it's getting in the way of your daily
-							life. To get rid of pain and keep your joints healthy and working
-							well, it's important to quickly figure out what's causing it and
-							start treatment.
+							Speaking to a{" "}
+							<Link href="/treatments/trigger-point-injections/" rel="preload">
+								best pain doctor in Dallas
+							</Link>{" "}
+							about your discomfort is important if it's getting in the way of
+							your daily life. To get rid of pain and keep your joints healthy
+							and working well, it's important to quickly figure out what's
+							causing it and start treatment.
 						</p>
 						<h2>Approach & Outlook</h2>
 						<p>
 							Joint discomfort can impair joint function and impede daily tasks.
-							If you suffer from severe <b>joint pain</b>, it can significantly
-							impact your daily life. So it's important to consult{" "}
-							<b>pain physicians in Dallas</b>, if the pain is persistent.
-							Treatment should address discomfort, return to regular activities,
-							and live fully. If the joint feels heated, you have a fever, or
-							you can't walk, call <b>pain management in Dallas</b>; they can
-							help with managing chronic pain conditions. Premier Pain Centers
-							provides exceptional pain management services that employ some of
-							the most effective and non-invasive pain procedures available.
+							If you suffer from severe joint pain, it can significantly impact
+							your daily life. So it's important to consult{" "}
+							<Link href="/meet-our-team/" rel="preload">
+								{" "}
+								pain physicians in Dallas
+							</Link>
+							, if the pain is persistent. Treatment should address discomfort,
+							return to regular activities, and live fully. If the joint feels
+							heated, you have a fever, or you can't walk, call{" "}
+							<Link href="/" rel="preload">
+								pain management in Dallas
+							</Link>
+							; they can help with managing chronic pain conditions. Premier
+							Pain Centers provides exceptional pain management services that
+							employ some of the most effective and non-invasive pain procedures
+							available.
 						</p>
 					</div>
 				</div>

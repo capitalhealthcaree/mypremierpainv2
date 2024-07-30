@@ -13,10 +13,7 @@ const ServiceDetailsContent = () => {
 							more serious issue. If your neck hurts and your arms or hands feel
 							numb or weak, or if you feel pain extending into your shoulder or
 							arm, you need to see a{" "}
-							<Link
-								href="/blog/neck-pain/8-remedies-to-fix-crick-in-neck/"
-								rel="preload"
-							>
+							<Link href="/meet-our-team/rao-k-ali/" rel="preload">
 								neck and spine doctor in Dallas
 							</Link>{" "}
 							right away.
@@ -55,14 +52,13 @@ const ServiceDetailsContent = () => {
 								compression, your arms or hands may feel numb, tingly, or weak.
 								A pinched nerve can cause searing or severe neck pain that
 								spreads down the arm. Talk to a{" "}
-								<Link href="/https://g.co/kgs/Zn4d87p/" rel="preload">
-									{" "}
+								<Link href="https://g.co/kgs/Zn4d87p/" rel="preload">
 									neck pain specialist near me
 								</Link>
 								about this symptom.
 							</li>
 							<li>
-								Headache: Neck pain might cause cervicogenic headaches.
+								Headache: Neck pain might cause cervicogenic headaches.{" "}
 								<Link href="/conditions-we-treat/headaches/" rel="preload">
 									Headaches
 								</Link>{" "}
@@ -96,6 +92,7 @@ const ServiceDetailsContent = () => {
 								anxious or upset and don't know it until their neck hurts. It is
 								important to consult with a{" "}
 								<Link href="/contact-locations/ennis/" rel="preload">
+									{" "}
 									neck chiropractor in Ennis
 								</Link>
 								.
@@ -181,7 +178,7 @@ const ServiceDetailsContent = () => {
 								Wearing neck supports (braces and collars) is not advised unless
 								your{" "}
 								<Link href="/contact-locations/richardson/" rel="preload">
-									neck doctor in Richardson
+									neck dr in Richardson
 								</Link>{" "}
 								says so.
 							</li>

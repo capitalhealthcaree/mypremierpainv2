@@ -68,9 +68,8 @@ const ServiceDetailsContent = () => {
 							forehead, or nose bridge. They occur when the sinuses inflame.
 							Sinus symptoms, including a runny nose, full ears, fever, and
 							puffy cheeks, often accompany the pain. Cluster and{" "}
-							<b>migraine</b>
-							headaches have clear discharge, whereas a sinus infection causes
-							yellow or green nasal discharge.
+							<b>migraine</b> headaches have clear discharge, whereas a sinus
+							infection causes yellow or green nasal discharge.
 						</p>
 						<h3>Causes of Headache</h3>
 						<p>
@@ -153,7 +152,7 @@ const ServiceDetailsContent = () => {
 								lavender oil, meditation, or yoga.
 							</li>
 							<li>
-								Evaluate the effectiveness of acupressure, acupuncture, massage,
+								Evaluate the effectiveness of acupressure, acupuncture, massage,{" "}
 								<Link href="/tms-therapy/" rel="preload">
 									TMS therapy
 								</Link>
