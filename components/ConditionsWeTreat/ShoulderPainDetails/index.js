@@ -41,9 +41,9 @@ const ServiceDetailsContent = () => {
 							Bones are held together by muscles, and the head of the humerus is
 							padded inside the joint by a fluid-filled sac. Your shoulder may
 							hurt for several reasons due to its multiple parts.{" "}
-							<b>Shoulder pain</b>
-							can be caused by arthritis. Referred pain might come from other
-							parts of your body. Different shoulder discomfort sources include:
+							<b>Shoulder pain</b> can be caused by arthritis. Referred pain
+							might come from other parts of your body. Different shoulder
+							discomfort sources include:
 						</p>
 						<ul>
 							<li>Arthritis and cartilage damage</li>
@@ -114,10 +114,10 @@ const ServiceDetailsContent = () => {
 							Your doctor may request tests to diagnose your pain and other
 							issues. A{" "}
 							<Link href="/contact-locations/hillsboro/" rel="preload">
-								shoulder pain treatment
+								shoulder pain treatment in Hillsboro
 							</Link>{" "}
-							in Hillsboro can assist you with evaluation tests, assess your
-							condition, and diagnose the source of pain. Some of them are:
+							can assist you with evaluation tests, assess your condition, and
+							diagnose the source of pain. Some of them are:
 						</p>
 						<ul>
 							<li>X-rays: X-rays indicate shoulder bone damage.</li>

@@ -53,13 +53,14 @@ const ServiceDetailsContent = () => {
 							stiffness and enhance range of motion. Restoring spine alignment
 							with chiropractic therapy can also relieve symptoms. Chronic pain
 							and other symptoms can persist for months or years after a
-							whiplash injury. If you have these symptoms after an accident,
+							whiplash injury. If you have these symptoms after an accident, see
+							a
 							<Link
 								href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
 								rel="preload"
 							>
 								{" "}
-								see a physician for car accident injuries near me.
+								physician for car accident injuries near me.
 							</Link>{" "}
 						</p>
 						<blockquote>
@@ -204,10 +205,10 @@ const ServiceDetailsContent = () => {
 						</p>
 						<h2>Get Medical Care ASAP</h2>
 						<p>
-							For more information about vehicle injury treatment or to find a
+							For more information about vehicle injury treatment or to find a{" "}
 							<Link href="https://g.co/kgs/L8tiVB3/" rel="preload">
 								car accident injury doctor near me
-							</Link>
+							</Link>{" "}
 							, call our medical information line or fill out one of our various
 							online forms. The experts at the <b>car injury clinic</b> can help
 							you get better quickly, safely, and comfortably after a car
