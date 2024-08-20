@@ -54,7 +54,7 @@ const Contact = () => {
 
 			<div className="map-area">
 				<iframe
-					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3383.11481223523!2d-97.10164072379662!3d32.01200352268702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864fa82f3a482e15%3A0xe84b2bd476f447d2!2s1323%20E%20Franklin%20St%20%23102%2C%20Hillsboro%2C%20TX%2076645%2C%20USA!5e0!3m2!1sen!2sil!4v1685529272133!5m2!1sen!2sil"
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3383.1191569521725!2d-97.10310432501379!3d32.01188582269517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864fa82f0c0e2a95%3A0x4f0fb87565f70631!2s1311%20E%20Franklin%20St%2C%20Hillsboro%2C%20TX%2076645%2C%20USA!5e0!3m2!1sen!2s!4v1724189738721!5m2!1sen!2s"
 					height="550"
 					loading="lazy"
 				></iframe>
