@@ -143,14 +143,14 @@ const Footer = () => {
 										<li>
 											<h3 style={{ marginBottom: "1px" }}>HILLSBORO</h3>
 											<i className="icofont-location-pin"></i>
-											<a href="https://www.google.com/maps?cid=9063563001732813751">
-												1323 E. Franklin St., Ste. 102
+											<a href="https://maps.app.goo.gl/pykdQNURJutsaFT48">
+												1311 E. Franklin St,{" "}
 											</a>
-											<a href="https://www.google.com/maps?cid=9063563001732813751">
+											<a href="https://maps.app.goo.gl/pykdQNURJutsaFT48">
 												Hillsboro, TX 76645
 											</a>
 											<a
-												href="https://www.google.com/maps?cid=9063563001732813751"
+												href="https://maps.app.goo.gl/pykdQNURJutsaFT48"
 												className="fw-bold"
 											>
 												View Map & Directions
