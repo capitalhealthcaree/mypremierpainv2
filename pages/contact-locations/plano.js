@@ -47,7 +47,7 @@ const Contact = () => {
       />
 
       <ContactInfo
-        loc1={"7712 San Jancinto Place Suite 300"}
+        loc1={"7712 San Jacinto Place Suite 300"}
         loc2={"Plano, TX 75024"}
       />
 

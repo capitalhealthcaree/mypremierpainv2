@@ -93,7 +93,8 @@ const Footer = () => {
                     </li> */}
 										<li style={{ marginRight: "10px" }}>
 											<a
-												href="https://www.linkedin.com/in/premier-pain-centers/"
+												href="https://www.linkedin.com/in/premier-pain-centers-08582018a/"
+												// href="https://www.linkedin.com/in/premier-pain-centers/"
 												aria-label="Linkedin"
 												target="_blank"
 											>
@@ -144,10 +145,10 @@ const Footer = () => {
 											<h3 style={{ marginBottom: "1px" }}>HILLSBORO</h3>
 											<i className="icofont-location-pin"></i>
 											<a href="https://maps.app.goo.gl/pykdQNURJutsaFT48">
-												1311 E. Franklin St,{" "}
+											207 I-35, Hillsboro,{" "}
 											</a>
 											<a href="https://maps.app.goo.gl/pykdQNURJutsaFT48">
-												Hillsboro, TX 76645
+												TX 76645
 											</a>
 											<a
 												href="https://maps.app.goo.gl/pykdQNURJutsaFT48"
@@ -309,7 +310,7 @@ const Footer = () => {
 											<h3 style={{ marginBottom: "1px" }}>PLANO</h3>
 											<i className="icofont-location-pin"></i>
 											<a href="https://maps.app.goo.gl/G58xhCqnjUmFPH1u5">
-												7712 San Jancinto Place
+												7712 San Jacinto Place
 											</a>
 											<a href="https://maps.app.goo.gl/G58xhCqnjUmFPH1u5">
 												Suite 300 Plano, TX 75024

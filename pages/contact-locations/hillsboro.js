@@ -46,7 +46,7 @@ const Contact = () => {
 				bgImage="/images/location.webp"
 			/>
 
-			<ContactInfo loc1={"1311 E. Franklin St,"} loc2={"Hillsboro, TX 76645"} />
+			<ContactInfo loc1={"207 I-35, Hillsboro"} loc2={"TX 76645"} />
 
 			<div className="pt-2 pb-5">
 				<AppointmentForm />

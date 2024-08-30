@@ -523,7 +523,7 @@ const locData = [
     ),
     rating: 5.0,
     totalRatting: 1,
-    location: "7712 San Jancinto Place Suite 300 Plano, Texas 75024",
+    location: "7712 San Jacinto Place Suite 300 Plano, Texas 75024",
     locationUrl: "/contact-locations/plano/",
   },
   {

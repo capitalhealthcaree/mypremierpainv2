@@ -111,8 +111,8 @@ const Contact = () => {
 									<i className="icofont-location-pin"></i>
 									<h3>HILLSBORO</h3>
 									<p>
-										1311 E. Franklin St, <br />
-										Hillsboro, TX 76645
+										207 I-35, Hillsboro <br />
+										TX 76645
 									</p>
 								</div>
 							</Link>
@@ -192,7 +192,7 @@ const Contact = () => {
 									<i className="icofont-location-pin"></i>
 									<h3>PLANO</h3>
 									<p>
-										7712 San Jancinto Place Suite 300
+										7712 San Jacinto Place Suite 300
 										<br />
 										Plano, TX 75024
 									</p>
