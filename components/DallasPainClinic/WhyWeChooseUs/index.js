@@ -32,7 +32,7 @@ const WhyChooseUs = () => {
                   multi-specialty hospital care. Therefore, Dallas pain clinics
                   offer affordable primary care.{" "}
                   <Link href={`https://g.co/kgs/khGXvpN`} rel="preload">
-                    Best pain Clinic in Dallas
+                    Best pain Clinic in Dallas{" "}
                   </Link>
                   offers all the facilities to treat various illnesses.
                 </p>
