@@ -54,10 +54,10 @@ const Index = () => {
       </Head>
       <Navbar />
       <NavbarAppointment />
-      <MainBanner />
+      <MainBanner text={"Dallas"} />
       <DetailContent />
       <ConditionsWeTreat />
-      <OurDoctors />
+      <OurDoctors des={"dallas-pain-clinic"} />
       <AppointmentForm />
       <WhyWeChooseUs />
       <LatestBlogPost />

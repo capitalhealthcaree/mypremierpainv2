@@ -18,16 +18,40 @@ const DetailsContent = () => {
               Dallas pain clinic doctors have treated many conditions to relieve
               pain and help patients heal. We collaborate to provide acute and
               chronic pain patients with the most comprehensive and conservative
-              care and offer services in Spanish. Our pain management
-              in Dallas doctors understand the importance of proper diagnosis
-              and treatment and can manage your pain so you can maintain your
+              care and offer services in Spanish. Our pain management in Dallas
+              doctors understand the importance of proper diagnosis and
+              treatment and can manage your pain so you can maintain your
               favorite lifestyle.
             </p>
 
             <p>
-              We provide our services in Richardson, Fort Worth and the
-              surrounding locations. From major roads and highways, our pain
-              clinics are accessible.{" "}
+              We provide our services throughout the Dallas-Fort Worth area,
+              including{" "}
+              <Link href="/contact-locations/lancaster/" rel="preload">
+                Lancaster
+              </Link>
+              ,{" "}
+              <Link href="/contact-locations/plano/" rel="preload">
+                Plano
+              </Link>
+              ,{" "}
+              <Link href="/contact-locations/hillsboro/" rel="preload">
+                Hillsboro
+              </Link>
+              ,{" "}
+              <Link href="/contact-locations/ennis/" rel="preload">
+                Ennis
+              </Link>
+              ,{" "}
+              <Link href="/contact-locations/richardson/" rel="preload">
+                Richardson
+              </Link>{" "}
+              and{" "}
+              <Link href="/contact-locations/gun-barrel-city/" rel="preload">
+                Gun Barrel City
+              </Link>
+              . Our pain clinics are easily accessible from major roads and
+              highways.{" "}
               <Link href="/meet-our-team/" rel="preload">
                 {" "}
                 Pain Physicians in Dallas{" "}

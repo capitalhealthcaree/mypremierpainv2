@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import styles from "../../styles/Home.module.css";
 
-const MainBanner = () => {
+const MainBanner = ({ text }) => {
   return (
     <>
       <div
@@ -23,13 +23,14 @@ const MainBanner = () => {
                 </div> */}
 
                 <h2 style={{ color: "white" }}>
-                  Relieving Pain Throughout Northern Texas
+                  Relieving Pain Throughout{" "}
+                  {text === "Dallas" ? "Dallas" : "Northern Texas"}
                 </h2>
                 <h1>YOU WILL SEE WE CARE</h1>
                 <p>
-                  At Premier Pain Centers, we offer top quality pain management
-                  using some of the least invasive, most effective pain
-                  procedures possible.
+                  {text === "Dallas"
+                    ? "At Premier Pain Centers, a leading Dallas pain clinic, we offer top-quality pain management in Dallas, using some of the least invasive and most effective procedures provided by expert pain management doctors in Dallas."
+                    : " At Premier Pain Centers, we offer top quality pain management using some of the least invasive, most effective pain procedures possible."}
                 </p>
 
                 <div className="common-btn">

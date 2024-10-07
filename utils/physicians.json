@@ -1,25 +1,28 @@
 {
-	"physicians": [
-		{
-			"id": "1",
-			"image": "/images/doctors/doctor1.webp",
-			"name": "Rao K. Ali MD",
-			"bio": "Board Certified Interventional Pain Management",
-			"href": "/meet-our-team/rao-k-ali/"
-		},
-		{
-			"id": "2",
-			"image": "/images/doctors/doctor2.webp",
-			"name": "MUHAMMAD ZULQARNAIN MD",
-			"bio": "Board Certified Interventional Pain Management",
-			"href": "/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
-		},
-		{
-			"id": "3",
-			"image": "/images/doctors/doctor3.webp",
-			"name": "William Moore MD",
-			"bio": "Board Certified Interventional Pain Management",
-			"href": "/meet-our-team/william-moore-md/"
-		}
-	]
+  "physicians": [
+    {
+      "id": "1",
+      "image": "/images/doctors/doctor1.webp",
+      "name": "Rao K. Ali MD",
+      "bio": "Board Certified Interventional Pain Management",
+      "href": "/meet-our-team/rao-k-ali/",
+      "desc": "Dr. Rao Ali, the best back pain doctor in Dallas, is an accomplished physician who addresses pain at the root and uses evidence-based treatments to improve each patient's quality of life."
+    },
+    {
+      "id": "2",
+      "image": "/images/doctors/doctor2.webp",
+      "name": "Muhammad Zulqarnain MD",
+      "bio": "Board Certified Interventional Pain Management",
+      "href": "/meet-our-team/dr-muhammad-zulqarnain-dr-z-/",
+      "desc": "Dr. Muhammad Zulqarnain, known as Dr. Z, is the best spine surgeon in Dallas. He partners with you to achieve a pain-free life through compassionate care and innovative treatments."
+    },
+    {
+      "id": "3",
+      "image": "/images/doctors/doctor3.webp",
+      "name": "William Moore MD",
+      "bio": "Board Certified Interventional Pain Management",
+      "href": "/meet-our-team/william-moore-md/",
+      "desc": "Dr. William Moore, a renowned pain management doctor in Dallas, is recognized for his compassionate clinical skills and pioneering medical methods, ensuring the best care for his patients."
+    }
+  ]
 }

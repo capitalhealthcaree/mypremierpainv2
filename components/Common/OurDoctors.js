@@ -3,13 +3,17 @@ import Link from "next/link";
 import Image from "next/image";
 import Physicians from "../../utils/physicians.json";
 
-const OurDoctors = () => {
+const OurDoctors = ({ des }) => {
   return (
     <>
       <div className="doctors-area pt-3">
         <div className="container">
           <div className="section-title">
-            <h2>Meet Our Doctors</h2>
+            <h2>
+              {des === "dallas-pain-clinic"
+                ? "Pain Doctors in Dallas"
+                : "Meet Our Doctors"}
+            </h2>
           </div>
 
           <div className="row justify-content-center">
@@ -30,7 +34,12 @@ const OurDoctors = () => {
                           {data.name}
                         </Link>
                       </h3>
-                      <span>{data.bio}</span>
+
+                      {des === "dallas-pain-clinic" ? (
+                        <span className="p-3">{data.desc}</span>
+                      ) : (
+                        <span className="p-3">{data.bio}</span>
+                      )}
                     </div>
                   </div>
                 </div>
