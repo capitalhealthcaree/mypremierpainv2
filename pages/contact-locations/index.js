@@ -118,7 +118,7 @@ const Contact = () => {
 							</Link>
 						</div>
 
-						<div className="col-sm-6 col-lg-4">
+						{/* <div className="col-sm-6 col-lg-4">
 							<Link href="/contact-locations/farmers-branch/" rel="preload">
 								<div className="department-item">
 									<i className="icofont-location-pin"></i>
@@ -130,7 +130,7 @@ const Contact = () => {
 									</p>
 								</div>
 							</Link>
-						</div>
+						</div> */}
 
 						<div className="col-sm-6 col-lg-4">
 							<Link href="/contact-locations/waxahachie/" rel="preload">

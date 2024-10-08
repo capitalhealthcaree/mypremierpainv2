@@ -144,14 +144,14 @@ const Footer = () => {
 										<li>
 											<h3 style={{ marginBottom: "1px" }}>HILLSBORO</h3>
 											<i className="icofont-location-pin"></i>
-											<a href="https://maps.app.goo.gl/pykdQNURJutsaFT48">
+											<a href="https://maps.app.goo.gl/B8bdhEhjUdMz9XPt7">
 											207 I-35, Hillsboro,{" "}
 											</a>
-											<a href="https://maps.app.goo.gl/pykdQNURJutsaFT48">
+											<a href="https://maps.app.goo.gl/B8bdhEhjUdMz9XPt7">
 												TX 76645
 											</a>
 											<a
-												href="https://maps.app.goo.gl/pykdQNURJutsaFT48"
+												href="https://maps.app.goo.gl/B8bdhEhjUdMz9XPt7"
 												className="fw-bold"
 											>
 												View Map & Directions
@@ -164,6 +164,28 @@ const Footer = () => {
 											</a>
 										</li>
 										<li>
+											<h3 style={{ marginBottom: "1px" }}>GUN BARREL CITY</h3>
+											<i className="icofont-location-pin"></i>
+											<a href="https://maps.app.goo.gl/Yzs9SCVAgwVvwkoAA">
+												519 N Gun Barrel Ln Suite A
+											</a>
+											<a href="https://maps.app.goo.gl/Yzs9SCVAgwVvwkoAA">
+												Gun Barrel City, TX 75156
+											</a>
+											<a
+												href="https://maps.app.goo.gl/Yzs9SCVAgwVvwkoAA"
+												className="fw-bold"
+											>
+												View Map & Directions
+											</a>
+											<a
+												href="/contact-locations/gun-barrel-city/"
+												className="fw-bold"
+											>
+												View Site
+											</a>
+										</li>
+										{/* <li>
 											<h3 style={{ marginBottom: "1px" }}>FARMERS BRANCH</h3>
 											<i className="icofont-location-pin"></i>
 											<a href="https://www.google.com/maps?cid=3934515186064169906">
@@ -184,7 +206,7 @@ const Footer = () => {
 											>
 												View Site
 											</a>
-										</li>
+										</li> */}
 										<li>
 											<h3 style={{ marginBottom: "1px" }}>CLEBURNE</h3>
 											<i className="icofont-location-pin"></i>
@@ -325,28 +347,7 @@ const Footer = () => {
 												View Site
 											</a>
 										</li>
-										<li>
-											<h3 style={{ marginBottom: "1px" }}>GUN BARREL CITY</h3>
-											<i className="icofont-location-pin"></i>
-											<a href="https://maps.app.goo.gl/Yzs9SCVAgwVvwkoAA">
-												519 N Gun Barrel Ln Suite A
-											</a>
-											<a href="https://maps.app.goo.gl/Yzs9SCVAgwVvwkoAA">
-												Gun Barrel City, TX 75156
-											</a>
-											<a
-												href="https://maps.app.goo.gl/Yzs9SCVAgwVvwkoAA"
-												className="fw-bold"
-											>
-												View Map & Directions
-											</a>
-											<a
-												href="/contact-locations/gun-barrel-city/"
-												className="fw-bold"
-											>
-												View Site
-											</a>
-										</li>
+									
 									</ul>
 								</div>
 							</div>
