@@ -787,7 +787,7 @@ const Navbar = () => {
                           News
                         </Link>
                       </li>
-                      <li className="nav-item">
+                      {/* <li className="nav-item">
                         <Link
                           href="/educational-videos/"
                           className={`nav-link ${
@@ -797,7 +797,7 @@ const Navbar = () => {
                         >
                           Educational Videos
                         </Link>
-                      </li>
+                      </li> */}
                       <li className="nav-item">
                         <Link
                           href="/video-testimonials/"
