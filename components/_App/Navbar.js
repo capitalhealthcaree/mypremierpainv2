@@ -251,7 +251,7 @@ const Navbar = () => {
                       TMS Therapy
                     </Link>
                   </li>
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <Link
                       href="/iv-therapy/"
                       className={`nav-link ${
@@ -261,7 +261,7 @@ const Navbar = () => {
                     >
                       IV Therapy
                     </Link>
-                  </li>
+                  </li> */}
                   <li className="nav-item">
                     <Link
                       href="/treatments/"
