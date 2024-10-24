@@ -240,7 +240,7 @@ const Navbar = () => {
                       <li className="nav-item"></li>
                     </ul>
                   </li>
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <Link
                       href="/tms-therapy/"
                       className={`nav-link ${
@@ -250,7 +250,7 @@ const Navbar = () => {
                     >
                       TMS Therapy
                     </Link>
-                  </li>
+                  </li> */}
                   {/* <li className="nav-item">
                     <Link
                       href="/iv-therapy/"
