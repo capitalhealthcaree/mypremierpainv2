@@ -20,7 +20,9 @@ const TreatmentsRightSide = dynamic(() =>
 
 const Footer = dynamic(() => import("../../components/_App/Footer"));
 
-const DoctorDetails = () => {
+import api from "../../utils/api";
+
+const DoctorDetails = ({items}) => {
   return (
     <>
       <Head>
@@ -51,7 +53,8 @@ const DoctorDetails = () => {
         <div className="container-fluid p-lg-5">
           <div className="row">
             <div className="col-lg-8">
-              <HipJointInjectionsDetails />
+              {/* <HipJointInjectionsDetails /> */}
+              <div dangerouslySetInnerHTML={{ __html: items?.content }}></div>
             </div>
 
             <div className="col-lg-4">
@@ -68,3 +71,13 @@ const DoctorDetails = () => {
 };
 
 export default DoctorDetails;
+
+export const getServerSideProps = async () => {
+  const singleBlog = await api.get("treatments/hip-joint-injections");
+  const data = singleBlog?.data?.data || {};
+  return {
+    props: {
+      items: data,
+    },
+  };
+};
