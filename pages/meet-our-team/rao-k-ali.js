@@ -180,7 +180,7 @@ const DoctorDetails = () => {
 											>
 												Spinal cord stimulator
 											</Link>{" "}
-											trial, and implantation and Intrathecal pumps.
+											trial, and implantation.
 										</p>
 
 										<p>
