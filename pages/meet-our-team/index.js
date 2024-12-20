@@ -35,7 +35,7 @@ const Doctors = () => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="doctors"
-        bgImage="/images/doctors/doctor-bg.webp"
+        bgImage="/images/doctor.webp"
       />
 
       <div className="doctors-area doctors-area-two pt-5 pb-3">
