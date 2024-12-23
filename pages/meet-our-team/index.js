@@ -35,7 +35,7 @@ const Doctors = () => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="doctors"
-        bgImage="/images/doctor.webp"
+        bgImage="http://res.cloudinary.com/dngmflrpx/image/upload/v1734987708/doctors/n7u0hmm6tbwjiodfhvzb.webp"
       />
 
       <div className="doctors-area doctors-area-two pt-5 pb-3">

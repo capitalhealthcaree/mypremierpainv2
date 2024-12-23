@@ -2,7 +2,7 @@
   "physicians": [
     {
       "id": "1",
-      "image": "/images/doctors/doctor1.webp",
+      "image": "http://res.cloudinary.com/dngmflrpx/image/upload/v1734987523/doctors/jdhdlm9hvsp0cyl9xdng.webp",
       "name": "Rao K. Ali MD",
       "bio": "Board Certified Interventional Pain Management",
       "href": "/meet-our-team/rao-k-ali/",
@@ -10,7 +10,7 @@
     },
     {
       "id": "2",
-      "image": "/images/doctors/doctor2.webp",
+      "image": "http://res.cloudinary.com/dngmflrpx/image/upload/v1734987556/doctors/rcrhxn4abw2g43elqde1.webp",
       "name": "Muhammad Zulqarnain MD",
       "bio": "Board Certified Interventional Pain Management",
       "href": "/meet-our-team/dr-muhammad-zulqarnain-dr-z-/",
@@ -18,7 +18,7 @@
     },
     {
       "id": "3",
-      "image": "/images/doctors/doctor3.webp",
+      "image": "http://res.cloudinary.com/dngmflrpx/image/upload/v1734987604/doctors/jv2iicvqulydriqpyxdc.webp",
       "name": "William Moore MD",
       "bio": "Board Certified Interventional Pain Management",
       "href": "/meet-our-team/william-moore-md/",

@@ -39,14 +39,14 @@ const DoctorDetails = () => {
 				homePageUrl="/"
 				homePageText="Home"
 				activePageText="william-moore-md"
-				bgImage="/images/doctor.webp"
+				bgImage="http://res.cloudinary.com/dngmflrpx/image/upload/v1734987708/doctors/n7u0hmm6tbwjiodfhvzb.webp"
 			/>
 			<div className="doctor-details-area pt-5 pb-2">
 				<div className="container">
 					<div className="row">
 						<div className="col-lg-5">
 							<div className="doctor-details-item doctor-details-left">
-								<img src="/images/doctors/doctor3.webp" alt="Doctor" />
+								<img src="http://res.cloudinary.com/dngmflrpx/image/upload/v1734987604/doctors/jv2iicvqulydriqpyxdc.webp" alt="William Moore MD" />
 								<div className="blog-details-item">
 									<div className="blog-details-category ps-5">
 										<h3>Conditions We Treat</h3>
