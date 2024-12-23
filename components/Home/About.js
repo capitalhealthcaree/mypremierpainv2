@@ -10,14 +10,17 @@ const About = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="symptoms-img">
-                <img src="/images/about.webp" alt="Symptoms" />
+                <img
+                  src="http://res.cloudinary.com/dngmflrpx/image/upload/v1734991950/noriaktvgd7pbmpqr94e.webp"
+                  alt="Symptoms"
+                />
               </div>
             </div>
 
             <div className="col-lg-6">
               <div className="about-item about-right">
                 <Image
-                  src="/images/about-shape1.webp"
+                  src="http://res.cloudinary.com/dngmflrpx/image/upload/v1734992324/tr5zkiagbamsg84bfmbx.webp"
                   alt="About"
                   width={500}
                   height={640}

@@ -41,7 +41,7 @@ const EducationalVideos = () => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="educational-videos"
-        bgImage="/images/educational-videos.webp"
+        bgImage="http://res.cloudinary.com/dngmflrpx/image/upload/v1734994062/ilwx2filfmfpemghjybu.webp"
       />
 
       <div className="pt-5">

@@ -38,7 +38,7 @@ const FAQ = ({ item }) => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="faqs"
-        bgImage="/images/contact-and-locations.webp"
+        bgImage="http://res.cloudinary.com/dngmflrpx/image/upload/v1734993310/nki1i4qfto5vje4y7gqu.webp"
       />
       <div className="symptoms-area pt-5">
         <div className="container">

@@ -62,7 +62,7 @@ const News = ({ item, totalPage }) => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="news"
-        bgImage="/images/blog/blog-bg.webp"
+        bgImage="http://res.cloudinary.com/dngmflrpx/image/upload/v1734994783/blog/ij463ka2shafvmzwjkc2.webp"
       />
 
       {/* NewsGrid */}

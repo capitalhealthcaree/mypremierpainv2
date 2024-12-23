@@ -8,7 +8,7 @@ const WhyChooseUs = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <img
-                src="/images/dallas-pain-clinic-why-choose-us.png"
+                src="http://res.cloudinary.com/dngmflrpx/image/upload/v1734993609/qtah5hhavlaor56nxwre.png"
                 alt="About"
                 className="img-fluid"
                 style={{ height: "100%", objectFit: "cover" }}

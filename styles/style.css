@@ -1146,7 +1146,7 @@ button:focus {
 /*-- End Newsletter --*/
 /*-- Footer --*/
 footer {
-  background-image: url("/images/footer-bg.webp");
+  background-image: url("http://res.cloudinary.com/dngmflrpx/image/upload/v1734993854/daanv8l3zaczh86dobmo.webp");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1619,7 +1619,7 @@ footer {
 /*-- End Counter --*/
 /*-- Appointment --*/
 .appointment-area {
-  background-image: url("/images/appointment-bg-home.webp");
+  background-image: url("http://res.cloudinary.com/dngmflrpx/image/upload/v1734992888/bgwrcv2vikesm2keg8on.webp");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -2349,7 +2349,7 @@ footer {
 }
 
 .appointment-item-two-right {
-  background-image: url("/images/appointment.webp");
+  background-image: url("http://res.cloudinary.com/dngmflrpx/image/upload/v1734992662/dhf2qx5yhunriv6exnp6.webp");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -2538,7 +2538,7 @@ footer {
   width: 250px;
 }
 .appointment-area-three .speciality-right-three {
-  background-image: url("/images/appointment.webp");
+  background-image: url("http://res.cloudinary.com/dngmflrpx/image/upload/v1734992662/dhf2qx5yhunriv6exnp6.webp");
 }
 
 /*-- End Appointment --*/

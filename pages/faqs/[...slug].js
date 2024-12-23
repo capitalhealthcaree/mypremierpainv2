@@ -44,7 +44,7 @@ const FaqDetail = ({ item }) => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="faqs"
-        bgImage="/images/blog/blog-detail-bg.webp"
+        bgImage="http://res.cloudinary.com/dngmflrpx/image/upload/v1734994849/blog/bnqhusic4ix7s1sw472c.webp"
       />
 
       {/* FAQ Detail Content  */}

@@ -41,7 +41,7 @@ const NewsDetails = ({ items }) => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="news"
-        bgImage="/images/blog/blog-detail-bg.webp"
+        bgImage="http://res.cloudinary.com/dngmflrpx/image/upload/v1734994849/blog/bnqhusic4ix7s1sw472c.webp"
       />
 
       {/* BlogDetailsContent  */}

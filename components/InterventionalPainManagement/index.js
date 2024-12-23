@@ -98,7 +98,7 @@ const ServiceDetailsContent = () => {
               complication of shingles, are examples.
             </li>
             <img
-              src="/images/interventional-pain-management.jpg"
+              src="http://res.cloudinary.com/dngmflrpx/image/upload/v1734993689/uhvcf6hjq9d3gfzt7jrh.jpg"
               alt="interventional pain management"
             />
             <h2>What Techniques Are Used In Interventional Pain Management?</h2>

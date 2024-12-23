@@ -36,7 +36,7 @@ const Appointment = () => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="appointment"
-        bgImage="/images/appointment-bg-1.webp"
+        bgImage="http://res.cloudinary.com/dngmflrpx/image/upload/v1734992804/o096qydqiddewm9c4twy.webp"
       />
 
       <div className="pt-4 pb-4">
