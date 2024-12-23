@@ -10,7 +10,7 @@ const Index = () => {
   return (
     <>
       <Head>
-      <link
+        <link
           rel="canonical"
           href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/thank-you/`}
         />
@@ -23,7 +23,10 @@ const Index = () => {
           <div className="row align-items-center">
             <div className="col-12">
               <div className="symptoms-img">
-                <img src="/images/thank-you.webp" alt="Symptoms" />
+                <img
+                  src="http://res.cloudinary.com/dngmflrpx/image/upload/v1734988277/obzgu79hdijhtvq4gda6.webp"
+                  alt="Rao K. Ali MD"
+                />
               </div>
             </div>
           </div>

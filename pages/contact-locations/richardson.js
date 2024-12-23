@@ -43,7 +43,7 @@ const Contact = () => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="richardson"
-        bgImage="/images/location.webp"
+        bgImage="http://res.cloudinary.com/dngmflrpx/image/upload/v1734990377/mzwabfkruapqgueyqayv.webp"
       />
 
       <ContactInfo loc1={"2071 N Collins Blvd"} loc2={"Richardson, TX 75080"} />

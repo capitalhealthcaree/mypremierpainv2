@@ -43,7 +43,7 @@ const About = () => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="about"
-        bgImage="/images/page-banner1.webp"
+        bgImage="http://res.cloudinary.com/dngmflrpx/image/upload/v1734990262/ohwiyyqlry8hulxms1la.webp"
       />
 
       <div className="about-area pt-5">

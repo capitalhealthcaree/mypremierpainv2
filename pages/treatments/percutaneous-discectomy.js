@@ -44,7 +44,7 @@ const DoctorDetails = ({items}) => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="percutaneous-discectomy"
-        bgImage="/images/page-banner2.webp"
+        bgImage="http://res.cloudinary.com/dngmflrpx/image/upload/v1734989809/npez39bzeq6mcurlfogv.webp"
       />
 
       <div className="doctor-details-area pt-4">

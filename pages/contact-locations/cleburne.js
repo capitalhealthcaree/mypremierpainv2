@@ -43,7 +43,7 @@ const Contact = () => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="cleburne"
-        bgImage="/images/location.webp"
+        bgImage="http://res.cloudinary.com/dngmflrpx/image/upload/v1734990377/mzwabfkruapqgueyqayv.webp"
       />
 
       <ContactInfo loc1={"131 S Westmeadow Dr,"} loc2={"Cleburne, TX 76033"} />

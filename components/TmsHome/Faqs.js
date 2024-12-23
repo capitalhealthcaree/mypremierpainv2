@@ -16,7 +16,7 @@ const Faq = () => {
             <div className="col-lg-6">
               <div className="spread-img">
                 <img
-                  src="/images/tms-therapy-clinic-in-dallas.jpg"
+                  src="http://res.cloudinary.com/dngmflrpx/image/upload/v1734988962/ghtmq6hva8ykostixeml.jpg"
                   alt="Symptoms"
                 />
               </div>

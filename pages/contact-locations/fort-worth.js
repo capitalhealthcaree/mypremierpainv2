@@ -43,7 +43,7 @@ const Contact = () => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="fort-worth"
-        bgImage="/images/location.webp"
+        bgImage="http://res.cloudinary.com/dngmflrpx/image/upload/v1734990377/mzwabfkruapqgueyqayv.webp"
       />
 
       <ContactInfo loc1={"1111 5th Ave,"} loc2={"Fort Worth, TX 76104"} />

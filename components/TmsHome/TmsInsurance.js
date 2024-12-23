@@ -29,7 +29,12 @@ const Services = () => {
             <div className="col-sm-6 col-lg-4">
               <div className="service-item style-3">
                 <div className="service-front">
-                  <img className="mb-3" src="/images/tms-insurance.png" width={65} height={71} />
+                  <img
+                    className="mb-3"
+                    src="http://res.cloudinary.com/dngmflrpx/image/upload/v1734989113/j9rgznsllewremvykdh9.png"
+                    width={65}
+                    height={71}
+                  />
                   <h3>Covered by Insurance</h3>
                   <p>
                     TMS therapy is now universally covered by all major

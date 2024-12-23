@@ -243,7 +243,7 @@ const AppointmentForm = () => {
             </div>
 
             <div className="col-lg-5">
-              <img src="/images/rao-k-ali-tms.jpeg" alt="Shape" />
+              <img src="http://res.cloudinary.com/dngmflrpx/image/upload/v1734988548/zsxhyzscncokgywd9eih.jpg" alt="Shape" />
             </div>
           </div>
         </div>

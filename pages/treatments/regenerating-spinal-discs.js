@@ -42,7 +42,7 @@ const DoctorDetails = () => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="regenerating-spinal-discs"
-        bgImage="/images/page-banner2.webp"
+        bgImage="http://res.cloudinary.com/dngmflrpx/image/upload/v1734989809/npez39bzeq6mcurlfogv.webp"
       />
 
       <div className="doctor-details-area pt-4">

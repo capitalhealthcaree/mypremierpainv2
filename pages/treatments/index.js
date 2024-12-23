@@ -42,7 +42,7 @@ const Contact = () => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="treatments"
-        bgImage="/images/contact-and-locations.webp"
+        bgImage="http://res.cloudinary.com/dngmflrpx/image/upload/v1734989809/npez39bzeq6mcurlfogv.webp"
       />
       <Treatments />
       <AppointmentForm />

@@ -52,7 +52,7 @@ const About = () => {
             </div>
             <div className="col-lg-6">
               <div className="symptoms-img">
-                <img src="/images/what-is-tms-therpy.jpg" alt="Symptoms" />
+                <img src="http://res.cloudinary.com/dngmflrpx/image/upload/v1734988757/uufhz4puftqw27rmxcgf.jpg" alt="Symptoms" />
               </div>
             </div>
           </div>
