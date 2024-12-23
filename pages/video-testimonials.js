@@ -26,7 +26,7 @@ const VideoTestimonial = () => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="video-testimonials"
-        bgImage="/images/conditions-we-treat/foot-pain/foot-pain-treatment.jpg"
+        bgImage="http://res.cloudinary.com/dngmflrpx/image/upload/v1734996209/conditions-we-treat/zycy7iuabgqk5dtzofin.jpg"
       />
 
       <div className="pt-5">

@@ -43,7 +43,7 @@ const DoctorDetails = () => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="coccydynia"
-        bgImage="/images/conditions-we-treat/coccydynia/coccydynia-treatments.png"
+        bgImage="http://res.cloudinary.com/dngmflrpx/image/upload/v1734996281/conditions-we-treat/u2l80r6lljftb3bxbl5c.png"
       />
 
       <div className="doctor-details-area pt-4 pb-70">
