@@ -495,7 +495,7 @@ button:focus {
 /*-- End Home Slider --*/
 /*-- Counter --*/
 .counter-bg {
-  background-image: url("/images/map-bg.png");
+  /* background-image: url("/images/map-bg.png"); */
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1632,7 +1632,7 @@ footer {
   background-color: #ffffff;
   padding: 80px 100px 80px;
   border-radius: 10px;
-  background-image: url("/images/hart-shape.webp");
+  /* background-image: url("/images/hart-shape.webp"); */
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -2007,7 +2007,7 @@ footer {
 /*-- Review Slider --*/
 .review-area {
   position: relative;
-  background-image: url("/images/feedback-bg.webp");
+  background-image: url("http://res.cloudinary.com/dngmflrpx/image/upload/v1735850364/sdvegyhm6o9tsummc3ki.webp");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -2929,7 +2929,7 @@ footer {
 /*-- End Location --*/
 /*-- Drop --*/
 .drop-img {
-  background-image: url("/images/contact-form-bg.png");
+  /* background-image: url("/images/contact-form-bg.png"); */
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -3142,7 +3142,7 @@ footer {
 /*----- TESTIMONIAL PAGE -----*/
 /*-- Testimonial --*/
 .testimonial-area {
-  background-image: url("/images/reviews-bg.webp");
+  /* background-image: url("/images/reviews-bg.webp"); */
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;

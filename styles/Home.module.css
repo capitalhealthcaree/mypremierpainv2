@@ -2,7 +2,7 @@
   opacity: 0 !important;
 }
 .bgImgSlider {
-  background-image: url("/images/home-slider-bg.webp");
+  background-image: url("http://res.cloudinary.com/dngmflrpx/image/upload/v1735844405/Home%20Page%20Slider%20banner/qvfgnpdd14iepd7oh6yf.webp");
 }
 .slidertext1 {
   position: relative;
@@ -32,7 +32,7 @@
     opacity: 0 !important;
   }
   .bgImgSlider {
-    background-image: url("/images/home-slider-bg-mobile.webp");
+    background-image: url("http://res.cloudinary.com/dngmflrpx/image/upload/v1735844431/Home%20Page%20Slider%20banner/rw9hum0o99ii6ljn8jlq.webp");
   }
   .slidertext1 {
     margin-top: 0;
@@ -54,7 +54,7 @@
     opacity: 0 !important;
   }
   .bgImgSlider {
-    background-image: url("/images/home-slider-bg-mobile.webp");
+    background-image: url("http://res.cloudinary.com/dngmflrpx/image/upload/v1735844431/Home%20Page%20Slider%20banner/rw9hum0o99ii6ljn8jlq.webp");
   }
   .slidertext1 {
     margin-top: 0;

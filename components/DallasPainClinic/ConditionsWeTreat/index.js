@@ -3,7 +3,8 @@ import Link from "next/link";
 
 const ourServices = [
   {
-    imgSrc: "/images/our-services/back-pain.jpg",
+    imgSrc:
+      "http://res.cloudinary.com/dngmflrpx/image/upload/v1735852183/conditions-we-treat-services/k3ev6qpj5oys3ggd30o2.jpg",
     name: "Back Pain Relief",
     paragraph: (
       <span>
@@ -18,13 +19,15 @@ const ourServices = [
     ),
   },
   {
-    imgSrc: "/images/our-services/wrist-pain.jpg",
+    imgSrc:
+      "http://res.cloudinary.com/dngmflrpx/image/upload/v1735853118/conditions-we-treat-services/zwzrsfd4skruy2hhhb8o.jpg",
     name: "Arthritis Pain Relief",
     paragraph:
       "Arthritis affects over 50 million adults, causing pain and stiffness. Arthritis pain relief includes medication, exercise, and surgery.",
   },
   {
-    imgSrc: "/images/our-services/neck-pain.jpg",
+    imgSrc:
+      "http://res.cloudinary.com/dngmflrpx/image/upload/v1735852585/conditions-we-treat-services/laauimnt7cltqzzr2xxp.jpg",
     name: "Neck Pain Relief",
     paragraph: (
       <span>
@@ -37,7 +40,8 @@ const ourServices = [
     ),
   },
   {
-    imgSrc: "/images/our-services/knee-pain.webp",
+    imgSrc:
+      "http://res.cloudinary.com/dngmflrpx/image/upload/v1735852626/conditions-we-treat-services/pbsgdfbmy7fkyndbwsyc.webp",
     name: "Knee Pain Relief",
     paragraph: (
       <span>
@@ -52,19 +56,22 @@ const ourServices = [
     ),
   },
   {
-    imgSrc: "/images/our-services/coccydynia.jpg",
+    imgSrc:
+      "http://res.cloudinary.com/dngmflrpx/image/upload/v1735853560/conditions-we-treat-services/nslqyha9v9oc54ss9pfz.jpg",
     name: "Lower Back Pain Relief",
     paragraph:
       "For lower back pain relief, our pain management doctors near me offer customized treatments like physical therapy and chiropractic care.",
   },
   {
-    imgSrc: "/images/our-services/hip-pain.jpg",
+    imgSrc:
+      "http://res.cloudinary.com/dngmflrpx/image/upload/v1735852355/conditions-we-treat-services/hbogvl6tqrah62t2afd2.jpg",
     name: "Hip Pain Treatments",
     paragraph:
       "Our Dallas pain clinic offers specialized hip pain treatments. Pain clinics near me use advanced therapies to restore function and reduce pain.",
   },
   {
-    imgSrc: "/images/our-services/car-accident-injury.webp",
+    imgSrc:
+      "http://res.cloudinary.com/dngmflrpx/image/upload/v1735852681/conditions-we-treat-services/e833rhldnaqtfwxtrks6.webp ",
     name: "Elbow Pain Treatment",
     paragraph: (
       <span>
@@ -82,7 +89,8 @@ const ourServices = [
     ),
   },
   {
-    imgSrc: "/images/our-services/spine-pain.jpg",
+    imgSrc:
+      "http://res.cloudinary.com/dngmflrpx/image/upload/v1735853655/conditions-we-treat-services/yeovyofnisgevwt6uzzd.jpg",
     name: "Spine Pain Management",
     paragraph: (
       <span>
@@ -99,7 +107,8 @@ const ourServices = [
     ),
   },
   {
-    imgSrc: "/images/our-services/headaches.jpg",
+    imgSrc:
+      "http://res.cloudinary.com/dngmflrpx/image/upload/v1735852301/conditions-we-treat-services/ujbefh5nxc3wbj8lyyyk.jpg",
     name: "Headaches",
     paragraph: (
       <span>
@@ -126,7 +135,8 @@ const ourServices = [
     ),
   },
   {
-    imgSrc: "/images/our-services/leg-pain.jpg",
+    imgSrc:
+      "http://res.cloudinary.com/dngmflrpx/image/upload/v1735852465/conditions-we-treat-services/hxxkvfg64n6xhtbtau4l.jpg",
     name: "Leg Pain Treatments",
     paragraph: (
       <span>
@@ -139,7 +149,8 @@ const ourServices = [
     ),
   },
   {
-    imgSrc: "/images/our-services/sports-injury.jpg",
+    imgSrc:
+      "http://res.cloudinary.com/dngmflrpx/image/upload/v1735852538/conditions-we-treat-services/pfrkeg1jr6cm4f9fa4ii.jpg",
     name: "Sports Injury",
     paragraph: (
       <span>
@@ -155,7 +166,8 @@ const ourServices = [
     ),
   },
   {
-    imgSrc: "/images/our-services/sciatic-pain.jpg",
+    imgSrc:
+      "http://res.cloudinary.com/dngmflrpx/image/upload/v1735854156/conditions-we-treat-services/jupveadbd0sqoafvwe8c.jpg",
     name: "Sciatic Pain Relief",
     paragraph: (
       <span>
@@ -168,7 +180,8 @@ const ourServices = [
     ),
   },
   {
-    imgSrc: "/images/our-services/joint-pain.jpg",
+    imgSrc:
+      "http://res.cloudinary.com/dngmflrpx/image/upload/v1735852257/conditions-we-treat-services/pm2rcnim8cf21fzsbgoq.jpg",
     name: "Joint Pain Relief",
     paragraph: (
       <span>
@@ -185,7 +198,8 @@ const ourServices = [
     ),
   },
   {
-    imgSrc: "/images/our-services/shoulder-pain.jpg",
+    imgSrc:
+      "http://res.cloudinary.com/dngmflrpx/image/upload/v1735852492/conditions-we-treat-services/tgxhvp8mydpfuukwjs7d.jpg",
     name: "Shoulder Pain Relief",
     paragraph: (
       <span>

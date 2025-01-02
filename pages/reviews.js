@@ -97,7 +97,7 @@ const reviews = () => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="reviews"
-        bgImage="/images/reviews-bg.webp"
+        bgImage="http://res.cloudinary.com/dngmflrpx/image/upload/v1734993310/nki1i4qfto5vje4y7gqu.webp"
       />
 
       <div className="mb-2">

@@ -45,24 +45,13 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg navbar-light">
               <Link href="/" className="navbar-brand" rel="preload">
                 <Image
-                  src="/images/logo.png"
+                  src="http://res.cloudinary.com/dngmflrpx/image/upload/v1735855964/poslbei33bnv2atikdo5.png"
                   alt="logo"
                   width={139}
                   height={78}
                   loading="lazy"
                 />
               </Link>
-              {/* <span style={{ visibility: "hidden" }}>
-                <Link href="/" className="navbar-brand" rel="preload">
-                  <Image
-                    src="/images/logo.png"
-                    alt="logo"
-                    width={139}
-                    height={78}
-                    loading="lazy"
-                  />
-                </Link>
-              </span> */}
               <button
                 onClick={toggleNavbar}
                 className={classTwo}

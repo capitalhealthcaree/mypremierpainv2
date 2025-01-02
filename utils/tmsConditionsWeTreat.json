@@ -1,61 +1,49 @@
 [
   {
-    "imgSrc": "/images/our-services/back-pain.jpg",
     "name": "Depression",
     "href": "/depression-treatment-in-dallas-tx/"
   },
   {
-    "imgSrc": "/images/our-services/joint-pain.jpg",
     "name": "OCD Treatment",
     "href": "/ocd-treatment-in-dallas-tx/"
   },
   {
-    "imgSrc": "/images/our-services/headaches.jpg",
     "name": "PTSD Treatment",
     "href": "/ptsd-treatment-in-dallas-tx/"
   },
   {
-    "imgSrc": "/images/our-services/hip-pain.jpg",
     "name": "Anxiety Treatment",
     "href": "/anxiety-treatment-in-dallas-tx/"
   },
   {
-    "imgSrc": "/images/our-services/leg-pain.jpg",
     "name": "Autism Treatment",
     "href": "/autism-treatment-in-dallas-fort-worth/"
   },
   {
-    "imgSrc": "/images/our-services/shoulder-pain.jpg",
     "name": "Tinnitus Treatment ",
     "href": "/tinnitus-treatment-in-dallas-fort-worth/"
   },
   {
-    "imgSrc": "/images/our-services/sports-injury.jpg",
     "name": "Migraines Treatment",
     "href": "/migraines-treatment-in-dallas-tx/"
   },
   {
-    "imgSrc": "/images/our-services/neck-pain.jpg",
     "name": "Bipolar Disorder Treatment",
     "href": "/bipolar-disorder-treatment-in-richardson/"
   },
   {
-    "imgSrc": "/images/our-services/knee-pain.webp",
     "name": "Cognitive Therapy",
     "href": "/cognitive-behavioral-therapy-dallas-tx/"
   },
   {
-    "imgSrc": "/images/our-services/car-accident-injury.webp",
     "name": "Medication Management",
     "href": "/medication-management-in-dallas/"
   },
   {
-    "imgSrc": "/images/our-services/car-accident-injury.webp",
     "name": "Panic Disorder",
     "href": "/panic-disorder-dallas-tx/"
   },
   {
-    "imgSrc": "/images/our-services/car-accident-injury.webp",
     "name": "Trauma",
     "href": "/trauma-treatment-in-dallas-fort-worth/"
   }
