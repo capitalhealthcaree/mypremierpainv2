@@ -76,7 +76,7 @@ const SymptomsCovid19 = () => {
                     height: "100%",
                   }}
                 >
-                  <source src="/images/treatments.mp4" type="video/mp4" />
+                  <source src="https://res.cloudinary.com/dngmflrpx/video/upload/v1735859273/treatments_bup87b.mp4" type="video/mp4" />
                 </video>
               </div>
             </div>

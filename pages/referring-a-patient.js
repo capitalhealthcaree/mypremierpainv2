@@ -58,7 +58,7 @@ const PatientReferral = () => {
             Farmers Branch, Waxahachie, Corsicana, Cleburne, Plano, Ennis,
             Mesquite, or Gun Barrel City,{" "}
             <Link
-              href="/images/Referral-Form-Doctor.pdf/"
+              href="https://res.cloudinary.com/dngmflrpx/image/upload/v1735859125/Referral-Form-Doctor_b5c0n1.pdf"
               target="_blank"
               rel="preload"
             >

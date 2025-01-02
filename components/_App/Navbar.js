@@ -733,7 +733,7 @@ const Navbar = () => {
                       </li>{" "}
                       <li className="nav-item">
                         <Link
-                          href="/images/New-Patient-Paper-Work.pdf/"
+                          href="https://res.cloudinary.com/dngmflrpx/image/upload/v1735858818/New-Patient-Paper-Work_enkokm.pdf"
                           target="_blank"
                           className={`nav-link ${
                             currentPath == "/faqs/" && "active"

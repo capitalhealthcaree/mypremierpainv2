@@ -73,11 +73,10 @@ const OurMission = () => {
                   }}
                 >
                   <source
-                    src="/images/our-mission/pain-body.mp4"
+                    src="https://res.cloudinary.com/dngmflrpx/video/upload/v1735859373/pain-body_toak8l.mp4"
                     type="video/mp4"
                   />
                 </video>
-                {/* <img src="/images/our-mission/pain-body.mp4" alt="Spread" /> */}
               </div>
             </div>
           </div>
