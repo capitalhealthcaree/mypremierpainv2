@@ -10,7 +10,7 @@ const TmsTherapy = () => {
             <div className="col-lg-6 p-0">
               <div className="welcome-item ">
                 <img
-                  src="/images/tms-home/tms-therpy-near-me.jpg"
+                  src="http://res.cloudinary.com/dngmflrpx/image/upload/v1736449068/tms-therapy/clrzo54zcmuhq0oxzavm.jpg"
                   alt="image"
                 />
               </div>
@@ -27,7 +27,7 @@ const TmsTherapy = () => {
                   <li>
                     <i>
                       <img
-                        src="/images/tms-home/tms-medications.png"
+                        src="http://res.cloudinary.com/dngmflrpx/image/upload/v1736453338/tms-therapy/hsoib7ngjdd6vuoz1wyk.png"
                         width={40}
                         height={40}
                       />
@@ -43,7 +43,7 @@ const TmsTherapy = () => {
                   <li>
                     <i>
                       <img
-                        src="/images/tms-home/tms-physical-therapy.png"
+                        src="http://res.cloudinary.com/dngmflrpx/image/upload/v1736453462/tms-therapy/sarmxhik1yh0mf2zymmr.png"
                         width={40}
                         height={40}
                       />
@@ -59,7 +59,7 @@ const TmsTherapy = () => {
                   <li>
                     <i>
                       <img
-                        src="/images/tms-home/depression.png"
+                        src="http://res.cloudinary.com/dngmflrpx/image/upload/v1736453527/tms-therapy/seynozld5htpt03ssiwc.png"
                         width={40}
                         height={40}
                       />

@@ -2,62 +2,74 @@ import React from "react";
 import Link from "next/link";
 const outServices = [
   {
-    imgSrc: "/images/tms-home/condition-we-treat-depression.jpg",
+    imgSrc:
+      "http://res.cloudinary.com/dngmflrpx/image/upload/v1736453716/tms-therapy/jeda0v4kvy3r7vdvccja.jpg",
     name: "Depression",
     href: "/depression-treatment-in-dallas-tx/",
   },
   {
-    imgSrc: "/images/tms-home/ocd-treatments.jpg",
+    imgSrc:
+      "http://res.cloudinary.com/dngmflrpx/image/upload/v1736453797/tms-therapy/fkioqdywaqhxyyueuzgf.jpg",
     name: "OCD Treatment",
     href: "/ocd-treatment-in-dallas-tx",
   },
   {
-    imgSrc: "/images/tms-home/condition-we-treat-ptsd.jpg",
+    imgSrc:
+      "http://res.cloudinary.com/dngmflrpx/image/upload/v1736453849/tms-therapy/fiygxy2m5ngc0k9s0e2h.jpg",
     name: "PTSD Treatment",
     href: "/ptsd-treatment-in-dallas-tx/",
   },
   {
-    imgSrc: "/images/tms-home/condition-we-treat-anxiety.jpg",
+    imgSrc:
+      "http://res.cloudinary.com/dngmflrpx/image/upload/v1736453895/tms-therapy/elfruwdbpps3myjyry4n.jpg",
     name: "Anxiety",
     href: "/anxiety-treatment-in-dallas-tx/",
   },
   {
-    imgSrc: "/images/tms-home/condition-we-treat-autism.jpg",
+    imgSrc:
+      "http://res.cloudinary.com/dngmflrpx/image/upload/v1736453981/tms-therapy/mrl1jtej0jodcx1kvok6.jpg",
     name: "Autism",
     href: "/autism-treatment-in-dallas-fort-worth/",
   },
   {
-    imgSrc: "/images/tms-home/tinnitus.jpg",
+    imgSrc:
+      "http://res.cloudinary.com/dngmflrpx/image/upload/v1736454086/tms-therapy/ksv3yav3ikpugqxdnpff.jpg",
     name: "Tinnitus",
     href: "/tinnitus-treatment-in-dallas-fort-worth/",
   },
   {
-    imgSrc: "/images/tms-home/migraines.jpg",
+    imgSrc:
+      "http://res.cloudinary.com/dngmflrpx/image/upload/v1736454188/tms-therapy/bjvjjztlb1dbtiivlo4l.jpg",
     name: "Migraines",
     href: "/migraines-treatment-in-dallas-tx/",
   },
   {
-    imgSrc: "/images/tms-home/bipolar-disorder-treatment.jpg",
+    imgSrc:
+      "http://res.cloudinary.com/dngmflrpx/image/upload/v1736454263/tms-therapy/c4bp5keqvah1hbwrb6v7.jpg",
     name: "Bipolar Disorder",
     href: "/bipolar-disorder-treatment-in-richardson/",
   },
   {
-    imgSrc: "/images/tms-home/cognitive-behavioral-therapy.jpg",
+    imgSrc:
+      "http://res.cloudinary.com/dngmflrpx/image/upload/v1736454331/tms-therapy/ykexm82ub6qyoiilnmmf.jpg",
     name: "Cognitive Therapy",
     href: "/cognitive-behavioral-therapy-dallas-tx/",
   },
   {
-    imgSrc: "/images/tms-home/medication-management.jpg",
+    imgSrc:
+      "http://res.cloudinary.com/dngmflrpx/image/upload/v1736454384/tms-therapy/mjxwt37z6ebvoksefe6x.jpg",
     name: "Medication Management",
     href: "/medication-management-in-dallas/",
   },
   {
-    imgSrc: "/images/tms-home/panic-disorder.jpg",
+    imgSrc:
+      "http://res.cloudinary.com/dngmflrpx/image/upload/v1736454438/tms-therapy/ezmhyfdvicfsahqtvekf.jpg",
     name: "Panic Disorder",
     href: "/panic-disorder-dallas-tx/",
   },
   {
-    imgSrc: "/images/tms-home/trauma.jpg",
+    imgSrc:
+      "http://res.cloudinary.com/dngmflrpx/image/upload/v1736454517/tms-therapy/sceiuyb7g5yejullepav.jpg",
     name: "Trauma",
     href: "/trauma-treatment-in-dallas-fort-worth/",
   },

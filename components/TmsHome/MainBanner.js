@@ -19,14 +19,16 @@ const HeroSlider = () => {
           <div
             className="slider-item slider-item-three"
             style={{
-              backgroundImage: `url(/images/tms-home/main-banner.jpg)`,
+              backgroundImage: `url(http://res.cloudinary.com/dngmflrpx/image/upload/v1736448787/tms-therapy/qryti5csh5deyftfkdvk.jpg)`,
             }}
           >
             <div className="d-table">
               <div className="d-table-cell">
                 <div className="container">
                   <div className="slider-text">
-                    <h1 style={{ color: "white",margin:"0 0 0 0" }}>Change Your Mind,</h1>
+                    <h1 style={{ color: "white", margin: "0 0 0 0" }}>
+                      Change Your Mind,
+                    </h1>
                     <h1 style={{ color: "white" }}>Change Your Life.</h1>
                     <p style={{ color: "white" }}>
                       TMS is an FDA-approved treatment for depression and

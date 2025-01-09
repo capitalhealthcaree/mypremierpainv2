@@ -42,7 +42,7 @@ const DoctorDetails = () => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="trauma-treatment"
-        bgImage="/images/tms-home/tms-banner.png"
+        bgImage="http://res.cloudinary.com/dngmflrpx/image/upload/v1736455854/tms-therapy/yn0oqdzovgkkcjt5oezi.png"
       />
 
       <div className="doctor-details-area pt-4 pb-70">
