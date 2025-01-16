@@ -7,6 +7,10 @@ const Navbar = dynamic(() => import("../../components/_App/Navbar"));
 
 const PageBanner = dynamic(() => import("../../components/Common/PageBanner"));
 
+const LancasterContent = dynamic(() =>
+  import("../../components/ContactLocationsContent/LancasterContent")
+);
+
 const ContactInfo = dynamic(() =>
   import("../../components/Contact/ContactInfo")
 );
@@ -45,7 +49,7 @@ const Contact = () => {
         activePageText="lancaster"
         bgImage="http://res.cloudinary.com/dngmflrpx/image/upload/v1734990377/mzwabfkruapqgueyqayv.webp"
       />
-
+      <LancasterContent />
       <ContactInfo
         loc1={"2700 W. Pleasant Run Rd., Ste. 320"}
         loc2={"Lancaster, TX 75146"}

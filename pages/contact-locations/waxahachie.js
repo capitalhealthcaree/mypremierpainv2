@@ -7,6 +7,10 @@ const Navbar = dynamic(() => import("../../components/_App/Navbar"));
 
 const PageBanner = dynamic(() => import("../../components/Common/PageBanner"));
 
+const WaxahachieContent = dynamic(() =>
+  import("../../components/ContactLocationsContent/WaxahachieContent")
+);
+
 const ContactInfo = dynamic(() =>
   import("../../components/Contact/ContactInfo")
 );
@@ -45,7 +49,7 @@ const Contact = () => {
         activePageText="waxahachie"
         bgImage="http://res.cloudinary.com/dngmflrpx/image/upload/v1734990377/mzwabfkruapqgueyqayv.webp"
       />
-
+      <WaxahachieContent />
       <ContactInfo
         loc1={"115 Park Pl Blvd #100"}
         loc2={"Waxahachie, TX 75165"}

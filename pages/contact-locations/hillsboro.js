@@ -7,6 +7,10 @@ const Navbar = dynamic(() => import("../../components/_App/Navbar"));
 
 const PageBanner = dynamic(() => import("../../components/Common/PageBanner"));
 
+const HillsboroContent = dynamic(() =>
+  import("../../components/ContactLocationsContent/HillsboroContent")
+);
+
 const ContactInfo = dynamic(() =>
   import("../../components/Contact/ContactInfo")
 );
@@ -45,7 +49,7 @@ const Contact = () => {
         activePageText="hillsboro"
         bgImage="http://res.cloudinary.com/dngmflrpx/image/upload/v1734990377/mzwabfkruapqgueyqayv.webp"
       />
-
+      <HillsboroContent />
       <ContactInfo loc1={"207 I-35, Hillsboro"} loc2={"TX 76645"} />
 
       <div className="pt-2 pb-5">

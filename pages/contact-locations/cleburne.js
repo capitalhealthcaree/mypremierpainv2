@@ -7,6 +7,10 @@ const Navbar = dynamic(() => import("../../components/_App/Navbar"));
 
 const PageBanner = dynamic(() => import("../../components/Common/PageBanner"));
 
+const CleburneContent = dynamic(() =>
+  import("../../components/ContactLocationsContent/CleburneContent")
+);
+
 const ContactInfo = dynamic(() =>
   import("../../components/Contact/ContactInfo")
 );
@@ -45,7 +49,7 @@ const Contact = () => {
         activePageText="cleburne"
         bgImage="http://res.cloudinary.com/dngmflrpx/image/upload/v1734990377/mzwabfkruapqgueyqayv.webp"
       />
-
+      <CleburneContent />
       <ContactInfo loc1={"131 S Westmeadow Dr,"} loc2={"Cleburne, TX 76033"} />
 
       <div className="pt-2 pb-5">

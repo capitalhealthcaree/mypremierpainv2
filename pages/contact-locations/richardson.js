@@ -7,6 +7,10 @@ const Navbar = dynamic(() => import("../../components/_App/Navbar"));
 
 const PageBanner = dynamic(() => import("../../components/Common/PageBanner"));
 
+const RichardsonContent = dynamic(() =>
+  import("../../components/ContactLocationsContent/RichardsonContent")
+);
+
 const ContactInfo = dynamic(() =>
   import("../../components/Contact/ContactInfo")
 );
@@ -45,7 +49,7 @@ const Contact = () => {
         activePageText="richardson"
         bgImage="http://res.cloudinary.com/dngmflrpx/image/upload/v1734990377/mzwabfkruapqgueyqayv.webp"
       />
-
+      <RichardsonContent />
       <ContactInfo loc1={"2071 N Collins Blvd"} loc2={"Richardson, TX 75080"} />
 
       <div className="pt-2 pb-5">

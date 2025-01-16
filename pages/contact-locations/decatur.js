@@ -7,6 +7,10 @@ const Navbar = dynamic(() => import("../../components/_App/Navbar"));
 
 const PageBanner = dynamic(() => import("../../components/Common/PageBanner"));
 
+const DecaturContent = dynamic(() =>
+  import("../../components/ContactLocationsContent/DecaturContent")
+);
+
 const ContactInfo = dynamic(() =>
   import("../../components/Contact/ContactInfo")
 );
@@ -45,7 +49,7 @@ const Contact = () => {
         activePageText="decatur"
         bgImage="http://res.cloudinary.com/dngmflrpx/image/upload/v1734990377/mzwabfkruapqgueyqayv.webp"
       />
-
+      <DecaturContent />
       <ContactInfo
         loc1={"902 Preskitt Rd Suite 300,"}
         loc2={"Decatur, TX 76234"}

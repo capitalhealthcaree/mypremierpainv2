@@ -7,6 +7,10 @@ const Navbar = dynamic(() => import("../../components/_App/Navbar"));
 
 const PageBanner = dynamic(() => import("../../components/Common/PageBanner"));
 
+const PlanoContent = dynamic(() =>
+  import("../../components/ContactLocationsContent/PlanoContent")
+);
+
 const ContactInfo = dynamic(() =>
   import("../../components/Contact/ContactInfo")
 );
@@ -45,7 +49,7 @@ const Contact = () => {
         activePageText="plano"
         bgImage="http://res.cloudinary.com/dngmflrpx/image/upload/v1734990377/mzwabfkruapqgueyqayv.webp"
       />
-
+      <PlanoContent />
       <ContactInfo
         loc1={"7712 San Jacinto Place Suite 300"}
         loc2={"Plano, TX 75024"}

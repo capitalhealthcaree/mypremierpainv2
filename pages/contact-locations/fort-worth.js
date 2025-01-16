@@ -7,6 +7,10 @@ const Navbar = dynamic(() => import("../../components/_App/Navbar"));
 
 const PageBanner = dynamic(() => import("../../components/Common/PageBanner"));
 
+const FortWorthContent = dynamic(() =>
+  import("../../components/ContactLocationsContent/FortWorthContent")
+);
+
 const ContactInfo = dynamic(() =>
   import("../../components/Contact/ContactInfo")
 );
@@ -45,7 +49,7 @@ const Contact = () => {
         activePageText="fort-worth"
         bgImage="http://res.cloudinary.com/dngmflrpx/image/upload/v1734990377/mzwabfkruapqgueyqayv.webp"
       />
-
+      <FortWorthContent />
       <ContactInfo loc1={"1111 5th Ave,"} loc2={"Fort Worth, TX 76104"} />
 
       <div className="pt-2 pb-5">
