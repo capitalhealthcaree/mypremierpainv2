@@ -7,6 +7,10 @@ const Navbar = dynamic(() => import("../../components/_App/Navbar"));
 
 const PageBanner = dynamic(() => import("../../components/Common/PageBanner"));
 
+const EnnisContent = dynamic(() =>
+  import("../../components/ContactLocationsContent/EnnisContent")
+);
+
 const ContactInfo = dynamic(() =>
   import("../../components/Contact/ContactInfo")
 );
@@ -45,7 +49,7 @@ const Contact = () => {
         activePageText="ennis"
         bgImage="http://res.cloudinary.com/dngmflrpx/image/upload/v1734990377/mzwabfkruapqgueyqayv.webp"
       />
-
+      <EnnisContent />
       <ContactInfo
         loc1={"2200 Physicians Blvd,"}
         loc2={"Suite B1 Ennis, TX 75119"}

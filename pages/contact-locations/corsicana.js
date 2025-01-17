@@ -7,6 +7,10 @@ const Navbar = dynamic(() => import("../../components/_App/Navbar"));
 
 const PageBanner = dynamic(() => import("../../components/Common/PageBanner"));
 
+const CorsicanaContent = dynamic(() =>
+  import("../../components/ContactLocationsContent/CorsicanaContent")
+);
+
 const ContactInfo = dynamic(() =>
   import("../../components/Contact/ContactInfo")
 );
@@ -45,7 +49,7 @@ const Contact = () => {
         activePageText="corsicana"
         bgImage="http://res.cloudinary.com/dngmflrpx/image/upload/v1734990377/mzwabfkruapqgueyqayv.webp"
       />
-
+      <CorsicanaContent />
       <ContactInfo loc1={"3108 E. State HWY 22"} loc2={"Corsicana, TX 75102"} />
 
       <div className="pt-2 pb-5">
