@@ -7,6 +7,10 @@ const Navbar = dynamic(() => import("../../components/_App/Navbar"));
 
 const PageBanner = dynamic(() => import("../../components/Common/PageBanner"));
 
+const MesquiteContent = dynamic(() =>
+  import("../../components/ContactLocationsContent/MesquiteContent")
+);
+
 const ContactInfo = dynamic(() =>
   import("../../components/Contact/ContactInfo")
 );
@@ -45,7 +49,7 @@ const Contact = () => {
         activePageText="mesquite"
         bgImage="http://res.cloudinary.com/dngmflrpx/image/upload/v1734990377/mzwabfkruapqgueyqayv.webp"
       />
-
+      <MesquiteContent />
       <ContactInfo loc1={"200 W Kearney St,"} loc2={"Mesquite, TX 75149"} />
 
       <div className="pt-2 pb-5">

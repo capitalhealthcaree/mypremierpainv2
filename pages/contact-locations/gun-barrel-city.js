@@ -7,6 +7,10 @@ const Navbar = dynamic(() => import("../../components/_App/Navbar"));
 
 const PageBanner = dynamic(() => import("../../components/Common/PageBanner"));
 
+const GunBarrelContent = dynamic(() =>
+  import("../../components/ContactLocationsContent/GunBarrelContent")
+);
+
 const ContactInfo = dynamic(() =>
   import("../../components/Contact/ContactInfo")
 );
@@ -45,7 +49,7 @@ const Contact = () => {
         activePageText="gun-barrel-city"
         bgImage="http://res.cloudinary.com/dngmflrpx/image/upload/v1734990377/mzwabfkruapqgueyqayv.webp"
       />
-
+      <GunBarrelContent />
       <ContactInfo
         loc1={"519 N Gun Barrel Ln Suite A"}
         loc2={"Gun Barrel City, TX 75156"}
