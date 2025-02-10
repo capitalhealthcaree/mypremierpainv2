@@ -50,10 +50,7 @@ const Contact = () => {
         bgImage="http://res.cloudinary.com/dngmflrpx/image/upload/v1734990377/mzwabfkruapqgueyqayv.webp"
       />
       <WaxahachieContent />
-      <ContactInfo
-        loc1={"115 Park Pl Blvd #100"}
-        loc2={"Waxahachie, TX 75165"}
-      />
+      <ContactInfo loc1={"20 Northgate Dr,"} loc2={"Waxahachie, TX 75165"} />
 
       <div className="pt-2 pb-5">
         <AppointmentForm />
@@ -61,12 +58,11 @@ const Contact = () => {
 
       <div className="map-area">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3368.4110844282595!2d-96.82520382370042!3d32.40814490274465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864ee9253c38c6c5%3A0xe13511b32bb645af!2s115%20Park%20Pl%20Blvd%20%23100%2C%20Waxahachie%2C%20TX%2075165%2C%20USA!5e0!3m2!1sen!2s!4v1694021095570!5m2!1sen!2s"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3368.179604181973!2d-96.84137878885765!3d32.414346802322825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864eef7121287c31%3A0xdecef8f48626655a!2sPremier%20Pain%20Centers%20%3A%20Waxahachie!5e0!3m2!1sen!2s!4v1739212808263!5m2!1sen!2s"
           height="550"
           loading="lazy"
         ></iframe>
       </div>
-
       <Footer />
     </>
   );

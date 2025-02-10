@@ -309,14 +309,14 @@ const Footer = () => {
                       {" "}
                       <h3 style={{ marginBottom: "1px" }}>WAXAHACHIE</h3>
                       <i className="icofont-location-pin"></i>
-                      <a href="https://goo.gl/maps/B1gFM1eLtxrJfSjo9">
-                        115 Park Pl Blvd #100
+                      <a href="https://maps.app.goo.gl/XrY5fzd2wsjNSdEx9">
+                        20 Northgate Dr,
                       </a>
-                      <a href="https://goo.gl/maps/B1gFM1eLtxrJfSjo9">
+                      <a href="https://maps.app.goo.gl/XrY5fzd2wsjNSdEx9">
                         Waxahachie, TX 75165
                       </a>
                       <a
-                        href="https://goo.gl/maps/B1gFM1eLtxrJfSjo9"
+                        href="https://maps.app.goo.gl/XrY5fzd2wsjNSdEx9"
                         className="fw-bold"
                       >
                         View Map & Directions
