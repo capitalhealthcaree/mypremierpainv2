@@ -20,7 +20,7 @@ const NewsDetails = ({ items }) => {
         <title>
           {items?.seoTitle[0]
             ? items?.seoTitle[0]
-            : "Latest Pain Management Blogs | Dallas Premier Pain"}
+            : "Latest Pain Management News | Dallas Premier Pain"}
         </title>
         <link
           rel="canonical"

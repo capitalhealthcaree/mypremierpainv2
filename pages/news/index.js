@@ -44,7 +44,7 @@ const News = ({ item, totalPage }) => {
   return (
     <>
       <Head>
-        <title>Latest Pain Management Blogs | Dallas Premier Pain</title>
+        <title>Latest Pain Management News | Dallas Premier Pain</title>
         <meta content="text/html; charset=utf-8" httpEquiv="Content-Type" />
         <meta content="initial-scale=1" name="viewport" />
         <meta name="robots" content="noindex, nofollow" />
