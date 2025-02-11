@@ -33,7 +33,7 @@ export default function HillsboroContent() {
       <p>
         Open communication, respect for individual preferences, and
         patient-provider collaboration are our top priorities for optimal
-        results. Our
+        results. Our{" "}
         <Link href="/meet-our-team/rao-k-ali/" rel="preload">
           best pain doctor in Hillsboro{" "}
         </Link>{" "}

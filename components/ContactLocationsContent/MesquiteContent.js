@@ -49,16 +49,16 @@ export default function MesquiteContent() {
       <p>
         A pain treatment center can help you live pain-free regardless of its
         cause or location. For chronic and acute pain, our{" "}
-        <b>Mesquite pain doctors</b>
-        use conservative and minimally invasive methods. Book an appointment at
-        our Mesquite, and other surrounding locations like Richardson, Gun
-        Barrel City, Lancaster and other areas of pain management clinic.
-        Premier Pain Centers uses proven treatments and cutting-edge technology
-        to achieve quality results. Our <b> pain management Mesquite </b>can
-        help you overcome neck, back, arm, and leg pain. Our surgeons, nurses,
-        and administrative personnel endeavor to assist patients suffering from
-        pain in Mesquite. Start exploring symptom treatments at our Mesquite
-        pain management center today.
+        <b>Mesquite pain doctors</b> use conservative and minimally invasive
+        methods. Book an appointment at our Mesquite, and other surrounding
+        locations like Richardson, Gun Barrel City, Lancaster and other areas of
+        pain management clinic. Premier Pain Centers uses proven treatments and
+        cutting-edge technology to achieve quality results. Our{" "}
+        <b> pain management Mesquite </b>can help you overcome neck, back, arm,
+        and leg pain. Our surgeons, nurses, and administrative personnel
+        endeavor to assist patients suffering from pain in Mesquite. Start
+        exploring symptom treatments at our Mesquite pain management center
+        today.
       </p>
       <h2>Mesquite Pain Management Specialists</h2>
       <p>

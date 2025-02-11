@@ -70,7 +70,7 @@ export default function PlanoContent() {
         your pain, depending on its cause and your personality. Fewer than 50%
         of patients with neuropathic pain achieve relief from a single therapy.
         If you collaborate with your{" "}
-        <Link href="/conditions-we-treat/headaches/" rel="preload">
+        <Link href="/meet-our-team/rao-k-ali/" rel="preload">
           {" "}
           pain doctor in plano
         </Link>{" "}

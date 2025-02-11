@@ -57,7 +57,7 @@ export default function RichardsonContent() {
         can assist patients in reclaiming control over their lives. They may
         enjoy activities and have less physical and mental stress. Pain
         management is rewarding and influential.
-        <Link href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/" rel="preload">
+        <Link href="/meet-our-team/rao-k-ali/" rel="preload">
           {" "}
           Pain management specialist in Richardson
         </Link>{" "}

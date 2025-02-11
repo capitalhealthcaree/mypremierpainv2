@@ -36,7 +36,7 @@ export default function CorsicanaContent() {
       </p>
       <h2>Pain Management Specialists</h2>
       <p>
-        <Link href="https://g.co/kgs/enEijRj" rel="preload">
+        <Link href="/meet-our-team/rao-k-ali/" rel="preload">
           {" "}
           Pain management doctor{" "}
         </Link>{" "}
