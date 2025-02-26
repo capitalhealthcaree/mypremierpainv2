@@ -35,19 +35,12 @@ class MyDocument extends Document {
           />
         </Head>
         <body>
-        <Script
-        id="messenger-widget-b"
-        src="https://cdn.botpenguin.com/website-bot.js"
-        strategy="lazyOnload"
-        onLoad={() => {
-          if (window.BotPenguin) {
-            window.BotPenguin.init(
-              "67bf286b4deb655bc592f3bb",
-              "67bf283eb0a5145cacb98a41"
-            );
-          }
-        }}
-      />
+          <Script
+            id="messenger-widget-b"
+            src="https://cdn.botpenguin.com/website-bot.js"
+            defer
+            data-id="67bf286b4deb655bc592f3bb,67bf283eb0a5145cacb98a41"
+          />
           {/* Add Script of Chat */}
           {/* <script
             async
