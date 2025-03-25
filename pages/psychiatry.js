@@ -20,6 +20,10 @@ const HelpingIndividualsSection = dynamic(() =>
   import("../components/PsychiatryHome/HelpingIndividualsSection")
 );
 
+const ImproveLifeSection = dynamic(() =>
+  import("../components/PsychiatryHome/ImproveLifeSection")
+);
+
 const AppointmentForm = dynamic(() =>
   import("../components/PsychiatryHome/Appointment")
 );
@@ -54,6 +58,7 @@ export default function Psychiatry() {
       <PsychiatryBanner />
       <PsychiatricListContent />
       <HelpingIndividualsSection />
+      <ImproveLifeSection />
       <AppointmentForm />
       <TMSSection />
       <Footer />

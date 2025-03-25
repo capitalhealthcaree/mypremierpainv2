@@ -10,7 +10,7 @@ export default function HelpingIndividualsSection() {
             <div className="col-lg-6">
               <div className="container">
                 <h1>
-                  Helping individuals navigate their mental health journey.
+                  Helping individuals navigate their mental health journey
                 </h1>
                 <p>
                   We provide expert psychiatric care, helping individuals
