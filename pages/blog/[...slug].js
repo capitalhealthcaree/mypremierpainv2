@@ -36,7 +36,11 @@ const BlogDetails = ({ items }) => {
       <Navbar />
 
       <PageBanner
-        pageTitle="Blog Details"
+        pageTitle={
+          items?.seoTitle[0]
+            ? items?.seoTitle[0]
+            : "Latest Pain Management Blogs | Dallas Premier Pain"
+        }
         homePageUrl="/"
         homePageText="Home"
         activePageText="Blog Details"
@@ -57,9 +61,7 @@ const BlogDetails = ({ items }) => {
                     height={428}
                     loading="lazy"
                   />
-                  <h2>{items?.seoTitle[0]}</h2>
                 </div>
-
                 <div dangerouslySetInnerHTML={{ __html: items?.title }}></div>
               </div>
             </div>
