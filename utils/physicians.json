@@ -24,5 +24,14 @@
       "href": "/meet-our-team/william-moore-md/",
       "desc": "Dr. William Moore, a renowned pain management doctor in Dallas, is recognized for his compassionate clinical skills and pioneering medical methods, ensuring the best care for his patients."
     }
+    ,
+    {
+      "id": "4",
+      "image": "/images/dr-pollard-psychiatrist-dallas.png",
+      "name": "Ronnie Pollard MD",
+      "bio": "Board Certified Psychiatrist",
+      "href": "/meet-our-team/dr-pollard-psychiatrist-dallas/",
+      "desc": "Dr. William Moore, a renowned pain management doctor in Dallas, is recognized for his compassionate clinical skills and pioneering medical methods, ensuring the best care for his patients."
+    }
   ]
 }
