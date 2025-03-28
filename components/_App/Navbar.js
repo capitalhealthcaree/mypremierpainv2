@@ -231,13 +231,13 @@ const Navbar = () => {
                   </li>
                   <li className="nav-item">
                     <Link
-                      href="/tms-therapy/"
+                      href="/psychiatry/"
                       className={`nav-link ${
-                        currentPath === "/tms-therapy/" && "active"
+                        currentPath === "/psychiatry/" && "active"
                       }`}
                       rel="preload"
                     >
-                      TMS Therapy
+                      Psychiatry
                     </Link>
                   </li>
                   {/* <li className="nav-item">
@@ -509,19 +509,6 @@ const Navbar = () => {
                           rel="preload"
                         >
                           William Moore MD
-                        </Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link
-                          href="/meet-our-team/dr-pollard-psychiatrist-dallas/"
-                          className={`nav-link ${
-                            currentPath ==
-                              "/meet-our-team/dr-pollard-psychiatrist-dallas/" &&
-                            "active"
-                          }`}
-                          rel="preload"
-                        >
-                          Ronnie Pollard MD
                         </Link>
                       </li>
                     </ul>

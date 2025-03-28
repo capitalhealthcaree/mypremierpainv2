@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Link from "next/link";
 import dynamic from "next/dynamic";
-import data from "../../utils/conditionsWeTreat.json";
+import data from "../../utils/psychiatryData.json";
 
 const Navbar = dynamic(() => import("../../components/_App/Navbar"));
 
@@ -80,7 +80,7 @@ const DoctorDetails = () => {
                   src="/images/dr-pollard-psychiatrist-dallas.png"
                   alt="MUHAMMAD ZULQARNAIN MD (DR. Z)"
                 />
-                {/* <div className="blog-details-item">
+                <div className="blog-details-item">
                   <div className="blog-details-category ps-3">
                     <h3>Conditions We Treat</h3>
                     <ul>
@@ -95,7 +95,7 @@ const DoctorDetails = () => {
                       })}
                     </ul>
                   </div>
-                </div> */}
+                </div>
               </div>
             </div>
 
@@ -127,7 +127,7 @@ const DoctorDetails = () => {
                       care, combining medication management with psychotherapy
                       to support mental well-being.
                     </p>
-                    <div className="container-fluid">
+                    {/* <div className="container-fluid">
                       <div className="row g-4">
                         <div className="col-12 col-md-6">
                           <h5>Diagnose and Treat:</h5>
@@ -165,7 +165,7 @@ const DoctorDetails = () => {
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="doctor-details-contact">
                     <h3>Contact info</h3>

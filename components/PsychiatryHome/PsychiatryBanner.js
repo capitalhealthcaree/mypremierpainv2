@@ -26,11 +26,11 @@ export default function HeroSlider() {
               <div className="d-table-cell">
                 <div className="container">
                   <div className="slider-text">
-                    <h4 style={{ color: "black", margin: "0 0 0 0" }}>
+                    <h4 style={{ color: "white", margin: "0 0 0 0" }}>
                       Nothing matters more than your,
                     </h4>
-                    <h1 style={{ color: "black" }}>Mental Health</h1>
-                    <p style={{ color: "black" }}>
+                    <h1 style={{ color: "white" }}>Mental Health</h1>
+                    <p style={{ color: "white" }}>
                       We're here to support you with our award-winning
                       therapies!
                     </p>
