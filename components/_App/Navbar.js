@@ -231,9 +231,9 @@ const Navbar = () => {
                   </li>
                   <li className="nav-item">
                     <Link
-                      href="/psychiatry/"
+                      href="/psychiatric-services-in-dallas/"
                       className={`nav-link ${
-                        currentPath === "/psychiatry/" && "active"
+                        currentPath === "/psychiatric-services-in-dallas/" && "active"
                       }`}
                       rel="preload"
                     >

@@ -43,7 +43,7 @@ const Contact = () => {
       <Navbar />
 
       <PageBanner
-        pageTitle="Pain Management Services in Ennis"
+        pageTitle="Pain Management in Ennis: Modern Pain Treatments For a Better Life"
         homePageUrl="/"
         homePageText="Home"
         activePageText="ennis"
