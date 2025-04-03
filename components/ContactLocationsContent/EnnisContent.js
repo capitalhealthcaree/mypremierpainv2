@@ -84,7 +84,7 @@ export default function EnnisContent() {
           {conditions.map((condition, index) => (
             <div key={index} className="col-6 col-md-6 col-lg-4">
               <div className="d-flex align-items-center">
-                <div className="me-2 text-primary">•</div>
+                <div className="me-2">•</div>
                 <div>{condition}</div>
               </div>
             </div>
@@ -118,7 +118,7 @@ export default function EnnisContent() {
           {procedures.map((procedure, index) => (
             <div key={index} className="col-6 col-md-6 col-lg-4">
               <div className="d-flex align-items-center">
-                <div className="me-2 text-primary">•</div>
+                <div className="me-2">•</div>
                 <div>{procedure}</div>
               </div>
             </div>
