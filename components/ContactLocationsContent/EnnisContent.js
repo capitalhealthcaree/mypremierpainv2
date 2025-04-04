@@ -182,15 +182,11 @@ export default function EnnisContent() {
         symptom relief. Premier Pain Centers enhance patients mobility, comfort,
         and quality of life by emphasizing empathetic care, advanced medical
         practices, and{" "}
-        <Link href="/meet-our-team/rao-k-ali/" rel="preload">
+        <Link href="/tms-therapy/" rel="preload">
           TMS Therapy in Dallas
         </Link>
-        . Our{" "}
-        <Link href="/meet-our-team/rao-k-ali/" rel="preload">
-          pain specialist in Ennis
-        </Link>{" "}
-        can improve the physical and mental health of many chronic pain
-        patients.
+        . Our pain specialist in Ennis can improve the physical and mental
+        health of many chronic pain patients.
       </p>
       <h2>Book An Appointment Now!</h2>
       <p>
@@ -199,9 +195,9 @@ export default function EnnisContent() {
         effective procedures so that you can trust us.{" "}
         <Link href="/appointment/" rel="preload">
           {" "}
-          Schedule an appointment with a pain specialis{" "}
+          Schedule an appointment with a pain specialist{" "}
         </Link>
-        t at 2200 Physicians Boulevard, Suite B1, Ennis, TX 75119. Our team has
+        at 2200 Physicians Boulevard, Suite B1, Ennis, TX 75119. Our team has
         extensive chronic pain management experience and can help with any pain
         issue. Our compassionate pain specialists will help you find lasting
         relief and live your best life so you can resume your favorite

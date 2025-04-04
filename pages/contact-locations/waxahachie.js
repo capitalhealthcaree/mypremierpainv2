@@ -43,7 +43,7 @@ const Contact = () => {
       <Navbar />
 
       <PageBanner
-        pageTitle="Pain Management Services in Waxahachie"
+        pageTitle="Struggling With Pain? Our Pain Specialists in Waxahachie Can Help"
         homePageUrl="/"
         homePageText="Home"
         activePageText="waxahachie"

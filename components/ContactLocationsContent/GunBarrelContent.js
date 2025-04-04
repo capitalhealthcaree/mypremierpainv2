@@ -1,105 +1,271 @@
 import Link from "next/link";
+const conditions = [
+  "Backache",
+  "Sciatica Neck Pain",
+  "Painful arthritis",
+  "Headache Cancer Pain",
+  "Hip and leg pain",
+  "Shoulder Pain",
+  "Pain after surgery",
+];
+const treatments = [
+  "Spinal compression fractures",
+  "Degenerative disc disease",
+  "Facet arthritis",
+  "Herniated disc",
+  "Low backache",
+  "Neck/arm pain",
+  "Osteoarthritis",
+  "Complex regional pain syndrome (reflex sympathetic dystrophy)",
+  "Sacral discomfort",
+  "Sciatica",
+  "Lumbar or cervical stenosis",
+  "Spondylolisthesis",
+];
+
+const painConditions = [
+  "Energy deficit",
+  "Reduced mobility",
+  "Pain from nerve damage",
+  "Low backache",
+  "Arthritis pain",
+  "Fibroma pain",
+  "Painful sensation",
+];
+
+const injectionTreatments = [
+  "Injecting caudal steroids",
+  "Steroid cervical epidural injection",
+  "Discography",
+  "TMS therapy in Dallas",
+  "Injections of facing joints",
+  "Steroid-injected lumbar epidural",
+  "Lumbar sympathetic block",
+  "A lumbar transforaminal epidural steroid injection",
+  "Injection of sacroiliac steroids",
+  "Osteopathic manipulative medicine is ideal for musculoskeletal issues, inflammation, and pharmaceutical adverse effects.",
+  "Sometimes, surgery is the greatest approach to relieve discomfort. Rhizotomy is used to treat chronic back pain.",
+];
+
+const visceralPain = ["Gallstones", "Appendicitis", "IBS"];
 
 export default function GunBarrelContent() {
   return (
     <div className="container pt-5">
       <p>
-        Pain Management at Premier Pain Centers Gun Barrel City, strives to
-        reduce acute and chronic pain. We aim to relieve patients' pain so they
-        can resume daily activities.
-      </p>
-      <p>
-        Our <b>pain management specialists</b> will collaborate with you to
-        develop a customized care plan. Clinics may offer different treatments.
-        Premier Pain Centers offers convenient pain management services across
-        multiple locations in Texas, ensuring accessibility for patients. These
-        locations include Gun Barrel City, Plano, North Richland Hills,
-        Lancaster, Waxahachie, Ennis, Decatur, Fort Worth, Mesquite, Hillsboro,
-        Cleburne, Richardson, and Corsicana.
-      </p>
-      <p>
-        Misaligned vertebrae cause neck and back spinal column pain. A small
-        misalignment can press nerves and cause pain. Untreated subluxations can
-        cause muscle spasms and pain. Chiropractic adjustments align your spine,
-        relieving joint and nerve pressure. It targets the cause of the pain,
-        unlike painkillers or massage. Visit us today!
-      </p>
-      <h2>Management of Pain</h2>
-      <p>
-        You can manage pain to maintain quality of life. If living with pain is
-        not an option, you can aggressively treat it to alleviate unmanageable
-        symptoms.
-        <br /> Our{" "}
-        <Link href="/meet-our-team/" rel="preload">
-          pain physicians
+        You know chronic pain can affect every aspect of your life. Benefis pain
+        professionals comprehend long-term, crippling pain and acute pain
+        following an injury or disease. Patients with these health concerns
+        benefit from our pain management specialists. We offer the newest pain
+        therapies in a caring environment. Our staff will provide personalised
+        care to reduce your discomfort, help you cope, and improve your quality
+        of life. Our board-certified physicians use a multidisciplinary
+        multidisciplinary approach to diagnose and treat all types of painful
+        disorders accurately. Our{" "}
+        <Link href="https://g.co/kgs/vZ5NXwb" rel="preload">
+          {" "}
+          pain management clinic in Gun Barrel City
         </Link>{" "}
-        of Gun Barrel City diagnose acute and chronic pain to reduce its
-        physical, emotional, and mental impact on you and your family. Whether
-        it:
+        uses conservative treatments, including diagnosis-driven physical
+        therapy, electrodiagnostic testing, drug management, and the latest,
+        most effective interventional pain techniques. es.
+      </p>
+      <div className="container pb-4">
+        <div className="row">
+          {conditions.map((condition, index) => (
+            <div key={index} className="col-6 col-md-6 col-lg-4">
+              <div className="d-flex align-items-center">
+                <div className="me-2">•</div>
+                <div>{condition}</div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+      <h2>We Treat All Types of Pain</h2>
+      <p>
+        Many illnesses can cause acute or persistent pain. Our professionals in
+        the{" "}
+        <Link href="/contact-locations/gun-barrel-city/" rel="preload">
+          {" "}
+          pain relief clinic in Gun Barrel City{" "}
+        </Link>
+        acknowledge and treat all pain issues. That includes:
+      </p>
+      <div className="container pb-4">
+        <div className="row">
+          {treatments.map((condition, index) => (
+            <div key={index} className="col-6 col-md-6 col-lg-4">
+              <div className="d-flex align-items-center">
+                <div className="me-2">•</div>
+                <div>{condition}</div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <h2>Acute Pain</h2>
+      <p>
+        Acute pain is abrupt, tissue-injury-related pain. It usually lasts less
+        than six months and fades after treatment. Sharp or strong acute pain
+        improves over time. Our neck pain relief clinic can help you to get rid
+        of neck pain if you are having.
+      </p>
+
+      <h2>Chronic Pain</h2>
+      <p>
+        Chronic pain persists for more than six months following the incident.
+        Chronic pain can be modest to severe daily and linger for years. It is
+        common, affecting almost 50 million persons in the US. Accidents or
+        injuries can cause persistent pain. Chronic pain can lower the quality
+        of life if not managed. Chronic pain sufferers may develop anxiety or
+        sadness.Additional chronic pain symptoms include:
+        <div className="container pb-4">
+          <div className="row">
+            {painConditions.map((condition, index) => (
+              <div key={index} className="col-6 col-md-6 col-lg-4">
+                <div className="d-flex align-items-center">
+                  <div className="me-2">•</div>
+                  <div>{condition}</div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </p>
+      <h2>Nociceptive Pain</h2>
+      <p>
+        Nociceptors, tissue damage pain receptors, are stimulated. Skin and
+        interior organs have nociceptors. When they detect possible danger, like
+        a cut, they send electrical impulses to your brain, creating pain. This
+        pain usually follows an injury or inflammation. Acute or chronic
+        nociceptive discomfort. It can also be visceral or somatic.
+      </p>
+      <h2>Visceral Pain</h2>
+      <p>
+        Internal organ injuries cause visceral agony. It's felt in the chest,
+        belly, and pelvis. Visceral discomfort is hard to locate. Visceral pain
+        is commonly described as pressing and aching. Nausea, vomiting, and
+        changes in body temperature, heart rate, and blood pressure may also
+        occur. Things that trigger visceral pain include:
+      </p>
+      <div className="container pb-4">
+        <div className="row">
+          {visceralPain.map((condition, index) => (
+            <div key={index} className="col-6 col-md-6 col-lg-4">
+              <div className="d-flex align-items-center">
+                <div className="me-2">•</div>
+                <div>{condition}</div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+      <h2>Treatments We Offer</h2>
+      <p>
+        Pain treatments are usually most successful nonsurgically. Our pain
+        experts may suggest these remedies:
+      </p>
+      <div className="container pb-4">
+        <div className="row">
+          {injectionTreatments.map((condition, index) => (
+            <div key={index} className="col-12 col-md-6 col-lg-4">
+              <div className="d-flex align-items-center">
+                <div className="me-2">•</div>
+                <div>{condition}</div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+      <p>
+        Many medical specialities focus on detecting and treating injuries and
+        pathologies and treating symptoms and pain during recovery, but pain
+        management is essential after the injury or disease has healed. If the
+        cause is unknown, alleviating the discomfort is the goal. Most receivers
+        are chronic pain patients. Chronic back pain and headaches necessitate
+        treatment.
       </p>
       <ul>
-        <li>Joint arthritis pain</li>
-        <li>Injury- or disc degeneration-related back or neck pain</li>
-        <li>Diabetes-related peripheral neuropathy</li>
         <li>
-          Foot pain or piriformis syndrome from overuse, or overall pain from
-          disease or immune disorder.
+          If you are suffering from back pain, our{" "}
+          <Link href="/meet-our-team/rao-k-ali/" rel="preload">
+            back pain treatment specialist
+          </Link>{" "}
+          has numerous physical, psychological, and pharmacological treatments.
+          Physiotherapy, therapeutic exercise, heat/ice, acupuncture,
+          electrotherapy, facet joint injections, and spinal cord stimulation
+          are physical treatments. Different pain sufferers may find massage
+          treatment helpful. Some treatments, like placebos, are psychological
+          treatments done by our{" "}
+          <Link href="/psychiatric-services-in-dallas/" rel="preload">
+            best psychiatrist in Dallas
+          </Link>
+          .
+        </li>
+        <li>
+          Cognitive behavioural therapy (CBT) and hypnosis have been used to
+          alleviate pain, with mixed results. Although CBT improves mood, there
+          is little data to indicate it decreases pain. Hypnosis studies are few
+          but improving. Some think psychological treatments work because of the
+          placebo effect.
+        </li>
+        <li>
+          Joint pain physicians recommend medications including painkillers and
+          anti-inflammatories. The location, severity, and likely source of pain
+          determine the medicine. Over-the-counter medicines can treat mild
+          pain, whereas opioids can treat severe pain following injury or
+          surgery. NSAIDs and antidepressants are commonly recommended for
+          fibromyalgia.
+        </li>
+        <li>
+          A pain management team may include doctors, nurse practitioners,
+          physiotherapists, psychologists, shoulder pain specialist in Gun
+          Barrel City and other mental health professionals due to the
+          speciality's multidisciplinary nature.
         </li>
       </ul>
-
-      <h2>Why Is Pain Management Important?</h2>
+      <h2>Why Choose Premier Pain Centers in Gun Barrel City?</h2>
       <p>
-        Improving quality of life requires pain management. Pain can prevent you
-        from enjoying your favorite activities and talking to loved ones. Every
-        emotion and thought is affected by pain. Pain can make eating and
-        sleeping difficult, worsening other symptoms. Pain increases blood
-        pressure, heart rate, and healing time.
+        Here at Premier Pain Centers doctors, we know how chronic pain can lower
+        your quality of life. General practitioners often give strong opioids
+        without treating the discomfort. We diagnose first before treating. We
+        can offer an evidence-based and best-practice treatment regimen.
+        Research suggests a comprehensive approach to pain management is ideal.
+        Our courteous and skilled staff will always try to lessen your
+        suffering.
       </p>
       <p>
-        Pain is one of America's biggest healthcare issues. Nearly half of
-        Americans see doctors for primary pain. Pain is widely considered a key
-        quality of life factor. Pain affects an individual's ability to perform
-        social roles and find satisfaction in them. Quality of life affects
-        patient satisfaction and treatment adherence more.
+        Our board certified{" "}
+        <Link href="/meet-our-team/" rel="preload">
+          pain management doctors
+        </Link>{" "}
+        offer acupuncture, botox, cortisone, epidural steroids, stem cell
+        therapy, radiofrequency ablation, and more. We strive to improve your
+        quality of life while providing the best care. The goal of our pain
+        clinics is to reduce patient discomfort. By providing several treatments
+        and therapies, our centers can assist patients in improving their
+        quality of life and relieve symptoms. More flexibility and ability are
+        usually found in patients visiting a pain clinic, which helps them to
+        live less pain in regular life. As we manage their discomfort more, they
+        could be emotionally better as well. See what we offer and the
+        circumstances we operate with on our website.
       </p>
-      <h2>Effects of Pain Management</h2>
+      <h2>Schedule a Pain Management Center Appointment</h2>
       <p>
-        An effective pain management program will relieve pain and restore
-        mobility. Among other effects:
-        <ul>
-          <li>
-            <b>Less stress</b>: High blood pressure causes a state of. This
-            causes high pain-related stress. The{" "}
-            <Link href="/meet-our-team/rao-k-ali/" rel="preload">
-              best pain doctor
-            </Link>{" "}
-            can help to reduce stress. Along with discomfort, you may work to
-            improve mobility and range of motion. This would increase your
-            physical activity, improving your mood. Physical activity reduces
-            pain and stress.
-          </li>
-          <li>
-            <b>Controlled Comfort</b>: Comfort and pain management are achieved
-            with proper techniques. Gun Barrel City pain management recommends
-            gradually returning to activities to heal pain. You'll notice the
-            pain difference without discomfort. Many patients need control to
-            manage pain.
-          </li>
-          <li>
-            <b>Quality of life improved</b>: Quality of life depends on pain
-            management. Pain management reduces stress, blood pressure, and
-            heart rate, promoting healing. Pain affects quality of life through
-            cognitive, motivational, affective, behavioral, and physical
-            factors.
-            <Link href="https://g.co/kgs/fLrNpLx" rel="preload">
-              {" "}
-              Pain management clinic
-            </Link>{" "}
-            help to reduce anxiety and emotional distress, improve well-being,
-            increase functional capacity, and enable family, social, and
-            vocational roles.
-          </li>
-        </ul>
+        Chronic pain should not be tolerated. Our pain treatment center at Gun
+        Barrel City is the ideal place to start pain reduction. We're always
+        here to answer questions concerning treatments and diagnostic tests. Our
+        doctors collaborate with competent paramedics, nurses, medical
+        assistants, and office staff. Our pain management in Gun Barrel City
+        customize our approach to meet the patient's needs with respect.
+        Patients will be well-informed and involved in treatment decisions. Why
+        not make an appointment today?{" "}
+        <Link href="/appointment/" rel="preload">
+          Book a pain consultation in Gun Barrel City center today
+        </Link>{" "}
+        at 469-562-4188 to begin long-term pain relief.
       </p>
     </div>
   );

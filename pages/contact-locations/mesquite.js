@@ -43,7 +43,7 @@ const Contact = () => {
       <Navbar />
 
       <PageBanner
-        pageTitle="Pain Management Services in Mesquite"
+        pageTitle="Pain Management in Mesquite: Get Lasting Relief"
         homePageUrl="/"
         homePageText="Home"
         activePageText="mesquite"

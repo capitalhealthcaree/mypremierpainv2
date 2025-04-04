@@ -43,7 +43,7 @@ const Contact = () => {
       <Navbar />
 
       <PageBanner
-        pageTitle="Pain Management Services in Plano"
+        pageTitle="Innovative Pain Management In Plano: Expert Care For Lasting Relief"
         homePageUrl="/"
         homePageText="Home"
         activePageText="plano"

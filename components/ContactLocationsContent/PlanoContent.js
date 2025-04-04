@@ -1,112 +1,221 @@
 import Link from "next/link";
+const conditions = [
+  "Back pain",
+  "Arthritis",
+  "Fibromyalgia",
+  "Joint pain",
+  "Muscle pain",
+  "Depression",
+  "Pinched Nerves",
+  "Osteoarthritis and rheumatoid arthritis",
+  "Neck Pain",
+  "Herniated Disc",
+  "Sciatica",
+  "Hip Pain",
+  "OCD Treatment",
+  "Tinnitus",
+  "Trauma",
+  "Anxiety",
+  "Occipital Neuropathy",
+  "Car Accident Injury",
+  "Shoulder Pain",
+  "Sports Injury",
+  "Spinal Stenosis",
+];
+
+const treatmentOptions = [
+  "Physical therapy",
+  "Foraminotomy",
+  "Intrathecal Pump Implant",
+  "IV Drug Infusions",
+  "Kyphoplasty",
+  "Laminotomy",
+  "Laser Facet Ablation",
+  "Lumbar Sympathetic Block",
+  "Media Branch Block",
+  "Morphine/Baclofen Pump",
+  "PRP",
+  "Sacroiliac Joint Injection",
+  "Stellate Ganglion Block",
+  "Trigger Point Injections",
+  "Vertebroplasty",
+  "Topical shots",
+  "Botox",
+  "Managing medication",
+  "Nerve blocks and ablations stop pain signals.",
+  "Ablation of nerves with radiofrequency waves to stop brain pain signals",
+  "Massage",
+  "Acupuncture",
+  "TMS therapy in Dallas",
+];
+
+const injectionProcedures = [
+  "Injections of epidural steroids",
+  "Injections of facing joints",
+  "Sacroiliac joints injected",
+  "Lesioning by radiofrequency",
+  "Neurostimulators",
+  "Intrathecal drug pumps",
+  "Individual nerve root injections",
+  "Discograms",
+  "Lumbar sympathetic blocks",
+  "Racz method",
+  "Stellate ganglion parts",
+  "Vertebroplasties",
+  "Lumbar decompression with minimal invasiveness",
+];
 
 export default function PlanoContent() {
   return (
     <div className="container pt-5">
       <p>
-        <b>Plano Pain clinic</b> gives Plano residents a full range of chronic
-        and acute pain management services at our clinic. Board certified
-        physicians team of our <b>pain management clinic in Plano </b>
-        uses advanced pain treatment methods to manage and relieve pain. For
-        pain management in Plano, our clinic is convenient. We are not only
-        offering best pain management treatments in Plano but also in
-        surrounding locations like Fort Worth, Decatur, Ennis etc.
-      </p>
-      <h2>Who Needs Pain Management?</h2>
-      <p>
-        Any person with acute or chronic pain can benefit from pain management.
-        A detailed plan of{" "}
-        <Link href="https://g.co/kgs/ec8kCzM" rel="preload">
-          {" "}
-          Plano Pain Clinic
+        Are you suffering from chronic pain? We understand your pain at the
+        Premier Pain Centers. The right pain clinic affects your health,
+        mobility, and quality of life. Premier Pain Centers' experienced team
+        will schedule pain management reassessments after treatment to keep your
+        pain under control. Our team of{" "}
+        <Link href="/contact-locations/plano/" rel="preload">
+          pain management in Plano
         </Link>{" "}
-        can help you manage short-term pain after surgery or injury. It can also
-        aid in managing long-term health pain. Many injuries, infections, and
-        diseases cause pain. Common causes of pain include:
-        <ul>
-          <li>Arthritis and muscle/joint injuries</li>
-          <li>Lupus, fibromyalgia, and Crohn's disease</li>
-          <li>Burns</li>
-          <li>Cancer</li>
-          <li>
-            Nerve pain from pinched nerves, peripheral neuropathy, and
-            trigeminal neuralgia{" "}
-          </li>
-          <li>CRPS and CPS are chronic pain disorders</li>
-          <li>Endometriosis</li>
-          <li>Headaches, migraines</li>
-          <li>Spinal cord injuries or conditions</li>
-        </ul>
-      </p>
-      <h2>Types of Pain Treated at Premier Pain Centers</h2>
-      <p>
-        The duration of acute pain ranges from minutes to three months
-        (sometimes six months). Soft-tissue injuries and temporary illnesses
-        often cause acute pain, which goes away after they heal. Chronic pain
-        includes{" "}
-        <Link href="/conditions-we-treat/headaches/" rel="preload">
-          {" "}
-          headaches
-        </Link>{" "}
-        that last months or years, even if they're not always present. Chronic
-        pain is often caused by arthritis, fibromyalgia, or spine problems.
+        can help with back, muscle, joint, spinal, arthritis, neck, and other
+        painful conditions! Pain management uses multiple methods to find and
+        treat a patient's pain. It aims to relieve chronic pain and improve
+        quality of life.Pain management doctors know how to find and treat
+        different kinds of pain. They make treatment plans for people with
+        chronic pain that are specific to their physical and emotional needs.
       </p>
       <p>
-        Neuropathic pain is caused by nerve or nervous system damage. Pain is
-        frequently characterized as shooting, stabbing, burning, or tingling
-        sensations. It can also impair touch sensitivity and make hot and cold
-        sensations difficult.
+        Specialists in pain management help people feel better, function better,
+        and reduce pain. Medication, physical therapy, or a healthy diet may all
+        be part of the multidisciplinary approach.
       </p>
+      <h2>Pain Conditions Treated at Premier Pain Centers in Plano</h2>
       <p>
-        Compression or inflammation of the spinal nerve causes radicular pain.
-        It radiates from the back and hip to the legs via the spine and spinal
-        nerve root. Radicular pain may induce paresthesia, anesthesia, and
-        muscular debilitation. Radiculopathy is back-to-leg pain. The pain comes
-        from the sciatic nerve, hence sciatica.
+        Acute and chronic pain exist. Less than 3–6 months for acute pain. It
+        usually results from soft tissue damage like a cut, wound, or sprained
+        ankle. However, chronic pain lasts longer than 6 months. It usually has
+        an underlying condition like arthritis and is less intense, but
+        flare-ups are common. some common conditions treated by our centers:
       </p>
-      <h2>How Effective are Pain Management Plans?</h2>
+      <div className="container pb-4">
+        <div className="row">
+          {conditions.map((condition, index) => (
+            <div key={index} className="col-6 col-md-6 col-lg-4">
+              <div className="d-flex align-items-center">
+                <div className="me-2">•</div>
+                <div>{condition}</div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
       <p>
-        It may take time and several therapies to find the right treatment for
-        your pain, depending on its cause and your personality. Fewer than 50%
-        of patients with neuropathic pain achieve relief from a single therapy.
-        If you collaborate with your{" "}
+        If you are suffering from back pain and living in Plano, contact us to
+        get the best back pain relief in plano.
+      </p>
+
+      <h2>Pain Management Treatments</h2>
+      <p>
+        You need a customized pain management plan because everyone experiences
+        pain differently. Our{" "}
         <Link href="/meet-our-team/rao-k-ali/" rel="preload">
-          {" "}
-          pain doctor in plano
+          pain physician in Plano
         </Link>{" "}
-        and adjust your pain management plan as needed, it will be more
-        effective. Chronic pain is complicated and it can alter your brain and
-        nervous system over time. A comprehensive pain management approach led
-        by experts of the best <b>Plano Pain Clinic</b> is likely the best
-        approach. It's not always possible to eliminate pain. You may be able to
-        reduce or change your pain response. A pain management program of the
-        best{" "}
-        <Link href="/dallas-pain-clinic/" rel="preload">
-          {" "}
-          Dallas Pain Clinic{" "}
-        </Link>{" "}
-        improves physical and mental health for many chronic pain patients.
-        Current chronic pain treatments reduce pain scores by 30%, according to
-        studies.
+        can relieve lower back and joint pain, arthritis, headaches, nerve
+        damage, cancer, and other conditions. The following are pain management
+        solutions:
       </p>
-      <h2>Experience World Class Pain Management</h2>
+      <div className="container pb-4">
+        <div className="row">
+          {treatmentOptions.map((condition, index) => (
+            <div key={index} className="col-6 col-md-6 col-lg-4">
+              <div className="d-flex align-items-center">
+                <div className="me-2">•</div>
+                <div>{condition}</div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+      <h2>Outpatient Surgery</h2>
       <p>
-        Our
-        <Link href="/" rel="preload">
-          {" "}
-          pain relief centers
-        </Link>{" "}
-        use the latest technology and pain management procedures to treat all
-        types of pain at our Centers for Pain Management and other locations. We
-        tailor pain management to each patient using a multi-disciplinary
-        approach. Our{" "}
         <Link href="/meet-our-team/" rel="preload">
-          {" "}
-          pain management physicians
+          Pain management doctors in Plano{" "}
         </Link>{" "}
-        can treat pain, improve quality of life, and improve physical function
-        using the latest technology. Make an appointment and find one of the
-        best <b> Palno Pain Clinic</b> doctors for your pain management needs.
+        at the Premier Pain Centers perform the following surgeries:
+      </p>
+      <div className="container pb-4">
+        <div className="row">
+          {injectionProcedures.map((condition, index) => (
+            <div key={index} className="col-6 col-md-6 col-lg-4">
+              <div className="d-flex align-items-center">
+                <div className="me-2">•</div>
+                <div>{condition}</div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+      <h2>Why Choose Premier Pain Centers in Plano?</h2>
+      <p>
+        Premier Pain Centers is the best pain relief center in Plano, providing
+        multidisciplinary and cost-effective healthcare for acute and chronic
+        pain patients in a socially conscious and academically rigorous
+        environment. The Center specializes in treating difficult cases where
+        conservative therapy has failed.
+      </p>
+      <ul>
+        <li>
+          <b>Comprehensive Pain Management:</b> Our full-service clinic includes
+          experienced doctors, behavioral medicine specialists, and more. We
+          offer advanced pain treatments designed to improve patients' quality
+          of life.
+        </li>
+        <li>
+          <b>Personalized Treatment Approach:</b> Our board-certified
+          specialists especially{" "}
+          <Link href="/psychiatric-services-in-dallas/" rel="preload">
+            best psychiatrist in Dallas
+          </Link>{" "}
+          provide holistic pain relief through:
+          <ul>
+            <li>Minimally invasive procedures</li>
+            <li>Physical therapy</li>{" "}
+            <li>
+              <Link href="/medication-management-in-dallas/" rel="preload">
+                Medication management
+              </Link>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <p>
+        Premier Pain Centers also work with most major insurance companies to
+        help lower patients' out-of-pocket costs. Our dedicated staff assists
+        with coverage checks, paperwork, and maximizing insurance benefits.
+        Through cutting-edge medical methods, compassionate care, and flexible
+        payment options, we help patients regain mobility, comfort, and a better
+        quality of life.
+      </p>
+      <h2>Book an Appointment at Pain Clinic in Plano</h2>
+      <p>
+        Want to relieve chronic pain in plano? Our pain management experts at
+        7712 San Jacinto Place, Suite 300, Plano, TX 75024, can help. We create
+        customized treatment plans to provide the best care using advanced
+        medical techniques and holistic approaches. Don't let pain control
+        you—start lasting relief today. We can help you live better by providing
+        professional, caring care. Call us at 469-562-4188 to{" "}
+        <Link href="/appointment/" rel="preload">
+          book a pain consultation in Plano
+        </Link>{" "}
+        with us to start living a pain-free life. Premier Pain Centers
+        appointments are the first step to pain relief and quality of life. Our
+        expert at a{" "}
+        <Link href="https://g.co/kgs/rxu9Xmd" rel="preload">
+          pain clinic in plano
+        </Link>{" "}
+        makes treatment plans just for you based on your needs. We can assist
+        you in managing your pain and achieving optimal well-being.
       </p>
     </div>
   );

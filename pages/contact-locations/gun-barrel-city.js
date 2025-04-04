@@ -43,7 +43,7 @@ const Contact = () => {
       <Navbar />
 
       <PageBanner
-        pageTitle="Pain Management Services in Gun Barrel City"
+        pageTitle="Your Pain Our Priority: Pain Management Services in Gun Barrel City"
         homePageUrl="/"
         homePageText="Home"
         activePageText="gun-barrel-city"
