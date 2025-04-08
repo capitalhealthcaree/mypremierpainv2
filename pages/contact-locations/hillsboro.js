@@ -43,7 +43,7 @@ const Contact = () => {
       <Navbar />
 
       <PageBanner
-        pageTitle="Pain Management Services in Hillsboro"
+        pageTitle="Comprehensive Pain Management Care At Hillsboro"
         homePageUrl="/"
         homePageText="Home"
         activePageText="hillsboro"

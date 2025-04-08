@@ -43,7 +43,7 @@ const Contact = () => {
       <Navbar />
 
       <PageBanner
-        pageTitle="Pain Management Services in Decatur"
+        pageTitle="Pain Management In Decatur: We Treat All Types Of Pain"
         homePageUrl="/"
         homePageText="Home"
         activePageText="decatur"

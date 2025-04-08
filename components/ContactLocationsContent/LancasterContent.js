@@ -1,102 +1,236 @@
 import Link from "next/link";
+const conditions = [
+  "Arthritis",
+  "Arthritis (Facet Joint Syndrome)",
+  "Cluster Headaches",
+  "Cervical Radiculopathy",
+  "Cancer Pain",
+  "Carpal Tunnel Syndrome",
+  "Complex Regional Pain Syndrome (CRPS/RSD)",
+  "Chronic Pain Syndrome (CPS)",
+  "Compression Fractures",
+  "Coccydynia",
+  "Degenerative Disc Disease",
+  "Disc Displacement",
+  "Fibromyalgia",
+  "Migraines",
+  "Headaches",
+  "Herniated Disc",
+  "Joint Pain",
+  "Knee Pain",
+  "Kyphosis",
+  "Leg Pain",
+  "Lumbar Radiculopathy",
+  "Muscle Spasms",
+  "Musculoskeletal Pain",
+  "Neck Pain",
+  "Osteoarthritis",
+  "Pelvic Pain",
+  "Post Herpetic Pain",
+  "Post Surgical Pain",
+  "Post Laminectomy Syndrome",
+  "Reflex Sympathetic Dystrophy (RSD)",
+  "Sciatica",
+  "Shingles",
+  "Sports Injuries",
+  "Spinal Infection",
+  "Spinal Stenosis",
+  "Spondylosis",
+  "Thoracic Outlet Syndrome",
+  "Trigeminal Neuralgia (TN)",
+  "Whiplash (CAD Syndrome)",
+  "Tendonitis",
+  "Upper Back Pain",
+  "Lower Back Pain",
+  "Auto Accidents",
+  "Work Injuries",
+  "Personal Injuries",
+];
+
+const treatments = [
+  "Injecting caudal steroids",
+  "Steroid cervical epidural injection",
+  "Injections of facet joints",
+  "Steroid-injected lumbar epidural",
+  "Lumbar sympathetic block Lancaster",
+  "Lumbar transforaminal epidural steroid injection",
+  "Injection of sacroiliac steroids",
+];
 
 export default function LancasterContent() {
   return (
     <div className="container pt-5">
       <p>
-        Pain affects millions of Americans, mostly back and neck pain. Our pain
-        management team helps you understand and treat your pain to improve your
-        quality of life. Led by board-certified specialists with specific
-        expertise and education in <b>Lancaster pain management center</b>, our
-        approach offers care for patients enduring persistent pain as a result
-        of aging, injury, illness, or surgery. We assess your particular
-        requirements, coordinate an extensive approach plan, and continuously
-        monitor your progress. Expert pain management is easy to access at our
-        multiple centers of Lancaster, Waxahachie, Plano, Fort Worth, Decatu,
-        Ennis, and many other areas.
+        Our pain management experts in Lancaster treat patients suffering from
+        chronic conditions or post-surgical complications. Multidisciplinary
+        care is typical for pain management. At Premier Pain Centers, our pain
+        management specialists diagnose and treat chronic and acute pain. Our
+        main objectives are:
       </p>
-      <h2>Best Treatment Options for Pain Management</h2>
+      <ul>
+        <li>Individualising treatment plans</li>
+        <li>Reducing pain and improving mobility</li>
+        <li>Reducing or decreasing pain medication dependence</li>
+      </ul>
       <p>
-        Our board-certified anesthesiologists and{" "}
+        Anaesthesiologists, physical therapists, pain physicians in Lancaster
+        and rehabilitation specialists make up our multidisciplinary team. They
+        collaborate with pain psychology and physical and occupational therapy.
+      </p>
+      <p>
+        Our pain management service provides several chronic pain treatments. We
+        are delighted to have served the community for many years and continue
+        to explore novel interventional, physiotherapeutic, and psychosocial
+        treatments. This is in an individualized holistic framework.
+      </p>
+      <h2>Types of Pain We Treat at Premier Pain Centers in Lancaster</h2>
+      <p>
+        Multiple types of pain may require further treatment. NIA suggests
+        referring patients to a pain management doctor if they require more
+        treatment than a primary care doctor can provide, as individual needs
+        differ. Following are the common pain conditions:
+        <div className="container pb-4">
+          <div className="row">
+            {conditions.map((condition, index) => (
+              <div key={index} className="col-6 col-md-6 col-lg-4">
+                <div className="d-flex align-items-center">
+                  <div className="me-2">•</div>
+                  <div>{condition}</div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </p>
+      <h2>Different Treatment Approaches</h2>
+      <p>
         <Link href="/meet-our-team/" rel="preload">
-          best pain management doctors in Dallas
+          Pain Management Doctors in Lancaster
         </Link>{" "}
-        and skilled staff provide the latest and most effective pain management
-        solutions, including:
-        <ul>
-          <li>
-            Epidural steroid injection—for nerve root irritation or inflammation
-            from degenerative or herniated discs.
-          </li>
-          <li>
-            Facet injection—for temporary or permanent spine joint pain from
-            degeneration, injury, or arthritis.
-          </li>
-
-          <li>
-            The greater occipital nerve block is an injection of steroid and
-            local anesthetic in the back of the head to relieve headaches caused
-            by nerve irritation or pinching.
-          </li>
-          <li>
-            Needle electromyography (EMG) and nerve velocity (NCV) tests detect
-            nerve and muscle damage.
-          </li>
-          <li>
-            Sympathetic block—an injection around the sympathetic nerve that
-            causes injury-related pain. CRPS and RSD are treated or diagnosed
-            with this option.
-          </li>
-          <li>
-            Radiofrequency ablation deactivates nerves that supply spine facet
-            joints, disrupting nerve conduction to reduce back and neck pain.
-          </li>
-          <li>Cryoanalgesia—freezing nerves to relieve pain</li>
-          <li>
-            A local anesthetic and steroid injection into the muscle to treat
-            muscle pain is called a trigger point injection/myoneural block.
-          </li>
-        </ul>
-        Our medical expertise and many years of clinical experience allow us to
-        administer breakthrough therapies with incredible patient success. Our
-        expertise and empathy are equal; we know what you're going through and
-        how important it is to end the pain and suffering.
+        work in interdisciplinary teams. Different pain management team members
+        use different therapies. The following treatments may be used for acute,
+        chronic, or other pain.
       </p>
-      <h2>Objective of Our Pain Management Centers</h2>
+      <h3>Healthcare Management</h3>
       <p>
-        The objective of our{" "}
-        <Link href="https://g.co/kgs/N7mRLm6" rel="preload">
-          pain relief center
+        Based on a person's preferences, a doctor's competence, and other
+        criteria like pain location and underlying illness, medical pain
+        management can take several forms. Pain treatment doctors may provide
+        drugs or injections. Medications prescribed may include opioids,
+        steroids, antidepressants, and painkillers.
+      </p>
+      <h3>Injections</h3>
+      <p>
+        Opioids are familiar to pain management doctors. These potent
+        painkillers can cause addiction and side effects. To determine how much
+        and when to take drugs, a person should consult a pain management
+        doctor.Following are the few injection treatments:
+      </p>
+      <div className="container pb-4">
+        <div className="row">
+          {treatments.map((condition, index) => (
+            <div key={index} className="col-6 col-md-6 col-lg-4">
+              <div className="d-flex align-items-center">
+                <div className="me-2">•</div>
+                <div>{condition}</div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+      <h3>Behavioral Treatment</h3>
+      <p>
+        Behavior therapy may reduce pain. To ease pain, doctors may recommend
+        this pain medication and other therapy. Our{" "}
+        <Link href="/psychiatric-services-in-dallas/" rel="preload">
+          best psychiatrist in Dallas TX
         </Link>{" "}
-        is to enhance the quality of life for patients suffering from chronic
-        pain. Interventional spine services, pain and pain rehabilitation,
-        cancer-related pain services, medication management, physical therapy,
-        and behavioral management are available. The Premier Pain Centers offers
-        multidisciplinary, cost-effective <b> interventional pain management</b>{" "}
-        for patients with acute or chronic pain in a socially responsible and
-        academically rigorous setting. The Center prides itself on helping
-        difficult cases where conservative therapy has failed. Our full-service
-        pain management clinic has doctors, behavioral medicine specialists, and
-        more.
+        offers cognitive behavioral therapy that is the most often used
+        psychological approach for chronic pain. CBT enables individuals to see
+        the connections among their thoughts, emotions, and behavior. CBT for
+        pain helps people solve problems and take an active approach to chronic
+        and other pain.
       </p>
-      <h2>Why Should You Choose Us?</h2>
-
+      <h3>Physical Treatment</h3>
       <p>
-        We understand and treat pain every day at the Premier Pain Centers. We
-        offer advanced pain treatments and have best{" "}
-        <b>pain management doctors</b> who know how to improve patients' quality
-        of life. Our expert staff and cutting-edge facilities offer effective
-        pain management. To provide a complete and effective pain management
-        solution, our program uses multimodal treatment. For musculoskeletal
-        injuries and chronic degenerative disorders, we diagnose, operate, and
-        rehab. Our board-certified{" "}
-        <Link href="/meet-our-team/rao-k-ali/" rel="preload">
+        Our pain control clinic physical therapists help to control chronic
+        pain. Physical therapy can help improve mobility, flexibility, and
+        strength, therefore reducing pain.
+      </p>
+      <h3>Alternative Treatments</h3>
+      <p>
+        A range of nonmedical pain management methods are available. It could
+        not be effective for everyone, like any other therapy.
+      </p>
+      <ul>
+        <li>Massage and acupuncture</li>
+        <li>Mindful meditation</li>
+        <li>Tai chi</li>
+        <li>Yoga</li>
+        <li>
           {" "}
-          best pain specialist in Lancaster
+          <Link href="/tms-therapy/" rel="preload">
+            TMS therapy in Dallas
+          </Link>{" "}
+        </li>
+      </ul>
+      <p>
+        A pain specialist in Lancaster can help a patient decide if alternative
+        therapies outside of medical treatment would help.
+      </p>
+      <h2>Why Do You Need to Choose Us?</h2>
+      <p>
+        Choosing Premier Pain Centers for pain treatment means seeking
+        compassionate, thorough, and cutting-edge care. Chronic pain affects
+        everything from daily life to mental health. Known for their
+        individualized, all-around, patient-centered strategy of therapy,
+        Premier Pain Centers board-certified doctors and specialized medical
+        staff work in collaboration to give top-level treatment. For pain
+        therapy,{" "}
+        <Link href="/contact-locations/lancaster/" rel="preload">
+          {" "}
+          pain management in Lancaster
         </Link>{" "}
-        are experts in chronic pain management. Our location at Lancaster is
-        2700W. Pleasant Run Rd., Ste 320 Lancaster, TX 75146, Contact us to get
-        the best treatment.
+        provides nerve blocks, epidural injections, physical therapy, and
+        regenerative medicine.
+      </p>
+      <p>
+        Premier Pain Centers provide evidence-based, minimally invasive
+        treatments to speed healing and enhance outcomes. The{" "}
+        <Link href="/meet-our-team/rao-k-ali/" rel="preload">
+          best pain doctor in Lancaster
+        </Link>{" "}
+        uses fluoroscopy-guided surgeries and spinal cord stimulation to give
+        patients the latest pain treatments. Beyond professional expertise, they
+        prioritize patient support and accessibility. Because they accept most
+        major insurance policies, high-quality pain care is inexpensive and
+        lowers financial stress for patients and families.
+      </p>
+      <p>
+        Premier Pain Centers' professional team assists with insurance
+        confirmation, preauthorizations, and billing, which can be overwhelming,
+        especially for chronic pain clients in the healthcare system. This
+        simplifies the whole process, starting with consultation and a
+        follow-up. From clinical to technical to administrative, Premier Pain
+        Centers aims to compassionately, knowledgeably, and respectfully enhance
+        patients' quality of life.
+      </p>
+      <h2>Schedule an Appointment</h2>
+      <p>
+        <Link href="/appointment/" rel="preload">
+          {" "}
+          Schedule an appointment with a pain specialist{" "}
+        </Link>{" "}
+        to start living pain-free. Our staff offer experienced care and
+        assistance for debilitating chronic pain. For back, joint, nerve, or
+        post surgery pain, our board-certified physicians will develop a
+        personalized treatment program. Our polite staff will assist you in
+        confirming insurance and promptly getting you treated. With accepted
+        most big insurance policies, excellent pain management is inexpensive.
+        Avoid letting pain rule you. Book a pain consultation in Lancaster by
+        contacting us at 469-562-4188 to start your recovery. Premier Pain
+        Centers prioritizes your comfort, rehabilitation, and well-being from
+        your first appointment. Let us help you reclaim your life.
       </p>
     </div>
   );

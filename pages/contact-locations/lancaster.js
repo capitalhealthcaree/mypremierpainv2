@@ -43,7 +43,7 @@ const Contact = () => {
       <Navbar />
 
       <PageBanner
-        pageTitle="Pain Management Services in Lancaster"
+        pageTitle="Overcome Pain with Our Expert Care: Pain Management in Lancaster"
         homePageUrl="/"
         homePageText="Home"
         activePageText="lancaster"
