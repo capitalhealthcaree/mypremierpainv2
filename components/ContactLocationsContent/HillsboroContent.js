@@ -191,7 +191,7 @@ export default function HillsboroContent() {
         regarding their health. If you want to book an appointment in Hillsboro,
         we are located at 207 I-35, Hillsboro TX 76645.{" "}
         <Link href="/appointment/" rel="preload">
-          Schedule an appointment
+          Schedule an appointment{" "}
         </Link>
         with a pain specialist today at 469-562-4188 to make your life easy and
         pain free!
