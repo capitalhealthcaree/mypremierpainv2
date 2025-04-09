@@ -24,8 +24,9 @@ const Services = () => {
                     ></path>
                   </svg>{" "}
                   <p>
-                    We treat patients of all ages and accept most commercial
-                    insurance plans.
+                    Across all age groups, we compassionately look after people
+                    and efficiently deal with most of the private insurance
+                    companies.
                   </p>
                 </div>
               </div>
@@ -50,8 +51,8 @@ const Services = () => {
                   </svg>
 
                   <p>
-                    We provide in-person and online psychiatry and therapy
-                    services across Texas state.
+                    Throughout the Texas region, we provide in-person and online
+                    psychiatry services and other kinds of therapy programs.
                   </p>
                 </div>
               </div>
@@ -82,8 +83,9 @@ const Services = () => {
                     </defs>
                   </svg>
                   <p>
-                    We offer individualized, patient-centered care that is
-                    tailored to your unique needs.
+                    Therapy and psychiatric care offer customized,
+                    patient-centered therapy that form to address all types of
+                    medical requirements.
                   </p>
                 </div>
               </div>

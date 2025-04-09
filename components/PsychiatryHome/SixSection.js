@@ -3,75 +3,15 @@ const outServices = [
   {
     imgSrc: "/images/medication-management.jpg",
     name: "Medication Management",
-    des: "Receive expert guidance in managing medications for depression, anxiety, and other mental health concerns, ensuring optimal outcomes.",
+    des: "Ensure the best possible results by obtaining expert help in handling prescriptions for depression, anxiety, and other mental health issues.",
     href: "",
   },
   {
     imgSrc: "/images/talk-therapy.png",
     name: "Talk Therapy",
-    des: "Experience personalized therapy sessions designed to provide emotional support, foster growth, and empower you to overcome challenges.",
+    des: "Participate in custom treatments that provide emotional support, foster personal development, and assist you in negotiating the difficulties of life.",
     href: "",
   },
-  // {
-  //   imgSrc:
-  //     "http://res.cloudinary.com/dngmflrpx/image/upload/v1736453849/tms-therapy/fiygxy2m5ngc0k9s0e2h.jpg",
-  //   name: "PTSD Treatment",
-  //   href: "/ptsd-treatment-in-dallas-tx/",
-  // },
-  // {
-  //   imgSrc:
-  //     "http://res.cloudinary.com/dngmflrpx/image/upload/v1736453895/tms-therapy/elfruwdbpps3myjyry4n.jpg",
-  //   name: "Anxiety",
-  //   href: "/anxiety-treatment-in-dallas-tx/",
-  // },
-  // {
-  //   imgSrc:
-  //     "http://res.cloudinary.com/dngmflrpx/image/upload/v1736453981/tms-therapy/mrl1jtej0jodcx1kvok6.jpg",
-  //   name: "Autism",
-  //   href: "/autism-treatment-in-dallas-fort-worth/",
-  // },
-  // {
-  //   imgSrc:
-  //     "http://res.cloudinary.com/dngmflrpx/image/upload/v1736454086/tms-therapy/ksv3yav3ikpugqxdnpff.jpg",
-  //   name: "Tinnitus",
-  //   href: "/tinnitus-treatment-in-dallas-fort-worth/",
-  // },
-  // {
-  //   imgSrc:
-  //     "http://res.cloudinary.com/dngmflrpx/image/upload/v1736454188/tms-therapy/bjvjjztlb1dbtiivlo4l.jpg",
-  //   name: "Migraines",
-  //   href: "/migraines-treatment-in-dallas-tx/",
-  // },
-  // {
-  //   imgSrc:
-  //     "http://res.cloudinary.com/dngmflrpx/image/upload/v1736454263/tms-therapy/c4bp5keqvah1hbwrb6v7.jpg",
-  //   name: "Bipolar Disorder",
-  //   href: "/bipolar-disorder-treatment-in-richardson/",
-  // },
-  // {
-  //   imgSrc:
-  //     "http://res.cloudinary.com/dngmflrpx/image/upload/v1736454331/tms-therapy/ykexm82ub6qyoiilnmmf.jpg",
-  //   name: "Cognitive Therapy",
-  //   href: "/cognitive-behavioral-therapy-dallas-tx/",
-  // },
-  // {
-  //   imgSrc:
-  //     "http://res.cloudinary.com/dngmflrpx/image/upload/v1736454384/tms-therapy/mjxwt37z6ebvoksefe6x.jpg",
-  //   name: "Medication Management",
-  //   href: "/medication-management-in-dallas/",
-  // },
-  // {
-  //   imgSrc:
-  //     "http://res.cloudinary.com/dngmflrpx/image/upload/v1736454438/tms-therapy/ezmhyfdvicfsahqtvekf.jpg",
-  //   name: "Panic Disorder",
-  //   href: "/panic-disorder-dallas-tx/",
-  // },
-  // {
-  //   imgSrc:
-  //     "http://res.cloudinary.com/dngmflrpx/image/upload/v1736454517/tms-therapy/sceiuyb7g5yejullepav.jpg",
-  //   name: "Trauma",
-  //   href: "/trauma-treatment-in-dallas-fort-worth/",
-  // },
 ];
 const OurServices = () => {
   return (
@@ -81,12 +21,13 @@ const OurServices = () => {
           <div className="section-title">
             <h2>Psychiatric Services in Dallas</h2>
             <p className="mt-3">
-              We offer an extensive range of psychiatric services to ensure
-              comprehensive care for every individual. Our mental health
-              approach integrates mind and body care, effectively addressing
-              mental health conditions. Whether you’re managing depression,
-              anxiety, or other challenges, we are here to guide you on your
-              journey to healing.
+              Our broad spectrum of psychiatric consultation services is
+              intended to provide complete care for every individual. Using
+              mental and physical health therapy simultaneously, our Dallas ADHD
+              specialist comprehensive strategy provides powerful tools for many
+              types of psychological illness. Our mental health services can
+              help you on your way to recovery, whether you are suffering from
+              depression, anxiety, or other problems.
             </p>
           </div>
 

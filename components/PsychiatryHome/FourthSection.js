@@ -1,26 +1,24 @@
-import React from "react";
-
 export default function HealingLightPsychiatry() {
   const whyChooseReasons = [
     {
-      title: "Holistic Mental Health Care",
+      title: "Holistic Mental Health Approach",
       description:
-        "Our integrative treatment plans address both mind and body for complete healing.",
+        "For complete recovery, our integrative care plans center on both mental and physical health.",
     },
     {
       title: "Online Mental Health Support",
       description:
-        "Access care from the comfort of your home with our reliable telehealth mental health services.",
+        "Get online psychiatry consultation services conveniently using our reliable telehealth best mental health services.",
     },
     {
-      title: "Expert Psychiatric Services",
+      title: "Expert Psychiatric Solutions",
       description:
-        "From medication management to therapy, we offer a full spectrum of mental health Psychiatry services.",
+        "From counseling to medication management, our centers offer the best mental care psychiatric treatments.",
     },
     {
-      title: "Personalized Care",
+      title: "Personalized Treatment",
       description:
-        "Each patient receives a tailored plan, addressing both the symptoms and the underlying causes of mental health conditions.",
+        "Every patient is given a personalized plan to address the causes of psychiatric problems.",
     },
   ];
 
@@ -30,20 +28,19 @@ export default function HealingLightPsychiatry() {
         <div className="col-12 col-md-6">
           <div className="pe-md-4">
             <h1 className="mb-4">
-              Expert Care from a Mental Health Specialist in Dallas
+              Professional Mental Health Support in Dallas
             </h1>
             <p>
-              At Premier Pain Centers, you'll receive compassionate care from
-              Ronnie Pollard, a dedicated and highly qualified, board-certified
-              mental health psychiatrist in Dallas. Our welcoming,
-              non-judgmental environment ensures that your mental health and
-              comfort are always our top priorities.
-            </p>
-            <p>
-              Whether you need comprehensive psychiatric care or support with
-              medication management, we work collaboratively with you to develop
-              a treatment plan that aligns with your goals. Our services empower
-              you to regain control of your life and achieve lasting well-being.
+              Under the leadership of experienced board-certified psychiatrist
+              Ronnie Pollard, with strong mental health experience, our mental
+              health treatment centers are dedicated to providing expert and
+              professional treatment. Your well-being and peace of mind come
+              first in a supportive, courteous environment. Our services of
+              psychiatry near you in Dallas work together to develop a care plan
+              customized to your specific requirements, independent of whether
+              you are looking for psychiatric services or help with medication
+              management. We aim to assist you in managing your mental health
+              and advance toward a more balanced, satisfying life.
             </p>
           </div>
         </div>

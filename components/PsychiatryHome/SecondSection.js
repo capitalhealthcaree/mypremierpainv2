@@ -23,8 +23,8 @@ const OurExpertise = () => {
                       />
                       <h3>Psychiatrist Evaluations</h3>
                       <p>
-                        Our psychiatrists evaluate your mental health and
-                        recommend the best treatment options.
+                        Our psychiatrists evaluate your mental health and advise
+                        you on the most appropriate treatments.
                       </p>
                     </div>
                   </div>
@@ -37,8 +37,8 @@ const OurExpertise = () => {
                       />{" "}
                       <h3>Medication Management</h3>
                       <p>
-                        Our experts help find the right medications to manage
-                        symptoms and minimize effects.
+                        Our experts help to determine the medication to lessen
+                        the effect and manage symptoms.
                       </p>
                     </div>
                   </div>
@@ -51,23 +51,23 @@ const OurExpertise = () => {
                       />{" "}
                       <h3>TMS</h3>
                       <p>
-                        Non-invasive treatment proven twice as effective as
-                        treatment for resistant depression.
+                        Noninvasive therapy uses magnetic coils to affect the
+                        natural electrical activity of your brain.
                       </p>
                     </div>
                   </div>
                   <div className="col-sm-6 col-lg-6">
                     <div className="expertise-inner">
-                    <img
+                      <img
                         className="mb-3"
                         src="/images/adhd.png"
                         alt="Expertise"
                       />{" "}
-                      
                       <h3>ADHD Testing</h3>
                       <p>
-                        Discover if you or your child has ADHD and manage
-                        symptoms with medication and therapy.
+                        To precisely diagnose attention-related issues,
+                        psychiatrists for ADHD provide treatment through
+                        medication and therapy.
                       </p>
                     </div>
                   </div>
