@@ -2,121 +2,125 @@ import React from "react";
 import Link from "next/link";
 
 const OurExpertise = () => {
-	return (
-		<>
-			<div className="expertise-area pb-4">
-				<div className="container">
-					<div className="row align-items-center">
-						<div className="col-lg-6">
-							<div className=" about-right">
-								<h2>What is TMS Therapy and How Does It Work?</h2>
-								<p>
-									Using MRI strength pulses, transcranial magnetic stimulation
-									(TMS) therapy treats mood disorders, including depression,
-									safely and effectively. Medication just cures symptoms, but
-									TMS therapy enhances the brain network that controls emotion,
-									thought, and action. In outpatient, non-invasive sessions, TMS
-									treatments induce positive brain activity to reconnect these
-									networks, providing long-term relief from depression and other
-									mood disorders.
-								</p>
-								<p>
-									Delayed brain activity can cause depression. Your brain may
-									struggle to relay signals to "snap out of" negative thoughts,
-									feelings, and behaviors when these brain networks don't
-									coordinate. Depression,{" "}
-									<Link href="/anxiety-treatment-in-dallas-tx/" rel="preload">
-										anxiety
-									</Link>
-									, sleep issues, cognitive impairment, and difficulties
-									focusing often result from recurring connectivity issues. TMS
-									is similar to physical therapy for rehabilitation. In
-									outpatient sessions, TMS therapy employs repetition to
-									increase strength and improve communication, training your
-									brain to send signals on its own.Premier Pain Centers offers a
-									variety of advanced transcranial magnetic stimulation (TMS)
-									therapies, including RTMS (Repetitive Transcranial Magnetic
-									Stimulation), dTMS (Deep Transcranial Magnetic Stimulation),
-									and Theta Burst Stimulation. These innovative treatments are
-									designed to provide effective relief for individuals suffering
-									from chronic pain and neurological conditions.
-								</p>
-								<div className="about-item">
-									<Link href="/contact-locations/" rel="preload">
-										Contact Us
-									</Link>
-								</div>
-							</div>
-						</div>
-						<div className="col-lg-6">
-							<div className="expertise-item">
-								<div className="row">
-									<div className="col-sm-6 col-lg-6">
-										<div className="expertise-inner">
-											<h3>FDA-Approved</h3>
-											<p>
-												TMS is FDA-approved for treating major depressive
-												disorder and obsessive-compulsive disorder.
-											</p>
-										</div>
-									</div>
+  return (
+    <>
+      <div className="expertise-area pb-4">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="section-title">
+              <h2>FDA-Approved Conditions Treated with TMS</h2>
+              <p className="mt-3">
+                TMS can help when other treatments fail. Its noninvasiveness
+                makes it crucial. No surgery is needed, as the therapy is done
+                via your skin. TMS can also replace ECT if it's ineffective or
+                not an option. TMS is approved to treat different illnesses in
+                different countries. FDA-Approved TMS Therapy in Dallas for
+                following conditions:
+              </p>
+            </div>
+            <div className="col-lg-12">
+              <div className="expertise-item">
+                <div className="row">
+                  <div className="col-sm-4 col-lg-4">
+                    <div className="expertise-inner">
+                      <h3>Major Depressive Disorder</h3>
+                      <p>
+                        Major depressive disorder, or clinical depression,
+                        causes sorrow and anhedonia, affecting thoughts,
+                        emotions, and behavior. It leads to psychological and
+                        physical issues, making daily tasks difficult and life
+                        feel pointless.
+                      </p>
+                    </div>
+                  </div>
 
-									<div className="col-sm-6 col-lg-6">
-										<div className="expertise-inner">
-											<h3>Non-Medication</h3>
-											<p>
-												Depression sufferers can avoid medicine adverse effects
-												using TMS therapy.
-											</p>
-										</div>
-									</div>
+                  <div className="col-sm-4 col-lg-4">
+                    <div className="expertise-inner">
+                      <h3>Obsessive-Compulsive Disorder</h3>
+                      <p>
+                        OCD results in frequent uncomfortable thoughts and
+                        repeating actions. Usually, part of OCD treatment is
+                        <Link
+                          href="/medication-management-in-dallas/"
+                          rel="preload"
+                        >
+                          {" "}
+                          medication management
+                        </Link>{" "}
+                        and psychotherapy. Recognising and treating OCD early
+                        leads to better results.
+                      </p>
+                    </div>
+                  </div>
 
-									<div className="col-sm-6 col-lg-6">
-										<div className="expertise-inner">
-											<h3>Convenient</h3>
-											<p>
-												TMS sessions last 20–40 minutes and need no downtime,
-												making them convenient.
-											</p>
-										</div>
-									</div>
+                  <div className="col-sm-4 col-lg-4">
+                    <div className="expertise-inner">
+                      <h3>Migraine Headaches</h3>
+                      <p>
+                        Migraines are debilitating headaches with symptoms like
+                        nausea, visual issues, and irritability. A TMS Center
+                        doctor in Dallas can help manage{" "}
+                        <Link
+                          href="/migraines-treatment-in-dallas-tx/"
+                          rel="preload"
+                        >
+                          migraines
+                        </Link>{" "}
+                        and prevent them from taking over.
+                      </p>
+                    </div>
+                  </div>
 
-									<div className="col-sm-6 col-lg-6">
-										<div className="expertise-inner">
-											<h3>Proven Success</h3>
-											<p>
-												TMS therapy shows promise in alleviating
-												treatment-resistant depression symptoms. Many achieve
-												remission.
-											</p>
-										</div>
-									</div>
-									<div className="col-sm-6 col-lg-6">
-										<div className="expertise-inner">
-											<h3>Comfortable Care</h3>
-											<p>
-												Non-invasive TMS therapy has no anesthesia or recovery
-												time, making it comfortable.
-											</p>
-										</div>
-									</div>
-									<div className="col-sm-6 col-lg-6">
-										<div className="expertise-inner">
-											<h3>Covered By Insurance</h3>
-											<p>
-												Insurance covers TMS therapy, easing depression
-												treatment costs for patients.
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</>
-	);
+                  <div className="col-sm-4 col-lg-4">
+                    <div className="expertise-inner">
+                      <h3>Stopping Cessation</h3>
+                      <p>
+                        Smoking harms almost every organ, but quitting offers
+                        immediate and long-term benefits. Within 30 minutes,
+                        heart rate normalizes, and risks of heart attack and
+                        cancer decrease over time.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="col-sm-4 col-lg-4">
+                    <div className="expertise-inner">
+                      <h3>Adolescent Depression</h3>
+                      <p>
+                        Teen{" "}
+                        <Link
+                          href="/depression-treatment-in-dallas-tx/"
+                          rel="preload"
+                        >
+                          {" "}
+                          depression
+                        </Link>{" "}
+                        causes sadness, loss of interest, and changes in
+                        thoughts, feelings, and behavior. It can lead to
+                        emotional, functional, and physical issues, with
+                        symptoms different from adults.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="col-sm-4 col-lg-4">
+                    <div className="expertise-inner">
+                      <h3>Pain Management with MagVenture Pain Therapy</h3>
+                      <p>
+                        <Link href="https://g.co/kgs/k6ebhQX" rel="preload">
+                          TMS Clinic in Dallas
+                        </Link>{" "}
+                        offers FDA-approved magnetic therapy to relieve chronic
+                        pain using noninvasive pulses for adults 18+.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
 };
 
 export default OurExpertise;

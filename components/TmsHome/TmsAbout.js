@@ -9,38 +9,18 @@ const About = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className=" about-right">
-                <h2>A Better Way to Treat TMS in Dallas, Texas</h2>
-                <h4>Restoring Your Brain Health</h4>
+                <h2>What is TMS Therapy in Dallas</h2>
+                {/* <h4>Restoring Your Brain Health</h4> */}
                 <p>
-                  Premier Pain Centers, a veteran-owned and operated facility,
-                  is a cutting-edge therapeutic clinic in Dallas/Richardson,
-                  Fort Worth, Lancaster, Hillsboro, Ennis and the surrounding
-                  areas. TMS might be impactful in treating those who suffer
-                  from severe{" "}
-                  <Link
-                    href="/depression-treatment-in-dallas-tx/"
-                    rel="preload"
-                  >
-                    depression
-                  </Link>
-                  , anxiety, OSTD, trauma, tinnitus,{" "}
-                  <Link href="/conditions-we-treat/headaches/" rel="preload">
-                    migraine headaches
-                  </Link>
-                  , and chronic pain that hasn’t responded to antidepressant
-                  medication.
-                </p>
-                <p>
-                  Transcranial magnetic stimulation (TMS therapy) involves a
-                  non-drug treatment that utilizes magnetic pulses for
-                  electrical stimulation of brain nerve cells and relieves
-                  associated symptoms. We offer expertise in patient care and a
-                  holistic approach to TMS treatment services. Our dedicated{" "}
-                  <Link href="/meet-our-team/" rel="preload">
-                    team of doctors
-                  </Link>
-                  , technicians, and office staff, who are both skilled and
-                  compassionate, are committed to providing top-notch care.
+                  With a magnetic field, TMS changes brain activity. It covers
+                  other brain disorders, depression, and OCD. It is noninvasive
+                  brain stimulation and can assist when other therapies fall
+                  short. Generally mild and temporary are the side effects.
+                  Transcranial magnetic stimulation (TMS) uses a magnetic coil
+                  to change brain electrical activity noninvasively. Among those
+                  with psychiatric and neurological issues, this 1985 therapy is
+                  quite popular. Theta burst stimulation is a form of TMS that
+                  delivers bursts of pulses at frequency of gamma.
                 </p>
 
                 <div className="about-item">

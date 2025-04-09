@@ -8,18 +8,20 @@ const NavbarAppointment = dynamic(() =>
   import("../components/_App/NavbarAppointment")
 );
 
-const MainBanner = dynamic(() => import("../components/TmsHome/MainBanner"));
+const PageBanner = dynamic(() => import("../components/Common/PageBanner"));
 
 const WhySec = dynamic(() => import("../components/TmsHome/Why"));
 
 const Faqs = dynamic(() => import("../components/TmsHome/Faqs"));
 
-const TmsTherapy = dynamic(() => import("../components/TmsHome/TmsTherapy"));
-
 const TmsAbout = dynamic(() => import("../components/TmsHome/TmsAbout"));
 
-const ConditionsWeTreat = dynamic(() =>
-  import("../components/TmsHome/ConditionsWeTreat")
+const TmsCandidate = dynamic(() =>
+  import("../components/TmsHome/TmsCandidate")
+);
+
+const WhyChooseTMS = dynamic(() =>
+  import("../components/TmsHome/WhyChooseTMS")
 );
 
 const TmsInsurance = dynamic(() =>
@@ -52,12 +54,21 @@ const Index = () => {
       </Head>
       <Navbar />
       <NavbarAppointment />
-      <MainBanner />
+      <PageBanner
+        pageTitle="TMS Therapy in Dallas, TX"
+        homePageUrl="/"
+        homePageText="Home"
+        activePageText="back-pain"
+        bgImage="http://res.cloudinary.com/dngmflrpx/image/upload/v1736448787/tms-therapy/qryti5csh5deyftfkdvk.jpg"
+      />
+      {/* <MainBanner /> */}
       <TmsAbout />
-      <ConditionsWeTreat />
-      <TmsTherapy />
-      <AppointmentForm />
+      {/* <ConditionsWeTreat /> */}
+      {/* <TmsTherapy /> */}
       <WhySec />
+      <TmsCandidate />
+      <AppointmentForm />
+      <WhyChooseTMS />
       <TmsInsurance />
       <Faqs />
       <Footer />
