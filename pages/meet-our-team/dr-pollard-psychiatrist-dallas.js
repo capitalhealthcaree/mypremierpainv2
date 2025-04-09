@@ -13,35 +13,7 @@ const AppointmentForm = dynamic(() =>
 );
 
 const Footer = dynamic(() => import("../../components/_App/Footer"));
-const leftColumnProcedures = [
-  {
-    name: "Depression",
-    href: "/depression-treatment-in-dallas-tx/",
-  },
-  {
-    name: "Anxiety Disorders",
-    href: "/anxiety-treatment-in-dallas-tx/",
-  },
-  {
-    name: "Substance Abuse",
-    href: "",
-  },
-  {
-    name: "Schizophrenia",
-    href: "",
-  },
-];
 
-const rightColumnProcedures = [
-  {
-    name: "Medication Management",
-    href: "",
-  },
-  {
-    name: "Psychotherapy (Talk Therapy)",
-    href: "",
-  },
-];
 const DoctorDetails = () => {
   return (
     <>
@@ -112,60 +84,63 @@ const DoctorDetails = () => {
                     <h3>Biography</h3>
 
                     <p>
-                      Dr. Ronnie Pollard, MD, is a board-certified psychiatrist
-                      based in Dallas, Texas. He earned his medical degree from
-                      the University of Texas Medical Branch School of Medicine
-                      and completed his residency at Baylor College of Medicine.
-                      With over 20 years of experience, Dr. Pollard specializes
-                      in diagnosing and treating a range of mental health
-                      conditions, including major depressive disorder, anxiety
-                      disorders, schizophrenia, and substance abuse.
+                      Ronnie Pollard MD, is based in Dallas, Texas, the
+                      board-certified psychiatrist. The University of Texas
+                      Medical Branch School of Medicine awarded him his medical
+                      degree, and he completed his residency at Baylor College
+                      of Medicine. With over 20 years of experience in providing
+                      <Link
+                        href="/psychiatric-services-in-dallas/"
+                        rel="preload"
+                      >
+                        {" "}
+                        psychiatric services in Dallas
+                      </Link>
+                      , Dr. Pollard specializes in diagnosing and treating a
+                      range of mental health conditions, including major
+                      depressive disorder, anxiety disorders,
+                      Obsessive-Compulsive Disorder (OCD), Post-traumatic Stress
+                      Disorder (PTSD), Migraine Headaches, Smoking Cessation,
+                      Adolescent Depression, PTSD, Schizophrenia, and substance
+                      abuse. He diagnoses and treats a broad spectrum of such
+                      conditions, including{" "}
+                      <Link
+                        href="/adhd-testing-services-in-dallas/"
+                        rel="preload"
+                      >
+                        ADHD Testing
+                      </Link>
+                      .
                     </p>
 
                     <p>
-                      Dr. Pollard takes a comprehensive approach to patient
-                      care, combining medication management with psychotherapy
-                      to support mental well-being.
+                      He's noted for his sympathetic manner and dedication to
+                      patient care, which guarantees every person gets the help
+                      they require. To support psychological well-being, Dr.
+                      Ronnie Pollard takes a holistic approach to patient care
+                      that includes psychotherapy (
+                      <Link href="/talk-therapy-dallas/" rel="preload">
+                        talk therapy
+                      </Link>
+                      ) along with{" "}
+                      <Link
+                        href="/medication-management-in-dallas/"
+                        rel="preload"
+                      >
+                        medication management
+                      </Link>
+                      . Working closely with every patient, he develops a
+                      customized treatment plan according to their particular
+                      requirements. By devoting himself to offering
+                      individualized treatment based on every patient's
+                      particular requirements, Dr. Pollard assists them in
+                      attaining long-lasting emotional and mental health through
+                      effective{" "}
+                      <Link href="/tms-therapy/" rel="preload">
+                        TMS Therapy
+                      </Link>
+                      .
                     </p>
-                    {/* <div className="container-fluid">
-                      <div className="row g-4">
-                        <div className="col-12 col-md-6">
-                          <h5>Diagnose and Treat:</h5>
-                          <div className="list-group">
-                            {leftColumnProcedures.map((procedure, index) => (
-                              <a
-                                href={procedure.href}
-                                key={index}
-                                className="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
-                              >
-                                {procedure.name}
-                                <span className="badge bg-primary rounded-pill">
-                                  →
-                                </span>
-                              </a>
-                            ))}
-                          </div>
-                        </div>
-                        <div className="col-12 col-md-6">
-                          <div className="list-group">
-                            <h5>Treatment Approaches:</h5>
-
-                            {rightColumnProcedures.map((procedure, index) => (
-                              <a
-                                href={procedure.href}
-                                key={index}
-                                className="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
-                              >
-                                {procedure.name}
-                                <span className="badge bg-primary rounded-pill">
-                                  →
-                                </span>
-                              </a>
-                            ))}
-                          </div>
-                        </div>
-                      </div>
-                    </div> */}
                   </div>
                   <div className="doctor-details-contact">
                     <h3>Contact info</h3>
