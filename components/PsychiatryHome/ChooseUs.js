@@ -13,11 +13,14 @@ const HowCovid19Spreads = () => {
                 </div>
 
                 <p>
-                  Get Dallas mental health professionals ADHD assessment and
-                  tailored drug management within 24 hours. Our board-certified
-                  psychiatrists offer sophisticated treatments, including TMS,
-                  for critical cases to guarantee quick relief and top-tier care
-                  tailored to your needs.
+                  Get Dallas mental health professionals{" "}
+                  <Link href="/adhd-testing-services-in-dallas/" rel="preload">
+                    ADHD Testing
+                  </Link>{" "}
+                  and tailored drug management within 24 hours. Our
+                  board-certified psychiatrists offer sophisticated treatments,
+                  including TMS, for critical cases to guarantee quick relief
+                  and top-tier care tailored to your needs.
                 </p>
                 <ul>
                   <li>
