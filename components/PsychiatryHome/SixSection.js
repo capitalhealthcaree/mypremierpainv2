@@ -1,16 +1,18 @@
 import React from "react";
+import Link from "next/link";
+
 const outServices = [
   {
     imgSrc: "/images/medication-management.jpg",
     name: "Medication Management",
     des: "Ensure the best possible results by obtaining expert help in handling prescriptions for depression, anxiety, and other mental health issues.",
-    href: "",
+    href: "/medication-management-in-dallas/",
   },
   {
     imgSrc: "/images/talk-therapy.png",
     name: "Talk Therapy",
     des: "Participate in custom treatments that provide emotional support, foster personal development, and assist you in negotiating the difficulties of life.",
-    href: "",
+    href: "/talk-therapy-dallas/",
   },
 ];
 const OurServices = () => {
@@ -37,18 +39,19 @@ const OurServices = () => {
                 <div className="col-md-6 col-lg-6" key={i}>
                   <div className="blog-item">
                     <div className="blog-top">
-                      {/* <Link href={item.href} rel="preload"> */}
-                      <img src={item.imgSrc} alt={item.name} />
-                      {/* </Link> */}
+                      <Link href={item.href} rel="preload">
+                        <img src={item.imgSrc} alt={item.name} />
+                      </Link>
                     </div>
                     <div className="blog-bottom">
                       <h3>
-                        <a
+                        <Link
+                          href={item.href}
                           className="d-flex justify-content-center"
                           rel="preload"
                         >
                           {item.name}
-                        </a>
+                        </Link>
                       </h3>
                       <p className="text-center">{item.des}</p>
                     </div>

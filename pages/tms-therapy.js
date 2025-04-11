@@ -61,10 +61,7 @@ const Index = () => {
         activePageText="back-pain"
         bgImage="http://res.cloudinary.com/dngmflrpx/image/upload/v1736448787/tms-therapy/qryti5csh5deyftfkdvk.jpg"
       />
-      {/* <MainBanner /> */}
       <TmsAbout />
-      {/* <ConditionsWeTreat /> */}
-      {/* <TmsTherapy /> */}
       <WhySec />
       <TmsCandidate />
       <AppointmentForm />

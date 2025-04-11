@@ -14,7 +14,7 @@ const About = () => {
             </div>
             <div className="col-lg-6">
               <div className=" about-right">
-                <h2>What is TMS Therapy in Dallas</h2>
+                <h2>Who Is Not a Candidate for TMS?</h2>
                 <p>
                   TMS Therapy in Dallas is a noninvasive treatment for
                   depression and other mental problems; however, not everyone
