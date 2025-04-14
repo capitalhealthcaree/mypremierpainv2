@@ -174,7 +174,7 @@ const Index = () => {
           <li>Social isolation or low self-esteem</li>
           <li>Substance abuse</li>
           <li>
-            <Link href="/psychiatric-services-in-dallas/" rel="preload">
+            <Link href="/depression-treatment-in-dallas-tx/" rel="preload">
               Depression
             </Link>{" "}
             and anxiety

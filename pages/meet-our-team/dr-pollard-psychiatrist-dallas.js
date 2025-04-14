@@ -18,7 +18,7 @@ const DoctorDetails = () => {
   return (
     <>
       <Head>
-        <title>Ronnie Pollard, MD - Psychiatrist in Dallas, TX</title>
+        <title>Ronnie Pollard MD – Best Psychiatrist in Dallas</title>
         <meta name="robots" content="noindex, nofollow" />
         <link
           rel="canonical"
@@ -26,7 +26,7 @@ const DoctorDetails = () => {
         />
         <meta
           name="description"
-          content="Dr. Muhammad Zulqarnain is a pain management physician serving in Dallas and the surrounding communities. Schedule an appointment today."
+          content="Looking for the best psychiatrist in Dallas? Dr. Ronnie Pollard provides expert talk therapy and medication management at Premier Pain Centers."
         />
         <meta content="text/html; charset=utf-8" httpEquiv="Content-Type" />
         <meta content="initial-scale=1" name="viewport" />
@@ -36,7 +36,7 @@ const DoctorDetails = () => {
       <Navbar />
 
       <PageBanner
-        pageTitle="Ronnie Pollard MD"
+        pageTitle="Ronnie Pollard MD – Best Psychiatrist in Dallas"
         homePageUrl="/"
         homePageText="Home"
         activePageText="dr-muhammad-zulqarnain-dr-z-"
