@@ -19,7 +19,6 @@ const DoctorDetails = () => {
     <>
       <Head>
         <title>Ronnie Pollard MD – Best Psychiatrist in Dallas</title>
-        <meta name="robots" content="noindex, nofollow" />
         <link
           rel="canonical"
           href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/meet-our-team/dr-pollard-psychiatrist-dallas/`}
@@ -117,8 +116,13 @@ const DoctorDetails = () => {
                       He's noted for his sympathetic manner and dedication to
                       patient care, which guarantees every person gets the help
                       they require. To support psychological well-being, Dr.
-                      Ronnie Pollard takes a holistic approach to patient care
-                      that includes psychotherapy (
+                      Ronnie Pollard, a{" "}
+                      <Link href="https://g.co/kgs/kMSCrNu" rel="preload">
+                        {" "}
+                        best psychiatrist in Dallas
+                      </Link>
+                      , takes a holistic approach to patient care that includes
+                      psychotherapy (
                       <Link href="/talk-therapy-dallas/" rel="preload">
                         talk therapy
                       </Link>
