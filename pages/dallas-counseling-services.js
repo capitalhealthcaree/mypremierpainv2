@@ -20,7 +20,7 @@ const Index = () => {
         <title>Counseling Services in Dallas at Premier Pain Centers</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/tms-therapy/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/dallas-counseling-services/`}
         />
         <meta
           name="description"
