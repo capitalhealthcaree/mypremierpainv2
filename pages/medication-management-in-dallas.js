@@ -29,10 +29,9 @@ const Index = () => {
     <>
       <Head>
         <title>Expert Medication Management & Psychiatric Care in Dallas</title>
-        <meta name="robots" content="noindex, nofollow" />
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/tms-therapy/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/medication-management-in-dallas/`}
         />
         <meta
           name="description"
@@ -46,7 +45,7 @@ const Index = () => {
       <Navbar />
       <NavbarAppointment />
       <PageBanner
-        pageTitle="Medication Management"
+        pageTitle="Expert Medication Management & Psychiatric Care in Dallas"
         homePageUrl="/"
         homePageText="Home"
         activePageText="back-pain"

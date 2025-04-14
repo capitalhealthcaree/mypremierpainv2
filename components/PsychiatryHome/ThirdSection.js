@@ -27,10 +27,17 @@ const outServices = [
   },
   {
     imgSrc:
-      "http://res.cloudinary.com/dngmflrpx/image/upload/v1736453981/tms-therapy/mrl1jtej0jodcx1kvok6.jpg",
-    name: "Autism",
-    href: "/autism-treatment-in-dallas-fort-worth/",
+      "http://res.cloudinary.com/dngmflrpx/image/upload/v1736454384/tms-therapy/mjxwt37z6ebvoksefe6x.jpg",
+    name: "Medication Management",
+    href: "/medication-management-in-dallas/",
   },
+
+  // {
+  //   imgSrc:
+  //     "http://res.cloudinary.com/dngmflrpx/image/upload/v1736453981/tms-therapy/mrl1jtej0jodcx1kvok6.jpg",
+  //   name: "Autism",
+  //   href: "/autism-treatment-in-dallas-fort-worth/",
+  // },
   {
     imgSrc:
       "http://res.cloudinary.com/dngmflrpx/image/upload/v1736454188/tms-therapy/bjvjjztlb1dbtiivlo4l.jpg",
@@ -50,12 +57,11 @@ const outServices = [
     href: "/dallas-counseling-services/",
   },
   {
-    imgSrc:
-      "/images/schizophrenia.png",
+    imgSrc: "/images/schizophrenia.png",
     name: "Schizophrenia",
     href: "/schizophrenia-treatment-center-dallas/",
   },
-    // {
+  // {
   //   imgSrc:
   //     "http://res.cloudinary.com/dngmflrpx/image/upload/v1736454086/tms-therapy/ksv3yav3ikpugqxdnpff.jpg",
   //   name: "Tinnitus",
