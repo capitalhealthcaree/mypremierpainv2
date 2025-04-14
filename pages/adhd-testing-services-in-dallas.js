@@ -22,10 +22,9 @@ const Index = () => {
     <>
       <Head>
         <title>ADHD Testing Services in Dallas at Premier Pain Centers</title>
-        <meta name="robots" content="noindex, nofollow" />
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/tms-therapy/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/adhd-testing-services-in-dallas/`}
         />
         <meta
           name="description"

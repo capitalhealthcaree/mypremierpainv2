@@ -232,6 +232,56 @@ const Navbar = () => {
                   <li className="nav-item">
                     <Link
                       href="/psychiatric-services-in-dallas/"
+                      className={`nav-link dropdown-toggle ${
+                        currentPath == "/psychiatric-services-in-dallas/" &&
+                        "active"
+                      }`}
+                      rel="preload"
+                    >
+                      Psychiatry
+                    </Link>
+
+                    <ul className="dropdown-menu">
+                      <li className="nav-item">
+                        <Link
+                          href="/tms-therapy/"
+                          className={`nav-link ${
+                            currentPath == "/tms-therapy/" && "active"
+                          }`}
+                          rel="preload"
+                        >
+                          TMS Therapy
+                        </Link>
+                      </li>
+
+                      <li className="nav-item">
+                        <Link
+                          href="/talk-therapy-dallas/"
+                          className={`nav-link ${
+                            currentPath == "/talk-therapy-dallas/" && "active"
+                          }`}
+                          rel="preload"
+                        >
+                          Talk Therapy
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/medication-management-in-dallas/"
+                          className={`nav-link ${
+                            currentPath ==
+                              "/medication-management-in-dallas/" && "active"
+                          }`}
+                          rel="preload"
+                        >
+                          Medication Management
+                        </Link>
+                      </li>
+                    </ul>
+                  </li>
+                  {/* <li className="nav-item">
+                    <Link
+                      href="/psychiatric-services-in-dallas/"
                       className={`nav-link ${
                         currentPath === "/psychiatric-services-in-dallas/" && "active"
                       }`}
@@ -239,7 +289,7 @@ const Navbar = () => {
                     >
                       Psychiatry
                     </Link>
-                  </li>
+                  </li> */}
                   {/* <li className="nav-item">
                     <Link
                       href="/iv-therapy/"
