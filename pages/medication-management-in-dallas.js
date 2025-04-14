@@ -28,7 +28,7 @@ const Index = () => {
   return (
     <>
       <Head>
-        <title>TMS Therapy Centers & Psychiatric Treatment in Dallas, TX</title>
+        <title>Expert Medication Management & Psychiatric Care in Dallas</title>
         <meta name="robots" content="noindex, nofollow" />
         <link
           rel="canonical"
@@ -36,7 +36,7 @@ const Index = () => {
         />
         <meta
           name="description"
-          content="TMS affects brain activity with a magnetic field. It treats depression, OCD, and other brain disorders. call us 469-562-4188 or email admin@mypremierpain.com."
+          content="Get personalized medication management in Dallas from experienced professionals. Safe, effective, and tailored treatment plans for better mental health."
         />
         <meta content="text/html; charset=utf-8" httpEquiv="Content-Type" />
         <meta content="initial-scale=1" name="viewport" />

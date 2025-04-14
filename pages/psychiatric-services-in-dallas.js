@@ -48,15 +48,16 @@ export default function Psychiatry() {
   return (
     <>
       <Head>
-        <title>TMS Therapy Centers & Psychiatric Treatment in Dallas, TX</title>
-        <meta name="robots" content="noindex, nofollow" />
+        <title>
+          Expert Psychiatry, Medication Management & Talk Therapy in Dallas
+        </title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/tms-therapy/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/psychiatric-services-in-dallas/`}
         />
         <meta
           name="description"
-          content="TMS affects brain activity with a magnetic field. It treats depression, OCD, and other brain disorders. call us 469-562-4188 or email admin@mypremierpain.com."
+          content="Dr. Ronnie Pollard, a board-certified psychiatrist in Dallas, offers expert psychiatric services, including medication management and talk therapy."
         />
         <meta content="text/html; charset=utf-8" httpEquiv="Content-Type" />
         <meta content="initial-scale=1" name="viewport" />
