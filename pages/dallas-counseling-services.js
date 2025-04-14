@@ -157,7 +157,7 @@ const Index = () => {
                     </Link>
                     , or other mental illnesses.{" "}
                     <Link href="/tms-therapy/" rel="preload">
-                      TMS therapy in Dallas
+                      TMS therapy in Dallas{" "}
                     </Link>
                     can also help to resolve these mental issues.
                   </li>
