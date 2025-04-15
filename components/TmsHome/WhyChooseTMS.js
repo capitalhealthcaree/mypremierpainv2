@@ -9,7 +9,10 @@ const About = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="symptoms-img">
-                <img src="http://res.cloudinary.com/dngmflrpx/image/upload/v1734988962/ghtmq6hva8ykostixeml.jpg" alt="Symptoms" />
+                <img
+                  src="http://res.cloudinary.com/dngmflrpx/image/upload/v1734988962/ghtmq6hva8ykostixeml.jpg"
+                  alt="Symptoms"
+                />
               </div>
             </div>
             <div className="col-lg-6">
@@ -57,8 +60,12 @@ const About = () => {
                     <Link href="/anxiety-treatment-in-dallas-tx/" rel="preload">
                       anxiety
                     </Link>
-                    , OCD, PTSD, and more, with promising research. TMS offers
-                    hope when other therapies fail.
+                    , OCD,{" "}
+                    <Link href="/ptsd-treatment-in-dallas-tx/" rel="preload">
+                      PTSD
+                    </Link>
+                    , and more, with promising research. TMS offers hope when
+                    other therapies fail.
                   </li>
                 </ul>
               </div>

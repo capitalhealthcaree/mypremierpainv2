@@ -190,7 +190,6 @@ const Faq = () => {
                 </div>
               </div>
             </div>
-
             <div className="col-lg-6">
               <div className="container">
                 <div className="faq-content">
@@ -250,8 +249,8 @@ const Faq = () => {
                       <AccordionItemHeading>
                         <AccordionItemButton>
                           <span>
-                            Can Individuals who Cannot Tolerate Antidepressant
-                            Side Effects Use TMS Therapy?
+                            Can Individuals Intolerant to Antidepressants Use
+                            TMS Therapy?
                           </span>
                         </AccordionItemButton>
                       </AccordionItemHeading>
@@ -270,8 +269,8 @@ const Faq = () => {
                       <AccordionItemHeading>
                         <AccordionItemButton>
                           <span>
-                            Is TMS Therapy like other Alternative Therapies
-                            Which Use Magnets to Treat Some Illnesses?
+                            Is TMS Therapy Like Other Therapies Using Magnets to
+                            Treat Illnesses?
                           </span>
                         </AccordionItemButton>
                       </AccordionItemHeading>

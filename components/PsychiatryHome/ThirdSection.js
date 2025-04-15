@@ -53,7 +53,7 @@ const outServices = [
   {
     imgSrc: "/images/schizophrenia.png",
     name: "Schizophrenia",
-    href: "/autism-treatment-in-dallas-fort-worth/",
+    href: "/schizophrenia-treatment-center-dallas/",
   },
   // {
   //   imgSrc:

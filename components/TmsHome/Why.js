@@ -38,8 +38,11 @@ const OurExpertise = () => {
                     <div className="expertise-inner">
                       <h3>Obsessive-Compulsive Disorder</h3>
                       <p>
-                        OCD results in frequent uncomfortable thoughts and
-                        repeating actions. Usually, part of OCD treatment is
+                        <Link href="/ocd-treatment-in-dallas-tx/" rel="preload">
+                          OCD
+                        </Link>{" "}
+                        results in frequent uncomfortable thoughts and repeating
+                        actions. Usually, part of OCD treatment is
                         <Link
                           href="/medication-management-in-dallas/"
                           rel="preload"
@@ -57,9 +60,23 @@ const OurExpertise = () => {
                     <div className="expertise-inner">
                       <h3>Migraine Headaches</h3>
                       <p>
-                        Migraines are debilitating headaches with symptoms like
-                        nausea, visual issues, and irritability. A TMS Center
-                        doctor in Dallas can help manage{" "}
+                        Migraines are debilitating{" "}
+                        <Link
+                          href="/conditions-we-treat/headaches/"
+                          rel="preload"
+                        >
+                          {" "}
+                          headaches
+                        </Link>{" "}
+                        with symptoms like nausea, visual issues, and
+                        irritability. A{" "}
+                        <Link
+                          href="/meet-our-team/dr-pollard-psychiatrist-dallas/"
+                          rel="preload"
+                        >
+                          TMS doctor in Dallas
+                        </Link>{" "}
+                        can help manage{" "}
                         <Link
                           href="/migraines-treatment-in-dallas-tx/"
                           rel="preload"
