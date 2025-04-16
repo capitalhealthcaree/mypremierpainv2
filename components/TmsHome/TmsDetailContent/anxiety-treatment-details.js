@@ -6,191 +6,232 @@ const ServiceDetailsContent = () => {
       <div className="service-details-area">
         <div className="container">
           <div className="services-details-img">
+            <h2>What is Anxiety?</h2>
             <p>
-              Anxiety is a typical stress response. Extreme fear or worry
-              characterizes stress disorders. Mental diseases most often involve
-              depression. Nearly 30% of adults experience them. Several
-              psychotherapy methods can cure mental disorders. Treatment helps
-              most people live a productive life. It can induce physical
-              symptoms like anxiety attacks. Faster breathing, nausea,
-              dizziness, migraines, and more may occur.
+              An anxiety disorder is a form of mental illness that is
+              characterized by excessive, unwarranted worry. Among mental
+              illnesses the anxiety disorders. An anxiety disorder might make
+              you feel anxious most of the time, without any obvious
+              provocation, or a work situation may make you nervous. Anxiety can
+              enable us to focus our awareness to remain safe and see risk. Our{" "}
+              <Link href="https://g.co/kgs/v6RYBWt" rel="preload">
+                Anxiety clinic in Dallas
+              </Link>{" "}
+              can help you to manage anxiety symptoms.
+            </p>
+            <h2>Various Types of Anxiety Disorders</h2>
+            <p>
+              America's Diagnostic and Statistical Manual of Mental Disorders
+              (DSM5) lists various anxiety disorders. The standard diagnostic
+              manual for mental health is this one. Listed anxiety disorders:
+            </p>
+            <ul>
+              <li>
+                People with generalized anxiety disorder alternately feel
+                anxious, panicked, and worrying. It is frequently constant, and
+                overwhelming worry over housekeeping, health, and job.
+              </li>
+              <li>
+                Agoraphobia is extreme anxiety about not being able to run away
+                or seek assistance. People living with agoraphobia shy away from
+                groups, vast spaces, and locales outside their homes. Many
+                unanticipated panic attacks distinguish this condition. Abrupt
+                episodes unprovoked by some other mental or physical disease
+                define the condition. For some people with panic disorder,
+                agoraphobia is present.
+              </li>
+              <li>
+                Phobia is a long-lasting panic or anxiety that interferes with
+                your daily life. Although there are many phobias, most are
+                classified under specific phobias. Agoraphobia is the sole
+                diagnosis.
+              </li>
+              <li>
+                Social anxiety disorder (formerly social phobia) is an intense
+                and ongoing fear of being judged unfavorably and/or seen by
+                others.
+              </li>
+              <li>
+                Separation anxiety disorder is the extreme stress a individual
+                experiences when otherwise away from a loved one—including a
+                main caregiver. Though separation anxiety disorder can affect
+                adults and children, normal baby and toddler separation anxiety
+                is.
+              </li>
+              <li>
+                Selective mutism is the result of fear or anxiety causing you
+                not to speak under certain circumstances. Though teenagers and
+                adults can have it, it mostly affects young children.
+              </li>
+            </ul>
+            <h2>Anxiety Symptoms</h2>
+            <p>
+              Different symptoms characterize different subtypes of anxiety
+              disorders. Psychological distress may manifest itself in panic,
+              anxiety, terror, and apprehension.
+            </p>
+            <ul>
+              <li>Relentless thoughts.</li>
+              <li>Inability to concentrate.</li>
+              <li>Restlessness might be among other physical signs.</li>
+              <li>Raise heartbeats.</li>
+              <li>Shortness of breath.</li>
+              <li>Stiff muscles.</li>
+              <li>Cold or clammy hands.</li>
+              <li>Thirsty mouth.</li>
+              <li>Nauseous.</li>
+              <li>Numb or tingling hands or toes.</li>
+              <li>Difficulty sleeping</li>
+            </ul>
+            <p>
+              Consult a mental health professional to get the mental health
+              services in Dallas if you experience these symptoms on a regular
+              basis.
+            </p>
+            <h2>What are the Causes of Anxiety Disorders?</h2>
+            <p>
+              Like some other mental health problems, unknown elements trigger
+              anxiety disorders. Still, they argue that several things add:
+            </p>
+            <ul>
+              <li>
+                Hormones like norepinephrine, serotonin, dopamine, and GABA, as
+                well as neurotransmitters, cause chemical imbalances that
+                influence anxiety. Chemical imbalances can lead to anxiety
+                disorders, anxiety treatment centers can help you to manage
+                anxiety attacks.
+              </li>
+              <li>
+                The amygdala controls anxiety and fear; the brain changes.
+                Anxiety disorders increase amygdala activation in reaction to
+                anxiety signals, research indicates.
+              </li>
+              <li>
+                Genetics: Natural families probably have anxiety problems.
+                Genetics could play a part here. Having an anxiety disorder in
+                your first-degree family member might point to your greater
+                vulnerability to one.
+              </li>
+              <li>
+                Environmental aspects: Sudden or lifelong stress can change
+                neurotransmitters and moderate mood. An individual's stress
+                levels could, over time, result in anxiety disorders. Anxiety
+                disorders might result from traumatic events.
+              </li>
+              <li>
+                Magnesium deficiency, which calms muscles, can lead to insomnia,
+                depression, and anxiety. Deficit in calcium and vitamin B can
+                aggravate anxiety. Your meal plan should be wholegrain cereals,
+                greens, and low-fat dairy.
+              </li>
+              <li>
+                Adrenaline, a stress hormone, is released by nicotine, caffeine,
+                and stimulant medications. These are to be avoided. Furthermore,
+                sugar, chemicals, and sodium should be steered clear of.
+              </li>
+            </ul>
+            <h2>Management of Anxiety</h2>
+            <h3>CBT for Anxiety</h3>
+            <p>
+              CBT is the most common anxiety management treatment. It has been
+              shown to treat panic disorder, phobias, social anxiety disorder,
+              and generalised anxiety disorder, among others.
+            </p>
+            <p>
+              BBT targets negative tendencies and distortions in our worldview
+              and self-image. As the name implies, this has two parts:
+            </p>
+            <ul>
+              <li>
+                Cognitive therapy investigates how negative beliefs cause
+                anxiety.
+              </li>
+              <li>
+                Behaviour therapy is the anxiety disorder therapy that analyses
+                how you handle anxiety-inducing events.
+              </li>
+            </ul>
+            <p>
+              CBT holds that thoughts, not external circumstances, determine our
+              mood. Thus, how you feel depends on your perception, not the
+              situation.{" "}
+              <Link href="/tms-therapy/" rel="preload">
+                TMS therapy in Dallas
+              </Link>{" "}
+              is also one of the best ways to control anxiety.
+            </p>
+            <h3>Physical Activity</h3>
+            <p>
+              Released adrenaline and other stress hormones from the "flight or
+              fight" reaction create anxious feelings. Exercise is an anxiety
+              disorder treatment that brings about relaxation and stress
+              reduction. Furthermore, to lower anxiety, exercise is also
+              recommended. To keep off monotony, work three to four times a week
+              and change your activities.
+            </p>
+            <h3>Increasing Self-Esteem</h3>
+            <p>
+              In those with anxiety, low self-esteem is prevalent. Lack of
+              self-value may aggravate anxiety in many forms. It can make people
+              docile and afraid of being judged. Low self-esteem might
+              additionally influence your anxiety condition.
+            </p>
+            <p>
+              Community support organizations and therapy sessions of{" "}
+              <Link href="/talk-therapy-dallas/" rel="preload">
+                talk therapy
+              </Link>{" "}
+              might help one deal with these problems. Loneliness, shame, guilt,
+              depression, and challenges in school, work, or social settings all
+              might be issues. You can fortunately learn about and raise your
+              self-esteem by getting our psychiatric services in Dallas.
+            </p>
+            <h3>Structured Problem-Solving</h3>
+            <p>
+              Anxious people with anxiety disorders are sometimes 'warriors,'
+              those who focus instead of solving issues. Generalized anxiety and
+              depression can be managed by learning how to deconstruct a problem
+              and pick a solution with the help of{" "}
+              <Link href="/dallas-counseling-services/" rel="preload">
+                counseling
+              </Link>
+              .
+            </p>
+            <h3>Medication Management</h3>
+            <p>
+              One should use medication only for a brief period, not to cure
+              anxiety conditions. According to a formal investigation, cognitive
+              behavior therapy is more effective than medications in the
+              long-term management of anxiety disorders. While some remedies
+              take effect, your doctor of{" "}
+              <Link href="/psychiatric-services-in-dallas/" rel="preload">
+                psychiatry clinic in Dallas
+              </Link>{" "}
+              can advise you on a brief course of antidepressants or
+              tranquilizers to control your symptoms.
+            </p>
+            <h2>Care at Premier Pain Centers</h2>
+            <p>
+              Living in fear and worry is unnecessary. Consult with our{" "}
+              <Link
+                href="/meet-our-team/dr-pollard-psychiatrist-dallas/"
+                rel="preload"
+              >
+                best psychiatrist in Dallas
+              </Link>{" "}
+              if you have anxiety symptoms. Early diagnosis and treatment are
+              preferable that can reduce anxiety and other mental issues.
+              Anxiety medicines and counseling can improve your mood.
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
-              To learn more about our anxiety treatment in Dallas,
-              give us a call at <a href="tel:+14695624188">
-                469-562-4188
-              </a> or{" "}
+              To learn more about our anxiety treatment in Dallas, give us a
+              call at <a href="tel:+14695624188">469-562-4188</a> or{" "}
               <Link href="/contact-locations/" rel="preload">
                 contact us online
               </Link>{" "}
               today.
             </blockquote>
-            <h2>Types of Anxiety Disorders</h2>
-            <p>
-              An immediate threat triggers fear, which is associated with a
-              fight-or-flight response. People with these problems may avoid
-              circumstances that worsen their symptoms. Job performance,
-              academics, and relationships can suffer. Different disorders of
-              this condition include:
-            </p>
-            <li>GAD</li>
-            <li>Social anxiety</li>
-            <li>Separation anxiety</li>
-            <li>Social anxiety</li>
-            <li>
-              <Link href="/panic-disorder-dallas-tx/" rel="preload">
-                The panic disorder
-              </Link>{" "}
-            </li>
-            <h2>Anxiety Treatments</h2>
-            <p>
-              Premier Pain Centers competent and caring therapists are committed
-              to assisting you in understanding and managing your
-              <Link href="/depression-treatment-in-dallas-tx/" rel="preload">
-                {" "}
-                depression{" "}
-              </Link>
-              through comprehensive treatment plans that are tailored to your
-              specific requirements. Our major therapies for mental health
-              improvement are listed below:
-            </p>
-
-            <h3>Cognitive-Behavioral Therapy</h3>
-            <p>
-              CBT is the most common anxiety treatment. Identification,
-              analysis, and changing thinking and behavior patterns are its
-              goals. CBT teaches people techniques to improve their quality of
-              life in a short time. Individuals can benefit:
-              <li>Confront illogical ideas</li>
-              <li>Create healthy thoughts</li>
-              <li>Practical nervousness management strategies</li>
-            </p>
-            <h3>Exposure Therapy</h3>
-            <p>
-              Phobias and social anxiety disorders benefit from exposure
-              therapy. It entails progressively exposing the person to the
-              feared object or situation without a threat to reduce it. Over
-              time, regular exposure reduces fear.
-            </p>
-            <h3>Dialectical Behavior Therapy</h3>
-            <p>
-              DBT combines CBT and mindfulness. It emphasizes psychosocial
-              treatment to help people manage emotions, develop distress
-              tolerance, and strengthen relationships. DBT works well for
-              post-traumatic stress disorder and emotional dysregulation.
-            </p>
-            <h3>Acceptance/Commitment Therapy</h3>
-            <p>
-              The ACT emphasizes accepting ideas and feelings without fighting
-              or feeling guilty. It emphasizes ideals and commitment to enable
-              people to live meaningful lives despite fear.
-            </p>
-            <h3>Mindfulness-Based Stress Reduction</h3>
-
-            <p>
-              MBSR combines yoga with mindfulness meditation. It helps people be
-              more present and nonjudgmental about their thoughts and feelings.
-              MBSR reduces depression and boosts well-being.
-            </p>
-            <h3>Interpersonal Therapy </h3>
-
-            <p>
-              IPT improves interpersonal relationships and social functioning.
-              It assumes that relationship issues can greatly impact mood and
-              vice versa. Communicating better and addressing interpersonal
-              issues help alleviate depression.
-            </p>
-            <h3>EMDR </h3>
-
-            <p>
-              Trauma-related mental problems are treated with EMDR. Recalling
-              traumatic memories while making particular eye movements is
-              thought to assist reprocessing and decrease their impact.
-            </p>
-            <h2>Medicinal Treatments for Anxiety</h2>
-            <p>
-              Our clinic knows that mental illness management involves a diverse
-              strategy suited to each patient. We offer many{" "}
-              <Link href="/contact-locations/fort-worth/" rel="preload">
-                anxiety treatments in Fort Worth
-              </Link>{" "}
-              to address its causes and symptoms. Physical activity, a healthy
-              diet, sufficient sleep, and mindful activities like yoga and
-              meditation can reduce depression. Time management, relaxation, and
-              social support benefit sufferers. Alternative therapies like
-              acupuncture, which inserts small needles into particular body
-              locations, can reduce nervousness in some people. We offer these
-              therapies to improve mental wellness.
-            </p>
-            <h3>Anti-Anxiety Drugs</h3>
-            <p>
-              A thorough treatment strategy may include drugs, which we
-              acknowledge at our Premier Pain Centers. Our trained healthcare
-              specialists will help you choose the best anxiety treatment in
-              Dallas based on your needs and medical history. They can ease
-              therapy and symptom management with{" "}
-              <Link href="/tms-therapy/" rel="preload">
-                TMS therapy in Dallas.{" "}
-              </Link>
-              Classifications of its medicines include:
-            </p>
-            <h4>Selective Serotonin Reuptake Inhibitors (SSRI)</h4>
-            <p>
-              Commonly recommended for anxiety disorders are SSRIs. They boost
-              brain serotonin, which helps to improve mood. Common SSRIs:
-            </p>
-            <li>fluoxetine (Prozac)</li>
-            <li>Zoloft sertraline</li>
-            <li>Escitalopram (Lexapro) with Paroxetine (Paxil)</li>
-            <li>Citalopram (Celexa)</li>
-            <h4>Benzodiazepines</h4>
-            <p>
-              Benzodiazepines relieve acute types of mental illness temporarily.
-              They boost gamma-aminobutyric acid (GABA) ability to act swiftly.
-              However, they can become addictive and are usually recommended
-              temporarily.
-            </p>
-            <h4>Tricyclic Antidepressants</h4>
-            <p>
-              TCAs, older antidepressants, can relieve mental illness . They
-              alter brain neurotransmitters. Common TCAs:
-            </p>
-            <li>Amitriptyline</li>
-            <li>Imipramine (Tofranil)</li>
-            <li>Nortriptyline (Pamelor)</li>
-
-            <h4>Monoamine Oxidase Inhibitors (MAOI)</h4>
-
-            <p>
-              MAOIs, another older antidepressant, can treat severe nervousness.
-              They prevent monoamine oxidase from breaking down
-              neurotransmitters like serotonin and norepinephrine. These drugs
-              include phenelzine (Nardil), tranylcypromine (Parnate), and
-              isocarboxazid (Marplan).
-            </p>
-            <h4>Beta-Blockers</h4>
-            <p>
-              Beta-blockers, usually used to treat heart issues, can also reduce
-              its symptoms, including rapid heartbeat and shaking. Performance
-              types are commonly treated with them. Common beta-blockers:
-              Examples of medications include Propranolol (Inderal), Atenolol
-              (Tenormin), and Buspirone. Generalized anxiety disorder can be
-              treated with buspirone. It targets brain serotonin and dopamine
-              receptors. It is less sedative and addictive than benzodiazepines.
-            </p>
-            <h2>Seeking Professional Help</h2>
-            <p>
-              Many people with anxiety problems improve with treatment. Our
-              medical center offers customized{" "}
-              <Link href="/medication-management-in-dallas/" rel="preload">
-                medication management
-              </Link>{" "}
-              to control this condition using evidence-based therapies. Our
-              tools and support help you manage mental illness and live well.
-              Get professional therapy for stress. Premier Pain Centers will
-              help you enhance your mental health with early detection.
-            </p>
           </div>
         </div>
       </div>
