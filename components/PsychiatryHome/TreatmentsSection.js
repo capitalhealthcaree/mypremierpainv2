@@ -55,30 +55,36 @@ const outServices = [
     name: "Schizophrenia",
     href: "/schizophrenia-treatment-center-dallas/",
   },
-  // {
-  //   imgSrc:
-  //     "http://res.cloudinary.com/dngmflrpx/image/upload/v1736453981/tms-therapy/mrl1jtej0jodcx1kvok6.jpg",
-  //   name: "Autism",
-  //   href: "/autism-treatment-in-dallas-fort-worth/",
-  // },
-  // {
-  //   imgSrc:
-  //     "http://res.cloudinary.com/dngmflrpx/image/upload/v1736454086/tms-therapy/ksv3yav3ikpugqxdnpff.jpg",
-  //   name: "Tinnitus",
-  //   href: "/tinnitus-treatment-in-dallas-fort-worth/",
-  // },
-  // {
-  //   imgSrc:
-  //     "http://res.cloudinary.com/dngmflrpx/image/upload/v1736454438/tms-therapy/ezmhyfdvicfsahqtvekf.jpg",
-  //   name: "Panic Disorder",
-  //   href: "/panic-disorder-dallas-tx/",
-  // },
-  // {
-  //   imgSrc:
-  //     "http://res.cloudinary.com/dngmflrpx/image/upload/v1736454517/tms-therapy/sceiuyb7g5yejullepav.jpg",
-  //   name: "Trauma",
-  //   href: "/trauma-treatment-in-dallas-fort-worth/",
-  // },
+  {
+    imgSrc:
+      "http://res.cloudinary.com/dngmflrpx/image/upload/v1736453981/tms-therapy/mrl1jtej0jodcx1kvok6.jpg",
+    name: "Autism",
+    href: "/autism-treatment-in-dallas-fort-worth/",
+  },
+  {
+    imgSrc:
+      "http://res.cloudinary.com/dngmflrpx/image/upload/v1736454086/tms-therapy/ksv3yav3ikpugqxdnpff.jpg",
+    name: "Tinnitus",
+    href: "/tinnitus-treatment-in-dallas-fort-worth/",
+  },
+  {
+    imgSrc:
+      "http://res.cloudinary.com/dngmflrpx/image/upload/v1736454331/tms-therapy/ykexm82ub6qyoiilnmmf.jpg",
+    name: "Cognitive Therapy",
+    href: "/cognitive-behavioral-therapy-dallas-tx/",
+  },
+  {
+    imgSrc:
+      "http://res.cloudinary.com/dngmflrpx/image/upload/v1736454438/tms-therapy/ezmhyfdvicfsahqtvekf.jpg",
+    name: "Panic Disorder",
+    href: "/panic-disorder-dallas-tx/",
+  },
+  {
+    imgSrc:
+      "http://res.cloudinary.com/dngmflrpx/image/upload/v1736454517/tms-therapy/sceiuyb7g5yejullepav.jpg",
+    name: "Trauma",
+    href: "/trauma-treatment-in-dallas-fort-worth/",
+  },
 ];
 const OurServices = () => {
   return (
@@ -92,7 +98,7 @@ const OurServices = () => {
           <div className="row justify-content-center">
             {outServices.map((item, i) => {
               return (
-                <div className="col-md-6 col-lg-4" key={i}>
+                <div className="col-md-6 col-lg-3" key={i}>
                   <div className="blog-item">
                     <div className="blog-top">
                       <Link href={item.href} rel="preload">

@@ -16,31 +16,31 @@ const FirstSection = dynamic(() =>
   import("../components/PsychiatryHome/FirstSection")
 );
 
-const SecondSection = dynamic(() =>
-  import("../components/PsychiatryHome/SecondSection")
+const ExpertHelpSection = dynamic(() =>
+  import("../components/PsychiatryHome/ExpertHelpSection")
 );
 
-const ThirdSection = dynamic(() =>
-  import("../components/PsychiatryHome/ThirdSection")
+const TreatmentsSection = dynamic(() =>
+  import("../components/PsychiatryHome/TreatmentsSection")
 );
 
-const FourthSection = dynamic(() =>
-  import("../components/PsychiatryHome/FourthSection")
-);
+const MeetTeam = dynamic(() => import("../components/PsychiatryHome/MeetTeam"));
 
-const FifthSection = dynamic(() =>
-  import("../components/PsychiatryHome/FifthSection")
-);
-
-const SixSection = dynamic(() =>
-  import("../components/PsychiatryHome/SixSection")
+const WhyChooseSection = dynamic(() =>
+  import("../components/PsychiatryHome/WhyChooseSection")
 );
 
 const AppointmentForm = dynamic(() =>
   import("../components/Home/AppointmentForm")
 );
 
-const ChooseUs = dynamic(() => import("../components/PsychiatryHome/ChooseUs"));
+const PsychiatricServices = dynamic(() =>
+  import("../components/PsychiatryHome/PsychiatricServices")
+);
+
+const ADHDTesting = dynamic(() =>
+  import("../components/PsychiatryHome/ADHDTesting")
+);
 
 const Footer = dynamic(() => import("../components/_App/Footer"));
 
@@ -68,13 +68,13 @@ export default function Psychiatry() {
       <NavbarAppointment />
       <PsychiatryBanner />
       <FirstSection />
-      <SecondSection />
-      <ThirdSection />
-      <FifthSection />
-      <FourthSection />
+      <ExpertHelpSection />
+      <TreatmentsSection />
+      <MeetTeam />
+      <WhyChooseSection />
       <AppointmentForm />
-      <SixSection />
-      <ChooseUs />
+      <PsychiatricServices />
+      <ADHDTesting />
       <Footer />
     </>
   );
