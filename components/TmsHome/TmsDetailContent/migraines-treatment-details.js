@@ -6,186 +6,197 @@ const ServiceDetailsContent = () => {
       <div className="service-details-area">
         <div className="container">
           <div className="services-details-img">
+            <h2>What's a Migraine?</h2>
             <p>
-              A migraine goes beyond a headache. A debilitating, throbbing,
-              one-sided headache might keep you in bed for days. Movement,
-              lights, sounds, and other stimuli might produce weariness, nausea,
-              visual problems, irritability, and more. A migraine specialist can
-              help you control migraines so they don't take over.
+              Migraines are serious headaches that cause throbbing, pulsing
+              discomfort on one side. Migraine headaches last days but at least
+              four hours. This headache worsens with:
             </p>
+            <ul>
+              <li>Physical exertion</li>
+              <li>Bright lights</li>
+              <li>Loud noises</li>
+              <li>Strong smells</li>
+            </ul>
+            <p>
+              Your everyday routine and personal and social duties may be
+              affected. Migraines can be treated. A migraine goes beyond a
+              <Link href="/conditions-we-treat/headaches/" rel="preload">
+                {" "}
+                headache
+              </Link>
+              . A debilitating, throbbing, one-sided headache might keep you in
+              bed for days. Sensitivity, movement, lighting, sound, and other
+              cues could cause visual disturbances, nausea, malaise,
+              irritability, and more.
+            </p>
+            <h2>What Migraine Types Exist?</h2>
+            <p>
+              There are many migraine varieties. The most common migraine types
+              include:
+            </p>
+            <ul>
+              <li>Migraine with aura (classic migraine)</li>
+              <li>Common migraine (no aura)</li>
+            </ul>
+            <p>Before head pain, migraines have auras.</p>
+            <p>Other types of migraines include:</p>
+            <ul>
+              <li>Long-term migraine</li>
+              <li>Hemiplegic migraine</li>
+              <li>Period headache</li>
+              <li>Headache-free migraine</li>
+              <li>Retinal migraine</li>
+            </ul>
+            <h2>How are Migraines Treated?</h2>
+            <p>
+              No cure exists for migraines. However, a neurologist for migraine
+              can assist in treating migraine symptoms. A doctor may prescribe
+              migraine medicine. There are two drug types:
+            </p>
+            <ul>
+              <li>
+                Antidepressant medicines: These drugs can be consumed when a
+                headache starts. They soothe sensitivity, migraine discomfort,
+                vomiting, and more.
+              </li>
+              <li>
+                Preventive medicines: Your doctor might recommend preventive
+                medicines for chronic migraine treatment if you have
+                debilitating symptoms that interfere with your schedule or
+                regular migraines. These medicines reduce the frequency and
+                intensity of migraines. Every day, these medicines could be used
+                as directed.
+              </li>
+            </ul>
+            <p>
+              Some common{" "}
+              <Link href="/medication-management-in-dallas/" rel="preload">
+                medication management
+              </Link>{" "}
+              treatments include:
+            </p>
+            <ul>
+              <li>Triptans (5-hydroxytryptamine).</li>
+              <li>Lasmiditan ditans.</li>
+              <li>Gepants (rimegepant, ubrogepant).</li>
+              <li>Dihydroergotamine (prochlorperazine).</li>
+              <li>Metoclopramide antiemetic.</li>
+            </ul>
+            <p>
+              Many methods, such as subcutaneous injections, can administer
+              medications. You and your
+              <Link href="https://g.co/kgs/kMSCrNu" rel="preload">
+                {" "}
+                migraine doctor in Dallas TX{" "}
+              </Link>
+              will discuss the optimal medicine, combination, and formulation to
+              manage your symptoms. Utilize all medications under a headache
+              expert's guidance. For any medicine, following your doctor's
+              directions is absolutely vital. For moderate migraines mild to
+              moderate ones, over-the-counter migraine medicines are effective
+              and are emergency migraine treatment. Among the ingredients in
+              painkillers are aspirin, acetaminophen, ibuprofen, naproxen, and
+              caffeine. Use OTC painkillers cautiously. Overuse can produce
+              analgesic-rebound headaches or dependency. Tell your{" "}
+              <Link
+                href="/meet-our-team/dr-pollard-psychiatrist-dallas/"
+                rel="preload"
+              >
+                migraine specialist in Dallas
+              </Link>{" "}
+              if you take OTC painkillers more than twice or three times a week.
+              They may propose better prescriptions.
+            </p>
+            <h3>Other Migraine Treatments</h3>
+            <p>
+              Besides medical care, some patients find alleviation with
+              alternative therapies such as counseling. These are alternative or
+              complementary treatments. Migraine includes:
+            </p>
+            <ul>
+              <li>
+                Biofeedback: This helps you identify stressful circumstances
+                that may cause symptoms. Biofeedback can stop a slow-starting
+                headache.
+              </li>
+              <li>
+                Supplements: Studies show a number of vitamins, minerals, and
+                botanicals help to relieve migraines or even stop them.
+                Melatonin, magnesium, feverfew, coenzyme Q10, vitamin B2.
+                Butterbur can shield against strokes but affect liver enzymes.
+              </li>
+              <li>
+                Bodywork: Chiropractic,{" "}
+                <Link href="/tms-therapy/" rel="preload">
+                  {" "}
+                  TMS therapy in Dallas
+                </Link>
+                , massage, acupressure, acupuncture, and craniosacral therapy
+                may relieve headaches. Yoga and tai chi may also assist.
+              </li>
+              <li>Botox for migraine</li>
+              <li>
+                Cognitive behavioural therapy and{" "}
+                <Link href="/talk-therapy-dallas/" rel="preload">
+                  talk therapy
+                </Link>{" "}
+                are the best treatments for migraine.
+              </li>
+            </ul>
+            <p>
+              Therapists can teach you how thoughts and actions affect pain
+              perception. They can also help you manage stress, a migraine
+              trigger. Consult your doctor before trying alternative therapies.
+            </p>
+            <h2>Pregnant Migraine Solutions</h2>
+            <p>
+              See your doctor of headache and migraine clinic in Dallas if you
+              have migraines and are expecting or plan to be. Your doctor of the
+              <Link href="https://g.co/kgs/v6RYBWt" rel="preload">
+                {" "}
+                migraine relief center{" "}
+              </Link>{" "}
+              may warn against migraine drugs if you think you could be
+              expecting. Some drugs may endanger fetuses. Sometimes, doctors
+              recommend acetaminophen for migraines.
+            </p>
+            <h2>Avoid Migraine Causes</h2>
+            <p>
+              Medical professionals can assist you in identifying migraine
+              triggers. They may require a migraine diary. Migraine journals can
+              help you record migraine dates, symptoms, and duration. You can
+              also list your diet and activities to identify triggers.
+              Smartphone apps can help you record migraines. After finding a
+              trigger, you can avoid it. Although this isn't always possible,
+              knowing your triggers helps you treat migraines. Since stress may
+              set off something, you may want to consult a mental health
+              specialist. If you get migraines when you skip a meal, schedule
+              phone alerts for regular eating.
+            </p>
+            <h2>Care at Premier Pain Centers</h2>
+            <p>
+              Premier Pain Centers is one of the top-rated migraine clinics in
+              Dallas. Migraines vary from a normal headache. It can seem like
+              the world is collapsing, and you cannot check it. Migraines, brief
+              though they are, can seem to slow time down and work against you.
+              Still, there are ways to manage migraines and prevent them from
+              wrecking your day. Get the{" "}
+              <Link href="/psychiatric-services-in-dallas/" rel="preload">
+                psychiatric services in Dallas
+              </Link>{" "}
+              to prevent migraines from dominating your life.
+            </p>
+
             <blockquote>
               <i className="icofont-quote-left"></i>
-              To learn more about our migraine treatment in Dallas,
-              give us a call at <a href="tel:+14695624188">
-                469-562-4188
-              </a> or{" "}
+              To learn more about our migraine treatment in Dallas, give us a
+              call at <a href="tel:+14695624188">469-562-4188</a> or{" "}
               <Link href="/contact-locations/" rel="preload">
                 contact us online
               </Link>{" "}
               today.
             </blockquote>
-            <h2>How do Diagnose Migraines?</h2>
-            <p>
-              In cases that are unusual, complex, or sudden, tests may be
-              necessary to rule out alternative causes of pain.
-            </p>
-            <li>
-              MRI: MRI scans employ radio waves and a high magnetic field to
-              create comprehensive brain and blood vessel pictures. MRI scans
-              can diagnose neurological diseases such as tumors, strokes, brain
-              hemorrhages, infections, and others.
-            </li>
-            <li>
-              CT scan: A computed tomography (CT) scan creates brain
-              cross-sections from X-rays. This detects cancer, infections, brain
-              injury, brain hemorrhage, and other causes of headaches.
-            </li>
-            <h2>Management and Treatments</h2>
-            <p>
-              Chronic migraine medications are similar to other migraine
-              treatments. There are two primary forms of therapy:
-            </p>
-            <li>Preventive: Medicines prevent or reduce migraines.</li>
-            <li>
-              Rescue: These drugs “rescue” migraines by shortening and reducing
-              their severity.
-            </li>
-            <p>
-              Medical treatments offered by Premier Pain Centers help treat
-              persistent migraines. Treatment options also include mental
-              healthcare.
-            </p>
-            <h3>Triptan Drugs</h3>
-            <p>
-              These migraine treatments are usually first-line. Commonly used
-              medicines include:
-            </p>
-            <li>Frovatriptan</li>
-            <li>Naratriptan (Amerge)</li>
-            <li>Rizatriptan (Maxalt)</li>
-            <li>Intrex or Onzetra sumatriptan</li>
-            <li>Ergotamine</li>
-            <p>
-              This medicine narrows brain blood vessels and alters pain signal
-              processing. Ergomar is a name-brand ergotamine. These medications
-              contain an NSAID plus a barbiturate or opioid painkiller. People
-              rarely go for chronic migraine treatments in Dallas because they
-              exacerbate the condition, but a good physician can handle the
-              situation. Psychotherapy can treat stress and anxiety, which cause
-              migraines. Psychotherapy comes in numerous forms, so you can find
-              one that works for you.
-            </p>
-            <h3>Manage Stress</h3>
-            <li>
-              Stress and migraines often occur together. No one can avoid daily
-              stress, but you can manage it to reduce migraines. Stress can
-              cause migraines in teens, especially.
-            </li>
-            <li>
-              Simplify life. Avoid adding activities or chores to the day. Find
-              ways to leave stuff out.
-            </li>
-            <li>
-              Use your time wisely. Work and home to-do lists should be updated
-              daily. Delegate and break down large projects.
-            </li>
-            <li>
-              Rest. If you're overwhelmed, leisurely stretches or a brisk walk
-              might re-energize you.
-            </li>
-            <li>
-              Change your mindset. Be optimistic. If you believe that this is
-              impossible, change your perspective. Think, "It'll be hard. But I
-              can manage."
-            </li>
-            <li>
-              Have fun. Give yourself 15 minutes to do something you like every
-              day. It might be a game, coffee with a friend, or a pastime. Doing
-              what you like reduces stress naturally.
-            </li>
-            <h3>Eat Well</h3>
-            <p>Diet can affect migraines. Consider fundamentals:</p>
-            <li>
-              Maintain consistency. You should eat at the same time every day.
-            </li>
-            <li>Avoid skipping meals. Fasting raises the risk of migraines.</li>
-            <li>
-              Keep food logs. Tracking your diet and migraines might help you
-              uncover dietary triggers. Intake of a good amount of magnesium for
-              migraine is a very good approach.
-            </li>
-            <li>
-              Avoid migraine-causing foods. Remove a suspected migraine trigger
-              from your diet to observe what occurs. Aged cheese, chocolate,
-              coffee, and alcohol are examples.
-            </li>
-            <h3>Keep Yourself in Peace</h3>
-            <p>
-              If you can, stop when a migraine starts. Turn off the lights. Both
-              light and sound can worsen migraines. Relax in a dark, quiet room.
-              If possible, sleep. Try temperature therapy. Hot or cold, compress
-              your head or neck. Numbing ice packs may reduce discomfort.
-              Heating pads and hot packs relieve tension. Warm showers or baths
-              may work similarly. Drink caffeine. In tiny amounts, coffee alone
-              can ease early migraine discomfort. Caffeine may boost the
-              pain-relieving effects of acetaminophen and aspirin.
-            </p>
-            <h3>Surgery for Migraines</h3>
-            <p>
-              Some migraine sufferers get surgery when other therapies fail.
-              This method is controversial and unstudied. Except in research
-              studies, the American Headache Society doesn't endorse surgery.
-              There are two main migraine surgeries:
-            </p>
-            <li>
-              Nerve decompression{" "}
-              <Link href="/contact-locations/fort-worth/" rel="preload">
-                Migraine surgery in Fort Worth
-              </Link>{" "}
-              is used to decompress nerves. During this procedure, a surgeon
-              removes tissue that presses on migraine-triggering nerves.
-            </li>
-            <li>Neurectomy. Cut the nerve end where your agony begins.</li>
-            <p>
-              Other medical treatments, like botox for migraine are very
-              beneficial. And cognitive-behavioral treatment for migraine, in
-              which therapists can teach you how thoughts and actions affect
-              pain perception. They can also teach you stress-reduction
-              techniques to prevent migraines.
-            </p>
-            <h2>Is it Possible to Prevent or Reduce Chronic Migraines?</h2>
-            <p>
-              Chronic migraine's cause is unknown to experts. That makes it
-              impossible to prevent 100%. Some people can prevent chronic
-              migraine, but those with a familial history may develop it. If you
-              have episodic migraine, the only way to lower your risk of chronic
-              migraine is to lessen the likelihood that your drugs may cause it.
-              Your
-              <Link href="/meet-our-team/rao-k-ali/" rel="preload">
-                {" "}
-                miragines specialist in Dallas
-              </Link>{" "}
-              can provide guidance on medication use and transformation
-              prevention.
-            </p>
-            <h2>When to Call a Doctor</h2>
-            <p>
-              Consult a doctor at Dallas Emergency Care for Migraines if a
-              headache persists. Seek medical attention immediately if you have
-              a strong headache. The symptoms include:{" "}
-            </p>
-            <li>A stiff neck, fever, nausea, and vomiting.</li>
-            <li>Migraines in pregnancy</li>
-            <li>Limb numbness/weakness.</li>
-            <li>Speech problems or slurring.</li>
-            <li>
-              It's your first severe headache that prevents you from
-              accomplishing daily tasks.
-            </li>
-            <li>After head trauma, exercise, or sex, you get it.</li>
-            <li>Memory loss or confusion</li>
-            <li>Vision loss in one eye is known as ocular migraines.</li>
-            <li>You're over 50 and have never had this head pain.</li>
           </div>
         </div>
       </div>
