@@ -6,169 +6,205 @@ const ServiceDetailsContent = () => {
       <div className="service-details-area">
         <div className="container">
           <div className="services-details-img">
+            <h2>What is Depression?</h2>
             <p>
-              Depression is a complicated psychological disorder identified by
-              ongoing emotions of sadness and despair and a reduced ability to
-              derive joy or interest from activities. It impacts thoughts,
-              feelings, and daily life. Different types of depression have
-              different symptoms and causes. Depressed moods are different from
-              short-term emotional responses to daily problems. It affects how a
-              person thinks, senses, and acts and can cause emotional and
-              physical issues.
+              Depression causes long-term unhappiness and a lack of interest in
+              once-cherished pastimes. It can affect eating, sleeping, recall,
+              and thought.
+            </p>
+            <p>
+              Loss of work or divorce is something reasonable to mourn.
+              Depression has other symptoms and lasts nearly daily for at least
+              two weeks; unlike sadness, it does. Depression comes in many
+              forms. Some refer to clinical anxiety or major depressive disorder
+              as "depression." A common mental disease, depression causes
+              enduring grief and alterations in behavior, eating, sleeping, and
+              thought. Depression{" "}
+              <Link href="/dallas-counseling-services/" rel="preload">
+                counseling therapy
+              </Link>
+              , medication, or both can help with depression. If you show
+              indications, seek psychiatric services in Dallas right away.
+            </p>
+            <h2>What are the Types of Depression?</h2>
+            <p>
+              Depression is categorized according to the DSM5 of the American
+              Psychiatric Association:
+            </p>
+            <ul>
+              <li>
+                Major depression: Major depressive disorder is when you feel
+                hopeless, down, or sad every day for at least two weeks and have
+                other symptoms, including sleep disturbances, loss of activity
+                interest, or food cravings. This is depression's most relentless
+                and serious form.
+              </li>
+              <li>
+                Persistent depression: Two years or more of moderate or moderate
+                depression is persistent depressive illness. It is much less
+                severe than major depression. Dysthymia was what healthcare
+                providers call PDD.
+              </li>
+              <li>
+                In kids, DMDD sets off constant, high irritability and many
+                violent outbursts. Signs come at age 10.
+              </li>
+              <li>
+                PMDD combines mood symptoms such as severe agitation, anxiety,
+                and depression with PMS symptoms. These symptoms may be
+                life-changing, although they clear within a few days once your
+                period starts.
+              </li>
+            </ul>
+            <p>
+              Parkinson's, thyroid deficiency, heart condition, and cancer, for
+              instance. Usually, depression lessens when the cause is addressed.
+              Certain risk factors are more common with depression. One way
+              conditions such as these elevate the risk of depression would be:
+            </p>
+            <ul>
+              <li>
+                Parkinson's and Alzheimer's are among the neurodegenerative
+                diseases.
+              </li>
+              <li>Stroke.</li>
+              <li>Sclerosis.</li>
+              <li>Seizure condition.</li>
+              <li>Cancer.</li>
+              <li>Macula deterioration.</li>
+              <li>Persistent agony.</li>
+            </ul>
+            <h2>Indicators and Symptoms</h2>
+            <p>
+              Though episodes can last weeks or months, clinical depression is
+              constant. By type, depression signs differ and may be mild to
+              excruciating. Normal symptoms are:
+            </p>
+            <ul>
+              <li>
+                Worried, hopeless, or depressed. Depressed children could be
+                moody rather than sad.
+              </li>
+              <li>Gone is a delight in old things</li>
+              <li>Grows rapidly irritate</li>
+              <li>
+                Too much or too little eating might lead either to weight gain
+                or to weight loss
+              </li>
+              <li>Difficulties with sleep or excessive sleeping</li>
+              <li>Fatigue</li>
+              <li>Difficulty focusing, judging, or recalling</li>
+              <li>Headache, belly ache, or sexual issues</li>
+              <li>Considering self-inflicted injury or suicide</li>
+            </ul>
+            <h2>Depressions Causes</h2>
+            <p>
+              Several factors, they say, combine to fuel its Neurotransmitters
+              in balance, such as serotonin and dopamine, to generate depression
+              dopamine.
+            </p>
+            <ul>
+              <li>
+                Pregnancy causes postpartum depression after the pregnancy.
+              </li>
+              <li>
+                Depression is threefold more likely for you if a first-degree
+                relative with depression is available.
+              </li>
+              <li>
+                Depression can strike, nevertheless, free of a family past.
+              </li>
+              <li>
+                Stressful life events such as death, trauma, divorce, isolation,
+                and absence of support could all trigger depression.
+              </li>
+              <li>
+                Medical issues, including diabetes and chronic pain, can lead to
+                depression and anxiety.
+              </li>
+              <li>Some medicines can cause depression.</li>
+              <li>Other substances and alcohol can magnify depression.</li>
+            </ul>
+            <h2>Depression Treatments</h2>
+            <p>
+              Depression is quite treatable. About 80% to 90% of those who look
+              for therapy for depression find it appropriate. Treatments
+              comprise:
+            </p>
+            <ul>
+              <li>
+                Psychotherapy is the best depression treatment in Dallas, it is
+                the act of conversing with a psychologist. Therapists assist you
+                in identifying and changing bad attitudes, thoughts, and
+                actions.
+              </li>
+              <li>
+                Cognitive behavioral therapy (CBT) is the most common
+                psychotherapy to treat bipolar depression. At times, quick
+                therapy will suffice. Others stay in therapy for years or
+                months.
+              </li>
+              <li>
+                <Link
+                  href="/meet-our-team/dr-pollard-psychiatrist-dallas/"
+                  rel="preload"
+                >
+                  Top psychiatrists in Dallas
+                </Link>{" "}
+                recommend antidepressants can change brain chemistry, leading to
+                depression. A few kinds of antidepressants exist, and selecting
+                one could be time-consuming. Some medicines have side effects
+                that get better with time. Consult your physician to get the
+                best{" "}
+                <Link href="/medication-management-in-dallas/" rel="preload">
+                  medication management
+                </Link>
+                .
+              </li>
+              <li>
+                Complementary medicine is that which complements western
+                medicine. Mild depression patients benefit from acupuncture,
+                massage, hypnosis, and biofeedback.
+              </li>
+              <li>
+                Brain stimulation therapy by the best depression treatment
+                center can help patients with severe depression or psychosis.
+                Therapies using brain stimulation include VNS,{" "}
+                <Link href="/tms-therapy/" rel="preload">
+                  TMS therapy in Dallas
+                </Link>
+                , and ECT.
+              </li>
+            </ul>
+            <p>There are home remedies for depression, such as:</p>
+            <ul>
+              <li>Frequent exercise</li>
+              <li>Sleeping well</li>
+              <li>Healthy eating</li>
+              <li>Avoiding depressant alcohol</li>
+              <li>Being with loved ones</li>
+            </ul>
+            <h2>Care at Premier Pain Centers</h2>
+            <p>
+              Millions of people suffer from depression annually. Anyone can be
+              depressed for no apparent cause. Fortunately, depression is
+              treatable. Consult your doctor to get the best therapy for
+              depression if you develop depressive symptoms. Get help from our
+              best{" "}
+              <Link href="/psychiatric-services-in-dallas/" rel="preload">
+                psychiatry clinic in Dallas
+              </Link>{" "}
+              quickly to feel better.
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
-              To learn more about our Depression treatment in Dallas,
-              give us a call at <a href="tel:+14695624188">
-                469-562-4188
-              </a> or{" "}
+              To learn more about our Depression treatment in Dallas, give us a
+              call at <a href="tel:+14695624188">469-562-4188</a> or{" "}
               <Link href="/contact-locations/" rel="preload">
                 contact us online
               </Link>{" "}
               today.
             </blockquote>
-            <h2>Types of Depression</h2>
-            <p>
-              Sadness can make a person feel hopeless, like life is pointless.
-              It often follows weeks, months, or years of anxiety, worry, or
-              illness. Continuous overstimulation can alter the brain and
-              deplete feel-good neurochemicals, depressing the mood. Individuals
-              who are depressed often attempt a variety of methods to regain
-              their old selves. Many people don't realize that depression is
-              temporary. The limbic system modifications cause it, but
-              neuroplasticity—the brain's ability to build new neural
-              pathways—can reverse it. Anxious depression produces anxiety
-              symptoms. Besides depressive signs, it can cause excessive worry,
-              restlessness, and bodily anxiety. Some of the types are listed
-              below:
-            </p>
-            <div className="row">
-              <div className="col-6">
-                <li>Dysthymia</li>
-                <li>Chronic depression</li>
-                <li>Persistent sadness</li>
-              </div>{" "}
-              <div className="col-6">
-                <li>Depressed mood</li>
-                <li>Postpartum anxiety</li>
-                <li>Seasonal depression</li>
-              </div>
-            </div>
-            <h2>Symptoms and Indications</h2>
-            <p>
-              While every case is different, common depression symptoms include:
-            </p>
-            <div className="row">
-              <div className="col-6">
-                <li>Negative thinking</li>
-                <li>Anxiety</li>
-                <li>Changing appetites</li>
-                <li>Staying away from family and friends</li>
-              </div>{" "}
-              <div className="col-6">
-                <li>Struggling to balance work and family</li>
-                <li>Accidental weight gain or reduction</li>
-                <li>
-                  Prolonged or insufficient sleep Agitation and restlessness
-                </li>
-                <li>Fatigue</li>
-              </div>
-            </div>
-            <h2>Causes of Depression</h2>
-            <p>
-              Researchers don't know the cause of depression. They believe
-              various variables contribute to its growth, including:
-            </p>
-            <li>
-              Brain chemistry: Serotonin and dopamine imbalances lead to
-              anxiety.
-            </li>
-            <li>
-              Genetics: Depression is three times more probable in first-degree
-              relatives. But sadness can happen to people who don't have a
-              family history of it.
-            </li>
-            <li>
-              Traumatic events: Life events that are stressful, like death,
-              trauma, divorce, being alone, or not having enough support, can
-              lead to sadness.
-            </li>
-            <li>
-              Medical conditions: Diabetes and persistent pain can cause
-              despair. It can result from certain drugs. Alcohol and other drugs
-              can worsen depression.
-            </li>
-
-            <h2>How Depression is Treated</h2>
-            <p>
-              <Link href="/meet-our-team/" rel="preload">
-                Depression specialists in Dallas{" "}
-              </Link>{" "}
-              strive to provide the best care and use the latest mental health
-              treatment methods. We provide comprehensive despair therapy at
-              Premier Pain Center. Our trained healthcare specialists provide
-              customized depression treatment to help you fight this disease and
-              enhance your health. We provide the following treatments and
-              medications:
-            </p>
-            <h3>Psychotherapy</h3>
-            <p>
-              Therapists can teach you how to handle negative emotions. The most
-              prevalent treatment is cognitive behavior therapy. It can help you
-              identify, assess, and change mental behaviors that are causing
-              symptoms. You can modify your feelings by changing your thinking.
-              TMS therapy is also safe and helpful for depression, although the
-              therapist's ability can affect its success rate. Therapy is also
-              expensive, making it unavailable to many.
-            </p>
-            <h3>Antidepressants</h3>
-            <p>
-              Antidepressants often accompany therapy. These can improve moods
-              and lessen stress. Therapy can be more effective, and the client
-              can perform better.{" "}
-              <Link href="/medication-management-in-dallas/" rel="preload">
-                {" "}
-                Depression medication
-              </Link>{" "}
-              like antidepressants can save lives, but they don't fix the
-              neurological source of the problem. A person may feel better while
-              taking antidepressants, but depression may return after the
-              individual weans off of them. Many people have trouble stopping
-              this class of drugs due to their large list of negative effects.
-            </p>
-            <h3>Diet and Supplements</h3>
-            <p>
-              Naturopaths, functional medicine doctors, and integrative medicine
-              doctors may recommend a diet or detoxification schedule to reduce
-              inflammation and rectify nutrient deficiencies. Although it is not
-              inflammatory, brain inflammation is typically prevalent in
-              depressed people. Food intake, purification, and supplementation
-              may temporarily help symptoms by reducing inflammation and/or
-              increasing nutritional levels, but most people can't completely
-              address their problems.
-            </p>
-            <p>
-              This reduces symptoms, but the person must follow the treatment
-              forever. If a diet improves depression, straying from it usually
-              worsens symptoms. This might be restrictive because rigorous diets
-              and practices must be followed. These programs demand expensive
-              foods and supplements, making them costly. A damaged limbic system
-              causes great depression, which causes persistent inflammation and
-              food deficits. After treating the limbic tract dysfunction,
-              swelling will naturally decrease.
-            </p>
-            <h2>Depression Meets Healing</h2>
-
-            <p>
-              We know everyone's depression experience is different, so we
-              adjust our treatment plans to your requirements and goals at
-              Premier Pain Centers. Our caring staff will help you recuperate
-              every step of the way.{" "}
-              <Link href="/contact-locations/" rel="preload">
-                Contact us
-              </Link>{" "}
-              for support if you or a loved one is depressed.
-            </p>
           </div>
         </div>
       </div>
