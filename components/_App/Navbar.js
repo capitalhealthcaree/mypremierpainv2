@@ -267,6 +267,18 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
+                          href="/dallas-counseling-services/"
+                          className={`nav-link ${
+                            currentPath == "/dallas-counseling-services/" &&
+                            "active"
+                          }`}
+                          rel="preload"
+                        >
+                          Counseling
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
                           href="/medication-management-in-dallas/"
                           className={`nav-link ${
                             currentPath ==

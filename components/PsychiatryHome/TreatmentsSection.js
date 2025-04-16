@@ -25,13 +25,12 @@ const outServices = [
     name: "Anxiety",
     href: "/anxiety-treatment-in-dallas-tx/",
   },
-  {
-    imgSrc:
-      "http://res.cloudinary.com/dngmflrpx/image/upload/v1736454384/tms-therapy/mjxwt37z6ebvoksefe6x.jpg",
-    name: "Medication Management",
-    href: "/medication-management-in-dallas/",
-  },
-
+  // {
+  //   imgSrc:
+  //     "http://res.cloudinary.com/dngmflrpx/image/upload/v1736454384/tms-therapy/mjxwt37z6ebvoksefe6x.jpg",
+  //   name: "Medication Management",
+  //   href: "/medication-management-in-dallas/",
+  // },
   {
     imgSrc:
       "http://res.cloudinary.com/dngmflrpx/image/upload/v1736454188/tms-therapy/bjvjjztlb1dbtiivlo4l.jpg",
@@ -44,12 +43,12 @@ const outServices = [
     name: "Bipolar Disorder",
     href: "/bipolar-disorder-treatment-in-richardson/",
   },
-  {
-    imgSrc:
-      "http://res.cloudinary.com/dngmflrpx/image/upload/v1736454331/tms-therapy/ykexm82ub6qyoiilnmmf.jpg",
-    name: "Counseling",
-    href: "/dallas-counseling-services/",
-  },
+  // {
+  //   imgSrc:
+  //     "http://res.cloudinary.com/dngmflrpx/image/upload/v1736454331/tms-therapy/ykexm82ub6qyoiilnmmf.jpg",
+  //   name: "Counseling",
+  //   href: "/dallas-counseling-services/",
+  // },
   {
     imgSrc: "/images/schizophrenia.png",
     name: "Schizophrenia",
