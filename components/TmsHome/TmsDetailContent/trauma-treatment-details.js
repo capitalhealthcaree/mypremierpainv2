@@ -7,149 +7,201 @@ const ServiceDetailsContent = () => {
         <div className="container">
           <div className="services-details-img">
             <p>
-              Living through a traumatic situation can have severe emotional
-              effects. Traumatic experiences can be hard to categorize because a
-              single incident may be more painful for one person than for
-              another. However, childhood traumas, including abuse, neglect, and
-              broken attachments, can be catastrophic. Later life events like an
-              unexpected accident, becoming the victim of violence, a natural
-              disaster or war, or sudden loss can also be difficult.
-            </p>
-            <blockquote>
-              <i className="icofont-quote-left"></i>
-              To learn more about our Trauma treatment in Dallas, give us a call
-              at <a href="tel:+14695624188">469-562-4188</a> or{" "}
-              <Link href="/contact-locations/" rel="preload">
-                contact us online
+              Trauma can be the result of an accident, crime, natural disaster,
+              physical or emotional abuse, neglect, viewing or living in war,
+              watching or experiencing the death of a loved one, and more. Right
+              after, people usually feel stunned and in disbelief. Extended
+              impacts encompass flashbacks, erratic moods, challenging
+              relationships, and physical symptoms such as headache or stomach
+              upset. Though these emotions are typical, some individuals find it
+              difficult to let go.{" "}
+              <Link href="/dallas-counseling-services/" rel="preload">
+                Counseling services in Dallas
               </Link>{" "}
-              today.
-            </blockquote>
-            <h2>Risks of Psychological Trauma</h2>
+              can assist them in dealing with emotions productively.
+            </p>
+            <h2>Categories of Trauma</h2>
             <p>
-              Psychological trauma has substantial and long-term effects for
-              mental and physical health. It can cause PTSD,
+              Like an accident, rape, or natural disaster, the American
+              Psychological Association (APA) defines trauma as "an emotional
+              response to a terrible event." An event, either physically or
+              emotionally agonizing, can result in trauma. Trauma can cause both
+              long-term as well as immediate emotions. People who are shocked,
+              desperate, or tense will have difficulty making sense of their
+              encounters. Physical symptoms can result from trauma. Untreated
+              symptoms of trauma can lead to PTSD, therefore it is very
+              necessary to get emergency trauma care in Texas.
+            </p>
+            <ul>
+              <li>Acute trauma results from one taxing or hazardous event.</li>
+              <li>
+                Repeated, intense stress leads to chronic trauma. Among these
+                are domestic violence, bullying, and child abuse.
+              </li>
+              <li>Complex trauma results from many traumas.</li>
+            </ul>
+            <p>
+              Others might go vicariously traumatized. Close contact with
+              someone traumatized, in this case, triggers trauma indicators.
+              Others who look after victims of trauma and family may suffer
+              vicarious trauma. There could be PTSD symptoms.
+            </p>
+            <h2>Treatments for Trauma</h2>
+            <p>
+              Several therapies can help those with PTSD and trauma to live
+              better such as{" "}
+              <Link href="/talk-therapy-dallas/" rel="preload">
+                talk therapy
+              </Link>
+              . Based on the patient's requirements, doctors select a treatment.{" "}
+              <Link href="/medication-management-in-dallas/" rel="preload">
+                Medication management
+              </Link>{" "}
+              can help those with depression, anxiety, and sleeping problems.
+              Prescribed by physicians could be Zoloft or Paxil SSRIs.
+            </p>
+            <p>
+              Trauma benefits the most from{" "}
+              <Link href="/psychiatric-services-in-dallas/" rel="preload">
+                psychiatric services in Dallas
+              </Link>
+              . Therapists who have trauma experience can help people.
+              Beneficial Post-traumatic stress disorder treatment in Texas are:
+            </p>
+            <ul>
+              <li>
+                Cognitive behavioural therapy: Best trauma hospitals in Dallas
+                recommend Cognitive behavioural therapy, like CPT, is spread
+                over 12–16 one-hour sessions.
+              </li>
+              <li>
+                Bilateral stimulation, such as eye movements, tapping, or other
+                stimuli, helps to recall traumatic events in EMDR quickly.
+              </li>
+              <li>
+                Therapy via writing: This sort of exposure therapy involves
+                writing about the traumatic incident and focussing on their
+                ideas and feelings.
+              </li>
+              <li>
+                Faster resolution therapy: Veterans PTSD symptoms have improved
+                dramatically with ART, a new therapy.
+              </li>
+              <li>
+                {" "}
+                <Link href="/tms-therapy/" rel="preload">
+                  Tms therapy in Dallas
+                </Link>
+              </li>
+            </ul>
+            <h3>Somatic Treatments</h3>
+            <p>
+              Trauma recovery services including somatic Therapy that is a
+              (body-based) practice to assist the mind and body in processing
+              trauma. Trauma surgeons recommend somatic experience to help
+              patients revisit painful events in a secure environment.
+            </p>
+            <h2>Which Events are Traumatic?</h2>
+            <p>
+              Traumatic events are undefined. It's more about your response.
+              Traumatic events are personal. Other individuals can't know how
+              you feel or if your experiences are distressing. Some people have
+              comparable experiences but are affected differently or longer.
+            </p>
+            <p>You may sense trauma when:</p>
+            <ul>
+              <li>Frightened</li>
+              <li>In danger</li>
+              <li>Humiliated</li>
+              <li>Rejected</li>
+              <li>Abandoned</li>
+              <li>
+                Invalidated, such as your feelings or opinions being ignored.
+              </li>
+              <li>Unsafe</li>
+              <li>Unsupported</li>
+              <li>Trapped</li>
+              <li>Ashamed</li>
+              <li>Powerless</li>
+            </ul>
+            <p>Trauma is more common in some groups. Among them:</p>
+            <ul>
+              <li>Military veterans and personnel</li>
+              <li>
+                Those in or formerly in prison, refugees, and asylum seekers.
+              </li>
+              <li>Poor people</li>
+            </ul>
+            <h2>Trauma Symptoms</h2>
+            <p>
+              Trauma can cause physical and emotional symptoms and trauma
+              centers in Texas can help you to treat those symptoms. A powerful
+              emotional response can affect a person's attitude, behaviour,
+              functioning, and worldview. After a trauma, PTSD or adjustment
+              disorders may develop, injury and trauma care in Texas can help to
+              treat these disorders. This disorder involves thoughts of life and
+              safety being at stake and feelings of fear, horror, or
+              helplessness.
+            </p>
+            <h2>Mental Signs of Emotional Trauma</h2>
+            <p>Emotional responses to trauma may include:</p>
+            <ul>
+              <li>Fear</li>
+              <li>Helplessness</li>
+              <li>Dissociation</li>
+              <li>Attention, focus, and memory changes</li>
+              <li>Behaviour, attitude, and worldview changes</li>
+              <li>Trouble working</li>
+              <li>Refusing to accept the trauma</li>
+              <li>Anger</li>
+              <li>Bargaining, like negotiation,</li>
+              <li>Avoidance</li>
+              <li>Depression, anxiety</li>
+              <li>Mood changes</li>
+              <li>Guilt or shame</li>
+              <li>Do blame (including yourself).</li>
+              <li>Disinterest in activity, social withdrawal</li>
+              <li>Numb emotions</li>
+            </ul>
+            <h3>Physical Signs of Emotional Trauma</h3>
+            <p>Emotional trauma can cause physical symptoms. This includes:</p>
+            <ul>
+              <li>Increased heart rate</li>
+              <li>Pain or aches</li>
+              <li>Tensed muscles</li>
+              <li>Feeling anxious</li>
+              <li>Easily startled</li>
+              <li>Nightmares</li>
+              <li>Trouble sleeping</li>
+              <li>Fatigue</li>
+              <li>
+                Erectile dysfunction, difficulties arousing, or problems
+                orgasming
+              </li>
+              <li>Changed appetite</li>
+              <li>High alertness</li>
+            </ul>
+            <h2>Book an Appointment</h2>
+            <p>
+              Trauma is an emotional response to a stressful incident. After a
+              stressful experience, this emotional response may last or be
+              brief. Child abuse could still be happening, or an individual
+              might go through complex trauma—that is, several traumatic events.
+              Under stress, people may experience guilt, changes in behaviour,
+              mood swings, sleeplessness, helplessness, anxiety, irritability,
+              rapid heart rate, and body aches and pains. Individuals
+              traumatized could develop PTSD and kill themselves. Are you
+              looking for the Trauma treatment near you in Dallas? Premier Pain
+              Centers{" "}
               <Link
-                href="/anxiety-treatment-in-dallas-fort-worth/"
+                href="/meet-our-team/dr-pollard-psychiatrist-dallas/"
                 rel="preload"
               >
-                {" "}
-                anxiety
-              </Link>
-              , and the misuse of drugs if left untreated. It can impair daily
-              life, relationships, and the quality of life. Stress and worry
-              from psychiatric trauma can worsen or cause{" "}
-              <Link href="/migraines-treatment-in-dallas-tx/" rel="preload">
-                migraines.
-              </Link>
-            </p>
-            <p>
-              Trauma's pervasive fear and hopelessness might limit a person's
-              capacity to live a full and productive life. The stress and worry
-              from traumatic events might increase{" "}
-              <Link
-                href="/tinnitus-treatment-in-dallas-fort-worth/"
-                rel="preload"
-              >
-                tinnitus.
-              </Link>
-            </p>
-            <h2>Our Treatment Method</h2>
-            <p>
-              Traumatized patients receive comprehensive and compassionate care
-              at Premier Pain Center. Our multidisciplinary experts provide
-              customized trauma treatment strategies for each patient. We
-              promote healing and rehabilitation with evidence-based therapies
-              and holistic approaches. Trauma therapy can help ease the symptoms
-              by lowering the mental stress that comes with them.
-            </p>
-            <h3>Therapy and Treatment Option</h3>
-            <p>Here below are some of the options provided by us:</p>
-            <h4>Cognitive-Behavioral Therapy</h4>
-            <p>
-              Cognitive behavior therapy (CBT) treats stress,
-              <Link href="/depression-treatment-in-dallas-tx/" rel="preload">
-                {" "}
-                depression,
+                best psychiatrist in Dallas
               </Link>{" "}
-              and other mental health conditions well. It helps you identify and
-              combat negative beliefs and acquire self-help techniques. These
-              methods improve living standards immediately. It can help anyone
-              who needs support overcome unwanted thoughts that are holding them
-              back from their objectives or ideal life.{" "}
-            </p>
-            <p>
-              It demonstrates how thoughts affect mood. It trains you to be less
-              negative about yourself and your life.
-              <Link href="/meet-our-team/rao-k-ali/" rel="preload">
-                {" "}
-                Our trauma surgeon in Dallas
-              </Link>{" "}
-              treats anxiousness and depression with cognitive-behavioral
-              therapy. Our services promote healthy coping and emotional
-              well-being.
-            </p>
-            <h4>Eye Movement Reprocessing</h4>
-            <p>
-              EMDR is another popular treatment. It involves a brief reliving of
-              traumatic events while the therapist controls eye movements.
-              Traumatic memories are processed and integrated using EMDR. It
-              helps you reprocess disturbing events to lessen psychological
-              effects and improve coping. We offer specific EMDR sessions to
-              help you heal.
-            </p>
-            <h3>Self-care Options</h3>
-
-            <p>
-              Self-care helps trauma survivors manage their emotional,
-              psychological, and physical effects. The self-care includes:
-            </p>
-            <h4>Exercise</h4>
-            <p>
-              Stress triggers fight-or-flight. Exercise may reduce these
-              effects. We recommend aerobic exercise which may help PTSD
-              patients. You can workout for 30 minutes most days of the week.
-            </p>
-            <h4>Meditation</h4>
-            <p>
-              Meditation and yoga are part of our therapy methods to help people
-              manage stress, gain self-awareness, and regulate emotions. These
-              methods reduce the symptoms and improve well-being.
-            </p>
-            <h4>A balanced life</h4>
-            <p>
-              Traumatized people may have trouble relaxing or sleeping. Sleep,
-              relaxation, and food affect mental wellness. If feasible, try:
-            </p>
-            <b>Your pain can be due to:</b>
-            <div className="row">
-              <div className="col-6">
-                <li>Sleep 7–9 hours every night</li>
-                <li>Balance your diet</li>
-              </div>{" "}
-              <div className="col-6">
-                <li>Avoid alcohol and drugs</li>
-                <li>Reduce stress with focused or fun activities</li>{" "}
-              </div>
-            </div>
-            <h2>Permanent Recovery with Personalized Care</h2>
-            <p>
-              Our{" "}
-              <Link href="/" rel="preload">
-                trauma center in Dallas
-              </Link>{" "}
-              believes that traumatic care should be individualized to each
-              particular patient. To tailor treatment to each patient, our team
-              conducts rigorous assessments. To achieve the best results, we
-              provide continuing assistance, monitor progress, and adapt
-              therapy.
-            </p>
-            <h2>Contact Us</h2>
-            <p>
-              We can help you or a loved one with trauma. Start healing and
-              recovering by scheduling an appointment with us today. If you're
-              looking for trauma therapy near me, consult with us to see what
-              options are available in your area. Our caring staff will help you
-              achieve well-being.
+              offers psychotherapy and other assistance to help one battle
+              trauma. One requires assistance should symptoms of trauma
+              influence everyday life.
             </p>
           </div>
         </div>
