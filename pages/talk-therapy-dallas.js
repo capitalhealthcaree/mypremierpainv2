@@ -26,7 +26,6 @@ const Index = () => {
     <>
       <Head>
         <title>Talk Therapy in Dallas for Stress, Anxiety & Depression</title>
-        <meta name="robots" content="noindex, nofollow" />
         <link
           rel="canonical"
           href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/tms-therapy/`}
