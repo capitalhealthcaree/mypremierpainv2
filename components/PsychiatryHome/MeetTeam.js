@@ -11,21 +11,18 @@ export default function HelpingIndividualsSection() {
               <div className="container">
                 <h1>Meet Our Team</h1>
                 <p>
-                  Ronnie Pollard MD, is the{" "}
-                  <Link href=" https://g.co/kgs/m7r67Wd" rel="preload">
-                    best board-certified psychiatrist in Dallas
-                  </Link>
-                  , Texas. The University of Texas Medical Branch School of
-                  Medicine awarded him his medical degree, and he completed his
-                  residency at Baylor College of Medicine. With over 20 years of
-                  experience in providing psychiatric services in Dallas , Dr.
-                  Pollard specializes in diagnosing and treating a range of
-                  mental health conditions, including major depressive disorder,
-                  anxiety disorders, Obsessive-Compulsive Disorder (OCD),
-                  Post-traumatic Stress Disorder (PTSD), Migraine Headaches,
-                  Smoking Cessation, Adolescent Depression, PTSD, Schizophrenia,
-                  and substance abuse. He diagnoses and treats a broad spectrum
-                  of such conditions, including ADHD Testing .
+                  Ronnie Pollard MD, is the best board-certified psychiatrist in
+                  Dallas , Texas. The University of Texas Medical Branch School
+                  of Medicine awarded him his medical degree, and he completed
+                  his residency at Baylor College of Medicine. With over 20
+                  years of experience in providing psychiatric services in
+                  Dallas , Dr. Pollard specializes in diagnosing and treating a
+                  range of mental health conditions, including major depressive
+                  disorder, anxiety disorders, Obsessive-Compulsive Disorder
+                  (OCD), Post-traumatic Stress Disorder (PTSD), Migraine
+                  Headaches, Smoking Cessation, Adolescent Depression, PTSD,
+                  Schizophrenia, and substance abuse. He diagnoses and treats a
+                  broad spectrum of such conditions, including ADHD Testing .
                 </p>
 
                 <div className="about-item">
