@@ -27,20 +27,25 @@ export default function HealingLightPsychiatry() {
       <div className="row g-4 align-items-center">
         <div className="col-12 col-md-6">
           <div className="pe-md-4">
-            <h1 className="mb-4">
-              Professional Mental Health Support in Dallas
-            </h1>
+            <h1 className="mb-4">Psychiatry Treatments</h1>
             <p>
-              Under the leadership of experienced board-certified psychiatrist
-              Ronnie Pollard, with strong mental health experience, our mental
-              health treatment centers are dedicated to providing expert and
-              professional treatment. Your well-being and peace of mind come
-              first in a supportive, courteous environment. Our services of
-              psychiatry near you in Dallas work together to develop a care plan
-              customized to your specific requirements, independent of whether
-              you are looking for psychiatric services or help with medication
-              management. We aim to assist you in managing your mental health
-              and advance toward a more balanced, satisfying life.
+              Therapy may be required for mental illnesses. Certain mental
+              conditions respond positively to antidepressants and
+              antipsychotics. These medicines change the brain's chemistry, thus
+              lessening symptoms. One must take medicine exactly as directed.
+              Before stopping any mental illness medication, see your doctor. An
+              expert in mental health can enable you to conquer obstacles and
+              control disease symptoms. Health experts can give one-on-one or
+              small-group psychotherapy. Psychiatry near you in Dallas offers
+              cognitive-behavioural therapy, which is part of psychotherapy. Its
+              goal is to change poor habits and thinking. Depressed people could
+              benefit from alternative treatments. One may include herbs,
+              massage, acupuncture, yoga, and meditation. Before using any herbs
+              or supplements, seek advice from your doctor. They could affect
+              different medicines. Not all diseases respond to medication.
+              Therefore, your physician may recommend brain stimulation. These
+              medications change how brain cells and nerves react to stimulants
+              and process chemicals. Two such cases are TMS and ECT.
             </p>
           </div>
         </div>
@@ -49,7 +54,7 @@ export default function HealingLightPsychiatry() {
             className="text-white p-4 rounded"
             style={{ backgroundColor: "#0046c0" }}
           >
-            <h2 className="text-white mb-4">Why Choose US?</h2>
+            <h2 className="text-white mb-4">Why Choose Us?</h2>
             {whyChooseReasons.map((reason, index) => (
               <div key={index} className="d-flex align-items-start mb-3">
                 <div className="flex-shrink-0 me-3">

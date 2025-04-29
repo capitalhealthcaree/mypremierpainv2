@@ -16,6 +16,10 @@ const FirstSection = dynamic(() =>
   import("../components/PsychiatryHome/FirstSection")
 );
 
+const WhatPsychiatry = dynamic(() =>
+  import("../components/PsychiatryHome/WhatPsychiatry")
+);
+
 const ExpertHelpSection = dynamic(() =>
   import("../components/PsychiatryHome/ExpertHelpSection")
 );
@@ -68,6 +72,7 @@ export default function Psychiatry() {
       <NavbarAppointment />
       <PsychiatryBanner />
       <FirstSection />
+      <WhatPsychiatry />
       <ExpertHelpSection />
       <TreatmentsSection />
       <MeetTeam />

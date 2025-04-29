@@ -11,7 +11,7 @@ const outServices = [
   {
     imgSrc: "/images/talk-therapy.png",
     name: "Talk Therapy",
-    des: "Participate in custom treatments that provide emotional support, foster personal development, and assist you in negotiating the difficulties of life.",
+    des: "Participate in custom treatments that provide emotional support, foster personal development, and assist you in negotiating the difficulties of life.s",
     href: "/talk-therapy-dallas/",
   },
 ];
@@ -23,13 +23,23 @@ const OurServices = () => {
           <div className="section-title">
             <h2>Psychiatric Services in Dallas</h2>
             <p className="mt-3">
-              Our broad spectrum of psychiatric consultation services is
-              intended to provide complete care for every individual. Using
-              mental and physical health therapy simultaneously, our Dallas ADHD
-              specialist comprehensive strategy provides powerful tools for many
-              types of psychological illness. Our mental health services can
-              help you on your way to recovery, whether you are suffering from
-              depression, anxiety, or other problems.
+              A true expert on psychiatric medication, Dr. Pollard and his staff
+              at our mental health treatment centers offer thorough
+              psychological health solutions meant to help every person reach
+              wellness on their terms. We provide a complete range of
+              psychiatric consultation services and therapies custom-designed to
+              cover many mental health issues. Our integrative approach combines
+              both mental and physical health therapies, ensuring a holistic and
+              effective path to recovery.
+            </p>
+            <p>
+              With Dallas-based professionals who treat patients based on
+              evidence with a customized approach to mental health services, you
+              could have depression, anxiety, ADHD, or other mental disorders.
+              Under the direction of our Dallas ADHD specialist and a group of
+              mental health practitioners, you will have access to strong tools
+              and techniques that support long-term recovery and a better
+              standard of life.
             </p>
           </div>
 
