@@ -148,7 +148,7 @@ const ServiceDetailsContent = () => {
               obtaining care early can reduce life interruptions. Obsessions and
               compulsions can be treated by mental health and medical
               professionals of the top- rated OCD clinic in Dallas. Avail the
-              <Link href="/psychiatric-services-in-dallas/" rel="preload">
+              <Link href="/psychiatric-services-in-dallas-tx/" rel="preload">
                 {" "}
                 best psychiatric services in Dallas
               </Link>

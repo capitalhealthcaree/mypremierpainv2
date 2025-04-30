@@ -188,7 +188,7 @@ const ServiceDetailsContent = () => {
               </Link>{" "}
               can enable you to see and conquer barriers to a healthy and full
               life. Expert mental health professionals provide the{" "}
-              <Link href="/psychiatric-services-in-dallas/" rel="preload">
+              <Link href="/psychiatric-services-in-dallas-tx/" rel="preload">
                 psychiatric services in Dallas
               </Link>{" "}
               and know the latest research and therapy methods to help you. Your

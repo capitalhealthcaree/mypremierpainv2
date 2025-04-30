@@ -112,7 +112,7 @@ export default function MesquiteContent() {
         Chronic pain can lower the quality of life without treatment. Depression
         or anxiety may result. ​Pain can be eased with antidepressants, opioids,
         and our{" "}
-        <Link href="/psychiatric-services-in-dallas/" rel="preload">
+        <Link href="/psychiatric-services-in-dallas-tx/" rel="preload">
           psychiatric services in Dallas
         </Link>
         .

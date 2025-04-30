@@ -199,7 +199,7 @@ export default function GunBarrelContent() {
           are physical treatments. Different pain sufferers may find massage
           treatment helpful. Some treatments, like placebos, are psychological
           treatments done by our{" "}
-          <Link href="/psychiatric-services-in-dallas/" rel="preload">
+          <Link href="/psychiatric-services-in-dallas-tx/" rel="preload">
             best psychiatrist in Dallas
           </Link>
           .

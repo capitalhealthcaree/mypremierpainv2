@@ -62,7 +62,7 @@ const ServiceDetailsContent = () => {
             </p>
             <p>
               Trauma benefits the most from{" "}
-              <Link href="/psychiatric-services-in-dallas/" rel="preload">
+              <Link href="/psychiatric-services-in-dallas-tx/" rel="preload">
                 psychiatric services in Dallas
               </Link>
               . Therapists who have trauma experience can help people.

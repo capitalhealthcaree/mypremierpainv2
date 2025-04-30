@@ -114,7 +114,7 @@ const Index = () => {
         <p>
           Especially for those looking for coordinated mental and physical
           health care, Premier Pain Centers offer{" "}
-          <Link href="/psychiatric-services-in-dallas/" rel="preload">
+          <Link href="/psychiatric-services-in-dallas-tx/" rel="preload">
             psychiatric services in Dallas
           </Link>{" "}
           to approach schizophrenia therapy. Schizophrenia is a psychiatric

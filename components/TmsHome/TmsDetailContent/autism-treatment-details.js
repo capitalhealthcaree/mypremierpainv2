@@ -161,7 +161,7 @@ const ServiceDetailsContent = () => {
                 Referrals for educational support, such as an IEP for your kid.
               </li>
               <li>
-                <Link href="/psychiatric-services-in-dallas/" rel="preload">
+                <Link href="/psychiatric-services-in-dallas-tx/" rel="preload">
                   Psychiatric services in Dallas
                 </Link>
               </li>

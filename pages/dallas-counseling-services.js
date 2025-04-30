@@ -215,7 +215,7 @@ const Index = () => {
         <p>
           People often seek counseling after a crisis. Ask the counselor
           questions when choosing a{" "}
-          <Link href="/psychiatric-services-in-dallas/" rel="preload">
+          <Link href="/psychiatric-services-in-dallas-tx/" rel="preload">
             psychiatric service in Dallas
           </Link>
           . Different counsellors specialise. Consult the counsellor regarding

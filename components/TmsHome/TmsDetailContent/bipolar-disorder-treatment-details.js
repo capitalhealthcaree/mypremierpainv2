@@ -135,7 +135,7 @@ const ServiceDetailsContent = () => {
               live a normal, busy life. Seeing your bipolar specialist near you
               Texas &nbsp;regularly supports the observation of your symptoms
               and treatment plan. Premier Pain Centers provides the{" "}
-              <Link href="/psychiatric-services-in-dallas/" rel="preload">
+              <Link href="/psychiatric-services-in-dallas-tx/" rel="preload">
                 psychiatric services in Dallas
               </Link>
               , to treat bipolar disorders and other mental issues.

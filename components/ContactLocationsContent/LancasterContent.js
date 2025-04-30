@@ -142,7 +142,7 @@ export default function LancasterContent() {
       <p>
         Behavior therapy may reduce pain. To ease pain, doctors may recommend
         this pain medication and other therapy. Our{" "}
-        <Link href="/psychiatric-services-in-dallas/" rel="preload">
+        <Link href="/psychiatric-services-in-dallas-tx/" rel="preload">
           best psychiatrist in Dallas TX
         </Link>{" "}
         offers cognitive behavioral therapy that is the most often used

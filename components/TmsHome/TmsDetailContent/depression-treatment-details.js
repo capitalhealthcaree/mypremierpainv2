@@ -191,7 +191,7 @@ const ServiceDetailsContent = () => {
               treatable. Consult your doctor to get the best therapy for
               depression if you develop depressive symptoms. Get help from our
               best{" "}
-              <Link href="/psychiatric-services-in-dallas/" rel="preload">
+              <Link href="/psychiatric-services-in-dallas-tx/" rel="preload">
                 psychiatry clinic in Dallas
               </Link>{" "}
               quickly to feel better.

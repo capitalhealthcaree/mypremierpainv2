@@ -89,7 +89,7 @@ const DoctorDetails = () => {
                       degree, and he completed his residency at Baylor College
                       of Medicine. With over 20 years of experience in providing
                       <Link
-                        href="/psychiatric-services-in-dallas/"
+                        href="/psychiatric-services-in-dallas-tx/"
                         rel="preload"
                       >
                         {" "}

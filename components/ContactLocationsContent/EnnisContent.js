@@ -74,7 +74,7 @@ export default function EnnisContent() {
         experience pain differently. Every age and gender can get CPS, but women
         are most likely to get it. Major depression and other mental illnesses
         increase CPS risk, highlighting the importance of{" "}
-        <Link href="/psychiatric-services-in-dallas/" rel="preload">
+        <Link href="/psychiatric-services-in-dallas-tx/" rel="preload">
           psychiatric services in Dallas
         </Link>
         . Premier Pain Centers treat many pain conditions that includes:

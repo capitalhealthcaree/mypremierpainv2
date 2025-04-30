@@ -182,7 +182,7 @@ const ServiceDetailsContent = () => {
               though they are, can seem to slow time down and work against you.
               Still, there are ways to manage migraines and prevent them from
               wrecking your day. Get the{" "}
-              <Link href="/psychiatric-services-in-dallas/" rel="preload">
+              <Link href="/psychiatric-services-in-dallas-tx/" rel="preload">
                 psychiatric services in Dallas
               </Link>{" "}
               to prevent migraines from dominating your life.

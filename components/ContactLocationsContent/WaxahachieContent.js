@@ -152,7 +152,7 @@ export default function WaxahachieContent() {
       <p>
         Chronic discomfort is typically followed by depression and anxiety.
         Comprehensive management of pain by our{" "}
-        <Link href="/psychiatric-services-in-dallas/" rel="preload">
+        <Link href="/psychiatric-services-in-dallas-tx/" rel="preload">
           psychiatric services in Dallas
         </Link>
         , which includes psychological help, recognizes this relationship.

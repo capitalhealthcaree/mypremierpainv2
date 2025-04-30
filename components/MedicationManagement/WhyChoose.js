@@ -88,7 +88,7 @@ const OurExpertise = () => {
                         While medicine is key, Premier Pain Centers offer
                         innovative, minimally invasive procedures for
                         <Link
-                          href="/psychiatric-services-in-dallas/"
+                          href="/psychiatric-services-in-dallas-tx/"
                           rel="preload"
                         >
                           psychiatric medication management

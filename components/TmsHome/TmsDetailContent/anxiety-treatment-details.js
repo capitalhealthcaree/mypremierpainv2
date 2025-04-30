@@ -204,7 +204,7 @@ const ServiceDetailsContent = () => {
               behavior therapy is more effective than medications in the
               long-term management of anxiety disorders. While some remedies
               take effect, your doctor of{" "}
-              <Link href="/psychiatric-services-in-dallas/" rel="preload">
+              <Link href="/psychiatric-services-in-dallas-tx/" rel="preload">
                 psychiatry clinic in Dallas
               </Link>{" "}
               can advise you on a brief course of antidepressants or

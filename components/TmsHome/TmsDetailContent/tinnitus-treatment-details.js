@@ -123,7 +123,7 @@ const ServiceDetailsContent = () => {
             <ul>
               <li aria-level="1">
                 Tinnitus retraining:{" "}
-                <Link href="/psychiatric-services-in-dallas/" rel="preload">
+                <Link href="/psychiatric-services-in-dallas-tx/" rel="preload">
                   Psychiatric services in Dallas
                 </Link>{" "}
                 deliver individualized TRT. Professional counseling and sound

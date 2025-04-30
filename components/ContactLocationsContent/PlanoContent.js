@@ -174,7 +174,7 @@ export default function PlanoContent() {
         <li>
           <b>Personalized Treatment Approach:</b> Our board-certified
           specialists especially{" "}
-          <Link href="/psychiatric-services-in-dallas/" rel="preload">
+          <Link href="/psychiatric-services-in-dallas-tx/" rel="preload">
             best psychiatrist in Dallas
           </Link>{" "}
           provide holistic pain relief through:

@@ -57,7 +57,7 @@ export default function Psychiatry() {
         </title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/psychiatric-services-in-dallas/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/psychiatric-services-in-dallas-tx/`}
         />
         <meta
           name="description"

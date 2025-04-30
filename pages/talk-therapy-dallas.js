@@ -185,7 +185,7 @@ const Index = () => {
         <h2>Book an Appointment</h2>
         <p>
           Premier Pain Centers offers comprehensive, empathetic, and{" "}
-          <Link href="/psychiatric-services-in-dallas/" rel="preload">
+          <Link href="/psychiatric-services-in-dallas-tx/" rel="preload">
             psychiatry services in Dallas
           </Link>
           . They have mental health professionals who can help you with chronic

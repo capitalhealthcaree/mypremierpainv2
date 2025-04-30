@@ -99,7 +99,7 @@ const Index = () => {
         <p>
           Once identified, ADHD patients might receive focused therapies and
           different{" "}
-          <Link href="/psychiatric-services-in-dallas/" rel="preload">
+          <Link href="/psychiatric-services-in-dallas-tx/" rel="preload">
             psychiatry for ADHD in Dallas
           </Link>
           . They may include:

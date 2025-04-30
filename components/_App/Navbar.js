@@ -231,9 +231,9 @@ const Navbar = () => {
                   </li>
                   <li className="nav-item">
                     <Link
-                      href="/psychiatric-services-in-dallas/"
+                      href="/psychiatric-services-in-dallas-tx/"
                       className={`nav-link dropdown-toggle ${
-                        currentPath == "/psychiatric-services-in-dallas/" &&
+                        currentPath == "/psychiatric-services-in-dallas-tx/" &&
                         "active"
                       }`}
                       rel="preload"
@@ -293,9 +293,9 @@ const Navbar = () => {
                   </li>
                   {/* <li className="nav-item">
                     <Link
-                      href="/psychiatric-services-in-dallas/"
+                      href="/psychiatric-services-in-dallas-tx/"
                       className={`nav-link ${
-                        currentPath === "/psychiatric-services-in-dallas/" && "active"
+                        currentPath === "/psychiatric-services-in-dallas-tx/" && "active"
                       }`}
                       rel="preload"
                     >
