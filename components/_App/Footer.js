@@ -284,24 +284,21 @@ const Footer = () => {
                       </a>
                     </li>
                     <li>
-                      <h3 style={{ marginBottom: "1px" }}>LANCASTER</h3>
+                      <h3 style={{ marginBottom: "1px" }}>Desoto</h3>
                       <i className="icofont-location-pin"></i>
-                      <a href="https://www.google.com/maps?cid=16681715367138219884">
-                        2700 W. Pleasant Run Rd.,
+                      <a href="https://maps.app.goo.gl/G5fpiQXUg8xLXeBu9">
+                        281 N Interstate 35 E Rd,
                       </a>
-                      <a href="https://www.google.com/maps?cid=16681715367138219884">
-                        Ste. 320 Lancaster, TX 75146
+                      <a href="https://maps.app.goo.gl/G5fpiQXUg8xLXeBu9">
+                        DeSoto, TX 75115
                       </a>
                       <a
-                        href="https://www.google.com/maps?cid=16681715367138219884"
+                        href="https://maps.app.goo.gl/G5fpiQXUg8xLXeBu9"
                         className="fw-bold"
                       >
                         View Map & Directions
                       </a>
-                      <a
-                        href="/contact-locations/lancaster/"
-                        className="fw-bold"
-                      >
+                      <a href="/contact-locations/desoto/" className="fw-bold">
                         View Site
                       </a>
                     </li>

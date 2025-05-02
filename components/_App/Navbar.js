@@ -573,6 +573,19 @@ const Navbar = () => {
                           William Moore MD
                         </Link>
                       </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/meet-our-team/dr-christopher-creighton/"
+                          className={`nav-link ${
+                            currentPath ==
+                              "/meet-our-team/dr-christopher-creighton/" &&
+                            "active"
+                          }`}
+                          rel="preload"
+                        >
+                          Christopher P Creighton MD
+                        </Link>
+                      </li>
                     </ul>
                   </li>
 
@@ -652,14 +665,14 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/contact-locations/lancaster/"
+                          href="/contact-locations/desoto/"
                           className={`nav-link ${
-                            currentPath == "/contact-locations/lancaster/" &&
+                            currentPath == "/contact-locations/desoto/" &&
                             "active"
                           }`}
                           rel="preload"
                         >
-                          Lancaster
+                          Desoto
                         </Link>
                       </li>
                       <li className="nav-item">

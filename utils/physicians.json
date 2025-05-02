@@ -23,6 +23,14 @@
       "bio": "Board Certified Interventional Pain Management",
       "href": "/meet-our-team/william-moore-md/",
       "desc": "Dr. William Moore, a renowned pain management doctor in Dallas, is recognized for his compassionate clinical skills and pioneering medical methods, ensuring the best care for his patients."
+    },
+    {
+      "id": "4",
+      "image": "/images/dr-christopher-creighton.jpg",
+      "name": "Christopher P Creighton MD",
+      "bio": "Interventional Pain Management",
+      "href": "/meet-our-team/dr-christopher-creighton/",
+      "desc": "Christopher P. Creighton MD is a pain management specialist providing advanced care for chronic pain, spine issues, and musculoskeletal conditions."
     }
   ]
 }
