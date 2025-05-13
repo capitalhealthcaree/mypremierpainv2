@@ -92,14 +92,14 @@ const Contact = () => {
             </div>
 
             <div className="col-sm-6 col-lg-4">
-              <Link href="/contact-locations/lancaster/" rel="preload">
+              <Link href="/contact-locations/desoto/" rel="preload">
                 <div className="department-item">
                   <i className="icofont-location-pin"></i>
-                  <h3>LANCASTER</h3>
+                  <h3>Desoto</h3>
                   <p>
-                    2700 W. Pleasant Rd., Ste. 320
+                    281 N Interstate 35 E Rd,
                     <br />
-                    Lancaster, TX 75146
+                    Desoto, TX 75115
                   </p>
                 </div>
               </Link>

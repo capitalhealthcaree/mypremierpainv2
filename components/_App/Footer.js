@@ -290,7 +290,7 @@ const Footer = () => {
                         281 N Interstate 35 E Rd,
                       </a>
                       <a href="https://maps.app.goo.gl/G5fpiQXUg8xLXeBu9">
-                        DeSoto, TX 75115
+                        Desoto, TX 75115
                       </a>
                       <a
                         href="https://maps.app.goo.gl/G5fpiQXUg8xLXeBu9"
