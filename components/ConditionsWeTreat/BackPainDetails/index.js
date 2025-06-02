@@ -191,17 +191,6 @@ const ServiceDetailsContent = () => {
 							circumstances, heavier therapies may be needed, but your doctor
 							will supervise them.
 						</p>
-						<h3>Medication</h3>
-						<p>
-							Back pain that doesn't respond to OTC painkillers may need an
-							NSAID. Narcotics like codeine or hydrocodone can be prescribed
-							temporarily. Doctors must closely monitor these.{" "}
-							<Link href="/meet-our-team/" rel="preload">
-								Spine doctors in Dallas
-							</Link>{" "}
-							may prescribe muscle relaxants. Antidepressants like amitriptyline
-							may be administered; however, research is ongoing and conflicting.
-						</p>
 						<h3>Rubs & Ointments</h3>
 						<p>
 							Topical back pain treatments may work well. Some{" "}

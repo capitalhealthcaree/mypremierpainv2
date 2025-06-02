@@ -156,7 +156,6 @@ const ServiceDetailsContent = () => {
               TCAs, older antidepressants, can relieve mental illness . They
               alter brain neurotransmitters. Common TCAs:
             </p>
-            <li>Amitriptyline</li>
             <li>Imipramine (Tofranil)</li>
             <li>Nortriptyline (Pamelor)</li>
 
