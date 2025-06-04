@@ -7,12 +7,13 @@ import api from "../../utils/api";
 
 // Form initial state
 const INITIAL_STATE = {
-  firstName: "",
   lastName: "",
+  // firstName: "",
   email: "",
   phone: "",
   patientType: "",
   message: "",
+  location: "",
 };
 const alertContent = () => {
   MySwal.fire({
@@ -36,16 +37,16 @@ const CommonForm = ({ isFromHome }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const { firstName, lastName, email, phone, patientType, message } =
+      const { firstName, email, phone, patientType, message, location } =
         formData;
       // Validate required fields
       if (
         !firstName ||
-        !lastName ||
         !email ||
         !phone ||
         !patientType ||
-        !message
+        !message ||
+        !location
       ) {
         MySwal.fire({
           title: "Error",
@@ -74,11 +75,12 @@ const CommonForm = ({ isFromHome }) => {
       // firstName, lastName, phone, email, patientType, message
       const payload = {
         firstName,
-        lastName,
+        lastName: ".",
         email,
         phone,
         patientType,
         message,
+        location,
       };
       setLoader(true);
       const response = await api.post("appointment/create", payload);
@@ -103,19 +105,19 @@ const CommonForm = ({ isFromHome }) => {
               <div className="form-group">
                 <i className="icofont-business-man-alt-1"></i>
                 <label>
-                  First Name<small className="text-danger">*</small>
+                  Full Name<small className="text-danger">*</small>
                 </label>
                 <input
                   type="text"
                   className="form-control"
-                  placeholder="Enter Your First Name"
+                  placeholder="Enter Your Full Name"
                   name="firstName"
                   value={formData.firstName}
                   onChange={handleChange}
                 />
               </div>
             </div>
-            <div className={isFromHome ? "col-lg-6" : "col-lg-12"}>
+            {/* <div className={isFromHome ? "col-lg-6" : "col-lg-12"}>
               <div className="form-group">
                 <i className="icofont-business-man-alt-1"></i>
                 <label>
@@ -130,7 +132,7 @@ const CommonForm = ({ isFromHome }) => {
                   onChange={handleChange}
                 />
               </div>
-            </div>
+            </div> */}
             <div className={isFromHome ? "col-lg-6" : "col-lg-12"}>
               <div className="form-group">
                 <i className="icofont-ui-message"></i>
@@ -201,6 +203,40 @@ const CommonForm = ({ isFromHome }) => {
                 </div>
               </div>
             </div>
+            <div className={isFromHome ? "col-lg-6" : "col-lg-12"}>
+              <div className="form-group">
+                <i className="icofont-location-pin"></i>
+                <label>
+                  Please Select Location{" "}
+                  <small className="text-danger">*</small>
+                </label>
+                <select
+                  className="form-control"
+                  name="location"
+                  value={formData.location}
+                  onChange={handleChange}
+                >
+                  <option value="">-- Select Location --</option>
+                  <option value="Richardson">Richardson</option>
+                  <option value="North Richland Hills">
+                    North Richland Hills
+                  </option>
+                  <option value="Waxahachie">Waxahachie</option>
+                  <option value="Fort Worth">Fort Worth</option>
+                  <option value="Hillsboro">Hillsboro</option>
+                  <option value="Desoto">Desoto</option>
+                  <option value="Corsicana">Corsicana</option>
+                  <option value="Decatur">Decatur</option>
+                  <option value="Cleburne">Cleburne</option>
+                  <option value="Plano">Plano</option>
+                  <option value="Ennis">Ennis</option>
+                  <option value="Mesquite">Mesquite</option>
+                  <option value="Gun Barrel City">Gun Barrel City</option>
+                  <option value="Dallas">Dallas</option>
+                </select>
+              </div>
+            </div>
+
             <div className={isFromHome ? "col-lg-6" : "col-lg-12"}>
               <div className="form-group">
                 <i className="icofont-ui-messaging"></i>
