@@ -75,7 +75,7 @@ export default function RichardsonContent() {
       <p>
         Research indicates that a multidisciplinary approach to pain management
         is optimal. Our friendly and skilled staff will always try to reduce
-        your pain. We offer acupuncture, Botox, cortisone, epidural steroid,
+        your pain. We offer acupuncture, cortisone, epidural steroid,
         Flograft Amino stem cell therapy, radiofrequency ablation, and more. We
         strive to improve your quality of life while providing the best care.
       </p>

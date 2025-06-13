@@ -147,8 +147,7 @@ const ServiceDetailsContent = () => {
             </li>
             <li>Neurectomy. Cut the nerve end where your agony begins.</li>
             <p>
-              Other medical treatments, like botox for migraine are very
-              beneficial. And cognitive-behavioral treatment for migraine, in
+              Cognitive-behavioral treatment for migraine, in
               which therapists can teach you how thoughts and actions affect
               pain perception. They can also teach you stress-reduction
               techniques to prevent migraines.

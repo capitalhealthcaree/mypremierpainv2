@@ -135,7 +135,6 @@ const ServiceDetailsContent = () => {
                 , massage, acupressure, acupuncture, and craniosacral therapy
                 may relieve headaches. Yoga and tai chi may also assist.
               </li>
-              <li>Botox for migraine</li>
               <li>
                 Cognitive behavioural therapy and{" "}
                 <Link href="/talk-therapy-dallas/" rel="preload">

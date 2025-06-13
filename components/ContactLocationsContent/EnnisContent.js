@@ -41,7 +41,6 @@ export default function EnnisContent() {
     "Laser Facet Ablation",
     "Lumbar Sympathetic Block",
     "Media Branch Block",
-    "Morphine/Baclofen Pump",
     "PREP",
     "Sacroiliac Joint Injection",
     "Stellate Ganglion Block",
@@ -144,8 +143,6 @@ export default function EnnisContent() {
         <li>Basivertebral nerve ablation (Intracept®)</li>
         <li>Injecting steroids</li>
         <li>Nerves block</li>
-        <li>Injections of Botox®</li>
-        <li>Baclofen or PCA pump</li>
       </ul>
       <p>
         Most of these are interventional pain management options. It manages

@@ -241,7 +241,7 @@ export default function GunBarrelContent() {
         <Link href="/meet-our-team/" rel="preload">
           pain management doctors
         </Link>{" "}
-        offer acupuncture, botox, cortisone, epidural steroids, stem cell
+        offer acupuncture, cortisone, epidural steroids, stem cell
         therapy, radiofrequency ablation, and more. We strive to improve your
         quality of life while providing the best care. The goal of our pain
         clinics is to reduce patient discomfort. By providing several treatments

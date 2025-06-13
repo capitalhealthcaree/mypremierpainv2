@@ -33,7 +33,6 @@ const painManagementTreatments = [
   "Laser Facet Ablation",
   "Lumbar Sympathetic Block",
   "Media Branch Block",
-  "Morphine/Baclofen Pump",
   "Nerve Blocks",
   "PRP",
   "Root Blocks",
