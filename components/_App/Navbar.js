@@ -586,6 +586,19 @@ const Navbar = () => {
                           Christopher P Creighton MD
                         </Link>
                       </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/meet-our-team/dr-pollard-psychiatrist-dallas/"
+                          className={`nav-link ${
+                            currentPath ==
+                              "/meet-our-team/dr-pollard-psychiatrist-dallas/" &&
+                            "active"
+                          }`}
+                          rel="preload"
+                        >
+                          Ronnie Pollard MD
+                        </Link>
+                      </li>
                     </ul>
                   </li>
 
