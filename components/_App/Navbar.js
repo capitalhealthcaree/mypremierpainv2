@@ -548,7 +548,7 @@ const Navbar = () => {
                         </Link>
                       </li>
 
-                      <li className="nav-item">
+                      {/* <li className="nav-item">
                         <Link
                           href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
                           className={`nav-link ${
@@ -560,7 +560,7 @@ const Navbar = () => {
                         >
                           Muhammad Zulqarnain MD (Dr. Z)
                         </Link>
-                      </li>
+                      </li> */}
                       <li className="nav-item">
                         <Link
                           href="/meet-our-team/william-moore-md/"

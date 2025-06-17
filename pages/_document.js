@@ -29,6 +29,10 @@ class MyDocument extends Document {
             }}
           />
           {/* For Google Search Console */}
+          <meta
+            name="google-site-verification"
+            content="F5joxOiw4dPTJGgEY9YEfuNHXjWVzEcjD5DI0QV8dTs"
+          />
         </Head>
         <body>
           <Script
@@ -71,3 +75,12 @@ class MyDocument extends Document {
 }
 
 export default MyDocument;
+
+// {
+    //   "id": "2",
+    //   "image": "http://res.cloudinary.com/dngmflrpx/image/upload/v1734987556/doctors/rcrhxn4abw2g43elqde1.webp",
+    //   "name": "Muhammad Zulqarnain MD",
+    //   "bio": "Board Certified Interventional Pain Management",
+    //   "href": "/meet-our-team/dr-muhammad-zulqarnain-dr-z-/",
+    //   "desc": "Dr. Muhammad Zulqarnain, known as Dr. Z, is the best spine surgeon in Dallas. He partners with you to achieve a pain-free life through compassionate care and innovative treatments."
+    // },
