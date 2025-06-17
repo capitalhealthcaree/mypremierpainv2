@@ -29,10 +29,6 @@ class MyDocument extends Document {
             }}
           />
           {/* For Google Search Console */}
-          <meta
-            name="google-site-verification"
-            content="4KXE6z1IMn1YlLvnFo__ua0TXs3xPbwTkDIQcIHwr54"
-          />
         </Head>
         <body>
           <Script
