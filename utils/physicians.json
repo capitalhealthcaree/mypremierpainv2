@@ -2,22 +2,22 @@
   "physicians": [
     {
       "id": "1",
-      "image": "http://res.cloudinary.com/dngmflrpx/image/upload/v1734987523/doctors/jdhdlm9hvsp0cyl9xdng.webp",
+      "image": "/images/rao-k-ali.jpg",
       "name": "Rao K. Ali MD",
       "bio": "Board Certified Interventional Pain Management",
       "href": "/meet-our-team/rao-k-ali/",
       "desc": "Dr. Rao Ali, the best back pain doctor in Dallas, is an accomplished physician who addresses pain at the root and uses evidence-based treatments to improve each patient's quality of life."
     },
     {
-      "id": "3",
-      "image": "http://res.cloudinary.com/dngmflrpx/image/upload/v1734987604/doctors/jv2iicvqulydriqpyxdc.webp",
+      "id": "2",
+      "image": "/images/william-moore-md.jpg",
       "name": "William Moore MD",
       "bio": "Board Certified Interventional Pain Management",
       "href": "/meet-our-team/william-moore-md/",
       "desc": "Dr. William Moore, a renowned pain management doctor in Dallas, is recognized for his compassionate clinical skills and pioneering medical methods, ensuring the best care for his patients."
     },
     {
-      "id": "4",
+      "id": "3",
       "image": "/images/dr-christopher-creighton.jpg",
       "name": "Christopher P Creighton MD",
       "bio": "Board Certified Interventional Pain Management",
@@ -25,12 +25,20 @@
       "desc": "Christopher P. Creighton MD is a pain management specialist providing advanced care for chronic pain, spine issues, and musculoskeletal conditions."
     },
     {
-      "id": "5",
-      "image": "/images/dr-pollard-psychiatrist-dallas.png",
+      "id": "4",
+      "image": "/images/dr-pollard-psychiatrist-dallas.jpg",
       "name": "Ronnie Pollard MD",
       "bio": "Board Certified Psychiatrist",
       "href": "/meet-our-team/dr-pollard-psychiatrist-dallas/",
       "desc": "Christopher P. Creighton MD is a pain management specialist providing advanced care for chronic pain, spine issues, and musculoskeletal conditions."
+    },
+    {
+      "id": "5",
+      "image": "/images/sharon-anna-shaji.jpg",
+      "name": "Sharon Anna Shaji",
+      "bio": " Certified Physician Assistant",
+      "href": "/meet-our-team/sharon-anna-shaji/",
+      "desc": " Meet Sharon Anna Shaji, Certified Physician Assistant at Premier Pain Centers, providing expert care and support for patients with chronic pain."
     }
   ]
 }

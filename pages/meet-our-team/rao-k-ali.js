@@ -116,7 +116,7 @@ const DoctorDetails = () => {
             <div className="col-lg-5">
               <div className="doctor-details-item doctor-details-left">
                 <img
-                  src="http://res.cloudinary.com/dngmflrpx/image/upload/v1734987523/doctors/jdhdlm9hvsp0cyl9xdng.webp"
+                  src="/images/rao-k-ali.jpg"
                   alt="Rao K. Ali MD"
                 />
                 <div className="blog-details-item">

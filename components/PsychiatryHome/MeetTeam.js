@@ -34,7 +34,7 @@ export default function HelpingIndividualsSection() {
             </div>
             <div className="col-lg-6">
               <div className="symptoms-img">
-                <img src="/images/dr-pollard.png" />
+                <img src="/images/dr-pollard-psychiatrist-dallas.jpg" />
               </div>
             </div>
           </div>

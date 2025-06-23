@@ -599,6 +599,19 @@ const Navbar = () => {
                           Ronnie Pollard MD
                         </Link>
                       </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/meet-our-team/sharon-anna-shaji/"
+                          className={`nav-link ${
+                            currentPath ==
+                              "/meet-our-team/sharon-anna-shaji/" &&
+                            "active"
+                          }`}
+                          rel="preload"
+                        >
+                         Sharon Anna Shaji
+                        </Link>
+                      </li>
                     </ul>
                   </li>
 

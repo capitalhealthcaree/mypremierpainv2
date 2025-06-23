@@ -1,9 +1,7 @@
-import React from "react";
-import Head from "next/head";
 import Link from "next/link";
+import Head from "next/head";
 import dynamic from "next/dynamic";
-import data from "../../utils/psychiatryData.json";
-
+import data from "../../utils/conditionsWeTreat.json";
 const Navbar = dynamic(() => import("../../components/_App/Navbar"));
 
 const PageBanner = dynamic(() => import("../../components/Common/PageBanner"));
@@ -18,41 +16,41 @@ const DoctorDetails = () => {
   return (
     <>
       <Head>
-        <title>Ronnie Pollard MD – Best Psychiatrist in Dallas</title>
+        <title>
+          Sharon Anna Shaji – Certified Physician Assistant in Dallas
+        </title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/meet-our-team/dr-pollard-psychiatrist-dallas/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/meet-our-team/sharon-anna-shaji/`}
         />
         <meta
           name="description"
-          content="Looking for the best psychiatrist in Dallas? Dr. Ronnie Pollard provides expert talk therapy and medication management at Premier Pain Centers."
+          content="Meet Sharon Anna Shaji, Certified Physician Assistant at Premier Pain Centers, providing expert care and support for patients with chronic pain."
         />
         <meta content="text/html; charset=utf-8" httpEquiv="Content-Type" />
         <meta content="initial-scale=1" name="viewport" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-        <meta name="format-detection" content="telephone=no" />
       </Head>
       <Navbar />
 
       <PageBanner
-        pageTitle="Ronnie Pollard MD – Best Psychiatrist in Dallas"
+        pageTitle="Sharon Anna Shaji – Certified Physician Assistant"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="dr-pollard-psychiatrist-dallas"
+        activePageText="sharon-anna-shaji"
         bgImage="http://res.cloudinary.com/dngmflrpx/image/upload/v1734987708/doctors/n7u0hmm6tbwjiodfhvzb.webp"
       />
-
       <div className="doctor-details-area pt-5 pb-2">
         <div className="container">
           <div className="row">
             <div className="col-lg-5">
               <div className="doctor-details-item doctor-details-left">
                 <img
-                  src="/images/dr-pollard-psychiatrist-dallas.jpg"
-                  alt="MUHAMMAD ZULQARNAIN MD (DR. Z)"
+                  src="/images/sharon-anna-shaji.jpg"
+                  alt="William Moore MD"
                 />
                 <div className="blog-details-item">
-                  <div className="blog-details-category ps-3">
+                  <div className="blog-details-category ps-5">
                     <h3>Conditions We Treat</h3>
                     <ul>
                       {data.map((item, i) => {
@@ -75,75 +73,32 @@ const DoctorDetails = () => {
                 <div className="doctor-details-right">
                   <div className="doctor-details-biography">
                     <h3>
-                      <b>Ronnie Pollard MD</b>
+                      <b>Sharon Anna Shaji</b>
                     </h3>
-                    <h4>(Board Certified Psychiatrist)</h4>{" "}
+                    <h4>(Certified Physician Assistant )</h4>{" "}
                   </div>
                   <div className="doctor-details-biography">
                     <h3>Biography</h3>
-
                     <p>
-                      Ronnie Pollard MD, is based in Dallas, Texas, the
-                      board-certified psychiatrist. The University of Texas
-                      Medical Branch School of Medicine awarded him his medical
-                      degree, and he completed his residency at Baylor College
-                      of Medicine. With over 20 years of experience in providing
-                      <Link
-                        href="/psychiatric-services-in-dallas-tx/"
-                        rel="preload"
-                      >
-                        {" "}
-                        psychiatric services in Dallas
-                      </Link>
-                      , Dr. Pollard specializes in diagnosing and treating a
-                      range of mental health conditions, including major
-                      depressive disorder, anxiety disorders,
-                      Obsessive-Compulsive Disorder (OCD), Post-traumatic Stress
-                      Disorder (PTSD), Migraine Headaches, Smoking Cessation,
-                      Adolescent Depression, PTSD, Schizophrenia, and substance
-                      abuse. He diagnoses and treats a broad spectrum of such
-                      conditions, including{" "}
-                      <Link
-                        href="/adhd-testing-services-in-dallas/"
-                        rel="preload"
-                      >
-                        ADHD Testing
-                      </Link>
-                      .
+                      Sharon Anna Shaji is a certified physician assistant with
+                      experience in surgery, pediatrics, obstetrics and
+                      gynecology, family medicine, psychiatry, and emergency
+                      medicine. She earned a Bachelor of Biomedical Sciences
+                      from the University of the Sciences in Philadelphia with a
+                      Presidential Scholarship. She then received a Master of
+                      Physician Assistant Studies from Mercy College in New
+                      York.
                     </p>
-
                     <p>
-                      He's noted for his sympathetic manner and dedication to
-                      patient care, which guarantees every person gets the help
-                      they require. To support psychological well-being, Dr.
-                      Ronnie Pollard, a{" "}
-                      <Link href="https://g.co/kgs/kMSCrNu" rel="preload">
-                        {" "}
-                        best psychiatrist in Dallas
-                      </Link>
-                      , takes a holistic approach to patient care that includes
-                      psychotherapy (
-                      <Link href="/talk-therapy-dallas/" rel="preload">
-                        talk therapy
-                      </Link>
-                      ) along with{" "}
-                      <Link
-                        href="/medication-management-in-dallas/"
-                        rel="preload"
-                      >
-                        medication management
-                      </Link>
-                      . Working closely with every patient, he develops a
-                      customized treatment plan according to their particular
-                      requirements. By devoting himself to offering
-                      individualized treatment based on every patient's
-                      particular requirements, Dr. Pollard assists them in
-                      attaining long-lasting emotional and mental health through
-                      effective{" "}
-                      <Link href="/tms-therapy/" rel="preload">
-                        TMS Therapy
-                      </Link>
-                      .
+                      Sharon has undertaken clinical rotations at the Montefiore
+                      Hospital in New York, the Lincoln Hospital, and the
+                      Westchester County Medical Examiner's Office. She also
+                      volunteered at cancer facilities and worked as a CNA. She
+                      assisted chemo patients there and saw endocrinologists and
+                      surgeons at work. Licensed as a physician assistant in New
+                      York and Texas, Sharon is certified by the National
+                      Commission on Certification of Physician Assistants in
+                      advanced cardiac life support.
                     </p>
                   </div>
                   <div className="doctor-details-contact">
