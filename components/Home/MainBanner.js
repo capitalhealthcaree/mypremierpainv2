@@ -23,7 +23,7 @@ const MainBanner = ({ text }) => {
                 </div> */}
 
                 <h2 style={{ color: "white" }}>
-                  Relieving Pain Throughout{" "}
+                  Trusted Pain Care Throughout{" "}
                   {text === "Dallas" ? "Dallas" : "Northern Texas"}
                 </h2>
                 <h1>YOU WILL SEE WE CARE</h1>
