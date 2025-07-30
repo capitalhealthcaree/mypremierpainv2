@@ -7,7 +7,7 @@ const BlogSidebar = () => {
     <>
       <div className="blog-details-item">
         <div className="department-item">
-          <h3>Dr. Rao K. Ali M.D.</h3>
+          <h3>Rao K. Ali M.D.</h3>
           <p>
             Dr. Rao Ali, a board-certified pain management physician, leads the
             clinic, which specializes in nonsurgical treatment. The physician

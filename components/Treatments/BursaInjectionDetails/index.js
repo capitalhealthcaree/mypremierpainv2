@@ -89,8 +89,8 @@ const ServiceDetailsContent = () => {
             <p>
               It is generally a quick procedure to administer a bursa injection,
               typically taking less than ten minutes to complete, says{" "}
-              <Link href="/contact-locations/lancaster/" rel="preload">
-                spine and pain clinic Lancaster
+              <Link href="/contact-locations/desoto/" rel="preload">
+                spine and pain clinic Desoto
               </Link>
               . You will be able to return home shortly after your healthcare
               provider administers an injection at sites such as the hip, knee,
@@ -133,7 +133,7 @@ const ServiceDetailsContent = () => {
               effects. In some cases, they may take as long as 5-7 days. Please
               consult your{" "}
               <Link
-                href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
+                href="/meet-our-team/rao-k-ali/"
                 rel="preload"
               >
                 best pain doctor in Dallas,
@@ -214,7 +214,7 @@ const ServiceDetailsContent = () => {
               <Link href="/appointment/" rel="preload">
                 schedule an appointment
               </Link>{" "}
-              for Bursa Injection treatment in Lancaster, TX and the surrounding
+              for Bursa Injection treatment in Desoto, TX and the surrounding
               areas.
             </blockquote>
           </div>

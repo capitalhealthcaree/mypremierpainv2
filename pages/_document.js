@@ -81,6 +81,6 @@ export default MyDocument;
     //   "image": "http://res.cloudinary.com/dngmflrpx/image/upload/v1734987556/doctors/rcrhxn4abw2g43elqde1.webp",
     //   "name": "Muhammad Zulqarnain MD",
     //   "bio": "Board Certified Interventional Pain Management",
-    //   "href": "/meet-our-team/dr-muhammad-zulqarnain-dr-z-/",
+    //   "href": "/meet-our-team/rao-k-ali/",
     //   "desc": "Dr. Muhammad Zulqarnain, known as Dr. Z, is the best spine surgeon in Dallas. He partners with you to achieve a pain-free life through compassionate care and innovative treatments."
     // },

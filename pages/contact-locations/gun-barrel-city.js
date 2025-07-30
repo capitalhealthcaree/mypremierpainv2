@@ -61,7 +61,7 @@ const Contact = () => {
 
       <div className="map-area">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3371.034770584943!2d-96.11346722380728!3d32.33777610630265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864923acb068b03d%3A0x1bee75772d298a54!2s519%20N%20Gun%20Barrel%20Ln%2C%20Gun%20Barrel%20City%2C%20TX%2075156%2C%20USA!5e0!3m2!1sen!2s!4v1698873736076!5m2!1sen!2s"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3371.034938438733!2d-96.1108924!3d32.3377716!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864923f0121f4c3d%3A0x790471e8dbdbf82e!2sPremier%20Pain%20Centers%20%3A%20Gun%20Barrel%20City!5e0!3m2!1sen!2s!4v1753899802470!5m2!1sen!2s"
           height="550"
           loading="lazy"
         ></iframe>

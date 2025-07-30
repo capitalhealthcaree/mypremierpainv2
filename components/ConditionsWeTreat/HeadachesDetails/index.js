@@ -14,7 +14,7 @@ const ServiceDetailsContent = () => {
 							people think. Knowing what sort of headache you have helps you and
 							a{" "}
 							<Link
-								href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
+								href="/meet-our-team/rao-k-ali/"
 								rel="preload"
 							>
 								{" "}

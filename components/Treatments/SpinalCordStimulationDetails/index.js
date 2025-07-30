@@ -157,7 +157,7 @@ const ServiceDetailsContent = () => {
             <p>
               Wires and stimulators, when managed by a{" "}
               <Link
-                href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
+                href="/meet-our-team/rao-k-ali/"
                 rel="preload"
               >
                 pain doctor in Dallas,{" "}
@@ -174,8 +174,8 @@ const ServiceDetailsContent = () => {
               bend, or twist for at least two months after surgery so that the
               leads can heal in the appropriate position without moving. Medical
               professionals at{" "}
-              <Link href="/contact-locations/lancaster/" rel="preload">
-                Lancaster spine and pain clinic
+              <Link href="/contact-locations/desoto/" rel="preload">
+                Desoto spine and pain clinic
               </Link>{" "}
               are dedicated to improving the quality of life for their patients.
             </p>
@@ -186,7 +186,7 @@ const ServiceDetailsContent = () => {
               <Link href="/appointment/" rel="preload">
                 schedule an appointment
               </Link>{" "}
-              for genicular nerve block treatment in lancaster, TX and the
+              for genicular nerve block treatment in Desoto, TX and the
               surrounding areas.
             </blockquote>
           </div>

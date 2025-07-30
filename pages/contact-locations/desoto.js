@@ -7,7 +7,7 @@ const Navbar = dynamic(() => import("../../components/_App/Navbar"));
 
 const PageBanner = dynamic(() => import("../../components/Common/PageBanner"));
 
-const LancasterContent = dynamic(() =>
+const DesotoContent = dynamic(() =>
   import("../../components/ContactLocationsContent/LancasterContent")
 );
 
@@ -49,7 +49,7 @@ const Contact = () => {
         activePageText="Desoto"
         bgImage="http://res.cloudinary.com/dngmflrpx/image/upload/v1734990377/mzwabfkruapqgueyqayv.webp"
       />
-      {/* <LancasterContent /> */}
+      {/* <DesotoContent /> */}
       <ContactInfo
         loc1={"281 N Interstate 35 E Rd,"}
         loc2={"DeSoto, TX 75115"}
@@ -61,7 +61,7 @@ const Contact = () => {
 
       <div className="map-area">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3361.498127614714!2d-96.8232151!3d32.59290610000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e946e3709be43%3A0xe7f5f537959113e7!2s281%20N%20Interstate%2035%20E%20Rd%2C%20DeSoto%2C%20TX%2075115%2C%20USA!5e0!3m2!1sen!2s!4v1746224196164!5m2!1sen!2s"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3361.498127614714!2d-96.8232151!3d32.5929061!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e95c45bfb5e9d%3A0x4febd09990e9646f!2sPremier%20Pain%20Centers%20%3A%20Desoto!5e0!3m2!1sen!2s!4v1753905798562!5m2!1sen!2s"
           height="550"
           loading="lazy"
         ></iframe>

@@ -33,7 +33,7 @@ const DoctorDetails = ({ items }) => {
         />
         <meta
           name="description"
-          content="Quick relief with Bursa injections! Effective treatment for joint pain & inflammation. Find relief today. Expert care at Premier Pain Centers in Lancaster."
+          content="Quick relief with Bursa injections! Effective treatment for joint pain & inflammation. Find relief today. Expert care at Premier Pain Centers in Desoto."
         />
         <meta content="text/html; charset=utf-8" httpEquiv="Content-Type" />
         <meta content="initial-scale=1" name="viewport" />

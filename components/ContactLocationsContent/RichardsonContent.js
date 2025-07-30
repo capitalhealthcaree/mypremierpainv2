@@ -41,7 +41,7 @@ export default function RichardsonContent() {
       <p>
         Patients with chronic pain require pain management specialists to
         enhance their quality of life.{" "}
-        <Link href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/" rel="preload">
+        <Link href="/meet-our-team/rao-k-ali/" rel="preload">
           Best pain doctor in Dallas{" "}
         </Link>
         are skilled at diagnosing and treating various pain conditions. They

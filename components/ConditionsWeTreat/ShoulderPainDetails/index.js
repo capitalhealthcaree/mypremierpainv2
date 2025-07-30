@@ -224,7 +224,7 @@ const ServiceDetailsContent = () => {
 							ruptures. The severe rotator cuff pain can only be fixed through
 							surgery. However, not all tears need to be fixed. A good{" "}
 							<Link
-								href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
+								href="/meet-our-team/rao-k-ali/"
 								rel="preload"
 							>
 								orthopedic doctor for shoulder pain{" "}

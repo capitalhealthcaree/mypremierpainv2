@@ -119,7 +119,7 @@ const ServiceDetailsContent = () => {
 						<p>
 							Contact your{" "}
 							<Link
-								href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
+								href="/meet-our-team/rao-k-ali/"
 								rel="preload"
 							>
 								leg pain doctor in Dallas

@@ -192,8 +192,8 @@ const ServiceDetailsContent = () => {
               point injections do not provide immediate relief for you. If
               trigger point injections do not relieve your neck pain, your
               doctor may be able to recommend alternative treatment options. Our{" "}
-              <Link href="/contact-locations/lancaster/" rel="preload">
-                Lancaster spine and pain clinic
+              <Link href="/contact-locations/desoto/" rel="preload">
+                Desoto spine and pain clinic
               </Link>{" "}
               can treat a variety of conditions that can result in trigger
               points.
@@ -205,7 +205,7 @@ const ServiceDetailsContent = () => {
               <Link href="/appointment/" rel="preload">
                 schedule an appointment
               </Link>{" "}
-              for genicular nerve block treatment in lancaster, TX and the
+              for genicular nerve block treatment in Desoto, TX and the
               surrounding areas.
             </blockquote>
           </div>

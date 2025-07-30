@@ -89,7 +89,7 @@ const ServiceDetailsContent = () => {
               differentiate pain that originates from your occipital nerves from
               pain that originates from other parts of your spine. A{" "}
               <Link
-                href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
+                href="/meet-our-team/rao-k-ali/"
                 rel="preload"
               >
                 pain doctor in Dallas
@@ -172,8 +172,8 @@ const ServiceDetailsContent = () => {
               It is likely that the injection site will initially feel painful,
               but this should only last a few days. The pain should be evaluated
               by a physician if it persists or becomes severe. The{" "}
-              <Link href="/contact-locations/lancaster/" rel="preload">
-                Lancaster spine and pain clinic
+              <Link href="/contact-locations/desoto/" rel="preload">
+                Desoto spine and pain clinic
               </Link>{" "}
               strives to improve the quality of life of its patients.
             </li>
@@ -215,7 +215,7 @@ const ServiceDetailsContent = () => {
               <Link href="/appointment/" rel="preload">
                 schedule an appointment
               </Link>{" "}
-              for occipital nerve block treatment in lancaster, TX and the
+              for occipital nerve block treatment in Desoto, TX and the
               surrounding areas.
             </blockquote>
           </div>

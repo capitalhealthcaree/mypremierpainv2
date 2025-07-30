@@ -27,8 +27,8 @@ const DetailsContent = () => {
             <p>
               We provide our services throughout the Dallas-Fort Worth area,
               including{" "}
-              <Link href="/contact-locations/lancaster/" rel="preload">
-                Lancaster
+              <Link href="/contact-locations/desoto/" rel="preload">
+                Desoto
               </Link>
               ,{" "}
               <Link href="/contact-locations/plano/" rel="preload">

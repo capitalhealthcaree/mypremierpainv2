@@ -23,7 +23,7 @@ const ServiceDetailsContent = () => {
               inject the facet joints.A facet joint medial branch block,
               performed by a{" "}
               <Link
-                href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
+                href="/meet-our-team/rao-k-ali/"
                 rel="preload"
               >
                 back pain doctor in Dallas

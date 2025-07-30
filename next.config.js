@@ -62,8 +62,8 @@ const nextConfig = {
   //       //   permanent: true,
   //       // },
   //       // {
-  //       //   source: "/treatments/contact-locations/lancaster/",
-  //       //   destination: "/contact-locations/lancaster/",
+  //       //   source: "/treatments/contact-locations/desoto/",
+  //       //   destination: "/contact-locations/desoto/",
   //       //   permanent: true,
   //       // },
   //       // {
@@ -203,8 +203,8 @@ const nextConfig = {
   //       //   permanent: true,
   //       // },
   //       // {
-  //       //   source: "/contact-locations/contact-locations/lancaster/",
-  //       //   destination: "/contact-locations/lancaster/",
+  //       //   source: "/contact-locations/contact-locations/desoto/",
+  //       //   destination: "/contact-locations/desoto/",
   //       //   permanent: true,
   //       // },
   //       // {
@@ -284,7 +284,7 @@ const nextConfig = {
   //       //   permanent: true,
   //       // },
   //       // {
-  //       //   source: "/meet-our-team/contact-locations/lancaster/",
+  //       //   source: "/meet-our-team/contact-locations/desoto/",
   //       //   destination: "/contact-locations/",
   //       //   permanent: true,
   //       // },
@@ -446,8 +446,8 @@ const nextConfig = {
   //       //   permanent: true,
   //       // },
   //       // {
-  //       //   source: "/conditions-we-treat/contact-locations/lancaster/",
-  //       //   destination: "/contact-locations/lancaster/",
+  //       //   source: "/conditions-we-treat/contact-locations/desoto/",
+  //       //   destination: "/contact-locations/desoto/",
   //       //   permanent: true,
   //       // },
   // // ................................................................................................................

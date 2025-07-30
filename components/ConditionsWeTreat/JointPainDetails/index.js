@@ -214,7 +214,7 @@ const ServiceDetailsContent = () => {
 						<p>
 							Speaking to a{" "}
 							<Link
-								href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
+								href="/meet-our-team/rao-k-ali/"
 								rel="preload"
 							>
 								best pain doctor in Dallas

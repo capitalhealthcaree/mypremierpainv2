@@ -199,8 +199,8 @@ const ServiceDetailsContent = () => {
               individual to another. If you are apprehensive about receiving
               nerve block injections, discuss them with your healthcare provider
               at{" "}
-              <Link href="/contact-locations/lancaster/" rel="preload">
-                spine and pain clinic lancaster
+              <Link href="/contact-locations/desoto/" rel="preload">
+                spine and pain clinic Desoto
               </Link>
               . They will be able to assist you with any questions you may have.
             </p>
@@ -211,7 +211,7 @@ const ServiceDetailsContent = () => {
               <Link href="/appointment/" rel="preload">
                 schedule an appointment
               </Link>{" "}
-              for lumbar sympathetic blocks treatment in lancaster, TX and the
+              for lumbar sympathetic blocks treatment in Desoto, TX and the
               surrounding areas.
             </blockquote>
           </div>

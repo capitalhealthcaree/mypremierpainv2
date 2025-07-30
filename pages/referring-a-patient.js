@@ -54,7 +54,7 @@ const PatientReferral = () => {
           <h2>How Do I Refer a Patient to Premier Pain Centers?</h2>
           <p>
             To refer a patient to a Premier Pain Centers location in Richardson,
-            North Richland Hills, Fort Worth, Hillsboro, Lancaster, Decatur,
+            North Richland Hills, Fort Worth, Hillsboro, Desoto, Decatur,
             Farmers Branch, Waxahachie, Corsicana, Cleburne, Plano, Ennis,
             Mesquite, or Gun Barrel City,{" "}
             <Link

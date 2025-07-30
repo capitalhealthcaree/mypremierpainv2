@@ -24,8 +24,8 @@ const ServiceDetailsContent = () => {
               better results, lasts longer, and does not pose a dependence risk.
               Several different types of individuals may benefit from peripheral
               nerve stimulation. The{" "}
-              <Link href="/contact-locations/lancaster/" rel="preload">
-                Lancaster spine and pain clinic
+              <Link href="/contact-locations/desoto/" rel="preload">
+                Desoto spine and pain clinic
               </Link>{" "}
               is committed to improving the quality of life of its patients.
             </p>
@@ -241,7 +241,7 @@ const ServiceDetailsContent = () => {
               <Link href="/appointment/" rel="preload">
                 schedule an appointment
               </Link>{" "}
-              for peripheral nerve stimulation treatment in Lancaster, TX and
+              for peripheral nerve stimulation treatment in Desoto, TX and
               the surrounding areas.
             </blockquote>
           </div>

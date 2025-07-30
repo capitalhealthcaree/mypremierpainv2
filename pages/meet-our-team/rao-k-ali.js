@@ -57,8 +57,8 @@ const locations = {
       name: " Hillsboro",
     },
     {
-      href: "/contact-locations/lancaster",
-      name: " Lancaster",
+      href: "/contact-locations/Desoto",
+      name: " Desoto",
     },
     {
       href: "/contact-locations/farmers-branch",

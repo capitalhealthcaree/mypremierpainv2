@@ -14,7 +14,7 @@ export default function FortWorthContent() {
         <b>Best Pain Medicine Specialists in Fort Worth </b>
         are board-certified, they use years of experience and expertise to treat
         pain from all injuries, diseases, disorders, and medical conditions. Our
-        specialists of Fort Worth, Lancaster, North Richland Hills, Mesquite,
+        specialists of Fort Worth, Desoto, North Richland Hills, Mesquite,
         Cleburne, and other centers customize pain management plans and
         treatments for all types.
       </p>
@@ -47,7 +47,7 @@ export default function FortWorthContent() {
       <p>
         Our board-certified physicians treat all forms of pain. Finding the
         cause of pain is the first step in treatment. Our{" "}
-        <Link href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/" rel="preload">
+        <Link href="/meet-our-team/rao-k-ali/" rel="preload">
           {" "}
           pain management specialist of fort worth
         </Link>{" "}

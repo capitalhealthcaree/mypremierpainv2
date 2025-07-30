@@ -58,7 +58,7 @@ const Contact = () => {
 
       <div className="map-area">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3354.8226499232774!2d-96.60273012379426!3d32.77044008432108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864ea5a00688b3f7%3A0x2f49e7246a9da94a!2s200%20W%20Kearney%20St%2C%20Mesquite%2C%20TX%2075149%2C%20USA!5e0!3m2!1sen!2s!4v1698872976439!5m2!1sen!2s"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3354.823158172872!2d-96.60019!3d32.7704266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864ea5a00688b3f7%3A0x2f49e7246a9da94a!2s200%20W%20Kearney%20St%2C%20Mesquite%2C%20TX%2075149%2C%20USA!5e0!3m2!1sen!2s!4v1753895893427!5m2!1sen!2s"
           height="550"
           loading="lazy"
         ></iframe>

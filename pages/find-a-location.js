@@ -198,7 +198,7 @@ const locData = [
     locationUrl: "/contact-locations/hillsboro/",
   },
   {
-    locationHeading: "LANCASTER",
+    locationHeading: "Desoto",
     latlong: { lat: 32.60310848369879, lng: -96.81242772698755 },
     stars: (
       <>
@@ -241,8 +241,8 @@ const locData = [
     ),
     rating: 2.5,
     totalRatting: 8,
-    location: "2700 W. Pleasant Run Rd., Ste. 320 Lancaster, Texas 75146",
-    locationUrl: "/contact-locations/lancaster/",
+    location: "2700 W. Pleasant Run Rd., Ste. 320 Desoto, Texas 75146",
+    locationUrl: "/contact-locations/desoto/",
   },
   {
     locationHeading: "DECATUR",

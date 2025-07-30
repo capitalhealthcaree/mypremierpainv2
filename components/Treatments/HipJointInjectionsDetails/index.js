@@ -42,7 +42,7 @@ const ServiceDetailsContent = () => {
               corticosteroid to reduce inflammation, improve joint movement, and
               provide long-term pain relief. During procedure,our{" "}
               <Link
-                href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
+                href="/meet-our-team/rao-k-ali/"
                 rel="preload"
               >
                 best pain doctor in Dallas
@@ -56,7 +56,7 @@ const ServiceDetailsContent = () => {
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
-              To learn more about our Lancaster Hip Joint Injections treatment
+              To learn more about our Desoto Hip Joint Injections treatment
               services, give us a call at{" "}
               <a href="tel:+14695624188">469-562-4188</a> or{" "}
               <a href="/contact-locations/">contact us online</a> today.

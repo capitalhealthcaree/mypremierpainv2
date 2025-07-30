@@ -130,7 +130,7 @@ const ServiceDetailsContent = () => {
               <i className="icofont-quote-left"></i>
               Give us a call at 469-562-4188 or contact us online today to
               schedule an appointment for regenerating spinal discs in
-              Lancaster, TX and the surrounding areas.
+              Desoto, TX and the surrounding areas.
             </blockquote>
           </div>
         </div>

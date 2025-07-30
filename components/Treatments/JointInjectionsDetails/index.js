@@ -21,8 +21,8 @@ const ServiceDetailsContent = () => {
             <p>
               An injection of local anesthetic and steroids reduces joint
               inflammation and pain.{" "}
-              <Link href="/contact-locations/lancaster/" rel="preload">
-                Joint injections Lancaster
+              <Link href="/contact-locations/desoto/" rel="preload">
+                Joint injections Desoto
               </Link>{" "}
               are a great alternative to other treatments. It is possible to
               reduce joint pain for a long period of time by administering a
@@ -116,7 +116,7 @@ const ServiceDetailsContent = () => {
             <li>
               The{" "}
               <Link
-                href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
+                href="/meet-our-team/rao-k-ali/"
                 rel="preload"
               >
                 pain doctor in Dallas
@@ -209,7 +209,7 @@ const ServiceDetailsContent = () => {
               <Link href="/appointment/" rel="preload">
                 schedule an appointment
               </Link>{" "}
-              for joint infections treatment in Lancaster, TX and the
+              for joint infections treatment in Desoto, TX and the
               surrounding areas.
             </blockquote>
           </div>

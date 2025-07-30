@@ -118,7 +118,7 @@ const ServiceDetailsContent = () => {
 							other symptoms may be “red flag” indications. For an accurate
 							diagnosis and successful treatment, see a{" "}
 							<Link
-								href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
+								href="/meet-our-team/rao-k-ali/"
 								rel="preload"
 							>
 								neck doctor in Dallas

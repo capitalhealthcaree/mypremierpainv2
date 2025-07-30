@@ -35,8 +35,8 @@ const ServiceDetailsContent = () => {
               separately, with a purely diagnostic injection, or one may combine
               them. This treatment may be of benefit to those suffering from
               lower back pain .{" "}
-              <Link href="/contact-locations/lancaster/" rel="preload">
-                Lancaster spine and pain clinic
+              <Link href="/contact-locations/desoto/" rel="preload">
+                Desoto spine and pain clinic
               </Link>{" "}
               is staffed by medical professionals dedicated to improving the
               quality of life of patients.
@@ -246,7 +246,7 @@ const ServiceDetailsContent = () => {
                 <Link href="/appointment/" rel="preload">
                   schedule an appointment
                 </Link>{" "}
-                for Sacroiliac Joint Injection treatment in lancaster, TX and
+                for Sacroiliac Joint Injection treatment in Desoto, TX and
                 the surrounding areas.
               </blockquote>
             </div>

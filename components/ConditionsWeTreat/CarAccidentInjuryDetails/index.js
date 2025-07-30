@@ -56,7 +56,7 @@ const ServiceDetailsContent = () => {
 							whiplash injury. If you have these symptoms after an accident, see
 							a
 							<Link
-								href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
+								href="/meet-our-team/rao-k-ali/"
 								rel="preload"
 							>
 								{" "}

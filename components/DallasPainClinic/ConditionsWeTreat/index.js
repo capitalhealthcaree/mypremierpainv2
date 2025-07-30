@@ -187,7 +187,7 @@ const ourServices = [
       <span>
         Our{" "}
         <Link
-          href={`/meet-our-team/dr-muhammad-zulqarnain-dr-z-/`}
+          href={`/meet-our-team/rao-k-ali/`}
           rel="preload"
         >
           Pain management specialist in Dallas{" "}

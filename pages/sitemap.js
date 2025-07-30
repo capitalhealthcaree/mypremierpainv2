@@ -16,7 +16,7 @@ const locations = [
   { name: "Farmers Branch", location: "/contact-locations/farmers-branch" },
   { name: "Fort Worth", location: "/contact-locations/fort-worth" },
   { name: "Hillsboro", location: "/contact-locations/hillsboro" },
-  { name: "Lancaster", location: "/contact-locations/lancaster" },
+  { name: "Desoto", location: "/contact-locations/Desoto" },
   {
     name: "North Richland Hills",
     location: "/contact-locations/north-richland-hills",
@@ -261,7 +261,7 @@ const DoctorDetails = () => {
             </li>
             <li>
               <Link
-                href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
+                href="/meet-our-team/rao-k-ali/"
                 rel="preload"
               >
                 DR. MUHAMMAD ZULQARNAIN (DR. Z) M.D.

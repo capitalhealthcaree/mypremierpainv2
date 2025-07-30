@@ -106,8 +106,8 @@ const ServiceDetailsContent = () => {
               is an outpatient procedure that requires no general anesthesia or
               stitches for the treatment of LSS caused by excess ligaments.
               Millions of patients have safely undergone{" "}
-              <Link href="/contact-locations/lancaster/" rel="preload">
-                MILD procedure Lancaster
+              <Link href="/contact-locations/desoto/" rel="preload">
+                MILD procedure Desoto
               </Link>
               . As a brief overview of the procedure, here are the steps:
             </p>
@@ -216,7 +216,7 @@ const ServiceDetailsContent = () => {
               experiencing severe muscle pain can receive top-notch medical
               treatment from a{" "}
               <Link
-                href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
+                href="/meet-our-team/rao-k-ali/"
                 rel="preload"
               >
                 {" "}
@@ -240,7 +240,7 @@ const ServiceDetailsContent = () => {
               <Link href="/appointment/" rel="preload">
                 schedule an appointment
               </Link>{" "}
-              for Mild Procedure treatment in Lancaster, TX and the surrounding
+              for Mild Procedure treatment in Desoto, TX and the surrounding
               areas.
             </blockquote>
           </div>

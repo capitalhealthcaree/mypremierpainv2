@@ -88,7 +88,7 @@ const ServiceDetailsContent = () => {
 							<li>
 								See a{" "}
 								<Link
-									href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
+									href="/meet-our-team/rao-k-ali/"
 									rel="preload"
 								>
 									knee pain specialist in Dallas

@@ -197,7 +197,10 @@ const ServiceDetailsContent = () => {
               You may benefit from genicular nerve blocks if you suffer from
               chronic knee pain. The results vary considerably between
               individuals, however. Ask your{" "}
-              <Link href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/" rel="preload">
+              <Link
+                href="/meet-our-team/rao-k-ali/"
+                rel="preload"
+              >
                 pain doctor in Dallas
               </Link>{" "}
               about the genicular nerve block injection if you are concerned
@@ -211,7 +214,7 @@ const ServiceDetailsContent = () => {
               <Link href="/appointment/" rel="preload">
                 schedule an appointment
               </Link>{" "}
-              for genicular nerve block treatment in lancaster, TX and the
+              for genicular nerve block treatment in Desoto, TX and the
               surrounding areas.
             </blockquote>
           </div>

@@ -111,7 +111,7 @@ const ServiceDetailsContent = () => {
             <p>
               Epidural steroid injections (ESIs), administered by a{" "}
               <Link
-                href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
+                href="/meet-our-team/rao-k-ali/"
                 rel="preload"
               >
                 back pain doctor in Dallas
@@ -215,8 +215,8 @@ const ServiceDetailsContent = () => {
               usually administered alongside other treatments such as physical
               therapy. The benefits of injections can, therefore, last for a
               long time beyond the duration of the treatment.{" "}
-              <Link href="/contact-locations/lancaster/" rel="preload">
-                Lancaster spine and pain clinic
+              <Link href="/contact-locations/desoto/" rel="preload">
+                Desoto spine and pain clinic
               </Link>{" "}
               medical professionals strive to improve the quality of life for
               patients.
@@ -228,7 +228,7 @@ const ServiceDetailsContent = () => {
               <Link href="/appointment/" rel="preload">
                 schedule an appointment
               </Link>{" "}
-              for epidural nerve block treatment in lancaster, TX and the
+              for epidural nerve block treatment in Desoto, TX and the
               surrounding areas.
             </blockquote>
           </div>

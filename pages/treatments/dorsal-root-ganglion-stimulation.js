@@ -24,7 +24,7 @@ const DoctorDetails = () => {
   return (
     <>
       <Head>
-        <title>Dorsal Root Ganglion Stimulation Therapy In Lancaster</title>
+        <title>Dorsal Root Ganglion Stimulation Therapy In Desoto</title>
         <link
           rel="canonical"
           href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/treatments/dorsal-root-ganglion-stimulation/`}

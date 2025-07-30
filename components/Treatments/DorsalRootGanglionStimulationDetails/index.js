@@ -70,7 +70,7 @@ const ServiceDetailsContent = () => {
             </p>
             <h3>1- Directed Anatomical Targeting</h3>
             <p>
-              Dorsal Root Ganglion Lancaster stimulation allows selective
+              Dorsal Root Ganglion Desoto stimulation allows selective
               stimulation of the area in pain due to the highly targeted nature
               of the stimulation field. Ninety-four percent of the patients in
               the ACCURATE Study received targeted DRG stimulation without
@@ -142,8 +142,8 @@ const ServiceDetailsContent = () => {
             <blockquote>
               <i className="icofont-quote-left"></i>
               Give us a call at 469-562-4188 or contact us online today to
-              schedule an appointment for electrodiagnostic treatment in
-              Lancaster, TX and the surrounding areas.
+              schedule an appointment for electrodiagnostic treatment in Desoto,
+              TX and the surrounding areas.
             </blockquote>
           </div>
         </div>

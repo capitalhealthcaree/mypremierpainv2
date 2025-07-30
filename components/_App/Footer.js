@@ -122,14 +122,14 @@ const Footer = () => {
                     <li>
                       <h3 style={{ marginBottom: "1px" }}>RICHARDSON</h3>
                       <i className="icofont-location-pin"></i>
-                      <a href="https://goo.gl/maps/wC7tU7Hvb5LAntLq8">
+                      <a href="https://maps.app.goo.gl/J5kiiE8xRWiQo1tSA">
                         2071 N Collins Blvd
                       </a>
-                      <a href="https://goo.gl/maps/wC7tU7Hvb5LAntLq8">
+                      <a href="https://maps.app.goo.gl/J5kiiE8xRWiQo1tSA">
                         Richardson, TX 75080
                       </a>
                       <a
-                        href="https://goo.gl/maps/wC7tU7Hvb5LAntLq8"
+                        href="https://maps.app.goo.gl/J5kiiE8xRWiQo1tSA"
                         className="fw-bold"
                       >
                         View Map & Directions
@@ -166,14 +166,14 @@ const Footer = () => {
                     <li>
                       <h3 style={{ marginBottom: "1px" }}>GUN BARREL CITY</h3>
                       <i className="icofont-location-pin"></i>
-                      <a href="https://maps.app.goo.gl/Yzs9SCVAgwVvwkoAA">
+                      <a href="https://maps.app.goo.gl/MZa8Mp2ePJqqM4RP9">
                         519 N Gun Barrel Ln Suite A
                       </a>
-                      <a href="https://maps.app.goo.gl/Yzs9SCVAgwVvwkoAA">
+                      <a href="https://maps.app.goo.gl/MZa8Mp2ePJqqM4RP9">
                         Gun Barrel City, TX 75156
                       </a>
                       <a
-                        href="https://maps.app.goo.gl/Yzs9SCVAgwVvwkoAA"
+                        href="https://maps.app.goo.gl/MZa8Mp2ePJqqM4RP9"
                         className="fw-bold"
                       >
                         View Map & Directions
@@ -210,14 +210,14 @@ const Footer = () => {
                     <li>
                       <h3 style={{ marginBottom: "1px" }}>CLEBURNE</h3>
                       <i className="icofont-location-pin"></i>
-                      <a href="https://goo.gl/maps/SX3zQArg9RvyJZiD9?coh=178572&entry=tt">
+                      <a href="https://maps.app.goo.gl/v8jsuH2x7pJkqNDWA">
                         131 S Westmeadow Dr,
                       </a>
-                      <a href="https://goo.gl/maps/SX3zQArg9RvyJZiD9?coh=178572&entry=tt">
+                      <a href="https://maps.app.goo.gl/v8jsuH2x7pJkqNDWA">
                         Cleburne, TX 76033
                       </a>
                       <a
-                        href="https://goo.gl/maps/SX3zQArg9RvyJZiD9?coh=178572&entry=tt"
+                        href="https://maps.app.goo.gl/v8jsuH2x7pJkqNDWA"
                         className="fw-bold"
                       >
                         View Map & Directions
@@ -232,14 +232,14 @@ const Footer = () => {
                     <li>
                       <h3 style={{ marginBottom: "1px" }}>MESQUITE</h3>
                       <i className="icofont-location-pin"></i>
-                      <a href="https://maps.app.goo.gl/a19dimyMPJer9FGT7">
+                      <a href="https://maps.app.goo.gl/B8LH9iSKqdqmxsFn7">
                         200 W Kearney St,
                       </a>
-                      <a href="https://maps.app.goo.gl/a19dimyMPJer9FGT7">
+                      <a href="https://maps.app.goo.gl/B8LH9iSKqdqmxsFn7">
                         Mesquite, TX 75149
                       </a>
                       <a
-                        href="https://maps.app.goo.gl/a19dimyMPJer9FGT7"
+                        href="https://maps.app.goo.gl/B8LH9iSKqdqmxsFn7"
                         className="fw-bold"
                       >
                         View Map & Directions
@@ -286,14 +286,14 @@ const Footer = () => {
                     <li>
                       <h3 style={{ marginBottom: "1px" }}>Desoto</h3>
                       <i className="icofont-location-pin"></i>
-                      <a href="https://maps.app.goo.gl/G5fpiQXUg8xLXeBu9">
+                      <a href="https://maps.app.goo.gl/xMgYGPoC4SVXGDgC9">
                         281 N Interstate 35 E Rd,
                       </a>
-                      <a href="https://maps.app.goo.gl/G5fpiQXUg8xLXeBu9">
+                      <a href="https://maps.app.goo.gl/xMgYGPoC4SVXGDgC9">
                         Desoto, TX 75115
                       </a>
                       <a
-                        href="https://maps.app.goo.gl/G5fpiQXUg8xLXeBu9"
+                        href="https://maps.app.goo.gl/xMgYGPoC4SVXGDgC9"
                         className="fw-bold"
                       >
                         View Map & Directions
@@ -328,14 +328,14 @@ const Footer = () => {
                     <li>
                       <h3 style={{ marginBottom: "1px" }}>PLANO</h3>
                       <i className="icofont-location-pin"></i>
-                      <a href="https://maps.app.goo.gl/G58xhCqnjUmFPH1u5">
+                      <a href="https://maps.app.goo.gl/RG3xKGzsP5ZUjVpy7">
                         7712 San Jacinto Place
                       </a>
-                      <a href="https://maps.app.goo.gl/G58xhCqnjUmFPH1u5">
+                      <a href="https://maps.app.goo.gl/RG3xKGzsP5ZUjVpy7">
                         Suite 300 Plano, TX 75024
                       </a>
                       <a
-                        href="https://maps.app.goo.gl/G58xhCqnjUmFPH1u5"
+                        href="https://maps.app.goo.gl/RG3xKGzsP5ZUjVpy7"
                         className="fw-bold"
                       >
                         View Map & Directions
@@ -377,14 +377,14 @@ const Footer = () => {
                     <li>
                       <h3 style={{ marginBottom: "1px" }}>DECATUR</h3>
                       <i className="icofont-location-pin"></i>
-                      <a href="https://goo.gl/maps/ajt2yjVWs8Lfn5CKA">
+                      <a href="https://maps.app.goo.gl/Bvezbx2CdS1krWUk6">
                         902 Preskitt Rd Suite 300,
                       </a>
-                      <a href="https://goo.gl/maps/ajt2yjVWs8Lfn5CKA">
+                      <a href="https://maps.app.goo.gl/Bvezbx2CdS1krWUk6">
                         Decatur, TX 76234
                       </a>
                       <a
-                        href="https://goo.gl/maps/ajt2yjVWs8Lfn5CKA"
+                        href="https://maps.app.goo.gl/Bvezbx2CdS1krWUk6"
                         className="fw-bold"
                       >
                         View Map & Directions
@@ -397,14 +397,14 @@ const Footer = () => {
                       {" "}
                       <h3 style={{ marginBottom: "1px" }}>CORSICANA</h3>
                       <i className="icofont-location-pin"></i>
-                      <a href="https://goo.gl/maps/t3UcfhLPzrDX8rHH9">
+                      <a href="https://maps.app.goo.gl/2MjRnqJPaLLJmK3ZA">
                         3108 E. State HWY 22
                       </a>
-                      <a href="https://goo.gl/maps/t3UcfhLPzrDX8rHH9">
+                      <a href="https://maps.app.goo.gl/2MjRnqJPaLLJmK3ZA">
                         Corsicana, TX 75102
                       </a>
                       <a
-                        href="https://goo.gl/maps/t3UcfhLPzrDX8rHH9"
+                        href="https://maps.app.goo.gl/2MjRnqJPaLLJmK3ZA"
                         className="fw-bold"
                       >
                         View Map & Directions
@@ -419,14 +419,14 @@ const Footer = () => {
                     <li>
                       <h3 style={{ marginBottom: "1px" }}>ENNIS</h3>
                       <i className="icofont-location-pin"></i>
-                      <a href="https://maps.app.goo.gl/xVoGAt157dQFFm5K9">
+                      <a href="https://maps.app.goo.gl/B7EeEqTxQwtoFPH76">
                         2200 Physicians Boulevard,
                       </a>
-                      <a href="https://maps.app.goo.gl/xVoGAt157dQFFm5K9">
+                      <a href="https://maps.app.goo.gl/B7EeEqTxQwtoFPH76">
                         Suite B1 Ennis, TX 75119
                       </a>
                       <a
-                        href="https://maps.app.goo.gl/xVoGAt157dQFFm5K9"
+                        href="https://maps.app.goo.gl/B7EeEqTxQwtoFPH76"
                         className="fw-bold"
                       >
                         View Map & Directions

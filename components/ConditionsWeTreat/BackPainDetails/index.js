@@ -178,7 +178,7 @@ const ServiceDetailsContent = () => {
 						<p>
 							If you are searching for a good{" "}
 							<Link
-								href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
+								href="/meet-our-team/rao-k-ali/"
 								rel="preload"
 							>
 								back pain specialist near me

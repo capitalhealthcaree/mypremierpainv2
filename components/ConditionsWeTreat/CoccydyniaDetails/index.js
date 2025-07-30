@@ -6,7 +6,7 @@ const ServiceDetailsContent = () => {
       <div className="service-details-area">
         <div className="container">
           <div className="services-details-img">
-            <h2>COCCYDYNIA TREATMENT IN LANCASTER</h2>
+            <h2>COCCYDYNIA TREATMENT IN Desoto</h2>
             <p>
               Coccydynia has been misunderstood for a long time. Often called
               tailbone pain,{" "}
@@ -137,22 +137,33 @@ const ServiceDetailsContent = () => {
               <Link href="/contact-locations/hillsboro/" rel="preload">
                 coccydynia Hillsboro
               </Link>{" "}
-              based on your symptoms. Your <Link href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/" rel="preload">pain doctor in Dallas</Link> may also perform tests to
-              exclude conditions other than coccydynia. X-rays or magnetic
-              resonance imaging (MRI) may be ordered by your physician to
-              determine whether you have fractured or broken a bone.
+              based on your symptoms. Your{" "}
+              <Link
+                href="/meet-our-team/rao-k-ali/"
+                rel="preload"
+              >
+                pain doctor in Dallas
+              </Link>{" "}
+              may also perform tests to exclude conditions other than
+              coccydynia. X-rays or magnetic resonance imaging (MRI) may be
+              ordered by your physician to determine whether you have fractured
+              or broken a bone.
             </p>
             <h2>When to See a Doctor</h2>
             <p>
-              Coccydynia symptoms should be examined by your <Link href="/meet-our-team/rao-k-ali/" rel="preload"> pain specialist in Dallas</Link> if they
-              persist for more than a few days. As well as coccydynia, several
-              other conditions may cause similar symptoms, but may be more
-              dangerous (such as tailbone fractures, hip fractures, and spinal
-              fractures). In order to rule out other conditions or initiate
-              treatment immediately, especially in more serious cases, it is
-              imperative that you see your physician as soon as possible. If you
-              experience any of the following symptoms and have tailbone pain,
-              please contact your physician immediately:
+              Coccydynia symptoms should be examined by your{" "}
+              <Link href="/meet-our-team/rao-k-ali/" rel="preload">
+                {" "}
+                pain specialist in Dallas
+              </Link>{" "}
+              if they persist for more than a few days. As well as coccydynia,
+              several other conditions may cause similar symptoms, but may be
+              more dangerous (such as tailbone fractures, hip fractures, and
+              spinal fractures). In order to rule out other conditions or
+              initiate treatment immediately, especially in more serious cases,
+              it is imperative that you see your physician as soon as possible.
+              If you experience any of the following symptoms and have tailbone
+              pain, please contact your physician immediately:
             </p>
             <li>Swelling or pain that occurs suddenly</li>
             <li>Long-lasting constipation</li>
@@ -197,8 +208,8 @@ const ServiceDetailsContent = () => {
               as soon as possible if you are experiencing any symptoms of
               coccydynia. If you develop persistent pain or severe symptoms, you
               should consult a healthcare provider or a{" "}
-              <Link href="/contact-locations/lancaster/" rel="preload">
-                Lancaster spine and pain clinic
+              <Link href="/contact-locations/desoto/" rel="preload">
+                Desoto spine and pain clinic
               </Link>
               .
             </p>

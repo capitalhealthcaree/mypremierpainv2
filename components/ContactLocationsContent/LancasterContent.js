@@ -52,7 +52,7 @@ const treatments = [
   "Steroid cervical epidural injection",
   "Injections of facet joints",
   "Steroid-injected lumbar epidural",
-  "Lumbar sympathetic block Lancaster",
+  "Lumbar sympathetic block Desoto",
   "Lumbar transforaminal epidural steroid injection",
   "Injection of sacroiliac steroids",
 ];
@@ -61,7 +61,7 @@ export default function LancasterContent() {
   return (
     <div className="container pt-5">
       <p>
-        Our pain management experts in Lancaster treat patients suffering from
+        Our pain management experts in Desoto treat patients suffering from
         chronic conditions or post-surgical complications. Multidisciplinary
         care is typical for pain management. At Premier Pain Centers, our pain
         management specialists diagnose and treat chronic and acute pain. Our
@@ -73,8 +73,8 @@ export default function LancasterContent() {
         <li>Reducing or decreasing pain medication dependence</li>
       </ul>
       <p>
-        Anaesthesiologists, physical therapists, pain physicians in Lancaster
-        and rehabilitation specialists make up our multidisciplinary team. They
+        Anaesthesiologists, physical therapists, pain physicians in Desoto and
+        rehabilitation specialists make up our multidisciplinary team. They
         collaborate with pain psychology and physical and occupational therapy.
       </p>
       <p>
@@ -83,7 +83,7 @@ export default function LancasterContent() {
         to explore novel interventional, physiotherapeutic, and psychosocial
         treatments. This is in an individualized holistic framework.
       </p>
-      <h2>Types of Pain We Treat at Premier Pain Centers in Lancaster</h2>
+      <h2>Types of Pain We Treat at Premier Pain Centers in Desoto</h2>
       <p>
         Multiple types of pain may require further treatment. NIA suggests
         referring patients to a pain management doctor if they require more
@@ -105,7 +105,7 @@ export default function LancasterContent() {
       <h2>Different Treatment Approaches</h2>
       <p>
         <Link href="/meet-our-team/" rel="preload">
-          Pain Management Doctors in Lancaster
+          Pain Management Doctors in Desoto
         </Link>{" "}
         work in interdisciplinary teams. Different pain management team members
         use different therapies. The following treatments may be used for acute,
@@ -175,7 +175,7 @@ export default function LancasterContent() {
         </li>
       </ul>
       <p>
-        A pain specialist in Lancaster can help a patient decide if alternative
+        A pain specialist in Desoto can help a patient decide if alternative
         therapies outside of medical treatment would help.
       </p>
       <h2>Why Do You Need to Choose Us?</h2>
@@ -187,9 +187,9 @@ export default function LancasterContent() {
         Premier Pain Centers board-certified doctors and specialized medical
         staff work in collaboration to give top-level treatment. For pain
         therapy,{" "}
-        <Link href="/contact-locations/lancaster/" rel="preload">
+        <Link href="/contact-locations/desoto/" rel="preload">
           {" "}
-          pain management in Lancaster
+          pain management in Desoto
         </Link>{" "}
         provides nerve blocks, epidural injections, physical therapy, and
         regenerative medicine.
@@ -198,7 +198,7 @@ export default function LancasterContent() {
         Premier Pain Centers provide evidence-based, minimally invasive
         treatments to speed healing and enhance outcomes. The{" "}
         <Link href="/meet-our-team/rao-k-ali/" rel="preload">
-          best pain doctor in Lancaster
+          best pain doctor in Desoto
         </Link>{" "}
         uses fluoroscopy-guided surgeries and spinal cord stimulation to give
         patients the latest pain treatments. Beyond professional expertise, they
@@ -227,7 +227,7 @@ export default function LancasterContent() {
         personalized treatment program. Our polite staff will assist you in
         confirming insurance and promptly getting you treated. With accepted
         most big insurance policies, excellent pain management is inexpensive.
-        Avoid letting pain rule you. Book a pain consultation in Lancaster by
+        Avoid letting pain rule you. Book a pain consultation in Desoto by
         contacting us at 469-562-4188 to start your recovery. Premier Pain
         Centers prioritizes your comfort, rehabilitation, and well-being from
         your first appointment. Let us help you reclaim your life.

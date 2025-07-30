@@ -58,7 +58,7 @@ const Contact = () => {
 
       <div className="map-area">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.0022222503744!2d-96.72469342389256!3d32.97734317372066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c1f30af23e6b7%3A0x3281f6baf0423789!2s2071%20N%20Collins%20Blvd%2C%20Richardson%2C%20TX%2075080%2C%20USA!5e0!3m2!1sen!2sil!4v1690872743831!5m2!1sen!2sil"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3347.0014859340477!2d-96.7221145!3d32.9773626!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c1f013aa1fd9d%3A0xdc24c75dde3ba129!2sPremier%20Pain%20Centers%20%3A%20Richardson!5e0!3m2!1sen!2s!4v1753906175922!5m2!1sen!2s"
           height="550"
           loading="lazy"
         ></iframe>

@@ -140,7 +140,7 @@ const ServiceDetailsContent = () => {
             <blockquote>
               <i className="icofont-quote-left"></i>
               Give us a call at 469-562-4188 or contact us online today to
-              schedule an appointment for electrodiagnostic treatment in Lancaster,
+              schedule an appointment for electrodiagnostic treatment in Desoto,
               TX and the surrounding areas.
             </blockquote>
           </div>

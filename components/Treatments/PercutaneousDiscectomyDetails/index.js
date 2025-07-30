@@ -37,7 +37,7 @@ const ServiceDetailsContent = () => {
               <Link href="/appointment/" rel="preload">
                 schedule an appointment
               </Link>{" "}
-              for percutaneous discectomy treatment in lancaster, TX and the
+              for percutaneous discectomy treatment in Desoto, TX and the
               surrounding areas.
             </blockquote>
             <h2>Overview of the Herniated Disc</h2>
@@ -145,8 +145,8 @@ const ServiceDetailsContent = () => {
               percutaneous lumbar discectomy, enabling them to return to their
               normal daily routines. Medical professionals are dedicated to
               improving the quality of life for patients at{" "}
-              <Link href="/contact-locations/lancaster/" rel="preload">
-                Lancaster spine and pain clinic
+              <Link href="/contact-locations/desoto/" rel="preload">
+                Desoto spine and pain clinic
               </Link>
               . As an alternative to general anesthesia, percutaneous discectomy
               uses local anesthetic. An office setting is the most common
@@ -160,7 +160,7 @@ const ServiceDetailsContent = () => {
               functional capacity, after undergoing a percutaneous discectomy
               performed by a{" "}
               <Link
-                href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
+                href="/meet-our-team/rao-k-ali/"
                 rel="preload"
               >
                 pain doctor in Dallas.

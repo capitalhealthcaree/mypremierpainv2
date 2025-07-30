@@ -61,7 +61,7 @@ const Contact = () => {
 
       <div className="map-area">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3372.285940072238!2d-96.638415!3d32.304170899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864edbbcf119b843%3A0x9f598be011ab21b!2s2200%20Physicians%20Blvd%2C%20Ennis%2C%20TX%2075119%2C%20USA!5e0!3m2!1sen!2s!4v1698867578841!5m2!1sen!2s"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3372.2916487122457!2d-96.6387649!3d32.3040175!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864edb70ea6b0c1b%3A0x8c4f2b5b62f75055!2sPremier%20Pain%20Centers%20%3A%20Ennis!5e0!3m2!1sen!2s!4v1753897232434!5m2!1sen!2s"
           height="550"
           loading="lazy"
         ></iframe>

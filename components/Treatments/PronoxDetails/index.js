@@ -35,7 +35,7 @@ const ServiceDetailsContent = () => {
               touch. In medical environments, where patients may already feel
               vulnerable, the presence of a caring and empathetic{" "}
               <Link
-                href="/meet-our-team/dr-muhammad-zulqarnain-dr-z-/"
+                href="/meet-our-team/rao-k-ali/"
                 rel="preload"
               >
                 pain doctor in Dallas
@@ -137,8 +137,8 @@ const ServiceDetailsContent = () => {
               of vulnerability, it is the warmth of a smile, the sound of a kind
               voice, and the touch of a caring hand that can make all the
               difference in the world. At{" "}
-              <Link href="/contact-locations/lancaster/" rel="preload">
-                spine and pain clinic lancaster
+              <Link href="/contact-locations/desoto/" rel="preload">
+                spine and pain clinic Desoto
               </Link>
               , we serve as a beacon of hope, ushering in a new era of{" "}
               <Link href="/" rel="preload">
