@@ -93,7 +93,8 @@ const Footer = () => {
                     </li> */}
                     <li style={{ marginRight: "10px" }}>
                       <a
-                        href="https://www.linkedin.com/in/premier-pain-centers-08582018a/"
+                        // href="https://www.linkedin.com/in/premier-pain-centers-08582018a/"
+                        href="https://www.linkedin.com/company/premier-pain-centers-in-dallas/"
                         // href="https://www.linkedin.com/in/premier-pain-centers/"
                         aria-label="Linkedin"
                         target="_blank"
