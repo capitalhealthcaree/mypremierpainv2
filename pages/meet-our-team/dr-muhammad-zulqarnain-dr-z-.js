@@ -21,7 +21,7 @@ const DoctorDetails = () => {
         <title>MUHAMMAD ZULQARNAIN, MD: Pain Management Physician</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/meet-our-team/rao-k-ali/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/meet-our-team/dr-muhammad-zulqarnain-dr-z-/`}
         />
         <meta
           name="description"
