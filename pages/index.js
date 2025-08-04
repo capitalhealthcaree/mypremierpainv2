@@ -2,6 +2,8 @@ import React from "react";
 import Head from "next/head";
 import dynamic from "next/dynamic";
 
+import HomeSchema from "../components/Schemas/homeSchema";
+
 const Navbar = dynamic(() => import("../components/_App/Navbar"));
 
 const NavbarAppointment = dynamic(() =>
@@ -40,6 +42,7 @@ const Index = () => {
       <Head>
         <link rel="canonical" href="https://www.mypremierpain.com/" />
       </Head>
+      <HomeSchema />
       <Navbar />
       <NavbarAppointment />
       <MainBanner />
