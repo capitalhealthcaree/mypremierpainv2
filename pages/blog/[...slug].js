@@ -81,11 +81,31 @@ const BlogDetails = ({ items }) => {
 export default BlogDetails;
 
 export const getServerSideProps = async ({ query: { slug } }) => {
-  const singleBlog = await api.get("blogs/" + slug[0] + "/" + slug[1]);
+  let apiUrl = "";
+
+  if (slug.length === 2) {
+    // category + slug
+    apiUrl = `blogs/${slug[0]}/${slug[1]}`;
+  } else if (slug.length === 1) {
+    // slug only
+    apiUrl = `blogs/${slug[0]}`;
+  }
+
+  const singleBlog = await api.get(apiUrl);
   const data = singleBlog?.data?.data || {};
+
   return {
     props: {
       items: data,
     },
   };
 };
+// export const getServerSideProps = async ({ query: { slug } }) => {
+//   const singleBlog = await api.get("blogs/" + slug[0] + "/" + slug[1]);
+//   const data = singleBlog?.data?.data || {};
+//   return {
+//     props: {
+//       items: data,
+//     },
+//   };
+// };
