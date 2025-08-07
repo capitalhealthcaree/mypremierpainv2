@@ -18,6 +18,20 @@ const nextConfig = {
     locales: ["en", "ar"],
     defaultLocale: "en",
   },
+  async redirects() {
+    return [
+      {
+        source: "/contact-locations/lancaster/",
+        destination: "/contact-locations/desoto/",
+        permanent: true,
+      },
+      {
+        source: "/meet-our-team/dr-muhammad-zulqarnain-dr-z-/",
+        destination: "/meet-our-team/",
+        permanent: true,
+      },
+    ];
+  },
 
   //   async redirects() {
   //     return [
