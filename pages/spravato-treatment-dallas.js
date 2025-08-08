@@ -7,45 +7,58 @@ const NavbarAppointment = dynamic(() =>
   import("../components/_App/NavbarAppointment")
 );
 
-const PageBanner = dynamic(() => import("../components/Common/PageBanner"));
-
-const WhySec = dynamic(() =>
-  import("../components/KetamineInfusionTherapy/Why")
+const PsychiatryBanner = dynamic(() =>
+  import("../components/SpravatoPage/PsychiatryBanner")
 );
 
-const Faqs = dynamic(() =>
-  import("../components/KetamineInfusionTherapy/Faqs")
+const FirstSection = dynamic(() =>
+  import("../components/SpravatoPage/FirstSection")
+);
+
+const WhatPsychiatry = dynamic(() =>
+  import("../components/SpravatoPage/WhatPsychiatry")
+);
+
+const ExpertHelpSection = dynamic(() =>
+  import("../components/SpravatoPage/ExpertHelpSection")
+);
+
+const TreatmentsSection = dynamic(() =>
+  import("../components/SpravatoPage/TreatmentsSection")
+);
+
+const MeetTeam = dynamic(() => import("../components/SpravatoPage/MeetTeam"));
+
+const WhyChooseSection = dynamic(() =>
+  import("../components/SpravatoPage/WhyChooseSection")
 );
 
 const AppointmentForm = dynamic(() =>
   import("../components/Home/AppointmentForm")
 );
-const TmsCandidate = dynamic(() =>
-  import("../components/KetamineInfusionTherapy/TmsCandidate")
+
+const PsychiatricServices = dynamic(() =>
+  import("../components/SpravatoPage/PsychiatricServices")
 );
 
-const WhyChooseKT = dynamic(() =>
-  import("../components/KetamineInfusionTherapy/WhyChooseKT")
-);
-
-const TmsInsurance = dynamic(() =>
-  import("../components/KetamineInfusionTherapy/TmsInsurance")
+const ADHDTesting = dynamic(() =>
+  import("../components/SpravatoPage/ADHDTesting")
 );
 
 const Footer = dynamic(() => import("../components/_App/Footer"));
 
-const Index = () => {
+export default function Psychiatry() {
   return (
     <>
       <Head>
-        <title>Ketamine Infusion Therapy | Premier Pain Centers</title>
+        <title>Spravato® Treatment in Dallas | Premier Pain Centers</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/ketamine-infusion-therapy/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/spravato-treatment-dallas/`}
         />
         <meta
           name="description"
-          content="Ketamine Infusion Therapy at Premier Pain Centers helps manage chronic pain and depression. Book an appointment in Dallas, Plano, Mesquite & nearby areas."
+          content="FDA-approved Spravato® for treatment-resistant depression in Dallas. Fast relief, safe in-clinic care, and expert psychiatric support."
         />
         <meta name="robots" content="noindex, nofollow" />
         <meta content="text/html; charset=utf-8" httpEquiv="Content-Type" />
@@ -55,22 +68,14 @@ const Index = () => {
       </Head>
       <Navbar />
       <NavbarAppointment />
-      <PageBanner
-        pageTitle="Ketamine Infusion Therapy"
-        homePageUrl="/"
-        homePageText="Home"
-        activePageText="back-pain"
-        bgImage="http://res.cloudinary.com/dngmflrpx/image/upload/v1736448787/tms-therapy/qryti5csh5deyftfkdvk.jpg"
-      />
-      <WhySec />
-      <TmsCandidate />
-      <WhyChooseKT />
+      <PsychiatryBanner />
+      <FirstSection />
+      <WhatPsychiatry />
+      <ExpertHelpSection />
+      <TreatmentsSection />
+      <MeetTeam />
       <AppointmentForm />
-      <TmsInsurance />
-      <Faqs />
       <Footer />
     </>
   );
-};
-
-export default Index;
+}
