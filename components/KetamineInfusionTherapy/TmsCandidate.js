@@ -7,7 +7,7 @@ const About = () => {
             <div className="col-lg-6">
               <div className="symptoms-img">
                 <img
-                  src="http://res.cloudinary.com/dngmflrpx/image/upload/v1736449068/tms-therapy/clrzo54zcmuhq0oxzavm.jpg"
+                  src="/images/ketamine/1.jpg"
                   alt="Symptoms"
                 />
               </div>
