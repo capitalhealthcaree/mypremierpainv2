@@ -1,6 +1,4 @@
-import React from "react";
 import Link from "next/link";
-import Image from "next/image";
 
 const About = () => {
   return (
@@ -19,14 +17,6 @@ const About = () => {
 
             <div className="col-lg-6">
               <div className="about-item about-right">
-                <Image
-                  src="http://res.cloudinary.com/dngmflrpx/image/upload/v1734992324/tr5zkiagbamsg84bfmbx.webp"
-                  alt="About"
-                  width={500}
-                  height={640}
-                  loading="lazy"
-                />
-
                 <h2>Multidisciplinary Pain Management in Richardson</h2>
                 <h4>Reliable, Patient-Focused Care</h4>
                 <p>

@@ -12,9 +12,15 @@ const NavbarAppointment = dynamic(() =>
 
 const MainBanner = dynamic(() => import("../components/Home/MainBanner"));
 
+const FirstSection = dynamic(() => import("../components/Home/FirstSection"));
+
 const About = dynamic(() => import("../components/Home/About"));
 
 const OurServices = dynamic(() => import("../components/Home/OurServices"));
+
+const WelcomeNewPatients = dynamic(() =>
+  import("../components/Home/WelcomeNewPatients")
+);
 
 const KetamineSpravato = dynamic(() =>
   import("../components/Home/KetamineSpravato")
@@ -50,8 +56,10 @@ const Index = () => {
       <Navbar />
       <NavbarAppointment />
       <MainBanner />
+      <FirstSection />
       <About />
       <OurServices />
+      <WelcomeNewPatients />
       <KetamineSpravato />
       <Treatments />
       <AppointmentForm />
