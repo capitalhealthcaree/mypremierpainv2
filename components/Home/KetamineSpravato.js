@@ -13,6 +13,12 @@ const outServices = [
     des: "FDA-approved Spravato® treatment in Dallas for depression, anxiety, PTSD, fast-acting relief, safe environment, expert psychiatric care for lasting wellness.",
     href: "/spravato-treatment-dallas/",
   },
+  {
+    imgSrc: "/images/psychiatry.jpg",
+    name: "Psychiatry",
+    des: "At Premier Pain Centers, our psychiatry services support patients in Dallas and surrounding areas by addressing the emotional and mental health aspects of chronic pain, helping improve overall.",
+    href: "/psychiatric-services-in-dallas-tx/",
+  },
 ];
 const OurServices = () => {
   return (
@@ -20,23 +26,19 @@ const OurServices = () => {
       <div className="blog-area my-5">
         <div className="container">
           <div className="section-title">
-            <h3>
-              Ketamine & Spravato® Treatments in Dallas – Premier Pain Centers
-            </h3>
+            <h3>Look to Us for Premier Service in Dallas</h3>
             <p className="mt-3">
-              At Premier Pain Centers in Dallas, we provide advanced treatments
-              like Ketamine Infusion Therapy and Spravato® (Esketamine Nasal
-              Spray) for treatment-resistant depression, anxiety, PTSD, and
-              other mood disorders. These proven therapies deliver fast relief
-              and lasting results in a safe, supportive setting — helping you
-              restore balance, rediscover hope, and regain control of your life.
+              At Premier Pain Centers, serving Dallas and nearby areas, our
+              board-certified physicians offer ketamine therapies, Spravato, and
+              psychiatry services. We create personalized plans, from infusions
+              to therapy sessions, to help you achieve the best results.
             </p>
           </div>
 
           <div className="row justify-content-center ">
             {outServices.map((item, i) => {
               return (
-                <div className="col-md-6 col-lg-6" key={i}>
+                <div className="col-md-4 col-lg-4" key={i}>
                   <div className="blog-item">
                     <div className="blog-top">
                       <Link href={item.href} rel="preload">
