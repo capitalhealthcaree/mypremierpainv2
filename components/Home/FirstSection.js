@@ -8,7 +8,7 @@ const Services = () => {
               <div className="service-item">
                 <div className="service-front">
                   <img src="/images/medical-team.png" alt="Spread" />
-                  <h3 className="mt-3">Our Dallas Pain Doctors</h3>
+                  <h3 className="mt-3">Our Pain Doctors</h3>
                   <p>
                     Our board-certified pain doctors in Dallas use a
                     comprehensive, multimodal approach to relieve pain and

@@ -16,6 +16,8 @@ const FirstSection = dynamic(() => import("../components/Home/FirstSection"));
 
 const About = dynamic(() => import("../components/Home/About"));
 
+const Insurance = dynamic(() => import("../components/Home/Insurance"));
+
 const OurServices = dynamic(() => import("../components/Home/OurServices"));
 
 const WelcomeNewPatients = dynamic(() =>
@@ -61,6 +63,7 @@ const Index = () => {
       <OurServices />
       <WelcomeNewPatients />
       <KetamineSpravato />
+      <Insurance />
       <Treatments />
       <AppointmentForm />
       <OurMission />

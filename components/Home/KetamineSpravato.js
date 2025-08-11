@@ -4,7 +4,7 @@ const outServices = [
   {
     imgSrc: "/images/ketamine.jpg",
     name: "Ketamine Infusion Therapy",
-    des: " Advanced Ketamine infusion therapy in Dallas for treatment-resistant depression, anxiety, PTSD, rapid results, supportive setting, restore balance.",
+    des: "Our Advanced Ketamine infusion therapy in Dallas for treatment-resistant depression, anxiety, PTSD, rapid results, supportive setting, restore balance.",
     href: "/ketamine-infusion-therapy/",
   },
   {
