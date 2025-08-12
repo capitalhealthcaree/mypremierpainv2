@@ -17,24 +17,37 @@ const About = () => {
 
             <div className="col-lg-6">
               <div className="about-item about-right">
-                <h2>Multidisciplinary Pain Management in Richardson</h2>
-                <h4>Reliable, Patient-Focused Care</h4>
+                <h2 style={{ fontSize: "33px" }}>
+                  Comprehensive Pain Management in Dallas and Surrounding Areas
+                </h2>
+                <h4>Trusted Care. Lasting Relief.</h4>
                 <p>
-                  At Premier Pain Centers, we provide patients in Richardson,
-                  Fort Worth, and the surrounding areas with treatments for a
-                  multitude of conditions and all levels of pain. Our
-                  professionals are trained to tailor our treatment plans to
-                  your needs and get you back to a better quality of life.
+                  At Premier Pain Centers, we provide advanced,
+                  multidisciplinary pain management for patients across Dallas,
+                  Fort Worth, and surrounding Northern Texas communities,
+                  including Richardson, Plano, Mesquite, DeSoto, Lancaster,
+                  Waxahachie, Kaufman, Ennis and Gun Barrel City. Our mission is
+                  to deliver personalized treatment that addresses your unique
+                  needs, helping you reduce pain, improve mobility and restore
+                  your quality of life.
                 </p>
                 <p>
-                  Because of our wide array of treatments, our team can help
-                  with nearly every type of muscle and joint condition. Since
-                  2008, we have helped numerous patients recover from pain
-                  quickly and increase their mobility and overall function. To
-                  maximize patient convenience, we are available for same-day
-                  appointments and offer services in Spanish and Hindi. We will
-                  begin every treatment with a consultation so we can better
-                  understand your unique goals.
+                  Our Dallas pain clinic offers a full spectrum of
+                  interventional and non-invasive treatments for spine, muscle,
+                  joint and nerve-related conditions. Since 2008, our double
+                  board-certified{" "}
+                  <Link href="/meet-our-team/rao-k-ali/" rel="preload">
+                    pain physician in Dallas
+                  </Link>
+                  , Dr. Rao K. Ali, has helped thousands of patients find relief
+                  through procedures such as epidural injections, nerve blocks,
+                  radiofrequency ablation, and kyphoplasty.
+                </p>
+                <p>
+                  Every visit begins with a detailed consultation so we can
+                  understand your symptoms, medical history, and goals, helping
+                  you receive the most effective, least invasive treatment
+                  possible.
                 </p>
 
                 <Link href="/appointment/" rel="preload">
