@@ -36,9 +36,19 @@ const About = () => {
                   interventional and non-invasive treatments for spine, muscle,
                   joint and nerve-related conditions. Since 2008, our double
                   board-certified{" "}
-                  <Link href="/meet-our-team/rao-k-ali/" rel="preload">
+                  <a
+                    href="/meet-our-team/rao-k-ali/"
+                    rel="preload"
+                    style={{
+                      color: "#0046c0",
+                      backgroundColor: "transparent",
+                      fontWeight: "normal",
+                      padding: "0",
+                      borderRadius: "0",
+                    }}
+                  >
                     pain physician in Dallas
-                  </Link>
+                  </a>
                   , Dr. Rao K. Ali, has helped thousands of patients find relief
                   through procedures such as epidural injections, nerve blocks,
                   radiofrequency ablation, and kyphoplasty.
