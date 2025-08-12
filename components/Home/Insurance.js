@@ -8,77 +8,158 @@ const InsuranceCarousel = () => {
   const insuranceLogos = [
     {
       name: "All Savers",
-      logo: "/images/insurance/1.jpg", // Replace with actual logo path
+      logo: "/images/insurance/01.jpg",
       alt: "All Savers Insurance",
     },
     {
       name: "Wellcare",
-      logo: "/images/insurance/2.jpg", // Replace with actual logo path
+      logo: "/images/insurance/02.jpg",
       alt: "Wellcare Insurance",
     },
     {
       name: "Bright HealthCare",
-      logo: "/images/insurance/3.jpg", // Replace with actual logo path
+      logo: "/images/insurance/03.jpg",
       alt: "Bright HealthCare Insurance",
     },
     {
       name: "Tricare",
-      logo: "/images/insurance/4.jpg", // Replace with actual logo path
+      logo: "/images/insurance/04.jpg",
       alt: "Tricare Insurance",
     },
     {
       name: "Humana",
-      logo: "/images/insurance/5.jpg", // Replace with actual logo path
+      logo: "/images/insurance/05.jpg",
       alt: "Humana Insurance",
     },
     {
       name: "Humana",
-      logo: "/images/insurance/6.jpg", // Replace with actual logo path
+      logo: "/images/insurance/06.jpg",
+      alt: "Humana Insurance",
+    },
+    {
+      name: "Humana",
+      logo: "/images/insurance/07.jpg",
+      alt: "Humana Insurance",
+    },
+    {
+      name: "Humana",
+      logo: "/images/insurance/08.jpg",
+      alt: "Humana Insurance",
+    },
+    {
+      name: "Humana",
+      logo: "/images/insurance/09.jpg",
       alt: "Humana Insurance",
     },
   ];
 
-  // Auto-play functionality
+  // Auto-play functionality - only for mobile
   useEffect(() => {
-    if (isAutoPlaying) {
+    if (
+      isAutoPlaying &&
+      typeof window !== "undefined" &&
+      window.innerWidth < 1024
+    ) {
       const interval = setInterval(() => {
         setCurrentSlide((prev) => (prev + 1) % getTotalSlides());
-      }, 3000);
+      }, 2000);
       return () => clearInterval(interval);
     }
   }, [isAutoPlaying, currentSlide]);
 
   const getTotalSlides = () => {
     if (typeof window !== "undefined") {
-      if (window.innerWidth >= 1024) return 1; // Desktop - show all
-      if (window.innerWidth >= 768) return Math.ceil(insuranceLogos.length / 3); // Tablet - 3 per slide
       return Math.ceil(insuranceLogos.length / 2); // Mobile - 2 per slide
     }
     return 1;
   };
 
-  const nextSlide = () => {
-    setCurrentSlide((prev) => (prev + 1) % getTotalSlides());
-  };
-
-  const prevSlide = () => {
-    setCurrentSlide((prev) => (prev - 1 + getTotalSlides()) % getTotalSlides());
-  };
-
-  const getLogosPerSlide = () => {
-    if (typeof window !== "undefined") {
-      if (window.innerWidth >= 1024) return 5; // Desktop
-      if (window.innerWidth >= 768) return 3; // Tablet
-      return 2; // Mobile
-    }
-    return 5;
-  };
-
   const renderLogos = () => {
-    const logosPerSlide = getLogosPerSlide();
-
     if (typeof window !== "undefined" && window.innerWidth >= 1024) {
-      // Desktop - show all logos statically
+      // Desktop - continuous scrolling animation
+      return (
+        <div
+          style={{
+            overflow: "hidden",
+            width: "100%",
+          }}
+        >
+          <div
+            style={{
+              display: "flex",
+              gap: "20px",
+              animation: "scroll 40s linear infinite",
+              width: "fit-content",
+            }}
+          >
+            {/* First set of logos */}
+            {insuranceLogos.map((insurance, index) => (
+              <div
+                key={index}
+                style={{
+                  backgroundColor: "white",
+                  borderRadius: "8px",
+                  boxShadow: "0 2px 10px rgba(0,0,0,0.1)",
+                  width: "160px",
+                  height: "120px",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  padding: "20px",
+                  flexShrink: 0,
+                }}
+              >
+                <img
+                  src={insurance.logo}
+                  alt={insurance.alt}
+                  style={{
+                    maxWidth: "120px",
+                    maxHeight: "80px",
+                    objectFit: "contain",
+                  }}
+                />
+              </div>
+            ))}
+            {/* Duplicate set for seamless loop */}
+            {insuranceLogos.map((insurance, index) => (
+              <div
+                key={`duplicate-${index}`}
+                style={{
+                  backgroundColor: "white",
+                  borderRadius: "8px",
+                  boxShadow: "0 2px 10px rgba(0,0,0,0.1)",
+                  width: "160px",
+                  height: "120px",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  padding: "20px",
+                  flexShrink: 0,
+                }}
+              >
+                <img
+                  src={insurance.logo}
+                  alt={insurance.alt}
+                  style={{
+                    maxWidth: "120px",
+                    maxHeight: "80px",
+                    objectFit: "contain",
+                  }}
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+      );
+    } else {
+      // Mobile - slide-based carousel
+      const logosPerSlide = 2;
+      const startIndex = currentSlide * logosPerSlide;
+      const currentLogos = insuranceLogos.slice(
+        startIndex,
+        startIndex + logosPerSlide
+      );
+
       return (
         <div
           style={{
@@ -88,28 +169,29 @@ const InsuranceCarousel = () => {
             flexWrap: "wrap",
           }}
         >
-          {insuranceLogos.map((insurance, index) => (
+          {currentLogos.map((insurance, index) => (
             <div
               key={index}
               style={{
                 backgroundColor: "white",
                 borderRadius: "8px",
                 boxShadow: "0 2px 10px rgba(0,0,0,0.1)",
-                width: "160px",
-                height: "120px",
+                width: "140px",
+                height: "100px",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
-                padding: "20px",
+                padding: "15px",
                 margin: "10px",
+                flex: "0 0 calc(50% - 30px)",
               }}
             >
               <img
                 src={insurance.logo}
                 alt={insurance.alt}
                 style={{
-                  maxWidth: "120px",
-                  maxHeight: "80px",
+                  maxWidth: "110px",
+                  maxHeight: "70px",
                   objectFit: "contain",
                 }}
               />
@@ -118,62 +200,7 @@ const InsuranceCarousel = () => {
         </div>
       );
     }
-
-    // Tablet and Mobile - carousel
-    const startIndex = currentSlide * logosPerSlide;
-    const currentLogos = insuranceLogos.slice(
-      startIndex,
-      startIndex + logosPerSlide
-    );
-
-    return (
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          gap: "20px",
-          flexWrap: "wrap",
-        }}
-      >
-        {currentLogos.map((insurance, index) => (
-          <div
-            key={index}
-            style={{
-              backgroundColor: "white",
-              borderRadius: "8px",
-              boxShadow: "0 2px 10px rgba(0,0,0,0.1)",
-              width: logosPerSlide === 2 ? "140px" : "160px",
-              height: logosPerSlide === 2 ? "100px" : "120px",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              padding: logosPerSlide === 2 ? "10px" : "15px",
-              margin: "10px",
-              flex:
-                logosPerSlide === 2
-                  ? "0 0 calc(50% - 30px)"
-                  : "0 0 calc(33.333% - 27px)",
-            }}
-          >
-            <img
-              src={insurance.logo}
-              alt={insurance.alt}
-              style={{
-                maxWidth: "100%",
-                maxHeight: logosPerSlide === 2 ? "80px" : "90px",
-                objectFit: "contain",
-              }}
-            />
-          </div>
-        ))}
-      </div>
-    );
   };
-
-  const showControls =
-    typeof window !== "undefined" &&
-    window.innerWidth < 1024 &&
-    getTotalSlides() > 1;
 
   return (
     <div
@@ -200,77 +227,8 @@ const InsuranceCarousel = () => {
             minWidth: "300px",
             position: "relative",
           }}
-          onMouseEnter={() => setIsAutoPlaying(false)}
-          onMouseLeave={() => setIsAutoPlaying(true)}
         >
           {renderLogos()}
-
-          {/* Navigation Controls */}
-          {showControls && (
-            <>
-              <button
-                onClick={prevSlide}
-                style={{
-                  position: "absolute",
-                  left: "-20px",
-                  top: "50%",
-                  transform: "translateY(-50%)",
-                  backgroundColor: "rgba(255, 255, 255, 0.8)",
-                  border: "none",
-                  borderRadius: "50%",
-                  width: "40px",
-                  height: "40px",
-                  cursor: "pointer",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  fontSize: "18px",
-                  color: "#2c5f7a",
-                  transition: "all 0.3s ease",
-                  zIndex: 10,
-                }}
-                onMouseOver={(e) =>
-                  (e.target.style.backgroundColor = "rgba(255, 255, 255, 1)")
-                }
-                onMouseOut={(e) =>
-                  (e.target.style.backgroundColor = "rgba(255, 255, 255, 0.8)")
-                }
-              >
-                &#8249;
-              </button>
-
-              <button
-                onClick={nextSlide}
-                style={{
-                  position: "absolute",
-                  right: "-20px",
-                  top: "50%",
-                  transform: "translateY(-50%)",
-                  backgroundColor: "rgba(255, 255, 255, 0.8)",
-                  border: "none",
-                  borderRadius: "50%",
-                  width: "40px",
-                  height: "40px",
-                  cursor: "pointer",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  fontSize: "18px",
-                  color: "#2c5f7a",
-                  transition: "all 0.3s ease",
-                  zIndex: 10,
-                }}
-                onMouseOver={(e) =>
-                  (e.target.style.backgroundColor = "rgba(255, 255, 255, 1)")
-                }
-                onMouseOut={(e) =>
-                  (e.target.style.backgroundColor = "rgba(255, 255, 255, 0.8)")
-                }
-              >
-                &#8250;
-              </button>
-            </>
-          )}
         </div>
 
         {/* Right side - Text Content */}
@@ -303,8 +261,9 @@ const InsuranceCarousel = () => {
               margin: "0 0 30px 0",
             }}
           >
-            We accept all major and commercial insurance plans to make your care
-            as accessible as possible.
+            At Premier Pain Centers, we accept most major insurance plans. Here
+            is a list of some of the plans we accept. Please contact our office
+            if you do not see your insurance provider listed.
           </p>
           <button
             style={{
@@ -342,6 +301,15 @@ const InsuranceCarousel = () => {
 
       {/* Responsive Styles */}
       <style jsx>{`
+        @keyframes scroll {
+          0% {
+            transform: translateX(0);
+          }
+          100% {
+            transform: translateX(-50%);
+          }
+        }
+
         @media (max-width: 768px) {
           div[style*="flex: 1 1 600px"] {
             flex: 1 1 100%;
