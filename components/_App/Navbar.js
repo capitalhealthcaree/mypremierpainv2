@@ -3223,7 +3223,7 @@
 //   }, [router]);
 
 //   const [menu, setMenu] = React.useState(true);
-  
+
 //   // State for dropdown menus - ALL CLOSED BY DEFAULT
 //   const [dropdownStates, setDropdownStates] = useState({
 //     conditions: false,
@@ -3242,7 +3242,7 @@
 //   const toggleDropdown = (dropdownName, e) => {
 //     e.preventDefault();
 //     e.stopPropagation();
-    
+
 //     // Check if it's mobile view
 //     if (window.innerWidth <= 991) {
 //       setDropdownStates(prev => {
@@ -3311,7 +3311,7 @@
 //     };
 
 //     document.addEventListener('click', handleClickOutside);
-    
+
 //     return () => {
 //       document.removeEventListener('click', handleClickOutside);
 //     };
@@ -3349,7 +3349,7 @@
 //         .dropdown-toggle {
 //           cursor: pointer;
 //         }
-        
+
 //         /* Desktop hover styles */
 //         @media (min-width: 992px) {
 //           .dropdown-toggle::after {
@@ -3367,7 +3367,7 @@
 //             transform: rotate(180deg);
 //           }
 //         }
-        
+
 //         .dropdown-menu .nav-link {
 //           display: block;
 //           padding: 8px 15px;
@@ -3467,7 +3467,7 @@
 //                     </Link>
 //                   </li>
 
-//                   <li 
+//                   <li
 //                     className="nav-item"
 //                     onMouseEnter={() => handleMouseEnter('conditions')}
 //                     onMouseLeave={() => handleMouseLeave('conditions')}
@@ -3612,7 +3612,7 @@
 //                     </ul>
 //                   </li>
 
-//                   <li 
+//                   <li
 //                     className="nav-item"
 //                     onMouseEnter={() => handleMouseEnter('psychiatry')}
 //                     onMouseLeave={() => handleMouseLeave('psychiatry')}
@@ -3682,7 +3682,7 @@
 //                     </ul>
 //                   </li>
 
-//                   <li 
+//                   <li
 //                     className="nav-item"
 //                     onMouseEnter={() => handleMouseEnter('treatments')}
 //                     onMouseLeave={() => handleMouseLeave('treatments')}
@@ -3901,7 +3901,7 @@
 //                     </ul>
 //                   </li>
 
-//                   <li 
+//                   <li
 //                     className="nav-item"
 //                     onMouseEnter={() => handleMouseEnter('team')}
 //                     onMouseLeave={() => handleMouseLeave('team')}
@@ -3986,7 +3986,7 @@
 //                     </ul>
 //                   </li>
 
-//                   <li 
+//                   <li
 //                     className="nav-item"
 //                     onMouseEnter={() => handleMouseEnter('contact')}
 //                     onMouseLeave={() => handleMouseLeave('contact')}
@@ -4166,7 +4166,7 @@
 //                     </ul>
 //                   </li>
 
-//                   <li 
+//                   <li
 //                     className="nav-item"
 //                     onMouseEnter={() => handleMouseEnter('more')}
 //                     onMouseLeave={() => handleMouseLeave('more')}
@@ -4355,7 +4355,7 @@ const Navbar = () => {
   }, [router]);
 
   const [menu, setMenu] = React.useState(true);
-  
+
   // State for dropdown menus - ALL CLOSED BY DEFAULT
   const [dropdownStates, setDropdownStates] = useState({
     conditions: false,
@@ -4363,7 +4363,7 @@ const Navbar = () => {
     treatments: false,
     team: false,
     contact: false,
-    more: false
+    more: false,
   });
 
   const toggleNavbar = () => {
@@ -4374,10 +4374,10 @@ const Navbar = () => {
   const toggleDropdown = (dropdownName, e) => {
     e.preventDefault();
     e.stopPropagation();
-    
+
     // Only toggle for mobile view
     if (window.innerWidth <= 991) {
-      setDropdownStates(prev => {
+      setDropdownStates((prev) => {
         // Close all other dropdowns and toggle the clicked one
         const newState = {
           conditions: false,
@@ -4385,7 +4385,7 @@ const Navbar = () => {
           treatments: false,
           team: false,
           contact: false,
-          more: false
+          more: false,
         };
         newState[dropdownName] = !prev[dropdownName];
         return newState;
@@ -4397,8 +4397,8 @@ const Navbar = () => {
   const handleMobileIconClick = (dropdownName, e) => {
     e.preventDefault();
     e.stopPropagation();
-    
-    setDropdownStates(prev => {
+
+    setDropdownStates((prev) => {
       // Close all other dropdowns and toggle the clicked one
       const newState = {
         conditions: false,
@@ -4406,7 +4406,7 @@ const Navbar = () => {
         treatments: false,
         team: false,
         contact: false,
-        more: false
+        more: false,
       };
       newState[dropdownName] = !prev[dropdownName];
       return newState;
@@ -4416,9 +4416,9 @@ const Navbar = () => {
   // Handle mouse enter for desktop hover
   const handleMouseEnter = (dropdownName) => {
     if (window.innerWidth > 991) {
-      setDropdownStates(prev => ({
+      setDropdownStates((prev) => ({
         ...prev,
-        [dropdownName]: true
+        [dropdownName]: true,
       }));
     }
   };
@@ -4426,9 +4426,9 @@ const Navbar = () => {
   // Handle mouse leave for desktop hover
   const handleMouseLeave = (dropdownName) => {
     if (window.innerWidth > 991) {
-      setDropdownStates(prev => ({
+      setDropdownStates((prev) => ({
         ...prev,
-        [dropdownName]: false
+        [dropdownName]: false,
       }));
     }
   };
@@ -4441,7 +4441,7 @@ const Navbar = () => {
       treatments: false,
       team: false,
       contact: false,
-      more: false
+      more: false,
     });
   };
 
@@ -4457,15 +4457,15 @@ const Navbar = () => {
 
     // Add click event listener to close dropdowns when clicking outside
     const handleClickOutside = (event) => {
-      if (!event.target.closest('.nav-item')) {
+      if (!event.target.closest(".nav-item")) {
         closeAllDropdowns();
       }
     };
 
-    document.addEventListener('click', handleClickOutside);
-    
+    document.addEventListener("click", handleClickOutside);
+
     return () => {
-      document.removeEventListener('click', handleClickOutside);
+      document.removeEventListener("click", handleClickOutside);
     };
   }, []);
 
@@ -4488,7 +4488,7 @@ const Navbar = () => {
           background-color: white;
           border: 1px solid #ddd;
           border-radius: 4px;
-          box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+          box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
           min-width: 200px;
           padding: 10px 0;
         }
@@ -4501,7 +4501,7 @@ const Navbar = () => {
         .dropdown-toggle {
           cursor: pointer;
         }
-        
+
         /* Desktop hover styles */
         @media (min-width: 992px) {
           .dropdown-toggle::after {
@@ -4519,7 +4519,7 @@ const Navbar = () => {
             transform: rotate(180deg);
           }
         }
-        
+
         .dropdown-menu .nav-link {
           display: block;
           padding: 8px 15px;
@@ -4621,28 +4621,34 @@ const Navbar = () => {
                     </Link>
                   </li>
 
-                  <li 
+                  <li
                     className="nav-item"
-                    onMouseEnter={() => handleMouseEnter('conditions')}
-                    onMouseLeave={() => handleMouseLeave('conditions')}
+                    onMouseEnter={() => handleMouseEnter("conditions")}
+                    onMouseLeave={() => handleMouseLeave("conditions")}
                   >
                     <Link
                       href="/conditions-we-treat/"
                       className={`nav-link dropdown-toggle ${
                         currentPath === "/conditions-we-treat/" && "active"
-                      } ${dropdownStates.conditions ? 'open' : ''}`}
+                      } ${dropdownStates.conditions ? "open" : ""}`}
                       rel="preload"
                     >
                       <span>Conditions We Treat</span>
-                      <span 
-                        className={`mobile-dropdown-icon ${dropdownStates.conditions ? 'open' : ''}`}
-                        onClick={(e) => handleMobileIconClick('conditions', e)}
+                      <span
+                        className={`mobile-dropdown-icon ${
+                          dropdownStates.conditions ? "open" : ""
+                        }`}
+                        onClick={(e) => handleMobileIconClick("conditions", e)}
                       >
                         ▼
                       </span>
                     </Link>
 
-                    <ul className={`dropdown-menu ${dropdownStates.conditions ? 'show' : ''}`}>
+                    <ul
+                      className={`dropdown-menu ${
+                        dropdownStates.conditions ? "show" : ""
+                      }`}
+                    >
                       <li className="nav-item">
                         <Link
                           href="/conditions-we-treat/car-accident-injury/"
@@ -4768,29 +4774,35 @@ const Navbar = () => {
                     </ul>
                   </li>
 
-                  <li 
+                  <li
                     className="nav-item"
-                    onMouseEnter={() => handleMouseEnter('psychiatry')}
-                    onMouseLeave={() => handleMouseLeave('psychiatry')}
+                    onMouseEnter={() => handleMouseEnter("psychiatry")}
+                    onMouseLeave={() => handleMouseLeave("psychiatry")}
                   >
                     <Link
                       href="/psychiatric-services-in-dallas-tx/"
                       className={`nav-link dropdown-toggle ${
                         currentPath == "/psychiatric-services-in-dallas-tx/" &&
                         "active"
-                      } ${dropdownStates.psychiatry ? 'open' : ''}`}
+                      } ${dropdownStates.psychiatry ? "open" : ""}`}
                       rel="preload"
                     >
                       <span>Psychiatry</span>
-                      <span 
-                        className={`mobile-dropdown-icon ${dropdownStates.psychiatry ? 'open' : ''}`}
-                        onClick={(e) => handleMobileIconClick('psychiatry', e)}
+                      <span
+                        className={`mobile-dropdown-icon ${
+                          dropdownStates.psychiatry ? "open" : ""
+                        }`}
+                        onClick={(e) => handleMobileIconClick("psychiatry", e)}
                       >
                         ▼
                       </span>
                     </Link>
 
-                    <ul className={`dropdown-menu ${dropdownStates.psychiatry ? 'show' : ''}`}>
+                    <ul
+                      className={`dropdown-menu ${
+                        dropdownStates.psychiatry ? "show" : ""
+                      }`}
+                    >
                       <li className="nav-item">
                         <Link
                           href="/tms-therapy/"
@@ -4840,28 +4852,34 @@ const Navbar = () => {
                     </ul>
                   </li>
 
-                  <li 
+                  <li
                     className="nav-item"
-                    onMouseEnter={() => handleMouseEnter('treatments')}
-                    onMouseLeave={() => handleMouseLeave('treatments')}
+                    onMouseEnter={() => handleMouseEnter("treatments")}
+                    onMouseLeave={() => handleMouseLeave("treatments")}
                   >
                     <Link
                       href="/treatments/"
                       className={`nav-link dropdown-toggle ${
                         currentPath == "/treatments/" && "active"
-                      } ${dropdownStates.treatments ? 'open' : ''}`}
+                      } ${dropdownStates.treatments ? "open" : ""}`}
                       rel="preload"
                     >
                       <span>Treatments</span>
-                      <span 
-                        className={`mobile-dropdown-icon ${dropdownStates.treatments ? 'open' : ''}`}
-                        onClick={(e) => handleMobileIconClick('treatments', e)}
+                      <span
+                        className={`mobile-dropdown-icon ${
+                          dropdownStates.treatments ? "open" : ""
+                        }`}
+                        onClick={(e) => handleMobileIconClick("treatments", e)}
                       >
                         ▼
                       </span>
                     </Link>
 
-                    <ul className={`dropdown-menu ${dropdownStates.treatments ? 'show' : ''}`}>
+                    <ul
+                      className={`dropdown-menu ${
+                        dropdownStates.treatments ? "show" : ""
+                      }`}
+                    >
                       <li className="nav-item">
                         <Link
                           href="/treatments/hip-joint-injections/"
@@ -5061,28 +5079,34 @@ const Navbar = () => {
                     </ul>
                   </li>
 
-                  <li 
+                  <li
                     className="nav-item"
-                    onMouseEnter={() => handleMouseEnter('team')}
-                    onMouseLeave={() => handleMouseLeave('team')}
+                    onMouseEnter={() => handleMouseEnter("team")}
+                    onMouseLeave={() => handleMouseLeave("team")}
                   >
                     <Link
                       href="/meet-our-team/"
                       className={`nav-link dropdown-toggle ${
                         currentPath == "/meet-our-team/" && "active"
-                      } ${dropdownStates.team ? 'open' : ''}`}
+                      } ${dropdownStates.team ? "open" : ""}`}
                       rel="preload"
                     >
                       <span>Meet Our Team</span>
-                      <span 
-                        className={`mobile-dropdown-icon ${dropdownStates.team ? 'open' : ''}`}
-                        onClick={(e) => handleMobileIconClick('team', e)}
+                      <span
+                        className={`mobile-dropdown-icon ${
+                          dropdownStates.team ? "open" : ""
+                        }`}
+                        onClick={(e) => handleMobileIconClick("team", e)}
                       >
                         ▼
                       </span>
                     </Link>
 
-                    <ul className={`dropdown-menu ${dropdownStates.team ? 'show' : ''}`}>
+                    <ul
+                      className={`dropdown-menu ${
+                        dropdownStates.team ? "show" : ""
+                      }`}
+                    >
                       <li className="nav-item">
                         <Link
                           href="/meet-our-team/rao-k-ali/"
@@ -5148,28 +5172,34 @@ const Navbar = () => {
                     </ul>
                   </li>
 
-                  <li 
+                  <li
                     className="nav-item"
-                    onMouseEnter={() => handleMouseEnter('contact')}
-                    onMouseLeave={() => handleMouseLeave('contact')}
+                    onMouseEnter={() => handleMouseEnter("contact")}
+                    onMouseLeave={() => handleMouseLeave("contact")}
                   >
                     <Link
                       href="/contact-locations/"
                       className={`nav-link dropdown-toggle ${
                         currentPath == "/contact-locations/" && "active"
-                      } ${dropdownStates.contact ? 'open' : ''}`}
+                      } ${dropdownStates.contact ? "open" : ""}`}
                       rel="preload"
                     >
                       <span>Contact & Locations</span>
-                      <span 
-                        className={`mobile-dropdown-icon ${dropdownStates.contact ? 'open' : ''}`}
-                        onClick={(e) => handleMobileIconClick('contact', e)}
+                      <span
+                        className={`mobile-dropdown-icon ${
+                          dropdownStates.contact ? "open" : ""
+                        }`}
+                        onClick={(e) => handleMobileIconClick("contact", e)}
                       >
                         ▼
                       </span>
                     </Link>
 
-                    <ul className={`dropdown-menu ${dropdownStates.contact ? 'show' : ''}`}>
+                    <ul
+                      className={`dropdown-menu ${
+                        dropdownStates.contact ? "show" : ""
+                      }`}
+                    >
                       <li className="nav-item">
                         <Link
                           href="/contact-locations/richardson/"
@@ -5327,13 +5357,25 @@ const Navbar = () => {
                           Gun Barrel City
                         </Link>
                       </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/contact-locations/kaufman/"
+                          className={`nav-link ${
+                            currentPath == "/contact-locations/kaufman/" &&
+                            "active"
+                          }`}
+                          rel="preload"
+                        >
+                          Kaufman
+                        </Link>
+                      </li>
                     </ul>
                   </li>
 
-                  <li 
+                  <li
                     className="nav-item"
-                    onMouseEnter={() => handleMouseEnter('more')}
-                    onMouseLeave={() => handleMouseLeave('more')}
+                    onMouseEnter={() => handleMouseEnter("more")}
+                    onMouseLeave={() => handleMouseLeave("more")}
                   >
                     <a
                       href="#"
@@ -5342,19 +5384,27 @@ const Navbar = () => {
                           e.preventDefault();
                         }
                       }}
-                      className={`nav-link dropdown-toggle ${dropdownStates.more ? 'open' : ''}`}
+                      className={`nav-link dropdown-toggle ${
+                        dropdownStates.more ? "open" : ""
+                      }`}
                       rel="preload"
                     >
                       <span>More</span>
-                      <span 
-                        className={`mobile-dropdown-icon ${dropdownStates.more ? 'open' : ''}`}
-                        onClick={(e) => handleMobileIconClick('more', e)}
+                      <span
+                        className={`mobile-dropdown-icon ${
+                          dropdownStates.more ? "open" : ""
+                        }`}
+                        onClick={(e) => handleMobileIconClick("more", e)}
                       >
                         ▼
                       </span>
                     </a>
 
-                    <ul className={`dropdown-menu ${dropdownStates.more ? 'show' : ''}`}>
+                    <ul
+                      className={`dropdown-menu ${
+                        dropdownStates.more ? "show" : ""
+                      }`}
+                    >
                       <li className="nav-item">
                         <Link
                           href="/blog/"
