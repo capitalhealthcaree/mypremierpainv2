@@ -2321,57 +2321,34 @@ const Navbar = () => {
                         currentPath === "/conditions-we-treat/" && "active"
                       }`}
                       rel="preload"
-                      style={{
-                        // ADDED - Mobile + / - icons
-                        display: "flex",
-                        justifyContent: "space-between",
-                        alignItems: "center",
+                      style={{ // ADDED - Mobile + / - icons
+                        display: 'flex',
+                        justifyContent: 'space-between',
+                        alignItems: 'center'
                       }}
                     >
                       Conditions We Treat
-                      <span
-                        style={{
-                          fontSize: "18px",
-                          fontWeight: "bold",
-                          display:
-                            typeof window !== "undefined" &&
-                            window.innerWidth <= 767
-                              ? "inline"
-                              : "none",
-                        }}
-                      >
+                      <span style={{
+                        fontSize: '18px',
+                        fontWeight: 'bold',
+                        display: typeof window !== 'undefined' && window.innerWidth <= 767 ? 'inline' : 'none'
+                      }}>
                         {activeDropdown === "conditions" ? "−" : "+"}
                       </span>
                     </Link>
 
-                    <ul
-                      className="dropdown-menu"
-                      style={{
-                        // ADDED - Mobile dropdown styling
-                        display:
-                          typeof window !== "undefined" &&
-                          window.innerWidth <= 767
-                            ? activeDropdown === "conditions"
-                              ? "block"
-                              : "none"
-                            : "",
-                        position:
-                          typeof window !== "undefined" &&
-                          window.innerWidth <= 767
-                            ? "static"
-                            : "absolute",
-                        backgroundColor: "#f8f9fa",
-                        border: "none",
-                        boxShadow: "none",
-                        width: "100%",
-                        marginTop: 0,
-                        paddingLeft:
-                          typeof window !== "undefined" &&
-                          window.innerWidth <= 767
-                            ? "20px"
-                            : "0",
-                      }}
-                    >
+                    <ul className="dropdown-menu" style={{ // ADDED - Mobile dropdown styling
+                      display: typeof window !== 'undefined' && window.innerWidth <= 767 
+                        ? (activeDropdown === "conditions" ? "block" : "none")
+                        : '',
+                      position: typeof window !== 'undefined' && window.innerWidth <= 767 ? 'static' : 'absolute',
+                      backgroundColor: '#f8f9fa',
+                      border: 'none',
+                      boxShadow: 'none',
+                      width: '100%',
+                      marginTop: 0,
+                      paddingLeft: typeof window !== 'undefined' && window.innerWidth <= 767 ? '20px' : '0'
+                    }}>
                       <li className="nav-item">
                         <Link
                           href="/conditions-we-treat/car-accident-injury/"
@@ -2517,57 +2494,34 @@ const Navbar = () => {
                         "active"
                       }`}
                       rel="preload"
-                      style={{
-                        // ADDED
-                        display: "flex",
-                        justifyContent: "space-between",
-                        alignItems: "center",
+                      style={{ // ADDED
+                        display: 'flex',
+                        justifyContent: 'space-between',
+                        alignItems: 'center'
                       }}
                     >
                       Psychiatry
-                      <span
-                        style={{
-                          fontSize: "18px",
-                          fontWeight: "bold",
-                          display:
-                            typeof window !== "undefined" &&
-                            window.innerWidth <= 767
-                              ? "inline"
-                              : "none",
-                        }}
-                      >
+                      <span style={{
+                        fontSize: '18px',
+                        fontWeight: 'bold',
+                        display: typeof window !== 'undefined' && window.innerWidth <= 767 ? 'inline' : 'none'
+                      }}>
                         {activeDropdown === "psychiatry" ? "−" : "+"}
                       </span>
                     </Link>
 
-                    <ul
-                      className="dropdown-menu"
-                      style={{
-                        // ADDED
-                        display:
-                          typeof window !== "undefined" &&
-                          window.innerWidth <= 767
-                            ? activeDropdown === "psychiatry"
-                              ? "block"
-                              : "none"
-                            : "",
-                        position:
-                          typeof window !== "undefined" &&
-                          window.innerWidth <= 767
-                            ? "static"
-                            : "absolute",
-                        backgroundColor: "#f8f9fa",
-                        border: "none",
-                        boxShadow: "none",
-                        width: "100%",
-                        marginTop: 0,
-                        paddingLeft:
-                          typeof window !== "undefined" &&
-                          window.innerWidth <= 767
-                            ? "20px"
-                            : "0",
-                      }}
-                    >
+                    <ul className="dropdown-menu" style={{ // ADDED
+                      display: typeof window !== 'undefined' && window.innerWidth <= 767 
+                        ? (activeDropdown === "psychiatry" ? "block" : "none")
+                        : '',
+                      position: typeof window !== 'undefined' && window.innerWidth <= 767 ? 'static' : 'absolute',
+                      backgroundColor: '#f8f9fa',
+                      border: 'none',
+                      boxShadow: 'none',
+                      width: '100%',
+                      marginTop: 0,
+                      paddingLeft: typeof window !== 'undefined' && window.innerWidth <= 767 ? '20px' : '0'
+                    }}>
                       <li className="nav-item">
                         <Link
                           href="/tms-therapy/"
@@ -2629,57 +2583,34 @@ const Navbar = () => {
                         currentPath == "/treatments/" && "active"
                       }`}
                       rel="preload"
-                      style={{
-                        // ADDED
-                        display: "flex",
-                        justifyContent: "space-between",
-                        alignItems: "center",
+                      style={{ // ADDED
+                        display: 'flex',
+                        justifyContent: 'space-between',
+                        alignItems: 'center'
                       }}
                     >
                       Treatments
-                      <span
-                        style={{
-                          fontSize: "18px",
-                          fontWeight: "bold",
-                          display:
-                            typeof window !== "undefined" &&
-                            window.innerWidth <= 767
-                              ? "inline"
-                              : "none",
-                        }}
-                      >
+                      <span style={{
+                        fontSize: '18px',
+                        fontWeight: 'bold',
+                        display: typeof window !== 'undefined' && window.innerWidth <= 767 ? 'inline' : 'none'
+                      }}>
                         {activeDropdown === "treatments" ? "−" : "+"}
                       </span>
                     </Link>
 
-                    <ul
-                      className="dropdown-menu"
-                      style={{
-                        // ADDED
-                        display:
-                          typeof window !== "undefined" &&
-                          window.innerWidth <= 767
-                            ? activeDropdown === "treatments"
-                              ? "block"
-                              : "none"
-                            : "",
-                        position:
-                          typeof window !== "undefined" &&
-                          window.innerWidth <= 767
-                            ? "static"
-                            : "absolute",
-                        backgroundColor: "#f8f9fa",
-                        border: "none",
-                        boxShadow: "none",
-                        width: "100%",
-                        marginTop: 0,
-                        paddingLeft:
-                          typeof window !== "undefined" &&
-                          window.innerWidth <= 767
-                            ? "20px"
-                            : "0",
-                      }}
-                    >
+                    <ul className="dropdown-menu" style={{ // ADDED
+                      display: typeof window !== 'undefined' && window.innerWidth <= 767 
+                        ? (activeDropdown === "treatments" ? "block" : "none")
+                        : '',
+                      position: typeof window !== 'undefined' && window.innerWidth <= 767 ? 'static' : 'absolute',
+                      backgroundColor: '#f8f9fa',
+                      border: 'none',
+                      boxShadow: 'none',
+                      width: '100%',
+                      marginTop: 0,
+                      paddingLeft: typeof window !== 'undefined' && window.innerWidth <= 767 ? '20px' : '0'
+                    }}>
                       <li className="nav-item">
                         <Link
                           href="/treatments/hip-joint-injections/"
@@ -2902,57 +2833,34 @@ const Navbar = () => {
                         currentPath == "/meet-our-team/" && "active"
                       }`}
                       rel="preload"
-                      style={{
-                        // ADDED
-                        display: "flex",
-                        justifyContent: "space-between",
-                        alignItems: "center",
+                      style={{ // ADDED
+                        display: 'flex',
+                        justifyContent: 'space-between',
+                        alignItems: 'center'
                       }}
                     >
                       Meet Our Team
-                      <span
-                        style={{
-                          fontSize: "18px",
-                          fontWeight: "bold",
-                          display:
-                            typeof window !== "undefined" &&
-                            window.innerWidth <= 767
-                              ? "inline"
-                              : "none",
-                        }}
-                      >
+                      <span style={{
+                        fontSize: '18px',
+                        fontWeight: 'bold',
+                        display: typeof window !== 'undefined' && window.innerWidth <= 767 ? 'inline' : 'none'
+                      }}>
                         {activeDropdown === "team" ? "−" : "+"}
                       </span>
                     </Link>
 
-                    <ul
-                      className="dropdown-menu"
-                      style={{
-                        // ADDED
-                        display:
-                          typeof window !== "undefined" &&
-                          window.innerWidth <= 767
-                            ? activeDropdown === "team"
-                              ? "block"
-                              : "none"
-                            : "",
-                        position:
-                          typeof window !== "undefined" &&
-                          window.innerWidth <= 767
-                            ? "static"
-                            : "absolute",
-                        backgroundColor: "#f8f9fa",
-                        border: "none",
-                        boxShadow: "none",
-                        width: "100%",
-                        marginTop: 0,
-                        paddingLeft:
-                          typeof window !== "undefined" &&
-                          window.innerWidth <= 767
-                            ? "20px"
-                            : "0",
-                      }}
-                    >
+                    <ul className="dropdown-menu" style={{ // ADDED
+                      display: typeof window !== 'undefined' && window.innerWidth <= 767 
+                        ? (activeDropdown === "team" ? "block" : "none")
+                        : '',
+                      position: typeof window !== 'undefined' && window.innerWidth <= 767 ? 'static' : 'absolute',
+                      backgroundColor: '#f8f9fa',
+                      border: 'none',
+                      boxShadow: 'none',
+                      width: '100%',
+                      marginTop: 0,
+                      paddingLeft: typeof window !== 'undefined' && window.innerWidth <= 767 ? '20px' : '0'
+                    }}>
                       <li className="nav-item">
                         <Link
                           href="/meet-our-team/rao-k-ali/"
@@ -3013,12 +2921,13 @@ const Navbar = () => {
                           href="/meet-our-team/sharon-anna-shaji/"
                           className={`nav-link ${
                             currentPath ==
-                              "/meet-our-team/sharon-anna-shaji/" && "active"
+                              "/meet-our-team/sharon-anna-shaji/" &&
+                            "active"
                           }`}
                           rel="preload"
                           onClick={closeMenu} // ADDED
                         >
-                          Sharon Anna Shaji
+                         Sharon Anna Shaji
                         </Link>
                       </li>
                     </ul>
@@ -3032,57 +2941,34 @@ const Navbar = () => {
                         currentPath == "/contact-locations/" && "active"
                       }`}
                       rel="preload"
-                      style={{
-                        // ADDED
-                        display: "flex",
-                        justifyContent: "space-between",
-                        alignItems: "center",
+                      style={{ // ADDED
+                        display: 'flex',
+                        justifyContent: 'space-between',
+                        alignItems: 'center'
                       }}
                     >
                       Contact & Locations
-                      <span
-                        style={{
-                          fontSize: "18px",
-                          fontWeight: "bold",
-                          display:
-                            typeof window !== "undefined" &&
-                            window.innerWidth <= 767
-                              ? "inline"
-                              : "none",
-                        }}
-                      >
+                      <span style={{
+                        fontSize: '18px',
+                        fontWeight: 'bold',
+                        display: typeof window !== 'undefined' && window.innerWidth <= 767 ? 'inline' : 'none'
+                      }}>
                         {activeDropdown === "locations" ? "−" : "+"}
                       </span>
                     </Link>
 
-                    <ul
-                      className="dropdown-menu"
-                      style={{
-                        // ADDED
-                        display:
-                          typeof window !== "undefined" &&
-                          window.innerWidth <= 767
-                            ? activeDropdown === "locations"
-                              ? "block"
-                              : "none"
-                            : "",
-                        position:
-                          typeof window !== "undefined" &&
-                          window.innerWidth <= 767
-                            ? "static"
-                            : "absolute",
-                        backgroundColor: "#f8f9fa",
-                        border: "none",
-                        boxShadow: "none",
-                        width: "100%",
-                        marginTop: 0,
-                        paddingLeft:
-                          typeof window !== "undefined" &&
-                          window.innerWidth <= 767
-                            ? "20px"
-                            : "0",
-                      }}
-                    >
+                    <ul className="dropdown-menu" style={{ // ADDED
+                      display: typeof window !== 'undefined' && window.innerWidth <= 767 
+                        ? (activeDropdown === "locations" ? "block" : "none")
+                        : '',
+                      position: typeof window !== 'undefined' && window.innerWidth <= 767 ? 'static' : 'absolute',
+                      backgroundColor: '#f8f9fa',
+                      border: 'none',
+                      boxShadow: 'none',
+                      width: '100%',
+                      marginTop: 0,
+                      paddingLeft: typeof window !== 'undefined' && window.innerWidth <= 767 ? '20px' : '0'
+                    }}>
                       <li className="nav-item">
                         <Link
                           href="/contact-locations/richardson/"
@@ -3263,57 +3149,34 @@ const Navbar = () => {
                       onClick={(e) => handleDropdownToggle("more", e)} // MODIFIED
                       className="nav-link dropdown-toggle"
                       rel="preload"
-                      style={{
-                        // ADDED
-                        display: "flex",
-                        justifyContent: "space-between",
-                        alignItems: "center",
+                      style={{ // ADDED
+                        display: 'flex',
+                        justifyContent: 'space-between',
+                        alignItems: 'center'
                       }}
                     >
                       More
-                      <span
-                        style={{
-                          fontSize: "18px",
-                          fontWeight: "bold",
-                          display:
-                            typeof window !== "undefined" &&
-                            window.innerWidth <= 767
-                              ? "inline"
-                              : "none",
-                        }}
-                      >
+                      <span style={{
+                        fontSize: '18px',
+                        fontWeight: 'bold',
+                        display: typeof window !== 'undefined' && window.innerWidth <= 767 ? 'inline' : 'none'
+                      }}>
                         {activeDropdown === "more" ? "−" : "+"}
                       </span>
                     </Link>
 
-                    <ul
-                      className="dropdown-menu"
-                      style={{
-                        // ADDED
-                        display:
-                          typeof window !== "undefined" &&
-                          window.innerWidth <= 767
-                            ? activeDropdown === "more"
-                              ? "block"
-                              : "none"
-                            : "",
-                        position:
-                          typeof window !== "undefined" &&
-                          window.innerWidth <= 767
-                            ? "static"
-                            : "absolute",
-                        backgroundColor: "#f8f9fa",
-                        border: "none",
-                        boxShadow: "none",
-                        width: "100%",
-                        marginTop: 0,
-                        paddingLeft:
-                          typeof window !== "undefined" &&
-                          window.innerWidth <= 767
-                            ? "20px"
-                            : "0",
-                      }}
-                    >
+                    <ul className="dropdown-menu" style={{ // ADDED
+                      display: typeof window !== 'undefined' && window.innerWidth <= 767 
+                        ? (activeDropdown === "more" ? "block" : "none")
+                        : '',
+                      position: typeof window !== 'undefined' && window.innerWidth <= 767 ? 'static' : 'absolute',
+                      backgroundColor: '#f8f9fa',
+                      border: 'none',
+                      boxShadow: 'none',
+                      width: '100%',
+                      marginTop: 0,
+                      paddingLeft: typeof window !== 'undefined' && window.innerWidth <= 767 ? '20px' : '0'
+                    }}>
                       <li className="nav-item">
                         <Link
                           href="/blog/"
