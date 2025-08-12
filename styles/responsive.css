@@ -1410,6 +1410,7 @@
     width: 100%;
     border-left: 1px solid #eee;
     margin-top: 10px;
+    margin-left: 0
   }
   .main-nav .nav-srh {
     display: none;
