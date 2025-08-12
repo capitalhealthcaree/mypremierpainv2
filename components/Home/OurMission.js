@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "../../styles/Home.module.css";
 
 const OurMission = () => {
@@ -10,23 +9,26 @@ const OurMission = () => {
             <div className="col-lg-6">
               <div className="spread-content">
                 <div className="section-title-two">
-                  <h2>Live Pain Free With Our Experts</h2>
+                  <h2>
+                    Live Pain-Free With Our Dallas Pain Management Experts
+                  </h2>
                 </div>
                 <p>
-                  The team at Premier Pain Centers is proud to offer patients a
-                  wide array of treatments all under one roof, to save you time,
-                  money, and stress. We understand how chronic pain can become
-                  debilitating — it affects every part of a person’s life. We
-                  offer top-quality pain management through minimally invasive,
-                  effective procedures and educate you on your condition so you
-                  can manage your symptoms at home with ease.
+                  Premier Pain Centers, a best pain clinic in Dallas, TX, offers
+                  a complete range of advanced pain management treatments all
+                  under one roof saving you time, money and stress. We
+                  understand that chronic pain can impact every part of your
+                  life, which is why our primary focus is on providing minimally
+                  invasive, highly effective procedures that help you get back
+                  to the activities you love.
                 </p>
                 <p>
-                  Our focus is on increasing your overall health so you can
-                  start to enjoy life again. From the moment you walk through
-                  our doors, you will notice the level of care we provide. Our
-                  compassionate team utilizes state-of-the-art equipment to
-                  ensure you receive the most advanced treatments.
+                  Our best doctors at Premier Pain Centers, led by Dr. Rao K.
+                  Ali, a trusted pain doctor in Dallas and experienced pain
+                  physician in Texas, uses state-of-the-art equipment and
+                  evidence-based techniques to achieve the best possible
+                  results. We also provide patient education so you can manage
+                  your symptoms confidently at home.
                 </p>
                 <div>
                   <ul className={styles["values-list"]}>
@@ -35,26 +37,34 @@ const OurMission = () => {
                         className={`${styles["values-icon"]} icofont-doctor`}
                       ></i>
                       <h5 className={styles["heading-list"]}>
-                        We Provide Patient Education Through Every Step
+                        Personalized treatment plans for chronic and acute pain
                       </h5>
                     </li>
                     <li>
                       <i
                         className={`${styles["values-icon"]} icofont-file-image`}
                       ></i>
-                      <h5>We Can Schedule An Appointment Within 24 Hours</h5>
+                      <h5>
+                        Advanced procedures for spine, joints, and nerve pain
+                      </h5>
                     </li>
                     <li>
                       <i
                         className={`${styles["values-icon"]} icofont-handshake-deal`}
                       ></i>
-                      <h5>One-Stop-Shop for All Pain Management Treatments</h5>
+                      <h5>
+                        Minimally invasive techniques providing faster, safer
+                        recovery
+                      </h5>
                     </li>{" "}
                     <li>
                       <i
                         className={`${styles["values-icon"]} icofont-heart-beat`}
                       ></i>
-                      <h5>Our Doctor Has Performed Over 20,000 Procedures</h5>
+                      <h5>
+                        Holistic care combining therapy, medication, and
+                        procedures
+                      </h5>
                     </li>
                   </ul>
                 </div>

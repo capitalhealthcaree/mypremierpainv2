@@ -76,7 +76,10 @@ const SymptomsCovid19 = () => {
                     height: "100%",
                   }}
                 >
-                  <source src="https://res.cloudinary.com/dngmflrpx/video/upload/v1735859273/treatments_bup87b.mp4" type="video/mp4" />
+                  <source
+                    src="https://res.cloudinary.com/dngmflrpx/video/upload/v1735859273/treatments_bup87b.mp4"
+                    type="video/mp4"
+                  />
                 </video>
               </div>
             </div>
@@ -84,17 +87,17 @@ const SymptomsCovid19 = () => {
             <div className="col-lg-6">
               <div className="symptoms-content">
                 <div className="section-title">
-                  <h2>Treatments</h2>
+                  <h2>Pain Management Treatments in Dallas, TX</h2>
                 </div>
                 <p>
-                  Our expert{" "}
+                  Our{" "}
                   <Link href="/meet-our-team/" rel="preload">
-                    pain management doctors
+                    Dallas pain specialists
                   </Link>{" "}
-                  treat a variety of conditions, from head to toe, using
-                  advanced diagnostic techniques and non-surgical treatments.
-                  Don't know where to start? Simply search by a treatment, or
-                  body part that is bothering you.
+                  provide advanced care for many painful conditions. Patients
+                  often choose us for our precise diagnostics and personalized
+                  treatment options. Begin your journey by selecting a procedure
+                  or pain area.
                 </p>
                 <ul>
                   {treatments.map((item, i) => {

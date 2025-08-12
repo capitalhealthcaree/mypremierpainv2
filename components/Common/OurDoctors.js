@@ -1,6 +1,4 @@
-import React from "react";
 import Link from "next/link";
-import Image from "next/image";
 import Physicians from "../../utils/physicians.json";
 
 const OurDoctors = ({ des }) => {
@@ -12,8 +10,15 @@ const OurDoctors = ({ des }) => {
             <h2>
               {des === "dallas-pain-clinic"
                 ? "Pain Doctors in Dallas"
-                : "Meet Our Doctors"}
+                : "Meet Our Pain Management Doctors in Dallas, TX"}
             </h2>
+            <p className="mt-3">
+              Combining expertise in pain medicine and mental health, Premier
+              Pain Centers in Dallas provides personalized solutions for complex
+              conditions. With Dr. Rao K. Ali leadership, patients have access
+              to advanced pain treatments, TMS therapy, and psychiatric support
+              for a holistic approach to healing.
+            </p>
           </div>
 
           <div className="row justify-content-center">

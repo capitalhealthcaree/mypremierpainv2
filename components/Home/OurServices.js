@@ -1,4 +1,3 @@
-import React from "react";
 import Link from "next/link";
 import data from "../../utils/conditionsWeTreat.json";
 
@@ -8,7 +7,12 @@ const OurServices = () => {
       <div className="blog-area pt-3">
         <div className="container">
           <div className="section-title">
-            <h2>Our Services</h2>
+            <h2>Pain Management Services in Northern Texas</h2>
+            <p className="mt-3">
+              At our best pain clinics in Northern Texas, we offer a complete
+              range of advanced pain management solutions from minimally
+              invasive procedures to personalized rehabilitation plans.
+            </p>
           </div>
 
           <div className="row justify-content-center">
