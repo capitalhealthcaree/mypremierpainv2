@@ -345,6 +345,25 @@ const Footer = () => {
                         View Site
                       </a>
                     </li>
+                    <li>
+                      <h3 style={{ marginBottom: "1px" }}>Kaufman</h3>
+                      <i className="icofont-location-pin"></i>
+                      <a href="https://maps.app.goo.gl/aRSoXj1gPwKPkcU78">
+                        874 Ed Hall Dr., Suite 110,
+                      </a>
+                      <a href="https://maps.app.goo.gl/aRSoXj1gPwKPkcU78">
+                        Kaufman, TX 75142
+                      </a>
+                      <a
+                        href="https://maps.app.goo.gl/aRSoXj1gPwKPkcU78"
+                        className="fw-bold"
+                      >
+                        View Map & Directions
+                      </a>
+                      <a href="/contact-locations/kaufman/" className="fw-bold">
+                        View Site
+                      </a>
+                    </li>
                   </ul>
                 </div>
               </div>

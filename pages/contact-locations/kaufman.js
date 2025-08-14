@@ -50,19 +50,22 @@ const Contact = () => {
         bgImage="http://res.cloudinary.com/dngmflrpx/image/upload/v1734990377/mzwabfkruapqgueyqayv.webp"
       />
       {/* <MesquiteContent /> */}
-      <ContactInfo loc1={"874 Ed Hall Dr., Suite 110,"} loc2={"Kaufman, TX 75142"} />
+      <ContactInfo
+        loc1={"874 Ed Hall Dr., Suite 110,"}
+        loc2={"Kaufman, TX 75142"}
+      />
 
       <div className="pt-2 pb-5">
         <AppointmentForm />
       </div>
 
-      {/* <div className="map-area">
+      <div className="map-area">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3354.823158172872!2d-96.60019!3d32.7704266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864ea5a00688b3f7%3A0x2f49e7246a9da94a!2s200%20W%20Kearney%20St%2C%20Mesquite%2C%20TX%2075149%2C%20USA!5e0!3m2!1sen!2s!4v1753895893427!5m2!1sen!2s"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3361.5276969062215!2d-96.32104822372703!3d32.592117793411255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864949a170f97b03%3A0xeb2e71925a646f78!2sPremier%20Pain%20Centers%20%3A%20Kaufman!5e0!3m2!1sen!2sus!4v1755202273712!5m2!1sen!2sus"
           height="550"
           loading="lazy"
         ></iframe>
-      </div> */}
+      </div>
 
       <Footer />
     </>
