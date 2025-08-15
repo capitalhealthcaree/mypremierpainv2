@@ -145,6 +145,9 @@ const Contact = () => {
   return (
     <div className="departments-area pt-5 pb-3">
       <div className="container">
+        <div className="section-title">
+          <h2>Convenient Locations</h2>
+        </div>
         <div className="row justify-content-center">
           {contactLocations.map((location, index) => (
             <div className="col-sm-6 col-lg-3" key={index}>

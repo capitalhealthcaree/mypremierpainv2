@@ -9,9 +9,12 @@ const DetailsContent = () => {
             leading pain doctor in Dallas, for expert and compassionate care.
             Whether you are looking for a highly experienced pain physician in
             Dallas, need advanced pain relief treatments, or are searching for
-            the best pain doctor near me in Texas, Dr. K. Ali provides the
-            expertise and personalized approach to help you live a more
-            comfortable, pain-free life.
+            the{" "}
+            <a href="https://maps.app.goo.gl/A7SRUthZ2rXHZNCQ7">
+              best pain doctor near me in Texas
+            </a>
+            , Dr. K. Ali provides the expertise and personalized approach to
+            help you live a more comfortable, pain-free life.
           </p>
           <div className="services-details-img">
             <div className="row">
@@ -55,10 +58,14 @@ const DetailsContent = () => {
               <div className="col-lg-5">
                 {" "}
                 <img
-                  src="http://res.cloudinary.com/dngmflrpx/image/upload/v1734993609/qtah5hhavlaor56nxwre.png"
+                  src="/images/rao-k-ali-md-pain-doctor-in-dallas.jpg"
                   alt="About"
                   className="img-fluid"
-                  style={{ height: "100%", objectFit: "cover" }}
+                  style={{
+                    height: "100%",
+                    objectFit: "cover",
+                    borderRadius: "20px",
+                  }}
                 />
               </div>
             </div>

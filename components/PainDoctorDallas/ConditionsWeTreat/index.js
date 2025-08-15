@@ -8,11 +8,7 @@ const expertiseData = [
         Lower back pain can result from muscle strain, herniated discs,
         arthritis, or spinal issues. Dr. Ali provides non-surgical and minimally
         invasive{" "}
-        <Link
-          style={{ color: "black" }}
-          href="/conditions-we-treat/back-pain/"
-          rel="preload"
-        >
+        <Link href="/conditions-we-treat/back-pain/" rel="preload">
           <b>treatments to relieve back pain in Dallas</b>
         </Link>
         , helping patients return to daily activities without chronic
@@ -26,11 +22,7 @@ const expertiseData = [
       <>
         Neck pain often develops from poor posture, whiplash injuries, or
         cervical spine problems. We offer targeted{" "}
-        <Link
-          style={{ color: "black" }}
-          href="/conditions-we-treat/neck-pain/"
-          rel="preload"
-        >
+        <Link href="/conditions-we-treat/neck-pain/" rel="preload">
           <b> neck pain treatment in Dallas</b>
         </Link>{" "}
         to address stiffness, nerve irritation, and inflammation for lasting
@@ -45,11 +37,7 @@ const expertiseData = [
         Chronic headaches or migraines can significantly impact daily life. Dr.
         Ali uses advanced pain management techniques to identify triggers and
         reduce the frequency and{" "}
-        <Link
-          style={{ color: "black" }}
-          href="/conditions-we-treat/headaches/"
-          rel="preload"
-        >
+        <Link href="/conditions-we-treat/headaches/" rel="preload">
           <b> intensity of headaches in Dallas</b>
         </Link>{" "}
         patients.
@@ -62,11 +50,7 @@ const expertiseData = [
       <>
         Sciatica causes sharp, radiating pain from the lower back down the leg
         due to nerve compression. Our{" "}
-        <Link
-          style={{ color: "black" }}
-          href="/conditions-we-treat/leg-pain/"
-          rel="preload"
-        >
+        <Link href="/conditions-we-treat/leg-pain/" rel="preload">
           <b> Dallas sciatica treatments</b>
         </Link>{" "}
         focus on reducing nerve pressure and restoring normal function.
@@ -79,11 +63,7 @@ const expertiseData = [
       <>
         Peripheral neuropathy can lead to numbness, burning, or tingling in the
         hands and feet. Dr. Ali specializes in{" "}
-        <Link
-          style={{ color: "black" }}
-          href="/blog/treatments/neuropathy-pain/"
-          rel="preload"
-        >
+        <Link href="/blog/treatments/neuropathy-pain/" rel="preload">
           <b> neuropathy treatment in Dallas</b>
         </Link>{" "}
         , offering therapies to improve nerve health and comfort.
@@ -96,11 +76,7 @@ const expertiseData = [
       <>
         Knee, shoulder and hip joint pain may arise from injury, arthritis, or
         overuse. We provide{" "}
-        <Link
-          style={{ color: "black" }}
-          href="/conditions-we-treat/joint-pain/"
-          rel="preload"
-        >
+        <Link href="/conditions-we-treat/joint-pain/" rel="preload">
           <b>joint pain relief in Dallas</b>
         </Link>{" "}
         through injections, regenerative medicine, and customized rehabilitation
@@ -113,11 +89,7 @@ const expertiseData = [
     description: (
       <>
         From sprains to overuse injuries, athletes rely on our{" "}
-        <Link
-          style={{ color: "black" }}
-          href="/conditions-we-treat/sports-injury/"
-          rel="preload"
-        >
+        <Link href="/conditions-we-treat/sports-injury/" rel="preload">
           <b>Dallas sports injury treatments</b>
         </Link>{" "}
         to recover quickly and safely. Dr. K.Ali focuses on restoring strength,
