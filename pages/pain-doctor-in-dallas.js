@@ -39,14 +39,16 @@ const Index = () => {
   return (
     <>
       <Head>
-        <title>Best Pain Management Services at Dallas Pain Clinic</title>
+        <title>
+          Dr. Rao K. Ali – Pain Doctor in Dallas for Chronic Pain Relief
+        </title>
         <link
           rel="canonical"
           href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/pain-doctor-in-dallas/`}
         />
         <meta
           name="description"
-          content="Premier Pain Centers offers expert pain doctors in Dallas for personalized treatments. Visit our Dallas pain clinic for relief. Schedule an appointment today."
+          content="Dr. Rao K. Ali is a trusted pain doctor in Dallas, providing personalized care & advanced therapies to help you live pain-free. Schedule your appointment now."
         />
         <meta content="text/html; charset=utf-8" httpEquiv="Content-Type" />
         <meta content="initial-scale=1" name="viewport" />
