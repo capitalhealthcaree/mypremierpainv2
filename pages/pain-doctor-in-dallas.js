@@ -67,7 +67,7 @@ const Index = () => {
       <Treatments />
       <Location />
       <AppointmentForm />
-      <InsuranceContent />
+      {/* <InsuranceContent /> */}
       <Footer />
     </>
   );

@@ -9,7 +9,7 @@ const expertiseData = [
         arthritis, or spinal issues. Dr. Ali provides non-surgical and minimally
         invasive{" "}
         <Link href="/conditions-we-treat/back-pain/" rel="preload">
-          <b>treatments to relieve back pain in Dallas</b>
+          treatments to relieve back pain in Dallas
         </Link>
         , helping patients return to daily activities without chronic
         discomfort.
@@ -23,7 +23,7 @@ const expertiseData = [
         Neck pain often develops from poor posture, whiplash injuries, or
         cervical spine problems. We offer targeted{" "}
         <Link href="/conditions-we-treat/neck-pain/" rel="preload">
-          <b> neck pain treatment in Dallas</b>
+          neck pain treatment in Dallas
         </Link>{" "}
         to address stiffness, nerve irritation, and inflammation for lasting
         relief.
@@ -38,7 +38,7 @@ const expertiseData = [
         Ali uses advanced pain management techniques to identify triggers and
         reduce the frequency and{" "}
         <Link href="/conditions-we-treat/headaches/" rel="preload">
-          <b> intensity of headaches in Dallas</b>
+          intensity of headaches in Dallas
         </Link>{" "}
         patients.
       </>
@@ -51,7 +51,7 @@ const expertiseData = [
         Sciatica causes sharp, radiating pain from the lower back down the leg
         due to nerve compression. Our{" "}
         <Link href="/conditions-we-treat/leg-pain/" rel="preload">
-          <b> Dallas sciatica treatments</b>
+          Dallas sciatica treatments
         </Link>{" "}
         focus on reducing nerve pressure and restoring normal function.
       </>
@@ -64,7 +64,7 @@ const expertiseData = [
         Peripheral neuropathy can lead to numbness, burning, or tingling in the
         hands and feet. Dr. Ali specializes in{" "}
         <Link href="/blog/treatments/neuropathy-pain/" rel="preload">
-          <b> neuropathy treatment in Dallas</b>
+          neuropathy treatment in Dallas
         </Link>{" "}
         , offering therapies to improve nerve health and comfort.
       </>
@@ -77,7 +77,7 @@ const expertiseData = [
         Knee, shoulder and hip joint pain may arise from injury, arthritis, or
         overuse. We provide{" "}
         <Link href="/conditions-we-treat/joint-pain/" rel="preload">
-          <b>joint pain relief in Dallas</b>
+          joint pain relief in Dallas
         </Link>{" "}
         through injections, regenerative medicine, and customized rehabilitation
         plans.
@@ -90,7 +90,7 @@ const expertiseData = [
       <>
         From sprains to overuse injuries, athletes rely on our{" "}
         <Link href="/conditions-we-treat/sports-injury/" rel="preload">
-          <b>Dallas sports injury treatments</b>
+          Dallas sports injury treatments
         </Link>{" "}
         to recover quickly and safely. Dr. K.Ali focuses on restoring strength,
         flexibility, and performance.
