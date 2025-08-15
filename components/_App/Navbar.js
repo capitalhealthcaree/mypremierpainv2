@@ -5440,6 +5440,17 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
+                          href="/pain-doctor-in-dallas/"
+                          className={`nav-link ${
+                            currentPath == "/pain-doctor-in-dallas/" && "active"
+                          }`}
+                          rel="preload"
+                        >
+                          Pain Doctor in Dallas
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
                           href="https://res.cloudinary.com/dngmflrpx/image/upload/v1735858818/New-Patient-Paper-Work_enkokm.pdf"
                           target="_blank"
                           className={`nav-link ${

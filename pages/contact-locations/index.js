@@ -118,20 +118,6 @@ const Contact = () => {
               </Link>
             </div>
 
-            {/* <div className="col-sm-6 col-lg-4">
-							<Link href="/contact-locations/farmers-branch/" rel="preload">
-								<div className="department-item">
-									<i className="icofont-location-pin"></i>
-									<h3>FARMERS BRANCH</h3>
-									<p>
-										13988 Diplomat Dr., Ste. 100
-										<br />
-										Farmers Branch, TX 75234
-									</p>
-								</div>
-							</Link>
-						</div> */}
-
             <div className="col-sm-6 col-lg-4">
               <Link href="/contact-locations/waxahachie/" rel="preload">
                 <div className="department-item">
@@ -234,6 +220,19 @@ const Contact = () => {
                     519 N Gun Barrel Ln Suite A
                     <br />
                     Gun Barrel City, TX 75156
+                  </p>
+                </div>
+              </Link>
+            </div>
+            <div className="col-sm-6 col-lg-4">
+              <Link href="/contact-locations/kaufman/" rel="preload">
+                <div className="department-item">
+                  <i className="icofont-location-pin"></i>
+                  <h3>Kaufman</h3>
+                  <p>
+                    874 Ed Hall Dr., Suite 110,
+                    <br />
+                    Kaufman, TX 75142
                   </p>
                 </div>
               </Link>
