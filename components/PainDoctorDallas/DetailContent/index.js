@@ -58,7 +58,7 @@ const DetailsContent = () => {
               <div className="col-lg-5">
                 {" "}
                 <img
-                  src="/images/rao-k-ali-md-pain-doctor-in-dallas.jpg"
+                  src="/images/rao-k-ali-md-pain-doctor-in-dallas.webp"
                   alt="About"
                   className="img-fluid"
                   style={{

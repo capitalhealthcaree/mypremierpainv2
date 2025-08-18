@@ -7,6 +7,8 @@ const NavbarAppointment = dynamic(() =>
   import("../components/_App/NavbarAppointment")
 );
 
+import PainDoctorInDallaSchema from "../components/Schemas/PainDoctorInDallaSchema";
+
 const PageBanner = dynamic(() => import("../components/Common/PageBanner"));
 
 const DetailContent = dynamic(() =>
@@ -56,6 +58,7 @@ const Index = () => {
         <meta name="format-detection" content="telephone=no" />
       </Head>
       <Navbar />
+      <PainDoctorInDallaSchema />
       <NavbarAppointment />
       <PageBanner
         pageTitle="Rao K. Ali, MD - Pain Doctor in Dallas"
