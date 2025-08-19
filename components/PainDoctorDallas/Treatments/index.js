@@ -3,7 +3,7 @@ import Link from "next/link";
 const WhyChooseUs = () => {
   return (
     <>
-      <div className="expertise-area pb-4">
+      <div className="expertise-area">
         <div className="container">
           <div className="row align-items-center">
             <h2>Treatment Approach</h2>
@@ -81,19 +81,46 @@ const WhyChooseUs = () => {
               </ul>
             </p>
             <h2>Why Choose Dr. Ali as Your Pain Management Doctor in TX</h2>
-            <p>
-              Dr. Ali stands out for his patient-focused approach, combining
-              advanced interventional techniques with a deep understanding of
-              each individual’s pain journey. He prioritizes accurate diagnosis,
-              customized treatment plans, and minimally invasive procedures to
-              help patients regain mobility and improve quality of life.
-            </p>
-            <p>
-              Patients appreciate Dr. Ali compassionate care, clear
-              communication, and dedication to achieving the best possible
-              outcomes. His approachable manner and expertise help patients feel
-              comfortable and confident in their treatment.
-            </p>
+            <ul>
+              <li>
+                <b>Expert Pain Management:</b> Dr. Rao Ali specializes in
+                advanced pain relief techniques.
+              </li>
+              <li>
+                <b>Personalized Treatment Plans:</b> Customized care to meet
+                your unique pain management needs.
+              </li>
+              <li>
+                <b>Minimally Invasive Procedures:</b> Effective solutions with
+                quicker recovery times.
+              </li>
+              <li>
+                <b>Cutting-Edge Technology:</b> Utilizing the latest techniques
+                for long-term pain relief.
+              </li>
+              <li>
+                <b>Compassionate Care:</b> Patient-focused approach to ensure
+                comfort and trust.
+              </li>
+              <li>
+                <b>Proven Results:</b> Positive patient reviews highlight
+                successful pain management outcomes.
+              </li>
+              <li>
+                <b>Comprehensive Solutions:</b> From medication to physical
+                therapy, complete care for your pain.
+              </li>
+            </ul>
+            <h2>Dr. Rao Ali Performed Procedures at Premier Pain Centers</h2>
+            <ul>
+              <li>Epidural Injections</li>
+              <li>Facet Blocks</li>
+              <li>Spinal Cord Stimulator Trials &amp; Implants</li>
+              <li>Radiofrequency Ablation</li>
+              <li>Joint Injections</li>
+              <li>Minimally Invasive Spine Surgery</li>
+              <li>Minimally Invasive Joint Surgery</li>
+            </ul>
           </div>
         </div>
       </div>

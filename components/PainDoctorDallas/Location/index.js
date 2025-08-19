@@ -143,7 +143,7 @@ const contactLocations = [
 
 const Contact = () => {
   return (
-    <div className="departments-area pt-5 pb-3">
+    <div className="departments-area py-3">
       <div className="container">
         <div className="section-title">
           <h2>Convenient Locations</h2>
