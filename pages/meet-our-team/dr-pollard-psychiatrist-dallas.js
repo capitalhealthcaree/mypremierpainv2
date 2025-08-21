@@ -48,7 +48,7 @@ const DoctorDetails = () => {
             <div className="col-lg-5">
               <div className="doctor-details-item doctor-details-left">
                 <img
-                  src="/images/dr-pollard-psychiatrist-dallas.jpg"
+                  src="/images/dr-pollard-psychiatrist.jpg"
                   alt="MUHAMMAD ZULQARNAIN MD (DR. Z)"
                 />
                 <div className="blog-details-item">
