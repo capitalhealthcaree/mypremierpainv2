@@ -23,7 +23,8 @@ const AppointmentFormTwo = () => {
                   alt="Doctor"
                   width={366}
                   height={419}
-                  loading="lazy"
+                  // loading="lazy"
+                  priority
                 />
               </div>
             </div>

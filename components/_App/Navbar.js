@@ -4591,7 +4591,7 @@ const Navbar = () => {
                   alt="logo"
                   width={139}
                   height={78}
-                  loading="lazy"
+                  priority
                 />
               </Link>
               <button

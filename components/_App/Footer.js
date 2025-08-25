@@ -1,4 +1,3 @@
-import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import CallCounterButton from "../../components/CallCounterButton";
@@ -21,7 +20,7 @@ const Footer = () => {
                       alt="logo"
                       width={217}
                       height={125}
-                      loading="lazy"
+                      priority
                     />
                   </Link>
                   <p className="pt-3" style={{ color: "white" }}>

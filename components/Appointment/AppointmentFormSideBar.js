@@ -1,4 +1,3 @@
-import React from "react";
 import AppointmentForm from "./CommonForm";
 
 const AppointmentFormSideBar = () => {
