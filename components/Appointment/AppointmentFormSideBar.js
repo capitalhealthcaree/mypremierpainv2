@@ -9,7 +9,11 @@ const AppointmentFormSideBar = () => {
             <div className="col-lg-12">
               <div
                 className="appointment-item appointment-item-two"
-                style={{ marginRight: "0px", marginTop: "0px" }}
+                style={{
+                  marginRight: "0px",
+                  marginTop: "0px",
+                  minHeight: "150vh", // ✅ reserve space
+                }}
               >
                 <h2>Book your appointment</h2>
                 <span>Appointment confirmation will be provided promptly.</span>
