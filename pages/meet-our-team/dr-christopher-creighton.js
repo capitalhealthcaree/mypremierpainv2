@@ -1,4 +1,4 @@
-import React from "react";
+import Image from "next/image";
 import Head from "next/head";
 import Link from "next/link";
 import dynamic from "next/dynamic";
@@ -47,9 +47,13 @@ const DoctorDetails = () => {
           <div className="row">
             <div className="col-lg-5">
               <div className="doctor-details-item doctor-details-left">
-                <img
+                <img />
+                <Image
                   src="/images/dr-christopher-creighton.jpg"
                   alt="Christopher P Creighton MD"
+                  width={364} // use your image's actual pixel width
+                  height={393} // use your image's actual pixel height
+                  style={{ width: "100%", height: "auto" }}
                 />
                 <div className="blog-details-item">
                   <div className="blog-details-category ps-3">

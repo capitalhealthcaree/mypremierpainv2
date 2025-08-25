@@ -1,4 +1,4 @@
-import React from "react";
+import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
 import dynamic from "next/dynamic";
@@ -33,55 +33,7 @@ const conditionsWeTreat = {
     { url: "/conditions-we-treat/hip-pain", name: "Hip Pain" },
   ],
 };
-const locations = {
-  heaging: "Locations",
-  location: [
-    {
-      href: "/contact-locations/richardson",
-      name: " Richardson",
-    },
-    {
-      href: "/contact-locations/north-richland-hills",
-      name: " North Richland Hills",
-    },
-    {
-      href: "/contact-locations/waxahachie",
-      name: " Waxahachie",
-    },
-    {
-      href: "/contact-locations/fort-worth",
-      name: " Fort Worth",
-    },
-    {
-      href: "/contact-locations/hillsboro",
-      name: " Hillsboro",
-    },
-    {
-      href: "/contact-locations/Desoto",
-      name: " Desoto",
-    },
-    {
-      href: "/contact-locations/farmers-branch",
-      name: " Farmers Branch",
-    },
-    {
-      href: "/contact-locations/corsicana",
-      name: " Corsicana",
-    },
-    {
-      href: "/contact-locations/decatur",
-      name: " Decatur",
-    },
-    {
-      href: "/contact-locations/cleburne",
-      name: " Cleburne",
-    },
-    {
-      href: "/contact-locations/plano",
-      name: "Plano",
-    },
-  ],
-};
+
 const DoctorDetails = () => {
   return (
     <>
@@ -115,9 +67,12 @@ const DoctorDetails = () => {
           <div className="row">
             <div className="col-lg-5">
               <div className="doctor-details-item doctor-details-left">
-                <img
+                <Image
                   src="/images/rao-k-ali.jpg"
                   alt="Rao K. Ali MD"
+                  width={364} // use your image's actual pixel width
+                  height={393} // use your image's actual pixel height
+                  style={{ width: "100%", height: "auto" }}
                 />
                 <div className="blog-details-item">
                   <div className="blog-details-category ps-5">
