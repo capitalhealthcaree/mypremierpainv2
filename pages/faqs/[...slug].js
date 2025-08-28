@@ -1,4 +1,3 @@
-import React from "react";
 import Head from "next/head";
 import dynamic from "next/dynamic";
 import {
@@ -56,7 +55,10 @@ const FaqDetail = ({ item }) => {
               <div className="doctor-details-item">
                 <div className="doctor-details-right">
                   <div className="doctor-details-biography">
-                    <div className="faq-area-one pt-3 mb-5">
+                    <div
+                      className="faq-area-one pt-3 mb-5"
+                      style={{ minHeight: "30vh" }}
+                    >
                       <div className="container">
                         <div className="row">
                           <div className="col-12">

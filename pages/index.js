@@ -1,4 +1,3 @@
-import React from "react";
 import Head from "next/head";
 import dynamic from "next/dynamic";
 
@@ -11,6 +10,8 @@ const NavbarAppointment = dynamic(() =>
 );
 
 const MainBanner = dynamic(() => import("../components/Home/MainBanner"));
+
+const TMSHome = dynamic(() => import("../components/Home/TMSHome"));
 
 const FirstSection = dynamic(() => import("../components/Home/FirstSection"));
 
@@ -58,7 +59,8 @@ const Index = () => {
       <Navbar />
       <NavbarAppointment />
       <MainBanner />
-      <FirstSection />
+      <TMSHome />
+      {/* <FirstSection /> */}
       <About />
       <OurServices />
       <WelcomeNewPatients />

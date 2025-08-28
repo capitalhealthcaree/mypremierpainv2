@@ -1,4 +1,3 @@
-import React from "react";
 import Head from "next/head";
 import Link from "next/link";
 import dynamic from "next/dynamic";
@@ -45,9 +44,22 @@ const FAQ = ({ item }) => {
           <div className="row align-items-center">
             <div className="col-12">
               <div className="symptoms-content">
-                <ul>
-                  {item.map((q, i) => {
-                    return (
+                {item.length === 0 ? (
+                  <p className="text-center">
+                    <div className="d-flex justify-content-center align-items-center gap-2">
+                      <div
+                        className="spinner-border text-primary"
+                        role="status"
+                        style={{ width: "1.5rem", height: "1.5rem" }}
+                      >
+                        <span className="visually-hidden">Loading...</span>
+                      </div>
+                      Loading FAQs...
+                    </div>
+                  </p>
+                ) : (
+                  <ul>
+                    {item.map((q, i) => (
                       <li key={i}>
                         <Link href={`/faqs${q.slug}`} rel="preload">
                           <span>
@@ -56,17 +68,15 @@ const FAQ = ({ item }) => {
                           </span>
                         </Link>
                       </li>
-                    );
-                  })}
-                </ul>
-                <ul></ul>
+                    ))}
+                  </ul>
+                )}
               </div>
             </div>
           </div>
         </div>
       </div>
       <AppointmentForm />
-
       <Footer />
     </>
   );

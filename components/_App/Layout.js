@@ -1,12 +1,12 @@
 import React from "react";
 import Head from "next/head";
-import GoTop from "./GoTop";
+// import GoTop from "./GoTop";
 
 const Layout = ({ children }) => {
   return (
     <>
       <Head>
-        <link rel="icon" href="https://www.mypremierpain.com/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" />
         <title>Pain Management Specialists - Treating All Types of Pain</title>
         <link
           rel="preconnect"
@@ -31,7 +31,7 @@ const Layout = ({ children }) => {
 
       {children}
 
-      <GoTop scrollStepInPx="100" delayInMs="10.50" />
+      {/* <GoTop scrollStepInPx="100" delayInMs="10.50" /> */}
     </>
   );
 };
