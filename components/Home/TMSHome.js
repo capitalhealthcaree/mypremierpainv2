@@ -55,7 +55,7 @@ export default function TMSPsychiatrySection() {
                       className="h4 fw-bold mb-2"
                       style={{ color: "#232323" }}
                     >
-                      Pain Psychiatry
+                      Premier Psychiatry
                     </h3>
                     <p
                       className="small fw-semibold mb-0"
