@@ -72,6 +72,13 @@ const Index = () => {
       <Treatments />
       <Location />
       <AppointmentForm />
+      <div className="map-area">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.0127327391965!2d-96.72465682393651!3d32.97706587373522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c1f0052f2127f%3A0x3c7ead0c32591544!2sRao%20K.%20Ali%20MD%20-%20Pain%20Physician%20in%20Dallas!5e0!3m2!1sen!2sus!4v1755617505554!5m2!1sen!2sus"
+          height="550"
+          loading="lazy"
+        ></iframe>
+      </div>
       {/* <InsuranceContent /> */}
       <Footer />
     </>
