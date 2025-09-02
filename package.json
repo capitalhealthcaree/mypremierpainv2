@@ -24,5 +24,7 @@
     "sweetalert2-react-content": "^5.0.7",
     "swiper": "^9.1.1"
   },
-  "proxy": "https://dallas-api.vercel.app/api/"
+  "engines": {
+    "node": "22.x"
+  }
 }
