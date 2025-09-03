@@ -103,7 +103,9 @@ export default function TMSPsychiatrySection() {
                         />
                       </svg>
                     </div>
-                    <span>Depression, Anxiety & PTSD</span>
+                    <span>
+                      Medication Management, Depression, Anxiety & PTSD
+                    </span>
                   </div>
 
                   <div className="d-flex align-items-center mb-2">
@@ -134,9 +136,8 @@ export default function TMSPsychiatrySection() {
                         />
                       </svg>
                     </div>
-                    <span>Bipolar Disorder & OCD</span>
+                    <span>TMS, Spravato, and IV Ketamine</span>
                   </div>
-
                   <div className="d-flex align-items-center mb-2">
                     <div
                       className="me-2 d-flex align-items-center justify-content-center"
@@ -148,24 +149,23 @@ export default function TMSPsychiatrySection() {
                       }}
                     >
                       <svg
+                        xmlns="http://www.w3.org/2000/svg"
                         style={{
-                          width: "12px",
-                          height: "12px",
+                          width: "25px",
+                          height: "25px",
                           color: "white",
                         }}
-                        fill="none"
-                        stroke="currentColor"
+                        fill="currentColor"
                         viewBox="0 0 24 24"
                       >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={3}
-                          d="M5 13l4 4L19 7"
-                        />
+                        <path d="M10 17l5-5-5-5v10z" />
                       </svg>
                     </div>
-                    <span>Medication Management</span>
+                    <span>
+                      <a href="/psychiatric-services-in-dallas-tx/">
+                        View All Services
+                      </a>
+                    </span>
                   </div>
                 </div>
 

@@ -4816,25 +4816,26 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
-                          href="/talk-therapy-dallas/"
+                          href="/spravato-treatment-dallas/"
                           className={`nav-link ${
-                            currentPath == "/talk-therapy-dallas/" && "active"
-                          }`}
-                          rel="preload"
-                        >
-                          Talk Therapy
-                        </Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link
-                          href="/dallas-counseling-services/"
-                          className={`nav-link ${
-                            currentPath == "/dallas-counseling-services/" &&
+                            currentPath == "/spravato-treatment-dallas/" &&
                             "active"
                           }`}
                           rel="preload"
                         >
-                          Counseling
+                          Spravato
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/ketamine-infusion-therapy/"
+                          className={`nav-link ${
+                            currentPath == "/ketamine-infusion-therapy/" &&
+                            "active"
+                          }`}
+                          rel="preload"
+                        >
+                          IV Ketamine
                         </Link>
                       </li>
                       <li className="nav-item">

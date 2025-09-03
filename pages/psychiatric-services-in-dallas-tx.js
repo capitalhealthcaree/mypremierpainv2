@@ -1,4 +1,4 @@
-import React from "react";
+import Link from "next/link";
 import Head from "next/head";
 import dynamic from "next/dynamic";
 
@@ -10,6 +10,10 @@ const NavbarAppointment = dynamic(() =>
 
 const PsychiatryBanner = dynamic(() =>
   import("../components/PsychiatryHome/PsychiatryBanner")
+);
+
+const KetamineSpravato = dynamic(() =>
+  import("../components/Home/KetamineSpravato")
 );
 
 const FirstSection = dynamic(() =>
@@ -49,6 +53,27 @@ const ADHDTesting = dynamic(() =>
 const Footer = dynamic(() => import("../components/_App/Footer"));
 
 export default function Psychiatry() {
+  const outServices = [
+    {
+      imgSrc: "/images/ketamine.jpg",
+      name: "Ketamine Infusion Therapy",
+      des: "Our Advanced Ketamine infusion therapy in Dallas for treatment-resistant depression, anxiety, PTSD, rapid results, supportive setting, restore balance.",
+      href: "/ketamine-infusion-therapy/",
+    },
+    {
+      imgSrc: "/images/spravato.jpg",
+      name: "Spravato® (Esketamine) Treatment",
+      des: "FDA-approved Spravato® treatment in Dallas for depression, anxiety, PTSD, fast-acting relief, safe environment, expert psychiatric care for lasting wellness.",
+      href: "/spravato-treatment-dallas/",
+    },
+    {
+      imgSrc:
+        "http://res.cloudinary.com/dngmflrpx/image/upload/v1734988962/ghtmq6hva8ykostixeml.jpg",
+      name: "TMS Therapy",
+      des: "TMS uses magnetic fields to alter brain activity, treating depression, OCD, and other disorders. It’s noninvasive, safe, with generally mild, temporary side effects.",
+      href: "/tms-therapy/",
+    },
+  ];
   return (
     <>
       <Head>
@@ -71,7 +96,46 @@ export default function Psychiatry() {
       <Navbar />
       <NavbarAppointment />
       <PsychiatryBanner />
-      <FirstSection />
+      <div className="blog-area mt-5">
+        <div className="container">
+          <div className="row justify-content-center ">
+            {outServices.map((item, i) => {
+              return (
+                <div className="col-md-4 col-lg-4" key={i}>
+                  <div className="blog-item">
+                    <div className="blog-top">
+                      <Link href={item.href} rel="preload">
+                        <img
+                          src={item.imgSrc}
+                          alt={item.name}
+                          style={{
+                            width: "100%",
+                            height: "250px",
+                            objectFit: "cover",
+                            objectPosition: "center center",
+                          }}
+                        />
+                      </Link>
+                    </div>
+                    <div className="blog-bottom">
+                      <h3>
+                        <Link
+                          href={item.href}
+                          className="d-flex justify-content-center"
+                          rel="preload"
+                        >
+                          {item.name}
+                        </Link>
+                      </h3>
+                      <p className="text-center">{item.des}</p>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </div>
       <WhatPsychiatry />
       <ExpertHelpSection />
       <TreatmentsSection />
