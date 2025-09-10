@@ -12,6 +12,13 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
             rel="stylesheet"
           />
+          <link
+            rel="preconnect"
+            href="https://fonts.googleapis.com"
+            as="font"
+            type="font/woff2"
+            crossOrigin="true"
+          />
 
           <link rel="icon" href="/images/favicon.ico" />
           {/* Google Tag Manager Script */}
@@ -35,19 +42,19 @@ class MyDocument extends Document {
           />
         </Head>
         <body>
-          <Script
+          {/* <Script
             id="messenger-widget-b"
             src="https://cdn.botpenguin.com/website-bot.js"
             defer
             data-id="67bf286b4deb655bc592f3bb,67bf283eb0a5145cacb98a41"
-          />
+          /> */}
           {/* Add Script of Chat */}
-          {/* <script
+          <script
             async
             defer
             dangerouslySetInnerHTML={{
               __html: `
-                var continuallySettings = { appID: "687y3nng8rk5" };
+                var continuallySettings = { appID: "k98re89wkyep" };
                 var script = document.createElement('script');
                 script.src = "https://cdn-app.continual.ly/js/embed/continually-embed.latest.min.js";
                 script.async = true;
@@ -55,7 +62,7 @@ class MyDocument extends Document {
                 document.body.appendChild(script);
               `,
             }}
-          ></script> */}
+          ></script>
           {/* Google Tag Manager Script to show Chat ICON*/}
           <noscript async>
             <iframe
@@ -75,12 +82,3 @@ class MyDocument extends Document {
 }
 
 export default MyDocument;
-
-// {
-    //   "id": "2",
-    //   "image": "http://res.cloudinary.com/dngmflrpx/image/upload/v1734987556/doctors/rcrhxn4abw2g43elqde1.webp",
-    //   "name": "Muhammad Zulqarnain MD",
-    //   "bio": "Board Certified Interventional Pain Management",
-    //   "href": "/meet-our-team/rao-k-ali/",
-    //   "desc": "Dr. Muhammad Zulqarnain, known as Dr. Z, is the best spine surgeon in Dallas. He partners with you to achieve a pain-free life through compassionate care and innovative treatments."
-    // },
