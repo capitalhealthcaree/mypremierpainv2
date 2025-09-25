@@ -54,7 +54,7 @@ class MyDocument extends Document {
             defer
             dangerouslySetInnerHTML={{
               __html: `
-                var continuallySettings = { appID: "k98re89wkyep" };
+                var continuallySettings = { appID: "zv7r5pvppyg8" };
                 var script = document.createElement('script');
                 script.src = "https://cdn-app.continual.ly/js/embed/continually-embed.latest.min.js";
                 script.async = true;
