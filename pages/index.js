@@ -35,6 +35,10 @@ const AppointmentForm = dynamic(() =>
   import("../components/Home/AppointmentForm")
 );
 
+const VideoTestimonials = dynamic(() =>
+  import("../components/Common/VideoTestimonials")
+);
+
 const OurMission = dynamic(() => import("../components/Home/OurMission"));
 
 const OurDoctors = dynamic(() => import("../components/Common/OurDoctors"));
@@ -63,6 +67,7 @@ const Index = () => {
       {/* <FirstSection /> */}
       <About />
       <OurServices />
+      <VideoTestimonials count={4} />
       <WelcomeNewPatients />
       <KetamineSpravato />
       <Insurance />
