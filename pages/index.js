@@ -15,6 +15,10 @@ const TMSHome = dynamic(() => import("../components/Home/TMSHome"));
 
 const FirstSection = dynamic(() => import("../components/Home/FirstSection"));
 
+const VideoTestimonials = dynamic(() =>
+  import("../components/Common/VideoTestimonials")
+);
+
 const About = dynamic(() => import("../components/Home/About"));
 
 const Insurance = dynamic(() => import("../components/Home/Insurance"));
@@ -63,6 +67,7 @@ const Index = () => {
       {/* <FirstSection /> */}
       <About />
       <OurServices />
+      <VideoTestimonials count={4}/>
       <WelcomeNewPatients />
       <KetamineSpravato />
       <Insurance />
