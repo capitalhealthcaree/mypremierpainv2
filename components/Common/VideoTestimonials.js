@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { useRouter } from "next/router"; // for Pages Router
 
 // // const videos = [
 // //   {
@@ -759,12 +760,14 @@ const videos = [
     id: 10,
     backgroundImage: "https://i.ytimg.com/vi/4PQCnkzTLRo/maxresdefault.jpg", // YouTube auto-generated thumbnail
     videoId: "4PQCnkzTLRo",
-    type: "video",
+    type: "short", // YouTube Short
     description: "How Spinal Cord Simulator Changed Patient's Life",
   },
 ];
 
 const VideoTestimonials = ({ count }) => {
+  const { pathname } = useRouter(); // Pages Router
+  const notHomePage = pathname.startsWith("/video-testimonials");
   const [selectedVideo, setSelectedVideo] = useState(null);
 
   const handleOpen = (video) => {
@@ -1020,23 +1023,26 @@ const VideoTestimonials = ({ count }) => {
           </div>
         </div>
       )}
-      <div
-        className="common-btn"
-        style={{ display: "flex", justifyContent: "center" }}
-      >
-        <Link
-          href="/video-testimonials/"
-          style={{
-            backgroundColor: "#0046c0",
-            color: "white",
-            padding: "10px 11px",
-            marginBottom: "2vh",
-          }}
-          rel="preload"
+      {!notHomePage ?
+        <div
+          className="common-btn"
+          style={{ display: "flex", justifyContent: "center" }}
         >
-          View More
-        </Link>
-      </div>
+          <Link
+            href="/video-testimonials/"
+            style={{
+              backgroundColor: "#0046c0",
+              color: "white",
+              padding: "10px 11px",
+              marginBottom: "2vh",
+            }}
+            rel="preload"
+          >
+            View More
+          </Link>
+        </div> : ""}
+
+
     </div>
   );
 };
