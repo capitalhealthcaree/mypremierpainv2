@@ -233,6 +233,7 @@ const CommonForm = ({ isFromHome }) => {
                   <option value="Mesquite">Mesquite</option>
                   <option value="Gun Barrel City">Gun Barrel City</option>
                   <option value="Dallas">Dallas</option>
+                  <option value="Kaufman">Kaufman</option>
                 </select>
               </div>
             </div>
