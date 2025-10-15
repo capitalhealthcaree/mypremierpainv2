@@ -18,14 +18,14 @@ const DoctorDetails = () => {
   return (
     <>
       <Head>
-        <title>Dr. Quan Dang Le – Best Psychiatrist in Dallas</title>
+        <title>Dr. Quan Dang Le | Pain Management Specialist Dallas TX</title>
         <link
           rel="canonical"
-          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/meet-our-team/dr-pollard-psychiatrist-dallas/`}
+          href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/meet-our-team/quan-dang-le-md/`}
         />
         <meta
           name="description"
-          content="Looking for the best psychiatrist in Dallas? Dr. Ronnie Pollard provides expert talk therapy and medication management at Premier Pain Centers."
+          content="Meet Dr. Quan Dang Le, a double board-certified pain management specialist in Dallas providing advanced, compassionate care for lasting relief."
         />
         <meta content="text/html; charset=utf-8" httpEquiv="Content-Type" />
         <meta content="initial-scale=1" name="viewport" />
