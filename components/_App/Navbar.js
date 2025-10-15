@@ -5160,6 +5160,18 @@ const Navbar = () => {
                       </li>
                       <li className="nav-item">
                         <Link
+                          href="/meet-our-team/quan-dang-le-md/"
+                          className={`nav-link ${
+                            currentPath == "/meet-our-team/quan-dang-le-md/" &&
+                            "active"
+                          }`}
+                          rel="preload"
+                        >
+                          Dr. Quan Dang Le
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
                           href="/meet-our-team/sharon-anna-shaji/"
                           className={`nav-link ${
                             currentPath ==
