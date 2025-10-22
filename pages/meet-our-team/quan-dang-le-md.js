@@ -23,6 +23,7 @@ const DoctorDetails = () => {
           rel="canonical"
           href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}/meet-our-team/quan-dang-le-md/`}
         />
+        <meta name="robots" content="noindex, nofollow" />
         <meta
           name="description"
           content="Meet Dr. Quan Dang Le, a double board-certified pain management specialist in Dallas providing advanced, compassionate care for lasting relief."

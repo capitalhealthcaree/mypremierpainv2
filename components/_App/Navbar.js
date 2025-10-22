@@ -4628,16 +4628,14 @@ const Navbar = () => {
                   >
                     <Link
                       href="/conditions-we-treat/"
-                      className={`nav-link dropdown-toggle ${
-                        currentPath === "/conditions-we-treat/" && "active"
-                      } ${dropdownStates.conditions ? "open" : ""}`}
+                      className={`nav-link dropdown-toggle ${currentPath === "/conditions-we-treat/" && "active"
+                        } ${dropdownStates.conditions ? "open" : ""}`}
                       rel="preload"
                     >
                       <span>Conditions We Treat</span>
                       <span
-                        className={`mobile-dropdown-icon ${
-                          dropdownStates.conditions ? "open" : ""
-                        }`}
+                        className={`mobile-dropdown-icon ${dropdownStates.conditions ? "open" : ""
+                          }`}
                         onClick={(e) => handleMobileIconClick("conditions", e)}
                       >
                         ▼
@@ -4645,18 +4643,16 @@ const Navbar = () => {
                     </Link>
 
                     <ul
-                      className={`dropdown-menu ${
-                        dropdownStates.conditions ? "show" : ""
-                      }`}
+                      className={`dropdown-menu ${dropdownStates.conditions ? "show" : ""
+                        }`}
                     >
                       <li className="nav-item">
                         <Link
                           href="/conditions-we-treat/car-accident-injury/"
-                          className={`nav-link ${
-                            currentPath ===
-                              "/conditions-we-treat/car-accident-injury/" &&
+                          className={`nav-link ${currentPath ===
+                            "/conditions-we-treat/car-accident-injury/" &&
                             "active"
-                          }`}
+                            }`}
                           rel="preload"
                         >
                           Car Accident Injury
@@ -4665,10 +4661,9 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/conditions-we-treat/shoulder-pain/"
-                          className={`nav-link ${
-                            currentPath ===
-                              "/conditions-we-treat/shoulder-pain/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath ===
+                            "/conditions-we-treat/shoulder-pain/" && "active"
+                            }`}
                           rel="preload"
                         >
                           Shoulder Pain
@@ -4677,10 +4672,9 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/conditions-we-treat/sports-injury/"
-                          className={`nav-link ${
-                            currentPath ==
-                              "/conditions-we-treat/sports-injury/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath ==
+                            "/conditions-we-treat/sports-injury/" && "active"
+                            }`}
                           rel="preload"
                         >
                           Sports Injury
@@ -4689,10 +4683,9 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/conditions-we-treat/headaches/"
-                          className={`nav-link ${
-                            currentPath == "/conditions-we-treat/headaches/" &&
+                          className={`nav-link ${currentPath == "/conditions-we-treat/headaches/" &&
                             "active"
-                          }`}
+                            }`}
                           rel="preload"
                         >
                           Headaches
@@ -4701,10 +4694,9 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/conditions-we-treat/back-pain/"
-                          className={`nav-link ${
-                            currentPath == "/conditions-we-treat/back-pain/" &&
+                          className={`nav-link ${currentPath == "/conditions-we-treat/back-pain/" &&
                             "active"
-                          }`}
+                            }`}
                           rel="preload"
                         >
                           Back Pain
@@ -4713,10 +4705,9 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/conditions-we-treat/neck-pain/"
-                          className={`nav-link ${
-                            currentPath == "/conditions-we-treat/neck-pain/" &&
+                          className={`nav-link ${currentPath == "/conditions-we-treat/neck-pain/" &&
                             "active"
-                          }`}
+                            }`}
                           rel="preload"
                         >
                           Neck Pain
@@ -4725,10 +4716,9 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/conditions-we-treat/knee-pain/"
-                          className={`nav-link ${
-                            currentPath == "/conditions-we-treat/knee-pain/" &&
+                          className={`nav-link ${currentPath == "/conditions-we-treat/knee-pain/" &&
                             "active"
-                          }`}
+                            }`}
                           rel="preload"
                         >
                           Knee Pain
@@ -4737,10 +4727,9 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/conditions-we-treat/joint-pain/"
-                          className={`nav-link ${
-                            currentPath == "/conditions-we-treat/joint-pain/" &&
+                          className={`nav-link ${currentPath == "/conditions-we-treat/joint-pain/" &&
                             "active"
-                          }`}
+                            }`}
                           rel="preload"
                         >
                           Joint Pain
@@ -4749,10 +4738,9 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/conditions-we-treat/leg-pain/"
-                          className={`nav-link ${
-                            currentPath == "/conditions-we-treat/leg-pain/" &&
+                          className={`nav-link ${currentPath == "/conditions-we-treat/leg-pain/" &&
                             "active"
-                          }`}
+                            }`}
                           rel="preload"
                         >
                           Leg Pain
@@ -4761,10 +4749,9 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/conditions-we-treat/hip-pain/"
-                          className={`nav-link ${
-                            currentPath == "/conditions-we-treat/hip-pain/" &&
+                          className={`nav-link ${currentPath == "/conditions-we-treat/hip-pain/" &&
                             "active"
-                          }`}
+                            }`}
                           rel="preload"
                         >
                           Hip Pain
@@ -4781,17 +4768,15 @@ const Navbar = () => {
                   >
                     <Link
                       href="/psychiatric-services-in-dallas-tx/"
-                      className={`nav-link dropdown-toggle ${
-                        currentPath == "/psychiatric-services-in-dallas-tx/" &&
+                      className={`nav-link dropdown-toggle ${currentPath == "/psychiatric-services-in-dallas-tx/" &&
                         "active"
-                      } ${dropdownStates.psychiatry ? "open" : ""}`}
+                        } ${dropdownStates.psychiatry ? "open" : ""}`}
                       rel="preload"
                     >
                       <span>Psychiatry</span>
                       <span
-                        className={`mobile-dropdown-icon ${
-                          dropdownStates.psychiatry ? "open" : ""
-                        }`}
+                        className={`mobile-dropdown-icon ${dropdownStates.psychiatry ? "open" : ""
+                          }`}
                         onClick={(e) => handleMobileIconClick("psychiatry", e)}
                       >
                         ▼
@@ -4799,16 +4784,14 @@ const Navbar = () => {
                     </Link>
 
                     <ul
-                      className={`dropdown-menu ${
-                        dropdownStates.psychiatry ? "show" : ""
-                      }`}
+                      className={`dropdown-menu ${dropdownStates.psychiatry ? "show" : ""
+                        }`}
                     >
                       <li className="nav-item">
                         <Link
                           href="/tms-therapy/"
-                          className={`nav-link ${
-                            currentPath == "/tms-therapy/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/tms-therapy/" && "active"
+                            }`}
                           rel="preload"
                         >
                           TMS Therapy
@@ -4817,10 +4800,9 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/spravato-treatment-dallas/"
-                          className={`nav-link ${
-                            currentPath == "/spravato-treatment-dallas/" &&
+                          className={`nav-link ${currentPath == "/spravato-treatment-dallas/" &&
                             "active"
-                          }`}
+                            }`}
                           rel="preload"
                         >
                           Spravato
@@ -4829,10 +4811,9 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/ketamine-infusion-therapy/"
-                          className={`nav-link ${
-                            currentPath == "/ketamine-infusion-therapy/" &&
+                          className={`nav-link ${currentPath == "/ketamine-infusion-therapy/" &&
                             "active"
-                          }`}
+                            }`}
                           rel="preload"
                         >
                           IV Ketamine
@@ -4841,10 +4822,9 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/medication-management-in-dallas/"
-                          className={`nav-link ${
-                            currentPath ==
-                              "/medication-management-in-dallas/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath ==
+                            "/medication-management-in-dallas/" && "active"
+                            }`}
                           rel="preload"
                         >
                           Medication Management
@@ -4860,16 +4840,14 @@ const Navbar = () => {
                   >
                     <Link
                       href="/treatments/"
-                      className={`nav-link dropdown-toggle ${
-                        currentPath == "/treatments/" && "active"
-                      } ${dropdownStates.treatments ? "open" : ""}`}
+                      className={`nav-link dropdown-toggle ${currentPath == "/treatments/" && "active"
+                        } ${dropdownStates.treatments ? "open" : ""}`}
                       rel="preload"
                     >
                       <span>Treatments</span>
                       <span
-                        className={`mobile-dropdown-icon ${
-                          dropdownStates.treatments ? "open" : ""
-                        }`}
+                        className={`mobile-dropdown-icon ${dropdownStates.treatments ? "open" : ""
+                          }`}
                         onClick={(e) => handleMobileIconClick("treatments", e)}
                       >
                         ▼
@@ -4877,17 +4855,15 @@ const Navbar = () => {
                     </Link>
 
                     <ul
-                      className={`dropdown-menu ${
-                        dropdownStates.treatments ? "show" : ""
-                      }`}
+                      className={`dropdown-menu ${dropdownStates.treatments ? "show" : ""
+                        }`}
                     >
                       <li className="nav-item">
                         <Link
                           href="/treatments/hip-joint-injections/"
-                          className={`nav-link ${
-                            currentPath ==
-                              "/treatments/hip-joint-injections/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath ==
+                            "/treatments/hip-joint-injections/" && "active"
+                            }`}
                           rel="preload"
                         >
                           Hip Joint Injections
@@ -4896,11 +4872,10 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/treatments/disc-regenerative-therapy/"
-                          className={`nav-link ${
-                            currentPath ==
-                              "/treatments/disc-regenerative-therapy/" &&
+                          className={`nav-link ${currentPath ==
+                            "/treatments/disc-regenerative-therapy/" &&
                             "active"
-                          }`}
+                            }`}
                           rel="preload"
                         >
                           Disc Regenerative Therapy
@@ -4909,10 +4884,9 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/treatments/mild-procedure/"
-                          className={`nav-link ${
-                            currentPath == "/treatments/mild-procedure/" &&
+                          className={`nav-link ${currentPath == "/treatments/mild-procedure/" &&
                             "active"
-                          }`}
+                            }`}
                           rel="preload"
                         >
                           Mild Procedure
@@ -4921,10 +4895,9 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/treatments/facet-joint-injection/"
-                          className={`nav-link ${
-                            currentPath ==
-                              "/treatments/facet-joint-injection/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath ==
+                            "/treatments/facet-joint-injection/" && "active"
+                            }`}
                           rel="preload"
                         >
                           Facet Joint Injection
@@ -4933,10 +4906,9 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/treatments/percutaneous-discectomy/"
-                          className={`nav-link ${
-                            currentPath ==
-                              "/treatments/percutaneous-discectomy/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath ==
+                            "/treatments/percutaneous-discectomy/" && "active"
+                            }`}
                           rel="preload"
                         >
                           Percutaneous Discectomy
@@ -4945,11 +4917,10 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/treatments/trigger-point-injections/"
-                          className={`nav-link ${
-                            currentPath ==
-                              "/treatments/trigger-point-injections/" &&
+                          className={`nav-link ${currentPath ==
+                            "/treatments/trigger-point-injections/" &&
                             "active"
-                          }`}
+                            }`}
                           rel="preload"
                         >
                           Trigger Point Injections
@@ -4958,10 +4929,9 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/treatments/joint-injections/"
-                          className={`nav-link ${
-                            currentPath == "/treatments/joint-injections/" &&
+                          className={`nav-link ${currentPath == "/treatments/joint-injections/" &&
                             "active"
-                          }`}
+                            }`}
                           rel="preload"
                         >
                           Joint Injections
@@ -4970,11 +4940,10 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/treatments/lumbar-sympathetic-injections/"
-                          className={`nav-link ${
-                            currentPath ==
-                              "/treatments/lumbar-sympathetic-injections/" &&
+                          className={`nav-link ${currentPath ==
+                            "/treatments/lumbar-sympathetic-injections/" &&
                             "active"
-                          }`}
+                            }`}
                           rel="preload"
                         >
                           Lumbar Sympathetic Injections
@@ -4983,10 +4952,9 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/treatments/epidural-nerve-block/"
-                          className={`nav-link ${
-                            currentPath ==
-                              "/treatments/epidural-nerve-block/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath ==
+                            "/treatments/epidural-nerve-block/" && "active"
+                            }`}
                           rel="preload"
                         >
                           Epidural Nerve Block
@@ -4995,10 +4963,9 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/treatments/si-joint-injection/"
-                          className={`nav-link ${
-                            currentPath == "/treatments/si-joint-injection/" &&
+                          className={`nav-link ${currentPath == "/treatments/si-joint-injection/" &&
                             "active"
-                          }`}
+                            }`}
                           rel="preload"
                         >
                           Si Joint Injection
@@ -5007,9 +4974,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/treatments/pronox/"
-                          className={`nav-link ${
-                            currentPath == "/treatments/pronox/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/treatments/pronox/" && "active"
+                            }`}
                           rel="preload"
                         >
                           PronoX
@@ -5018,10 +4984,9 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/treatments/occipital-nerve-block/"
-                          className={`nav-link ${
-                            currentPath ==
-                              "/treatments/occipital-nerve-block/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath ==
+                            "/treatments/occipital-nerve-block/" && "active"
+                            }`}
                           rel="preload"
                         >
                           Occipital Nerve Block
@@ -5030,10 +4995,9 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/treatments/genicular-nerve-block/"
-                          className={`nav-link ${
-                            currentPath ==
-                              "/treatments/genicular-nerve-block/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath ==
+                            "/treatments/genicular-nerve-block/" && "active"
+                            }`}
                           rel="preload"
                         >
                           Genicular Nerve Block
@@ -5042,10 +5006,9 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/treatments/spinal-cord-stimulation/"
-                          className={`nav-link ${
-                            currentPath ==
-                              "/treatments/spinal-cord-stimulation/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath ==
+                            "/treatments/spinal-cord-stimulation/" && "active"
+                            }`}
                           rel="preload"
                         >
                           Spinal Cord Stimulation
@@ -5054,10 +5017,9 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/treatments/bursa-injection/"
-                          className={`nav-link ${
-                            currentPath == "/treatments/bursa-injection/" &&
+                          className={`nav-link ${currentPath == "/treatments/bursa-injection/" &&
                             "active"
-                          }`}
+                            }`}
                           rel="preload"
                         >
                           Bursa Injection
@@ -5066,11 +5028,10 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/treatments/peripheral-nerve-stimulation/"
-                          className={`nav-link ${
-                            currentPath ==
-                              "/treatments/peripheral-nerve-stimulation/" &&
+                          className={`nav-link ${currentPath ==
+                            "/treatments/peripheral-nerve-stimulation/" &&
                             "active"
-                          }`}
+                            }`}
                           rel="preload"
                         >
                           Peripheral Nerve Stimulation
@@ -5087,16 +5048,14 @@ const Navbar = () => {
                   >
                     <Link
                       href="/meet-our-team/"
-                      className={`nav-link dropdown-toggle ${
-                        currentPath == "/meet-our-team/" && "active"
-                      } ${dropdownStates.team ? "open" : ""}`}
+                      className={`nav-link dropdown-toggle ${currentPath == "/meet-our-team/" && "active"
+                        } ${dropdownStates.team ? "open" : ""}`}
                       rel="preload"
                     >
                       <span>Meet Our Team</span>
                       <span
-                        className={`mobile-dropdown-icon ${
-                          dropdownStates.team ? "open" : ""
-                        }`}
+                        className={`mobile-dropdown-icon ${dropdownStates.team ? "open" : ""
+                          }`}
                         onClick={(e) => handleMobileIconClick("team", e)}
                       >
                         ▼
@@ -5104,17 +5063,15 @@ const Navbar = () => {
                     </Link>
 
                     <ul
-                      className={`dropdown-menu ${
-                        dropdownStates.team ? "show" : ""
-                      }`}
+                      className={`dropdown-menu ${dropdownStates.team ? "show" : ""
+                        }`}
                     >
                       <li className="nav-item">
                         <Link
                           href="/meet-our-team/rao-k-ali/"
-                          className={`nav-link ${
-                            currentPath == "/meet-our-team/rao-k-ali/" &&
+                          className={`nav-link ${currentPath == "/meet-our-team/rao-k-ali/" &&
                             "active"
-                          }`}
+                            }`}
                           rel="preload"
                         >
                           Rao K. Ali MD
@@ -5123,10 +5080,9 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/meet-our-team/william-moore-md/"
-                          className={`nav-link ${
-                            currentPath == "/meet-our-team/william-moore-md/" &&
+                          className={`nav-link ${currentPath == "/meet-our-team/william-moore-md/" &&
                             "active"
-                          }`}
+                            }`}
                           rel="preload"
                         >
                           William Moore MD
@@ -5135,11 +5091,10 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/meet-our-team/dr-christopher-creighton/"
-                          className={`nav-link ${
-                            currentPath ==
-                              "/meet-our-team/dr-christopher-creighton/" &&
+                          className={`nav-link ${currentPath ==
+                            "/meet-our-team/dr-christopher-creighton/" &&
                             "active"
-                          }`}
+                            }`}
                           rel="preload"
                         >
                           Christopher P Creighton MD
@@ -5148,17 +5103,16 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/meet-our-team/dr-pollard-psychiatrist-dallas/"
-                          className={`nav-link ${
-                            currentPath ==
-                              "/meet-our-team/dr-pollard-psychiatrist-dallas/" &&
+                          className={`nav-link ${currentPath ==
+                            "/meet-our-team/dr-pollard-psychiatrist-dallas/" &&
                             "active"
-                          }`}
+                            }`}
                           rel="preload"
                         >
                           Ronnie Pollard MD
                         </Link>
                       </li>
-                      <li className="nav-item">
+                      {/* <li className="nav-item">
                         <Link
                           href="/meet-our-team/quan-dang-le-md/"
                           className={`nav-link ${
@@ -5169,14 +5123,13 @@ const Navbar = () => {
                         >
                           Dr. Quan Dang Le
                         </Link>
-                      </li>
+                      </li> */}
                       <li className="nav-item">
                         <Link
                           href="/meet-our-team/sharon-anna-shaji/"
-                          className={`nav-link ${
-                            currentPath ==
-                              "/meet-our-team/sharon-anna-shaji/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath ==
+                            "/meet-our-team/sharon-anna-shaji/" && "active"
+                            }`}
                           rel="preload"
                         >
                           Sharon Anna Shaji
@@ -5192,16 +5145,14 @@ const Navbar = () => {
                   >
                     <Link
                       href="/contact-locations/"
-                      className={`nav-link dropdown-toggle ${
-                        currentPath == "/contact-locations/" && "active"
-                      } ${dropdownStates.contact ? "open" : ""}`}
+                      className={`nav-link dropdown-toggle ${currentPath == "/contact-locations/" && "active"
+                        } ${dropdownStates.contact ? "open" : ""}`}
                       rel="preload"
                     >
                       <span>Contact & Locations</span>
                       <span
-                        className={`mobile-dropdown-icon ${
-                          dropdownStates.contact ? "open" : ""
-                        }`}
+                        className={`mobile-dropdown-icon ${dropdownStates.contact ? "open" : ""
+                          }`}
                         onClick={(e) => handleMobileIconClick("contact", e)}
                       >
                         ▼
@@ -5209,17 +5160,15 @@ const Navbar = () => {
                     </Link>
 
                     <ul
-                      className={`dropdown-menu ${
-                        dropdownStates.contact ? "show" : ""
-                      }`}
+                      className={`dropdown-menu ${dropdownStates.contact ? "show" : ""
+                        }`}
                     >
                       <li className="nav-item">
                         <Link
                           href="/contact-locations/richardson/"
-                          className={`nav-link ${
-                            currentPath == "/contact-locations/richardson/" &&
+                          className={`nav-link ${currentPath == "/contact-locations/richardson/" &&
                             "active"
-                          }`}
+                            }`}
                           rel="preload"
                         >
                           Richardson
@@ -5228,11 +5177,10 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/contact-locations/north-richland-hills/"
-                          className={`nav-link ${
-                            currentPath ==
-                              "/contact-locations/north-richland-hills/" &&
+                          className={`nav-link ${currentPath ==
+                            "/contact-locations/north-richland-hills/" &&
                             "active"
-                          }`}
+                            }`}
                           rel="preload"
                         >
                           North Richland Hills
@@ -5241,10 +5189,9 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/contact-locations/waxahachie/"
-                          className={`nav-link ${
-                            currentPath == "/contact-locations/waxahachie/" &&
+                          className={`nav-link ${currentPath == "/contact-locations/waxahachie/" &&
                             "active"
-                          }`}
+                            }`}
                           rel="preload"
                         >
                           Waxahachie
@@ -5253,10 +5200,9 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/contact-locations/fort-worth/"
-                          className={`nav-link ${
-                            currentPath == "/contact-locations/fort-worth/" &&
+                          className={`nav-link ${currentPath == "/contact-locations/fort-worth/" &&
                             "active"
-                          }`}
+                            }`}
                           rel="preload"
                         >
                           Fort Worth
@@ -5265,10 +5211,9 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/contact-locations/hillsboro/"
-                          className={`nav-link ${
-                            currentPath == "/contact-locations/hillsboro/" &&
+                          className={`nav-link ${currentPath == "/contact-locations/hillsboro/" &&
                             "active"
-                          }`}
+                            }`}
                           rel="preload"
                         >
                           Hillsboro
@@ -5277,10 +5222,9 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/contact-locations/desoto/"
-                          className={`nav-link ${
-                            currentPath == "/contact-locations/desoto/" &&
+                          className={`nav-link ${currentPath == "/contact-locations/desoto/" &&
                             "active"
-                          }`}
+                            }`}
                           rel="preload"
                         >
                           Desoto
@@ -5289,10 +5233,9 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/contact-locations/corsicana/"
-                          className={`nav-link ${
-                            currentPath == "/contact-locations/corsicana/" &&
+                          className={`nav-link ${currentPath == "/contact-locations/corsicana/" &&
                             "active"
-                          }`}
+                            }`}
                           rel="preload"
                         >
                           Corsicana
@@ -5301,10 +5244,9 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/contact-locations/decatur/"
-                          className={`nav-link ${
-                            currentPath == "/contact-locations/decatur/" &&
+                          className={`nav-link ${currentPath == "/contact-locations/decatur/" &&
                             "active"
-                          }`}
+                            }`}
                           rel="preload"
                         >
                           Decatur
@@ -5313,10 +5255,9 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/contact-locations/cleburne/"
-                          className={`nav-link ${
-                            currentPath == "/contact-locations/cleburne/" &&
+                          className={`nav-link ${currentPath == "/contact-locations/cleburne/" &&
                             "active"
-                          }`}
+                            }`}
                           rel="preload"
                         >
                           Cleburne
@@ -5325,10 +5266,9 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/contact-locations/plano/"
-                          className={`nav-link ${
-                            currentPath == "/contact-locations/plano/" &&
+                          className={`nav-link ${currentPath == "/contact-locations/plano/" &&
                             "active"
-                          }`}
+                            }`}
                           rel="preload"
                         >
                           Plano
@@ -5337,10 +5277,9 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/contact-locations/ennis/"
-                          className={`nav-link ${
-                            currentPath == "/contact-locations/ennis/" &&
+                          className={`nav-link ${currentPath == "/contact-locations/ennis/" &&
                             "active"
-                          }`}
+                            }`}
                           rel="preload"
                         >
                           Ennis
@@ -5349,10 +5288,9 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/contact-locations/mesquite/"
-                          className={`nav-link ${
-                            currentPath == "/contact-locations/mesquite/" &&
+                          className={`nav-link ${currentPath == "/contact-locations/mesquite/" &&
                             "active"
-                          }`}
+                            }`}
                           rel="preload"
                         >
                           Mesquite
@@ -5361,10 +5299,9 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/contact-locations/gun-barrel-city/"
-                          className={`nav-link ${
-                            currentPath ==
-                              "/contact-locations/gun-barrel-city/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath ==
+                            "/contact-locations/gun-barrel-city/" && "active"
+                            }`}
                           rel="preload"
                         >
                           Gun Barrel City
@@ -5373,10 +5310,9 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/contact-locations/kaufman/"
-                          className={`nav-link ${
-                            currentPath == "/contact-locations/kaufman/" &&
+                          className={`nav-link ${currentPath == "/contact-locations/kaufman/" &&
                             "active"
-                          }`}
+                            }`}
                           rel="preload"
                         >
                           Kaufman
@@ -5397,16 +5333,14 @@ const Navbar = () => {
                           e.preventDefault();
                         }
                       }}
-                      className={`nav-link dropdown-toggle ${
-                        dropdownStates.more ? "open" : ""
-                      }`}
+                      className={`nav-link dropdown-toggle ${dropdownStates.more ? "open" : ""
+                        }`}
                       rel="preload"
                     >
                       <span>More</span>
                       <span
-                        className={`mobile-dropdown-icon ${
-                          dropdownStates.more ? "open" : ""
-                        }`}
+                        className={`mobile-dropdown-icon ${dropdownStates.more ? "open" : ""
+                          }`}
                         onClick={(e) => handleMobileIconClick("more", e)}
                       >
                         ▼
@@ -5414,16 +5348,14 @@ const Navbar = () => {
                     </a>
 
                     <ul
-                      className={`dropdown-menu ${
-                        dropdownStates.more ? "show" : ""
-                      }`}
+                      className={`dropdown-menu ${dropdownStates.more ? "show" : ""
+                        }`}
                     >
                       <li className="nav-item">
                         <Link
                           href="/blog/"
-                          className={`nav-link ${
-                            currentPath == "/blog/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/blog/" && "active"
+                            }`}
                           rel="preload"
                         >
                           Blog
@@ -5432,9 +5364,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/about/"
-                          className={`nav-link ${
-                            currentPath == "/about/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/about/" && "active"
+                            }`}
                           rel="preload"
                         >
                           About Us
@@ -5443,9 +5374,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/dallas-pain-clinic/"
-                          className={`nav-link ${
-                            currentPath == "/dallas-pain-clinic/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/dallas-pain-clinic/" && "active"
+                            }`}
                           rel="preload"
                         >
                           Dallas Pain Clinic
@@ -5454,9 +5384,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/pain-doctor-in-dallas/"
-                          className={`nav-link ${
-                            currentPath == "/pain-doctor-in-dallas/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/pain-doctor-in-dallas/" && "active"
+                            }`}
                           rel="preload"
                         >
                           Pain Doctor in Dallas
@@ -5466,9 +5395,8 @@ const Navbar = () => {
                         <Link
                           href="https://res.cloudinary.com/dngmflrpx/image/upload/v1735858818/New-Patient-Paper-Work_enkokm.pdf"
                           target="_blank"
-                          className={`nav-link ${
-                            currentPath == "/faqs/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/faqs/" && "active"
+                            }`}
                           rel="preload"
                         >
                           New Patient Paper Work
@@ -5477,9 +5405,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/referring-a-patient/"
-                          className={`nav-link ${
-                            currentPath == "/referring-a-patient/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/referring-a-patient/" && "active"
+                            }`}
                           rel="preload"
                         >
                           Referring A Patient
@@ -5488,9 +5415,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/faqs/"
-                          className={`nav-link ${
-                            currentPath == "/faqs/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/faqs/" && "active"
+                            }`}
                           rel="preload"
                         >
                           FAQs
@@ -5499,9 +5425,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/news/"
-                          className={`nav-link ${
-                            currentPath == "/news/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/news/" && "active"
+                            }`}
                           rel="preload"
                         >
                           News
@@ -5510,9 +5435,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/video-testimonials/"
-                          className={`nav-link ${
-                            currentPath == "/video-testimonials/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/video-testimonials/" && "active"
+                            }`}
                           rel="preload"
                         >
                           Video Testimonials
@@ -5521,10 +5445,9 @@ const Navbar = () => {
                       <li>
                         <Link
                           href="/interventional-pain-management/"
-                          className={`nav-link ${
-                            currentPath == "/interventional-pain-management/" &&
+                          className={`nav-link ${currentPath == "/interventional-pain-management/" &&
                             "active"
-                          }`}
+                            }`}
                           rel="preload"
                         >
                           Interventional Pain Management
@@ -5533,9 +5456,8 @@ const Navbar = () => {
                       <li className="nav-item">
                         <Link
                           href="/reviews/"
-                          className={`nav-link ${
-                            currentPath == "/reviews/" && "active"
-                          }`}
+                          className={`nav-link ${currentPath == "/reviews/" && "active"
+                            }`}
                           rel="preload"
                         >
                           reviews
